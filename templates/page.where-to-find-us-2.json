@@ -187,6 +187,906 @@
         "align_text": "left",
         "divider": true
       }
+    },
+    "c4de96f8-963f-4edb-ab31-816e6756dbb6": {
+      "type": "text-columns",
+      "blocks": {
+        "df131dc2-e2bc-4b84-8291-7eb54a5b39f4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Cabana",
+            "text": "<p>1084 Post Road, Darien, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "737800c0-9e45-49de-b01c-435272699362": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Trunk Show",
+            "text": "<p>72 Garden Street, Farmington, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "18e0b256-2974-4fb0-bd9b-8b1cdc89a9d0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Mahi Gold",
+            "text": "<p>2 Main Street, Saybrook, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "613f9dbe-f4cf-4f9f-924b-46f9dd2d96ef": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>1189 Post Road, Fairfield, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "21454bc2-5563-48d7-8fc4-966be53ce1f8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Ella, Where She Shops",
+            "text": "<p>90 Broad Street, Guilford, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "0c69f7d0-d8fe-4740-af5a-14644174d4fe": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>72 Old Ridgefield Road, Wilton, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "df131dc2-e2bc-4b84-8291-7eb54a5b39f4",
+        "737800c0-9e45-49de-b01c-435272699362",
+        "18e0b256-2974-4fb0-bd9b-8b1cdc89a9d0",
+        "613f9dbe-f4cf-4f9f-924b-46f9dd2d96ef",
+        "21454bc2-5563-48d7-8fc4-966be53ce1f8",
+        "0c69f7d0-d8fe-4740-af5a-14644174d4fe"
+      ],
+      "settings": {
+        "title": "Illinois",
+        "align_text": "left",
+        "divider": true
+      }
+    },
+    "d976aff8-5daa-4266-9f37-b3982781f6b1": {
+      "type": "text-columns",
+      "blocks": {
+        "f6923081-93c0-4a4d-bfce-58fc0398ae03": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Cabana",
+            "text": "<p>1084 Post Road, Darien, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "5175c8df-3d30-472f-b73c-7038c2d46609": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Trunk Show",
+            "text": "<p>72 Garden Street, Farmington, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "2dd6bf1b-cba6-44f7-ba8d-bd252f1a913c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Mahi Gold",
+            "text": "<p>2 Main Street, Saybrook, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "2c8dd836-d5ae-4b50-9b0e-942c68b27dd6": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>1189 Post Road, Fairfield, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "b9a6d5e3-0444-4761-b69a-722a0de7324d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Ella, Where She Shops",
+            "text": "<p>90 Broad Street, Guilford, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "5f6b3ba0-54d0-4062-9ead-cb369fa3eb39": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>72 Old Ridgefield Road, Wilton, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "f6923081-93c0-4a4d-bfce-58fc0398ae03",
+        "5175c8df-3d30-472f-b73c-7038c2d46609",
+        "2dd6bf1b-cba6-44f7-ba8d-bd252f1a913c",
+        "2c8dd836-d5ae-4b50-9b0e-942c68b27dd6",
+        "b9a6d5e3-0444-4761-b69a-722a0de7324d",
+        "5f6b3ba0-54d0-4062-9ead-cb369fa3eb39"
+      ],
+      "settings": {
+        "title": "Maine",
+        "align_text": "left",
+        "divider": true
+      }
+    },
+    "17c10a59-16f1-4137-bc3a-36ee06cdc8f9": {
+      "type": "text-columns",
+      "blocks": {
+        "6fb6f349-9a18-45df-8477-4458610373df": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Cabana",
+            "text": "<p>1084 Post Road, Darien, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "0d1ee983-6d9c-4adb-acb5-c3b7daf10c4c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Trunk Show",
+            "text": "<p>72 Garden Street, Farmington, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1f083a41-90a5-4863-881a-2608e081c0ee": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Mahi Gold",
+            "text": "<p>2 Main Street, Saybrook, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "58f007d2-1899-47d2-81a7-d60d9ec994c4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>1189 Post Road, Fairfield, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "ad95e9de-5899-4062-9725-95fa7cdd2ecd": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Ella, Where She Shops",
+            "text": "<p>90 Broad Street, Guilford, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1cdd4591-a555-452d-929c-e2a658c9793b": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>72 Old Ridgefield Road, Wilton, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "6fb6f349-9a18-45df-8477-4458610373df",
+        "0d1ee983-6d9c-4adb-acb5-c3b7daf10c4c",
+        "1f083a41-90a5-4863-881a-2608e081c0ee",
+        "58f007d2-1899-47d2-81a7-d60d9ec994c4",
+        "ad95e9de-5899-4062-9725-95fa7cdd2ecd",
+        "1cdd4591-a555-452d-929c-e2a658c9793b"
+      ],
+      "settings": {
+        "title": "Maryland",
+        "align_text": "left",
+        "divider": true
+      }
+    },
+    "d6162ded-79b4-47aa-97ed-34a26dfd3eba": {
+      "type": "text-columns",
+      "blocks": {
+        "0c7c32fe-d1a9-4f01-91f1-54c348bd8f8f": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Cabana",
+            "text": "<p>1084 Post Road, Darien, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "2d9fd8c1-c03a-48a3-bb12-409fe7c3a046": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Trunk Show",
+            "text": "<p>72 Garden Street, Farmington, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1a187ebc-5981-4ef6-9275-adfc26c4ebc5": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Mahi Gold",
+            "text": "<p>2 Main Street, Saybrook, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "e67479e0-20d1-4adf-97ff-5b6e311119a3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>1189 Post Road, Fairfield, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "640ed268-4558-478e-9b4e-347c25f93987": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Ella, Where She Shops",
+            "text": "<p>90 Broad Street, Guilford, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "460941cd-d276-4e86-9051-0344b19522c6": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>72 Old Ridgefield Road, Wilton, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "0c7c32fe-d1a9-4f01-91f1-54c348bd8f8f",
+        "2d9fd8c1-c03a-48a3-bb12-409fe7c3a046",
+        "1a187ebc-5981-4ef6-9275-adfc26c4ebc5",
+        "e67479e0-20d1-4adf-97ff-5b6e311119a3",
+        "640ed268-4558-478e-9b4e-347c25f93987",
+        "460941cd-d276-4e86-9051-0344b19522c6"
+      ],
+      "settings": {
+        "title": "Massachusetts",
+        "align_text": "left",
+        "divider": true
+      }
+    },
+    "bcbd9bde-5db4-4f42-b931-44547ed81ac3": {
+      "type": "text-columns",
+      "blocks": {
+        "b40e9b15-43d4-4e40-8eac-97f42aaa4984": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Cabana",
+            "text": "<p>1084 Post Road, Darien, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "3a6e6bbf-26a5-4143-968f-bcf7055691b2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Trunk Show",
+            "text": "<p>72 Garden Street, Farmington, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "0c94cc2a-715a-4134-8d74-5b616f70d4ed": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Mahi Gold",
+            "text": "<p>2 Main Street, Saybrook, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "3e2249db-e5a9-4be7-9d71-b84403bd0114": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>1189 Post Road, Fairfield, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "91ed1489-6e56-406a-8241-6e926be4e0fb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Ella, Where She Shops",
+            "text": "<p>90 Broad Street, Guilford, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "9cd48897-858c-42e4-974a-d37a0421454d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>72 Old Ridgefield Road, Wilton, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b40e9b15-43d4-4e40-8eac-97f42aaa4984",
+        "3a6e6bbf-26a5-4143-968f-bcf7055691b2",
+        "0c94cc2a-715a-4134-8d74-5b616f70d4ed",
+        "3e2249db-e5a9-4be7-9d71-b84403bd0114",
+        "91ed1489-6e56-406a-8241-6e926be4e0fb",
+        "9cd48897-858c-42e4-974a-d37a0421454d"
+      ],
+      "settings": {
+        "title": "Montana",
+        "align_text": "left",
+        "divider": true
+      }
+    },
+    "dc6faf5d-1d8f-44e4-8f53-2ca33dbb5ec1": {
+      "type": "text-columns",
+      "blocks": {
+        "f39c3a30-1ec0-4fae-ace6-cb00d2c4a4ee": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Cabana",
+            "text": "<p>1084 Post Road, Darien, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "cc51b223-e552-4d11-92ec-c8bcb9e70cf0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Trunk Show",
+            "text": "<p>72 Garden Street, Farmington, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "e2fba160-a5b6-4ae3-9263-61fb4fb4ec83": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Mahi Gold",
+            "text": "<p>2 Main Street, Saybrook, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "ee091b32-f51c-4296-ba51-489d3a6f6415": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>1189 Post Road, Fairfield, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "e5f1a248-11f8-4551-9675-1e064dd6cc56": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Ella, Where She Shops",
+            "text": "<p>90 Broad Street, Guilford, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "38203554-f57e-41cf-a3fa-d2e926590282": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>72 Old Ridgefield Road, Wilton, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "f39c3a30-1ec0-4fae-ace6-cb00d2c4a4ee",
+        "cc51b223-e552-4d11-92ec-c8bcb9e70cf0",
+        "e2fba160-a5b6-4ae3-9263-61fb4fb4ec83",
+        "ee091b32-f51c-4296-ba51-489d3a6f6415",
+        "e5f1a248-11f8-4551-9675-1e064dd6cc56",
+        "38203554-f57e-41cf-a3fa-d2e926590282"
+      ],
+      "settings": {
+        "title": "New York",
+        "align_text": "left",
+        "divider": true
+      }
+    },
+    "35879af4-3d04-4217-a536-6a3b0356d869": {
+      "type": "text-columns",
+      "blocks": {
+        "ca6943de-dd01-48f2-b160-1f88f24813a0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Cabana",
+            "text": "<p>1084 Post Road, Darien, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "ec0e1287-4b7a-4f02-a345-9b44708548f9": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Trunk Show",
+            "text": "<p>72 Garden Street, Farmington, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "b3be7de5-ec97-4214-ae64-28d9b133490d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Mahi Gold",
+            "text": "<p>2 Main Street, Saybrook, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "3ca91a75-342b-4f39-aeed-01a4f83f36e6": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>1189 Post Road, Fairfield, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "6ec57a8a-f9d5-4db1-a96b-53af441f31bc": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Ella, Where She Shops",
+            "text": "<p>90 Broad Street, Guilford, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "330b4ded-d64b-47a2-a523-95da249f5f93": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>72 Old Ridgefield Road, Wilton, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "ca6943de-dd01-48f2-b160-1f88f24813a0",
+        "ec0e1287-4b7a-4f02-a345-9b44708548f9",
+        "b3be7de5-ec97-4214-ae64-28d9b133490d",
+        "3ca91a75-342b-4f39-aeed-01a4f83f36e6",
+        "6ec57a8a-f9d5-4db1-a96b-53af441f31bc",
+        "330b4ded-d64b-47a2-a523-95da249f5f93"
+      ],
+      "settings": {
+        "title": "Ohio",
+        "align_text": "left",
+        "divider": true
+      }
+    },
+    "1068a5e8-5ed4-4fa9-8b87-49a72d2508e9": {
+      "type": "text-columns",
+      "blocks": {
+        "e9bbdf40-18ce-433b-88b9-a42c55eb67b4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Cabana",
+            "text": "<p>1084 Post Road, Darien, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "96a8b994-86a6-4afe-8bc9-5fd28154014f": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Trunk Show",
+            "text": "<p>72 Garden Street, Farmington, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "52977732-dbc1-4088-bc04-b3227cf4e0e5": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Mahi Gold",
+            "text": "<p>2 Main Street, Saybrook, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "5653ae71-c324-4474-8e6d-716f465eac97": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>1189 Post Road, Fairfield, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "f810fbb5-0253-4ad9-bc24-e63a2fc073b2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Ella, Where She Shops",
+            "text": "<p>90 Broad Street, Guilford, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "dc53f731-f73d-4b0b-b6f5-39a19d8defab": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>72 Old Ridgefield Road, Wilton, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "e9bbdf40-18ce-433b-88b9-a42c55eb67b4",
+        "96a8b994-86a6-4afe-8bc9-5fd28154014f",
+        "52977732-dbc1-4088-bc04-b3227cf4e0e5",
+        "5653ae71-c324-4474-8e6d-716f465eac97",
+        "f810fbb5-0253-4ad9-bc24-e63a2fc073b2",
+        "dc53f731-f73d-4b0b-b6f5-39a19d8defab"
+      ],
+      "settings": {
+        "title": "Pennsylvania",
+        "align_text": "left",
+        "divider": true
+      }
+    },
+    "1b2a75b3-3dd2-40f4-a05c-cf3e68a5c06d": {
+      "type": "text-columns",
+      "blocks": {
+        "075c79f3-2616-478b-8245-7d401a8cc728": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Cabana",
+            "text": "<p>1084 Post Road, Darien, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "173a4bb4-8313-4a02-b97b-16a9d7a7c9a5": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Trunk Show",
+            "text": "<p>72 Garden Street, Farmington, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "e216d5a4-768b-4ee1-b7ab-daced2d3d97f": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Mahi Gold",
+            "text": "<p>2 Main Street, Saybrook, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "12cec204-2b6d-4ab1-90e7-73c49959753b": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>1189 Post Road, Fairfield, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "0b85e841-7744-44d1-9b91-cd42a7b7c06a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Ella, Where She Shops",
+            "text": "<p>90 Broad Street, Guilford, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "b772fd07-b096-4194-850d-7d5cd62485e5": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>72 Old Ridgefield Road, Wilton, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "075c79f3-2616-478b-8245-7d401a8cc728",
+        "173a4bb4-8313-4a02-b97b-16a9d7a7c9a5",
+        "e216d5a4-768b-4ee1-b7ab-daced2d3d97f",
+        "12cec204-2b6d-4ab1-90e7-73c49959753b",
+        "0b85e841-7744-44d1-9b91-cd42a7b7c06a",
+        "b772fd07-b096-4194-850d-7d5cd62485e5"
+      ],
+      "settings": {
+        "title": "Pennsylvania",
+        "align_text": "left",
+        "divider": true
+      }
+    },
+    "029f10c9-07e3-4757-8ae4-a21f25d9977b": {
+      "type": "text-columns",
+      "blocks": {
+        "a06424d7-fc54-4d1e-991f-c4f27b214f70": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Cabana",
+            "text": "<p>1084 Post Road, Darien, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "d93e9045-c0d4-4043-b178-f36f2627e4fc": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Trunk Show",
+            "text": "<p>72 Garden Street, Farmington, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "8d5bd4f3-8ae1-48e5-9a7a-e3f73429cc01": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Mahi Gold",
+            "text": "<p>2 Main Street, Saybrook, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "9f02ad1d-89a6-4275-9670-50e350bb240c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>1189 Post Road, Fairfield, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "02e3c792-ee35-4dd1-92d3-6ae2046ca9f8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Ella, Where She Shops",
+            "text": "<p>90 Broad Street, Guilford, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "88937745-bef5-4cfb-b5d5-02b4e4f240d7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>72 Old Ridgefield Road, Wilton, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "a06424d7-fc54-4d1e-991f-c4f27b214f70",
+        "d93e9045-c0d4-4043-b178-f36f2627e4fc",
+        "8d5bd4f3-8ae1-48e5-9a7a-e3f73429cc01",
+        "9f02ad1d-89a6-4275-9670-50e350bb240c",
+        "02e3c792-ee35-4dd1-92d3-6ae2046ca9f8",
+        "88937745-bef5-4cfb-b5d5-02b4e4f240d7"
+      ],
+      "settings": {
+        "title": "Virginia",
+        "align_text": "left",
+        "divider": true
+      }
     }
   },
   "order": [
@@ -195,6 +1095,16 @@
     "211b1ca9-d3de-4d42-b0d1-90bc4b9ca4fe",
     "c8a72bb7-4915-4ed7-ba64-198e8079eb61",
     "a69fd163-00cb-4c3f-b058-6f787e92ddcc",
-    "5dee744c-bf51-4b21-b38f-c17a935a8da7"
+    "5dee744c-bf51-4b21-b38f-c17a935a8da7",
+    "c4de96f8-963f-4edb-ab31-816e6756dbb6",
+    "d976aff8-5daa-4266-9f37-b3982781f6b1",
+    "17c10a59-16f1-4137-bc3a-36ee06cdc8f9",
+    "d6162ded-79b4-47aa-97ed-34a26dfd3eba",
+    "bcbd9bde-5db4-4f42-b931-44547ed81ac3",
+    "dc6faf5d-1d8f-44e4-8f53-2ca33dbb5ec1",
+    "35879af4-3d04-4217-a536-6a3b0356d869",
+    "1068a5e8-5ed4-4fa9-8b87-49a72d2508e9",
+    "1b2a75b3-3dd2-40f4-a05c-cf3e68a5c06d",
+    "029f10c9-07e3-4757-8ae4-a21f25d9977b"
   ]
 }

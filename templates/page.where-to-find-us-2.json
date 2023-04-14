@@ -2,11 +2,69 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "2f6a095d-856d-49d2-a1b6-439a5b00244c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14916873748522__2f6a095d-856d-49d2-a1b6-439a5b00244c-1681492553a288e12b-0": {
+          "type": "heading",
+          "settings": {
+            "title": "{{ page.title }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--14916873748522__2f6a095d-856d-49d2-a1b6-439a5b00244c-1681492553a288e12b-0"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "211b1ca9-d3de-4d42-b0d1-90bc4b9ca4fe": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14916873748522__211b1ca9-d3de-4d42-b0d1-90bc4b9ca4fe-1681493300dcbc6bb1-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Slider_ff16db10-f6d7-4ebd-a935-1a16d730457c.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_8c6e76ae-ec0e-4352-85f9-f55e7737cd85.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--14916873748522__211b1ca9-d3de-4d42-b0d1-90bc4b9ca4fe-1681493300dcbc6bb1-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": true
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "2f6a095d-856d-49d2-a1b6-439a5b00244c",
+    "211b1ca9-d3de-4d42-b0d1-90bc4b9ca4fe"
   ]
 }

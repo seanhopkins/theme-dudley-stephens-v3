@@ -102,11 +102,12 @@
     "7b00adac-00b2-4aad-bee5-c7b1ff832677": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephensxMestiza-JDP_4167_1.jpg",
+        "image": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-doublevello3503.jpg",
         "image_mask": "none",
+        "image2": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-doublevello3502.jpg",
         "image2_mask": "none",
         "subtitle": "",
-        "title": "WHAT WE STAND FOR",
+        "title": "Double Layer Vello Fleece",
         "text": "<p>As a female-founded, family-owned brand, we take pride in retailing responsibly. Our pieces are sold direct-to-consumer and through select storefronts. We work to promote positive change through initiatives authentic to our brand.<\/p>",
         "button_label": "",
         "button_link": "",
@@ -123,8 +124,9 @@
     "38e5439e-964d-485a-b83b-305e3ad922cb": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephens-JDP_4274.jpg",
+        "image": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-sherpa3550.jpg",
         "image_mask": "portrait",
+        "image2": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-sherpa3553.jpg",
         "image2_mask": "portrait",
         "subtitle": "",
         "title": "Where we are made",

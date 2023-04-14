@@ -144,8 +144,8 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "text": "<p>1189 Post Road, Fairfield, CT<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -155,9 +155,9 @@
             "enable_image": false,
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "title": "Ella, Where She Shops",
+            "text": "<p>90 Broad Street, Guilford, CT<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -168,8 +168,8 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "text": "<p>72 Old Ridgefield Road, Wilton, CT<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -184,8 +184,8 @@
       ],
       "settings": {
         "title": "Connecticut",
-        "align_text": "center",
-        "divider": false
+        "align_text": "left",
+        "divider": true
       }
     }
   },

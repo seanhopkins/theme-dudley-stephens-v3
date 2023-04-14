@@ -296,8 +296,8 @@
             "enable_image": false,
             "image_mask": "none",
             "image_width": 650,
-            "title": "The Cabana",
-            "text": "<p>1084 Post Road, Darien, CT<\/p>",
+            "title": "The Lake Forest Shop",
+            "text": "<p>265 Market Square Court, Lake Forest, IL<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -308,56 +308,8 @@
             "enable_image": false,
             "image_mask": "none",
             "image_width": 650,
-            "title": "The Trunk Show",
-            "text": "<p>72 Garden Street, Farmington, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "18e0b256-2974-4fb0-bd9b-8b1cdc89a9d0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Mahi Gold",
-            "text": "<p>2 Main Street, Saybrook, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "613f9dbe-f4cf-4f9f-924b-46f9dd2d96ef": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>1189 Post Road, Fairfield, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "21454bc2-5563-48d7-8fc4-966be53ce1f8": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Ella, Where She Shops",
-            "text": "<p>90 Broad Street, Guilford, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "0c69f7d0-d8fe-4740-af5a-14644174d4fe": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>72 Old Ridgefield Road, Wilton, CT<\/p>",
+            "title": "Salt Fitness Northshore",
+            "text": "<p>410 Green Bay Road, Kenilworth, IL<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -365,11 +317,7 @@
       },
       "block_order": [
         "df131dc2-e2bc-4b84-8291-7eb54a5b39f4",
-        "737800c0-9e45-49de-b01c-435272699362",
-        "18e0b256-2974-4fb0-bd9b-8b1cdc89a9d0",
-        "613f9dbe-f4cf-4f9f-924b-46f9dd2d96ef",
-        "21454bc2-5563-48d7-8fc4-966be53ce1f8",
-        "0c69f7d0-d8fe-4740-af5a-14644174d4fe"
+        "737800c0-9e45-49de-b01c-435272699362"
       ],
       "settings": {
         "title": "Illinois",

@@ -391,14 +391,26 @@
     "d6162ded-79b4-47aa-97ed-34a26dfd3eba": {
       "type": "text-columns",
       "blocks": {
+        "1a187ebc-5981-4ef6-9275-adfc26c4ebc5": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Mahi Gold",
+            "text": "<p>465 Main Street, Chatham, MA<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "0c7c32fe-d1a9-4f01-91f1-54c348bd8f8f": {
           "type": "text_block",
           "settings": {
             "enable_image": false,
             "image_mask": "none",
             "image_width": 650,
-            "title": "The Cabana",
-            "text": "<p>1084 Post Road, Darien, CT<\/p>",
+            "title": "Mahi Gold",
+            "text": "<p>51 South Street, Hingham, MA<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -409,20 +421,8 @@
             "enable_image": false,
             "image_mask": "none",
             "image_width": 650,
-            "title": "The Trunk Show",
-            "text": "<p>72 Garden Street, Farmington, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "1a187ebc-5981-4ef6-9275-adfc26c4ebc5": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Mahi Gold",
-            "text": "<p>2 Main Street, Saybrook, CT<\/p>",
+            "title": "Murray’s Toggery Shop",
+            "text": "<p>62 Main Street, Nantucket, MA<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -433,44 +433,18 @@
             "enable_image": false,
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>1189 Post Road, Fairfield, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "640ed268-4558-478e-9b4e-347c25f93987": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Ella, Where She Shops",
-            "text": "<p>90 Broad Street, Guilford, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "460941cd-d276-4e86-9051-0344b19522c6": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>72 Old Ridgefield Road, Wilton, CT<\/p>",
+            "title": "Whitney + Winston",
+            "text": "<p>113 Charles Street, Boston, MA<\/p>",
             "button_label": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
+        "1a187ebc-5981-4ef6-9275-adfc26c4ebc5",
         "0c7c32fe-d1a9-4f01-91f1-54c348bd8f8f",
         "2d9fd8c1-c03a-48a3-bb12-409fe7c3a046",
-        "1a187ebc-5981-4ef6-9275-adfc26c4ebc5",
-        "e67479e0-20d1-4adf-97ff-5b6e311119a3",
-        "640ed268-4558-478e-9b4e-347c25f93987",
-        "460941cd-d276-4e86-9051-0344b19522c6"
+        "e67479e0-20d1-4adf-97ff-5b6e311119a3"
       ],
       "settings": {
         "title": "Massachusetts",

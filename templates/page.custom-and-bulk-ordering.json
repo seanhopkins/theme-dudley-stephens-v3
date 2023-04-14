@@ -64,6 +64,7 @@
     "c4153ab3-3092-40cc-83ab-1556909fed0c": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/PARK_SLOPE_TERRY_HEATHER_GREY_EMBROIDERED_443.jpg",
         "image_mask": "none",
         "image2_mask": "none",
         "subtitle": "Step 2",

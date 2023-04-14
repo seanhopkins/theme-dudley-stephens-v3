@@ -364,10 +364,23 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "4f0c1f56-ced7-4a16-9cdf-9863f5c028cc": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Becket Hitch",
+            "text": "<p>2360 W Joppa Road #107, Lutherville, Maryland<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "6fb6f349-9a18-45df-8477-4458610373df"
+        "6fb6f349-9a18-45df-8477-4458610373df",
+        "4f0c1f56-ced7-4a16-9cdf-9863f5c028cc"
       ],
       "settings": {
         "title": "Maryland",

@@ -60,11 +60,32 @@
         "bottom_padding": true,
         "lazyload_images": true
       }
+    },
+    "c4153ab3-3092-40cc-83ab-1556909fed0c": {
+      "type": "text-and-image",
+      "settings": {
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Step 2",
+        "title": "Hang Tight",
+        "text": "<p>We'll get back to you with pricing and order timeline info.<br\/><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
     "main",
     "ebaf6f14-0401-40df-9285-11231985f449",
-    "00494472-03b1-4918-ad71-eece68f79120"
+    "00494472-03b1-4918-ad71-eece68f79120",
+    "c4153ab3-3092-40cc-83ab-1556909fed0c"
   ]
 }

@@ -242,7 +242,7 @@
             "enable_image": false,
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
+            "title": "Island Outfitters",
             "text": "<p>1189 Post Road, Fairfield, CT<\/p>",
             "button_label": "",
             "button_link": ""
@@ -266,7 +266,7 @@
             "enable_image": false,
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
+            "title": "Signature Style",
             "text": "<p>72 Old Ridgefield Road, Wilton, CT<\/p>",
             "button_label": "",
             "button_link": ""
@@ -334,80 +334,15 @@
             "enable_image": false,
             "image_mask": "none",
             "image_width": 650,
-            "title": "The Cabana",
-            "text": "<p>1084 Post Road, Darien, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "5175c8df-3d30-472f-b73c-7038c2d46609": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "The Trunk Show",
-            "text": "<p>72 Garden Street, Farmington, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "2dd6bf1b-cba6-44f7-ba8d-bd252f1a913c": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Mahi Gold",
-            "text": "<p>2 Main Street, Saybrook, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "2c8dd836-d5ae-4b50-9b0e-942c68b27dd6": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>1189 Post Road, Fairfield, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "b9a6d5e3-0444-4761-b69a-722a0de7324d": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Ella, Where She Shops",
-            "text": "<p>90 Broad Street, Guilford, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "5f6b3ba0-54d0-4062-9ead-cb369fa3eb39": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>72 Old Ridgefield Road, Wilton, CT<\/p>",
+            "title": "Après Sea Maine",
+            "text": "<p>2 Morning Walk Lane, Kennebunk, ME<\/p>",
             "button_label": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "f6923081-93c0-4a4d-bfce-58fc0398ae03",
-        "5175c8df-3d30-472f-b73c-7038c2d46609",
-        "2dd6bf1b-cba6-44f7-ba8d-bd252f1a913c",
-        "2c8dd836-d5ae-4b50-9b0e-942c68b27dd6",
-        "b9a6d5e3-0444-4761-b69a-722a0de7324d",
-        "5f6b3ba0-54d0-4062-9ead-cb369fa3eb39"
+        "f6923081-93c0-4a4d-bfce-58fc0398ae03"
       ],
       "settings": {
         "title": "Maine",
@@ -424,80 +359,15 @@
             "enable_image": false,
             "image_mask": "none",
             "image_width": 650,
-            "title": "The Cabana",
-            "text": "<p>1084 Post Road, Darien, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "0d1ee983-6d9c-4adb-acb5-c3b7daf10c4c": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "The Trunk Show",
-            "text": "<p>72 Garden Street, Farmington, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "1f083a41-90a5-4863-881a-2608e081c0ee": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Mahi Gold",
-            "text": "<p>2 Main Street, Saybrook, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "58f007d2-1899-47d2-81a7-d60d9ec994c4": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>1189 Post Road, Fairfield, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "ad95e9de-5899-4062-9725-95fa7cdd2ecd": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Ella, Where She Shops",
-            "text": "<p>90 Broad Street, Guilford, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "1cdd4591-a555-452d-929c-e2a658c9793b": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>72 Old Ridgefield Road, Wilton, CT<\/p>",
+            "title": "Monkee’s",
+            "text": "<p>5909 Coastal Highway #4, Ocean City, MD<\/p>",
             "button_label": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "6fb6f349-9a18-45df-8477-4458610373df",
-        "0d1ee983-6d9c-4adb-acb5-c3b7daf10c4c",
-        "1f083a41-90a5-4863-881a-2608e081c0ee",
-        "58f007d2-1899-47d2-81a7-d60d9ec994c4",
-        "ad95e9de-5899-4062-9725-95fa7cdd2ecd",
-        "1cdd4591-a555-452d-929c-e2a658c9793b"
+        "6fb6f349-9a18-45df-8477-4458610373df"
       ],
       "settings": {
         "title": "Maryland",

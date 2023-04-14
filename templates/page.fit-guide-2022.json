@@ -4,9 +4,31 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "1ec0970c-b885-4ab9-9477-49978d43803d": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14916874403882__1ec0970c-b885-4ab9-9477-49978d43803d-16814924901b275260-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% render 'page.fit-guide-2022-s' %}",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14916874403882__1ec0970c-b885-4ab9-9477-49978d43803d-16814924901b275260-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1ec0970c-b885-4ab9-9477-49978d43803d"
   ]
 }

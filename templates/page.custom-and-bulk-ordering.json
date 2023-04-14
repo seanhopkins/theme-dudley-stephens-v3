@@ -103,6 +103,33 @@
         "bottom_padding": true,
         "lazyload_images": true
       }
+    },
+    "13a41940-e0dc-4661-80cc-abcaf4c341c8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14916927946794__13a41940-e0dc-4661-80cc-abcaf4c341c8-1681505432fc581d6b-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Some important details:"
+          }
+        },
+        "template--14916927946794__13a41940-e0dc-4661-80cc-abcaf4c341c8-1681505432fc581d6b-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<ul><li>Custom orders are by credit card only.<\/li><li>All sales of custom items are final.<\/li><li>Please allow up to 4 weeks from invoice payment to receive your order. Allow extra time for large orders and during the holiday season.<\/li><li><strong>These custom orders are not for resale. <\/strong><\/li><li><strong>For wholesale inquires please contact <\/strong><a href=\"mailto:info@dudley-stephens.com\" title=\"mailto:info@dudley-stephens.com\"><strong>info@dudley-stephens.com<\/strong><\/a><\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14916927946794__13a41940-e0dc-4661-80cc-abcaf4c341c8-1681505432fc581d6b-0",
+        "template--14916927946794__13a41940-e0dc-4661-80cc-abcaf4c341c8-1681505432fc581d6b-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -110,6 +137,7 @@
     "ebaf6f14-0401-40df-9285-11231985f449",
     "00494472-03b1-4918-ad71-eece68f79120",
     "c4153ab3-3092-40cc-83ab-1556909fed0c",
-    "47a9e522-61d9-4a51-bd58-73b6e4740f1d"
+    "47a9e522-61d9-4a51-bd58-73b6e4740f1d",
+    "13a41940-e0dc-4661-80cc-abcaf4c341c8"
   ]
 }

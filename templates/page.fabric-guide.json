@@ -143,66 +143,26 @@
         "lazyload_images": true
       }
     },
-    "2a207a4a-4b5b-4636-a2dc-ddebc3b03d2a": {
-      "type": "advanced-content",
-      "blocks": {
-        "template--14916872863786__2a207a4a-4b5b-4636-a2dc-ddebc3b03d2a-16814924901b275260-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephens-JDP_3488.jpg",
-            "link": "",
-            "width": "33%",
-            "alignment": "center"
-          }
-        },
-        "964ae9ed-d08d-42cf-9800-55be7b94b76f": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephens-JDP_3263.jpg",
-            "link": "",
-            "width": "33%",
-            "alignment": "center"
-          }
-        },
-        "22a1e90a-d991-4bda-82ed-32897ffbfb97": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephens-JDP_5489.jpg",
-            "link": "",
-            "width": "33%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--14916872863786__2a207a4a-4b5b-4636-a2dc-ddebc3b03d2a-16814924901b275260-0",
-        "964ae9ed-d08d-42cf-9800-55be7b94b76f",
-        "22a1e90a-d991-4bda-82ed-32897ffbfb97"
-      ],
+    "86e95469-8f3c-4a5f-bb33-a678ba38a91d": {
+      "type": "text-and-image",
       "settings": {
-        "full_width": true,
-        "space_around": true,
+        "image": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-sherpa3550.jpg",
+        "image_mask": "portrait",
+        "image2": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-sherpa3553.jpg",
+        "image2_mask": "portrait",
+        "subtitle": "",
+        "title": "Sherpa Fleece",
+        "text": "<p>This innovative recycled fabric is all about luxe texture. Polartec® calls it Power Air,™ since it catches air to keep in warmth while keeping microfiber shedding to a minimum (read: high-fashion, low eco-impact). With a jersey-sheen finish in a medium weight, it’s a woven waffle that checks all our boxes for elevated four-season wear.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
         "lazyload_images": true
-      }
-    },
-    "cb733efa-701b-4e53-ba56-082d209a1180": {
-      "type": "rich-text",
-      "blocks": {
-        "template--14916872863786__cb733efa-701b-4e53-ba56-082d209a1180-1681492553a288e12b-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p><strong>Environmental Stewardship.<\/strong><br\/>We source recycled fabrics that keep harmful plastics out of landfills and oceans, and calibrate production to reduce waste.<br\/><br\/><strong>Female Entrepreneurship.<\/strong><br\/>We support other female-founded companies through collaboration and promotion.<br\/><br\/><strong>Diversity in Fashion.<\/strong><br\/>We intentionally strive toward an inclusive community of customers and partners, prioritizing diversity in advertising and marketing.<\/p><p><strong>Brand Philanthropy. <br\/><\/strong>Through #dsgives we provide financial and in-kind support via partnerships with St. Jude Children’s Research Hospital[®].<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14916872863786__cb733efa-701b-4e53-ba56-082d209a1180-1681492553a288e12b-1"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
       }
     }
   },
@@ -214,7 +174,6 @@
     "6d8ba875-0cf8-47e0-9521-67e17967124a",
     "7b00adac-00b2-4aad-bee5-c7b1ff832677",
     "38e5439e-964d-485a-b83b-305e3ad922cb",
-    "2a207a4a-4b5b-4636-a2dc-ddebc3b03d2a",
-    "cb733efa-701b-4e53-ba56-082d209a1180"
+    "86e95469-8f3c-4a5f-bb33-a678ba38a91d"
   ]
 }

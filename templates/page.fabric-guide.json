@@ -36,12 +36,13 @@
     "52683eff-e658-4591-b0fa-8734621ab3c9": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephens-JDP_5078.jpg",
+        "image": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-vello3472.jpg",
         "image_mask": "none",
+        "image2": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-vello3472.jpg",
         "image2_mask": "none",
         "subtitle": "",
-        "title": "FLEECE, THE STYLISH WAY",
-        "text": "<p>It starts with our flagship, the statement collar turtleneck in three tailored lengths.<\/p>",
+        "title": "Vello Fleece",
+        "text": "<p>Soft, tightly woven and warm, this fabric is most like the “traditional” fabric people associate with fleece (but ours is extra cozy!).<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",

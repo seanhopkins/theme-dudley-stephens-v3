@@ -44,17 +44,18 @@
     "00494472-03b1-4918-ad71-eece68f79120": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/DUFFIELD_PULLOVER_TERRY_NAVY_EMBROIDERED_009.jpg",
         "image_mask": "none",
         "image2_mask": "none",
-        "subtitle": "Step 1",
-        "title": "Reach out",
-        "text": "<p>Start by emailing info@dudley-stephens with the details. Please note: Our minimum order at this time is a quantity of 10. Inquire early for delivery of extra large (100+) orders. <\/p><ul><li>Name<\/li><li>Contact info<\/li><li>Desired Quantity<\/li><li>Item Style and Material<\/li><li>Logo Placement (options: Left Arm, Right Arm, Left Wrist, Back of Neck)<\/li><li>Desired Date of Delivery<\/li><\/ul>",
+        "subtitle": "",
+        "title": "",
+        "text": "<h4>1. Reach out<\/h4><p>Start by emailing info@dudley-stephens with the details. Please note: Our minimum order at this time is a quantity of 10. Inquire early for delivery of extra large (100+) orders. <\/p><ul><li>Name<\/li><li>Contact info<\/li><li>Desired Quantity<\/li><li>Item Style and Material<\/li><li>Logo Placement (options: Left Arm, Right Arm, Left Wrist, Back of Neck)<\/li><li>Desired Date of Delivery<\/li><\/ul>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
-        "layout": "right",
+        "layout": "left",
         "divider": false,
         "top_padding": true,
         "bottom_padding": true,
@@ -67,9 +68,30 @@
         "image": "shopify:\/\/shop_images\/PARK_SLOPE_TERRY_HEATHER_GREY_EMBROIDERED_443.jpg",
         "image_mask": "none",
         "image2_mask": "none",
-        "subtitle": "Step 2",
-        "title": "Hang Tight",
-        "text": "<p>We'll get back to you with pricing and order timeline info.<br\/><\/p>",
+        "subtitle": "",
+        "title": "",
+        "text": "<h4>2. Hang Tight<\/h4><p>We'll get back to you with pricing and order timeline info.<br\/><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "47a9e522-61d9-4a51-bd58-73b6e4740f1d": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PARK_SLOPE_TERRY_HEATHER_GREY_EMBROIDERED_443.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "",
+        "text": "<h4>3. Give us the go-ahead<\/h4><p>Then, we'll send you a photo of your custom sample for your approval.<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -87,6 +109,7 @@
     "main",
     "ebaf6f14-0401-40df-9285-11231985f449",
     "00494472-03b1-4918-ad71-eece68f79120",
-    "c4153ab3-3092-40cc-83ab-1556909fed0c"
+    "c4153ab3-3092-40cc-83ab-1556909fed0c",
+    "47a9e522-61d9-4a51-bd58-73b6e4740f1d"
   ]
 }

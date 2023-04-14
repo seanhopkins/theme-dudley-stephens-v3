@@ -6,56 +6,20 @@
       "settings": {
       }
     },
-    "slideshow": {
-      "type": "slideshow",
-      "blocks": {
-        "slideshow-0": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "Two line\ntitle slide.",
-            "title_size": 80,
-            "subheading": "And optional subtext",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Slider_24ebbf8b-337b-4ae3-87c0-84d03e1e18f5.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_a753a4d4-5ed8-4e09-9e14-03a994880abe.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "slideshow-0"
-      ],
-      "settings": {
-        "section_height": "natural",
-        "mobile_height": "auto",
-        "parallax": false,
-        "style": "bars",
-        "autoplay": true,
-        "autoplay_speed": 7,
-        "lazyload_images": true
-      }
-    },
     "rich-text": {
       "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Welcome to Dudley Stephens"
+            "title": "The DS Fabric Guide"
           }
         },
         "text": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Redefining everyday dressing with put-together closet essentials made to pair with all. Female-founded and run, with styles sourced from innovative recycled materials.<\/p>"
+            "text": "<p>With a wide range of weights and textures, there’s a Dudley Stephens recycled fabric for all seasons and occasions. Our styles have repurposed over 6 million plastic bottles (and counting).<\/p>"
           }
         }
       },
@@ -239,7 +203,6 @@
   },
   "order": [
     "main",
-    "slideshow",
     "rich-text",
     "52683eff-e658-4591-b0fa-8734621ab3c9",
     "10e7451b-d347-42b9-a10b-4eab7720d420",

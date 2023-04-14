@@ -20,8 +20,8 @@
         "199b2672-f64b-46ef-b84a-9cb8cd32b432"
       ],
       "settings": {
-        "full_width": false,
-        "space_around": true
+        "full_width": true,
+        "space_around": false
       }
     }
   },

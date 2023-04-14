@@ -4,9 +4,28 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "1681491824f3efcab3": {
+      "type": "apps",
+      "blocks": {
+        "199b2672-f64b-46ef-b84a-9cb8cd32b432": {
+          "type": "shopify:\/\/apps\/yotpo-loyalty-rewards\/blocks\/rewards-module-app-block\/2f9660df-5018-4e02-9868-ee1fb88d6ccd",
+          "settings": {
+            "instance_placeholder_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "199b2672-f64b-46ef-b84a-9cb8cd32b432"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1681491824f3efcab3"
   ]
 }

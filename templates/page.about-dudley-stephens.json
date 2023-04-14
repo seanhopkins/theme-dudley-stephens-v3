@@ -12,7 +12,20 @@
         "slideshow-0": {
           "type": "image",
           "settings": {
-            "link_text": ""
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "subheading": "And optional subtext",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Slider_24ebbf8b-337b-4ae3-87c0-84d03e1e18f5.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_a753a4d4-5ed8-4e09-9e14-03a994880abe.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
           }
         }
       },
@@ -20,6 +33,13 @@
         "slideshow-0"
       ],
       "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "lazyload_images": true
       }
     },
     "rich-text": {
@@ -28,11 +48,14 @@
         "heading": {
           "type": "heading",
           "settings": {
+            "title": "Welcome to Dudley Stephens"
           }
         },
         "text": {
           "type": "text",
           "settings": {
+            "enlarge_text": true,
+            "text": "<p>Redefining everyday dressing with put-together closet essentials made to pair with all. Female-founded and run, with styles sourced from innovative recycled materials.<\/p>"
           }
         }
       },
@@ -41,48 +64,114 @@
         "text"
       ],
       "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
       }
     },
-    "map": {
-      "type": "map",
+    "52683eff-e658-4591-b0fa-8734621ab3c9": {
+      "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephens-JDP_5078.jpg",
+        "image_mask": "portrait",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "FLEECE, THE STYLISH WAY",
+        "text": "<p>It starts with our flagship, the statement collar turtleneck in three tailored lengths.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
       }
     },
-    "text-columns": {
-      "type": "text-columns",
-      "blocks": {
-        "column1": {
-          "type": "text_block",
-          "settings": {
-          }
-        },
-        "column2": {
-          "type": "text_block",
-          "settings": {
-          }
-        },
-        "column3": {
-          "type": "text_block",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
+    "10e7451b-d347-42b9-a10b-4eab7720d420": {
+      "type": "text-and-image",
       "settings": {
+        "image_mask": "none",
+        "image2": "shopify:\/\/shop_images\/2023-01-12-dudleystephens-JDP_5456.jpg",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "OUT-THE-DOOR OUTERWEAR",
+        "text": "<p>Warm up in an instant, for every jam-packed day.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
+    "6d8ba875-0cf8-47e0-9521-67e17967124a": {
+      "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephens-JDP_4132.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "THE SEASON’S STYLE DEBUTS",
+        "text": "<p>Tops and pullovers in debut colorways for women & children.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
       }
     },
-    "form": {
-      "type": "contact-form",
+    "7b00adac-00b2-4aad-bee5-c7b1ff832677": {
+      "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephensxMestiza-JDP_4167_1.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "WHAT WE STAND FOR",
+        "text": "<p>As a female-founded, family-owned brand, we take pride in retailing responsibly. Our pieces are sold direct-to-consumer and through select storefronts. We work to promote positive change through initiatives authentic to our brand.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "38e5439e-964d-485a-b83b-305e3ad922cb": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephens-JDP_4274.jpg",
+        "image_mask": "portrait",
+        "image2_mask": "portrait",
+        "subtitle": "",
+        "title": "Where we are made",
+        "text": "<p>Our collection began with a small factory in Brooklyn, New York. As we grew, we recognized the need to scale production—which sadly became an imperative when the 2020 pandemic hit close to home with the closure of our Brooklyn factory. To continue meeting customer demand, we quickly diversified production, identifying like-minded, environmentally conscious production partners in the US and Central America, and a factory in Asia that is also female-owned.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
       }
     }
   },
@@ -90,9 +179,10 @@
     "main",
     "slideshow",
     "rich-text",
-    "text-columns",
-    "map",
-    "featured-collection",
-    "form"
+    "52683eff-e658-4591-b0fa-8734621ab3c9",
+    "10e7451b-d347-42b9-a10b-4eab7720d420",
+    "6d8ba875-0cf8-47e0-9521-67e17967124a",
+    "7b00adac-00b2-4aad-bee5-c7b1ff832677",
+    "38e5439e-964d-485a-b83b-305e3ad922cb"
   ]
 }

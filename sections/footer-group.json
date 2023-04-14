@@ -1,1 +1,110 @@
-{"type":"footer","name":"t:sections.footer-group.name","sections":{"footer-promotions":{"type":"footer-promotions","disabled":true,"blocks":{"footer-promotions-0":{"type":"promotion","settings":{"enable_image":true,"image_mask":"none","title":"Site-wide promotion","text":"<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>","button_label":"Optional button","button_link":""}},"footer-promotions-1":{"type":"promotion","settings":{"enable_image":true,"image_mask":"none","title":"Site-wide promotion","text":"<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>","button_label":"Optional button","button_link":""}},"footer-promotions-2":{"type":"promotion","settings":{"enable_image":true,"image_mask":"none","title":"Site-wide promotion","text":"<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>","button_label":"Optional button","button_link":""}}},"block_order":["footer-promotions-0","footer-promotions-1","footer-promotions-2"],"settings":{"hide_homepage":false,"image_size":"wide"}},"footer":{"type":"footer","blocks":{"footer-1":{"type":"menu","settings":{"show_footer_title":false,"menu":"footer","container_width":25}},"footer2":{"type":"newsletter","settings":{"show_footer_title":true,"title":"Sign up and save","text":"<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>","container_width":33}},"footer-0":{"type":"logo_social","settings":{"desktop_logo_height":50,"container_width":95}}},"block_order":["footer-1","footer2","footer-0"],"settings":{"show_locale_selector":true,"show_currency_selector":true,"show_currency_flags":true,"show_payment_icons":false,"show_copyright":false,"copyright_text":""}}},"order":["footer-promotions","footer"]}
+{
+  "type": "footer",
+  "name": "t:sections.footer-group.name",
+  "sections": {
+    "footer-promotions": {
+      "type": "footer-promotions",
+      "disabled": true,
+      "blocks": {
+        "footer-promotions-0": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "footer-promotions-1": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "footer-promotions-2": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "footer-promotions-0",
+        "footer-promotions-1",
+        "footer-promotions-2"
+      ],
+      "settings": {
+        "hide_homepage": false,
+        "image_size": "wide"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "dc6fd59e-333b-47db-92e1-7ba24a0ab2f6": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": false,
+            "menu": "footer-customer-service",
+            "container_width": 20
+          }
+        },
+        "footer-1": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": false,
+            "menu": "2021-footer-about",
+            "container_width": 20
+          }
+        },
+        "f664e6f9-2b2d-4c8e-938e-f130fa2269dd": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": false,
+            "menu": "footer-account-1",
+            "container_width": 20
+          }
+        },
+        "footer2": {
+          "type": "newsletter",
+          "settings": {
+            "show_footer_title": true,
+            "title": "Sign up and save",
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+            "container_width": 40
+          }
+        }
+      },
+      "block_order": [
+        "dc6fd59e-333b-47db-92e1-7ba24a0ab2f6",
+        "footer-1",
+        "f664e6f9-2b2d-4c8e-938e-f130fa2269dd",
+        "footer2"
+      ],
+      "settings": {
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "show_currency_flags": true,
+        "show_payment_icons": false,
+        "show_copyright": false,
+        "copyright_text": ""
+      }
+    }
+  },
+  "order": [
+    "footer-promotions",
+    "footer"
+  ]
+}

@@ -2,33 +2,48 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
-    "1ec0970c-b885-4ab9-9477-49978d43803d": {
-      "type": "advanced-content",
+    "30cb9ec0-0743-490d-ad88-58dc8f6ee5c1": {
+      "type": "rich-text",
       "blocks": {
-        "template--14916874403882__1ec0970c-b885-4ab9-9477-49978d43803d-16814924901b275260-1": {
-          "type": "liquid",
+        "template--14916874403882__30cb9ec0-0743-490d-ad88-58dc8f6ee5c1-1681492553a288e12b-0": {
+          "type": "heading",
           "settings": {
-            "code": "{% render 'page.fit-guide-2022-s' %}",
-            "width": "100%",
-            "alignment": "center"
+            "title": "The Dudley Stephens Fit Guide"
+          }
+        },
+        "template--14916874403882__30cb9ec0-0743-490d-ad88-58dc8f6ee5c1-1681492553a288e12b-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Welcome to our fit guide, where six women across sizes XS-XXL show you how our pieces fit. To find your best Dudley size, just click the size icons below to view our videos and see the fit guide details.<\/p>"
+          }
+        },
+        "e4b32f6b-ff48-4333-bbf1-bf8dca1662ae": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Still have questions? Our stylists are ready to help. <a href=\"https:\/\/www.dudley-stephens.com\/pages\/contact-us\" title=\"https:\/\/www.dudley-stephens.com\/pages\/contact-us\">Contact us<\/a> or sign up for our <a href=\"https:\/\/www.dudley-stephens.com\/pages\/sms\" title=\"https:\/\/www.dudley-stephens.com\/pages\/sms\">SMS<\/a> service to connect directly with a member of our customer service team. <\/p>"
           }
         }
       },
       "block_order": [
-        "template--14916874403882__1ec0970c-b885-4ab9-9477-49978d43803d-16814924901b275260-1"
+        "template--14916874403882__30cb9ec0-0743-490d-ad88-58dc8f6ee5c1-1681492553a288e12b-0",
+        "template--14916874403882__30cb9ec0-0743-490d-ad88-58dc8f6ee5c1-1681492553a288e12b-1",
+        "e4b32f6b-ff48-4333-bbf1-bf8dca1662ae"
       ],
       "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
       }
     }
   },
   "order": [
     "main",
-    "1ec0970c-b885-4ab9-9477-49978d43803d"
+    "30cb9ec0-0743-490d-ad88-58dc8f6ee5c1"
   ]
 }

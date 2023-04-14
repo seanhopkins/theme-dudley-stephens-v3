@@ -58,7 +58,7 @@
         "style": "bars",
         "autoplay": false,
         "autoplay_speed": 5,
-        "lazyload_images": true
+        "lazyload_images": false
       }
     }
   },

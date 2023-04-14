@@ -45,28 +45,131 @@
     "rich-text": {
       "type": "rich-text",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Welcome to Dudley Stephens"
-          }
-        },
         "text": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Redefining everyday dressing with put-together closet essentials made to pair with all. Female-founded and run, with styles sourced from innovative recycled materials.<\/p>"
+            "text": "<p>We’re celebrating Earth Month by taking our commitment to eco-friendliness even further, offering customers the chance to conveniently recycle well-loved Dudley Stephens products. Better yet: When you choose to recycle your #dsgoods with us, we’ll give you $25 in Pineapple Points toward your next new Dudley. A win for our planet—and your responsible style.<\/p>"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Recycle your pre-loved and worn Dudley in two easy steps:"
+          }
+        },
+        "c800faa2-f488-4560-ae2e-5dcfd699affe": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<ol><li>Checkout with DS Renew in your cart, just as you would with a regular purchase.<br\/><\/li><li>Complete a DS Renew return for a label to send it in. <\/li><\/ol><p><em>You won’t be charged for anything along the way.<\/em>  <\/p>"
           }
         }
       },
       "block_order": [
+        "text",
         "heading",
-        "text"
+        "c800faa2-f488-4560-ae2e-5dcfd699affe"
       ],
       "settings": {
         "align_text": "center",
         "narrow_column": true,
         "divider": false
+      }
+    },
+    "56eaa6cc-81d3-4b5c-853d-89c6613af4af": {
+      "type": "featured-product",
+      "blocks": {
+        "template--14916873289770__56eaa6cc-81d3-4b5c-853d-89c6613af4af-1681492831d7d6c511-0": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "aa557be3-8336-4f5b-9e0b-0152d9767c5e": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "76003783-da01-4434-91b2-28d8f6f296aa": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "We’re taking our commitment to eco-friendliness even further, offering customers the chance to conveniently recycle well-loved Dudley Stephens products. Better yet: When you choose to recycle your #dsgoods with us, we’ll give you $25 in Pineapple Points toward your next new Dudley. A win for our planet—and your responsible style. "
+          }
+        },
+        "b2c4aa21-6b3a-4ae1-b735-314280cdf730": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "checkmark",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "3bc002dc-a244-440e-a5cb-a32fec807ad7": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "d54a89bf-51d5-43a6-bdd7-a1b4290ee4be": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "template--14916873289770__56eaa6cc-81d3-4b5c-853d-89c6613af4af-1681492831d7d6c511-1": {
+          "type": "description",
+          "settings": {
+            "is_tab": true
+          }
+        },
+        "template--14916873289770__56eaa6cc-81d3-4b5c-853d-89c6613af4af-1681492831d7d6c511-2": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": false,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": false,
+            "color_swatches": false
+          }
+        },
+        "template--14916873289770__56eaa6cc-81d3-4b5c-853d-89c6613af4af-1681492831d7d6c511-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false
+          }
+        },
+        "e23e9053-576f-4593-b0a5-3978b5e59d2f": {
+          "type": "share",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--14916873289770__56eaa6cc-81d3-4b5c-853d-89c6613af4af-1681492831d7d6c511-0",
+        "aa557be3-8336-4f5b-9e0b-0152d9767c5e",
+        "76003783-da01-4434-91b2-28d8f6f296aa",
+        "b2c4aa21-6b3a-4ae1-b735-314280cdf730",
+        "3bc002dc-a244-440e-a5cb-a32fec807ad7",
+        "d54a89bf-51d5-43a6-bdd7-a1b4290ee4be",
+        "template--14916873289770__56eaa6cc-81d3-4b5c-853d-89c6613af4af-1681492831d7d6c511-1",
+        "template--14916873289770__56eaa6cc-81d3-4b5c-853d-89c6613af4af-1681492831d7d6c511-2",
+        "template--14916873289770__56eaa6cc-81d3-4b5c-853d-89c6613af4af-1681492831d7d6c511-3",
+        "e23e9053-576f-4593-b0a5-3978b5e59d2f"
+      ],
+      "settings": {
+        "featured_product": "ds-renew",
+        "divider": false,
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "small",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
       }
     },
     "52683eff-e658-4591-b0fa-8734621ab3c9": {
@@ -241,6 +344,7 @@
     "main",
     "slideshow",
     "rich-text",
+    "56eaa6cc-81d3-4b5c-853d-89c6613af4af",
     "52683eff-e658-4591-b0fa-8734621ab3c9",
     "10e7451b-d347-42b9-a10b-4eab7720d420",
     "6d8ba875-0cf8-47e0-9521-67e17967124a",

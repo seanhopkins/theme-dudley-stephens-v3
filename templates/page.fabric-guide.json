@@ -36,7 +36,7 @@
     "52683eff-e658-4591-b0fa-8734621ab3c9": {
       "type": "text-and-image",
       "custom_css": [
-        ".subheading{margin-bottom: 1em;}"
+        ".subheading {margin-bottom: 1em;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-vello3498.jpg",
@@ -167,6 +167,28 @@
         "bottom_padding": true,
         "lazyload_images": true
       }
+    },
+    "84dc4c93-fcc8-47e6-8bd1-408612cea349": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-ecojersey3543.jpg",
+        "image_mask": "portrait",
+        "image2": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-ecojersey3547.jpg",
+        "image2_mask": "portrait",
+        "subtitle": "♻",
+        "title": "Eco Stretch",
+        "text": "<p>A versatile, lightweight nylon\/lycra hybrid, layerable with a soft finish and a touch of recoverable stretch to move with you—no matter where you’re moved to take it. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -177,6 +199,7 @@
     "6d8ba875-0cf8-47e0-9521-67e17967124a",
     "7b00adac-00b2-4aad-bee5-c7b1ff832677",
     "38e5439e-964d-485a-b83b-305e3ad922cb",
-    "86e95469-8f3c-4a5f-bb33-a678ba38a91d"
+    "86e95469-8f3c-4a5f-bb33-a678ba38a91d",
+    "84dc4c93-fcc8-47e6-8bd1-408612cea349"
   ]
 }

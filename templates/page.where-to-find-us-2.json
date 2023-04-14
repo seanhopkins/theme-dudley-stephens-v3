@@ -81,12 +81,120 @@
         "bottom_padding": true,
         "lazyload_images": true
       }
+    },
+    "a69fd163-00cb-4c3f-b058-6f787e92ddcc": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "title": "Blog posts",
+        "blog": "where-to-find-us",
+        "post_limit": 12,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    },
+    "5dee744c-bf51-4b21-b38f-c17a935a8da7": {
+      "type": "text-columns",
+      "blocks": {
+        "template--14916873748522__5dee744c-bf51-4b21-b38f-c17a935a8da7-1681493702bde4a8ca-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Cabana",
+            "text": "<p>1084 Post Road, Darien, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--14916873748522__5dee744c-bf51-4b21-b38f-c17a935a8da7-1681493702bde4a8ca-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Trunk Show",
+            "text": "<p>72 Garden Street, Farmington, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--14916873748522__5dee744c-bf51-4b21-b38f-c17a935a8da7-1681493702bde4a8ca-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Mahi Gold",
+            "text": "<p>2 Main Street, Saybrook, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "5356e8ed-2ade-4479-b3ae-b533c06fdbb9": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "073a8d4f-a5c5-4836-80c0-459bc6a87a33": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "0ca57132-3317-4022-aa69-bb7c77824319": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14916873748522__5dee744c-bf51-4b21-b38f-c17a935a8da7-1681493702bde4a8ca-0",
+        "template--14916873748522__5dee744c-bf51-4b21-b38f-c17a935a8da7-1681493702bde4a8ca-1",
+        "template--14916873748522__5dee744c-bf51-4b21-b38f-c17a935a8da7-1681493702bde4a8ca-2",
+        "5356e8ed-2ade-4479-b3ae-b533c06fdbb9",
+        "073a8d4f-a5c5-4836-80c0-459bc6a87a33",
+        "0ca57132-3317-4022-aa69-bb7c77824319"
+      ],
+      "settings": {
+        "title": "Connecticut",
+        "align_text": "center",
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
     "2f6a095d-856d-49d2-a1b6-439a5b00244c",
     "211b1ca9-d3de-4d42-b0d1-90bc4b9ca4fe",
-    "c8a72bb7-4915-4ed7-ba64-198e8079eb61"
+    "c8a72bb7-4915-4ed7-ba64-198e8079eb61",
+    "a69fd163-00cb-4c3f-b058-6f787e92ddcc",
+    "5dee744c-bf51-4b21-b38f-c17a935a8da7"
   ]
 }

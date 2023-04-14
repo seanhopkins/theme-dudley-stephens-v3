@@ -461,80 +461,15 @@
             "enable_image": false,
             "image_mask": "none",
             "image_width": 650,
-            "title": "The Cabana",
-            "text": "<p>1084 Post Road, Darien, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "3a6e6bbf-26a5-4143-968f-bcf7055691b2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "The Trunk Show",
-            "text": "<p>72 Garden Street, Farmington, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "0c94cc2a-715a-4134-8d74-5b616f70d4ed": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Mahi Gold",
-            "text": "<p>2 Main Street, Saybrook, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "3e2249db-e5a9-4be7-9d71-b84403bd0114": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>1189 Post Road, Fairfield, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "91ed1489-6e56-406a-8241-6e926be4e0fb": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Ella, Where She Shops",
-            "text": "<p>90 Broad Street, Guilford, CT<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "9cd48897-858c-42e4-974a-d37a0421454d": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>72 Old Ridgefield Road, Wilton, CT<\/p>",
+            "title": "Spanish Peaks Mountain Club",
+            "text": "<p>181 Clubhouse Fork, Big Sky, MT<\/p>",
             "button_label": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "b40e9b15-43d4-4e40-8eac-97f42aaa4984",
-        "3a6e6bbf-26a5-4143-968f-bcf7055691b2",
-        "0c94cc2a-715a-4134-8d74-5b616f70d4ed",
-        "3e2249db-e5a9-4be7-9d71-b84403bd0114",
-        "91ed1489-6e56-406a-8241-6e926be4e0fb",
-        "9cd48897-858c-42e4-974a-d37a0421454d"
+        "b40e9b15-43d4-4e40-8eac-97f42aaa4984"
       ],
       "settings": {
         "title": "Montana",
@@ -551,8 +486,8 @@
             "enable_image": false,
             "image_mask": "none",
             "image_width": 650,
-            "title": "The Cabana",
-            "text": "<p>1084 Post Road, Darien, CT<\/p>",
+            "title": "Molly + Kate",
+            "text": "<p>35 Main Street, Hamburg, NY<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -563,8 +498,8 @@
             "enable_image": false,
             "image_mask": "none",
             "image_width": 650,
-            "title": "The Trunk Show",
-            "text": "<p>72 Garden Street, Farmington, CT<\/p>",
+            "title": "Gracies",
+            "text": "<p>588 Loudon Road, Latham, NY<\/p>",
             "button_label": "",
             "button_link": ""
           }

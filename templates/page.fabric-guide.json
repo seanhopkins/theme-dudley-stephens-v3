@@ -58,8 +58,9 @@
     "10e7451b-d347-42b9-a10b-4eab7720d420": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephens-JDP_5456.jpg",
+        "image": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-terry3487.jpg",
         "image_mask": "none",
+        "image2": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-terry3477.jpg",
         "image2_mask": "none",
         "subtitle": "",
         "title": "Terry Fleece",
@@ -79,12 +80,13 @@
     "6d8ba875-0cf8-47e0-9521-67e17967124a": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephens-JDP_4132.jpg",
+        "image": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-stripedfleece3515.jpg",
         "image_mask": "none",
+        "image2": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-stripedfleece3509.jpg",
         "image2_mask": "none",
         "subtitle": "",
-        "title": "THE SEASON’S STYLE DEBUTS",
-        "text": "<p>Tops and pullovers in debut colorways for women & children.<\/p>",
+        "title": "Striped Fleece",
+        "text": "<p>A recycled fabric with a feel of its own: the sink-in soft finish of our core Vello Fleece, combined with the lightweight feel of our Terry Fleece, and a bit more stretch.<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",

@@ -175,12 +175,12 @@
     "52683eff-e658-4591-b0fa-8734621ab3c9": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephens-JDP_5078.jpg",
+        "image": "shopify:\/\/shop_images\/9-19dudleystephens-parkslope_armygreen2714.jpg",
         "image_mask": "none",
         "image2_mask": "none",
         "subtitle": "",
-        "title": "FLEECE, THE STYLISH WAY",
-        "text": "<p>It starts with our flagship, the statement collar turtleneck in three tailored lengths.<\/p>",
+        "title": "What happens next?",
+        "text": "<p>Once we receive your products, materials are separated by type, then shredded and recycled into raw material. The kinds of materials we use in our products are then used as filler for products such as sports equipment, furniture and pet bedding.<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -191,6 +191,104 @@
         "top_padding": true,
         "bottom_padding": true,
         "lazyload_images": true
+      }
+    },
+    "cc465af8-9c4f-4e26-8f82-d65c698507d2": {
+      "type": "faq",
+      "blocks": {
+        "template--14916873289770__cc465af8-9c4f-4e26-8f82-d65c698507d2-16814930647819abe6-0": {
+          "type": "question",
+          "settings": {
+            "title": "How many DS products can I recycle at once?",
+            "text": "<p>As many as you can fit in a package! Just be sure to indicate the correct quantity of DS Renew products when you add them to your cart. <\/p>"
+          }
+        },
+        "template--14916873289770__cc465af8-9c4f-4e26-8f82-d65c698507d2-16814930647819abe6-1": {
+          "type": "question",
+          "settings": {
+            "title": "Can I recycle other brands’ clothing as well?",
+            "text": "<p>At this time, we’re only able to accept Dudley Stephens clothing for DS Renew.<\/p>"
+          }
+        },
+        "f59714db-b6d7-45e1-8867-779ea67fba09": {
+          "type": "question",
+          "settings": {
+            "title": "Will you continue this program after April\/Earth Month?",
+            "text": "<p>Right now we are launching DS Renew as a pilot program to celebrate Earth Month. Based on customer response and our test of the logistics of the program, we hope to offer something similar on an ongoing basis in the future.<\/p>"
+          }
+        },
+        "b40b365e-b8fb-429b-ac73-95b0eafdfca2": {
+          "type": "question",
+          "settings": {
+            "title": "What happens to the products I send in?",
+            "text": "<p>Once we receive your products, materials are separated by type, then shredded and recycled into raw material. The kinds of materials we use in our products are then used as filler for products such as sports equipment, furniture and pet bedding.<\/p>"
+          }
+        },
+        "a0ae7f1c-a314-4bb1-86c8-ac524f4dd071": {
+          "type": "question",
+          "settings": {
+            "title": "How much does it cost me to send my item(s) in?",
+            "text": "<p>Shipping costs to return your item(s) for recycling are complimentary. And we’ll even send you $25 in Pineapple Points toward your next purchase!<\/p>"
+          }
+        },
+        "a6e7914f-05ee-45af-866c-7a6efd55143b": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Yes! You can visit the DS Townhouse in Greenwich, CT during <a href=\"https:\/\/www.dudley-stephens.com\/pages\/where-to-find-us\">regular store hours<\/a> to recycle your item(s).<\/p>"
+          }
+        },
+        "f3f2d0b0-3a19-4a45-b697-69f63603b96f": {
+          "type": "question",
+          "settings": {
+            "title": "How do I use the points I receive?",
+            "text": "<p>You must have a Dudley Devoted account to apply your points to your next purchase. Membership in this loyalty program is free, and you earn rewards every time you shop. Sign up <a href=\"https:\/\/www.dudley-stephens.com\/pages\/rewards\">here<\/a>.<\/p>"
+          }
+        },
+        "e160fbd7-7f14-45de-8077-a234ae733338": {
+          "type": "question",
+          "settings": {
+            "title": "Will I receive my points as soon as my package is delivered?",
+            "text": "<p>We will send you $25 in Pineapple Points to your registered email address <span style=\"text-decoration:underline\">within 30 days<\/span> of each item’s receipt.<\/p>"
+          }
+        },
+        "a087e185-bde5-4469-b409-342d339791b5": {
+          "type": "question",
+          "settings": {
+            "title": "If I send in multiple items, is each item equivalent to 250 points or $25 off my purchase?",
+            "text": "<p>Yes, each item is equal to 250 points, or $25 off your purchase of $50+<\/p>"
+          }
+        },
+        "5dede512-9dd5-4724-806d-b00e52da6121": {
+          "type": "question",
+          "settings": {
+            "title": "I returned more than 4 items—can I redeem more than 1,000 points on my purchase?",
+            "text": "<p>At this time you can only redeem up to 1,000 points per order. Points can be redeemed in the following increments:<\/p><p>Redeem <strong>250<\/strong> Points for $25 off your purchase of $50+<\/p><p>Redeem <strong>500<\/strong> Points for $50 off your purchase of $75+<\/p><p>Redeem <strong>750<\/strong> Points for $75 off your purchase of $100+<\/p><p>Redeem <strong>1,000 <\/strong>Points for $100 off your purchase of $125+<\/p>"
+          }
+        },
+        "2717ced7-9af7-438b-8c03-02343818fe32": {
+          "type": "question",
+          "settings": {
+            "title": "Will my points expire?",
+            "text": "<p>Points Expire after 1 year of inactivity. To remain an active user, you must be <a href=\"https:\/\/support.yotpo.com\/en\/article\/loyalty-opt-in\">opted-in<\/a> to our loyalty program and performed one or more of the following actions within 1 year:<br\/><\/p><ul><li>Making a purchase<\/li><li>Receiving a perk\/reward (this includes all perks <span style=\"text-decoration:underline\">except<\/span> for earning points via the Birthday campaign)<\/li><li>Referral completion<\/li><li>Referral share<\/li><li>Redeeming points<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14916873289770__cc465af8-9c4f-4e26-8f82-d65c698507d2-16814930647819abe6-0",
+        "template--14916873289770__cc465af8-9c4f-4e26-8f82-d65c698507d2-16814930647819abe6-1",
+        "f59714db-b6d7-45e1-8867-779ea67fba09",
+        "b40b365e-b8fb-429b-ac73-95b0eafdfca2",
+        "a0ae7f1c-a314-4bb1-86c8-ac524f4dd071",
+        "a6e7914f-05ee-45af-866c-7a6efd55143b",
+        "f3f2d0b0-3a19-4a45-b697-69f63603b96f",
+        "e160fbd7-7f14-45de-8077-a234ae733338",
+        "a087e185-bde5-4469-b409-342d339791b5",
+        "5dede512-9dd5-4724-806d-b00e52da6121",
+        "2717ced7-9af7-438b-8c03-02343818fe32"
+      ],
+      "settings": {
+        "title": "FAQs"
       }
     },
     "10e7451b-d347-42b9-a10b-4eab7720d420": {
@@ -346,6 +444,7 @@
     "rich-text",
     "56eaa6cc-81d3-4b5c-853d-89c6613af4af",
     "52683eff-e658-4591-b0fa-8734621ab3c9",
+    "cc465af8-9c4f-4e26-8f82-d65c698507d2",
     "10e7451b-d347-42b9-a10b-4eab7720d420",
     "6d8ba875-0cf8-47e0-9521-67e17967124a",
     "7b00adac-00b2-4aad-bee5-c7b1ff832677",

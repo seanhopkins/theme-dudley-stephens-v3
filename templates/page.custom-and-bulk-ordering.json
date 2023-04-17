@@ -562,6 +562,100 @@
         "align_text": "center",
         "divider": false
       }
+    },
+    "ab6983a3-e5c7-49b0-bff6-77a9d101b16c": {
+      "type": "text-columns",
+      "blocks": {
+        "a2a9bac6-b67d-42cc-b170-37d31baaed29": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPBLUSH.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry Fleece in Camel<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "a4cc87f0-b95b-46f9-9b46-3557b150c6ec": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPGREY.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry Fleece in Heather Grey<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "249c450b-90ca-4f25-9d31-3e1c9c508a0d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPNavy_c227ddb7-fd0e-4668-bd0e-f1994c95248b.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry fleece in Navy<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "a2a9bac6-b67d-42cc-b170-37d31baaed29",
+        "a4cc87f0-b95b-46f9-9b46-3557b150c6ec",
+        "249c450b-90ca-4f25-9d31-3e1c9c508a0d"
+      ],
+      "settings": {
+        "title": "Kids Windabout Turtleneck",
+        "align_text": "center",
+        "divider": true
+      }
+    },
+    "8c8f0c12-b0d9-4441-9645-d295dcec29db": {
+      "type": "text-columns",
+      "blocks": {
+        "8ad86bd0-f2b1-435e-ab6d-70387477fedb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DS_KIDS_CREWNECK_TERRY_HEATHER_GREY_018.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry Fleece in Heather Grey<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "8f5a5874-660c-44f7-b227-2e3a22c0339e": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/TODDLER_CREWNECK_TERRY_NEON_PINK_178.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry Fleece in Neon Pink<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8ad86bd0-f2b1-435e-ab6d-70387477fedb",
+        "8f5a5874-660c-44f7-b227-2e3a22c0339e"
+      ],
+      "settings": {
+        "title": "Toddler Crewneck",
+        "align_text": "center",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -578,6 +672,8 @@
     "1e336e78-becf-4c3a-bbc0-92f790592a27",
     "ee1850af-b72b-41d1-abfc-a77cd2c30e86",
     "4317f6c4-b364-4c46-b815-4a1a0b1a2c9c",
-    "cb398972-22e9-4036-8161-ec9201cbf273"
+    "cb398972-22e9-4036-8161-ec9201cbf273",
+    "ab6983a3-e5c7-49b0-bff6-77a9d101b16c",
+    "8c8f0c12-b0d9-4441-9645-d295dcec29db"
   ]
 }

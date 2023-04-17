@@ -462,11 +462,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/GPBLUSH.jpg",
+            "image": "shopify:\/\/shop_images\/PERRY_STREET_PULLOVER_WAFFLE_CREAM_073.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
-            "text": "<p>Terry Fleece in Camel<\/p>",
+            "text": "<p>Terry Fleece in Cream<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -475,11 +475,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/GPGREY.jpg",
+            "image": "shopify:\/\/shop_images\/PERRY_STREET_PULLOVER_WAFFLE_HIBISCUS_068.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
-            "text": "<p>Terry Fleece in Heather Grey<\/p>",
+            "text": "<p>Terry Fleece in Hibiscus<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -488,11 +488,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/GPNavy_c227ddb7-fd0e-4668-bd0e-f1994c95248b.jpg",
+            "image": "shopify:\/\/shop_images\/PERRY_STREET_PULLOVER_WAFFLE_MEADOW_1332_1.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
-            "text": "<p>Terry fleece in Navy<\/p>",
+            "text": "<p>Waffle Jersey in Meadow<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -520,7 +520,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "",
-            "text": "<p>Terry Fleece in Camel<\/p>",
+            "text": "<p>Waffle Jersey in Camel<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -533,20 +533,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "",
-            "text": "<p>Terry Fleece in Heather Grey<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "8a6deca7-f013-4ad4-bab1-b02a1444548a": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/GPNavy_c227ddb7-fd0e-4668-bd0e-f1994c95248b.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "",
-            "text": "<p>Terry fleece in Navy<\/p>",
+            "text": "<p>Waffle Jersey in Heather Grey<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -554,8 +541,7 @@
       },
       "block_order": [
         "e6a364ba-d4cf-4a1f-9513-db39fc0131f1",
-        "ee9d412e-7c36-459f-9675-d53b4e7b10a3",
-        "8a6deca7-f013-4ad4-bab1-b02a1444548a"
+        "ee9d412e-7c36-459f-9675-d53b4e7b10a3"
       ],
       "settings": {
         "title": "",

@@ -185,33 +185,6 @@
         "divider": false
       }
     },
-    "272f0013-e536-43d9-92dc-a98efb6c7a4b": {
-      "type": "rich-text",
-      "blocks": {
-        "8480bcd4-db7f-4516-94b4-0f4058e6185b": {
-          "type": "heading",
-          "settings": {
-            "title": "The Cobble Hill Turtleneck"
-          }
-        },
-        "9f351c0e-d957-4356-8eef-02d8021a7f7f": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>In Vello Fleece<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "8480bcd4-db7f-4516-94b4-0f4058e6185b",
-        "9f351c0e-d957-4356-8eef-02d8021a7f7f"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": true
-      }
-    },
     "eec5307c-67f0-457f-8198-a7ddee5c114b": {
       "type": "text-columns",
       "blocks": {
@@ -219,11 +192,12 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPBLUSH.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "title": "",
+            "text": "<p>Terry Fleece in Camel<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -231,11 +205,12 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPGREY.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "title": "",
+            "text": "<p>Terry Fleece in Heather Grey<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -243,11 +218,12 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPNavy_c227ddb7-fd0e-4668-bd0e-f1994c95248b.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "title": "",
+            "text": "<p>Terry fleece in Navy<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -262,6 +238,60 @@
         "align_text": "center",
         "divider": false
       }
+    },
+    "e347c2c5-39c4-4f8b-a586-2ece4ee88ff5": {
+      "type": "text-columns",
+      "blocks": {
+        "f29d88ab-ba9e-4525-a04d-e7ec22a2c246": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPBLUSH.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry Fleece in Camel<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "f2085447-f72e-4a11-bae8-2db552540fac": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPGREY.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry Fleece in Heather Grey<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "73d63b6b-5fdc-4773-89ca-4e023003e12d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPNavy_c227ddb7-fd0e-4668-bd0e-f1994c95248b.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry fleece in Navy<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "f29d88ab-ba9e-4525-a04d-e7ec22a2c246",
+        "f2085447-f72e-4a11-bae8-2db552540fac",
+        "73d63b6b-5fdc-4773-89ca-4e023003e12d"
+      ],
+      "settings": {
+        "title": "The Greenpoint Turtleneck",
+        "align_text": "center",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -272,7 +302,7 @@
     "47a9e522-61d9-4a51-bd58-73b6e4740f1d",
     "13a41940-e0dc-4661-80cc-abcaf4c341c8",
     "f322ae15-22e7-4410-bfbf-a9436d641d88",
-    "272f0013-e536-43d9-92dc-a98efb6c7a4b",
-    "eec5307c-67f0-457f-8198-a7ddee5c114b"
+    "eec5307c-67f0-457f-8198-a7ddee5c114b",
+    "e347c2c5-39c4-4f8b-a586-2ece4ee88ff5"
   ]
 }

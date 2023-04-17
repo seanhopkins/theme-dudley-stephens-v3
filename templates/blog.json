@@ -70,6 +70,9 @@
     },
     "main": {
       "type": "blog-template",
+      "custom_css": [
+        "h1 {display: none;}"
+      ],
       "settings": {
         "blog_show_tag_filter": false,
         "blog_show_rss": false,

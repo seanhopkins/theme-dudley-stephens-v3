@@ -572,16 +572,30 @@
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/KIDS_WINDABOUT_TERRY_NEON_PINK_040.jpg",
             "image_mask": "none",
-            "image_width": 350,
+            "image_width": 650,
             "title": "",
             "text": "<p>Terry Fleece in Neon Pink<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "d3ca4600-956d-4ac3-ad56-1877ff31c856": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/KIDS_WINDABOUT_PULLOVER_VELLO_STEEL_GRAY_600.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Vello Fleece in Steel Grey<\/p>",
             "button_label": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "a2a9bac6-b67d-42cc-b170-37d31baaed29"
+        "a2a9bac6-b67d-42cc-b170-37d31baaed29",
+        "d3ca4600-956d-4ac3-ad56-1877ff31c856"
       ],
       "settings": {
         "title": "Kids Windabout Turtleneck",

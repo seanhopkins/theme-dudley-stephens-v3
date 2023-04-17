@@ -451,6 +451,9 @@
         "fccaf99e-7cfa-4fba-a57c-452dbe6514a3",
         "640e8af4-21f8-4aff-ab89-c049cc96f870"
       ],
+      "custom_css": [
+        ".grid--uniform {text-align: center;}"
+      ],
       "settings": {
         "title": "",
         "align_text": "center",

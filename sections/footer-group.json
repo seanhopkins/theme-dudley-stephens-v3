@@ -97,8 +97,8 @@
         "show_locale_selector": true,
         "show_currency_selector": true,
         "show_currency_flags": true,
-        "show_payment_icons": false,
-        "show_copyright": false,
+        "show_payment_icons": true,
+        "show_copyright": true,
         "copyright_text": ""
       }
     }

@@ -52,14 +52,33 @@
         "lazyload_images": true
       }
     },
+    "8a9cbfa1-2b55-405f-9517-08824b0d8c1c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14916567957546__8a9cbfa1-2b55-405f-9517-08824b0d8c1c-16817414204b99e015-0": {
+          "type": "heading",
+          "settings": {
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14916567957546__8a9cbfa1-2b55-405f-9517-08824b0d8c1c-16817414204b99e015-0"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "b23c0f69-dbf6-48a9-9e49-92bb1f1b3be9": {
       "type": "advanced-content",
       "blocks": {
         "template--14916567957546__b23c0f69-dbf6-48a9-9e49-92bb1f1b3be9-16817410538d6492ee-1": {
           "type": "liquid",
           "settings": {
-            "code": "<div class=\"blog-menu text-center\">\n\n      {%- if linklists[section.settings.blog_menu].links.size > 0 -%}\n        <ul class=\"rte no-bullets flex-nav h3 font--base\">\n          {% for link in linklists.blog-menu.links %}\n          {% assign active_link = current_tags | handleize %}\n            {% if link.title == 'All' %}\n              <li><a href=\"{{ link.url }}\">{{ link.title }}<\/a><\/li>\n            {% else %}\n              <li class=\"{% if active_link == link.handle %}active{% endif %}\">\n                {{ link.title | link_to_tag: link.handle }}\n              <\/li>\n            {% endif %}\n          {% endfor %}\n        <\/ul>\n      {%- endif -%}\n    <\/div>",
-            "width": "50%",
+            "code": "{%- if linklists.blog-menu.links.size > 0 -%}\n        <ul class=\"inline-list toolbar__menu text-center blog-menu\">\n          {% for link in linklists.blog-menu.links %}\n          {% assign active_link = current_tags | handleize %}\n            {% if link.title == 'All' %}\n              <li><a href=\"{{ link.url }}\">{{ link.title }}<\/a><\/li>\n            {% else %}\n              <li class=\"{% if active_link == link.handle %}active{% endif %}\">\n                {{ link.title | link_to_tag: link.handle }}\n              <\/li>\n            {% endif %}\n          {% endfor %}\n        <\/ul>\n      {%- endif -%}",
+            "width": "100%",
             "alignment": "center"
           }
         }
@@ -67,9 +86,12 @@
       "block_order": [
         "template--14916567957546__b23c0f69-dbf6-48a9-9e49-92bb1f1b3be9-16817410538d6492ee-1"
       ],
+      "custom_css": [
+        ".blog-menu a {margin: 0 1em;}"
+      ],
       "settings": {
         "full_width": false,
-        "space_around": true,
+        "space_around": false,
         "lazyload_images": true
       }
     },
@@ -89,6 +111,7 @@
   },
   "order": [
     "a112d715-812b-47ac-a242-2e2a41bcfd0f",
+    "8a9cbfa1-2b55-405f-9517-08824b0d8c1c",
     "b23c0f69-dbf6-48a9-9e49-92bb1f1b3be9",
     "main"
   ]

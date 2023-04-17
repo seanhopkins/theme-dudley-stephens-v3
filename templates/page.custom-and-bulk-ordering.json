@@ -346,6 +346,222 @@
         "align_text": "center",
         "divider": false
       }
+    },
+    "1e336e78-becf-4c3a-bbc0-92f790592a27": {
+      "type": "text-columns",
+      "blocks": {
+        "6895c9ba-f2e5-456a-8356-a19bf2ea6c53": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPBLUSH.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry Fleece in Camel<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "030dcbc7-50a7-4fab-ad2c-a9443f1e02d3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPGREY.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry Fleece in Heather Grey<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "919c4d7a-2e8d-437b-ab12-b21b411b2c12": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPNavy_c227ddb7-fd0e-4668-bd0e-f1994c95248b.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry fleece in Navy<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "6895c9ba-f2e5-456a-8356-a19bf2ea6c53",
+        "030dcbc7-50a7-4fab-ad2c-a9443f1e02d3",
+        "919c4d7a-2e8d-437b-ab12-b21b411b2c12"
+      ],
+      "settings": {
+        "title": "The Park Slope",
+        "align_text": "center",
+        "divider": true
+      }
+    },
+    "ee1850af-b72b-41d1-abfc-a77cd2c30e86": {
+      "type": "text-columns",
+      "blocks": {
+        "c5f1f42f-d33d-4c52-acec-4ce391686b73": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPBLUSH.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry Fleece in Camel<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "fccaf99e-7cfa-4fba-a57c-452dbe6514a3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPGREY.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry Fleece in Heather Grey<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "640e8af4-21f8-4aff-ab89-c049cc96f870": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPNavy_c227ddb7-fd0e-4668-bd0e-f1994c95248b.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry fleece in Navy<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "c5f1f42f-d33d-4c52-acec-4ce391686b73",
+        "fccaf99e-7cfa-4fba-a57c-452dbe6514a3",
+        "640e8af4-21f8-4aff-ab89-c049cc96f870"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "4317f6c4-b364-4c46-b815-4a1a0b1a2c9c": {
+      "type": "text-columns",
+      "blocks": {
+        "d19a4b2a-6325-42b2-8eee-4a43fb966d3a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPBLUSH.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry Fleece in Camel<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "b1c535ac-88c4-432f-9354-8c4b791ec879": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPGREY.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry Fleece in Heather Grey<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "9a3d72ab-4f35-4de2-9028-793b52a75b9d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPNavy_c227ddb7-fd0e-4668-bd0e-f1994c95248b.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry fleece in Navy<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "d19a4b2a-6325-42b2-8eee-4a43fb966d3a",
+        "b1c535ac-88c4-432f-9354-8c4b791ec879",
+        "9a3d72ab-4f35-4de2-9028-793b52a75b9d"
+      ],
+      "settings": {
+        "title": "Perry Street Pullover",
+        "align_text": "center",
+        "divider": true
+      }
+    },
+    "cb398972-22e9-4036-8161-ec9201cbf273": {
+      "type": "text-columns",
+      "blocks": {
+        "e6a364ba-d4cf-4a1f-9513-db39fc0131f1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPBLUSH.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry Fleece in Camel<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "ee9d412e-7c36-459f-9675-d53b4e7b10a3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPGREY.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry Fleece in Heather Grey<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "8a6deca7-f013-4ad4-bab1-b02a1444548a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPNavy_c227ddb7-fd0e-4668-bd0e-f1994c95248b.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry fleece in Navy<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "e6a364ba-d4cf-4a1f-9513-db39fc0131f1",
+        "ee9d412e-7c36-459f-9675-d53b4e7b10a3",
+        "8a6deca7-f013-4ad4-bab1-b02a1444548a"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -358,6 +574,10 @@
     "f322ae15-22e7-4410-bfbf-a9436d641d88",
     "eec5307c-67f0-457f-8198-a7ddee5c114b",
     "e347c2c5-39c4-4f8b-a586-2ece4ee88ff5",
-    "b3a84a04-7172-420c-8020-9d118441257a"
+    "b3a84a04-7172-420c-8020-9d118441257a",
+    "1e336e78-becf-4c3a-bbc0-92f790592a27",
+    "ee1850af-b72b-41d1-abfc-a77cd2c30e86",
+    "4317f6c4-b364-4c46-b815-4a1a0b1a2c9c",
+    "cb398972-22e9-4036-8161-ec9201cbf273"
   ]
 }

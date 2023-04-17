@@ -9,6 +9,54 @@
         "parallax_direction": "top"
       }
     },
+    "5a8d2888-87cc-4de7-8b19-548eb8345181": {
+      "type": "countdown",
+      "blocks": {
+        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-0": {
+          "type": "content",
+          "settings": {
+            "heading": "Shop The Drop",
+            "heading_size": "h2",
+            "text": "<p>Use this timer to create urgency and boost sales.<\/p>",
+            "content_alignment": "left"
+          }
+        },
+        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-1": {
+          "type": "timer",
+          "settings": {
+            "year": "2023",
+            "month": "01",
+            "day": "1",
+            "hour": "03",
+            "minute": "00",
+            "hide_timer": false,
+            "text": ""
+          }
+        },
+        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-2": {
+          "type": "button",
+          "settings": {
+            "button_link": "",
+            "button": "Shop Collection",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-0",
+        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-1",
+        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-2"
+      ],
+      "settings": {
+        "layout": "banner",
+        "full_width": false,
+        "text_color": "#000",
+        "background_color": "#FFF",
+        "overlay_color": "#000",
+        "overlay_opacity": 0,
+        "lazyload_images": true
+      }
+    },
     "promo-grid": {
       "type": "promo-grid",
       "blocks": {
@@ -102,54 +150,6 @@
         "lazyload_images": true
       }
     },
-    "5a8d2888-87cc-4de7-8b19-548eb8345181": {
-      "type": "countdown",
-      "blocks": {
-        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-0": {
-          "type": "content",
-          "settings": {
-            "heading": "Countdown",
-            "heading_size": "h2",
-            "text": "<p>Use this timer to create urgency and boost sales.<\/p>",
-            "content_alignment": "left"
-          }
-        },
-        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-1": {
-          "type": "timer",
-          "settings": {
-            "year": "2025",
-            "month": "01",
-            "day": "1",
-            "hour": "03",
-            "minute": "00",
-            "hide_timer": false,
-            "text": ""
-          }
-        },
-        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-2": {
-          "type": "button",
-          "settings": {
-            "button_link": "",
-            "button": "Shop Collection",
-            "button_style": "solid"
-          }
-        }
-      },
-      "block_order": [
-        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-0",
-        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-1",
-        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-2"
-      ],
-      "settings": {
-        "layout": "banner",
-        "full_width": false,
-        "text_color": "#000",
-        "background_color": "#FFF",
-        "overlay_color": "#000",
-        "overlay_opacity": 0,
-        "lazyload_images": true
-      }
-    },
     "main-collection": {
       "type": "main-collection",
       "blocks": {
@@ -190,8 +190,8 @@
   },
   "order": [
     "collection-header",
-    "promo-grid",
     "5a8d2888-87cc-4de7-8b19-548eb8345181",
+    "promo-grid",
     "main-collection"
   ]
 }

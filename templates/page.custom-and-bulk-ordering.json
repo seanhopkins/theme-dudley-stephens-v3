@@ -127,35 +127,8 @@
       ],
       "settings": {
         "align_text": "left",
-        "narrow_column": true,
+        "narrow_column": false,
         "divider": false
-      }
-    },
-    "07928db0-23df-416d-952b-01da60573bbc": {
-      "type": "rich-text",
-      "blocks": {
-        "template--14916927946794__07928db0-23df-416d-952b-01da60573bbc-1681505432fc581d6b-0": {
-          "type": "heading",
-          "settings": {
-            "title": "The Cobble Hill Turtleneck"
-          }
-        },
-        "template--14916927946794__07928db0-23df-416d-952b-01da60573bbc-1681505432fc581d6b-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>In Vello Fleece<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14916927946794__07928db0-23df-416d-952b-01da60573bbc-1681505432fc581d6b-0",
-        "template--14916927946794__07928db0-23df-416d-952b-01da60573bbc-1681505432fc581d6b-1"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": true
       }
     },
     "f322ae15-22e7-4410-bfbf-a9436d641d88": {
@@ -169,7 +142,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "",
-            "text": "<p>In Camel<\/p>",
+            "text": "<p>Vello Fleece in Camel<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -182,7 +155,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "",
-            "text": "<p>In Navy<\/p>",
+            "text": "<p>Vello Fleece In Navy<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -195,7 +168,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "",
-            "text": "<p>In Black<\/p>",
+            "text": "<p>Vello Fleece In Black<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -207,7 +180,7 @@
         "5cf2e814-7f64-4d7f-aaca-94bd3d14327e"
       ],
       "settings": {
-        "title": "",
+        "title": "The Cobble Hill Turtleneck",
         "align_text": "center",
         "divider": false
       }
@@ -298,7 +271,6 @@
     "c4153ab3-3092-40cc-83ab-1556909fed0c",
     "47a9e522-61d9-4a51-bd58-73b6e4740f1d",
     "13a41940-e0dc-4661-80cc-abcaf4c341c8",
-    "07928db0-23df-416d-952b-01da60573bbc",
     "f322ae15-22e7-4410-bfbf-a9436d641d88",
     "272f0013-e536-43d9-92dc-a98efb6c7a4b",
     "eec5307c-67f0-457f-8198-a7ddee5c114b"

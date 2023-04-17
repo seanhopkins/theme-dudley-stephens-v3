@@ -354,11 +354,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/GPBLUSH.jpg",
+            "image": "shopify:\/\/shop_images\/PSNATURALBLUSHTERRY.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
-            "text": "<p>Terry Fleece in Camel<\/p>",
+            "text": "<p>Terry Fleece in Natural Blush<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -367,7 +367,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/GPGREY.jpg",
+            "image": "shopify:\/\/shop_images\/ParkSlopeHeatherGreyTerry.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -380,7 +380,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/GPNavy_c227ddb7-fd0e-4668-bd0e-f1994c95248b.jpg",
+            "image": "shopify:\/\/shop_images\/PSTERRYNAVY.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -408,17 +408,18 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/GPBLUSH.jpg",
+            "image": "shopify:\/\/shop_images\/PARK_SLOPE_TERRY_BLACK_106.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
-            "text": "<p>Terry Fleece in Camel<\/p>",
+            "text": "<p>Terry Fleece in Black<\/p>",
             "button_label": "",
             "button_link": ""
           }
         },
         "fccaf99e-7cfa-4fba-a57c-452dbe6514a3": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/GPGREY.jpg",
@@ -432,6 +433,7 @@
         },
         "640e8af4-21f8-4aff-ab89-c049cc96f870": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/GPNavy_c227ddb7-fd0e-4668-bd0e-f1994c95248b.jpg",

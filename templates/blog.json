@@ -1,54 +1,27 @@
 {
   "sections": {
-    "a112d715-812b-47ac-a242-2e2a41bcfd0f": {
-      "type": "slideshow",
+    "a157bf24-d940-4390-b13d-0ccfe9541493": {
+      "type": "advanced-content",
       "blocks": {
-        "template--14916567957546__a112d715-812b-47ac-a242-2e2a41bcfd0f-1681741018fd59b458-0": {
+        "template--14916567957546__a157bf24-d940-4390-b13d-0ccfe9541493-16817410538d6492ee-0": {
           "type": "image",
           "settings": {
-            "top_subheading": "",
-            "title": "Endless\npossibilities.",
-            "title_size": 80,
-            "subheading": "Bring your brand to life",
+            "image": "shopify:\/\/shop_images\/pineapple-street-logo_1250x_991e2593-0533-4fbb-b0f7-4a1c955de7cc.png",
             "link": "",
-            "link_text": "Optional button",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        },
-        "template--14916567957546__a112d715-812b-47ac-a242-2e2a41bcfd0f-1681741018fd59b458-1": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "Two line\ntitle slide.",
-            "title_size": 80,
-            "subheading": "And big, beautiful imagery",
-            "link": "",
-            "link_text": "Optional button",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
+            "width": "50%",
+            "alignment": "center"
           }
         }
       },
       "block_order": [
-        "template--14916567957546__a112d715-812b-47ac-a242-2e2a41bcfd0f-1681741018fd59b458-0",
-        "template--14916567957546__a112d715-812b-47ac-a242-2e2a41bcfd0f-1681741018fd59b458-1"
+        "template--14916567957546__a157bf24-d940-4390-b13d-0ccfe9541493-16817410538d6492ee-0"
+      ],
+      "custom_css": [
+        ".custom__item {margin: auto;}"
       ],
       "settings": {
-        "section_height": "650px",
-        "mobile_height": "auto",
-        "parallax": true,
-        "style": "bars",
-        "autoplay": true,
-        "autoplay_speed": 5,
+        "full_width": false,
+        "space_around": true,
         "lazyload_images": true
       }
     },
@@ -110,7 +83,7 @@
     }
   },
   "order": [
-    "a112d715-812b-47ac-a242-2e2a41bcfd0f",
+    "a157bf24-d940-4390-b13d-0ccfe9541493",
     "8a9cbfa1-2b55-405f-9517-08824b0d8c1c",
     "b23c0f69-dbf6-48a9-9e49-92bb1f1b3be9",
     "main"

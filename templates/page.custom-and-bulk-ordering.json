@@ -199,26 +199,12 @@
             "button_label": "",
             "button_link": ""
           }
-        },
-        "56023f30-4d34-47ca-8241-7d24cc4be5e2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/COBBLE_HILL_VELLO_BLACK_193_571db27a-597e-41f2-aacb-95536796fd85.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "",
-            "text": "<p>In Black<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "template--14916927946794__f322ae15-22e7-4410-bfbf-a9436d641d88-168150610124d126b8-0",
         "b669b29d-26f1-4db6-86c2-a3b4aa343ddf",
-        "5cf2e814-7f64-4d7f-aaca-94bd3d14327e",
-        "56023f30-4d34-47ca-8241-7d24cc4be5e2"
+        "5cf2e814-7f64-4d7f-aaca-94bd3d14327e"
       ],
       "settings": {
         "title": "",

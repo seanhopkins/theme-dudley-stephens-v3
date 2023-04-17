@@ -3,9 +3,9 @@
     "collection-header": {
       "type": "collection-header",
       "settings": {
-        "enable": true,
-        "collection_image_enable": true,
-        "parallax": true,
+        "enable": false,
+        "collection_image_enable": false,
+        "parallax": false,
         "parallax_direction": "top"
       }
     },
@@ -19,7 +19,7 @@
             "text": "Add the details of your promotion in smaller text",
             "link": "",
             "label": "Shop now",
-            "color_tint": "#e95454",
+            "color_tint": "#1c1d1d",
             "color_tint_opacity": 8,
             "framed": false
           }

@@ -12,18 +12,6 @@
     "promo-grid": {
       "type": "promo-grid",
       "blocks": {
-        "banner": {
-          "type": "banner",
-          "settings": {
-            "heading": "Banner promotion",
-            "text": "Add the details of your promotion in smaller text",
-            "link": "",
-            "label": "Shop now",
-            "color_tint": "#1c1d1d",
-            "color_tint_opacity": 8,
-            "framed": false
-          }
-        },
         "advanced": {
           "type": "advanced",
           "settings": {
@@ -43,17 +31,120 @@
             "boxed": false,
             "framed": false
           }
+        },
+        "4c9b912d-1bdc-4f20-84c8-c0edcdad1321": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Greenpoint",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "f4ba3a0d-5380-4908-a21d-75eae40611b3": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Greenpoint",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "banner": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "heading": "Banner promotion",
+            "text": "Add the details of your promotion in smaller text",
+            "link": "",
+            "label": "Shop now",
+            "color_tint": "#1c1d1d",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
         }
       },
       "block_order": [
-        "banner",
-        "advanced"
+        "advanced",
+        "4c9b912d-1bdc-4f20-84c8-c0edcdad1321",
+        "f4ba3a0d-5380-4908-a21d-75eae40611b3",
+        "banner"
       ],
       "settings": {
         "full_width": false,
         "gutter_size": 20,
         "space_above": true,
         "space_below": false,
+        "lazyload_images": true
+      }
+    },
+    "5a8d2888-87cc-4de7-8b19-548eb8345181": {
+      "type": "countdown",
+      "blocks": {
+        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-0": {
+          "type": "content",
+          "settings": {
+            "heading": "Countdown",
+            "heading_size": "h2",
+            "text": "<p>Use this timer to create urgency and boost sales.<\/p>",
+            "content_alignment": "left"
+          }
+        },
+        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-1": {
+          "type": "timer",
+          "settings": {
+            "year": "2025",
+            "month": "01",
+            "day": "1",
+            "hour": "03",
+            "minute": "00",
+            "hide_timer": false,
+            "text": ""
+          }
+        },
+        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-2": {
+          "type": "button",
+          "settings": {
+            "button_link": "",
+            "button": "Shop Collection",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-0",
+        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-1",
+        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-2"
+      ],
+      "settings": {
+        "layout": "banner",
+        "full_width": false,
+        "text_color": "#000",
+        "background_color": "#FFF",
+        "overlay_color": "#000",
+        "overlay_opacity": 0,
         "lazyload_images": true
       }
     },
@@ -98,6 +189,7 @@
   "order": [
     "collection-header",
     "promo-grid",
+    "5a8d2888-87cc-4de7-8b19-548eb8345181",
     "main-collection"
   ]
 }

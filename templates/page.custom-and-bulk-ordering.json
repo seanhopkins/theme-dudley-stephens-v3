@@ -290,6 +290,60 @@
       "settings": {
         "title": "The Greenpoint Turtleneck",
         "align_text": "center",
+        "divider": true
+      }
+    },
+    "b3a84a04-7172-420c-8020-9d118441257a": {
+      "type": "text-columns",
+      "blocks": {
+        "74b40f0c-01f1-4b3f-9afc-06fc190f12d9": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPBLUSH.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry Fleece in Camel<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "f4843dfa-9502-497b-a60b-fce0cc4a777a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPGREY.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry Fleece in Heather Grey<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "6f49c749-f61f-45b8-aa71-789fc946f473": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GPNavy_c227ddb7-fd0e-4668-bd0e-f1994c95248b.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Terry fleece in Navy<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "74b40f0c-01f1-4b3f-9afc-06fc190f12d9",
+        "f4843dfa-9502-497b-a60b-fce0cc4a777a",
+        "6f49c749-f61f-45b8-aa71-789fc946f473"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
         "divider": false
       }
     }
@@ -303,6 +357,7 @@
     "13a41940-e0dc-4661-80cc-abcaf4c341c8",
     "f322ae15-22e7-4410-bfbf-a9436d641d88",
     "eec5307c-67f0-457f-8198-a7ddee5c114b",
-    "e347c2c5-39c4-4f8b-a586-2ece4ee88ff5"
+    "e347c2c5-39c4-4f8b-a586-2ece4ee88ff5",
+    "b3a84a04-7172-420c-8020-9d118441257a"
   ]
 }

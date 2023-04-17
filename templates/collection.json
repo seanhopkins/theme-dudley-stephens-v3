@@ -37,7 +37,7 @@
           "type": "button",
           "settings": {
             "button_link": "",
-            "button": "Shop Collection",
+            "button": "Preview the Drop",
             "button_style": "solid"
           }
         }
@@ -49,9 +49,9 @@
       ],
       "settings": {
         "layout": "banner",
-        "full_width": false,
+        "full_width": true,
         "text_color": "#000",
-        "background_color": "#FFF",
+        "background_color": "#fafafa",
         "overlay_color": "#000",
         "overlay_opacity": 0,
         "lazyload_images": true
@@ -74,7 +74,7 @@
             "video_url": "",
             "width": "33",
             "height": 640,
-            "text_size": 95,
+            "text_size": 100,
             "text_align": "vertical-bottom horizontal-center",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
@@ -87,7 +87,7 @@
             "subheading": "",
             "heading": "Greenpoint",
             "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "",
+            "cta_text1": "Shop",
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
@@ -107,16 +107,17 @@
           "settings": {
             "subheading": "",
             "heading": "Cobble Hill",
-            "textarea": "Meet our midi– a happy medium.",
-            "cta_text1": "",
-            "cta_link1": "",
+            "textarea": "Tunic length with pockets. Our flagship",
+            "cta_text1": "Shop",
+            "cta_link1": "shopify:\/\/collections\/cobble-hill-turtleneck",
             "cta_text2": "",
             "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/342CB2A9-F717-42D6-8366-CACA7CCE3118_1_201_a_fd73901d-7f16-45a9-843d-a5cd65bc49aa.jpg",
             "video_url": "",
             "width": "33",
             "height": 500,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
+            "text_size": 100,
+            "text_align": "vertical-bottom horizontal-center",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
             "framed": true
@@ -144,7 +145,7 @@
       ],
       "settings": {
         "full_width": false,
-        "gutter_size": 20,
+        "gutter_size": 10,
         "space_above": true,
         "space_below": false,
         "lazyload_images": true

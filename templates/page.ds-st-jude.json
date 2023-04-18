@@ -98,13 +98,16 @@
     },
     "10e7451b-d347-42b9-a10b-4eab7720d420": {
       "type": "text-and-image",
+      "custom_css": [
+        "em {top: -0.5em; position: relative; font-size: 60%; vertical-align: baseline;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled-3.png",
         "image_mask": "none",
         "image2_mask": "none",
         "subtitle": "",
         "title": "DS Gives Blanket in Sherpa Fleece",
-        "text": "<p>Do good—for the planet and for the children of St. Jude Children’s Research Hospital®—with this ultra-cozy lap blanket made with recycled Sherpa and Vello Fleece. For every purchase, we’ll donate a portion of proceeds to St. Jude’s lifesaving mission: Finding Cures. Saving Children®.<\/p><p><em>*While supplies last<\/em><\/p>",
+        "text": "<p>Do good—for the planet and for the children of St. Jude Children’s Research Hospital<em>®<\/em>—with this ultra-cozy lap blanket made with recycled Sherpa and Vello Fleece. For every purchase, we’ll donate a portion of proceeds to St. Jude’s lifesaving mission: Finding Cures. Saving Children<em>®<\/em>.<\/p><p>*While supplies last<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",

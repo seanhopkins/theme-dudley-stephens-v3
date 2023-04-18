@@ -63,6 +63,9 @@
         "heading",
         "text"
       ],
+      "custom_css": [
+        ".enlarge-text p {max-width: 800px; margin: auto;}"
+      ],
       "settings": {
         "align_text": "center",
         "narrow_column": true,

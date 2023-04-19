@@ -1,0 +1,35 @@
+<script src="{{ 'monogram.js' | asset_url }}" defer></script>
+
+<monogram-toggle>
+  <input id="add-monogram" type="checkbox">
+  <label for="add-monogram">Add a custom embroidery +$15</label>
+
+  <div class="monogram-button-wrapper hide">
+    <button
+      class="js-modal-open-monogram-modal btn btn--secondary btn--full"
+    >
+      Personalize it
+    </button>
+    <small class="text-center"> ⓘ You must personalize it before adding to the cart. </small>
+  </div>
+</monogram-toggle>
+
+<div
+  id="MonogramModal"
+  class="modal modal--square"
+>
+  <div class="modal__inner">
+    <div class="modal__centered">
+      <div class="modal__centered-content">
+        <h1>Test</h1>
+      </div>
+
+      <button type="button" class="modal__close js-modal-close text-link">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64">
+          <path d="M19 17.61l27.12 27.13m0-27.12L19 44.74"/>
+        </svg>
+        <span class="icon__fallback-text">{{ 'general.accessibility.close_modal' | t | json }}</span>
+      </button>
+    </div>
+  </div>
+</div>

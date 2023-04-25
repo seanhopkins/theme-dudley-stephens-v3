@@ -1,3 +1,5 @@
+{% render 'monogram' %}
+
 {%- form 'product', product, id: form_id, class: 'product-single__form' -%}
 
   {%- liquid
@@ -22,8 +24,6 @@
         assign button_text = 'products.product.sold_out' | t
       endunless
     -%}
-
-    {% render 'monogram' %}
 
     <button
       {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}

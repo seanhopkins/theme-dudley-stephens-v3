@@ -25,6 +25,14 @@ customElements.define("monogram-toggle", MonogramToggle);
 class MonogramCustomizer extends HTMLElement {
   constructor() {
     super();
+
+    this.form = this.querySelector("form");
+  }
+
+  connectedCallback() {
+    if (theme.settings.cartType === "drawer") {
+      new theme.AjaxProduct(this.form, ".monogram__add-to-cart");
+    }
   }
 }
 

@@ -32,16 +32,23 @@
             <form action="/cart/add" method="POST">
               {%- unless monogram_product.has_only_default_variant -%}
                 {%- for variant in monogram_product.variants -%}
-                  {% comment %} radio input {% endcomment %}
                   <label for="{{ variant.id }}">{{ variant.title }}</label>
-                  <input type="radio" name="items[0][id]" id="{{ variant.id }}">
+                  <input
+                    type="radio"
+                    name="items[0][id]"
+                    id="{{ variant.id }}"
+                    value="{{ variant.id }}"
+                    {% if forloop.first %}checked{% endif %}
+                  >
                 {%- endfor -%}
               {%- endunless -%}
-              <input type="hidden" name="items[0][quantity]" value="1">
-              <input type="hidden" name="items[1][id]" value="32387357900849">
-              <input type="hidden" name="items[1][quantity]" value="1">
 
-              <button>Submit</button>
+              <input type="hidden" name="items[0][quantity]" value="1">
+              {% comment %} TODO: make this variant ID dynamic {% endcomment %}
+              <input type="hidden" name="items[1][id]" value="39727329542186">
+              <input type="hidden" name="items[1][quantity]" value="1">
+ 
+              <button class="btn monogram__add-to-cart">Submit</button>
             </form>
           </div>
         </div>

@@ -57,7 +57,12 @@
               {% comment %} items[0] === monogram product {% endcomment %}
               <input type="hidden" name="items[0][quantity]" value="1">
               <input type="hidden" name="items[0][properties][_Monogram ID]" class="js-monogram-id" value="">
-              <input type="hidden" name="items[0][properties][Monogram for]" value="(Make this dynamic)">
+              <input
+                type="hidden"
+                name="items[0][properties][Monogram for]"
+                class="js-parent-title" 
+                value="{{ parent_product.title }} - {{ parent_product.selected_or_first_available_variant.title }}"
+              >
               <input type="hidden" name="items[0][properties][Style]" value="(Make this dynamic)">
               <input type="hidden" name="items[0][properties][_Location]" value="(Make this dynamic)">
               <input type="hidden" name="items[0][properties][Monogram]" value="(Make this dynamic)">
@@ -68,7 +73,7 @@
                 type="hidden" 
                 name="items[1][id]" 
                 class="js-parent-variant-id" 
-                value="{{ current_parent_variant.id }}"
+                value="{{ parent_product.selected_or_first_available_variant.id }}"
               >
               <input type="hidden" name="items[1][quantity]" value="1">
               <input type="hidden" name="items[1][properties][_Monogram ID]" class="js-monogram-id" value="">

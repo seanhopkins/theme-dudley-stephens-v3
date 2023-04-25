@@ -21,3 +21,11 @@ class MonogramToggle extends HTMLElement {
 }
 
 customElements.define("monogram-toggle", MonogramToggle);
+
+class MonogramCustomizer extends HTMLElement {
+  constructor() {
+    super();
+  }
+}
+
+customElements.define("monogram-customizer", MonogramCustomizer);

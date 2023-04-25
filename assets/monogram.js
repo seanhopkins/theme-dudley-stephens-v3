@@ -31,31 +31,25 @@ class MonogramCustomizer extends HTMLElement {
     this.parentVariantIdEls = this.querySelectorAll(".js-parent-variant-id");
   }
 
-  setMonogramIds(id) {
-    this.monogramIdEls.forEach((el) => {
-      el.value = id;
-    });
-  }
-
-  setVariantIds(id) {
-    this.parentVariantIdEls.forEach((el) => {
-      el.value = id;
+  setElementValues(elements, value) {
+    elements.forEach((el) => {
+      el.value = value;
     });
   }
 
   connectedCallback() {
-    this.setMonogramIds(crypto.randomUUID());
+    this.setElementValues(this.monogramIdEls, crypto.randomUUID());
 
     if (theme.settings.cartType === "drawer") {
       new theme.AjaxProduct(this.form, ".monogram__add-to-cart");
     }
 
     document.addEventListener("ajaxProduct:added", () => {
-      this.setMonogramIds(crypto.randomUUID());
+      this.setElementValues(this.monogramIdEls, crypto.randomUUID());
     });
 
     document.addEventListener("variant:change", (e) => {
-      this.setVariantIds(e.detail.variant.id);
+      this.setElementValues(this.parentVariantIdEls, e.detail.variant.id);
     });
   }
 }

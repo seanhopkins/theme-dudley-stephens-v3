@@ -27,26 +27,35 @@ class MonogramCustomizer extends HTMLElement {
     super();
 
     this.form = this.querySelector("form");
+    this.monogramIdEls = this.querySelectorAll(".js-monogram-id");
+    this.parentVariantIdEls = this.querySelectorAll(".js-parent-variant-id");
   }
 
-  setMonogramIds() {
-    const monogramIds = this.querySelectorAll(".js-monogram-id");
-    const newId = crypto.randomUUID();
+  setMonogramIds(id) {
+    this.monogramIdEls.forEach((el) => {
+      el.value = id;
+    });
+  }
 
-    monogramIds.forEach((monogramId) => {
-      monogramId.value = newId;
+  setVariantIds(id) {
+    this.parentVariantIdEls.forEach((el) => {
+      el.value = id;
     });
   }
 
   connectedCallback() {
-    this.setMonogramIds();
+    this.setMonogramIds(crypto.randomUUID());
 
     if (theme.settings.cartType === "drawer") {
       new theme.AjaxProduct(this.form, ".monogram__add-to-cart");
     }
 
-    document.addEventListener("ajaxProduct:added", (event) => {
-      this.setMonogramIds();
+    document.addEventListener("ajaxProduct:added", () => {
+      this.setMonogramIds(crypto.randomUUID());
+    });
+
+    document.addEventListener("variant:change", (e) => {
+      this.setVariantIds(e.detail.variant.id);
     });
   }
 }

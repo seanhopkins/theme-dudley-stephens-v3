@@ -54,6 +54,7 @@
                 {%- endfor -%}
               {%- endunless -%}
 
+              {% comment %} items[0] === monogram product {% endcomment %}
               <input type="hidden" name="items[0][quantity]" value="1">
               <input type="hidden" name="items[0][properties][_Monogram ID]" class="js-monogram-id" value="">
               <input type="hidden" name="items[0][properties][Monogram for]" value="(Make this dynamic)">
@@ -62,8 +63,13 @@
               <input type="hidden" name="items[0][properties][Monogram]" value="(Make this dynamic)">
               <input type="hidden" name="items[0][properties][_Gift wrap]" value="No">
               
-              {% comment %} TODO: make this variant ID dynamic {% endcomment %}
-              <input type="hidden" name="items[1][id]" value="39727329542186">
+              {% comment %} items[1] === parent product {% endcomment %}
+              <input 
+                type="hidden" 
+                name="items[1][id]" 
+                class="js-parent-variant-id" 
+                value="{{ current_parent_variant.id }}"
+              >
               <input type="hidden" name="items[1][quantity]" value="1">
               <input type="hidden" name="items[1][properties][_Monogram ID]" class="js-monogram-id" value="">
               <input type="hidden" name="items[1][properties][Style]" value="(Make this dynamic)">

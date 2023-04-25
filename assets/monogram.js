@@ -29,10 +29,25 @@ class MonogramCustomizer extends HTMLElement {
     this.form = this.querySelector("form");
   }
 
+  setMonogramIds() {
+    const monogramIds = this.querySelectorAll(".js-monogram-id");
+    const newId = crypto.randomUUID();
+
+    monogramIds.forEach((monogramId) => {
+      monogramId.value = newId;
+    });
+  }
+
   connectedCallback() {
+    this.setMonogramIds();
+
     if (theme.settings.cartType === "drawer") {
       new theme.AjaxProduct(this.form, ".monogram__add-to-cart");
     }
+
+    document.addEventListener("ajaxProduct:added", (event) => {
+      this.setMonogramIds();
+    });
   }
 }
 

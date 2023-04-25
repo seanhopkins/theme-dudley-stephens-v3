@@ -1,7 +1,7 @@
 {% comment %} 
   TODO:
   - image slider
-  - monogram LIP
+  - monogram LIP (WIP)
   - monogram font (change based on variant selection)
   - monogram color
   - monogram overlaid on images
@@ -55,9 +55,20 @@
               {%- endunless -%}
 
               <input type="hidden" name="items[0][quantity]" value="1">
+              <input type="hidden" name="items[0][properties][_Monogram ID]" class="js-monogram-id" value="">
+              <input type="hidden" name="items[0][properties][Monogram for]" value="(Make this dynamic)">
+              <input type="hidden" name="items[0][properties][Style]" value="(Make this dynamic)">
+              <input type="hidden" name="items[0][properties][_Location]" value="(Make this dynamic)">
+              <input type="hidden" name="items[0][properties][Monogram]" value="(Make this dynamic)">
+              <input type="hidden" name="items[0][properties][_Gift wrap]" value="No">
+              
               {% comment %} TODO: make this variant ID dynamic {% endcomment %}
               <input type="hidden" name="items[1][id]" value="39727329542186">
               <input type="hidden" name="items[1][quantity]" value="1">
+              <input type="hidden" name="items[1][properties][_Monogram ID]" class="js-monogram-id" value="">
+              <input type="hidden" name="items[1][properties][Style]" value="(Make this dynamic)">
+              <input type="hidden" name="items[1][properties][_Location]" value="(Make this dynamic)">
+              <input type="hidden" name="items[1][properties][Monogram]" value="(Make this dynamic)">
  
               <button class="btn monogram__add-to-cart">Submit</button>
             </form>

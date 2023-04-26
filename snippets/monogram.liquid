@@ -11,6 +11,7 @@
 
 {% assign monogram_product = all_products.monogram %}
 {% assign current_variant = monogram_product.selected_or_first_available_variant %}
+{% assign parent_type_handle = parent_product.type | handleize %}
 
 <script src="{{ 'monogram.js' | asset_url }}" defer></script>
 
@@ -49,6 +50,7 @@
                     name="items[0][id]"
                     id="{{ variant.id }}"
                     value="{{ variant.id }}"
+                    data-title="{{ variant.title }}"
                     {% if forloop.first %}checked{% endif %}
                   >
                 {%- endfor -%}
@@ -63,8 +65,25 @@
                 class="js-parent-title" 
                 value="{{ parent_product.title }} - {{ parent_product.selected_or_first_available_variant.title }}"
               >
-              <input type="hidden" name="items[0][properties][Style]" value="(Make this dynamic)">
-              <input type="hidden" name="items[0][properties][_Location]" value="(Make this dynamic)">
+              <input 
+                type="hidden" 
+                name="items[0][properties][Style]" 
+                class="js-monogram-style"
+                value="{{ monogram_product.selected_or_first_available_variant.title }}"
+              >
+              <input 
+                type="hidden" 
+                name="items[0][properties][_Location]" 
+                value="
+                  {%- if parent_type_handle == 'kids' -%}
+                    Left Chest
+                  {%- elsif parent_type_handle == 'accessories' or parent_type_handle == 'kids-accessories' -%}
+                    Opposite pineapple (left side)
+                  {%- else -%}
+                    Left Sleeve
+                  {%- endif -%}
+                "
+              >
               <input type="hidden" name="items[0][properties][Monogram]" value="(Make this dynamic)">
               <input type="hidden" name="items[0][properties][_Gift wrap]" value="No">
               
@@ -77,8 +96,25 @@
               >
               <input type="hidden" name="items[1][quantity]" value="1">
               <input type="hidden" name="items[1][properties][_Monogram ID]" class="js-monogram-id" value="">
-              <input type="hidden" name="items[1][properties][Style]" value="(Make this dynamic)">
-              <input type="hidden" name="items[1][properties][_Location]" value="(Make this dynamic)">
+              <input 
+                type="hidden" 
+                name="items[1][properties][Style]" 
+                class="js-monogram-style"
+                value="{{ monogram_product.selected_or_first_available_variant.title }}"
+              >
+              <input 
+                type="hidden" 
+                name="items[1][properties][_Location]" 
+                value="
+                  {%- if parent_type_handle == 'kids' -%}
+                    Left Chest
+                  {%- elsif parent_type_handle == 'accessories' or parent_type_handle == 'kids-accessories' -%}
+                    Opposite pineapple (left side)
+                  {%- else -%}
+                    Left Sleeve
+                  {%- endif -%}
+                "
+              >
               <input type="hidden" name="items[1][properties][Monogram]" value="(Make this dynamic)">
  
               <button class="btn monogram__add-to-cart">Submit</button>

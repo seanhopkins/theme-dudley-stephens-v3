@@ -30,6 +30,7 @@ class MonogramCustomizer extends HTMLElement {
     this.monogramIdEls = this.querySelectorAll(".js-monogram-id");
     this.parentVariantIdEls = this.querySelectorAll(".js-parent-variant-id");
     this.parentTitleEls = this.querySelectorAll(".js-parent-title");
+    this.monogramStyleEls = this.querySelectorAll(".js-monogram-style");
   }
 
   setElementValues(elements, value) {
@@ -52,6 +53,10 @@ class MonogramCustomizer extends HTMLElement {
     document.addEventListener("variant:change", (e) => {
       this.setElementValues(this.parentVariantIdEls, e.detail.variant.id);
       this.setElementValues(this.parentTitleEls, e.detail.variant.name);
+    });
+
+    this.form.addEventListener("change", (e) => {
+      this.setElementValues(this.monogramStyleEls, e.target.dataset.title);
     });
   }
 }

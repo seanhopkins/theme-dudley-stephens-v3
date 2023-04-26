@@ -562,11 +562,20 @@ var _jsxDevRuntime = require("preact/jsx-dev-runtime");
 var _preact = require("preact");
 var _form = require("./components/Form");
 var _formDefault = parcelHelpers.interopDefault(_form);
-(0, _preact.render)(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _formDefault.default), {}, void 0, false, {
+const monogramForm = document.querySelector("#monogram-form");
+const data = {
+    monogram_product: JSON.parse(document.querySelector("#monogram-product-data").innerHTML),
+    monogram_product_initial_variant: JSON.parse(document.querySelector("#monogram-product-initial-variant-data").innerHTML),
+    parent_product: JSON.parse(document.querySelector("#parent-product-data").innerHTML),
+    parent_product_initial_variant: JSON.parse(document.querySelector("#parent-product-initial-variant-data").innerHTML)
+};
+(0, _preact.render)(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _formDefault.default), {
+    data: data
+}, void 0, false, {
     fileName: "monogram.js",
-    lineNumber: 4,
+    lineNumber: 20,
     columnNumber: 8
-}, undefined), document.querySelector("#monogram-form"));
+}, undefined), monogramForm);
 class MonogramToggle extends HTMLElement {
     constructor(){
         super();
@@ -588,29 +597,9 @@ class MonogramCustomizer extends HTMLElement {
     constructor(){
         super();
         this.form = this.querySelector("form");
-        this.monogramIdEls = this.querySelectorAll(".js-monogram-id");
-        this.parentVariantIdEls = this.querySelectorAll(".js-parent-variant-id");
-        this.parentTitleEls = this.querySelectorAll(".js-parent-title");
-        this.monogramStyleEls = this.querySelectorAll(".js-monogram-style");
-    }
-    setElementValues(elements, value) {
-        elements.forEach((el)=>{
-            el.value = value;
-        });
     }
     connectedCallback() {
-        this.setElementValues(this.monogramIdEls, crypto.randomUUID());
         if (theme.settings.cartType === "drawer") new theme.AjaxProduct(this.form, ".monogram__add-to-cart");
-        document.addEventListener("ajaxProduct:added", ()=>{
-            this.setElementValues(this.monogramIdEls, crypto.randomUUID());
-        });
-        document.addEventListener("variant:change", (e)=>{
-            this.setElementValues(this.parentVariantIdEls, e.detail.variant.id);
-            this.setElementValues(this.parentTitleEls, e.detail.variant.name);
-        });
-        this.form.addEventListener("change", (e)=>{
-            this.setElementValues(this.monogramStyleEls, e.target.dataset.title);
-        });
     }
 }
 customElements.define("monogram-customizer", MonogramCustomizer);
@@ -1000,17 +989,427 @@ function o(o, e, n, t, f, l) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("preact/jsx-dev-runtime");
-const Form = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-        children: "sdkfjh"
-    }, void 0, false, {
+var _hooks = require("preact/hooks");
+const Form = ({ data  })=>{
+    console.log(data);
+    const [parentProductVariantId, setParentProductVariantId] = (0, _hooks.useState)(data.parent_product_initial_variant.id);
+    const [monogramUuid, setMonogramUuid] = (0, _hooks.useState)(crypto.randomUUID());
+    const [monogramFor, setMonogramFor] = (0, _hooks.useState)(`${data.parent_product.title} - ${data.parent_product_initial_variant.title}`);
+    const [style, setStyle] = (0, _hooks.useState)(data.monogram_product_initial_variant.title);
+    document.addEventListener("ajaxProduct:added", ()=>{
+        setMonogramUuid(crypto.randomUUID());
+    });
+    document.addEventListener("variant:change", (e)=>{
+        setParentProductVariantId(e.detail.variant.id);
+        setMonogramFor(e.detail.variant.name);
+    });
+    const onChange = (e)=>{
+        setStyle(e.target.dataset.title);
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+        action: "/cart/add",
+        method: "POST",
+        onChange: onChange,
+        children: [
+            data.monogram_product.variants.map((variant, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                            for: variant.id,
+                            children: variant.title
+                        }, void 0, false, {
+                            fileName: "components/Form.jsx",
+                            lineNumber: 34,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                            type: "radio",
+                            name: "items[0][id]",
+                            id: variant.id,
+                            value: variant.id,
+                            checked: index === 0 ? true : false,
+                            "data-title": variant.title
+                        }, void 0, false, {
+                            fileName: "components/Form.jsx",
+                            lineNumber: 35,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true)),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "text",
+                name: "monogram",
+                id: "monogram",
+                value: "Dudley"
+            }, void 0, false, {
+                fileName: "components/Form.jsx",
+                lineNumber: 46,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "text",
+                name: "first",
+                id: "first",
+                value: "A"
+            }, void 0, false, {
+                fileName: "components/Form.jsx",
+                lineNumber: 47,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "text",
+                name: "middle",
+                id: "middle",
+                value: "B"
+            }, void 0, false, {
+                fileName: "components/Form.jsx",
+                lineNumber: 48,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "text",
+                name: "last",
+                id: "last",
+                value: "C"
+            }, void 0, false, {
+                fileName: "components/Form.jsx",
+                lineNumber: 49,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[0][quantity]",
+                value: "1"
+            }, void 0, false, {
+                fileName: "components/Form.jsx",
+                lineNumber: 52,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[0][properties][_Monogram ID]",
+                value: monogramUuid
+            }, void 0, false, {
+                fileName: "components/Form.jsx",
+                lineNumber: 53,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[0][properties][Monogram for]",
+                value: monogramFor
+            }, void 0, false, {
+                fileName: "components/Form.jsx",
+                lineNumber: 58,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[0][properties][Style]",
+                value: style
+            }, void 0, false, {
+                fileName: "components/Form.jsx",
+                lineNumber: 63,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[0][properties][_Location]",
+                value: " {%- if parent_type_handle == 'kids' -%} Left Chest {%- elsif parent_type_handle == 'accessories' or parent_type_handle == 'kids-accessories' -%} Opposite pineapple (left side) {%- else -%} Left Sleeve {%- endif -%} "
+            }, void 0, false, {
+                fileName: "components/Form.jsx",
+                lineNumber: 64,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[0][properties][_Gift wrap]",
+                value: "No"
+            }, void 0, false, {
+                fileName: "components/Form.jsx",
+                lineNumber: 80,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[0][properties][Monogram]",
+                value: ""
+            }, void 0, false, {
+                fileName: "components/Form.jsx",
+                lineNumber: 81,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[1][id]",
+                value: parentProductVariantId
+            }, void 0, false, {
+                fileName: "components/Form.jsx",
+                lineNumber: 84,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[1][quantity]",
+                value: "1"
+            }, void 0, false, {
+                fileName: "components/Form.jsx",
+                lineNumber: 85,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[1][properties][_Monogram ID]",
+                value: monogramUuid
+            }, void 0, false, {
+                fileName: "components/Form.jsx",
+                lineNumber: 86,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[1][properties][Style]",
+                value: style
+            }, void 0, false, {
+                fileName: "components/Form.jsx",
+                lineNumber: 91,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[1][properties][_Location]",
+                value: " {%- if parent_type_handle == 'kids' -%} Left Chest {%- elsif parent_type_handle == 'accessories' or parent_type_handle == 'kids-accessories' -%} Opposite pineapple (left side) {%- else -%} Left Sleeve {%- endif -%} "
+            }, void 0, false, {
+                fileName: "components/Form.jsx",
+                lineNumber: 92,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[1][properties][Monogram]",
+                value: ""
+            }, void 0, false, {
+                fileName: "components/Form.jsx",
+                lineNumber: 108,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                class: "btn monogram__add-to-cart",
+                children: "Submit"
+            }, void 0, false, {
+                fileName: "components/Form.jsx",
+                lineNumber: 110,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
         fileName: "components/Form.jsx",
-        lineNumber: 2,
-        columnNumber: 10
+        lineNumber: 31,
+        columnNumber: 5
     }, undefined);
 };
 exports.default = Form;
 
-},{"preact/jsx-dev-runtime":"3mFUL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["fG26k","j51ut"], "j51ut", "parcelRequire6d00")
+},{"preact/jsx-dev-runtime":"3mFUL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","preact/hooks":"eZN76"}],"eZN76":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "useCallback", ()=>T);
+parcelHelpers.export(exports, "useContext", ()=>q);
+parcelHelpers.export(exports, "useDebugValue", ()=>x);
+parcelHelpers.export(exports, "useEffect", ()=>p);
+parcelHelpers.export(exports, "useErrorBoundary", ()=>P);
+parcelHelpers.export(exports, "useId", ()=>V);
+parcelHelpers.export(exports, "useImperativeHandle", ()=>A);
+parcelHelpers.export(exports, "useLayoutEffect", ()=>y);
+parcelHelpers.export(exports, "useMemo", ()=>F);
+parcelHelpers.export(exports, "useReducer", ()=>s);
+parcelHelpers.export(exports, "useRef", ()=>_);
+parcelHelpers.export(exports, "useState", ()=>h);
+var _preact = require("preact");
+var t, r, u, i, o = 0, f = [], c = [], e = (0, _preact.options).__b, a = (0, _preact.options).__r, v = (0, _preact.options).diffed, l = (0, _preact.options).__c, m = (0, _preact.options).unmount;
+function d(t, u) {
+    (0, _preact.options).__h && (0, _preact.options).__h(r, t, o || u), o = 0;
+    var i = r.__H || (r.__H = {
+        __: [],
+        __h: []
+    });
+    return t >= i.__.length && i.__.push({
+        __V: c
+    }), i.__[t];
+}
+function h(n) {
+    return o = 1, s(B, n);
+}
+function s(n, u, i) {
+    var o = d(t++, 2);
+    if (o.t = n, !o.__c && (o.__ = [
+        i ? i(u) : B(void 0, u),
+        function(n) {
+            var t = o.__N ? o.__N[0] : o.__[0], r = o.t(t, n);
+            t !== r && (o.__N = [
+                r,
+                o.__[1]
+            ], o.__c.setState({}));
+        }
+    ], o.__c = r, !r.u)) {
+        var f = function(n, t, r) {
+            if (!o.__c.__H) return !0;
+            var u = o.__c.__H.__.filter(function(n) {
+                return n.__c;
+            });
+            if (u.every(function(n) {
+                return !n.__N;
+            })) return !c || c.call(this, n, t, r);
+            var i = !1;
+            return u.forEach(function(n) {
+                if (n.__N) {
+                    var t = n.__[0];
+                    n.__ = n.__N, n.__N = void 0, t !== n.__[0] && (i = !0);
+                }
+            }), !(!i && o.__c.props === n) && (!c || c.call(this, n, t, r));
+        };
+        r.u = !0;
+        var c = r.shouldComponentUpdate, e = r.componentWillUpdate;
+        r.componentWillUpdate = function(n, t, r) {
+            if (this.__e) {
+                var u = c;
+                c = void 0, f(n, t, r), c = u;
+            }
+            e && e.call(this, n, t, r);
+        }, r.shouldComponentUpdate = f;
+    }
+    return o.__N || o.__;
+}
+function p(u, i) {
+    var o = d(t++, 3);
+    !(0, _preact.options).__s && z(o.__H, i) && (o.__ = u, o.i = i, r.__H.__h.push(o));
+}
+function y(u, i) {
+    var o = d(t++, 4);
+    !(0, _preact.options).__s && z(o.__H, i) && (o.__ = u, o.i = i, r.__h.push(o));
+}
+function _(n) {
+    return o = 5, F(function() {
+        return {
+            current: n
+        };
+    }, []);
+}
+function A(n, t, r) {
+    o = 6, y(function() {
+        return "function" == typeof n ? (n(t()), function() {
+            return n(null);
+        }) : n ? (n.current = t(), function() {
+            return n.current = null;
+        }) : void 0;
+    }, null == r ? r : r.concat(n));
+}
+function F(n, r) {
+    var u = d(t++, 7);
+    return z(u.__H, r) ? (u.__V = n(), u.i = r, u.__h = n, u.__V) : u.__;
+}
+function T(n, t) {
+    return o = 8, F(function() {
+        return n;
+    }, t);
+}
+function q(n) {
+    var u = r.context[n.__c], i = d(t++, 9);
+    return i.c = n, u ? (null == i.__ && (i.__ = !0, u.sub(r)), u.props.value) : n.__;
+}
+function x(t, r) {
+    (0, _preact.options).useDebugValue && (0, _preact.options).useDebugValue(r ? r(t) : t);
+}
+function P(n) {
+    var u = d(t++, 10), i = h();
+    return u.__ = n, r.componentDidCatch || (r.componentDidCatch = function(n, t) {
+        u.__ && u.__(n, t), i[1](n);
+    }), [
+        i[0],
+        function() {
+            i[1](void 0);
+        }
+    ];
+}
+function V() {
+    var n = d(t++, 11);
+    if (!n.__) {
+        for(var u = r.__v; null !== u && !u.__m && null !== u.__;)u = u.__;
+        var i = u.__m || (u.__m = [
+            0,
+            0
+        ]);
+        n.__ = "P" + i[0] + "-" + i[1]++;
+    }
+    return n.__;
+}
+function b() {
+    for(var t; t = f.shift();)if (t.__P && t.__H) try {
+        t.__H.__h.forEach(k), t.__H.__h.forEach(w), t.__H.__h = [];
+    } catch (r) {
+        t.__H.__h = [], (0, _preact.options).__e(r, t.__v);
+    }
+}
+(0, _preact.options).__b = function(n) {
+    r = null, e && e(n);
+}, (0, _preact.options).__r = function(n) {
+    a && a(n), t = 0;
+    var i = (r = n.__c).__H;
+    i && (u === r ? (i.__h = [], r.__h = [], i.__.forEach(function(n) {
+        n.__N && (n.__ = n.__N), n.__V = c, n.__N = n.i = void 0;
+    })) : (i.__h.forEach(k), i.__h.forEach(w), i.__h = [])), u = r;
+}, (0, _preact.options).diffed = function(t) {
+    v && v(t);
+    var o = t.__c;
+    o && o.__H && (o.__H.__h.length && (1 !== f.push(o) && i === (0, _preact.options).requestAnimationFrame || ((i = (0, _preact.options).requestAnimationFrame) || j)(b)), o.__H.__.forEach(function(n) {
+        n.i && (n.__H = n.i), n.__V !== c && (n.__ = n.__V), n.i = void 0, n.__V = c;
+    })), u = r = null;
+}, (0, _preact.options).__c = function(t, r) {
+    r.some(function(t) {
+        try {
+            t.__h.forEach(k), t.__h = t.__h.filter(function(n) {
+                return !n.__ || w(n);
+            });
+        } catch (u) {
+            r.some(function(n) {
+                n.__h && (n.__h = []);
+            }), r = [], (0, _preact.options).__e(u, t.__v);
+        }
+    }), l && l(t, r);
+}, (0, _preact.options).unmount = function(t) {
+    m && m(t);
+    var r, u = t.__c;
+    u && u.__H && (u.__H.__.forEach(function(n) {
+        try {
+            k(n);
+        } catch (n) {
+            r = n;
+        }
+    }), u.__H = void 0, r && (0, _preact.options).__e(r, u.__v));
+};
+var g = "function" == typeof requestAnimationFrame;
+function j(n) {
+    var t, r = function() {
+        clearTimeout(u), g && cancelAnimationFrame(t), setTimeout(n);
+    }, u = setTimeout(r, 100);
+    g && (t = requestAnimationFrame(r));
+}
+function k(n) {
+    var t = r, u = n.__c;
+    "function" == typeof u && (n.__c = void 0, u()), r = t;
+}
+function w(n) {
+    var t = r;
+    n.__c = n.__(), r = t;
+}
+function z(n, t) {
+    return !n || n.length !== t.length || t.some(function(t, r) {
+        return t !== n[r];
+    });
+}
+function B(n, t) {
+    return "function" == typeof t ? t(n) : t;
+}
+
+},{"preact":"26zcy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["fG26k","j51ut"], "j51ut", "parcelRequire6d00")
 
 //# sourceMappingURL=monogram.js.map

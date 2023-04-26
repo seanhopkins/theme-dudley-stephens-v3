@@ -38,9 +38,21 @@
           <div class="grid__item one-half">
             <h2>Personalize it</h2>
 
+            <script type="application/json" id="monogram-product-data">
+              {{ monogram_product | json }}
+            </script>
+            <script type="application/json" id="monogram-product-initial-variant-data">
+              {{ monogram_product.selected_or_first_available_variant | json }}
+            </script>
+            <script type="application/json" id="parent-product-data">
+              {{ parent_product | json }}
+            </script>
+            <script type="application/json" id="parent-product-initial-variant-data">
+              {{ parent_product.selected_or_first_available_variant | json }}
+            </script>
             <div id="monogram-form"></div>
 
-            <form action="/cart/add" method="POST">
+            {% comment %} <form action="/cart/add" method="POST">
               {%- unless monogram_product.has_only_default_variant -%}
                 {%- for variant in monogram_product.variants -%}
                   <label for="{{ variant.id }}">{{ variant.title }}</label>
@@ -132,7 +144,7 @@
               >
  
               <button class="btn monogram__add-to-cart">Submit</button>
-            </form>
+            </form> {% endcomment %}
           </div>
         </div>
       </monogram-customizer>

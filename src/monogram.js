@@ -1,7 +1,23 @@
 import { render } from "preact";
 import Form from "./components/Form";
 
-render(<Form />, document.querySelector("#monogram-form"));
+const monogramForm = document.querySelector("#monogram-form");
+const data = {
+  monogram_product: JSON.parse(
+    document.querySelector("#monogram-product-data").innerHTML
+  ),
+  monogram_product_initial_variant: JSON.parse(
+    document.querySelector("#monogram-product-initial-variant-data").innerHTML
+  ),
+  parent_product: JSON.parse(
+    document.querySelector("#parent-product-data").innerHTML
+  ),
+  parent_product_initial_variant: JSON.parse(
+    document.querySelector("#parent-product-initial-variant-data").innerHTML
+  ),
+};
+
+render(<Form data={data} />, monogramForm);
 
 class MonogramToggle extends HTMLElement {
   constructor() {
@@ -32,37 +48,12 @@ class MonogramCustomizer extends HTMLElement {
     super();
 
     this.form = this.querySelector("form");
-    this.monogramIdEls = this.querySelectorAll(".js-monogram-id");
-    this.parentVariantIdEls = this.querySelectorAll(".js-parent-variant-id");
-    this.parentTitleEls = this.querySelectorAll(".js-parent-title");
-    this.monogramStyleEls = this.querySelectorAll(".js-monogram-style");
-  }
-
-  setElementValues(elements, value) {
-    elements.forEach((el) => {
-      el.value = value;
-    });
   }
 
   connectedCallback() {
-    this.setElementValues(this.monogramIdEls, crypto.randomUUID());
-
     if (theme.settings.cartType === "drawer") {
       new theme.AjaxProduct(this.form, ".monogram__add-to-cart");
     }
-
-    document.addEventListener("ajaxProduct:added", () => {
-      this.setElementValues(this.monogramIdEls, crypto.randomUUID());
-    });
-
-    document.addEventListener("variant:change", (e) => {
-      this.setElementValues(this.parentVariantIdEls, e.detail.variant.id);
-      this.setElementValues(this.parentTitleEls, e.detail.variant.name);
-    });
-
-    this.form.addEventListener("change", (e) => {
-      this.setElementValues(this.monogramStyleEls, e.target.dataset.title);
-    });
   }
 }
 

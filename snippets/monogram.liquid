@@ -29,10 +29,7 @@
   </div>
 </monogram-toggle>
 
-<div
-  id="MonogramModal"
-  class="modal modal--square"
->
+<div id="MonogramModal" class="modal modal--square">
   <div class="modal__inner">
     <div class="modal__centered">
       <div class="modal__centered-content">
@@ -55,6 +52,11 @@
                   >
                 {%- endfor -%}
               {%- endunless -%}
+
+              <input type="text" name="monogram" id="monogram" value="Dudley">
+              <input type="text" name="first" id="first" value="A">
+              <input type="text" name="middle" id="middle" value="B">
+              <input type="text" name="last" id="last" value="C">
 
               {% comment %} items[0] === monogram product {% endcomment %}
               <input type="hidden" name="items[0][quantity]" value="1">
@@ -84,8 +86,13 @@
                   {%- endif -%}
                 "
               >
-              <input type="hidden" name="items[0][properties][Monogram]" value="(Make this dynamic)">
               <input type="hidden" name="items[0][properties][_Gift wrap]" value="No">
+              <input 
+                type="hidden"
+                name="items[0][properties][Monogram]"
+                class="js-monogram"
+                value=""
+              >
               
               {% comment %} items[1] === parent product {% endcomment %}
               <input 
@@ -115,7 +122,12 @@
                   {%- endif -%}
                 "
               >
-              <input type="hidden" name="items[1][properties][Monogram]" value="(Make this dynamic)">
+              <input 
+                type="hidden"
+                name="items[1][properties][Monogram]"
+                class="js-monogram"
+                value=""
+              >
  
               <button class="btn monogram__add-to-cart">Submit</button>
             </form>

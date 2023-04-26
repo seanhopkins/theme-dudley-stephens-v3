@@ -38,6 +38,8 @@
           <div class="grid__item one-half">
             <h2>Personalize it</h2>
 
+            <div id="monogram-form"></div>
+
             <form action="/cart/add" method="POST">
               {%- unless monogram_product.has_only_default_variant -%}
                 {%- for variant in monogram_product.variants -%}

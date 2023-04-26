@@ -1,0 +1,24 @@
+{
+  "name": "my-library",
+  "version": "1.0.0",
+  "source": "monogram.js",
+  "targets": {
+    "default": {
+      "distDir": "../assets"
+    },
+    "main": false
+  },
+  "alias": {
+    "preact/jsx-dev-runtime": "preact/jsx-runtime"
+  },
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "preact": "^10.13.2"
+  }
+}

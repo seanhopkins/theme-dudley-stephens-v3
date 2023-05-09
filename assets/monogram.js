@@ -559,6 +559,7 @@ function hmrAccept(bundle, id) {
 },{}],"j51ut":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _jsxDevRuntime = require("preact/jsx-dev-runtime");
+var _debug = require("preact/debug");
 var _preact = require("preact");
 var _form = require("./components/Form");
 var _formDefault = parcelHelpers.interopDefault(_form);
@@ -573,7 +574,7 @@ const data = {
     data: data
 }, void 0, false, {
     fileName: "monogram.js",
-    lineNumber: 20,
+    lineNumber: 21,
     columnNumber: 8
 }, undefined), monogramForm);
 class MonogramToggle extends HTMLElement {
@@ -604,7 +605,7 @@ class MonogramCustomizer extends HTMLElement {
 }
 customElements.define("monogram-customizer", MonogramCustomizer);
 
-},{"preact":"26zcy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","preact/jsx-dev-runtime":"3mFUL","./components/Form":"kLvDP"}],"26zcy":[function(require,module,exports) {
+},{"preact":"26zcy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","preact/jsx-dev-runtime":"3mFUL","./components/Form":"kLvDP","preact/debug":"bCMOY"}],"26zcy":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Component", ()=>k);
@@ -990,12 +991,17 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("preact/jsx-dev-runtime");
 var _hooks = require("preact/hooks");
+var _utils = require("../utils");
 const Form = ({ data  })=>{
     console.log(data);
     const [parentProductVariantId, setParentProductVariantId] = (0, _hooks.useState)(data.parent_product_initial_variant.id);
     const [monogramUuid, setMonogramUuid] = (0, _hooks.useState)(crypto.randomUUID());
     const [monogramFor, setMonogramFor] = (0, _hooks.useState)(`${data.parent_product.title} - ${data.parent_product_initial_variant.title}`);
     const [style, setStyle] = (0, _hooks.useState)(data.monogram_product_initial_variant.title);
+    const [monogram, setMonogram] = (0, _hooks.useState)("Dudley");
+    const [firstInitial, setFirstInitial] = (0, _hooks.useState)("A");
+    const [middleInitial, setMiddleInitial] = (0, _hooks.useState)("B");
+    const [lastInitial, setLastInitial] = (0, _hooks.useState)("C");
     document.addEventListener("ajaxProduct:added", ()=>{
         setMonogramUuid(crypto.randomUUID());
     });
@@ -1003,22 +1009,24 @@ const Form = ({ data  })=>{
         setParentProductVariantId(e.detail.variant.id);
         setMonogramFor(e.detail.variant.name);
     });
-    const onChange = (e)=>{
-        setStyle(e.target.dataset.title);
-    };
+    function location() {
+        const handle = (0, _utils.handleize)(data.parent_product.type);
+        if (handle === "kids") return "Left Chest";
+        else if (handle === "accessories" || handle === "kids-accessories") return "Opposite pineapple (left side)";
+        else return "Left Sleeve";
+    }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
         action: "/cart/add",
         method: "POST",
-        onChange: onChange,
         children: [
-            data.monogram_product.variants.map((variant, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+            data.monogram_product.variants.map((variant)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                             for: variant.id,
                             children: variant.title
                         }, void 0, false, {
                             fileName: "components/Form.jsx",
-                            lineNumber: 34,
+                            lineNumber: 47,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1026,53 +1034,50 @@ const Form = ({ data  })=>{
                             name: "items[0][id]",
                             id: variant.id,
                             value: variant.id,
-                            checked: index === 0 ? true : false,
+                            onChange: ()=>setStyle(variant.title),
+                            checked: style === variant.title,
                             "data-title": variant.title
                         }, void 0, false, {
                             fileName: "components/Form.jsx",
-                            lineNumber: 35,
+                            lineNumber: 48,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true)),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                 type: "text",
-                name: "monogram",
-                id: "monogram",
-                value: "Dudley"
+                onChange: (e)=>setMonogram(e.target.value),
+                value: monogram
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 46,
+                lineNumber: 60,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                 type: "text",
-                name: "first",
-                id: "first",
-                value: "A"
+                onChange: (e)=>setFirstInitial(e.target.value),
+                value: firstInitial
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 47,
+                lineNumber: 65,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                 type: "text",
-                name: "middle",
-                id: "middle",
-                value: "B"
+                onChange: (e)=>setMiddleInitial(e.target.value),
+                value: middleInitial
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 48,
+                lineNumber: 70,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                 type: "text",
-                name: "last",
-                id: "last",
-                value: "C"
+                onChange: (e)=>setLastInitial(e.target.value),
+                value: lastInitial
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 49,
+                lineNumber: 75,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1081,7 +1086,7 @@ const Form = ({ data  })=>{
                 value: "1"
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 52,
+                lineNumber: 82,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1090,7 +1095,7 @@ const Form = ({ data  })=>{
                 value: monogramUuid
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 53,
+                lineNumber: 83,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1099,7 +1104,7 @@ const Form = ({ data  })=>{
                 value: monogramFor
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 58,
+                lineNumber: 88,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1108,16 +1113,16 @@ const Form = ({ data  })=>{
                 value: style
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 63,
+                lineNumber: 93,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                 type: "hidden",
                 name: "items[0][properties][_Location]",
-                value: " {%- if parent_type_handle == 'kids' -%} Left Chest {%- elsif parent_type_handle == 'accessories' or parent_type_handle == 'kids-accessories' -%} Opposite pineapple (left side) {%- else -%} Left Sleeve {%- endif -%} "
+                value: location()
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 64,
+                lineNumber: 94,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1126,16 +1131,16 @@ const Form = ({ data  })=>{
                 value: "No"
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 80,
+                lineNumber: 99,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                 type: "hidden",
                 name: "items[0][properties][Monogram]",
-                value: ""
+                value: monogram + firstInitial + middleInitial + lastInitial
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 81,
+                lineNumber: 100,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1144,7 +1149,7 @@ const Form = ({ data  })=>{
                 value: parentProductVariantId
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 84,
+                lineNumber: 107,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1153,7 +1158,7 @@ const Form = ({ data  })=>{
                 value: "1"
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 85,
+                lineNumber: 108,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1162,7 +1167,7 @@ const Form = ({ data  })=>{
                 value: monogramUuid
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 86,
+                lineNumber: 109,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1171,25 +1176,25 @@ const Form = ({ data  })=>{
                 value: style
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 91,
+                lineNumber: 114,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                 type: "hidden",
                 name: "items[1][properties][_Location]",
-                value: " {%- if parent_type_handle == 'kids' -%} Left Chest {%- elsif parent_type_handle == 'accessories' or parent_type_handle == 'kids-accessories' -%} Opposite pineapple (left side) {%- else -%} Left Sleeve {%- endif -%} "
+                value: location()
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 92,
+                lineNumber: 115,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                 type: "hidden",
                 name: "items[1][properties][Monogram]",
-                value: ""
+                value: monogram + firstInitial + middleInitial + lastInitial
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 108,
+                lineNumber: 120,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -1197,19 +1202,19 @@ const Form = ({ data  })=>{
                 children: "Submit"
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 110,
+                lineNumber: 126,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "components/Form.jsx",
-        lineNumber: 31,
+        lineNumber: 44,
         columnNumber: 5
     }, undefined);
 };
 exports.default = Form;
 
-},{"preact/jsx-dev-runtime":"3mFUL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","preact/hooks":"eZN76"}],"eZN76":[function(require,module,exports) {
+},{"preact/jsx-dev-runtime":"3mFUL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","preact/hooks":"eZN76","../utils":"bIDtH"}],"eZN76":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useCallback", ()=>T);
@@ -1409,6 +1414,237 @@ function z(n, t) {
 function B(n, t) {
     return "function" == typeof t ? t(n) : t;
 }
+
+},{"preact":"26zcy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bIDtH":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "handleize", ()=>handleize);
+function handleize(string) {
+    string = string.toLowerCase();
+    var toReplace = [
+        '"',
+        "'",
+        "\\",
+        "(",
+        ")",
+        "[",
+        "]"
+    ];
+    // For the old browsers
+    for(var i = 0; i < toReplace.length; ++i)string = string.replace(toReplace[i], "");
+    string = string.replace(/\W+/g, "-");
+    if (string.charAt(string.length - 1) == "-") string = string.replace(/-+\z/, "");
+    if (string.charAt(0) == "-") string = string.replace(/\A-+/, "");
+    return string;
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bCMOY":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "resetPropWarnings", ()=>r);
+var _preact = require("preact");
+var _devtools = require("preact/devtools");
+var o = {};
+function r() {
+    o = {};
+}
+function a(e) {
+    return e.type === (0, _preact.Fragment) ? "Fragment" : "function" == typeof e.type ? e.type.displayName || e.type.name : "string" == typeof e.type ? e.type : "#text";
+}
+var i = [], c = [];
+function s() {
+    return i.length > 0 ? i[i.length - 1] : null;
+}
+var u = !1;
+function l(e) {
+    return "function" == typeof e.type && e.type != (0, _preact.Fragment);
+}
+function f(n) {
+    for(var e = [
+        n
+    ], t = n; null != t.__o;)e.push(t.__o), t = t.__o;
+    return e.reduce(function(n, e) {
+        n += "  in " + a(e);
+        var t = e.__source;
+        return t ? n += " (at " + t.fileName + ":" + t.lineNumber + ")" : u || (u = !0, console.warn("Add @babel/plugin-transform-react-jsx-source to get a more detailed component stack. Note that you should not add it to production builds of your App for bundle size reasons.")), n + "\n";
+    }, "");
+}
+var p = "function" == typeof WeakMap;
+function d(n) {
+    return n ? "function" == typeof n.type ? d(n.__) : n : {};
+}
+var h = (0, _preact.Component).prototype.setState;
+(0, _preact.Component).prototype.setState = function(n, e) {
+    return null == this.__v && null == this.state && console.warn('Calling "this.setState" inside the constructor of a component is a no-op and might be a bug in your application. Instead, set "this.state = {}" directly.\n\n' + f(s())), h.call(this, n, e);
+};
+var y = (0, _preact.Component).prototype.forceUpdate;
+function v(n) {
+    var e = n.props, t = a(n), o = "";
+    for(var r in e)if (e.hasOwnProperty(r) && "children" !== r) {
+        var i = e[r];
+        "function" == typeof i && (i = "function " + (i.displayName || i.name) + "() {}"), i = Object(i) !== i || i.toString ? i + "" : Object.prototype.toString.call(i), o += " " + r + "=" + JSON.stringify(i);
+    }
+    var c = e.children;
+    return "<" + t + o + (c && c.length ? ">..</" + t + ">" : " />");
+}
+(0, _preact.Component).prototype.forceUpdate = function(n) {
+    return null == this.__v ? console.warn('Calling "this.forceUpdate" inside the constructor of a component is a no-op and might be a bug in your application.\n\n' + f(s())) : null == this.__P && console.warn('Can\'t call "this.forceUpdate" on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in the componentWillUnmount method.\n\n' + f(this.__v)), y.call(this, n);
+}, function() {
+    !function() {
+        var n = (0, _preact.options).__b, t = (0, _preact.options).diffed, o = (0, _preact.options).__, r = (0, _preact.options).vnode, a = (0, _preact.options).__r;
+        (0, _preact.options).diffed = function(n) {
+            l(n) && c.pop(), i.pop(), t && t(n);
+        }, (0, _preact.options).__b = function(e) {
+            l(e) && i.push(e), n && n(e);
+        }, (0, _preact.options).__ = function(n, e) {
+            c = [], o && o(n, e);
+        }, (0, _preact.options).vnode = function(n) {
+            n.__o = c.length > 0 ? c[c.length - 1] : null, r && r(n);
+        }, (0, _preact.options).__r = function(n) {
+            l(n) && c.push(n), a && a(n);
+        };
+    }();
+    var n = !1, t = (0, _preact.options).__b, r = (0, _preact.options).diffed, s = (0, _preact.options).vnode, u = (0, _preact.options).__e, h = (0, _preact.options).__, y = (0, _preact.options).__h, m = p ? {
+        useEffect: new WeakMap,
+        useLayoutEffect: new WeakMap,
+        lazyPropTypes: new WeakMap
+    } : null, b = [];
+    (0, _preact.options).__e = function(n, e, t, o) {
+        if (e && e.__c && "function" == typeof n.then) {
+            var r = n;
+            n = new Error("Missing Suspense. The throwing component was: " + a(e));
+            for(var i = e; i; i = i.__)if (i.__c && i.__c.__c) {
+                n = r;
+                break;
+            }
+            if (n instanceof Error) throw n;
+        }
+        try {
+            (o = o || {}).componentStack = f(e), u(n, e, t, o), "function" != typeof n.then && setTimeout(function() {
+                throw n;
+            });
+        } catch (n) {
+            throw n;
+        }
+    }, (0, _preact.options).__ = function(n, e) {
+        if (!e) throw new Error("Undefined parent passed to render(), this is the second argument.\nCheck if the element is available in the DOM/has the correct id.");
+        var t;
+        switch(e.nodeType){
+            case 1:
+            case 11:
+            case 9:
+                t = !0;
+                break;
+            default:
+                t = !1;
+        }
+        if (!t) {
+            var o = a(n);
+            throw new Error("Expected a valid HTML node as a second argument to render.	Received " + e + " instead: render(<" + o + " />, " + e + ");");
+        }
+        h && h(n, e);
+    }, (0, _preact.options).__b = function(e) {
+        var r = e.type, i = d(e.__);
+        if (n = !0, void 0 === r) throw new Error("Undefined component passed to createElement()\n\nYou likely forgot to export your component or might have mixed up default and named imports" + v(e) + "\n\n" + f(e));
+        if (null != r && "object" == typeof r) {
+            if (void 0 !== r.__k && void 0 !== r.__e) throw new Error("Invalid type passed to createElement(): " + r + "\n\nDid you accidentally pass a JSX literal as JSX twice?\n\n  let My" + a(e) + " = " + v(r) + ";\n  let vnode = <My" + a(e) + " />;\n\nThis usually happens when you export a JSX literal and not the component.\n\n" + f(e));
+            throw new Error("Invalid type passed to createElement(): " + (Array.isArray(r) ? "array" : r));
+        }
+        if ("thead" !== r && "tfoot" !== r && "tbody" !== r || "table" === i.type ? "tr" === r && "thead" !== i.type && "tfoot" !== i.type && "tbody" !== i.type && "table" !== i.type ? console.error("Improper nesting of table. Your <tr> should have a <thead/tbody/tfoot/table> parent." + v(e) + "\n\n" + f(e)) : "td" === r && "tr" !== i.type ? console.error("Improper nesting of table. Your <td> should have a <tr> parent." + v(e) + "\n\n" + f(e)) : "th" === r && "tr" !== i.type && console.error("Improper nesting of table. Your <th> should have a <tr>." + v(e) + "\n\n" + f(e)) : console.error("Improper nesting of table. Your <thead/tbody/tfoot> should have a <table> parent." + v(e) + "\n\n" + f(e)), void 0 !== e.ref && "function" != typeof e.ref && "object" != typeof e.ref && !("$$typeof" in e)) throw new Error('Component\'s "ref" property should be a function, or an object created by createRef(), but got [' + typeof e.ref + "] instead\n" + v(e) + "\n\n" + f(e));
+        if ("string" == typeof e.type) {
+            for(var c in e.props)if ("o" === c[0] && "n" === c[1] && "function" != typeof e.props[c] && null != e.props[c]) throw new Error("Component's \"" + c + '" property should be a function, but got [' + typeof e.props[c] + "] instead\n" + v(e) + "\n\n" + f(e));
+        }
+        if ("function" == typeof e.type && e.type.propTypes) {
+            if ("Lazy" === e.type.displayName && m && !m.lazyPropTypes.has(e.type)) {
+                var s = "PropTypes are not supported on lazy(). Use propTypes on the wrapped component itself. ";
+                try {
+                    var u = e.type();
+                    m.lazyPropTypes.set(e.type, !0), console.warn(s + "Component wrapped in lazy() is " + a(u));
+                } catch (n) {
+                    console.warn(s + "We will log the wrapped component's name once it is loaded.");
+                }
+            }
+            var l = e.props;
+            e.type.__f && delete (l = function(n, e) {
+                for(var t in e)n[t] = e[t];
+                return n;
+            }({}, l)).ref, function(n, e, t, r, a) {
+                Object.keys(n).forEach(function(t) {
+                    var i;
+                    try {
+                        i = n[t](e, t, r, "prop", null, "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED");
+                    } catch (n) {
+                        i = n;
+                    }
+                    i && !(i.message in o) && (o[i.message] = !0, console.error("Failed prop type: " + i.message + (a && "\n" + a() || "")));
+                });
+            }(e.type.propTypes, l, 0, a(e), function() {
+                return f(e);
+            });
+        }
+        t && t(e);
+    }, (0, _preact.options).__h = function(e, t, o) {
+        if (!e || !n) throw new Error("Hook can only be invoked from render methods.");
+        y && y(e, t, o);
+    };
+    var w = function(n, e) {
+        return {
+            get: function() {
+                var t = "get" + n + e;
+                b && b.indexOf(t) < 0 && (b.push(t), console.warn("getting vnode." + n + " is deprecated, " + e));
+            },
+            set: function() {
+                var t = "set" + n + e;
+                b && b.indexOf(t) < 0 && (b.push(t), console.warn("setting vnode." + n + " is not allowed, " + e));
+            }
+        };
+    }, g = {
+        nodeName: w("nodeName", "use vnode.type"),
+        attributes: w("attributes", "use vnode.props"),
+        children: w("children", "use vnode.props.children")
+    }, E = Object.create({}, g);
+    (0, _preact.options).vnode = function(n) {
+        var e = n.props;
+        if (null !== n.type && null != e && ("__source" in e || "__self" in e)) {
+            var t = n.props = {};
+            for(var o in e){
+                var r = e[o];
+                "__source" === o ? n.__source = r : "__self" === o ? n.__self = r : t[o] = r;
+            }
+        }
+        n.__proto__ = E, s && s(n);
+    }, (0, _preact.options).diffed = function(e) {
+        if (e.__k && e.__k.forEach(function(n) {
+            if ("object" == typeof n && n && void 0 === n.type) {
+                var t = Object.keys(n).join(",");
+                throw new Error("Objects are not valid as a child. Encountered an object with the keys {" + t + "}.\n\n" + f(e));
+            }
+        }), n = !1, r && r(e), null != e.__k) for(var t = [], o = 0; o < e.__k.length; o++){
+            var a = e.__k[o];
+            if (a && null != a.key) {
+                var i = a.key;
+                if (-1 !== t.indexOf(i)) {
+                    console.error('Following component has two or more children with the same key attribute: "' + i + '". This may cause glitches and misbehavior in rendering process. Component: \n\n' + v(e) + "\n\n" + f(e));
+                    break;
+                }
+                t.push(i);
+            }
+        }
+    };
+}();
+
+},{"preact":"26zcy","preact/devtools":"filjq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"filjq":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "addHookName", ()=>t);
+var _preact = require("preact");
+function t(o, e) {
+    return (0, _preact.options).__a && (0, _preact.options).__a(e), o;
+}
+"undefined" != typeof window && window.__PREACT_DEVTOOLS__ && window.__PREACT_DEVTOOLS__.attachPreact("10.13.2", (0, _preact.options), {
+    Fragment: (0, _preact.Fragment),
+    Component: (0, _preact.Component)
+});
 
 },{"preact":"26zcy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["fG26k","j51ut"], "j51ut", "parcelRequire6d00")
 

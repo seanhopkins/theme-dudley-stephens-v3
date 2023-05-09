@@ -1,4 +1,5 @@
 import { useState } from "preact/hooks";
+import { handleize } from "../utils";
 
 const Form = ({ data }) => {
   console.log(data);
@@ -13,6 +14,10 @@ const Form = ({ data }) => {
   const [style, setStyle] = useState(
     data.monogram_product_initial_variant.title
   );
+  const [monogram, setMonogram] = useState("Dudley");
+  const [firstInitial, setFirstInitial] = useState("A");
+  const [middleInitial, setMiddleInitial] = useState("B");
+  const [lastInitial, setLastInitial] = useState("C");
 
   document.addEventListener("ajaxProduct:added", () => {
     setMonogramUuid(crypto.randomUUID());
@@ -23,13 +28,21 @@ const Form = ({ data }) => {
     setMonogramFor(e.detail.variant.name);
   });
 
-  const onChange = (e) => {
-    setStyle(e.target.dataset.title);
-  };
+  function location() {
+    const handle = handleize(data.parent_product.type);
+
+    if (handle === "kids") {
+      return "Left Chest";
+    } else if (handle === "accessories" || handle === "kids-accessories") {
+      return "Opposite pineapple (left side)";
+    } else {
+      return "Left Sleeve";
+    }
+  }
 
   return (
-    <form action="/cart/add" method="POST" onChange={onChange}>
-      {data.monogram_product.variants.map((variant, index) => (
+    <form action="/cart/add" method="POST">
+      {data.monogram_product.variants.map((variant) => (
         <>
           <label for={variant.id}>{variant.title}</label>
           <input
@@ -37,16 +50,33 @@ const Form = ({ data }) => {
             name="items[0][id]"
             id={variant.id}
             value={variant.id}
-            checked={index === 0 ? true : false}
+            onChange={() => setStyle(variant.title)}
+            checked={style === variant.title}
             data-title={variant.title}
           />
         </>
       ))}
 
-      <input type="text" name="monogram" id="monogram" value="Dudley" />
-      <input type="text" name="first" id="first" value="A" />
-      <input type="text" name="middle" id="middle" value="B" />
-      <input type="text" name="last" id="last" value="C" />
+      <input
+        type="text"
+        onChange={(e) => setMonogram(e.target.value)}
+        value={monogram}
+      />
+      <input
+        type="text"
+        onChange={(e) => setFirstInitial(e.target.value)}
+        value={firstInitial}
+      />
+      <input
+        type="text"
+        onChange={(e) => setMiddleInitial(e.target.value)}
+        value={middleInitial}
+      />
+      <input
+        type="text"
+        onChange={(e) => setLastInitial(e.target.value)}
+        value={lastInitial}
+      />
 
       {/* Monogram product */}
       <input type="hidden" name="items[0][quantity]" value="1" />
@@ -64,21 +94,14 @@ const Form = ({ data }) => {
       <input
         type="hidden"
         name="items[0][properties][_Location]"
-        value="
-          {%- if parent_type_handle == 'kids' -%}
-            Left Chest
-          {%- 
-            elsif parent_type_handle == 'accessories' 
-            or parent_type_handle == 'kids-accessories' 
-          -%}
-            Opposite pineapple (left side)
-          {%- else -%}
-            Left Sleeve
-          {%- endif -%}
-        "
+        value={location()}
       />
       <input type="hidden" name="items[0][properties][_Gift wrap]" value="No" />
-      <input type="hidden" name="items[0][properties][Monogram]" value="" />
+      <input
+        type="hidden"
+        name="items[0][properties][Monogram]"
+        value={monogram + firstInitial + middleInitial + lastInitial}
+      />
 
       {/* Parent product */}
       <input type="hidden" name="items[1][id]" value={parentProductVariantId} />
@@ -92,20 +115,13 @@ const Form = ({ data }) => {
       <input
         type="hidden"
         name="items[1][properties][_Location]"
-        value="
-          {%- if parent_type_handle == 'kids' -%}
-            Left Chest
-          {%- 
-            elsif parent_type_handle == 'accessories' 
-            or parent_type_handle == 'kids-accessories' 
-          -%}
-            Opposite pineapple (left side)
-          {%- else -%}
-            Left Sleeve
-          {%- endif -%}
-        "
+        value={location()}
       />
-      <input type="hidden" name="items[1][properties][Monogram]" value="" />
+      <input
+        type="hidden"
+        name="items[1][properties][Monogram]"
+        value={monogram + firstInitial + middleInitial + lastInitial}
+      />
 
       <button class="btn monogram__add-to-cart">Submit</button>
     </form>

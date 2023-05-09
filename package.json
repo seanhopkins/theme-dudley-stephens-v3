@@ -1,0 +1,11 @@
+{
+  "name": "theme-dudley-stephens-v3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "shop:start": "shopify theme dev --store=dudley-stephens"
+  },
+  "author": "",
+  "license": "ISC"
+}

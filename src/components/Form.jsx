@@ -59,21 +59,25 @@ const Form = ({ data }) => {
 
       <input
         type="text"
-        onChange={(e) => setMonogram(e.target.value)}
+        maxLength="10"
+        onInput={(e) => setMonogram(e.target.value)}
         value={monogram}
       />
       <input
         type="text"
-        onChange={(e) => setFirstInitial(e.target.value)}
+        maxLength="1"
+        onInput={(e) => setFirstInitial(e.target.value)}
         value={firstInitial}
       />
       <input
         type="text"
+        maxLength="1"
         onChange={(e) => setMiddleInitial(e.target.value)}
         value={middleInitial}
       />
       <input
         type="text"
+        maxLength="1"
         onChange={(e) => setLastInitial(e.target.value)}
         value={lastInitial}
       />
@@ -123,7 +127,13 @@ const Form = ({ data }) => {
         value={monogram + firstInitial + middleInitial + lastInitial}
       />
 
-      <button class="btn monogram__add-to-cart">Submit</button>
+      {monogram && firstInitial && middleInitial && lastInitial ? (
+        <button class="btn monogram__add-to-cart">Submit</button>
+      ) : (
+        <button class="btn monogram__add-to-cart" type="button" disabled>
+          ERROR
+        </button>
+      )}
     </form>
   );
 };

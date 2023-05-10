@@ -234,42 +234,6 @@
         "lazyload_images": true
       }
     },
-    "6c3e39f0-b89c-495b-b25e-7023b5c70d72": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--14916567695402__6c3e39f0-b89c-495b-b25e-7023b5c70d72-1683731864fb64ff4d-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Pineapple Street"
-          }
-        },
-        "template--14916567695402__6c3e39f0-b89c-495b-b25e-7023b5c70d72-1683731864fb64ff4d-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Take a walk down Pineapple Street for the latest #dsgoods updates, news and style.<\/p>"
-          }
-        },
-        "efcfbb83-286b-40dd-8414-0a20499f98ce": {
-          "type": "button",
-          "settings": {
-            "link": "",
-            "link_text": "Button"
-          }
-        }
-      },
-      "block_order": [
-        "template--14916567695402__6c3e39f0-b89c-495b-b25e-7023b5c70d72-1683731864fb64ff4d-0",
-        "template--14916567695402__6c3e39f0-b89c-495b-b25e-7023b5c70d72-1683731864fb64ff4d-1",
-        "efcfbb83-286b-40dd-8414-0a20499f98ce"
-      ],
-      "settings": {
-        "align_text": "left",
-        "narrow_column": false,
-        "divider": false
-      }
-    },
     "blog-posts": {
       "type": "blog-posts",
       "custom_css": [
@@ -288,14 +252,54 @@
         "divider": false
       }
     },
-    "map": {
-      "type": "map",
+    "6c3e39f0-b89c-495b-b25e-7023b5c70d72": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14916567695402__6c3e39f0-b89c-495b-b25e-7023b5c70d72-1683731864fb64ff4d-0": {
+          "type": "heading",
+          "settings": {
+            "title": "This is how we dudley"
+          }
+        },
+        "template--14916567695402__6c3e39f0-b89c-495b-b25e-7023b5c70d72-1683731864fb64ff4d-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><a href=\"https:\/\/www.instagram.com\/dudley_stephens\/?hl=en\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/dudley_stephens\/?hl=en\">@dudley_stephens<\/a> | #howdoyoududley<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14916567695402__6c3e39f0-b89c-495b-b25e-7023b5c70d72-1683731864fb64ff4d-0",
+        "template--14916567695402__6c3e39f0-b89c-495b-b25e-7023b5c70d72-1683731864fb64ff4d-1"
+      ],
+      "custom_css": [
+        ".theme-block,h2 {margin-bottom: 0;"
+      ],
       "settings": {
-        "map_title": "Our retail store",
-        "address": "<p>301 Front St W<br>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm<\/p>",
-        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
-        "api_key": "",
-        "show_button": true,
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "8094ad36-9c5b-49d2-8bc5-e44e5d91343a": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14916567695402__8094ad36-9c5b-49d2-8bc5-e44e5d91343a-16837268974b896fdd-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"yotpo yotpo-pictures-widget\" data-gallery-id=\"60b94222238de4456e9fb81a\"><\/div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14916567695402__8094ad36-9c5b-49d2-8bc5-e44e5d91343a-16837268974b896fdd-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
         "lazyload_images": true
       }
     }
@@ -306,8 +310,8 @@
     "55b4676d-449a-4dad-bd6c-c86b5726c2ae",
     "3283dc6a-ca11-4d10-91a7-cedc47a19e46",
     "35ebcf9a-8d37-49df-8b76-84867cfbd8bd",
-    "6c3e39f0-b89c-495b-b25e-7023b5c70d72",
     "blog-posts",
-    "map"
+    "6c3e39f0-b89c-495b-b25e-7023b5c70d72",
+    "8094ad36-9c5b-49d2-8bc5-e44e5d91343a"
   ]
 }

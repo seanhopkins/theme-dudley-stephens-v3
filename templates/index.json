@@ -299,7 +299,7 @@
         "template--14916567695402__8094ad36-9c5b-49d2-8bc5-e44e5d91343a-16837268974b896fdd-1"
       ],
       "custom_css": [
-        ".yotpo-single-image-container {border-radius:8px;}"
+        ".yotpo-image {border-radius: 8px;}"
       ],
       "settings": {
         "full_width": false,

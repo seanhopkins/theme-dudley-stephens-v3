@@ -137,7 +137,7 @@
         "b4389e38-d626-4753-b544-cb0c7daa17aa"
       ],
       "custom_css": [
-        "h3 {font-size: 2em; margin-bottom: 0;}",
+        "h3 {font-size: 2em; margin-bottom: 0; line-height: 1em;}",
         ".btn {margin-top: 2em;}",
         ".grid--uniform {display: flex; align-items: center;}",
         ".medium-up--one-half {width: 25%;}",

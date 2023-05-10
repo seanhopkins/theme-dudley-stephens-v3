@@ -161,8 +161,8 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "",
-            "text": "",
-            "button_label": "Shop the latest",
+            "text": "<h4>Shop the latest<\/h4>",
+            "button_label": "",
             "button_link": "shopify:\/\/collections\/park-slope-turtleneck"
           }
         },
@@ -201,6 +201,7 @@
         "h3 {font-size: 2em; margin-bottom: 0;}",
         ".btn {margin-top: 2em;}",
         ".grid--uniform {display: flex; align-items: center;}",
+        "h4 {font-size: 0.9em; letter-spacing: 2px;}",
         ".medium-up--one-third:nth-child(1) {text-align: right !important;}",
         ".medium-up--one-third:nth-child(2) {text-align: center !important;}",
         ".image-wrap {border-radius: 8px;}"

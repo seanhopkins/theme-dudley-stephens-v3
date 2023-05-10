@@ -14,7 +14,7 @@
             "link_text": "Mother's Day Gifts",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#9acc56",
+            "color_accent": "#f2f2eb",
             "text_align": "vertical-center horizontal-left",
             "image": "shopify:\/\/shop_images\/Slider_26d5eeb1-f795-4802-8168-ae9e2d006ce8.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_2ccb271f-4305-4979-97e5-85fec5d41243.jpg",
@@ -48,7 +48,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "enlarge_text": false,
+            "enlarge_text": true,
             "text": "<p>Style to live in. Responsible fabrics. Female founded.<\/p>"
           }
         },

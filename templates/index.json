@@ -215,14 +215,14 @@
       "settings": {
         "title": "",
         "align_text": "left",
-        "divider": false
+        "divider": true
       }
     },
     "35ebcf9a-8d37-49df-8b76-84867cfbd8bd": {
       "type": "text-and-image",
       "custom_css": [
         ".image-wrap {border-radius: 24px;}",
-        ".btn--tertiary, .rte .btn--tertiary {text-transform: uppercase;}"
+        ".btn--tertiary,.rte .btn--tertiary {text-transform: uppercase;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/dudleydvoted.jpg",
@@ -237,7 +237,7 @@
         "align_text": "left",
         "image_width": "50",
         "layout": "left",
-        "divider": false,
+        "divider": true,
         "top_padding": true,
         "bottom_padding": true,
         "lazyload_images": true
@@ -258,7 +258,7 @@
         "blog_show_author": false,
         "view_all": true,
         "blog_image_size": "natural",
-        "divider": false
+        "divider": true
       }
     },
     "6c3e39f0-b89c-495b-b25e-7023b5c70d72": {
@@ -288,7 +288,7 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "divider": false
+        "divider": true
       }
     },
     "8094ad36-9c5b-49d2-8bc5-e44e5d91343a": {

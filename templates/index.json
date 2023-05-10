@@ -153,12 +153,12 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/A6ED2CA7-11F8-4C5C-A9C8-62737607A943_1_201_a_c145a2e5-60c5-434a-a646-79fdccb90aa5.jpg",
+            "image": "shopify:\/\/shop_images\/2023-04-17-dudldeystephens-JDP_1713.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
             "text": "",
-            "button_label": "Park Slope",
+            "button_label": "Shop the latest",
             "button_link": "shopify:\/\/collections\/park-slope-turtleneck"
           }
         },
@@ -178,13 +178,13 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/1C0BCD44-F270-4D06-AC06-496D76516010_1_201_a_678db4a3-8fd8-44d6-adec-fd51c069aa1f.jpg",
+            "image": "shopify:\/\/shop_images\/fabricguide.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
             "text": "",
-            "button_label": "Greenpoint",
-            "button_link": "shopify:\/\/collections\/greenpoint-turtleneck"
+            "button_label": "DS Fabric Guide",
+            "button_link": "shopify:\/\/pages\/fabric-guide"
           }
         }
       },
@@ -195,6 +195,7 @@
       ],
       "custom_css": [
         ".grid--uniform {display: flex; align-items: center;}",
+        ".medium-up--one-third:nth-child(1) {text-align: right !important;}",
         ".medium-up--one-third:nth-child(2) {text-align: center !important;}"
       ],
       "settings": {

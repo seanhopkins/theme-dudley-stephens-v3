@@ -26,28 +26,6 @@
         "lazyload_images": false
       }
     },
-    "announcement": {
-      "type": "announcement",
-      "blocks": {
-        "announcement-1": {
-          "type": "announcement",
-          "settings": {
-            "text": "The first styles of summer are here!",
-            "link_text": "Shop the Drop",
-            "link": "shopify:\/\/collections\/new-drops"
-          }
-        }
-      },
-      "block_order": [
-        "announcement-1"
-      ],
-      "custom_css": [
-        ".announcement-text {letter-spacing: 0.025em; text-transform: none; font-size: 1em; font-weight: 500;}"
-      ],
-      "settings": {
-        "announcement_compact": true
-      }
-    },
     "header": {
       "type": "header",
       "blocks": {
@@ -79,11 +57,33 @@
         "show_currency_selector": true,
         "show_currency_flags": true
       }
+    },
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "The first styles of summer are here!",
+            "link_text": "Shop the Drop",
+            "link": "shopify:\/\/collections\/new-drops"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-1"
+      ],
+      "custom_css": [
+        ".announcement-text {letter-spacing: 0.025em; text-transform: none; font-size: 1em; font-weight: 500;}"
+      ],
+      "settings": {
+        "announcement_compact": true
+      }
     }
   },
   "order": [
     "fcc8c96c-7ecf-4592-b0ef-2628e8a45ae3",
-    "announcement",
-    "header"
+    "header",
+    "announcement"
   ]
 }

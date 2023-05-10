@@ -38,6 +38,9 @@
       "block_order": [
         "header-0"
       ],
+      "custom_css": [
+        ".toolbar {background: #fff;}"
+      ],
       "settings": {
         "main_menu_link_list": "new-2020-menu",
         "mega_menu_images": true,

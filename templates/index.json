@@ -85,9 +85,9 @@
             "image": "shopify:\/\/shop_images\/A6ED2CA7-11F8-4C5C-A9C8-62737607A943_1_201_a_c145a2e5-60c5-434a-a646-79fdccb90aa5.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Park Slope",
+            "title": "",
             "text": "",
-            "button_label": "",
+            "button_label": "Park Slope",
             "button_link": "shopify:\/\/collections\/park-slope-turtleneck"
           }
         },
@@ -98,9 +98,9 @@
             "image": "shopify:\/\/shop_images\/1C0BCD44-F270-4D06-AC06-496D76516010_1_201_a_678db4a3-8fd8-44d6-adec-fd51c069aa1f.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Greenpoint",
+            "title": "",
             "text": "",
-            "button_label": "",
+            "button_label": "Greenpoint",
             "button_link": "shopify:\/\/collections\/greenpoint-turtleneck"
           }
         },
@@ -110,22 +110,22 @@
             "enable_image": true,
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
-            "button_link": ""
+            "title": "",
+            "text": "",
+            "button_label": "Cobble Hill",
+            "button_link": "shopify:\/\/collections\/cobble-hill-turtleneck"
           }
         },
         "b4389e38-d626-4753-b544-cb0c7daa17aa": {
           "type": "text_block",
           "settings": {
-            "enable_image": true,
+            "enable_image": false,
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
-            "button_link": ""
+            "title": "Our bestselling turtlenecks",
+            "text": "<p>Three versatile lengths. Coziness for days (and nights)<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/turtlenecks"
           }
         }
       },

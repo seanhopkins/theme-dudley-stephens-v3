@@ -52,18 +52,18 @@
             "text": "<p>Style to live in. Responsible fabrics. Female founded.<\/p>"
           }
         },
-        "5c501b83-c710-427b-809b-2cc0a596cda5": {
-          "type": "button",
+        "4d952416-afbb-4b61-856f-c45d2cb68395": {
+          "type": "text",
           "settings": {
-            "link": "shopify:\/\/pages\/about-us",
-            "link_text": "About Us"
+            "enlarge_text": false,
+            "text": "<p><br\/><a href=\"\/pages\/about-dudley-stephens\" title=\"About Dudley Stephens\">About Us<\/a><\/p>"
           }
         }
       },
       "block_order": [
         "heading",
         "text",
-        "5c501b83-c710-427b-809b-2cc0a596cda5"
+        "4d952416-afbb-4b61-856f-c45d2cb68395"
       ],
       "custom_css": [
         ".theme-block {margin-bottom: 0;}",

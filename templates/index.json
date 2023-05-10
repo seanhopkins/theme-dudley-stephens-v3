@@ -237,7 +237,7 @@
         "align_text": "left",
         "image_width": "50",
         "layout": "left",
-        "divider": true,
+        "divider": false,
         "top_padding": true,
         "bottom_padding": true,
         "lazyload_images": true
@@ -288,7 +288,7 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "divider": true
+        "divider": false
       }
     },
     "8094ad36-9c5b-49d2-8bc5-e44e5d91343a": {

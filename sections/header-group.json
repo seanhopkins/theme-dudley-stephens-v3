@@ -8,7 +8,7 @@
         "sections--14916567466026__fcc8c96c-7ecf-4592-b0ef-2628e8a45ae3-16837268974b896fdd-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% comment %}\n**DO NOT DELETE**\nThis is how the custom font (QuaverSerif) is added to the theme\n{% endcomment %}\n{% style %}\n@font-face { \nfont-family: 'QuaverSerif';\nsrc: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0833\/2853\/files\/QuaverSerif.woff?v=1683726791 format('woff2');\n}\nh1,\nh2,\nh3,\nh4,\nh5,\n.h0,\n.h1,\n.h2,\n.h3,\n.h4,\n.h5 {\n  font-family: 'QuaverSerif' !important;\n  font-style: var(--font-heading-style);\n  font-weight: var(--font-heading-weight);\n  letter-spacing: calc(var(--font-heading-scale) * 0.06rem);\n  color: rgb(var(--color-foreground));\n  line-height: calc(1 + 0.3 \/ max(1, var(--font-heading-scale)));\n  word-break: break-word;\n}\n{% endstyle %}",
+            "code": "{% comment %}\n**DO NOT DELETE**\nThis is how the custom font (QuaverSerif) is added to the theme\n{% endcomment %}\n{% style %}\n@font-face { \nfont-family: 'QuaverSerif';\nsrc: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0833\/2853\/files\/QuaverSerif.woff?v=1683726791 format('woff2');\n}\nh1,\nh2,\nh3,\nh4,\nh5,\n.h0,\n.h1,\n.h2,\n.h3,\n.h4,\n.h5 {\n  font-family: 'QuaverSerif' !important;\n  font-style: var(--font-heading-style);\n  font-weight: var(--font-heading-weight);\n  letter-spacing: calc(var(--font-heading-scale) * 0.06rem);\n  color: rgb(var(--color-foreground));\n  line-height: calc(1 + 0.3 \/ max(1, var(--font-heading-scale)));\n  word-break: break-word;\n}\n.shopify-section > .section--divider {\n  background-color: var(--colorBorder);\n}\n{% endstyle %}",
             "width": "100%",
             "alignment": "center"
           }

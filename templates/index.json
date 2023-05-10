@@ -146,6 +146,63 @@
         "divider": false
       }
     },
+    "3283dc6a-ca11-4d10-91a7-cedc47a19e46": {
+      "type": "text-columns",
+      "blocks": {
+        "766713eb-6a75-4905-a739-d9a676b8f737": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/A6ED2CA7-11F8-4C5C-A9C8-62737607A943_1_201_a_c145a2e5-60c5-434a-a646-79fdccb90aa5.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "Park Slope",
+            "button_link": "shopify:\/\/collections\/park-slope-turtleneck"
+          }
+        },
+        "be088a18-d7e5-4c84-be33-80be16342c10": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Seasonal Refresh",
+            "text": "<p>New styles for right now<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/turtlenecks"
+          }
+        },
+        "3ddf58c6-3030-4e6f-8364-889614041e2c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/1C0BCD44-F270-4D06-AC06-496D76516010_1_201_a_678db4a3-8fd8-44d6-adec-fd51c069aa1f.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "Greenpoint",
+            "button_link": "shopify:\/\/collections\/greenpoint-turtleneck"
+          }
+        }
+      },
+      "block_order": [
+        "766713eb-6a75-4905-a739-d9a676b8f737",
+        "be088a18-d7e5-4c84-be33-80be16342c10",
+        "3ddf58c6-3030-4e6f-8364-889614041e2c"
+      ],
+      "custom_css": [
+        ".grid--uniform {display: flex; align-items: center;}",
+        ".medium-up--one-third:nth-child(2) {text-align: center !important;}"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false
+      }
+    },
     "promo-grid2": {
       "type": "promo-grid",
       "blocks": {
@@ -332,6 +389,7 @@
     "slideshow",
     "rich-text",
     "55b4676d-449a-4dad-bd6c-c86b5726c2ae",
+    "3283dc6a-ca11-4d10-91a7-cedc47a19e46",
     "promo-grid2",
     "featured-collections",
     "featured-collection",

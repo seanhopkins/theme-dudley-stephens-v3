@@ -6,12 +6,12 @@
         "slideshow-0": {
           "type": "image",
           "settings": {
-            "top_subheading": "",
+            "top_subheading": "Mother's Day Gifts",
             "title": "Mom's the Word",
             "title_size": 72,
             "subheading": "Say thanks for all she does with a Dudley she can wear to do it all.",
             "link": "shopify:\/\/pages\/mothers-day-gift-guide",
-            "link_text": "Mother's Day Gifts",
+            "link_text": "Shop Now",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#f2f2eb",
@@ -25,6 +25,12 @@
       },
       "block_order": [
         "slideshow-0"
+      ],
+      "custom_css": [
+        ".hero__top-subtitle {font-size: .9em; margin-bottom: 1em;}",
+        ".hero__title {line-height: 1em;}",
+        ".hero__text-content .hero__link {margin-top: 2em;}",
+        ".btn {letter-spacing: 1px; font-weight: 400;}"
       ],
       "settings": {
         "section_height": "natural",

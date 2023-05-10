@@ -302,6 +302,69 @@
         "space_around": true,
         "lazyload_images": true
       }
+    },
+    "dd662593-564f-46bd-965c-42be0bb69954": {
+      "type": "logo-list",
+      "blocks": {
+        "template--14916567695402__dd662593-564f-46bd-965c-42be0bb69954-1683732257b215b813-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elle.jpg",
+            "link": ""
+          }
+        },
+        "template--14916567695402__dd662593-564f-46bd-965c-42be0bb69954-1683732257b215b813-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/people_300x_757ee6a7-7e6b-446c-ac16-d598aa89063e.png",
+            "link": ""
+          }
+        },
+        "template--14916567695402__dd662593-564f-46bd-965c-42be0bb69954-1683732257b215b813-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/o-mag-logo_300x_840ae9d1-fd1d-4cd8-9062-0be94333c294.jpg",
+            "link": ""
+          }
+        },
+        "template--14916567695402__dd662593-564f-46bd-965c-42be0bb69954-1683732257b215b813-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cnn-logo-logo_300x_72ec6853-6cd8-4a9a-9e1e-32901582365b.png",
+            "link": ""
+          }
+        },
+        "c9c2aa45-7d05-43f5-94a7-df3ff625b4ad": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fox-business-vector-logo_300x_b438eb99-9333-4007-b078-807d279dd14d.png",
+            "link": ""
+          }
+        },
+        "b1fd02c9-85f4-4f4b-8577-b376a592bc27": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/womens-wear-daily-wwd-vector-logo_240x_686bf968-8164-4fb9-81d5-5f73e44810cd.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14916567695402__dd662593-564f-46bd-965c-42be0bb69954-1683732257b215b813-0",
+        "template--14916567695402__dd662593-564f-46bd-965c-42be0bb69954-1683732257b215b813-1",
+        "template--14916567695402__dd662593-564f-46bd-965c-42be0bb69954-1683732257b215b813-2",
+        "template--14916567695402__dd662593-564f-46bd-965c-42be0bb69954-1683732257b215b813-3",
+        "c9c2aa45-7d05-43f5-94a7-df3ff625b4ad",
+        "b1fd02c9-85f4-4f4b-8577-b376a592bc27"
+      ],
+      "custom_css": [
+        "h2 {text-align: center;}"
+      ],
+      "settings": {
+        "title": "As seen in...",
+        "logo_opacity": 76,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -312,6 +375,7 @@
     "35ebcf9a-8d37-49df-8b76-84867cfbd8bd",
     "blog-posts",
     "6c3e39f0-b89c-495b-b25e-7023b5c70d72",
-    "8094ad36-9c5b-49d2-8bc5-e44e5d91343a"
+    "8094ad36-9c5b-49d2-8bc5-e44e5d91343a",
+    "dd662593-564f-46bd-965c-42be0bb69954"
   ]
 }

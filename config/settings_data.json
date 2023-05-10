@@ -577,5 +577,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".slideshow__slide--slideshow-0 .btn {letter-spacing: 0.1em;\/* text-transform: none; *\/ color: #fff !important;}"
+    ]
   }
 }

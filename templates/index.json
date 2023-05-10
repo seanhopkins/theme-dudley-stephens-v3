@@ -42,13 +42,13 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "This is dudley stephens"
+            "title": "This is Dudley-Stephens"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "enlarge_text": false,
+            "enlarge_text": true,
             "text": "<p>Style to live in. Responsible fabrics. Female founded.<\/p>"
           }
         },
@@ -123,7 +123,7 @@
             "enable_image": false,
             "image_mask": "none",
             "image_width": 650,
-            "title": "Our bestselling turtlenecks",
+            "title": "Our Bestselling Turtlenecks",
             "text": "<p>Three versatile lengths. Coziness for days (and nights)<\/p>",
             "button_label": "Shop Now",
             "button_link": "shopify:\/\/collections\/turtlenecks"
@@ -137,7 +137,7 @@
         "b4389e38-d626-4753-b544-cb0c7daa17aa"
       ],
       "custom_css": [
-        "h3 {font-size: 2em; margin-bottom: 0; line-height: 1em;}",
+        "h3 {font-size: 2em; \/* margin-bottom: 0; *\/ line-height: 1em;}",
         ".btn {margin-top: 2em;}",
         ".grid--uniform {display: flex; align-items: center;}",
         ".medium-up--one-half {width: 25%;}",

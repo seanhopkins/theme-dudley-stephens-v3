@@ -583,7 +583,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".btn,.rte .btn {letter-spacing: 0.125em !important; padding-left: 2em; padding-right: 2em; --buttonRadius: 8px; border: 1px solid #fff;}"
+      ".btn,.rte .btn,.slideshow__slide .hero__link .btn {letter-spacing: 0.125em !important; padding-left: 2em; padding-right: 2em; --buttonRadius: 8px; border: 1px solid #fff;}"
     ]
   }
 }

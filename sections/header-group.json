@@ -70,6 +70,9 @@
       "block_order": [
         "announcement-1"
       ],
+      "custom_css": [
+        ".announcement-text {letter-spacing: 0.1em; text-transform: none; font-size: 1em;}"
+      ],
       "settings": {
         "announcement_compact": true
       }

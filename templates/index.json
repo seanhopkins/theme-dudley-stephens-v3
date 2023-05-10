@@ -137,12 +137,12 @@
         "b4389e38-d626-4753-b544-cb0c7daa17aa"
       ],
       "custom_css": [
-        "h3 {font-size: 2em; \/* margin-bottom: 0; *\/ line-height: 1em;}",
+        "h3 {font-size: 2em; line-height: 1em;}",
         "h4 {font-size: 0.9em; letter-spacing: 2px;}",
-        ".rte-setting .btn {margin-top: 2em;}",
+        ".rte-setting + .btn {margin-top: 2em;}",
         ".grid--uniform {display: flex; align-items: center;}",
-        ".medium-up--one-half {width: 25%;}",
-        ".image-wrap {border-radius: 8px;}"
+        ".image-wrap {border-radius: 8px;}",
+        ".grid__item:last-of-type {text-align: center !important;}"
       ],
       "settings": {
         "title": "",

@@ -140,7 +140,8 @@
         "h3 {font-size: 2em; margin-bottom: 0;}",
         ".btn {margin-top: 2em;}",
         ".grid--uniform {display: flex; align-items: center;}",
-        ".medium-up--one-half {width: 25%;}"
+        ".medium-up--one-half {width: 25%;}",
+        ".image-wrap {border-radius: 8px;}"
       ],
       "settings": {
         "title": "",
@@ -200,7 +201,8 @@
         ".btn {margin-top: 2em;}",
         ".grid--uniform {display: flex; align-items: center;}",
         ".medium-up--one-third:nth-child(1) {text-align: right !important;}",
-        ".medium-up--one-third:nth-child(2) {text-align: center !important;}"
+        ".medium-up--one-third:nth-child(2) {text-align: center !important;}",
+        ".image-wrap {border-radius: 8px;}"
       ],
       "settings": {
         "title": "",
@@ -232,8 +234,47 @@
         "lazyload_images": true
       }
     },
+    "6c3e39f0-b89c-495b-b25e-7023b5c70d72": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--14916567695402__6c3e39f0-b89c-495b-b25e-7023b5c70d72-1683731864fb64ff4d-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Pineapple Street"
+          }
+        },
+        "template--14916567695402__6c3e39f0-b89c-495b-b25e-7023b5c70d72-1683731864fb64ff4d-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Take a walk down Pineapple Street for the latest #dsgoods updates, news and style.<\/p>"
+          }
+        },
+        "efcfbb83-286b-40dd-8414-0a20499f98ce": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "Button"
+          }
+        }
+      },
+      "block_order": [
+        "template--14916567695402__6c3e39f0-b89c-495b-b25e-7023b5c70d72-1683731864fb64ff4d-0",
+        "template--14916567695402__6c3e39f0-b89c-495b-b25e-7023b5c70d72-1683731864fb64ff4d-1",
+        "efcfbb83-286b-40dd-8414-0a20499f98ce"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": false,
+        "divider": false
+      }
+    },
     "blog-posts": {
       "type": "blog-posts",
+      "custom_css": [
+        ".image-wrap {border-radius: 8px;}"
+      ],
       "settings": {
         "title": "Take a walk down Pineapple Street",
         "blog": "pineapple-street",
@@ -265,6 +306,7 @@
     "55b4676d-449a-4dad-bd6c-c86b5726c2ae",
     "3283dc6a-ca11-4d10-91a7-cedc47a19e46",
     "35ebcf9a-8d37-49df-8b76-84867cfbd8bd",
+    "6c3e39f0-b89c-495b-b25e-7023b5c70d72",
     "blog-posts",
     "map"
   ]

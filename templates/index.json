@@ -161,9 +161,9 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "",
-            "text": "<h4>Shop the latest<\/h4>",
+            "text": "<h4><a href=\"\/collections\/new-drops\" title=\"Shop the New Drops\">Shop the latest<\/a><\/h4>",
             "button_label": "",
-            "button_link": "shopify:\/\/collections\/park-slope-turtleneck"
+            "button_link": "shopify:\/\/collections\/new-drops"
           }
         },
         "be088a18-d7e5-4c84-be33-80be16342c10": {
@@ -186,8 +186,8 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "",
-            "text": "",
-            "button_label": "DS Fabric Guide",
+            "text": "<h4><a href=\"\/pages\/fabric-guide\" title=\"Fabric Guide\">DS Fabric Guide<\/a><\/h4>",
+            "button_label": "",
             "button_link": "shopify:\/\/pages\/fabric-guide"
           }
         }

@@ -86,8 +86,8 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "",
-            "text": "",
-            "button_label": "Park Slope",
+            "text": "<h4><a href=\"\/collections\/park-slope-turtleneck\" title=\"Park Slope Turtleneck\">Park Slope<\/a><\/h4>",
+            "button_label": "",
             "button_link": "shopify:\/\/collections\/park-slope-turtleneck"
           }
         },
@@ -138,6 +138,7 @@
       ],
       "custom_css": [
         "h3 {font-size: 2em; \/* margin-bottom: 0; *\/ line-height: 1em;}",
+        "h4 {font-size: .9em; letter-spacing: 2px;}",
         ".rte-setting .btn {margin-top: 2em;}",
         ".grid--uniform {display: flex; align-items: center;}",
         ".medium-up--one-half {width: 25%;}",

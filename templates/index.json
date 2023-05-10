@@ -136,6 +136,10 @@
         "template--14916567695402__55b4676d-449a-4dad-bd6c-c86b5726c2ae-1683728794ec26b989-2",
         "b4389e38-d626-4753-b544-cb0c7daa17aa"
       ],
+      "custom_css": [
+        ".grid--uniform {display: flex; align-items: center;}",
+        ".medium-up--one-half {width: 25%;}"
+      ],
       "settings": {
         "title": "",
         "align_text": "left",

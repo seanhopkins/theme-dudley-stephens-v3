@@ -65,6 +65,10 @@
         "text",
         "5c501b83-c710-427b-809b-2cc0a596cda5"
       ],
+      "custom_css": [
+        ".theme-block {margin-bottom: 0;}",
+        ".theme-block > .rte > .btn{margin-top: 3em;}"
+      ],
       "settings": {
         "align_text": "center",
         "narrow_column": false,

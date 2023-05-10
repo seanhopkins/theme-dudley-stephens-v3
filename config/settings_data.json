@@ -5,8 +5,8 @@
     "color_price": "#232528",
     "color_savings_text": "#C20000",
     "color_borders": "#e8e8e1",
-    "color_button": "#bfc7d6",
-    "color_button_text": "#232528",
+    "color_button": "#86a6d6",
+    "color_button_text": "#ffffff",
     "color_sale_tag": "#bfc7d6",
     "color_sale_tag_text": "#232528",
     "color_cart_dot": "#9bcc56",
@@ -44,7 +44,7 @@
     "type_product_capitalize": false,
     "type_collection_font": "heading",
     "type_collection_size": 22,
-    "button_style": "round",
+    "button_style": "round-slight",
     "icon_weight": "4px",
     "icon_linecaps": "round",
     "vendor_enable": false,
@@ -583,7 +583,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".btn {letter-spacing: 0.1em; \/* text-transform: none; *\/ color: #fff !important;}"
+      ".btn,.rte .btn {letter-spacing: 0.125em !important; padding-left: 2em; padding-right: 2em; --buttonRadius: 8px; border: 1px solid #fff;}"
     ]
   }
 }

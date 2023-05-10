@@ -15,7 +15,7 @@
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9acc56",
-            "text_align": "vertical-center horizontal-center",
+            "text_align": "vertical-center horizontal-left",
             "image": "shopify:\/\/shop_images\/Slider_26d5eeb1-f795-4802-8168-ae9e2d006ce8.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_2ccb271f-4305-4979-97e5-85fec5d41243.jpg",
             "parallax_direction": "top",
@@ -67,7 +67,7 @@
       ],
       "settings": {
         "align_text": "center",
-        "narrow_column": true,
+        "narrow_column": false,
         "divider": false
       }
     },

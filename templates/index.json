@@ -108,6 +108,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/342CB2A9-F717-42D6-8366-CACA7CCE3118_1_201_a_fd73901d-7f16-45a9-843d-a5cd65bc49aa.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -137,7 +138,7 @@
       ],
       "settings": {
         "title": "",
-        "align_text": "center",
+        "align_text": "left",
         "divider": false
       }
     },

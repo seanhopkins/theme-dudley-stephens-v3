@@ -48,7 +48,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
+            "enlarge_text": false,
             "text": "<p>Style to live in. Responsible fabrics. Female founded.<\/p>"
           }
         },
@@ -206,6 +206,30 @@
         "title": "",
         "align_text": "left",
         "divider": false
+      }
+    },
+    "35ebcf9a-8d37-49df-8b76-84867cfbd8bd": {
+      "type": "text-and-image",
+      "custom_css": [
+        ".image-wrap {border-top-right-radius: 30%; border-bottom-right-radius: 30%;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/dudleydvoted.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Dudley Devoted",
+        "text": "<p>Join our rewards program and earn Pineapple Points toward your next purchase. More points, more Dudleys.<\/p>",
+        "button_label": "Earn Rewards",
+        "button_link": "shopify:\/\/pages\/rewards",
+        "button_style": "secondary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
       }
     },
     "promo-grid2": {
@@ -395,6 +419,7 @@
     "rich-text",
     "55b4676d-449a-4dad-bd6c-c86b5726c2ae",
     "3283dc6a-ca11-4d10-91a7-cedc47a19e46",
+    "35ebcf9a-8d37-49df-8b76-84867cfbd8bd",
     "promo-grid2",
     "featured-collections",
     "featured-collection",

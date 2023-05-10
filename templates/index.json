@@ -137,7 +137,8 @@
         "b4389e38-d626-4753-b544-cb0c7daa17aa"
       ],
       "custom_css": [
-        "h3 {font-size: 2em;}",
+        "h3 {font-size: 2em; margin-bottom: 0;}",
+        ".btn {margin-top: 2em;}",
         ".grid--uniform {display: flex; align-items: center;}",
         ".medium-up--one-half {width: 25%;}"
       ],
@@ -195,7 +196,8 @@
         "3ddf58c6-3030-4e6f-8364-889614041e2c"
       ],
       "custom_css": [
-        "h3 {font-size: 2em;}",
+        "h3 {font-size: 2em; margin-bottom: 0;}",
+        ".btn {margin-top: 2em;}",
         ".grid--uniform {display: flex; align-items: center;}",
         ".medium-up--one-third:nth-child(1) {text-align: right !important;}",
         ".medium-up--one-third:nth-child(2) {text-align: center !important;}"

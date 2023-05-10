@@ -583,7 +583,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".btn,.rte .btn,.slideshow__slide .hero__link .btn {letter-spacing: 0.125em !important; --buttonRadius: 8px;}"
+      ".btn,.rte .btn,.slideshow__slide .hero__link .btn {letter-spacing: 0.125em !important; --buttonRadius: 8px;}",
+      "a:not(.btn):after{color: var(--colorCartDot);}"
     ]
   }
 }

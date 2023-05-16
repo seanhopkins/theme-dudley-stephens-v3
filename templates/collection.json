@@ -176,6 +176,9 @@
         "collection_description",
         "product_grid"
       ],
+      "custom_css": [
+        ".grid-product__image-mask {border-radius: 8px;}"
+      ],
       "settings": {
         "enable_sidebar": true,
         "collapsed": true,

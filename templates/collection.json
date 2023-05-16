@@ -50,9 +50,9 @@
       "settings": {
         "layout": "banner",
         "full_width": true,
-        "text_color": "#000",
+        "text_color": "#000000",
         "background_color": "#fafafa",
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "overlay_opacity": 0,
         "lazyload_images": true
       }
@@ -147,7 +147,7 @@
         "full_width": false,
         "gutter_size": 10,
         "space_above": true,
-        "space_below": false,
+        "space_below": true,
         "lazyload_images": true
       }
     },

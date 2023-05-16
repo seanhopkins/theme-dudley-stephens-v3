@@ -295,6 +295,7 @@
     },
     "8094ad36-9c5b-49d2-8bc5-e44e5d91343a": {
       "type": "advanced-content",
+      "disabled": true,
       "blocks": {
         "template--14916567695402__8094ad36-9c5b-49d2-8bc5-e44e5d91343a-16837268974b896fdd-1": {
           "type": "liquid",

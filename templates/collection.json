@@ -143,6 +143,9 @@
         "f4ba3a0d-5380-4908-a21d-75eae40611b3",
         "banner"
       ],
+      "custom_css": [
+        ".promo-grid__container {border-radius: 8px;}"
+      ],
       "settings": {
         "full_width": false,
         "gutter_size": 10,

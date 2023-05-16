@@ -33,7 +33,7 @@
     "type_header_capitalize": false,
     "type_headers_align_text": false,
     "type_base_font_family": "gill_sans_nova_n4",
-    "type_base_spacing": "0",
+    "type_base_spacing": "-25",
     "type_base_size": 20,
     "type_base_line_height": 1.2,
     "type_body_align_text": false,

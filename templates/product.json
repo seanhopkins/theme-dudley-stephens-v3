@@ -109,6 +109,7 @@
     },
     "background-image-text": {
       "type": "background-image-text",
+      "disabled": true,
       "settings": {
         "subtitle": "Impressive",
         "title": "About your brand",
@@ -125,6 +126,7 @@
     },
     "text-and-image": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image_mask": "none",
         "image2_mask": "none",
@@ -145,6 +147,7 @@
     },
     "text-and-image2": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image_mask": "none",
         "image2_mask": "none",
@@ -165,6 +168,7 @@
     },
     "testimonials": {
       "type": "testimonials",
+      "disabled": true,
       "blocks": {
         "testimonials-0": {
           "type": "testimonial",
@@ -217,6 +221,7 @@
     },
     "recently-viewed": {
       "type": "recently-viewed",
+      "disabled": true,
       "settings": {
         "recent_count": 5
       }

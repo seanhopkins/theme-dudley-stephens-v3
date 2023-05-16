@@ -246,14 +246,16 @@
     "blog-posts": {
       "type": "blog-posts",
       "custom_css": [
-        ".image-wrap {border-radius: 8px;}"
+        ".image-wrap {border-radius: 8px;}",
+        ".article__grid-meta {text-align: center;}",
+        ".article__title {font-family: \"QuaverSerif\" !important; font-size: 1.4em; letter-spacing: 1px; text-align: center;}"
       ],
       "settings": {
         "title": "Take a walk down Pineapple Street",
         "blog": "pineapple-street",
         "post_limit": 3,
         "blog_show_tags": false,
-        "blog_show_date": true,
+        "blog_show_date": false,
         "blog_show_comments": false,
         "blog_show_author": false,
         "view_all": true,

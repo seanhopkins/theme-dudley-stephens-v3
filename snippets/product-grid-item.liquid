@@ -44,6 +44,9 @@ Arguments
       endif
     endfor
   endif
+  # Start Custom feature
+  assign product_color = product.title | split: "(" | last | remove: ")"
+  # End custom feature
 -%}
 
 <div class="grid__item grid-product {{ gridView }} {% if quick_shop_enable %} grid-product__has-quick-shop{% endif %}" data-aos="row-of-{{ per_row }}" data-product-handle="{{ product.handle }}" data-product-id="{{ product.id }}">
@@ -190,7 +193,13 @@ Arguments
     </div>
 
     <div class="grid-product__meta">
-      <div class="grid-product__title grid-product__title--{{ settings.type_product_style }}">{{ product.title }}</div>
+      <div class="grid-product__title grid-product__title--{{ settings.type_product_style }}">
+        {% comment %}Start custom feature {% endcomment %}
+          <span class="visually-hidden">{{ product.title }} </span>
+          <p>{{ product.metafields.custom.product_material }} </p>
+          <span class="h3">{{ product.metafields.custom.product_style | remove :"in" }} in {{ product_color }}</span>
+        {% comment %}End custom feature {% endcomment %}
+      </div>
       {%- if settings.vendor_enable -%}
         <div class="grid-product__vendor">{{ product.vendor }}</div>
       {%- endif -%}

@@ -46,7 +46,6 @@
       ],
       "settings": {
         "main_menu_link_list": "new-2020-menu",
-        "hover_menu": false,
         "mega_menu_images": true,
         "main_menu_alignment": "left-center",
         "header_style": "sticky",

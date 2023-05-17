@@ -93,6 +93,27 @@
         "parallax_direction": "top"
       }
     },
+    "b133e554-126e-4859-9e45-386e25fc6db3": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14916568055850__b133e554-126e-4859-9e45-386e25fc6db3-16843679254984244c-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "{{ collection.description }}",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14916568055850__b133e554-126e-4859-9e45-386e25fc6db3-16843679254984244c-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false,
+        "lazyload_images": true
+      }
+    },
     "69767d13-5093-4077-9f67-638bb15c6bfb": {
       "type": "countdown",
       "disabled": true,
@@ -179,6 +200,7 @@
   "order": [
     "promo-grid",
     "collection-header",
+    "b133e554-126e-4859-9e45-386e25fc6db3",
     "69767d13-5093-4077-9f67-638bb15c6bfb",
     "main-collection"
   ]

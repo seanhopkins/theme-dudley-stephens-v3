@@ -50,15 +50,15 @@
             "page": ""
           }
         },
-        "a9647209-69d7-4725-adbc-99a8bc34a600": {
+        "ab135439-7e5c-4100-a042-17e17f3fa6c7": {
           "type": "tab",
           "settings": {
             "title": "Fit",
-            "content": "{{ product.metafields.custom.product_fit | metafield_tag }}<ul><li>Width: {{ product.metafields.custom.dimensions.value.width.value }}<\/li><li>Length: {{ product.metafields.custom.dimensions.value.length.value }}<\/li><li>Back Length:{{ product.metafields.custom.dimensions.value.back_length.value }}<\/li><li>Sleeve Length: {{ product.metafields.custom.dimensions.value.sleeve_length.value }}<\/li><li>Bust: {{ product.metafields.custom.dimensions.value.bust.value }}<\/li><li>Inseam: {{ product.metafields.custom.dimensions.value.inseam.value }}<\/li><li>Front Rise: {{ product.metafields.custom.dimensions.value.front_rise.value }}<\/li><\/ul>",
+            "content": "{{ product.metafields.custom.product_fit | metafield_tag }}",
             "page": ""
           }
         },
-        "a993a2f9-2010-4809-9570-0e2179514bf7": {
+        "e84a0778-3ebe-4d15-9d52-f89ac088f28f": {
           "type": "tab",
           "settings": {
             "title": "Care",
@@ -80,12 +80,12 @@
         "buy_buttons",
         "description",
         "tab",
-        "a9647209-69d7-4725-adbc-99a8bc34a600",
-        "a993a2f9-2010-4809-9570-0e2179514bf7",
+        "ab135439-7e5c-4100-a042-17e17f3fa6c7",
+        "e84a0778-3ebe-4d15-9d52-f89ac088f28f",
         "share"
       ],
       "custom_css": [
-        ".variant-input-wrap label {border-radius: 8px; font-size: 0.85em;}"
+        ".variant-input-wrap label {border-radius: 8px; font-size: .85em;}"
       ],
       "settings": {
         "sku_enable": false,

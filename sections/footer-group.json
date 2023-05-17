@@ -6,7 +6,7 @@
       "type": "footer-promotions",
       "disabled": true,
       "blocks": {
-        "footer-promotions-0": {
+        "8ebf8d9e-5a16-484e-a420-613f9dbc49f6": {
           "type": "promotion",
           "settings": {
             "enable_image": true,
@@ -17,7 +17,7 @@
             "button_link": ""
           }
         },
-        "footer-promotions-1": {
+        "f3e56d98-8a7d-48ce-a9dd-e9f25bbc987d": {
           "type": "promotion",
           "settings": {
             "enable_image": true,
@@ -28,7 +28,7 @@
             "button_link": ""
           }
         },
-        "footer-promotions-2": {
+        "7261a532-de72-43de-b5d4-0e1bb8403535": {
           "type": "promotion",
           "settings": {
             "enable_image": true,
@@ -41,9 +41,9 @@
         }
       },
       "block_order": [
-        "footer-promotions-0",
-        "footer-promotions-1",
-        "footer-promotions-2"
+        "8ebf8d9e-5a16-484e-a420-613f9dbc49f6",
+        "f3e56d98-8a7d-48ce-a9dd-e9f25bbc987d",
+        "7261a532-de72-43de-b5d4-0e1bb8403535"
       ],
       "settings": {
         "hide_homepage": false,
@@ -53,7 +53,7 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "dc6fd59e-333b-47db-92e1-7ba24a0ab2f6": {
+        "footer-1": {
           "type": "menu",
           "settings": {
             "show_footer_title": false,
@@ -61,7 +61,7 @@
             "container_width": 20
           }
         },
-        "footer-1": {
+        "d3d35720-b5de-4334-b86a-53cd32d32b1c": {
           "type": "menu",
           "settings": {
             "show_footer_title": false,
@@ -69,7 +69,7 @@
             "container_width": 20
           }
         },
-        "f664e6f9-2b2d-4c8e-938e-f130fa2269dd": {
+        "28561ea1-faee-40ab-9c1f-b2f80ab03606": {
           "type": "menu",
           "settings": {
             "show_footer_title": false,
@@ -88,17 +88,17 @@
         }
       },
       "block_order": [
-        "dc6fd59e-333b-47db-92e1-7ba24a0ab2f6",
         "footer-1",
-        "f664e6f9-2b2d-4c8e-938e-f130fa2269dd",
+        "d3d35720-b5de-4334-b86a-53cd32d32b1c",
+        "28561ea1-faee-40ab-9c1f-b2f80ab03606",
         "footer2"
       ],
       "settings": {
         "show_locale_selector": true,
         "show_currency_selector": true,
         "show_currency_flags": true,
-        "show_payment_icons": true,
-        "show_copyright": true,
+        "show_payment_icons": false,
+        "show_copyright": false,
         "copyright_text": ""
       }
     }

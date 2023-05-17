@@ -9,23 +9,23 @@
         "parallax_direction": "top"
       }
     },
-    "5a8d2888-87cc-4de7-8b19-548eb8345181": {
+    "69767d13-5093-4077-9f67-638bb15c6bfb": {
       "type": "countdown",
       "disabled": true,
       "blocks": {
-        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-0": {
+        "template--14928410181674__69767d13-5093-4077-9f67-638bb15c6bfb-1684280169872a09fe-0": {
           "type": "content",
           "settings": {
-            "heading": "Shop The Drop",
+            "heading": "Countdown",
             "heading_size": "h2",
             "text": "<p>Use this timer to create urgency and boost sales.<\/p>",
             "content_alignment": "left"
           }
         },
-        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-1": {
+        "template--14928410181674__69767d13-5093-4077-9f67-638bb15c6bfb-1684280169872a09fe-1": {
           "type": "timer",
           "settings": {
-            "year": "2023",
+            "year": "2025",
             "month": "01",
             "day": "1",
             "hour": "03",
@@ -34,26 +34,26 @@
             "text": ""
           }
         },
-        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-2": {
+        "template--14928410181674__69767d13-5093-4077-9f67-638bb15c6bfb-1684280169872a09fe-2": {
           "type": "button",
           "settings": {
             "button_link": "",
-            "button": "Preview the Drop",
+            "button": "Shop Collection",
             "button_style": "solid"
           }
         }
       },
       "block_order": [
-        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-0",
-        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-1",
-        "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-2"
+        "template--14928410181674__69767d13-5093-4077-9f67-638bb15c6bfb-1684280169872a09fe-0",
+        "template--14928410181674__69767d13-5093-4077-9f67-638bb15c6bfb-1684280169872a09fe-1",
+        "template--14928410181674__69767d13-5093-4077-9f67-638bb15c6bfb-1684280169872a09fe-2"
       ],
       "settings": {
         "layout": "banner",
         "full_width": true,
-        "text_color": "#000000",
-        "background_color": "#fafafa",
-        "overlay_color": "#000000",
+        "text_color": "#232528",
+        "background_color": "#ffffff",
+        "overlay_color": "#000",
         "overlay_opacity": 0,
         "lazyload_images": true
       }
@@ -68,42 +68,42 @@
             "heading": "Park Slope",
             "textarea": "Hits at hip for wearable versatility",
             "cta_text1": "Shop",
-            "cta_link1": "shopify:\/\/collections\/park-slope-turtleneck",
+            "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
             "image": "shopify:\/\/shop_images\/A6ED2CA7-11F8-4C5C-A9C8-62737607A943_1_201_a_4223288d-4c6e-446b-8b3b-caba10d59c0c.jpg",
             "video_url": "",
             "width": "33",
-            "height": 640,
-            "text_size": 100,
-            "text_align": "vertical-bottom horizontal-center",
+            "height": 600,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
             "framed": true
           }
         },
-        "4c9b912d-1bdc-4f20-84c8-c0edcdad1321": {
+        "00bab92b-c60b-456a-a456-99e96610f6ef": {
           "type": "advanced",
           "settings": {
             "subheading": "",
             "heading": "Greenpoint",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "textarea": "",
             "cta_text1": "Shop",
-            "cta_link1": "",
+            "cta_link1": "shopify:\/\/collections\/greenpoint-turtleneck",
             "cta_text2": "",
             "cta_link2": "",
             "image": "shopify:\/\/shop_images\/1C0BCD44-F270-4D06-AC06-496D76516010_1_201_a_678db4a3-8fd8-44d6-adec-fd51c069aa1f.jpg",
             "video_url": "",
             "width": "33",
-            "height": 640,
-            "text_size": 100,
-            "text_align": "vertical-bottom horizontal-center",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
             "framed": true
           }
         },
-        "f4ba3a0d-5380-4908-a21d-75eae40611b3": {
+        "bf5328bd-22e0-46c6-ad37-3c5e5362fe58": {
           "type": "advanced",
           "settings": {
             "subheading": "",
@@ -117,8 +117,8 @@
             "video_url": "",
             "width": "33",
             "height": 500,
-            "text_size": 100,
-            "text_align": "vertical-bottom horizontal-center",
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
             "framed": true
@@ -127,17 +127,18 @@
       },
       "block_order": [
         "advanced",
-        "4c9b912d-1bdc-4f20-84c8-c0edcdad1321",
-        "f4ba3a0d-5380-4908-a21d-75eae40611b3"
+        "00bab92b-c60b-456a-a456-99e96610f6ef",
+        "bf5328bd-22e0-46c6-ad37-3c5e5362fe58"
       ],
       "custom_css": [
-        ".promo-grid__container {border-radius: 8px;}"
+        ".promo-grid__container {border-radius: 8px;}",
+        ".type-advanced .promo-grid__container--framed:not(.promo-grid__container--boxed):after {border-radius: 16px;}"
       ],
       "settings": {
         "full_width": false,
-        "gutter_size": 10,
-        "space_above": true,
-        "space_below": true,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false,
         "lazyload_images": true
       }
     },
@@ -154,7 +155,7 @@
           "settings": {
             "enable_collection_count": true,
             "per_row": 3,
-            "rows_per_page": 8,
+            "rows_per_page": 7,
             "mobile_flush_grid": false
           }
         }
@@ -177,7 +178,7 @@
   },
   "order": [
     "collection-header",
-    "5a8d2888-87cc-4de7-8b19-548eb8345181",
+    "69767d13-5093-4077-9f67-638bb15c6bfb",
     "promo-grid",
     "main-collection"
   ]

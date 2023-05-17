@@ -1,69 +1,67 @@
 {
   "current": {
     "color_body_bg": "#ffffff",
-    "color_body_text": "#000000",
-    "color_price": "#1c1d1d",
+    "color_body_text": "#232528",
+    "color_price": "#232528",
     "color_savings_text": "#C20000",
-    "color_borders": "#e8e8e1",
-    "color_button": "#111111",
+    "color_borders": "#dedede",
+    "color_button": "#86a6d6",
     "color_button_text": "#ffffff",
-    "color_cart_dot": "#ff4f33",
-    "color_small_image_bg": "#ffffff",
-    "color_large_image_bg": "#0f0f0f",
+    "color_sale_tag": "#bfc7d6",
+    "color_sale_tag_text": "#232528",
+    "color_cart_dot": "#9bcc56",
+    "color_small_image_bg": "rgba(0,0,0,0)",
+    "color_large_image_bg": "rgba(0,0,0,0)",
     "color_header": "#ffffff",
-    "color_header_text": "#000000",
-    "color_announcement": "#0f0f0f",
-    "color_announcement_text": "#ffffff",
-    "color_footer": "#ffffff",
-    "color_footer_text": "#000000",
+    "color_header_text": "#232528",
+    "color_announcement": "#f2f2eb",
+    "color_announcement_text": "#232528",
+    "color_footer": "#232528",
+    "color_footer_text": "#f2f2eb",
     "color_drawer_background": "#ffffff",
-    "color_drawer_text": "#000000",
+    "color_drawer_text": "#232528",
     "color_drawer_border": "#e8e8e1",
-    "color_drawer_button": "#111111",
+    "color_drawer_button": "#86a6d6",
     "color_drawer_button_text": "#ffffff",
-    "color_modal_overlays": "#e6e6e6",
+    "color_modal_overlays": "#f2f2eb",
     "color_image_overlay": "#000000",
     "color_image_overlay_text_shadow": 20,
-    "type_header_font_family": "caslon_old_face_n4",
+    "type_header_font_family": "gill_sans_nova_n5",
     "type_header_spacing": "0",
-    "type_header_base_size": 40,
-    "type_header_line_height": 1,
+    "type_header_base_size": 44,
+    "type_header_line_height": 1.1,
     "type_header_capitalize": false,
     "type_headers_align_text": false,
     "type_base_font_family": "gill_sans_nova_n4",
     "type_base_spacing": "0",
-    "type_base_size": 18,
-    "type_base_line_height": 1.4,
+    "type_base_size": 20,
+    "type_base_line_height": 1.2,
     "type_body_align_text": false,
-    "type_navigation_style": "body",
-    "type_navigation_size": 14,
+    "type_navigation_style": "heading",
+    "type_navigation_size": 16,
     "type_navigation_capitalize": true,
     "type_product_style": "body",
+    "type_product_capitalize": false,
     "type_collection_font": "body",
-    "type_collection_size": 22,
+    "type_collection_size": 20,
     "button_style": "round-slight",
-    "icon_weight": "4px",
-    "icon_linecaps": "round",
-    "vendor_enable": false,
-    "quick_shop_enable": false,
+    "icon_weight": "2px",
+    "icon_linecaps": "miter",
+    "quick_shop_enable": true,
     "quick_shop_text": "Quick view",
     "product_grid_image_size": "natural",
     "product_hover_image": true,
-    "enable_swatches": false,
-    "enable_product_reviews": true,
-    "collection_grid_style": "below",
-    "collection_grid_shape": "portrait",
-    "collection_grid_image": "collection",
+    "enable_swatches": true,
+    "collection_grid_style": "overlaid-box",
+    "collection_grid_shape": "square",
+    "collection_grid_image": "product",
     "collection_grid_text_align": "center",
     "collection_grid_tint": "#000000",
     "collection_grid_opacity": 10,
     "collection_grid_gutter": true,
     "cart_type": "drawer",
-    "cart_icon": "bag",
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
-    "show_breadcrumbs": true,
-    "show_breadcrumbs_collection_link": false,
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
@@ -85,29 +83,7 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "7570552984445421165": {
-        "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/settings\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "8962992520437913685": {
-        "type": "shopify:\/\/apps\/yotpo-loyalty-rewards\/blocks\/loader-app-embed-block\/2f9660df-5018-4e02-9868-ee1fb88d6ccd",
-        "disabled": false,
-        "settings": {
-          "inject_modules_loader": true,
-          "inject_sdk_loader": true
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Modern": {
@@ -269,28 +245,10 @@
                 "desktop_logo_width": 200,
                 "mobile_logo_width": 140
               }
-            },
-            "1521051841065": {
-              "type": "announcement",
-              "settings": {
-                "text": "Free shipping",
-                "link_text": "On all orders over $100",
-                "link": "shopify:\/\/collections\/all"
-              }
-            },
-            "1520888647304": {
-              "type": "announcement",
-              "settings": {
-                "text": "Hassle-free returns",
-                "link_text": "30-day postage paid returns",
-                "link": "shopify:\/\/collections\/all"
-              }
             }
           },
           "block_order": [
-            "1520882467782",
-            "1521051841065",
-            "1520888647304"
+            "1520882467782"
           ],
           "settings": {
             "main_menu_link_list": "main-menu",

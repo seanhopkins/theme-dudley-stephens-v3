@@ -73,7 +73,7 @@
       predictiveSearchPrice: {{ settings.predictive_search_show_price | json }},
       quickView: {{ settings.quick_shop_enable }},
       themeName: 'Impulse',
-      themeVersion: "7.3.1"
+      themeVersion: "7.3.3"
     };
   </script>
 
@@ -126,20 +126,20 @@
   <template id="naturalImageMarkup">
     <div class="image-wrap" style="height: 0;">
       <image-element>
-        <img class="grid-product__image lazyload" width height src srcset loading="lazy" alt>
+        <img class="grid-product__image" width height src srcset loading="lazy" alt>
       </image-element>
     </div>
   </template>
   <template id="fixedRatioImageMarkup">
     <div class="grid__image-ratio">
       <image-element>
-        <img class="lazyload" width height src srcset loading="lazy" alt>
+        <img width height src srcset loading="lazy" alt>
       </image-element>
     </div>
   </template>
   <template id="articleImageMarkup">
     <image-element>
-      <img class="lazyload" width height src loading="lazy">
+      <img width height src loading="lazy">
     </image-element>
   </template>
 </body>

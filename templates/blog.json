@@ -1,94 +1,47 @@
 {
   "sections": {
-    "a157bf24-d940-4390-b13d-0ccfe9541493": {
-      "type": "advanced-content",
-      "blocks": {
-        "template--14916567957546__a157bf24-d940-4390-b13d-0ccfe9541493-16817410538d6492ee-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pineapple-street-logo_1250x_991e2593-0533-4fbb-b0f7-4a1c955de7cc.png",
-            "link": "",
-            "width": "50%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--14916567957546__a157bf24-d940-4390-b13d-0ccfe9541493-16817410538d6492ee-0"
-      ],
-      "custom_css": [
-        ".custom__item {margin: auto;}"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
-      }
-    },
-    "8a9cbfa1-2b55-405f-9517-08824b0d8c1c": {
-      "type": "rich-text",
-      "blocks": {
-        "template--14916567957546__8a9cbfa1-2b55-405f-9517-08824b0d8c1c-16817414204b99e015-0": {
-          "type": "heading",
-          "settings": {
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14916567957546__8a9cbfa1-2b55-405f-9517-08824b0d8c1c-16817414204b99e015-0"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
-    "b23c0f69-dbf6-48a9-9e49-92bb1f1b3be9": {
-      "type": "advanced-content",
-      "blocks": {
-        "template--14916567957546__b23c0f69-dbf6-48a9-9e49-92bb1f1b3be9-16817410538d6492ee-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "{%- if linklists.blog-menu.links.size > 0 -%}\n        <ul class=\"inline-list toolbar__menu text-center blog-menu\">\n          {% for link in linklists.blog-menu.links %}\n          {% assign active_link = current_tags | handleize %}\n            {% if link.title == 'All' %}\n              <li><a href=\"{{ link.url }}\">{{ link.title }}<\/a><\/li>\n            {% else %}\n              <li class=\"{% if active_link == link.handle %}active{% endif %}\">\n                {{ link.title | link_to_tag: link.handle }}\n              <\/li>\n            {% endif %}\n          {% endfor %}\n        <\/ul>\n      {%- endif -%}",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--14916567957546__b23c0f69-dbf6-48a9-9e49-92bb1f1b3be9-16817410538d6492ee-1"
-      ],
-      "custom_css": [
-        ".blog-menu a {margin: 0 1em;}"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": false,
-        "lazyload_images": true
-      }
-    },
     "main": {
       "type": "blog-template",
-      "custom_css": [
-        "h1 {display: none;}"
+      "settings": {
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection1": {
+          "type": "collection",
+          "settings": {
+          }
+        },
+        "collection2": {
+          "type": "collection",
+          "settings": {
+          }
+        },
+        "collection3": {
+          "type": "collection",
+          "settings": {
+          }
+        },
+        "collection4": {
+          "type": "collection",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "collection1",
+        "collection2",
+        "collection3",
+        "collection4"
       ],
       "settings": {
-        "blog_show_tag_filter": false,
-        "blog_show_rss": false,
-        "blog_show_tags": false,
-        "blog_show_date": false,
-        "blog_show_comments": false,
-        "blog_show_author": false,
-        "blog_show_excerpt": false,
-        "blog_image_size": "natural"
+        "title": "You may also like"
       }
     }
   },
   "order": [
-    "a157bf24-d940-4390-b13d-0ccfe9541493",
-    "8a9cbfa1-2b55-405f-9517-08824b0d8c1c",
-    "b23c0f69-dbf6-48a9-9e49-92bb1f1b3be9",
-    "main"
+    "main",
+    "featured-collections"
   ]
 }

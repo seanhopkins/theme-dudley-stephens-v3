@@ -11,6 +11,7 @@
     },
     "5a8d2888-87cc-4de7-8b19-548eb8345181": {
       "type": "countdown",
+      "disabled": true,
       "blocks": {
         "template--14916568055850__5a8d2888-87cc-4de7-8b19-548eb8345181-1681742310ddbca05f-0": {
           "type": "content",
@@ -122,26 +123,12 @@
             "boxed": false,
             "framed": true
           }
-        },
-        "banner": {
-          "type": "banner",
-          "disabled": true,
-          "settings": {
-            "heading": "Banner promotion",
-            "text": "Add the details of your promotion in smaller text",
-            "link": "",
-            "label": "Shop now",
-            "color_tint": "#1c1d1d",
-            "color_tint_opacity": 8,
-            "framed": false
-          }
         }
       },
       "block_order": [
         "advanced",
         "4c9b912d-1bdc-4f20-84c8-c0edcdad1321",
-        "f4ba3a0d-5380-4908-a21d-75eae40611b3",
-        "banner"
+        "f4ba3a0d-5380-4908-a21d-75eae40611b3"
       ],
       "custom_css": [
         ".promo-grid__container {border-radius: 8px;}"

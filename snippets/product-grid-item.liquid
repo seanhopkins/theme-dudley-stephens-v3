@@ -47,9 +47,7 @@ Arguments
   endif
 
   # === START Custom feature ===
-  # Display "Final Sale" in red below each item
-  assign final_sale_tag = false
-
+ 
   # Display a message based on a tag, defined in the theme settings
   assign tag_sale = false
 
@@ -59,9 +57,6 @@ Arguments
   for tag in product.tags
     if tag contains settings.tag_sale_tag
       assign tag_sale = true
-    endif
-    if tag contains 'final-sale'
-      assign final_sale_tag = true
     endif
     if tag contains '_discountable'
       assign discountable = true

@@ -30,6 +30,26 @@
   endcase
 
   assign product_img_structure = product.featured_media | img_url: '1x1' | replace: '_1x1.', '_{width}x.'
+
+  # === START Custom feature ===
+  # Display "Final Sale" in red below each item
+  assign final_sale_tag = false
+
+  # Display a message based on a tag, defined in the theme settings
+  assign tag_sale = false
+
+  # Some products are not discountable unless tagged with "_discountable"
+  assign discountable = false
+
+  for tag in product.tags
+    if tag contains settings.tag_sale_tag
+      assign tag_sale = true
+    endif
+    if tag contains 'final-sale'
+      assign final_sale_tag = true
+    endif
+  endfor 
+  # === END Custom feature ===
 -%}
 
 {%- liquid
@@ -252,6 +272,15 @@
                           {%- endif -%}
                         </div>
                       {%- endif -%}
+
+                      {% comment %} START custom feature {% endcomment %}
+                      {% if product.metafields.theme.label  %}
+                        <small class="product__price-savings product__tag--custom uppercase">{{ product.metafields.theme.label.value }}</small>
+                      {% endif %}
+                      {% if tag_sale and settings.show_tag_sale_message_clp %}
+                          <small class="product__price-savings product__tag-sale-message uppercase">{{ settings.tag_sale_message }}</small>
+                        {% endif %}
+                      {% comment %} END custom feature {% endcomment %}
                     </div>
                   {%- when 'quantity_selector' -%}
                     <div class="product-block" {{ block.shopify_attributes }}>

@@ -1041,5 +1041,40 @@
         "label": "t:settings_schema.extras.settings.disable_animations.label"
       }
     ]
+  },
+  {
+    "name": "Custom Features",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Tag Sale"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_tag_sale_message_clp",
+        "label": "Show on Collections",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "show_tag_sale_message_pdp",
+        "label": "Show on Products",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "tag_sale_tag",
+        "label": "Tag",
+        "default": "Example Tag Sale",
+        "info": "Tags are case sensitive and must match the tag on the product"
+      },
+      {
+        "type": "richtext",
+        "id": "tag_sale_message",
+        "label": "Message",
+        "default": "<p>Save 10% with code Extra10<\/p>",
+        "info": "Enter a message to be displayed if the product is tagged with the tag entered above"
+      }
+    ]
   }
 ]

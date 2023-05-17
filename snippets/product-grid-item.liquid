@@ -30,6 +30,7 @@ Arguments
 
   assign product_tags = product.tags | join: ','
   assign has_custom_label = false
+
   if product.metafields.theme.label and product.metafields.theme.label != blank
     assign has_custom_label = true
     assign custom_label = product.metafields.theme.label.value
@@ -44,6 +45,29 @@ Arguments
       endif
     endfor
   endif
+
+  # === START Custom feature ===
+  # Display "Final Sale" in red below each item
+  assign final_sale_tag = false
+
+  # Display a message based on a tag, defined in the theme settings
+  assign tag_sale = false
+
+  # Some products are not discountable unless tagged with "_discountable"
+  assign discountable = false
+
+  for tag in product.tags
+    if tag contains settings.tag_sale_tag
+      assign tag_sale = true
+    endif
+    if tag contains 'final-sale'
+      assign final_sale_tag = true
+    endif
+    if tag contains '_discountable'
+      assign discountable = true
+    endif
+  endfor 
+  # === END Custom feature ===
 -%}
 
 <div class="grid__item grid-product {{ gridView }} {% if quick_shop_enable %} grid-product__has-quick-shop{% endif %}" data-aos="row-of-{{ per_row }}" data-product-handle="{{ product.handle }}" data-product-id="{{ product.id }}">
@@ -190,7 +214,9 @@ Arguments
     </div>
 
     <div class="grid-product__meta">
-      <div class="grid-product__title grid-product__title--{{ settings.type_product_style }}">{{ product.title }}</div>
+      <div class="grid-product__title grid-product__title--{{ settings.type_product_style }}">
+        {{ product.title }}
+      </div>
       {%- if settings.vendor_enable -%}
         <div class="grid-product__vendor">{{ product.vendor }}</div>
       {%- endif -%}
@@ -235,6 +261,12 @@ Arguments
           </div>
         {%- endif -%}
       </div>
+      
+      {% comment %} START custom feature {% endcomment %}
+      {% if tag_sale and settings.show_tag_sale_message_clp %}
+        <small class="product__price-savings uppercase">{{ settings.tag_sale_message }}</small>
+      {% endif %}
+      {% comment %} END custom feature {% endcomment %}
 
       {%- if settings.enable_swatches and type == 'horizontal' -%}
         {%- liquid

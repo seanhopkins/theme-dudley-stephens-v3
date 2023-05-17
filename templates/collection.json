@@ -53,7 +53,7 @@
         "full_width": true,
         "text_color": "#232528",
         "background_color": "#ffffff",
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "overlay_opacity": 0,
         "lazyload_images": true
       }
@@ -137,7 +137,7 @@
       "settings": {
         "full_width": false,
         "gutter_size": 20,
-        "space_above": false,
+        "space_above": true,
         "space_below": false,
         "lazyload_images": true
       }

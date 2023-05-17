@@ -85,7 +85,7 @@
         "share"
       ],
       "custom_css": [
-        ".variant-input-wrap label {border-radius: 4px;}"
+        ".variant-input-wrap label {border-radius: 8px; font-size: 0.85em;}"
       ],
       "settings": {
         "sku_enable": false,

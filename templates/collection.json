@@ -51,7 +51,7 @@
             "width": "33",
             "height": 600,
             "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
+            "text_align": "vertical-bottom horizontal-center",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
             "framed": true
@@ -72,7 +72,7 @@
             "width": "33",
             "height": 500,
             "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
+            "text_align": "vertical-bottom horizontal-center",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
             "framed": true
@@ -93,7 +93,7 @@
             "width": "33",
             "height": 500,
             "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
+            "text_align": "vertical-bottom horizontal-center",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
             "framed": true

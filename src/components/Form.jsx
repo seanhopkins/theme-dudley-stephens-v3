@@ -49,7 +49,7 @@ const Form = ({ data }) => {
           ? false
           : true
     );
-    
+
     return visibleMonogramVariants.map((variant) => (
       <>
         <label for={variant.id}>{variant.title}</label>
@@ -129,7 +129,11 @@ const Form = ({ data }) => {
       <input
         type="hidden"
         name="items[0][properties][Monogram]"
-        value={monogram + firstInitial + middleInitial + lastInitial}
+        value={
+          handleize(style) === "block"
+            ? monogram
+            : firstInitial + middleInitial + lastInitial
+        }
       />
 
       {/* Parent product */}
@@ -149,7 +153,11 @@ const Form = ({ data }) => {
       <input
         type="hidden"
         name="items[1][properties][Monogram]"
-        value={monogram + firstInitial + middleInitial + lastInitial}
+        value={
+          handleize(style) === "block"
+            ? monogram
+            : firstInitial + middleInitial + lastInitial
+        }
       />
 
       {monogram && firstInitial && middleInitial && lastInitial ? (

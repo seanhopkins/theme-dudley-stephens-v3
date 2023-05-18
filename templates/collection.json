@@ -107,7 +107,8 @@
       ],
       "custom_css": [
         ".promo-grid__container {border-radius: 8px;}",
-        ".type-advanced .promo-grid__container--framed:not(.promo-grid__container--boxed):after {border-radius: 16px;}"
+        ".type-advanced .promo-grid__container--framed:not(.promo-grid__container--boxed):after {border-radius: 16px;}",
+        ".promo-grid__container .btn {padding: 5px 12px; font-size: 1rem; margin-top: 2em;}"
       ],
       "settings": {
         "full_width": false,

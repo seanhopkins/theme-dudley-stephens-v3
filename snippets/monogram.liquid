@@ -33,8 +33,24 @@
   <div class="modal__inner">
     <div class="modal__centered">
       <div class="modal__centered-content">
-        <monogram-customizer class="grid">
-          <div class="grid__item one-half">images</div>
+        <monogram-customizer class="grid grid--product-images-right grid--product-images--partial">
+          <div class="grid__item one-half">
+            {%- render 'product-images',
+              section_id: 'monogram-product-images',
+              product: monogram_product,
+              isModal: false,
+              image_position: 'left',
+              product_zoom_enable: 'true',
+              product_zoom_size: '1800x1800',
+              product_image_size: '740x',
+              thumbnail_arrows: false,
+              thumbnail_position: 'beside',
+              video_looping: true,
+              video_style: 'muted',
+              context: 'main-product',
+              mobile_layout: 'partial',
+            -%}
+          </div>
           <div class="grid__item one-half">
             <h2>Personalize it</h2>
 

@@ -49,12 +49,35 @@ class MonogramCustomizer extends HTMLElement {
     super();
 
     this.form = this.querySelector("form");
+
+    this.mainSlider = this.querySelector("[data-product-photos]");
+    this.childNav = this.querySelector("[data-product-thumbs]");
+    this.thumbScroller = this.querySelector(".product__thumbs--scroller");
   }
 
   connectedCallback() {
     if (theme.settings.cartType === "drawer") {
       new theme.AjaxProduct(this.form, ".monogram__add-to-cart");
     }
+
+    var args = {
+      dragThreshold: 25,
+      adaptiveHeight: true,
+      avoidReflow: false,
+      initialIndex: 0,
+      childNav: this.childNav,
+      childNavScroller: this.thumbScroller,
+      childVertical: this.childNav.dataset.position === "beside",
+      pageDots: true, // mobile only with CSS
+      wrapAround: true,
+    };
+
+    this.flickity = new theme.Slideshow(this.mainSlider, args);
+
+    document.addEventListener("modalOpen.MonogramModal", () => {
+      // resize on modal open or else it doesn't show up
+      this.flickity.resize();
+    });
   }
 }
 

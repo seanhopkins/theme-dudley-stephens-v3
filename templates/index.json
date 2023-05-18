@@ -2,6 +2,7 @@
   "sections": {
     "e8be78eb-5a78-4b99-988f-eca6fb4c0f79": {
       "type": "countdown",
+      "disabled": true,
       "blocks": {
         "template--14916567695402__e8be78eb-5a78-4b99-988f-eca6fb4c0f79-1684434767e8cc57c1-0": {
           "type": "content",
@@ -64,7 +65,7 @@
             "image": "shopify:\/\/shop_images\/Slider_Moblie_b34dcf70-f892-443c-8c03-bfeb4678f440.jpg",
             "video_url": "",
             "width": "50",
-            "height": 500,
+            "height": 620,
             "text_size": 100,
             "text_align": "vertical-center horizontal-center",
             "color_accent": "rgba(0,0,0,0)",
@@ -153,7 +154,7 @@
       ],
       "settings": {
         "full_width": true,
-        "gutter_size": 0,
+        "gutter_size": 5,
         "space_above": false,
         "space_below": false,
         "lazyload_images": true

@@ -40,47 +40,72 @@ const Form = ({ data }) => {
     }
   }
 
+  function MonogramButtons() {
+    // only show block option for kids products
+    const visibleMonogramVariants = data.monogram_product.variants.filter(
+      (variant) =>
+        handleize(variant.title).includes("block") &&
+        handleize(data.parent_product.type) !== "kids"
+          ? false
+          : true
+    );
+    
+    return visibleMonogramVariants.map((variant) => (
+      <>
+        <label for={variant.id}>{variant.title}</label>
+        <input
+          type="radio"
+          name="items[0][id]"
+          id={variant.id}
+          value={variant.id}
+          onChange={() => setStyle(variant.title)}
+          checked={style === variant.title}
+          data-title={variant.title}
+        />
+      </>
+    ));
+  }
+
+  function MonogramInputs() {
+    if (handleize(style) === "block") {
+      return (
+        <input
+          type="text"
+          maxLength="10"
+          onInput={(e) => setMonogram(e.target.value)}
+          value={monogram}
+        />
+      );
+    }
+
+    return (
+      <>
+        <input
+          type="text"
+          maxLength="1"
+          onInput={(e) => setFirstInitial(e.target.value)}
+          value={firstInitial}
+        />
+        <input
+          type="text"
+          maxLength="1"
+          onChange={(e) => setMiddleInitial(e.target.value)}
+          value={middleInitial}
+        />
+        <input
+          type="text"
+          maxLength="1"
+          onChange={(e) => setLastInitial(e.target.value)}
+          value={lastInitial}
+        />
+      </>
+    );
+  }
+
   return (
     <form action="/cart/add" method="POST">
-      {data.monogram_product.variants.map((variant) => (
-        <>
-          <label for={variant.id}>{variant.title}</label>
-          <input
-            type="radio"
-            name="items[0][id]"
-            id={variant.id}
-            value={variant.id}
-            onChange={() => setStyle(variant.title)}
-            checked={style === variant.title}
-            data-title={variant.title}
-          />
-        </>
-      ))}
-
-      <input
-        type="text"
-        maxLength="10"
-        onInput={(e) => setMonogram(e.target.value)}
-        value={monogram}
-      />
-      <input
-        type="text"
-        maxLength="1"
-        onInput={(e) => setFirstInitial(e.target.value)}
-        value={firstInitial}
-      />
-      <input
-        type="text"
-        maxLength="1"
-        onChange={(e) => setMiddleInitial(e.target.value)}
-        value={middleInitial}
-      />
-      <input
-        type="text"
-        maxLength="1"
-        onChange={(e) => setLastInitial(e.target.value)}
-        value={lastInitial}
-      />
+      <MonogramButtons />
+      <MonogramInputs />
 
       {/* Monogram product */}
       <input type="hidden" name="items[0][quantity]" value="1" />

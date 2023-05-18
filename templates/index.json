@@ -115,42 +115,12 @@
             "boxed": false,
             "framed": true
           }
-        },
-        "f84ce43b-12d6-40d0-9c61-11f63a5f9a97": {
-          "type": "banner",
-          "disabled": true,
-          "settings": {
-            "heading": "Banner promotion",
-            "text": "Bottoms",
-            "link": "",
-            "label": "Shop now",
-            "color_tint": "#000000",
-            "color_tint_opacity": 8,
-            "framed": false
-          }
-        },
-        "7baf3116-746f-40c5-b2db-0fb417b943ce": {
-          "type": "sale_collection",
-          "disabled": true,
-          "settings": {
-            "sale_collection": "",
-            "top_text": "Up to",
-            "middle_text": "50% off",
-            "bottom_text": "Select products",
-            "width": "100",
-            "color_tint": "#000000",
-            "color_tint_opacity": 0,
-            "boxed": false,
-            "framed": false
-          }
         }
       },
       "block_order": [
         "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-0",
         "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1",
-        "c0ceff30-f019-44d7-b646-cab022cd267f",
-        "f84ce43b-12d6-40d0-9c61-11f63a5f9a97",
-        "7baf3116-746f-40c5-b2db-0fb417b943ce"
+        "c0ceff30-f019-44d7-b646-cab022cd267f"
       ],
       "settings": {
         "full_width": true,
@@ -162,6 +132,7 @@
     },
     "a52c20dc-96b8-4f47-863a-db32babd03f3": {
       "type": "text-with-icons",
+      "disabled": true,
       "blocks": {
         "template--14916567695402__a52c20dc-96b8-4f47-863a-db32babd03f3-16844357210515fe51-0": {
           "type": "text_block",

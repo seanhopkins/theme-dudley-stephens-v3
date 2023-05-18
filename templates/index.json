@@ -69,7 +69,7 @@
             "text_align": "vertical-center horizontal-center",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
-            "framed": false
+            "framed": true
           }
         },
         "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1": {
@@ -90,7 +90,7 @@
             "text_align": "vertical-center horizontal-center",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
-            "framed": false
+            "framed": true
           }
         },
         "c0ceff30-f019-44d7-b646-cab022cd267f": {
@@ -595,26 +595,6 @@
         "divider": false
       }
     },
-    "872f39ff-44ce-4f70-a4c3-da92399bc927": {
-      "type": "text-and-image",
-      "settings": {
-        "image_mask": "none",
-        "image2_mask": "none",
-        "subtitle": "",
-        "title": "Image with text",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "right",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
     "100f2318-c7de-4175-94fc-8b627730e1ef": {
       "type": "background-image-text",
       "settings": {
@@ -689,7 +669,6 @@
     "6c3e39f0-b89c-495b-b25e-7023b5c70d72",
     "8094ad36-9c5b-49d2-8bc5-e44e5d91343a",
     "dd662593-564f-46bd-965c-42be0bb69954",
-    "872f39ff-44ce-4f70-a4c3-da92399bc927",
     "100f2318-c7de-4175-94fc-8b627730e1ef",
     "a52c20dc-96b8-4f47-863a-db32babd03f3"
   ]

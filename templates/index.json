@@ -1,7 +1,215 @@
 {
   "sections": {
+    "e8be78eb-5a78-4b99-988f-eca6fb4c0f79": {
+      "type": "countdown",
+      "blocks": {
+        "template--14916567695402__e8be78eb-5a78-4b99-988f-eca6fb4c0f79-1684434767e8cc57c1-0": {
+          "type": "content",
+          "settings": {
+            "heading": "Countdown",
+            "heading_size": "h2",
+            "text": "<p>Use this timer to create urgency and boost sales.<\/p>",
+            "content_alignment": "left"
+          }
+        },
+        "template--14916567695402__e8be78eb-5a78-4b99-988f-eca6fb4c0f79-1684434767e8cc57c1-1": {
+          "type": "timer",
+          "settings": {
+            "year": "2025",
+            "month": "01",
+            "day": "1",
+            "hour": "03",
+            "minute": "00",
+            "hide_timer": false,
+            "text": ""
+          }
+        },
+        "template--14916567695402__e8be78eb-5a78-4b99-988f-eca6fb4c0f79-1684434767e8cc57c1-2": {
+          "type": "button",
+          "settings": {
+            "button_link": "",
+            "button": "Shop Collection",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "template--14916567695402__e8be78eb-5a78-4b99-988f-eca6fb4c0f79-1684434767e8cc57c1-0",
+        "template--14916567695402__e8be78eb-5a78-4b99-988f-eca6fb4c0f79-1684434767e8cc57c1-1",
+        "template--14916567695402__e8be78eb-5a78-4b99-988f-eca6fb4c0f79-1684434767e8cc57c1-2"
+      ],
+      "settings": {
+        "layout": "banner",
+        "full_width": true,
+        "text_color": "#000",
+        "background_color": "#FFF",
+        "overlay_color": "#000",
+        "overlay_opacity": 0,
+        "lazyload_images": true
+      }
+    },
+    "b8fccc94-b721-4ed5-a976-f81ed754cc18": {
+      "type": "promo-grid",
+      "blocks": {
+        "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Shop Turtlenecks",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/Slider_Moblie_b34dcf70-f892-443c-8c03-bfeb4678f440.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Shop Dresses",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/2023-04-17-dudldeystephens_ShadesOfPinck-JDP_2353.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "c0ceff30-f019-44d7-b646-cab022cd267f": {
+          "type": "advanced",
+          "disabled": true,
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/2023-04-17-dudldeystephens-JDP_1659.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": true
+          }
+        },
+        "f84ce43b-12d6-40d0-9c61-11f63a5f9a97": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "heading": "Banner promotion",
+            "text": "Bottoms",
+            "link": "",
+            "label": "Shop now",
+            "color_tint": "#000000",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
+        },
+        "7baf3116-746f-40c5-b2db-0fb417b943ce": {
+          "type": "sale_collection",
+          "disabled": true,
+          "settings": {
+            "sale_collection": "",
+            "top_text": "Up to",
+            "middle_text": "50% off",
+            "bottom_text": "Select products",
+            "width": "100",
+            "color_tint": "#000000",
+            "color_tint_opacity": 0,
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-0",
+        "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1",
+        "c0ceff30-f019-44d7-b646-cab022cd267f",
+        "f84ce43b-12d6-40d0-9c61-11f63a5f9a97",
+        "7baf3116-746f-40c5-b2db-0fb417b943ce"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false,
+        "lazyload_images": true
+      }
+    },
+    "537cdca2-2a11-4865-bc4f-c49f8928662a": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "12-days-of-dudley",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "62df1099-67ea-4ca3-9e8e-19a36e8f1dcc": {
+      "type": "hotspots",
+      "blocks": {
+        "template--14916567695402__62df1099-67ea-4ca3-9e8e-19a36e8f1dcc-16844350879d46fb13-0": {
+          "type": "product",
+          "settings": {
+            "featured_product": "alpine-long-sleeve-turtleneck-in-repreve-jersey-army-green",
+            "vertical": 37,
+            "horizontal": 43
+          }
+        },
+        "template--14916567695402__62df1099-67ea-4ca3-9e8e-19a36e8f1dcc-16844350879d46fb13-1": {
+          "type": "product",
+          "settings": {
+            "featured_product": "",
+            "vertical": 75,
+            "horizontal": 65
+          }
+        }
+      },
+      "block_order": [
+        "template--14916567695402__62df1099-67ea-4ca3-9e8e-19a36e8f1dcc-16844350879d46fb13-0",
+        "template--14916567695402__62df1099-67ea-4ca3-9e8e-19a36e8f1dcc-16844350879d46fb13-1"
+      ],
+      "settings": {
+        "title": "Shop the look",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "image": "shopify:\/\/shop_images\/nav_2748bdee-b6c5-476f-ae0a-c2b050056758.jpg",
+        "indent_image": false,
+        "image_position": "left",
+        "hotspot_style": "bag",
+        "hotspot_color": "#000000",
+        "lazyload_images": true
+      }
+    },
     "slideshow": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "slideshow-0": {
           "type": "image",
@@ -387,87 +595,48 @@
         "divider": false
       }
     },
-    "e8be78eb-5a78-4b99-988f-eca6fb4c0f79": {
-      "type": "countdown",
-      "blocks": {
-        "template--14916567695402__e8be78eb-5a78-4b99-988f-eca6fb4c0f79-1684434767e8cc57c1-0": {
-          "type": "content",
-          "settings": {
-            "heading": "Countdown",
-            "heading_size": "h2",
-            "text": "<p>Use this timer to create urgency and boost sales.<\/p>",
-            "content_alignment": "left"
-          }
-        },
-        "template--14916567695402__e8be78eb-5a78-4b99-988f-eca6fb4c0f79-1684434767e8cc57c1-1": {
-          "type": "timer",
-          "settings": {
-            "year": "2025",
-            "month": "01",
-            "day": "1",
-            "hour": "03",
-            "minute": "00",
-            "hide_timer": false,
-            "text": ""
-          }
-        },
-        "template--14916567695402__e8be78eb-5a78-4b99-988f-eca6fb4c0f79-1684434767e8cc57c1-2": {
-          "type": "button",
-          "settings": {
-            "button_link": "",
-            "button": "Shop Collection",
-            "button_style": "solid"
-          }
-        }
-      },
-      "block_order": [
-        "template--14916567695402__e8be78eb-5a78-4b99-988f-eca6fb4c0f79-1684434767e8cc57c1-0",
-        "template--14916567695402__e8be78eb-5a78-4b99-988f-eca6fb4c0f79-1684434767e8cc57c1-1",
-        "template--14916567695402__e8be78eb-5a78-4b99-988f-eca6fb4c0f79-1684434767e8cc57c1-2"
-      ],
+    "872f39ff-44ce-4f70-a4c3-da92399bc927": {
+      "type": "text-and-image",
       "settings": {
-        "layout": "banner",
-        "full_width": false,
-        "text_color": "#000",
-        "background_color": "#FFF",
-        "overlay_color": "#000",
-        "overlay_opacity": 0,
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
         "lazyload_images": true
       }
     },
-    "2bbd2655-b6b8-489a-889c-db825cb5d616": {
-      "type": "image-compare",
-      "blocks": {
-        "template--14916567695402__2bbd2655-b6b8-489a-889c-db825cb5d616-1684434794298bcbeb-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2023-04-17-dudldeystephens_ShadesOfPinck-JDP_2505.jpg"
-          }
-        },
-        "template--14916567695402__2bbd2655-b6b8-489a-889c-db825cb5d616-1684434794298bcbeb-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Slider_b99084e2-5fb1-48fb-9d1f-1a5fcd1fd82a.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "template--14916567695402__2bbd2655-b6b8-489a-889c-db825cb5d616-1684434794298bcbeb-0",
-        "template--14916567695402__2bbd2655-b6b8-489a-889c-db825cb5d616-1684434794298bcbeb-1"
-      ],
+    "100f2318-c7de-4175-94fc-8b627730e1ef": {
+      "type": "background-image-text",
       "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "heading_position": "left",
-        "fullwidth": true,
-        "slider_style": "minimal",
-        "height": 600,
-        "color": "#FFFFFF",
+        "subtitle": "Impressive",
+        "title": "Large image with text box",
+        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
+        "height": 550,
+        "framed": false,
+        "parallax": true,
+        "parallax_direction": "top",
         "lazyload_images": true
       }
     }
   },
   "order": [
+    "e8be78eb-5a78-4b99-988f-eca6fb4c0f79",
+    "b8fccc94-b721-4ed5-a976-f81ed754cc18",
+    "537cdca2-2a11-4865-bc4f-c49f8928662a",
+    "62df1099-67ea-4ca3-9e8e-19a36e8f1dcc",
     "slideshow",
     "rich-text",
     "55b4676d-449a-4dad-bd6c-c86b5726c2ae",
@@ -477,7 +646,7 @@
     "6c3e39f0-b89c-495b-b25e-7023b5c70d72",
     "8094ad36-9c5b-49d2-8bc5-e44e5d91343a",
     "dd662593-564f-46bd-965c-42be0bb69954",
-    "e8be78eb-5a78-4b99-988f-eca6fb4c0f79",
-    "2bbd2655-b6b8-489a-889c-db825cb5d616"
+    "872f39ff-44ce-4f70-a4c3-da92399bc927",
+    "100f2318-c7de-4175-94fc-8b627730e1ef"
   ]
 }

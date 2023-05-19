@@ -518,7 +518,8 @@
         "b1fd02c9-85f4-4f4b-8577-b376a592bc27"
       ],
       "custom_css": [
-        "h2 {text-align: center;}"
+        "h2 {text-align: center;}",
+        ".index-section {background-color: #F8F4ED;}"
       ],
       "settings": {
         "title": "",

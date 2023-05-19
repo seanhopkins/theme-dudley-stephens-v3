@@ -637,6 +637,18 @@
         "divider": true
       }
     },
+    "9d451ba4-68b4-470b-85d1-cce179b92548": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "What's in style this year",
+        "home_featured_products": "2023-best-sellers",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": true
+      }
+    },
     "3acb1261-9345-47a4-bd1a-d0ef5ac97f9c": {
       "type": "text-with-icons",
       "blocks": {
@@ -706,6 +718,7 @@
     "0ea63146-12df-42a7-a684-7d4133fd7903",
     "55b4676d-449a-4dad-bd6c-c86b5726c2ae",
     "3283dc6a-ca11-4d10-91a7-cedc47a19e46",
+    "9d451ba4-68b4-470b-85d1-cce179b92548",
     "3acb1261-9345-47a4-bd1a-d0ef5ac97f9c"
   ]
 }

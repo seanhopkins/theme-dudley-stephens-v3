@@ -620,17 +620,29 @@
             "title": "Example title",
             "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.<\/p>"
           }
+        },
+        "fb5cf248-626f-455c-9505-61ff07cbc9f8": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.<\/p>"
+          }
         }
       },
       "block_order": [
         "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-0",
         "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-1",
-        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-2"
+        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-2",
+        "fb5cf248-626f-455c-9505-61ff07cbc9f8"
+      ],
+      "custom_css": [
+        ".index-section {}"
       ],
       "settings": {
         "title": "",
         "align_text": "center",
-        "desktop_columns_per_row": 3,
+        "desktop_columns_per_row": 4,
         "icon_color": "#000",
         "button_label": "",
         "button_link": "",

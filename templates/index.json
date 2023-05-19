@@ -103,7 +103,7 @@
         "text"
       ],
       "custom_css": [
-        ".theme-block {margin: 0em;}"
+        ".theme-block,.theme-block h2{margin: 0em;}"
       ],
       "settings": {
         "align_text": "center",

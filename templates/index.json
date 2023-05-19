@@ -42,9 +42,9 @@
       "settings": {
         "layout": "banner",
         "full_width": true,
-        "text_color": "#000",
-        "background_color": "#FFF",
-        "overlay_color": "#000",
+        "text_color": "#000000",
+        "background_color": "#ffffff",
+        "overlay_color": "#000000",
         "overlay_opacity": 0,
         "lazyload_images": true
       }
@@ -55,10 +55,10 @@
         "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-0": {
           "type": "advanced",
           "settings": {
-            "subheading": "Limited time",
-            "heading": "Shop Turtlenecks",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
+            "subheading": "Tis the season",
+            "heading": "Summer Essentials",
+            "textarea": "Light, breathable, stylish—suitable for all occasions",
+            "cta_text1": "Shop Summer",
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
@@ -77,9 +77,9 @@
           "type": "advanced",
           "settings": {
             "subheading": "Limited time",
-            "heading": "Shop Dresses",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
+            "heading": "Capsule Wardrobe",
+            "textarea": "All the basics you need to mix and match",
+            "cta_text1": "Shop Basics",
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
@@ -168,7 +168,7 @@
         "title": "",
         "align_text": "center",
         "desktop_columns_per_row": 3,
-        "icon_color": "#000",
+        "icon_color": "#000000",
         "button_label": "",
         "button_link": "",
         "divider": false

@@ -22,18 +22,18 @@
             "color_swatches": true
           }
         },
-        "inventory_status": {
-          "type": "inventory_status",
-          "settings": {
-            "inventory_threshold": 10,
-            "inventory_transfers_enable": true
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
             "surface_pickup_enable": false
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
           }
         },
         "description": {
@@ -76,8 +76,8 @@
         "price",
         "separator",
         "variant_picker",
-        "inventory_status",
         "buy_buttons",
+        "inventory_status",
         "description",
         "tab",
         "ab135439-7e5c-4100-a042-17e17f3fa6c7",

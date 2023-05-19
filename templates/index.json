@@ -313,7 +313,8 @@
     "537cdca2-2a11-4865-bc4f-c49f8928662a": {
       "type": "featured-collection",
       "custom_css": [
-        ".index-section {margin: 0;}"
+        ".index-section {margin: 0;}",
+        ".grid-product__tag--custom {text-transform: uppercase; font-size: .75rem; font-weight: 500; letter-spacing: .05em; border-bottom-left-radius: 4px;}"
       ],
       "settings": {
         "title": "",

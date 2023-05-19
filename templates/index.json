@@ -264,10 +264,10 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-0": {
           "type": "content",
           "settings": {
-            "heading": "Limited runs, dropped each month.",
+            "heading": "Limited runs of our most popular styles and colors, dropped monthly",
             "heading_size": "h3",
-            "text": "<p>Placeholder text here to support the above headline, should be no longer than two or three lines<\/p>",
-            "content_alignment": "left"
+            "text": "",
+            "content_alignment": "center"
           }
         },
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-1": {
@@ -301,11 +301,12 @@
       ],
       "settings": {
         "layout": "banner",
-        "full_width": true,
+        "full_width": false,
         "text_color": "#000",
         "background_color": "#ffffff",
-        "overlay_color": "#000",
-        "overlay_opacity": 0,
+        "background_image": "shopify:\/\/shop_images\/Summer_Ikat.jpg",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 80,
         "lazyload_images": true
       }
     },

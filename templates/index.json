@@ -19,9 +19,9 @@
             "height": 800,
             "text_size": 100,
             "text_align": "vertical-center horizontal-center",
-            "color_accent": "rgba(0,0,0,0)",
+            "color_accent": "#ffffff",
             "boxed": false,
-            "framed": false
+            "framed": true
           }
         },
         "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1": {
@@ -40,9 +40,9 @@
             "height": 800,
             "text_size": 100,
             "text_align": "vertical-center horizontal-center",
-            "color_accent": "rgba(0,0,0,0)",
+            "color_accent": "#ffffff",
             "boxed": false,
-            "framed": false
+            "framed": true
           }
         },
         "c0ceff30-f019-44d7-b646-cab022cd267f": {
@@ -75,7 +75,7 @@
       ],
       "settings": {
         "full_width": true,
-        "gutter_size": 5,
+        "gutter_size": 0,
         "space_above": false,
         "space_below": true,
         "lazyload_images": true

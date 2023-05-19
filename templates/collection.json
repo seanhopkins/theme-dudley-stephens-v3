@@ -170,6 +170,12 @@
     "main-collection": {
       "type": "main-collection",
       "blocks": {
+        "cdb3fbbc-ff47-4052-a5d0-ff0177f1fe0a": {
+          "type": "subcollections",
+          "settings": {
+            "subcollections_per_row": 5
+          }
+        },
         "collection_description": {
           "type": "collection_description",
           "settings": {
@@ -186,11 +192,12 @@
         }
       },
       "block_order": [
+        "cdb3fbbc-ff47-4052-a5d0-ff0177f1fe0a",
         "collection_description",
         "product_grid"
       ],
       "custom_css": [
-        ".grid-product__image-mask {border-radius: 8px;}"
+        ".grid-product__image-mask {border-radius: 4px;}"
       ],
       "settings": {
         "enable_sidebar": true,

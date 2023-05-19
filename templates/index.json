@@ -301,10 +301,9 @@
       ],
       "settings": {
         "layout": "banner",
-        "full_width": false,
+        "full_width": true,
         "text_color": "#232528",
         "background_color": "#ffffff",
-        "background_image": "shopify:\/\/shop_images\/summer-ikat.png",
         "overlay_color": "#ffffff",
         "overlay_opacity": 80,
         "lazyload_images": true
@@ -519,7 +518,7 @@
       ],
       "custom_css": [
         "h2 {text-align: center;}",
-        ".index-section {background-color: #F8F4ED;}"
+        ".index-section {background-color: #f8f4ed;}"
       ],
       "settings": {
         "title": "",

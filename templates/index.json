@@ -597,47 +597,48 @@
     "3acb1261-9345-47a4-bd1a-d0ef5ac97f9c": {
       "type": "text-with-icons",
       "blocks": {
+        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-2": {
+          "type": "text_block",
+          "settings": {
+            "icon": "charity",
+            "title": "DS gives back",
+            "text": "<p>1% of all sales is donated to St. Jude<\/p>"
+          }
+        },
         "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-0": {
           "type": "text_block",
           "settings": {
-            "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.<\/p>"
+            "icon": "recycle",
+            "title": "Sustainable fabrics",
+            "text": "<p>All our products are made from recycled waterbottles<\/p>"
           }
         },
         "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-1": {
           "type": "text_block",
           "settings": {
-            "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.<\/p>"
-          }
-        },
-        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-2": {
-          "type": "text_block",
-          "settings": {
-            "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.<\/p>"
+            "icon": "package",
+            "title": "Free Shipping",
+            "text": "<p>On all orders over $250. Limited to the United States<\/p>"
           }
         },
         "fb5cf248-626f-455c-9505-61ff07cbc9f8": {
           "type": "text_block",
           "settings": {
-            "icon": "chat",
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.<\/p>"
+            "icon": "sales-tag",
+            "title": "Easy Returns",
+            "text": "<p>Return any time, for any reason and receive a store credit<\/p>"
           }
         }
       },
       "block_order": [
+        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-2",
         "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-0",
         "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-1",
-        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-2",
         "fb5cf248-626f-455c-9505-61ff07cbc9f8"
       ],
       "custom_css": [
-        ".index-section {}"
+        ".index-section {background-color: #f2f8fd; margin-bottom: 0;}",
+        "h3 {font-size: 1.5em;}"
       ],
       "settings": {
         "title": "",

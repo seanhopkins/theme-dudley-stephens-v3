@@ -265,7 +265,7 @@
           "type": "content",
           "settings": {
             "heading": "Limited runs, dropped each month.",
-            "heading_size": "h2",
+            "heading_size": "h3",
             "text": "<p>Placeholder text here to support the above headline, should be no longer than two or three lines<\/p>",
             "content_alignment": "left"
           }

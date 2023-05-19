@@ -285,8 +285,8 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2": {
           "type": "button",
           "settings": {
-            "button_link": "",
-            "button": "Shop Collection",
+            "button_link": "shopify:\/\/collections\/new-drops",
+            "button": "Shop the Drop",
             "button_style": "solid"
           }
         }
@@ -297,7 +297,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2"
       ],
       "custom_css": [
-        ".index-section {margin-top: 0;}"
+
       ],
       "settings": {
         "layout": "banner",
@@ -311,14 +311,17 @@
     },
     "537cdca2-2a11-4865-bc4f-c49f8928662a": {
       "type": "featured-collection",
+      "custom_css": [
+        ".index-section {margin-top: 0;}"
+      ],
       "settings": {
-        "title": "Summer Drop",
+        "title": "Shop the latest drop",
         "home_featured_products": "4-26-drop",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
         "view_all": false,
-        "divider": true
+        "divider": false
       }
     },
     "slideshow": {

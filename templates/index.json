@@ -84,27 +84,26 @@
     "rich-text": {
       "type": "rich-text",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Shop by category"
-          }
-        },
         "text": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
+            "enlarge_text": false,
             "text": "<p>Style to live in. Responsible fabrics. Female founded.<\/p>"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "SHOP BY CATEGORY"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "text",
+        "heading"
       ],
       "custom_css": [
-        ".theme-block {margin-bottom: 0;}",
-        ".theme-block > .rte > .btn {margin-top: 3em;}"
+
       ],
       "settings": {
         "align_text": "center",

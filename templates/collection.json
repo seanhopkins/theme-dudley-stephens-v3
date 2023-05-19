@@ -9,7 +9,7 @@
         "enable": true,
         "collection_image_enable": false,
         "parallax": false,
-        "parallax_direction": "top"
+        "parallax_direction": "left"
       }
     },
     "b133e554-126e-4859-9e45-386e25fc6db3": {
@@ -118,55 +118,6 @@
         "lazyload_images": true
       }
     },
-    "69767d13-5093-4077-9f67-638bb15c6bfb": {
-      "type": "countdown",
-      "disabled": true,
-      "blocks": {
-        "template--14928410181674__69767d13-5093-4077-9f67-638bb15c6bfb-1684280169872a09fe-0": {
-          "type": "content",
-          "settings": {
-            "heading": "Countdown",
-            "heading_size": "h2",
-            "text": "<p>Use this timer to create urgency and boost sales.<\/p>",
-            "content_alignment": "left"
-          }
-        },
-        "template--14928410181674__69767d13-5093-4077-9f67-638bb15c6bfb-1684280169872a09fe-1": {
-          "type": "timer",
-          "settings": {
-            "year": "2025",
-            "month": "01",
-            "day": "1",
-            "hour": "03",
-            "minute": "00",
-            "hide_timer": false,
-            "text": ""
-          }
-        },
-        "template--14928410181674__69767d13-5093-4077-9f67-638bb15c6bfb-1684280169872a09fe-2": {
-          "type": "button",
-          "settings": {
-            "button_link": "",
-            "button": "Shop Collection",
-            "button_style": "solid"
-          }
-        }
-      },
-      "block_order": [
-        "template--14928410181674__69767d13-5093-4077-9f67-638bb15c6bfb-1684280169872a09fe-0",
-        "template--14928410181674__69767d13-5093-4077-9f67-638bb15c6bfb-1684280169872a09fe-1",
-        "template--14928410181674__69767d13-5093-4077-9f67-638bb15c6bfb-1684280169872a09fe-2"
-      ],
-      "settings": {
-        "layout": "banner",
-        "full_width": true,
-        "text_color": "#232528",
-        "background_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "lazyload_images": true
-      }
-    },
     "main-collection": {
       "type": "main-collection",
       "blocks": {
@@ -212,7 +163,6 @@
     "collection-header",
     "b133e554-126e-4859-9e45-386e25fc6db3",
     "promo-grid",
-    "69767d13-5093-4077-9f67-638bb15c6bfb",
     "main-collection"
   ]
 }

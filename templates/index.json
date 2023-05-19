@@ -314,7 +314,7 @@
       "type": "featured-collection",
       "custom_css": [
         ".index-section {margin: 0;}",
-        ".grid-product__tag--custom {text-transform: uppercase; font-size: .75rem; font-weight: 500; letter-spacing: .05em; border-bottom-left-radius: 4px;}"
+        ".grid-product__tag--sale, .grid-product__tag--custom {text-transform: uppercase; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.05em; border-bottom-left-radius: 4px;}"
       ],
       "settings": {
         "title": "",

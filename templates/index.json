@@ -358,6 +358,7 @@
         "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-2"
       ],
       "custom_css": [
+        ".theme-block {margin-bottom: 0;}",
         ".h3 {margin: 0;}",
         ".newsletter__input-group {max-width: 600px;}",
         ".input-group-field {background-color: #fff; padding: 1em 2em;}"

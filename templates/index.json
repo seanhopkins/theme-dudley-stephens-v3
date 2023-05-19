@@ -103,7 +103,7 @@
         "heading"
       ],
       "custom_css": [
-
+        ".theme-block {margin-bottom: 1em;}"
       ],
       "settings": {
         "align_text": "center",

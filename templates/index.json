@@ -529,45 +529,48 @@
     "0ea63146-12df-42a7-a684-7d4133fd7903": {
       "type": "hotspots",
       "blocks": {
-        "template--14916567695402__0ea63146-12df-42a7-a684-7d4133fd7903-16844350879d46fb13-0": {
-          "type": "product",
-          "settings": {
-            "featured_product": "",
-            "vertical": 25,
-            "horizontal": 25
-          }
-        },
         "template--14916567695402__0ea63146-12df-42a7-a684-7d4133fd7903-16844350879d46fb13-1": {
           "type": "product",
           "settings": {
-            "featured_product": "",
+            "featured_product": "cat-rock-cardigan-in-vello-fleece-ice-blue",
             "vertical": 75,
             "horizontal": 65
+          }
+        },
+        "template--14916567695402__0ea63146-12df-42a7-a684-7d4133fd7903-16844350879d46fb13-0": {
+          "type": "product",
+          "settings": {
+            "featured_product": "bali-top-in-repreve-stretch-white",
+            "vertical": 25,
+            "horizontal": 25
           }
         },
         "01eb130c-2c88-43d6-9b27-4195d8e8adb5": {
           "type": "product",
           "settings": {
-            "featured_product": "",
+            "featured_product": "jetties-pant-in-terry-fleece-off-white",
             "vertical": 50,
             "horizontal": 50
           }
         }
       },
       "block_order": [
-        "template--14916567695402__0ea63146-12df-42a7-a684-7d4133fd7903-16844350879d46fb13-0",
         "template--14916567695402__0ea63146-12df-42a7-a684-7d4133fd7903-16844350879d46fb13-1",
+        "template--14916567695402__0ea63146-12df-42a7-a684-7d4133fd7903-16844350879d46fb13-0",
         "01eb130c-2c88-43d6-9b27-4195d8e8adb5"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "title": "Shop the look",
         "heading_size": "h2",
         "heading_position": "left",
-        "image": "shopify:\/\/shop_images\/MdayGG.jpg",
+        "image": "shopify:\/\/shop_images\/2023-04-24-dudldeystephens-JDP_6494.jpg",
         "indent_image": false,
         "image_position": "left",
-        "hotspot_style": "bag",
-        "hotspot_color": "#9bcc56",
+        "hotspot_style": "tag",
+        "hotspot_color": "#ffffff",
         "lazyload_images": true
       }
     }

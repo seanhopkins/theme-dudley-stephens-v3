@@ -638,6 +638,7 @@
       ],
       "custom_css": [
         ".index-section {background-color: #f2f8fd; margin-bottom: 0;}",
+        ".text-with-icons__block-icon .icon {width:40px; }",
         "h3 {font-size: 1.5em;}"
       ],
       "settings": {

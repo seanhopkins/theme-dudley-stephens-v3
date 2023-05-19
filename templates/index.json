@@ -558,16 +558,16 @@
           "type": "product",
           "settings": {
             "featured_product": "",
-            "vertical": 50,
-            "horizontal": 50
+            "vertical": 10,
+            "horizontal": 53
           }
         },
         "38676eaf-f210-4140-9703-cadf3efba5f6": {
           "type": "product",
           "settings": {
             "featured_product": "",
-            "vertical": 50,
-            "horizontal": 50
+            "vertical": 62,
+            "horizontal": 78
           }
         }
       },

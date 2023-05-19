@@ -652,16 +652,16 @@
     "20e5f64b-7fa2-4d5c-a00f-0c7b921eed33": {
       "type": "hero-video",
       "settings": {
-        "title": "Bring your\nbrand to life.",
+        "title": "This is\ndudley stephens",
         "title_size": 80,
-        "subheading": "Seamless hero videos",
-        "link_text": "Optional button",
-        "link": "",
+        "subheading": "",
+        "link_text": "About us",
+        "link": "shopify:\/\/pages\/about-us",
         "color_accent": "rgba(0,0,0,0)",
         "text_align": "vertical-center horizontal-center",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "overlay_opacity": 0,
-        "section_height": "650px",
+        "section_height": "450px",
         "mobile_height": "auto"
       }
     },

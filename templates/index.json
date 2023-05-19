@@ -16,7 +16,7 @@
             "image": "shopify:\/\/shop_images\/Slider_Moblie_b34dcf70-f892-443c-8c03-bfeb4678f440.jpg",
             "video_url": "",
             "width": "50",
-            "height": 620,
+            "height": 800,
             "text_size": 100,
             "text_align": "vertical-center horizontal-center",
             "color_accent": "rgba(0,0,0,0)",
@@ -37,7 +37,7 @@
             "image": "shopify:\/\/shop_images\/2023-04-17-dudldeystephens_ShadesOfPinck-JDP_2353.jpg",
             "video_url": "",
             "width": "50",
-            "height": 500,
+            "height": 800,
             "text_size": 100,
             "text_align": "vertical-center horizontal-center",
             "color_accent": "rgba(0,0,0,0)",
@@ -77,7 +77,7 @@
         "full_width": true,
         "gutter_size": 5,
         "space_above": false,
-        "space_below": false,
+        "space_below": true,
         "lazyload_images": true
       }
     },
@@ -324,49 +324,6 @@
         "divider": false
       }
     },
-    "slideshow": {
-      "type": "slideshow",
-      "disabled": true,
-      "blocks": {
-        "slideshow-0": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "Mother's Day Gifts",
-            "title": "Mom's the Word",
-            "title_size": 62,
-            "subheading": "Say thanks for all she does with a Dudley she can wear to do it all.",
-            "link": "shopify:\/\/pages\/mothers-day-gift-guide",
-            "link_text": "Shop Now",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#4c574c",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/Slider_26d5eeb1-f795-4802-8168-ae9e2d006ce8.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_2ccb271f-4305-4979-97e5-85fec5d41243.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 14
-          }
-        }
-      },
-      "block_order": [
-        "slideshow-0"
-      ],
-      "custom_css": [
-        ".hero__top-subtitle {font-size: 0.9em; margin-bottom: 1em;}",
-        ".hero__title {line-height: 1em;}",
-        ".hero__text-content .hero__link {margin-top: 2em;}",
-        ".btn {letter-spacing: 1px; font-weight: 400;}"
-      ],
-      "settings": {
-        "section_height": "natural",
-        "mobile_height": "auto",
-        "parallax": false,
-        "style": "minimal",
-        "autoplay": true,
-        "autoplay_speed": 7,
-        "lazyload_images": true
-      }
-    },
     "55b4676d-449a-4dad-bd6c-c86b5726c2ae": {
       "type": "text-columns",
       "disabled": true,
@@ -606,7 +563,6 @@
     "e24f6384-e790-470d-b852-f884425de94f",
     "b436726f-56a1-40d8-9a9c-1d5386d219c4",
     "537cdca2-2a11-4865-bc4f-c49f8928662a",
-    "slideshow",
     "55b4676d-449a-4dad-bd6c-c86b5726c2ae",
     "3283dc6a-ca11-4d10-91a7-cedc47a19e46",
     "6c3e39f0-b89c-495b-b25e-7023b5c70d72",

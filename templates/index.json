@@ -119,6 +119,90 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "Shop Bottoms",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/2023-03-27-parkerpuff_white6761.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 620,
+            "text_size": 100,
+            "text_align": "vertical-bottom horizontal-center",
+            "color_accent": "#ffffff",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "5fb4d807-a5cb-4e44-aa5c-b43e453a0732": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "Shop T-shirts",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/2023-03-27-balishort_navystripe6881.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 620,
+            "text_size": 100,
+            "text_align": "vertical-bottom horizontal-center",
+            "color_accent": "#ffffff",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "78db6c4e-9a23-4f5c-82e1-6c60fcca81dc": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Dresses",
+            "textarea": "",
+            "cta_text1": "Shop Tops",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/2023-04-17-dudldeystephens_ShadesOfPinck-JDP_2505.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 620,
+            "text_size": 100,
+            "text_align": "vertical-bottom horizontal-center",
+            "color_accent": "#ffffff",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "8771a3fd-ce26-47bc-95bf-afbfd86e0533": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Dresses",
+            "textarea": "",
+            "cta_text1": "Shop Dresses",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/4-24DSbayberry_stripe7475.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 620,
+            "text_size": 100,
+            "text_align": "vertical-bottom horizontal-center",
+            "color_accent": "#ffffff",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "3d5cebe7-bd8b-4dbd-9f40-605450eb498b": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
             "heading": "Dresses",
             "textarea": "",
             "cta_text1": "Shop Dresses",
@@ -136,54 +220,35 @@
             "framed": false
           }
         },
-        "a8ad5fa3-376a-487c-9de7-348c7f4ea390": {
+        "46d3bf97-8411-48e3-bac2-40dcf2273437": {
           "type": "advanced",
           "settings": {
-            "subheading": "Limited time",
-            "heading": "Capsule Wardrobe",
-            "textarea": "All the basics you need to mix and match",
-            "cta_text1": "Shop Basics",
+            "subheading": "",
+            "heading": "Dresses",
+            "textarea": "",
+            "cta_text1": "Shop Dresses",
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/2023-04-17-dudldeystephens_ShadesOfPinck-JDP_2353.jpg",
+            "image": "shopify:\/\/shop_images\/Slider_Moblie_b34dcf70-f892-443c-8c03-bfeb4678f440.jpg",
             "video_url": "",
             "width": "33",
-            "height": 500,
+            "height": 620,
             "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
-            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-center",
+            "color_accent": "#ffffff",
             "boxed": false,
             "framed": false
-          }
-        },
-        "f9ef61c3-2228-421a-9747-75810e742bc4": {
-          "type": "advanced",
-          "disabled": true,
-          "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
-            "cta_link1": "",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/2023-04-17-dudldeystephens-JDP_1659.jpg",
-            "video_url": "",
-            "width": "33",
-            "height": 500,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": true
           }
         }
       },
       "block_order": [
         "f1e94748-bdb3-4fb9-8bc7-054171168f3f",
-        "a8ad5fa3-376a-487c-9de7-348c7f4ea390",
-        "f9ef61c3-2228-421a-9747-75810e742bc4"
+        "5fb4d807-a5cb-4e44-aa5c-b43e453a0732",
+        "78db6c4e-9a23-4f5c-82e1-6c60fcca81dc",
+        "8771a3fd-ce26-47bc-95bf-afbfd86e0533",
+        "3d5cebe7-bd8b-4dbd-9f40-605450eb498b",
+        "46d3bf97-8411-48e3-bac2-40dcf2273437"
       ],
       "settings": {
         "full_width": true,

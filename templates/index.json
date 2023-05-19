@@ -252,7 +252,7 @@
       ],
       "settings": {
         "full_width": false,
-        "gutter_size": 2,
+        "gutter_size": 10,
         "space_above": false,
         "space_below": false,
         "lazyload_images": true

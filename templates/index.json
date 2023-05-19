@@ -305,8 +305,8 @@
         "text_color": "#232528",
         "background_color": "#ffffff",
         "background_image": "shopify:\/\/shop_images\/summer-ikat.png",
-        "overlay_color": "#ffffff",
-        "overlay_opacity": 80,
+        "overlay_color": "#f8f4ed",
+        "overlay_opacity": 90,
         "lazyload_images": true
       }
     },

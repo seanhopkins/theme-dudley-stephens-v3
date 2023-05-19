@@ -1,9 +1,9 @@
 {
   "current": {
     "color_body_bg": "#ffffff",
-    "color_body_text": "#7f8182",
-    "color_price": "#232528",
-    "color_savings_text": "#7f8182",
+    "color_body_text": "#232528",
+    "color_price": "#7f8182",
+    "color_savings_text": "#9bcc56",
     "color_borders": "#f8f4ed",
     "color_button": "#9bcc56",
     "color_button_text": "#ffffff",

@@ -317,7 +317,7 @@
       "settings": {
         "title": "Shop the latest drop",
         "home_featured_products": "4-26-drop",
-        "per_row": 4,
+        "per_row": 5,
         "rows": 1,
         "mobile_scrollable": true,
         "view_all": false,

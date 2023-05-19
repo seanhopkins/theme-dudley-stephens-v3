@@ -314,7 +314,7 @@
       "type": "featured-collection",
       "custom_css": [
         ".index-section {margin: 0;}",
-        ".grid-product__tag--sale, .grid-product__tag--custom {text-transform: uppercase; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.05em; border-bottom-left-radius: 4px;}"
+        ".grid-product__tag--sale,.grid-product__tag--custom {text-transform: uppercase; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.05em; border-bottom-left-radius: 4px;}"
       ],
       "settings": {
         "title": "",
@@ -580,12 +580,12 @@
         "38676eaf-f210-4140-9703-cadf3efba5f6"
       ],
       "custom_css": [
-
+        ".hotspots-wrapper {max-width: 66%;}"
       ],
       "settings": {
         "title": "Shop the look",
         "heading_size": "h2",
-        "heading_position": "left",
+        "heading_position": "center",
         "image": "shopify:\/\/shop_images\/MothersdayGG.jpg",
         "indent_image": false,
         "image_position": "left",

@@ -302,7 +302,7 @@
       "settings": {
         "layout": "banner",
         "full_width": false,
-        "text_color": "#000",
+        "text_color": "#232528",
         "background_color": "#ffffff",
         "background_image": "shopify:\/\/shop_images\/summer-ikat.png",
         "overlay_color": "#ffffff",

@@ -1,54 +1,5 @@
 {
   "sections": {
-    "e8be78eb-5a78-4b99-988f-eca6fb4c0f79": {
-      "type": "countdown",
-      "disabled": true,
-      "blocks": {
-        "template--14916567695402__e8be78eb-5a78-4b99-988f-eca6fb4c0f79-1684434767e8cc57c1-0": {
-          "type": "content",
-          "settings": {
-            "heading": "Countdown",
-            "heading_size": "h2",
-            "text": "<p>Use this timer to create urgency and boost sales.<\/p>",
-            "content_alignment": "left"
-          }
-        },
-        "template--14916567695402__e8be78eb-5a78-4b99-988f-eca6fb4c0f79-1684434767e8cc57c1-1": {
-          "type": "timer",
-          "settings": {
-            "year": "2025",
-            "month": "01",
-            "day": "1",
-            "hour": "03",
-            "minute": "00",
-            "hide_timer": false,
-            "text": ""
-          }
-        },
-        "template--14916567695402__e8be78eb-5a78-4b99-988f-eca6fb4c0f79-1684434767e8cc57c1-2": {
-          "type": "button",
-          "settings": {
-            "button_link": "",
-            "button": "Shop Collection",
-            "button_style": "solid"
-          }
-        }
-      },
-      "block_order": [
-        "template--14916567695402__e8be78eb-5a78-4b99-988f-eca6fb4c0f79-1684434767e8cc57c1-0",
-        "template--14916567695402__e8be78eb-5a78-4b99-988f-eca6fb4c0f79-1684434767e8cc57c1-1",
-        "template--14916567695402__e8be78eb-5a78-4b99-988f-eca6fb4c0f79-1684434767e8cc57c1-2"
-      ],
-      "settings": {
-        "layout": "banner",
-        "full_width": true,
-        "text_color": "#000000",
-        "background_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "lazyload_images": true
-      }
-    },
     "b8fccc94-b721-4ed5-a976-f81ed754cc18": {
       "type": "promo-grid",
       "blocks": {
@@ -130,50 +81,6 @@
         "lazyload_images": true
       }
     },
-    "a52c20dc-96b8-4f47-863a-db32babd03f3": {
-      "type": "text-with-icons",
-      "disabled": true,
-      "blocks": {
-        "template--14916567695402__a52c20dc-96b8-4f47-863a-db32babd03f3-16844357210515fe51-0": {
-          "type": "text_block",
-          "settings": {
-            "icon": "chat",
-            "title": "Example title",
-            "text": ""
-          }
-        },
-        "template--14916567695402__a52c20dc-96b8-4f47-863a-db32babd03f3-16844357210515fe51-1": {
-          "type": "text_block",
-          "settings": {
-            "icon": "shield",
-            "title": "Example title",
-            "text": ""
-          }
-        },
-        "template--14916567695402__a52c20dc-96b8-4f47-863a-db32babd03f3-16844357210515fe51-2": {
-          "type": "text_block",
-          "settings": {
-            "icon": "envelope",
-            "title": "Example title",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14916567695402__a52c20dc-96b8-4f47-863a-db32babd03f3-16844357210515fe51-0",
-        "template--14916567695402__a52c20dc-96b8-4f47-863a-db32babd03f3-16844357210515fe51-1",
-        "template--14916567695402__a52c20dc-96b8-4f47-863a-db32babd03f3-16844357210515fe51-2"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "desktop_columns_per_row": 3,
-        "icon_color": "#000000",
-        "button_label": "",
-        "button_link": "",
-        "divider": false
-      }
-    },
     "537cdca2-2a11-4865-bc4f-c49f8928662a": {
       "type": "featured-collection",
       "settings": {
@@ -184,42 +91,6 @@
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
-      }
-    },
-    "62df1099-67ea-4ca3-9e8e-19a36e8f1dcc": {
-      "type": "hotspots",
-      "blocks": {
-        "template--14916567695402__62df1099-67ea-4ca3-9e8e-19a36e8f1dcc-16844350879d46fb13-0": {
-          "type": "product",
-          "settings": {
-            "featured_product": "alpine-long-sleeve-turtleneck-in-repreve-jersey-army-green",
-            "vertical": 37,
-            "horizontal": 43
-          }
-        },
-        "template--14916567695402__62df1099-67ea-4ca3-9e8e-19a36e8f1dcc-16844350879d46fb13-1": {
-          "type": "product",
-          "settings": {
-            "featured_product": "",
-            "vertical": 75,
-            "horizontal": 65
-          }
-        }
-      },
-      "block_order": [
-        "template--14916567695402__62df1099-67ea-4ca3-9e8e-19a36e8f1dcc-16844350879d46fb13-0",
-        "template--14916567695402__62df1099-67ea-4ca3-9e8e-19a36e8f1dcc-16844350879d46fb13-1"
-      ],
-      "settings": {
-        "title": "Shop the look",
-        "heading_size": "h2",
-        "heading_position": "left",
-        "image": "shopify:\/\/shop_images\/nav_2748bdee-b6c5-476f-ae0a-c2b050056758.jpg",
-        "indent_image": false,
-        "image_position": "left",
-        "hotspot_style": "bag",
-        "hotspot_color": "#000000",
-        "lazyload_images": true
       }
     },
     "slideshow": {
@@ -469,27 +340,6 @@
         "lazyload_images": true
       }
     },
-    "blog-posts": {
-      "type": "blog-posts",
-      "disabled": true,
-      "custom_css": [
-        ".image-wrap {border-radius: 8px;}",
-        ".article__grid-meta {text-align: center;}",
-        ".article__title {font-family: \"QuaverSerif\" !important; font-size: 1.4em; letter-spacing: 1px; text-align: center;}"
-      ],
-      "settings": {
-        "title": "Take a walk down Pineapple Street",
-        "blog": "pineapple-street",
-        "post_limit": 3,
-        "blog_show_tags": false,
-        "blog_show_date": false,
-        "blog_show_comments": false,
-        "blog_show_author": false,
-        "view_all": true,
-        "blog_image_size": "natural",
-        "divider": true
-      }
-    },
     "6c3e39f0-b89c-495b-b25e-7023b5c70d72": {
       "type": "rich-text",
       "disabled": true,
@@ -521,34 +371,8 @@
         "divider": false
       }
     },
-    "8094ad36-9c5b-49d2-8bc5-e44e5d91343a": {
-      "type": "advanced-content",
-      "disabled": true,
-      "blocks": {
-        "template--14916567695402__8094ad36-9c5b-49d2-8bc5-e44e5d91343a-16837268974b896fdd-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "<div class=\"yotpo yotpo-pictures-widget\" data-gallery-id=\"60b94222238de4456e9fb81a\"><\/div>",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--14916567695402__8094ad36-9c5b-49d2-8bc5-e44e5d91343a-16837268974b896fdd-1"
-      ],
-      "custom_css": [
-        ".yotpo-image {border-radius: 8px;}"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
-      }
-    },
     "dd662593-564f-46bd-965c-42be0bb69954": {
       "type": "logo-list",
-      "disabled": true,
       "blocks": {
         "template--14916567695402__dd662593-564f-46bd-965c-42be0bb69954-1683732257b215b813-0": {
           "type": "logo_image",
@@ -605,8 +429,8 @@
         "h2 {text-align: center;}"
       ],
       "settings": {
-        "title": "As seen in...",
-        "logo_opacity": 76,
+        "title": "",
+        "logo_opacity": 20,
         "divider": false
       }
     },
@@ -628,19 +452,14 @@
     }
   },
   "order": [
-    "e8be78eb-5a78-4b99-988f-eca6fb4c0f79",
     "b8fccc94-b721-4ed5-a976-f81ed754cc18",
-    "a52c20dc-96b8-4f47-863a-db32babd03f3",
     "537cdca2-2a11-4865-bc4f-c49f8928662a",
-    "62df1099-67ea-4ca3-9e8e-19a36e8f1dcc",
     "slideshow",
     "rich-text",
     "55b4676d-449a-4dad-bd6c-c86b5726c2ae",
     "3283dc6a-ca11-4d10-91a7-cedc47a19e46",
     "35ebcf9a-8d37-49df-8b76-84867cfbd8bd",
-    "blog-posts",
     "6c3e39f0-b89c-495b-b25e-7023b5c70d72",
-    "8094ad36-9c5b-49d2-8bc5-e44e5d91343a",
     "dd662593-564f-46bd-965c-42be0bb69954",
     "100f2318-c7de-4175-94fc-8b627730e1ef"
   ]

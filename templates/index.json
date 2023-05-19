@@ -115,6 +115,27 @@
     "e24f6384-e790-470d-b852-f884425de94f": {
       "type": "promo-grid",
       "blocks": {
+        "5fb4d807-a5cb-4e44-aa5c-b43e453a0732": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "Shop Tops",
+            "cta_link1": "shopify:\/\/collections\/tops",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/2023-04-17-dudldeystephens-JDP_1659.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 620,
+            "text_size": 100,
+            "text_align": "vertical-bottom horizontal-center",
+            "color_accent": "#ffffff",
+            "boxed": false,
+            "framed": false
+          }
+        },
         "f1e94748-bdb3-4fb9-8bc7-054171168f3f": {
           "type": "advanced",
           "settings": {
@@ -122,73 +143,10 @@
             "heading": "",
             "textarea": "",
             "cta_text1": "Shop Bottoms",
-            "cta_link1": "",
+            "cta_link1": "shopify:\/\/collections\/bottoms",
             "cta_text2": "",
             "cta_link2": "",
             "image": "shopify:\/\/shop_images\/2023-03-27-parkerpuff_white6761.jpg",
-            "video_url": "",
-            "width": "33",
-            "height": 620,
-            "text_size": 100,
-            "text_align": "vertical-bottom horizontal-center",
-            "color_accent": "#ffffff",
-            "boxed": false,
-            "framed": false
-          }
-        },
-        "5fb4d807-a5cb-4e44-aa5c-b43e453a0732": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "",
-            "textarea": "",
-            "cta_text1": "Shop T-shirts",
-            "cta_link1": "",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/2023-03-27-balishort_navystripe6881.jpg",
-            "video_url": "",
-            "width": "33",
-            "height": 620,
-            "text_size": 100,
-            "text_align": "vertical-bottom horizontal-center",
-            "color_accent": "#ffffff",
-            "boxed": false,
-            "framed": false
-          }
-        },
-        "78db6c4e-9a23-4f5c-82e1-6c60fcca81dc": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "Dresses",
-            "textarea": "",
-            "cta_text1": "Shop Tops",
-            "cta_link1": "",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/2023-04-17-dudldeystephens_ShadesOfPinck-JDP_2505.jpg",
-            "video_url": "",
-            "width": "33",
-            "height": 620,
-            "text_size": 100,
-            "text_align": "vertical-bottom horizontal-center",
-            "color_accent": "#ffffff",
-            "boxed": false,
-            "framed": false
-          }
-        },
-        "8771a3fd-ce26-47bc-95bf-afbfd86e0533": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "Dresses",
-            "textarea": "",
-            "cta_text1": "Shop Dresses",
-            "cta_link1": "",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/4-24DSbayberry_stripe7475.jpg",
             "video_url": "",
             "width": "33",
             "height": 620,
@@ -203,13 +161,34 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
-            "heading": "Dresses",
+            "heading": "",
             "textarea": "",
-            "cta_text1": "Shop Dresses",
-            "cta_link1": "",
+            "cta_text1": "Shop Turtlenecks",
+            "cta_link1": "shopify:\/\/collections\/turtlenecks",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Slider_Moblie_b34dcf70-f892-443c-8c03-bfeb4678f440.jpg",
+            "image": "shopify:\/\/shop_images\/Slider_Moblie_new_styles.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 620,
+            "text_size": 100,
+            "text_align": "vertical-bottom horizontal-center",
+            "color_accent": "#ffffff",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "8771a3fd-ce26-47bc-95bf-afbfd86e0533": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "Shop Dresses",
+            "cta_link1": "shopify:\/\/collections\/dresses",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/2023-04-17-dudldeystephens_ShadesOfPinck-JDP_2353.jpg",
             "video_url": "",
             "width": "33",
             "height": 620,
@@ -226,7 +205,7 @@
             "subheading": "",
             "heading": "Dresses",
             "textarea": "",
-            "cta_text1": "Shop Dresses",
+            "cta_text1": "Shop Outerwear",
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
@@ -240,15 +219,36 @@
             "boxed": false,
             "framed": false
           }
+        },
+        "78db6c4e-9a23-4f5c-82e1-6c60fcca81dc": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "Tops",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/2023-04-17-dudldeystephens_ShadesOfPinck-JDP_2505.jpg",
+            "video_url": "",
+            "width": "33",
+            "height": 620,
+            "text_size": 100,
+            "text_align": "vertical-bottom horizontal-center",
+            "color_accent": "#ffffff",
+            "boxed": false,
+            "framed": false
+          }
         }
       },
       "block_order": [
-        "f1e94748-bdb3-4fb9-8bc7-054171168f3f",
         "5fb4d807-a5cb-4e44-aa5c-b43e453a0732",
-        "78db6c4e-9a23-4f5c-82e1-6c60fcca81dc",
-        "8771a3fd-ce26-47bc-95bf-afbfd86e0533",
+        "f1e94748-bdb3-4fb9-8bc7-054171168f3f",
         "3d5cebe7-bd8b-4dbd-9f40-605450eb498b",
-        "46d3bf97-8411-48e3-bac2-40dcf2273437"
+        "8771a3fd-ce26-47bc-95bf-afbfd86e0533",
+        "46d3bf97-8411-48e3-bac2-40dcf2273437",
+        "78db6c4e-9a23-4f5c-82e1-6c60fcca81dc"
       ],
       "settings": {
         "full_width": true,

@@ -258,16 +258,67 @@
         "lazyload_images": true
       }
     },
+    "b436726f-56a1-40d8-9a9c-1d5386d219c4": {
+      "type": "countdown",
+      "blocks": {
+        "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-0": {
+          "type": "content",
+          "settings": {
+            "heading": "Limited runs, released monthly.",
+            "heading_size": "h2",
+            "text": "<p>Placeholder text here to support the above headline, should be no longer than two or three lines<\/p>",
+            "content_alignment": "left"
+          }
+        },
+        "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-1": {
+          "type": "timer",
+          "settings": {
+            "year": "2023",
+            "month": "06",
+            "day": "10",
+            "hour": "09",
+            "minute": "00",
+            "hide_timer": true,
+            "text": "<p>Never miss a drop, sign up for our newsletter to get auto reminders<\/p>"
+          }
+        },
+        "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2": {
+          "type": "button",
+          "settings": {
+            "button_link": "",
+            "button": "Shop Collection",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-0",
+        "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-1",
+        "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2"
+      ],
+      "custom_css": [
+        ".index-section {margin-top: 0;}"
+      ],
+      "settings": {
+        "layout": "banner",
+        "full_width": true,
+        "text_color": "#000",
+        "background_color": "#ffffff",
+        "overlay_color": "#000",
+        "overlay_opacity": 0,
+        "lazyload_images": true
+      }
+    },
     "537cdca2-2a11-4865-bc4f-c49f8928662a": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "12-days-of-dudley",
+        "title": "Summer Drop",
+        "home_featured_products": "4-26-drop",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
+        "view_all": false,
+        "divider": true
       }
     },
     "slideshow": {
@@ -550,6 +601,7 @@
     "b8fccc94-b721-4ed5-a976-f81ed754cc18",
     "rich-text",
     "e24f6384-e790-470d-b852-f884425de94f",
+    "b436726f-56a1-40d8-9a9c-1d5386d219c4",
     "537cdca2-2a11-4865-bc4f-c49f8928662a",
     "slideshow",
     "55b4676d-449a-4dad-bd6c-c86b5726c2ae",

@@ -315,7 +315,7 @@
       "custom_css": [
         ".index-section {margin: 0;}",
         ".grid-product__tag--sale,.grid-product__tag--custom {text-transform: uppercase; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.05em; border-bottom-left-radius: 4px;}",
-        "h3 {font-family: 'Gill Sans';}"
+        "h3 {font-family: \"Gill Sans\";}"
       ],
       "settings": {
         "title": "",
@@ -327,8 +327,47 @@
         "divider": false
       }
     },
+    "cf175cf8-a4e8-45f7-8a52-3b14ac752957": {
+      "type": "newsletter",
+      "blocks": {
+        "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-0": {
+          "type": "title",
+          "settings": {
+            "title": "Never miss a drop",
+            "heading_size": "h3"
+          }
+        },
+        "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
+        "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-0",
+        "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-1",
+        "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-2"
+      ],
+      "settings": {
+        "align_text": "center",
+        "image_width": "33",
+        "image_mask": "none",
+        "image_position": "right",
+        "color_background": "#f8f4ed",
+        "color_text": "#232528",
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
     "dd662593-564f-46bd-965c-42be0bb69954": {
       "type": "logo-list",
+      "disabled": true,
       "blocks": {
         "template--14916567695402__dd662593-564f-46bd-965c-42be0bb69954-1683732257b215b813-0": {
           "type": "logo_image",
@@ -659,6 +698,7 @@
     "e24f6384-e790-470d-b852-f884425de94f",
     "b436726f-56a1-40d8-9a9c-1d5386d219c4",
     "537cdca2-2a11-4865-bc4f-c49f8928662a",
+    "cf175cf8-a4e8-45f7-8a52-3b14ac752957",
     "dd662593-564f-46bd-965c-42be0bb69954",
     "0ea63146-12df-42a7-a684-7d4133fd7903",
     "55b4676d-449a-4dad-bd6c-c86b5726c2ae",

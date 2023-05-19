@@ -568,7 +568,7 @@
         "heading_size": "h2",
         "heading_position": "left",
         "image": "shopify:\/\/shop_images\/2023-04-24-dudldeystephens-JDP_6494.jpg",
-        "indent_image": false,
+        "indent_image": true,
         "image_position": "left",
         "hotspot_style": "tag",
         "hotspot_color": "#ffffff",

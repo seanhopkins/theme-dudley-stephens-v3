@@ -314,7 +314,7 @@
         ".index-section {margin-top: 0;}"
       ],
       "settings": {
-        "title": "Shop the latest drop",
+        "title": "",
         "home_featured_products": "4-26-drop",
         "per_row": 5,
         "rows": 1,

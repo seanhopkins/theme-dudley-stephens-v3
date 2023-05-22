@@ -211,7 +211,7 @@ Arguments
     </div>
 
     <div class="grid-product__meta">
-      <div class="grid-product__title grid-product__title--{{ settings.type_product_style }}">
+      <div class="grid-product__title--{{ settings.type_product_style }}">
         {% comment %}Start custom feature {% endcomment %}
           <span class="visually-hidden">{{ product.title }} </span>
           <span class="h6">{{ product.metafields.custom.product_material }} </span>
@@ -231,7 +231,7 @@ Arguments
           {%- assign price = product.price_min | money -%}
           {{ 'products.general.from_text_html' | t: price: price }}
         {%- else -%}
-          {{ product.price | money }}
+          {{ product.price | money_without_trailing_zeros }}
         {%- endif -%}
         {%- if on_sale -%}
           {%- if settings.product_save_amount -%}
@@ -330,6 +330,32 @@ Arguments
         <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
       {%- endif -%}
     </div>
+
+    {% comment %} START custom feature  {% endcomment %}
+    {% if settings.product_grid_enable_swatches %}
+      <color-swatches
+        product-handle="{{ product.handle }}"
+        limit="{{ settings.product_grid_swatch_limit }}"
+      >
+        {% comment %} Placeholder markup {% endcomment %}
+        <div class="variant-wrapper">
+          {% comment %} Hide "Available In" label {% endcomment %}
+          {% comment %} <label class="variant__label h4 font--base">{{ 'products.product.color_swatch_available_in' | t }}</label> {% endcomment %}
+          <ul class="variant-input-wrap no-bullets tag-list tag-list--swatches">
+            {% for i in (1..settings.product_grid_swatch_limit) %}
+              <li class="tag">
+                <a href="#">
+                  <span class="color-swatch color-swatch--filter color-swatch--medium"></span>
+                </a>
+              </li>
+            {% endfor %}
+            <a href="{{ product.url }}" class="remaining-swatch-count">+ X more</a>
+          </ul>
+        </div>
+      </color-swatches>
+    {% endif %}
+  {% comment %} END custom feature  {% endcomment %}
+
   </div>
   {%- if settings.enable_swatches and type == blank -%}
     {%- liquid

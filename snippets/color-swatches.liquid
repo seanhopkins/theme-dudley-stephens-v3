@@ -205,7 +205,7 @@
      {% if separate_by_material %}
        <div class="variant-wrapper">
          {%- unless material == "Material: N/A" -%}
-           <label class="variant__label h3 font--base">{{ material_name }}{% unless non_recycled_list contains material_delimited %} <span class="icon--recycle">&#9851;</span>{% endunless %}</label>
+           <label class="variant__label h6">{{ material_name }}{% unless non_recycled_list contains material_delimited %} <span class="icon--recycle">&#9851;</span>{% endunless %}</label>
          {%- endunless -%}
  
          {%- if swatches.size > 0 -%}

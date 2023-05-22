@@ -153,7 +153,7 @@
         "template--14916568285226__c61ccae2-815c-49aa-b30a-3184a8bc085c-1684792101acffbb66-2"
       ],
       "custom_css": [
-        ".index-section {background-color: #F8F4ED; padding: 5em 0;}"
+        ".index-section {background-color: #f8f4ed; padding: 5em 0;}"
       ],
       "settings": {
         "title": "",
@@ -178,7 +178,6 @@
     },
     "recently-viewed": {
       "type": "recently-viewed",
-      "disabled": true,
       "settings": {
         "recent_count": 5
       }

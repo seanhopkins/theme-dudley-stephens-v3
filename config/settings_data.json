@@ -68,6 +68,7 @@
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
     "show_breadcrumbs": true,
+    "show_breadcrumbs_collection_link": false,
     "product_grid_enable_swatches": true,
     "show_tag_sale_message_clp": false,
     "tag_sale_tag": "example",

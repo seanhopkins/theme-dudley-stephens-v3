@@ -32,6 +32,11 @@
           id="ProductPhotos-{{ section_id }}"
         >
           {%- for media in product.media -%}
+            {% comment %} don't show the first 3 monogram "icons" {% endcomment %}
+            {% if is_monogram and forloop.index0 > 0 and forloop.index0 < 4 %}
+              {% continue %}
+            {% endif %}
+
             {%- render 'media',
               section_id: section_id,
               media: media,
@@ -94,6 +99,11 @@
                     assign image_set = true
                     assign image_set_group = image_set_full | split: '_' | first
                   endif
+                endif
+
+                # don't show the first 3 monogram "icons"
+                if is_monogram and forloop.index0 > 0 and forloop.index0 < 4
+                  continue
                 endif
               -%}
               <div class="product__thumb-item"

@@ -239,7 +239,7 @@
              {% comment %} Each price point requires it's own "section" (label and ul) {% endcomment %}
              {% capture sale_markup %}
                {{ sale_markup }}
-               <label class="variant__label h4 font--base product__price-savings">
+               <label class="variant__label product__price-savings">
                  {{ 'products.product.color_swatch_on_sale' | t: price: sale_price_display }}
                </label>
                <ul class="variant-input-wrap no-bullets tag-list tag-list--swatches">

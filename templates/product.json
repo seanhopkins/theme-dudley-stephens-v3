@@ -107,6 +107,57 @@
         "product_video_style": "muted"
       }
     },
+    "c61ccae2-815c-49aa-b30a-3184a8bc085c": {
+      "type": "text-columns",
+      "blocks": {
+        "template--14916568285226__c61ccae2-815c-49aa-b30a-3184a8bc085c-1684792101acffbb66-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "square",
+            "image_width": 60,
+            "title": "Crop-length",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--14916568285226__c61ccae2-815c-49aa-b30a-3184a8bc085c-1684792101acffbb66-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "square",
+            "image_width": 60,
+            "title": "Dual pockets",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--14916568285226__c61ccae2-815c-49aa-b30a-3184a8bc085c-1684792101acffbb66-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "square",
+            "image_width": 60,
+            "title": "Drop Shoulder",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14916568285226__c61ccae2-815c-49aa-b30a-3184a8bc085c-1684792101acffbb66-0",
+        "template--14916568285226__c61ccae2-815c-49aa-b30a-3184a8bc085c-1684792101acffbb66-1",
+        "template--14916568285226__c61ccae2-815c-49aa-b30a-3184a8bc085c-1684792101acffbb66-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
@@ -137,6 +188,7 @@
   },
   "order": [
     "main",
+    "c61ccae2-815c-49aa-b30a-3184a8bc085c",
     "sub",
     "product-recommendations",
     "recently-viewed",

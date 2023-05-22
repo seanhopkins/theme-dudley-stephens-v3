@@ -1,6 +1,9 @@
 {%- liquid 
    assign style_collection_handle = product.metafields.custom.product_style | handle
+   # assign material_collection_handle = product.metafields.custom.product_material | handle
+ 
    assign style_products = collections[style_collection_handle].products | sort: 'created_at' | reverse
+   assign materials_list = settings.materials_list | newline_to_br | strip_newlines | split:'<br />'
    
    # start the product count at 1 so that the 'first_swatch' is factored in
    assign product_count = 1 
@@ -10,13 +13,13 @@
    assign sale_prices = nil 
  
    assign soldout_sizes = ''
-   assign product_title = product.metafields.custom.product_style
  
      if product.title contains '('
        assign product_title_split = product.title | split: ' ('
+       assign product_title = product_title_split.first
        assign product_color = product_title_split.last | remove: ')'
      else
-       assign product_title = product.metafields.custom.product_style
+       assign product_title = product.title
        assign product_color = ''
      endif
      
@@ -24,7 +27,7 @@
      
      # assign townhouse_item = ''
      # if product.vendor == 'Townhouse Trunk Sale'
-       # massign townhouse_item = 'hide'
+       # assign townhouse_item = 'hide'
      # endif
      
      for variant in product.variants
@@ -63,10 +66,15 @@
        {{ first_swatch }}
  {% endunless %}
  
- {%- for material in product.metafields.custom.product_material -%}
+ {% comment %} 
+   TODO:
+   - Replace materials_list with an array of product materials for that partiular style 
+{% endcomment %}
+ {%- for material in materials_list -%}
    {% liquid 
-     assign material_name = product.metafields.custom.product_material.value 
-     assign material_name_handle = product.metafields.custom.product_material.value | handle
+     assign material_delimited = material | append: '<br />' | prepend: '<br />'
+     assign material_name = material | remove: 'Material: ' 
+     assign material_name_handle = material_name | handle 
      assign swatches = '' 
      assign sale_swatches = '' 
      assign sale_prices = nil 

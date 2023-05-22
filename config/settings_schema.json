@@ -1067,6 +1067,28 @@
       },
       {
         "type": "header",
+        "content": "Materials"
+      },
+      {
+        "type": "paragraph",
+        "content": "The listed materials will display as groupings on the swatch picker for the product page"
+      },
+      {
+        "type": "textarea",
+        "id": "materials_list",
+        "label": "Full list of materials (one per line)",
+        "default": "Material: Vello Fleece\nMaterial: Terry Fleece\nMaterial: Bubble Fleece\nMaterial: Double Layer Vello Fleece\nMaterial: Double Layer Vello Fleece with Neon Zipper\nMaterial: Brushed Fleece\nMaterial: Chevron\nMaterial: Ribbed Fleece\nMaterial: Vello Fleece Color Block\nMaterial: Shearling Fleece\nMaterial: Lightweight Vello Fleece\nMaterial: Townhouse Trunk Show\nMaterial: Silk\nMaterial: N\/A\nMaterial: Striped Fleece\nMaterial: Eco Jersey\nMaterial: Repreve® Jersey\nMaterial: Repreve® Striped Jersey\nMaterial: Waffle Jersey",
+        "info": "Include all materials in the order they should display on the product page"
+      },
+      {
+        "type": "textarea",
+        "id": "non_recycled_list",
+        "label": "Non-recycled materials (one per line)",
+        "default": "Material: Bubble Fleece\nMaterial: Brushed Fleece\nMaterial: Lightweight Vello Fleece\nMaterial: Townhouse Trunk Show\nMaterial: Silk\nMaterial: N\/A",
+        "info": "Include only the materials which should not display a recycled symbol"
+      },
+      {
+        "type": "header",
         "content": "Tag Sale"
       },
       {

@@ -22,6 +22,12 @@
             "color_swatches": true
           }
         },
+        "1dd734ab-06f4-43be-8a4f-572f119eef83": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.product_fit | metafield_text }}"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -76,6 +82,7 @@
         "price",
         "separator",
         "variant_picker",
+        "1dd734ab-06f4-43be-8a4f-572f119eef83",
         "buy_buttons",
         "inventory_status",
         "description",

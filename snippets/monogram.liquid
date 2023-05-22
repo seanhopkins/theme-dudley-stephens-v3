@@ -13,6 +13,7 @@
 {% assign current_variant = monogram_product.selected_or_first_available_variant %}
 {% assign parent_type_handle = parent_product.type | handleize %}
 
+{{ 'monogram.css' | asset_url | stylesheet_tag: preload: true }}
 <script src="{{ 'monogram.js' | asset_url }}" defer></script>
 
 <monogram-toggle>

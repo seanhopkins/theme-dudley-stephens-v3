@@ -52,7 +52,16 @@ const Form = ({ data }) => {
 
     return visibleMonogramVariants.map((variant) => (
       <>
-        <label for={variant.id}>{variant.title}</label>
+        <label
+          for={variant.id}
+          className={style === variant.title ? "active" : ""}
+        >
+          <img
+            src={variant.featured_image.src}
+            alt={variant.featured_image.title}
+          />
+          <p>{variant.title}</p>
+        </label>
         <input
           type="radio"
           name="items[0][id]"
@@ -61,6 +70,7 @@ const Form = ({ data }) => {
           onChange={() => setStyle(variant.title)}
           checked={style === variant.title}
           data-title={variant.title}
+          style="display:none;"
         />
       </>
     ));

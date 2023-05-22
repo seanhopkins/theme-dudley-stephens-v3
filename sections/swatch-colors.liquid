@@ -1,0 +1,93 @@
+<style>
+   {%- for block in section.blocks -%}
+     .color-swatch--{{ block.settings.title | handle }} {
+       background-color: {{ block.settings.swatch_color }};
+   
+       {%- if block.settings.swatch_image != nil -%}
+         background-image: url({{ block.settings.swatch_image | img_url: '50x50' }});
+       {%- endif -%}
+     }
+     {% if block.settings.monogram_swatch != nil %}
+       .monogram-swatch--{{ block.settings.title | handle }} {
+         background-image: url({{ block.settings.monogram_swatch | img_url: '1000x1000' }});
+         background-size: cover;
+       }
+       .monogram-swatch--{{ block.settings.title | handle }} img {
+         visibility: hidden;
+       }
+     {%- endif -%}
+   {%- endfor -%}
+   
+     .tag-list--swatches li{
+       vertical-align: middle;
+     }
+     .color-swatch--disabled,
+     .color-swatch--unavailable {
+       opacity: 0.4;
+     }
+     .color-swatch--disabled:after,
+     .color-swatch--unavailable:after {
+       position: absolute;
+       content: "";
+       left: 50%;
+       top: 0;
+       bottom: 0;
+       border-left: 3px solid;
+       border-color: var(--shopify-editor-setting-color_borders);
+       border-color: var(--colorBorder);
+       transform: rotate(45deg);
+   }
+   .color-swatch--filter.active {
+       box-shadow: 0 0 5px rgb(0 0 0 / 35%);
+       height: 35px;
+       width: 35px;
+       border: 4px solid #fff;
+   }
+   
+   @media only screen and (max-width:768px) {
+   
+     .product__swatches {
+       justify-content: center;
+     }
+   }
+   </style>
+   
+   {% schema %}
+   {
+     "name": "Swatches",
+     "blocks": [
+       {
+         "type": "color_swatch",
+         "name": "Swatch",
+         "settings": [
+           {
+             "id": "title",
+             "type": "text",
+             "label": "Name"
+           },
+           {
+             "id": "swatch_color",
+             "type": "color",
+             "label": "Color"
+           },
+           {
+             "id": "swatch_image",
+             "type": "image_picker",
+             "label": "Image (optional)"
+           },
+           {
+             "type": "header",
+             "content": "Monogram Swatch"
+           },
+           {
+             "id": "monogram_swatch",
+             "type": "image_picker",
+             "label": "Image",
+             "info": "Recommended size: 1000x1000 pixels (or larger). Will be used as the background for the monogram preview"
+           }
+         ]
+       }
+     ]
+   }
+   {% endschema %}
+   

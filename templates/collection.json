@@ -148,7 +148,8 @@
         "product_grid"
       ],
       "custom_css": [
-        ".grid-product__image-mask {border-radius: 4px;}"
+        ".grid-product__image-mask {border-radius: 4px;}",
+        "span.h6 {opacity: .5;}"
       ],
       "settings": {
         "enable_sidebar": true,

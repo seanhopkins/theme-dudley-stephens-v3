@@ -1669,7 +1669,7 @@
       ".rte p,.rte-setting p {color: var(--colorTextBodyLight);}",
       ".btn,.rte .btn,.slideshow__slide .hero__link .btn {letter-spacing: 0.1em; font-weight: 500;}",
       "a:not(.btn):after {color: var(--colorCartDot);}",
-      ".collapsible-trigger-btn {text-transform: none; letter-spacing: 0; border: 0;}"
+      ".collapsible-trigger-btn {border: 0;}"
     ]
   }
 }

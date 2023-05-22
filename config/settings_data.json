@@ -67,6 +67,8 @@
     "cart_type": "drawer",
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
+    "product_grid_enable_swatches": true,
+    "show_tag_sale_message_clp": false,
     "tag_sale_tag": "example",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
@@ -84,6 +86,1102 @@
           "enable": true,
           "collection_image_enable": true,
           "parallax": true
+        }
+      },
+      "swatch-colors": {
+        "type": "swatch-colors",
+        "blocks": {
+          "2e56268f-d913-4279-a0f8-89b1bb5acbc5": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Army Green",
+              "swatch_color": "#676b56",
+              "monogram_swatch": "shopify:\/\/shop_images\/PARK_SLOPE_VELLO_ARMY_GREEN_084.jpg"
+            }
+          },
+          "328c3ac9-f906-4c22-a2d0-5a712f91c895": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Basil",
+              "swatch_color": "#a5b392",
+              "monogram_swatch": "shopify:\/\/shop_images\/F47CC40B-CD2F-463E-B79D-469E0A236C48_1_201_a.jpg"
+            }
+          },
+          "8fdba468-34df-47ae-b4b3-bc5969028dda": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Basil \/ Cream",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/basil-cream.png"
+            }
+          },
+          "1573762103534": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Black",
+              "swatch_color": "#000000",
+              "monogram_swatch": "shopify:\/\/shop_images\/black.jpg"
+            }
+          },
+          "b32b6997-f9f0-47ea-8155-00ab3dee3a23": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Black \/ Cobalt",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/black-cobalt_3e895876-10b6-4a4f-a057-666493860cf7.png"
+            }
+          },
+          "02c54f45-7e25-4ac9-83f3-3cd521e87dd9": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Black \/ Cream Wide Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/Black_Cream.jpg"
+            }
+          },
+          "91db2672-6dff-454e-bd3b-be06227ecc5a": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Black \/ Navy",
+              "swatch_color": "rgba(0,0,0,0)",
+              "swatch_image": "shopify:\/\/shop_images\/black-navy.png"
+            }
+          },
+          "0c32430c-3820-41e6-bcc1-180f9515102d": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Black \/ Neon Pink",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/black-neon-pink.png"
+            }
+          },
+          "0cb9e799-7a4f-4ae7-b480-f638b42eb3f9": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Black \/ Neon Pink \/ Neon Yellow",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/black-neon-pink-neon-yellow_1.png"
+            }
+          },
+          "af29784f-bcca-4f2f-8712-75de7defcccc": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Black \/ Off White",
+              "swatch_color": "rgba(0,0,0,0)",
+              "swatch_image": "shopify:\/\/shop_images\/black-off-white.png"
+            }
+          },
+          "1600111007963": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Black \/ White",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/black-white.png"
+            }
+          },
+          "9964f19b-b16a-413f-bdca-c90f29d81277": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Blue Cabana Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/BlueCabanaStripe.jpg"
+            }
+          },
+          "1574452635410": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Blue Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/blue-stripe.jpg"
+            }
+          },
+          "d87df12a-d2fd-41da-8dd3-6a71e88bd407": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Blue \/ White",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/blue-white_ae3bd226-3f01-476b-a7ea-e3e3ca54fea1.png",
+              "monogram_swatch": "shopify:\/\/shop_images\/59DA0F86-3B5C-48D3-94AE-B37FE9B6A84E_4_5005_c.jpg"
+            }
+          },
+          "68f73094-1f7c-4be5-af6e-80e8bd0c1e2c": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Blush",
+              "swatch_color": "#dec1bd"
+            }
+          },
+          "423b1da9-324b-413a-b68b-59e38366d21e": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Bright Pink",
+              "swatch_color": "#f91ce2"
+            }
+          },
+          "1583256077367": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Bubble Gum Pink",
+              "swatch_color": "#ef5ba1",
+              "monogram_swatch": "shopify:\/\/shop_images\/Screen_Shot_2022-06-02_at_1.36.11_PM_258fae7c-fb8c-498b-b203-4b1865a2e085.jpg"
+            }
+          },
+          "1595351230125": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Bubble Gum Pink \/ Pink",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/bubble-gum-pink-pink.png"
+            }
+          },
+          "1573770311118": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Burgundy",
+              "swatch_color": "#9d3f49",
+              "monogram_swatch": "shopify:\/\/shop_images\/0000s_0005_burgundy.jpg"
+            }
+          },
+          "5abc2910-ee16-48e6-b991-e5e7ea69992e": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Buttercream",
+              "swatch_color": "#f1dda6",
+              "monogram_swatch": "shopify:\/\/shop_images\/F48741A1-917E-459B-8E2E-7B90CD5B57CF_1_201_a.jpg"
+            }
+          },
+          "1574188206885": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Camel",
+              "swatch_color": "#eac199",
+              "monogram_swatch": "shopify:\/\/shop_images\/0000s_0007_camel.jpg"
+            }
+          },
+          "1575298742275": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Camel\/Cobalt",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/camel-cobalt.jpg"
+            }
+          },
+          "72f8dc21-ced6-42ee-a642-915a99a5af54": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Camel \/ Cream",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/camel-cream_1.png"
+            }
+          },
+          "1600111120829": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Camel \/ White",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/camel-white.png"
+            }
+          },
+          "555abcee-cc86-48f3-81cc-efbdd33d73b2": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Camo",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/camo.png"
+            }
+          },
+          "b59bc7c5-778f-438b-8b24-f3cba0787516": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Canyon Road",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/canyon-road_0480e5cf-3f6d-4c9d-8f0f-c50ed8604512.png"
+            }
+          },
+          "1574207100188": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Caramel",
+              "swatch_color": "#d2ad89"
+            }
+          },
+          "81462c94-97df-436f-8418-9fd118649067": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Celestial Blue",
+              "swatch_color": "#2b6e8d",
+              "monogram_swatch": "shopify:\/\/shop_images\/EE003349-2523-42D6-B930-2603B20E0C76_1_201_a.jpg"
+            }
+          },
+          "8dbef3b8-50c5-473e-8aa5-98b127b61af7": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Celestial Blue \/ Basil",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/celestial-blue-basil.png"
+            }
+          },
+          "1574208130740": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Charcoal Grey",
+              "swatch_color": "#6f7374"
+            }
+          },
+          "1580159084609": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Chevron",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/Screen_Shot_2020-01-27_at_4.03.14_PM.png"
+            }
+          },
+          "1573770359800": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Chili Pepper Red",
+              "swatch_color": "#77121b",
+              "monogram_swatch": "shopify:\/\/shop_images\/chili-pepper-red.jpg"
+            }
+          },
+          "1574186976358": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Cobalt",
+              "swatch_color": "#2f4697",
+              "monogram_swatch": "shopify:\/\/shop_images\/cobalt.jpg"
+            }
+          },
+          "a69a798e-2ddd-4893-b7f0-0f201addc587": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Cobalt \/ Neon Pink",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/cobalt-neon-pink_1.png"
+            }
+          },
+          "1602597080054": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Cocoa",
+              "swatch_color": "#57331f",
+              "monogram_swatch": "shopify:\/\/shop_images\/FDFF317D-8161-4C51-9558-CA8930F509B6_4_5005_c.jpg"
+            }
+          },
+          "8bae95ee-8c1d-4178-a303-87dd3e91273f": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Cream",
+              "swatch_color": "#ddd5c7",
+              "monogram_swatch": "shopify:\/\/shop_images\/CF89CB93-C762-4A70-84F8-332366AA06DA_4_5005_c.jpg"
+            }
+          },
+          "0e835829-040e-4fea-b13d-104e7043648b": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Cream \/ Camel",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/Cream-Camel.jpg"
+            }
+          },
+          "9403ef65-0d9b-457e-8f04-c242b2aef3c5": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Dusty Rose",
+              "swatch_color": "#bb7084",
+              "monogram_swatch": "shopify:\/\/shop_images\/450814E3-3120-4BD3-A8F6-5373C8899304_1_201_a.jpg"
+            }
+          },
+          "1602597047269": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Emerald Green",
+              "swatch_color": "#115e3e",
+              "monogram_swatch": "shopify:\/\/shop_images\/PARK_SLOPE_VELLO_EMERALD_122.jpg"
+            }
+          },
+          "1573761957468": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Green",
+              "swatch_color": "#06655b"
+            }
+          },
+          "5d0e3eaa-267d-407f-9d8d-197ebfa68995": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Green \/ Navy",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/green-navy.png"
+            }
+          },
+          "a71aa5cb-b9d3-4bf0-8d2b-ea88fa012b15": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Green Pineapple Print",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/green-pineapple-print.png"
+            }
+          },
+          "14e1950e-fc48-4966-928a-0dec8d223ec5": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Grey \/ Cream",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/grey-cream_f1578b3f-b281-472e-b478-0483adb50916.png"
+            }
+          },
+          "107d0cda-9b48-4576-98d1-41106e0c6aa2": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Gunmetal",
+              "swatch_color": "#43464b"
+            }
+          },
+          "1574187314649": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Heather Grey",
+              "swatch_color": "#b0b2b9",
+              "monogram_swatch": "shopify:\/\/shop_images\/heather-grey.jpg"
+            }
+          },
+          "4d377bae-e678-4b22-bc5e-b84ab9497726": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Heather Grey \/ Black",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/heather-grey-black.png"
+            }
+          },
+          "1595351289499": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Heather Grey \/ Island Coral",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/heather-grey-island-coral.png"
+            }
+          },
+          "1600111146861": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Heather Grey \/ White",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/heather-grey-white.png"
+            }
+          },
+          "dd440519-9e9b-43bf-9b66-3d21f7703fc2": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Hibiscus",
+              "swatch_color": "#f97272",
+              "swatch_image": "shopify:\/\/shop_images\/Hibiscus.jpg",
+              "monogram_swatch": "shopify:\/\/shop_images\/HIBISCUS_TERRY.png"
+            }
+          },
+          "3b47349d-917d-4237-a0f3-0cf745769167": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Hot Pink",
+              "swatch_color": "#f752de"
+            }
+          },
+          "1574187168038": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Hunter Green",
+              "swatch_color": "#06655b",
+              "monogram_swatch": "shopify:\/\/shop_images\/hunter-green.jpg"
+            }
+          },
+          "1574187271808": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Ice Blue",
+              "swatch_color": "#c7eafb",
+              "monogram_swatch": "shopify:\/\/shop_images\/ice-blue.jpg"
+            }
+          },
+          "1595351270156": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Ice Blue \/ Navy",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/ice-blue-navy.png"
+            }
+          },
+          "c2cf0632-eb99-4f71-b637-48e1b4db7016": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Ice Blue \/ White",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/ice-blue-white.png",
+              "monogram_swatch": "shopify:\/\/shop_images\/59DA0F86-3B5C-48D3-94AE-B37FE9B6A84E_4_5005_c.jpg"
+            }
+          },
+          "1574452655705": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Ice Cream",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/ice-cream.jpg"
+            }
+          },
+          "1574187253989": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Island Coral",
+              "swatch_color": "#f6cac3",
+              "monogram_swatch": "shopify:\/\/shop_images\/40B547F4-D6C6-4989-89E7-6F2CB9F11FBE_4_5005_c.jpg"
+            }
+          },
+          "1595351255417": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Island Coral \/ Off White",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/island-coral-off-white.png"
+            }
+          },
+          "174ee371-0d98-47f2-8e4c-c78276479b63": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Island Ikat",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/island-ikat.jpg"
+            }
+          },
+          "1583256044838": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Kelly Green",
+              "swatch_color": "#00954c",
+              "monogram_swatch": "shopify:\/\/shop_images\/DD9A770C-1F28-447C-A102-38AC835773C7_4_5005_c.jpg"
+            }
+          },
+          "9db0910b-3bbe-4da8-bf0d-b0c4cb7666d0": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Lime Green",
+              "swatch_color": "#a5c442"
+            }
+          },
+          "1574207139700": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Lavender",
+              "swatch_color": "#d3c8e3",
+              "monogram_swatch": "shopify:\/\/shop_images\/1C8045C9-DF99-466D-AAF3-355BA6EAEAB4_1_201_a.jpg"
+            }
+          },
+          "1573847292915": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Marigold",
+              "swatch_color": "#f5bc40",
+              "monogram_swatch": "shopify:\/\/shop_images\/BD742D94-4A17-41A4-B862-77B223E18902_1_201_a.jpg"
+            }
+          },
+          "e7c40981-5c8b-49f2-83c2-54c4a7625f44": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Meadow",
+              "swatch_color": "#84c77e",
+              "monogram_swatch": "shopify:\/\/shop_images\/meadow_terry.png"
+            }
+          },
+          "af1af07f-16d5-4d8b-91c2-a88ff79f41e5": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Mestiza Chinoiserie",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/mestiza-chinoiserie.jpg"
+            }
+          },
+          "caa10c17-1f13-414c-b172-8b2b8f352e7c": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Mint",
+              "swatch_color": "#a3dce3",
+              "monogram_swatch": "shopify:\/\/shop_images\/B8686294-850E-4C0E-8E64-DB255AE8F962_4_5005_c.jpg"
+            }
+          },
+          "1573770392416": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Mint Green",
+              "swatch_color": "#add7cc"
+            }
+          },
+          "1573847360608": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Moss Green",
+              "swatch_color": "#666c2e"
+            }
+          },
+          "0c357b21-e149-4b9b-a9bd-a7d3d98d40c8": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Multi",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/multi_d40cfb5f-d63b-46c4-84d3-9d849775056b.png"
+            }
+          },
+          "164bca8d-b3f4-4e44-872f-8bbf85e0a9ab": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Nantucket Fog",
+              "swatch_color": "#689faa",
+              "monogram_swatch": "shopify:\/\/shop_images\/nantucket-fog.jpg"
+            }
+          },
+          "7158e4ee-405e-4dd0-a079-1d055fee8d17": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Nantucket Sunrise",
+              "swatch_color": "#d75e4b",
+              "monogram_swatch": "shopify:\/\/shop_images\/79223894-838A-44BB-BB14-80876C82E190_1_201_a.jpg"
+            }
+          },
+          "1573847303498": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Natural Blush",
+              "swatch_color": "#f0e3d2",
+              "monogram_swatch": "shopify:\/\/shop_images\/natural-blush.jpg"
+            }
+          },
+          "1600111084882": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Natural Blush \/ Navy",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/natural-blush-navy.png"
+            }
+          },
+          "ff9e58a6-a3b2-4ef4-8125-2b783b7bcd0b": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Natural Blush \/ White",
+              "swatch_color": "rgba(0,0,0,0)",
+              "swatch_image": "shopify:\/\/shop_images\/natural-blush-white.png"
+            }
+          },
+          "1573761486525": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy",
+              "swatch_color": "#1a4565",
+              "monogram_swatch": "shopify:\/\/shop_images\/navy_842361f2-1ec6-40e3-807a-31fa8d10c68e.jpg"
+            }
+          },
+          "ac2a8588-f91a-445e-9834-f0b0e97ed7f0": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy Cabana Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/NavyCabanaStripe.jpg"
+            }
+          },
+          "1600111070801": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy \/ Camel",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/navy-camel.png"
+            }
+          },
+          "f84d52f5-5708-4d22-9636-fe58e467a931": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy \/ Camel",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/navy-camel_f072149d-141d-43df-a78f-1dce3ddf08af.png"
+            }
+          },
+          "1600111133731": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy \/ Green",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/navy-green.png"
+            }
+          },
+          "d884d283-ddf2-4840-a498-3180a9e752db": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy \/ Neon Pink",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/navy-neon-pink.png"
+            }
+          },
+          "c82d89f0-0c16-4859-8532-f0b5fc3a542c": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy \/ Off White",
+              "swatch_color": "rgba(0,0,0,0)",
+              "swatch_image": "shopify:\/\/shop_images\/navy-off-white.png"
+            }
+          },
+          "1595351074336": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy \/ White",
+              "swatch_color": "rgba(0,0,0,0)",
+              "swatch_image": "shopify:\/\/shop_images\/navy-white.png"
+            }
+          },
+          "2a5feed1-5684-4dd3-ae34-31c1c162d128": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy  \/ White",
+              "swatch_color": "rgba(0,0,0,0)",
+              "swatch_image": "shopify:\/\/shop_images\/navy-white_1.png",
+              "monogram_swatch": "shopify:\/\/shop_images\/CF6CA0EF-3789-4371-B35E-D51683D3E4CE_4_5005_c.jpg"
+            }
+          },
+          "106b0894-1ebb-42d8-be22-ced0d7a9f1da": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy \/ White Wide Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/Navy_White.jpg"
+            }
+          },
+          "73457367-7a4c-48c2-8fb6-42cbd2fcc69d": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "neon-gingham",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/image.png"
+            }
+          },
+          "582f0fb2-26a2-4e55-b212-8c2df81d963a": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Neon Orange",
+              "swatch_color": "#eb5529",
+              "monogram_swatch": "shopify:\/\/shop_images\/1CE9D753-54A0-45C1-90E7-CBBA5545A5FB_4_5005_c.jpg"
+            }
+          },
+          "1573770344803": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Neon Pink",
+              "swatch_color": "#fe1b8d",
+              "monogram_swatch": "shopify:\/\/shop_images\/neon-pink.jpg"
+            }
+          },
+          "b6bdf5c1-1276-4357-bc10-2c0270893017": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Neon Pink \/ Neon Yellow",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/NeonPink-NeonYellow.jpg"
+            }
+          },
+          "0d4eaceb-6624-4b29-b372-16994bdb7a58": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Neon Pink \/ Neon Yellow \/ Cobalt",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/neon-pink-neon-yellow-cobalt_1.png"
+            }
+          },
+          "1600111100886": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Neon Pink \/ Off White",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/neon-pink-off-white.png"
+            }
+          },
+          "16f7e7fb-3b51-4881-a4cb-e0a0302cb7f2": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Neon Pink \/ White",
+              "swatch_color": "#ea19de",
+              "swatch_image": "shopify:\/\/shop_images\/neon-pink-white.png",
+              "monogram_swatch": "shopify:\/\/shop_images\/CDEEDCC9-6A9D-4129-9056-6D7BC8164482_4_5005_c.jpg"
+            }
+          },
+          "1573770381072": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Neon Yellow",
+              "swatch_color": "#ecef2e",
+              "monogram_swatch": "shopify:\/\/shop_images\/0000s_0001_neon-yellow.jpg"
+            }
+          },
+          "1574187051439": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Off-White",
+              "swatch_color": "#f6f6f6",
+              "monogram_swatch": "shopify:\/\/shop_images\/off-white.jpg"
+            }
+          },
+          "f72afac0-8aa7-4d24-b989-89e6ce61c411": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Off White \/ Ice Blue",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/off-white-ice-blue_1.png"
+            }
+          },
+          "ed1935f4-e063-4e76-b8ef-2c2e49d8c43b": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Off White \/ Island Coral",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/island-coral-off-white.png"
+            }
+          },
+          "1573770298813": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Orange",
+              "swatch_color": "#ec6a42"
+            }
+          },
+          "1574188159208": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Periwinkle",
+              "swatch_color": "#94bce4",
+              "monogram_swatch": "shopify:\/\/shop_images\/periwinkle.jpg"
+            }
+          },
+          "1573770334967": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Pink",
+              "swatch_color": "#f2dfe7",
+              "monogram_swatch": "shopify:\/\/shop_images\/pink.jpg"
+            }
+          },
+          "d30c31bd-9e2c-4d50-a519-a482e71288a8": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Pink Lemonade",
+              "swatch_color": "#fa7b95"
+            }
+          },
+          "e20cf8b1-8f97-477b-b058-c9ba7bcb5765": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Pink Pineapple Print",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/pink-pineapple-print.png"
+            }
+          },
+          "1574452494129": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Pink Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/pink-stripe.jpg"
+            }
+          },
+          "97c5ea37-3356-4003-8c75-e0a0c92b2bb7": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Pink \/ White",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/pink-white.png",
+              "monogram_swatch": "shopify:\/\/shop_images\/3966CE3B-DF9C-4C53-842C-E98AF7C9A198_4_5005_c.jpg"
+            }
+          },
+          "b2b91051-3898-4355-a855-55f78ced3a17": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Poppy Pink",
+              "swatch_color": "#ff0158",
+              "monogram_swatch": "shopify:\/\/shop_images\/E330FA24-45F4-4421-9F20-47167E049BB8_4_5005_c.jpg"
+            }
+          },
+          "57bc7ec5-28a7-4539-9e15-b5e2e18dd630": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Poppy Red",
+              "swatch_color": "#f91f1f"
+            }
+          },
+          "305538a8-cbd3-4ae0-a770-165d1daed1f6": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Pumpkin",
+              "swatch_color": "#faa669",
+              "monogram_swatch": "shopify:\/\/shop_images\/F8FFE5A9-07C5-4C35-B93E-09D220B796E6_4_5005_c.jpg"
+            }
+          },
+          "1602596994240": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Purple",
+              "swatch_color": "#562d87",
+              "monogram_swatch": "shopify:\/\/shop_images\/026C0245-A7B4-4762-A125-E7B6B2C16A98_1_201_a.jpg"
+            }
+          },
+          "1573761680636": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Red",
+              "swatch_color": "#ee2030",
+              "monogram_swatch": "shopify:\/\/shop_images\/red.jpg"
+            }
+          },
+          "1600111056141": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Red \/ Green",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/red-green.png"
+            }
+          },
+          "558933fd-6bb0-437b-887a-fd7809f851e7": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Royal Violet",
+              "swatch_color": "#bb94e5"
+            }
+          },
+          "245b6bab-9bb9-4141-a7b8-e83d3a44419d": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Royal Violet",
+              "swatch_color": "#6667ab",
+              "swatch_image": "shopify:\/\/shop_images\/RoyalViolet.jpg",
+              "monogram_swatch": "shopify:\/\/shop_images\/ROYALVIOLET_TERRY.png"
+            }
+          },
+          "1574187025080": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Sherbet",
+              "swatch_color": "#e98473"
+            }
+          },
+          "1574187124703": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Soft Yellow",
+              "swatch_color": "#f3f5aa"
+            }
+          },
+          "1600103847112": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Steel Grey",
+              "swatch_color": "#43464b",
+              "monogram_swatch": "shopify:\/\/shop_images\/PARK_SLOPE_VELLO_GREY_117.jpg"
+            }
+          },
+          "2c3238ec-1fbe-4360-a8dd-bf1027f0a6c3": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Summer Ikat",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/Summer_Ikat.jpg"
+            }
+          },
+          "f6099cba-5aa4-4657-b41d-8268f1b91445": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Summer Red",
+              "swatch_color": "#ea3e41"
+            }
+          },
+          "36bd77b7-82b2-4a5e-a9e4-2461cc5daf77": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Sunshine",
+              "swatch_color": "#f2de6d",
+              "monogram_swatch": "shopify:\/\/shop_images\/sunshine.jpg"
+            }
+          },
+          "6bfdaac1-dd78-4d5e-a01a-438b11d0e6de": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Squall",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/image_copy.png"
+            }
+          },
+          "8563dcc6-c2c3-433e-80e8-989b61fa6b68": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Teal",
+              "swatch_color": "#01bfc3"
+            }
+          },
+          "5be8487b-9e1f-4650-9d7d-ca5d267c59a8": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Tie Dye",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/tie-dye_c58a9667-970f-435d-a39f-c73b3ba1bf36.png"
+            }
+          },
+          "e6bd5ae0-f88f-4b77-becb-162959cb8eec": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "White",
+              "swatch_color": "#ffffff",
+              "monogram_swatch": "shopify:\/\/shop_images\/FBE46382-07B2-4771-AB88-436C5B628BC4_1_201_a.jpg"
+            }
+          },
+          "1574186951943": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "White",
+              "swatch_color": "#ffffff",
+              "monogram_swatch": "shopify:\/\/shop_images\/0000s_0000_white.jpg"
+            }
+          },
+          "459c55fa-832a-4d1b-a100-a6dfc364593e": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "White \/ Pink",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/white-pink_154f9326-2cfe-46e5-bff1-b5d14012bda2.png"
+            }
+          },
+          "250b5ae7-c936-4846-8ffc-76eb6db8d944": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "White \/ Navy",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/white-navy.png"
+            }
+          }
+        },
+        "block_order": [
+          "2e56268f-d913-4279-a0f8-89b1bb5acbc5",
+          "328c3ac9-f906-4c22-a2d0-5a712f91c895",
+          "8fdba468-34df-47ae-b4b3-bc5969028dda",
+          "1573762103534",
+          "b32b6997-f9f0-47ea-8155-00ab3dee3a23",
+          "02c54f45-7e25-4ac9-83f3-3cd521e87dd9",
+          "91db2672-6dff-454e-bd3b-be06227ecc5a",
+          "0c32430c-3820-41e6-bcc1-180f9515102d",
+          "0cb9e799-7a4f-4ae7-b480-f638b42eb3f9",
+          "af29784f-bcca-4f2f-8712-75de7defcccc",
+          "1600111007963",
+          "9964f19b-b16a-413f-bdca-c90f29d81277",
+          "1574452635410",
+          "d87df12a-d2fd-41da-8dd3-6a71e88bd407",
+          "68f73094-1f7c-4be5-af6e-80e8bd0c1e2c",
+          "423b1da9-324b-413a-b68b-59e38366d21e",
+          "1583256077367",
+          "1595351230125",
+          "1573770311118",
+          "5abc2910-ee16-48e6-b991-e5e7ea69992e",
+          "1574188206885",
+          "1575298742275",
+          "72f8dc21-ced6-42ee-a642-915a99a5af54",
+          "1600111120829",
+          "555abcee-cc86-48f3-81cc-efbdd33d73b2",
+          "b59bc7c5-778f-438b-8b24-f3cba0787516",
+          "1574207100188",
+          "81462c94-97df-436f-8418-9fd118649067",
+          "8dbef3b8-50c5-473e-8aa5-98b127b61af7",
+          "1574208130740",
+          "1580159084609",
+          "1573770359800",
+          "1574186976358",
+          "a69a798e-2ddd-4893-b7f0-0f201addc587",
+          "1602597080054",
+          "8bae95ee-8c1d-4178-a303-87dd3e91273f",
+          "0e835829-040e-4fea-b13d-104e7043648b",
+          "9403ef65-0d9b-457e-8f04-c242b2aef3c5",
+          "1602597047269",
+          "1573761957468",
+          "5d0e3eaa-267d-407f-9d8d-197ebfa68995",
+          "a71aa5cb-b9d3-4bf0-8d2b-ea88fa012b15",
+          "14e1950e-fc48-4966-928a-0dec8d223ec5",
+          "107d0cda-9b48-4576-98d1-41106e0c6aa2",
+          "1574187314649",
+          "4d377bae-e678-4b22-bc5e-b84ab9497726",
+          "1595351289499",
+          "1600111146861",
+          "dd440519-9e9b-43bf-9b66-3d21f7703fc2",
+          "3b47349d-917d-4237-a0f3-0cf745769167",
+          "1574187168038",
+          "1574187271808",
+          "1595351270156",
+          "c2cf0632-eb99-4f71-b637-48e1b4db7016",
+          "1574452655705",
+          "1574187253989",
+          "1595351255417",
+          "174ee371-0d98-47f2-8e4c-c78276479b63",
+          "1583256044838",
+          "9db0910b-3bbe-4da8-bf0d-b0c4cb7666d0",
+          "1574207139700",
+          "1573847292915",
+          "e7c40981-5c8b-49f2-83c2-54c4a7625f44",
+          "af1af07f-16d5-4d8b-91c2-a88ff79f41e5",
+          "caa10c17-1f13-414c-b172-8b2b8f352e7c",
+          "1573770392416",
+          "1573847360608",
+          "0c357b21-e149-4b9b-a9bd-a7d3d98d40c8",
+          "164bca8d-b3f4-4e44-872f-8bbf85e0a9ab",
+          "7158e4ee-405e-4dd0-a079-1d055fee8d17",
+          "1573847303498",
+          "1600111084882",
+          "ff9e58a6-a3b2-4ef4-8125-2b783b7bcd0b",
+          "1573761486525",
+          "ac2a8588-f91a-445e-9834-f0b0e97ed7f0",
+          "1600111070801",
+          "f84d52f5-5708-4d22-9636-fe58e467a931",
+          "1600111133731",
+          "d884d283-ddf2-4840-a498-3180a9e752db",
+          "c82d89f0-0c16-4859-8532-f0b5fc3a542c",
+          "1595351074336",
+          "2a5feed1-5684-4dd3-ae34-31c1c162d128",
+          "106b0894-1ebb-42d8-be22-ced0d7a9f1da",
+          "73457367-7a4c-48c2-8fb6-42cbd2fcc69d",
+          "582f0fb2-26a2-4e55-b212-8c2df81d963a",
+          "1573770344803",
+          "b6bdf5c1-1276-4357-bc10-2c0270893017",
+          "0d4eaceb-6624-4b29-b372-16994bdb7a58",
+          "1600111100886",
+          "16f7e7fb-3b51-4881-a4cb-e0a0302cb7f2",
+          "1573770381072",
+          "1574187051439",
+          "f72afac0-8aa7-4d24-b989-89e6ce61c411",
+          "ed1935f4-e063-4e76-b8ef-2c2e49d8c43b",
+          "1573770298813",
+          "1574188159208",
+          "1573770334967",
+          "d30c31bd-9e2c-4d50-a519-a482e71288a8",
+          "e20cf8b1-8f97-477b-b058-c9ba7bcb5765",
+          "1574452494129",
+          "97c5ea37-3356-4003-8c75-e0a0c92b2bb7",
+          "b2b91051-3898-4355-a855-55f78ced3a17",
+          "57bc7ec5-28a7-4539-9e15-b5e2e18dd630",
+          "305538a8-cbd3-4ae0-a770-165d1daed1f6",
+          "1602596994240",
+          "1573761680636",
+          "1600111056141",
+          "558933fd-6bb0-437b-887a-fd7809f851e7",
+          "245b6bab-9bb9-4141-a7b8-e83d3a44419d",
+          "1574187025080",
+          "1574187124703",
+          "1600103847112",
+          "2c3238ec-1fbe-4360-a8dd-bf1027f0a6c3",
+          "f6099cba-5aa4-4657-b41d-8268f1b91445",
+          "36bd77b7-82b2-4a5e-a9e4-2461cc5daf77",
+          "6bfdaac1-dd78-4d5e-a01a-438b11d0e6de",
+          "8563dcc6-c2c3-433e-80e8-989b61fa6b68",
+          "5be8487b-9e1f-4650-9d7d-ca5d267c59a8",
+          "e6bd5ae0-f88f-4b77-becb-162959cb8eec",
+          "1574186951943",
+          "459c55fa-832a-4d1b-a100-a6dfc364593e",
+          "250b5ae7-c936-4846-8ffc-76eb6db8d944"
+        ],
+        "settings": {
         }
       }
     },

@@ -330,7 +330,10 @@
       "will_be_in_stock_after": "Back in stock {{ date }}",
       "waiting_for_stock": "Inventory on the way",
       "view_in_space": "View in your space",
-      "view_in_space_label": "View in your space, loads item in augmented reality window"
+      "view_in_space_label": "View in your space, loads item in augmented reality window",
+      "color_swatch_available_in": "Available in",
+      "color_swatch_on_sale": "On sale for {{ price }}",
+      "color_swatch_on_sale_starting_at": "On sale (some styles as low as {{ price }})"
     }
   },
   "store_availability": {

@@ -135,11 +135,13 @@
         "43d3e37f-8860-40ef-8349-35ff7eaa9cc4"
       ],
       "custom_css": [
-        ".product-single__title {font-size: 1.75em;}",
-        " .product-block--price {display: flex; align-items: center;}",
+        ".product-single__title {font-size: 1.76em;}",
+        ".product-block--price {display: flex; align-items: center;}",
         ".product-block--header {margin-bottom: 0;}",
         ".standalone-bottomline {text-align: left; padding-bottom: 1em;}",
-        ".variant-input-wrap label {border-radius: 2px; font-size: 0.85em;}"
+        ".variant__label {font-weight: 500;}",
+        ".variant-input-wrap label {border-radius: 2px; font-size: 0.85em;}",
+        ".variant__label.product__price-savings {letter-spacing: 0; font-weight: 400;}"
       ],
       "settings": {
         "sku_enable": false,

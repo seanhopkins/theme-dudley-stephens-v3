@@ -4,7 +4,7 @@
   "source": "monogram.js",
   "targets": {
     "default": {
-      "distDir": "../assets"
+      "distDir": "../../../assets"
     },
     "main": false
   },

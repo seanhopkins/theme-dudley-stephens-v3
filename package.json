@@ -4,8 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "shop:start": "shopify theme dev --store=dudley-stephens"
+    "shop:start": "shopify theme dev --store=dudley-stephens",
+    "js:checkout:dev": "webpack --env development",
+    "js:checkout:prod": "webpack --env production"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1"
+  }
 }

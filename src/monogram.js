@@ -59,7 +59,7 @@ class MonogramCustomizer extends HTMLElement {
   addTextOverlay() {
     let span = document.createElement("span");
     span.classList.add("text-overlay", "classic");
-    span.innerHTML = "ABC";
+    span.innerHTML = `<span class="first">A</span><span class="middle">B</span><span class="last">C</span>`;
 
     this.firstSlide.prepend(span);
   }

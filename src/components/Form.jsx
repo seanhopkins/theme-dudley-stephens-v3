@@ -1,4 +1,4 @@
-import { useState } from "preact/hooks";
+import { useState, useEffect } from "preact/hooks";
 import { handleize } from "../utils";
 
 const Form = ({ data }) => {
@@ -32,16 +32,18 @@ const Form = ({ data }) => {
     setMonogramFor(e.detail.variant.name);
   });
 
-  if (textOverlay) {
-    // update text overlay on render
-    textOverlay.classList.remove("classic", "block", "monogram");
-    textOverlay.classList.add(handleize(style));
+  useEffect(() => {
+    if (textOverlay) {
+      textOverlay.classList.remove("classic", "block", "monogram");
+      textOverlay.classList.add(handleize(style));
 
-    textOverlay.innerHTML =
-      handleize(style) === "block"
-        ? monogram
-        : firstInitial + middleInitial + lastInitial;
-  }
+      // need to use spans for ability to style individual letters
+      textOverlay.innerHTML =
+        handleize(style) === "block"
+          ? monogram
+          : `<span class="first">${firstInitial.toUpperCase()}</span><span class="middle">${middleInitial.toUpperCase()}</span><span class="last">${lastInitial.toUpperCase()}</span>`;
+    }
+  }, [style, monogram, firstInitial, middleInitial, lastInitial]);
 
   function location() {
     const handle = handleize(data.parent_product.type);
@@ -52,6 +54,28 @@ const Form = ({ data }) => {
       return "Opposite pineapple (left side)";
     } else {
       return "Left Sleeve";
+    }
+  }
+
+  function setMonogramLineItemProperty() {
+    if (handleize(style) === "classic") {
+      return (
+        firstInitial.toUpperCase() +
+        middleInitial.toUpperCase() +
+        lastInitial.toUpperCase()
+      );
+    }
+
+    if (handleize(style) === "block") {
+      return monogram;
+    }
+
+    if (handleize(style) === "monogram") {
+      return (
+        firstInitial.toUpperCase() +
+        lastInitial.toUpperCase() +
+        middleInitial.toUpperCase()
+      );
     }
   }
 
@@ -154,11 +178,7 @@ const Form = ({ data }) => {
       <input
         type="hidden"
         name="items[0][properties][Monogram]"
-        value={
-          handleize(style) === "block"
-            ? monogram
-            : firstInitial + middleInitial + lastInitial
-        }
+        value={setMonogramLineItemProperty()}
       />
 
       {/* Parent product */}
@@ -178,11 +198,7 @@ const Form = ({ data }) => {
       <input
         type="hidden"
         name="items[1][properties][Monogram]"
-        value={
-          handleize(style) === "block"
-            ? monogram
-            : firstInitial + middleInitial + lastInitial
-        }
+        value={setMonogramLineItemProperty()}
       />
 
       {monogram && firstInitial && middleInitial && lastInitial ? (

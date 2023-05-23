@@ -8,4 +8,15 @@ monogram-customizer .text-overlay {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+}
+
+/* visually reorder for traditional monogram styling */
+monogram-customizer .text-overlay.monogram .middle {
+  order: 3;
+}
+
+monogram-customizer .text-overlay.monogram .last {
+  font-size: 30px;
 }

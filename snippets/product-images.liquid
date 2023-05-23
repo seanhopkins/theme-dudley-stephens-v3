@@ -37,6 +37,10 @@
               {% continue %}
             {% endif %}
 
+            {% if is_monogram %}
+              {% assign product_zoom_enable = false %}
+            {% endif %}
+
             {%- render 'media',
               section_id: section_id,
               media: media,

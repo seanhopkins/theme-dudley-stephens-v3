@@ -19,6 +19,10 @@ const Form = ({ data }) => {
   const [middleInitial, setMiddleInitial] = useState("B");
   const [lastInitial, setLastInitial] = useState("C");
 
+  const textOverlay = document.querySelector(
+    "monogram-customizer .text-overlay"
+  );
+
   document.addEventListener("ajaxProduct:added", () => {
     setMonogramUuid(crypto.randomUUID());
   });
@@ -27,6 +31,17 @@ const Form = ({ data }) => {
     setParentProductVariantId(e.detail.variant.id);
     setMonogramFor(e.detail.variant.name);
   });
+
+  if (textOverlay) {
+    // update text overlay on render
+    textOverlay.classList.remove("classic", "block", "monogram");
+    textOverlay.classList.add(handleize(style));
+
+    textOverlay.innerHTML =
+      handleize(style) === "block"
+        ? monogram
+        : firstInitial + middleInitial + lastInitial;
+  }
 
   function location() {
     const handle = handleize(data.parent_product.type);

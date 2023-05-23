@@ -601,6 +601,13 @@ class MonogramCustomizer extends HTMLElement {
         this.mainSlider = this.querySelector("[data-product-photos]");
         this.childNav = this.querySelector("[data-product-thumbs]");
         this.thumbScroller = this.querySelector(".product__thumbs--scroller");
+        this.firstSlide = this.querySelector(".product-main-slide:first-child");
+    }
+    addTextOverlay() {
+        let span = document.createElement("span");
+        span.classList.add("text-overlay", "classic");
+        span.innerHTML = "ABC";
+        this.firstSlide.prepend(span);
     }
     connectedCallback() {
         if (theme.settings.cartType === "drawer") new theme.AjaxProduct(this.form, ".monogram__add-to-cart");
@@ -616,6 +623,7 @@ class MonogramCustomizer extends HTMLElement {
             wrapAround: true
         };
         this.flickity = new theme.Slideshow(this.mainSlider, args);
+        this.addTextOverlay();
         document.addEventListener("modalOpen.MonogramModal", ()=>{
             // resize on modal open or else it doesn't show up
             this.flickity.resize();
@@ -1021,6 +1029,7 @@ const Form = ({ data  })=>{
     const [firstInitial, setFirstInitial] = (0, _hooks.useState)("A");
     const [middleInitial, setMiddleInitial] = (0, _hooks.useState)("B");
     const [lastInitial, setLastInitial] = (0, _hooks.useState)("C");
+    const textOverlay = document.querySelector("monogram-customizer .text-overlay");
     document.addEventListener("ajaxProduct:added", ()=>{
         setMonogramUuid(crypto.randomUUID());
     });
@@ -1028,6 +1037,12 @@ const Form = ({ data  })=>{
         setParentProductVariantId(e.detail.variant.id);
         setMonogramFor(e.detail.variant.name);
     });
+    if (textOverlay) {
+        // update text overlay on render
+        textOverlay.classList.remove("classic", "block", "monogram");
+        textOverlay.classList.add((0, _utils.handleize)(style));
+        textOverlay.innerHTML = (0, _utils.handleize)(style) === "block" ? monogram : firstInitial + middleInitial + lastInitial;
+    }
     function location() {
         const handle = (0, _utils.handleize)(data.parent_product.type);
         if (handle === "kids") return "Left Chest";
@@ -1048,20 +1063,20 @@ const Form = ({ data  })=>{
                                 alt: variant.featured_image.title
                             }, void 0, false, {
                                 fileName: "components/Form.jsx",
-                                lineNumber: 59,
+                                lineNumber: 74,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: variant.title
                             }, void 0, false, {
                                 fileName: "components/Form.jsx",
-                                lineNumber: 63,
+                                lineNumber: 78,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "components/Form.jsx",
-                        lineNumber: 55,
+                        lineNumber: 70,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1075,7 +1090,7 @@ const Form = ({ data  })=>{
                         style: "display:none;"
                     }, void 0, false, {
                         fileName: "components/Form.jsx",
-                        lineNumber: 65,
+                        lineNumber: 80,
                         columnNumber: 9
                     }, this)
                 ]
@@ -1089,7 +1104,7 @@ const Form = ({ data  })=>{
             value: monogram
         }, void 0, false, {
             fileName: "components/Form.jsx",
-            lineNumber: 82,
+            lineNumber: 97,
             columnNumber: 9
         }, this);
         return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
@@ -1101,7 +1116,7 @@ const Form = ({ data  })=>{
                     value: firstInitial
                 }, void 0, false, {
                     fileName: "components/Form.jsx",
-                    lineNumber: 93,
+                    lineNumber: 108,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1111,7 +1126,7 @@ const Form = ({ data  })=>{
                     value: middleInitial
                 }, void 0, false, {
                     fileName: "components/Form.jsx",
-                    lineNumber: 99,
+                    lineNumber: 114,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1121,7 +1136,7 @@ const Form = ({ data  })=>{
                     value: lastInitial
                 }, void 0, false, {
                     fileName: "components/Form.jsx",
-                    lineNumber: 105,
+                    lineNumber: 120,
                     columnNumber: 9
                 }, this)
             ]
@@ -1133,12 +1148,12 @@ const Form = ({ data  })=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(MonogramButtons, {}, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 117,
+                lineNumber: 132,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(MonogramInputs, {}, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 118,
+                lineNumber: 133,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1147,7 +1162,7 @@ const Form = ({ data  })=>{
                 value: "1"
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 121,
+                lineNumber: 136,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1156,7 +1171,7 @@ const Form = ({ data  })=>{
                 value: monogramUuid
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 122,
+                lineNumber: 137,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1165,7 +1180,7 @@ const Form = ({ data  })=>{
                 value: monogramFor
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 127,
+                lineNumber: 142,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1174,7 +1189,7 @@ const Form = ({ data  })=>{
                 value: style
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 132,
+                lineNumber: 147,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1183,7 +1198,7 @@ const Form = ({ data  })=>{
                 value: location()
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 133,
+                lineNumber: 148,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1192,7 +1207,7 @@ const Form = ({ data  })=>{
                 value: "No"
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 138,
+                lineNumber: 153,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1201,7 +1216,7 @@ const Form = ({ data  })=>{
                 value: (0, _utils.handleize)(style) === "block" ? monogram : firstInitial + middleInitial + lastInitial
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 139,
+                lineNumber: 154,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1210,7 +1225,7 @@ const Form = ({ data  })=>{
                 value: parentProductVariantId
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 150,
+                lineNumber: 165,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1219,7 +1234,7 @@ const Form = ({ data  })=>{
                 value: "1"
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 151,
+                lineNumber: 166,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1228,7 +1243,7 @@ const Form = ({ data  })=>{
                 value: monogramUuid
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 152,
+                lineNumber: 167,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1237,7 +1252,7 @@ const Form = ({ data  })=>{
                 value: style
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 157,
+                lineNumber: 172,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1246,7 +1261,7 @@ const Form = ({ data  })=>{
                 value: location()
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 158,
+                lineNumber: 173,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1255,7 +1270,7 @@ const Form = ({ data  })=>{
                 value: (0, _utils.handleize)(style) === "block" ? monogram : firstInitial + middleInitial + lastInitial
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 163,
+                lineNumber: 178,
                 columnNumber: 7
             }, undefined),
             monogram && firstInitial && middleInitial && lastInitial ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -1263,7 +1278,7 @@ const Form = ({ data  })=>{
                 children: "Submit"
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 174,
+                lineNumber: 189,
                 columnNumber: 9
             }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                 class: "btn monogram__add-to-cart",
@@ -1272,13 +1287,13 @@ const Form = ({ data  })=>{
                 children: "ERROR"
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 176,
+                lineNumber: 191,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "components/Form.jsx",
-        lineNumber: 116,
+        lineNumber: 131,
         columnNumber: 5
     }, undefined);
 };

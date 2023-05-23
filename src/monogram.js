@@ -53,6 +53,15 @@ class MonogramCustomizer extends HTMLElement {
     this.mainSlider = this.querySelector("[data-product-photos]");
     this.childNav = this.querySelector("[data-product-thumbs]");
     this.thumbScroller = this.querySelector(".product__thumbs--scroller");
+    this.firstSlide = this.querySelector(".product-main-slide:first-child");
+  }
+
+  addTextOverlay() {
+    let span = document.createElement("span");
+    span.classList.add("text-overlay", "classic");
+    span.innerHTML = "ABC";
+
+    this.firstSlide.prepend(span);
   }
 
   connectedCallback() {
@@ -73,6 +82,8 @@ class MonogramCustomizer extends HTMLElement {
     };
 
     this.flickity = new theme.Slideshow(this.mainSlider, args);
+
+    this.addTextOverlay();
 
     document.addEventListener("modalOpen.MonogramModal", () => {
       // resize on modal open or else it doesn't show up

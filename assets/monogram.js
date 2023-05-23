@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"1v2iq":[function(require,module,exports) {
+})({"GSt8q":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "53dbb6376cf569ee";
+module.bundle.HMR_BUNDLE_ID = "1d61b4fe816c4f72";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, globalThis, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -556,7 +556,7 @@ function hmrAccept(bundle, id) {
     });
 }
 
-},{}],"j51ut":[function(require,module,exports) {
+},{}],"cPD9E":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _jsxDevRuntime = require("preact/jsx-dev-runtime");
 var _debug = require("preact/debug");
@@ -573,7 +573,7 @@ const data = {
 (0, _preact.render)(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _formDefault.default), {
     data: data
 }, void 0, false, {
-    fileName: "monogram.js",
+    fileName: "src/preact/monogram/monogram.js",
     lineNumber: 21,
     columnNumber: 8
 }, undefined), monogramForm);
@@ -632,7 +632,7 @@ class MonogramCustomizer extends HTMLElement {
 }
 customElements.define("monogram-customizer", MonogramCustomizer);
 
-},{"preact/jsx-dev-runtime":"3bvRD","preact/debug":"5X9LG","preact":"idiRz","./components/Form":"kLvDP","@parcel/transformer-js/src/esmodule-helpers.js":"jBK01"}],"3bvRD":[function(require,module,exports) {
+},{"preact/jsx-dev-runtime":"3mFUL","preact/debug":"bCMOY","preact":"26zcy","./components/Form":"alkXf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3mFUL":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Fragment", ()=>(0, _preact.Fragment));
@@ -665,42 +665,42 @@ function o(o, e, n, t, f, l) {
     return (0, _preact.options).vnode && (0, _preact.options).vnode(i), i;
 }
 
-},{"preact":"idiRz","@parcel/transformer-js/src/esmodule-helpers.js":"jBK01"}],"idiRz":[function(require,module,exports) {
+},{"preact":"26zcy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"26zcy":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Component", ()=>k);
-parcelHelpers.export(exports, "Fragment", ()=>_);
-parcelHelpers.export(exports, "cloneElement", ()=>E);
-parcelHelpers.export(exports, "createContext", ()=>F);
+parcelHelpers.export(exports, "Component", ()=>b);
+parcelHelpers.export(exports, "Fragment", ()=>k);
+parcelHelpers.export(exports, "cloneElement", ()=>F);
+parcelHelpers.export(exports, "createContext", ()=>G);
 parcelHelpers.export(exports, "createElement", ()=>y);
-parcelHelpers.export(exports, "createRef", ()=>d);
+parcelHelpers.export(exports, "createRef", ()=>_);
 parcelHelpers.export(exports, "h", ()=>y);
-parcelHelpers.export(exports, "hydrate", ()=>D);
+parcelHelpers.export(exports, "hydrate", ()=>E);
 parcelHelpers.export(exports, "isValidElement", ()=>i);
 parcelHelpers.export(exports, "options", ()=>l);
-parcelHelpers.export(exports, "render", ()=>B);
-parcelHelpers.export(exports, "toChildArray", ()=>P);
-var n, l, u, i, t, r, o, f, e, c = {}, s = [], a = /acit|ex(?:s|g|n|p|$)|rph|grid|ows|mnc|ntw|ine[ch]|zoo|^ord|itera/i;
+parcelHelpers.export(exports, "render", ()=>D);
+parcelHelpers.export(exports, "toChildArray", ()=>S);
+var n, l, u, i, t, o, r, f, e, c = {}, s = [], a = /acit|ex(?:s|g|n|p|$)|rph|grid|ows|mnc|ntw|ine[ch]|zoo|^ord|itera/i, v = Array.isArray;
 function h(n, l) {
     for(var u in l)n[u] = l[u];
     return n;
 }
-function v(n) {
+function p(n) {
     var l = n.parentNode;
     l && l.removeChild(n);
 }
 function y(l, u, i) {
-    var t, r, o, f = {};
-    for(o in u)"key" == o ? t = u[o] : "ref" == o ? r = u[o] : f[o] = u[o];
-    if (arguments.length > 2 && (f.children = arguments.length > 3 ? n.call(arguments, 2) : i), "function" == typeof l && null != l.defaultProps) for(o in l.defaultProps)void 0 === f[o] && (f[o] = l.defaultProps[o]);
-    return p(l, f, t, r, null);
+    var t, o, r, f = {};
+    for(r in u)"key" == r ? t = u[r] : "ref" == r ? o = u[r] : f[r] = u[r];
+    if (arguments.length > 2 && (f.children = arguments.length > 3 ? n.call(arguments, 2) : i), "function" == typeof l && null != l.defaultProps) for(r in l.defaultProps)void 0 === f[r] && (f[r] = l.defaultProps[r]);
+    return d(l, f, t, o, null);
 }
-function p(n, i, t, r, o) {
+function d(n, i, t, o, r) {
     var f = {
         type: n,
         props: i,
         key: t,
-        ref: r,
+        ref: o,
         __k: null,
         __: null,
         __b: 0,
@@ -709,111 +709,111 @@ function p(n, i, t, r, o) {
         __c: null,
         __h: null,
         constructor: void 0,
-        __v: null == o ? ++u : o
+        __v: null == r ? ++u : r
     };
-    return null == o && null != l.vnode && l.vnode(f), f;
+    return null == r && null != l.vnode && l.vnode(f), f;
 }
-function d() {
+function _() {
     return {
         current: null
     };
 }
-function _(n) {
+function k(n) {
     return n.children;
 }
-function k(n, l) {
+function b(n, l) {
     this.props = n, this.context = l;
 }
-function b(n, l) {
-    if (null == l) return n.__ ? b(n.__, n.__.__k.indexOf(n) + 1) : null;
+function g(n, l) {
+    if (null == l) return n.__ ? g(n.__, n.__.__k.indexOf(n) + 1) : null;
     for(var u; l < n.__k.length; l++)if (null != (u = n.__k[l]) && null != u.__e) return u.__e;
-    return "function" == typeof n.type ? b(n) : null;
+    return "function" == typeof n.type ? g(n) : null;
 }
-function g(n) {
+function m(n) {
     var l, u;
     if (null != (n = n.__) && null != n.__c) {
         for(n.__e = n.__c.base = null, l = 0; l < n.__k.length; l++)if (null != (u = n.__k[l]) && null != u.__e) {
             n.__e = n.__c.base = u.__e;
             break;
         }
-        return g(n);
+        return m(n);
     }
 }
-function m(n) {
-    (!n.__d && (n.__d = !0) && t.push(n) && !w.__r++ || r !== l.debounceRendering) && ((r = l.debounceRendering) || o)(w);
+function w(n) {
+    (!n.__d && (n.__d = !0) && t.push(n) && !x.__r++ || o !== l.debounceRendering) && ((o = l.debounceRendering) || r)(x);
 }
-function w() {
-    var n, l, u, i, r, o, e, c;
-    for(t.sort(f); n = t.shift();)n.__d && (l = t.length, i = void 0, r = void 0, e = (o = (u = n).__v).__e, (c = u.__P) && (i = [], (r = h({}, o)).__v = o.__v + 1, L(c, o, r, u.__n, void 0 !== c.ownerSVGElement, null != o.__h ? [
+function x() {
+    var n, l, u, i, o, r, e, c;
+    for(t.sort(f); n = t.shift();)n.__d && (l = t.length, i = void 0, o = void 0, e = (r = (u = n).__v).__e, (c = u.__P) && (i = [], (o = h({}, r)).__v = r.__v + 1, L(c, r, o, u.__n, void 0 !== c.ownerSVGElement, null != r.__h ? [
         e
-    ] : null, i, null == e ? b(o) : e, o.__h), M(i, o), o.__e != e && g(o)), t.length > l && t.sort(f));
-    w.__r = 0;
+    ] : null, i, null == e ? g(r) : e, r.__h), M(i, r), r.__e != e && m(r)), t.length > l && t.sort(f));
+    x.__r = 0;
 }
-function x(n, l, u, i, t, r, o, f, e, a) {
-    var h, v, y, d, k, g, m, w = i && i.__k || s, x = w.length;
-    for(u.__k = [], h = 0; h < l.length; h++)if (null != (d = u.__k[h] = null == (d = l[h]) || "boolean" == typeof d || "function" == typeof d ? null : "string" == typeof d || "number" == typeof d || "bigint" == typeof d ? p(null, d, null, null, d) : Array.isArray(d) ? p(_, {
-        children: d
-    }, null, null, null) : d.__b > 0 ? p(d.type, d.props, d.key, d.ref ? d.ref : null, d.__v) : d)) {
-        if (d.__ = u, d.__b = u.__b + 1, null === (y = w[h]) || y && d.key == y.key && d.type === y.type) w[h] = void 0;
-        else for(v = 0; v < x; v++){
-            if ((y = w[v]) && d.key == y.key && d.type === y.type) {
-                w[v] = void 0;
+function P(n, l, u, i, t, o, r, f, e, a) {
+    var h, p, y, _, b, m, w, x = i && i.__k || s, P = x.length;
+    for(u.__k = [], h = 0; h < l.length; h++)if (null != (_ = u.__k[h] = null == (_ = l[h]) || "boolean" == typeof _ || "function" == typeof _ ? null : "string" == typeof _ || "number" == typeof _ || "bigint" == typeof _ ? d(null, _, null, null, _) : v(_) ? d(k, {
+        children: _
+    }, null, null, null) : _.__b > 0 ? d(_.type, _.props, _.key, _.ref ? _.ref : null, _.__v) : _)) {
+        if (_.__ = u, _.__b = u.__b + 1, null === (y = x[h]) || y && _.key == y.key && _.type === y.type) x[h] = void 0;
+        else for(p = 0; p < P; p++){
+            if ((y = x[p]) && _.key == y.key && _.type === y.type) {
+                x[p] = void 0;
                 break;
             }
             y = null;
         }
-        L(n, d, y = y || c, t, r, o, f, e, a), k = d.__e, (v = d.ref) && y.ref != v && (m || (m = []), y.ref && m.push(y.ref, null, d), m.push(v, d.__c || k, d)), null != k ? (null == g && (g = k), "function" == typeof d.type && d.__k === y.__k ? d.__d = e = A(d, e, n) : e = C(n, d, y, w, k, e), "function" == typeof u.type && (u.__d = e)) : e && y.__e == e && e.parentNode != n && (e = b(y));
+        L(n, _, y = y || c, t, o, r, f, e, a), b = _.__e, (p = _.ref) && y.ref != p && (w || (w = []), y.ref && w.push(y.ref, null, _), w.push(p, _.__c || b, _)), null != b ? (null == m && (m = b), "function" == typeof _.type && _.__k === y.__k ? _.__d = e = C(_, e, n) : e = $(n, _, y, x, b, e), "function" == typeof u.type && (u.__d = e)) : e && y.__e == e && e.parentNode != n && (e = g(y));
     }
-    for(u.__e = g, h = x; h--;)null != w[h] && ("function" == typeof u.type && null != w[h].__e && w[h].__e == u.__d && (u.__d = $(i).nextSibling), S(w[h], w[h]));
-    if (m) for(h = 0; h < m.length; h++)O(m[h], m[++h], m[++h]);
+    for(u.__e = m, h = P; h--;)null != x[h] && ("function" == typeof u.type && null != x[h].__e && x[h].__e == u.__d && (u.__d = A(i).nextSibling), q(x[h], x[h]));
+    if (w) for(h = 0; h < w.length; h++)O(w[h], w[++h], w[++h]);
 }
-function A(n, l, u) {
-    for(var i, t = n.__k, r = 0; t && r < t.length; r++)(i = t[r]) && (i.__ = n, l = "function" == typeof i.type ? A(i, l, u) : C(u, i, i, t, i.__e, l));
+function C(n, l, u) {
+    for(var i, t = n.__k, o = 0; t && o < t.length; o++)(i = t[o]) && (i.__ = n, l = "function" == typeof i.type ? C(i, l, u) : $(u, i, i, t, i.__e, l));
     return l;
 }
-function P(n, l) {
-    return l = l || [], null == n || "boolean" == typeof n || (Array.isArray(n) ? n.some(function(n) {
-        P(n, l);
+function S(n, l) {
+    return l = l || [], null == n || "boolean" == typeof n || (v(n) ? n.some(function(n) {
+        S(n, l);
     }) : l.push(n)), l;
 }
-function C(n, l, u, i, t, r) {
-    var o, f, e;
-    if (void 0 !== l.__d) o = l.__d, l.__d = void 0;
-    else if (null == u || t != r || null == t.parentNode) n: if (null == r || r.parentNode !== n) n.appendChild(t), o = null;
+function $(n, l, u, i, t, o) {
+    var r, f, e;
+    if (void 0 !== l.__d) r = l.__d, l.__d = void 0;
+    else if (null == u || t != o || null == t.parentNode) n: if (null == o || o.parentNode !== n) n.appendChild(t), r = null;
     else {
-        for(f = r, e = 0; (f = f.nextSibling) && e < i.length; e += 1)if (f == t) break n;
-        n.insertBefore(t, r), o = r;
+        for(f = o, e = 0; (f = f.nextSibling) && e < i.length; e += 1)if (f == t) break n;
+        n.insertBefore(t, o), r = o;
     }
-    return void 0 !== o ? o : t.nextSibling;
+    return void 0 !== r ? r : t.nextSibling;
 }
-function $(n) {
+function A(n) {
     var l, u, i;
     if (null == n.type || "string" == typeof n.type) return n.__e;
     if (n.__k) {
-        for(l = n.__k.length - 1; l >= 0; l--)if ((u = n.__k[l]) && (i = $(u))) return i;
+        for(l = n.__k.length - 1; l >= 0; l--)if ((u = n.__k[l]) && (i = A(u))) return i;
     }
     return null;
 }
 function H(n, l, u, i, t) {
-    var r;
-    for(r in u)"children" === r || "key" === r || r in l || T(n, r, null, u[r], i);
-    for(r in l)t && "function" != typeof l[r] || "children" === r || "key" === r || "value" === r || "checked" === r || u[r] === l[r] || T(n, r, l[r], u[r], i);
+    var o;
+    for(o in u)"children" === o || "key" === o || o in l || T(n, o, null, u[o], i);
+    for(o in l)t && "function" != typeof l[o] || "children" === o || "key" === o || "value" === o || "checked" === o || u[o] === l[o] || T(n, o, l[o], u[o], i);
 }
 function I(n, l, u) {
     "-" === l[0] ? n.setProperty(l, null == u ? "" : u) : n[l] = null == u ? "" : "number" != typeof u || a.test(l) ? u : u + "px";
 }
 function T(n, l, u, i, t) {
-    var r;
+    var o;
     n: if ("style" === l) {
         if ("string" == typeof u) n.style.cssText = u;
         else {
             if ("string" == typeof i && (n.style.cssText = i = ""), i) for(l in i)u && l in u || I(n.style, l, "");
             if (u) for(l in u)i && u[l] === i[l] || I(n.style, l, u[l]);
         }
-    } else if ("o" === l[0] && "n" === l[1]) r = l !== (l = l.replace(/Capture$/, "")), l = l.toLowerCase() in n ? l.toLowerCase().slice(2) : l.slice(2), n.l || (n.l = {}), n.l[l + r] = u, u ? i || n.addEventListener(l, r ? z : j, r) : n.removeEventListener(l, r ? z : j, r);
+    } else if ("o" === l[0] && "n" === l[1]) o = l !== (l = l.replace(/Capture$/, "")), l = l.toLowerCase() in n ? l.toLowerCase().slice(2) : l.slice(2), n.l || (n.l = {}), n.l[l + o] = u, u ? i || n.addEventListener(l, o ? z : j, o) : n.removeEventListener(l, o ? z : j, o);
     else if ("dangerouslySetInnerHTML" !== l) {
         if (t) l = l.replace(/xlink(H|:h)/, "h").replace(/sName$/, "s");
-        else if ("width" !== l && "height" !== l && "href" !== l && "list" !== l && "form" !== l && "tabIndex" !== l && "download" !== l && l in n) try {
+        else if ("width" !== l && "height" !== l && "href" !== l && "list" !== l && "form" !== l && "tabIndex" !== l && "download" !== l && "rowSpan" !== l && "colSpan" !== l && l in n) try {
             n[l] = null == u ? "" : u;
             break n;
         } catch (n) {}
@@ -826,39 +826,39 @@ function j(n) {
 function z(n) {
     return this.l[n.type + !0](l.event ? l.event(n) : n);
 }
-function L(n, u, i, t, r, o, f, e, c) {
-    var s, a, v, y, p, d, b, g, m, w, A, P, C, $, H, I = u.type;
+function L(n, u, i, t, o, r, f, e, c) {
+    var s, a, p, y, d, _, g, m, w, x, C, S, $, A, H, I = u.type;
     if (void 0 !== u.constructor) return null;
-    null != i.__h && (c = i.__h, e = u.__e = i.__e, u.__h = null, o = [
+    null != i.__h && (c = i.__h, e = u.__e = i.__e, u.__h = null, r = [
         e
     ]), (s = l.__b) && s(u);
     try {
         n: if ("function" == typeof I) {
-            if (g = u.props, m = (s = I.contextType) && t[s.__c], w = s ? m ? m.props.value : s.__ : t, i.__c ? b = (a = u.__c = i.__c).__ = a.__E : ("prototype" in I && I.prototype.render ? u.__c = a = new I(g, w) : (u.__c = a = new k(g, w), a.constructor = I, a.render = q), m && m.sub(a), a.props = g, a.state || (a.state = {}), a.context = w, a.__n = t, v = a.__d = !0, a.__h = [], a._sb = []), null == a.__s && (a.__s = a.state), null != I.getDerivedStateFromProps && (a.__s == a.state && (a.__s = h({}, a.__s)), h(a.__s, I.getDerivedStateFromProps(g, a.__s))), y = a.props, p = a.state, a.__v = u, v) null == I.getDerivedStateFromProps && null != a.componentWillMount && a.componentWillMount(), null != a.componentDidMount && a.__h.push(a.componentDidMount);
+            if (m = u.props, w = (s = I.contextType) && t[s.__c], x = s ? w ? w.props.value : s.__ : t, i.__c ? g = (a = u.__c = i.__c).__ = a.__E : ("prototype" in I && I.prototype.render ? u.__c = a = new I(m, x) : (u.__c = a = new b(m, x), a.constructor = I, a.render = B), w && w.sub(a), a.props = m, a.state || (a.state = {}), a.context = x, a.__n = t, p = a.__d = !0, a.__h = [], a._sb = []), null == a.__s && (a.__s = a.state), null != I.getDerivedStateFromProps && (a.__s == a.state && (a.__s = h({}, a.__s)), h(a.__s, I.getDerivedStateFromProps(m, a.__s))), y = a.props, d = a.state, a.__v = u, p) null == I.getDerivedStateFromProps && null != a.componentWillMount && a.componentWillMount(), null != a.componentDidMount && a.__h.push(a.componentDidMount);
             else {
-                if (null == I.getDerivedStateFromProps && g !== y && null != a.componentWillReceiveProps && a.componentWillReceiveProps(g, w), !a.__e && null != a.shouldComponentUpdate && !1 === a.shouldComponentUpdate(g, a.__s, w) || u.__v === i.__v) {
-                    for(u.__v !== i.__v && (a.props = g, a.state = a.__s, a.__d = !1), a.__e = !1, u.__e = i.__e, u.__k = i.__k, u.__k.forEach(function(n) {
+                if (null == I.getDerivedStateFromProps && m !== y && null != a.componentWillReceiveProps && a.componentWillReceiveProps(m, x), !a.__e && null != a.shouldComponentUpdate && !1 === a.shouldComponentUpdate(m, a.__s, x) || u.__v === i.__v) {
+                    for(u.__v !== i.__v && (a.props = m, a.state = a.__s, a.__d = !1), a.__e = !1, u.__e = i.__e, u.__k = i.__k, u.__k.forEach(function(n) {
                         n && (n.__ = u);
-                    }), A = 0; A < a._sb.length; A++)a.__h.push(a._sb[A]);
+                    }), C = 0; C < a._sb.length; C++)a.__h.push(a._sb[C]);
                     a._sb = [], a.__h.length && f.push(a);
                     break n;
                 }
-                null != a.componentWillUpdate && a.componentWillUpdate(g, a.__s, w), null != a.componentDidUpdate && a.__h.push(function() {
-                    a.componentDidUpdate(y, p, d);
+                null != a.componentWillUpdate && a.componentWillUpdate(m, a.__s, x), null != a.componentDidUpdate && a.__h.push(function() {
+                    a.componentDidUpdate(y, d, _);
                 });
             }
-            if (a.context = w, a.props = g, a.__P = n, P = l.__r, C = 0, "prototype" in I && I.prototype.render) {
-                for(a.state = a.__s, a.__d = !1, P && P(u), s = a.render(a.props, a.state, a.context), $ = 0; $ < a._sb.length; $++)a.__h.push(a._sb[$]);
+            if (a.context = x, a.props = m, a.__P = n, S = l.__r, $ = 0, "prototype" in I && I.prototype.render) {
+                for(a.state = a.__s, a.__d = !1, S && S(u), s = a.render(a.props, a.state, a.context), A = 0; A < a._sb.length; A++)a.__h.push(a._sb[A]);
                 a._sb = [];
-            } else do a.__d = !1, P && P(u), s = a.render(a.props, a.state, a.context), a.state = a.__s;
-            while (a.__d && ++C < 25);
-            a.state = a.__s, null != a.getChildContext && (t = h(h({}, t), a.getChildContext())), v || null == a.getSnapshotBeforeUpdate || (d = a.getSnapshotBeforeUpdate(y, p)), H = null != s && s.type === _ && null == s.key ? s.props.children : s, x(n, Array.isArray(H) ? H : [
+            } else do a.__d = !1, S && S(u), s = a.render(a.props, a.state, a.context), a.state = a.__s;
+            while (a.__d && ++$ < 25);
+            a.state = a.__s, null != a.getChildContext && (t = h(h({}, t), a.getChildContext())), p || null == a.getSnapshotBeforeUpdate || (_ = a.getSnapshotBeforeUpdate(y, d)), P(n, v(H = null != s && s.type === k && null == s.key ? s.props.children : s) ? H : [
                 H
-            ], u, i, t, r, o, f, e, c), a.base = u.__e, u.__h = null, a.__h.length && f.push(a), b && (a.__E = a.__ = null), a.__e = !1;
-        } else null == o && u.__v === i.__v ? (u.__k = i.__k, u.__e = i.__e) : u.__e = N(i.__e, u, i, t, r, o, f, c);
+            ], u, i, t, o, r, f, e, c), a.base = u.__e, u.__h = null, a.__h.length && f.push(a), g && (a.__E = a.__ = null), a.__e = !1;
+        } else null == r && u.__v === i.__v ? (u.__k = i.__k, u.__e = i.__e) : u.__e = N(i.__e, u, i, t, o, r, f, c);
         (s = l.diffed) && s(u);
     } catch (n) {
-        u.__v = null, (c || null != o) && (u.__e = e, u.__h = !!c, o[o.indexOf(e)] = null), l.__e(n, u, i);
+        u.__v = null, (c || null != r) && (u.__e = e, u.__h = !!c, r[r.indexOf(e)] = null), l.__e(n, u, i);
     }
 }
 function M(n, u) {
@@ -872,29 +872,29 @@ function M(n, u) {
         }
     });
 }
-function N(l, u, i, t, r, o, f, e) {
-    var s, a, h, y = i.props, p = u.props, d = u.type, _ = 0;
-    if ("svg" === d && (r = !0), null != o) {
-        for(; _ < o.length; _++)if ((s = o[_]) && "setAttribute" in s == !!d && (d ? s.localName === d : 3 === s.nodeType)) {
-            l = s, o[_] = null;
+function N(l, u, i, t, o, r, f, e) {
+    var s, a, h, y = i.props, d = u.props, _ = u.type, k = 0;
+    if ("svg" === _ && (o = !0), null != r) {
+        for(; k < r.length; k++)if ((s = r[k]) && "setAttribute" in s == !!_ && (_ ? s.localName === _ : 3 === s.nodeType)) {
+            l = s, r[k] = null;
             break;
         }
     }
     if (null == l) {
-        if (null === d) return document.createTextNode(p);
-        l = r ? document.createElementNS("http://www.w3.org/2000/svg", d) : document.createElement(d, p.is && p), o = null, e = !1;
+        if (null === _) return document.createTextNode(d);
+        l = o ? document.createElementNS("http://www.w3.org/2000/svg", _) : document.createElement(_, d.is && d), r = null, e = !1;
     }
-    if (null === d) y === p || e && l.data === p || (l.data = p);
+    if (null === _) y === d || e && l.data === d || (l.data = d);
     else {
-        if (o = o && n.call(l.childNodes), a = (y = i.props || c).dangerouslySetInnerHTML, h = p.dangerouslySetInnerHTML, !e) {
-            if (null != o) for(y = {}, _ = 0; _ < l.attributes.length; _++)y[l.attributes[_].name] = l.attributes[_].value;
+        if (r = r && n.call(l.childNodes), a = (y = i.props || c).dangerouslySetInnerHTML, h = d.dangerouslySetInnerHTML, !e) {
+            if (null != r) for(y = {}, k = 0; k < l.attributes.length; k++)y[l.attributes[k].name] = l.attributes[k].value;
             (h || a) && (h && (a && h.__html == a.__html || h.__html === l.innerHTML) || (l.innerHTML = h && h.__html || ""));
         }
-        if (H(l, p, y, r, e), h) u.__k = [];
-        else if (_ = u.props.children, x(l, Array.isArray(_) ? _ : [
-            _
-        ], u, i, t, r && "foreignObject" !== d, o, f, o ? o[0] : i.__k && b(i, 0), e), null != o) for(_ = o.length; _--;)null != o[_] && v(o[_]);
-        e || ("value" in p && void 0 !== (_ = p.value) && (_ !== l.value || "progress" === d && !_ || "option" === d && _ !== y.value) && T(l, "value", _, y.value, !1), "checked" in p && void 0 !== (_ = p.checked) && _ !== l.checked && T(l, "checked", _, y.checked, !1));
+        if (H(l, d, y, o, e), h) u.__k = [];
+        else if (P(l, v(k = u.props.children) ? k : [
+            k
+        ], u, i, t, o && "foreignObject" !== _, r, f, r ? r[0] : i.__k && g(i, 0), e), null != r) for(k = r.length; k--;)null != r[k] && p(r[k]);
+        e || ("value" in d && void 0 !== (k = d.value) && (k !== l.value || "progress" === _ && !k || "option" === _ && k !== y.value) && T(l, "value", k, y.value, !1), "checked" in d && void 0 !== (k = d.checked) && k !== l.checked && T(l, "checked", k, y.checked, !1));
     }
     return l;
 }
@@ -905,8 +905,8 @@ function O(n, u, i) {
         l.__e(n, i);
     }
 }
-function S(n, u, i) {
-    var t, r;
+function q(n, u, i) {
+    var t, o;
     if (l.unmount && l.unmount(n), (t = n.ref) && (t.current && t.current !== n.__e || O(t, null, u)), null != (t = n.__c)) {
         if (t.componentWillUnmount) try {
             t.componentWillUnmount();
@@ -915,29 +915,29 @@ function S(n, u, i) {
         }
         t.base = t.__P = null, n.__c = void 0;
     }
-    if (t = n.__k) for(r = 0; r < t.length; r++)t[r] && S(t[r], u, i || "function" != typeof n.type);
-    i || null == n.__e || v(n.__e), n.__ = n.__e = n.__d = void 0;
+    if (t = n.__k) for(o = 0; o < t.length; o++)t[o] && q(t[o], u, i || "function" != typeof n.type);
+    i || null == n.__e || p(n.__e), n.__ = n.__e = n.__d = void 0;
 }
-function q(n, l, u) {
+function B(n, l, u) {
     return this.constructor(n, u);
 }
-function B(u, i, t) {
-    var r, o, f;
-    l.__ && l.__(u, i), o = (r = "function" == typeof t) ? null : t && t.__k || i.__k, f = [], L(i, u = (!r && t || i).__k = y(_, null, [
+function D(u, i, t) {
+    var o, r, f;
+    l.__ && l.__(u, i), r = (o = "function" == typeof t) ? null : t && t.__k || i.__k, f = [], L(i, u = (!o && t || i).__k = y(k, null, [
         u
-    ]), o || c, c, void 0 !== i.ownerSVGElement, !r && t ? [
+    ]), r || c, c, void 0 !== i.ownerSVGElement, !o && t ? [
         t
-    ] : o ? null : i.firstChild ? n.call(i.childNodes) : null, f, !r && t ? t : o ? o.__e : i.firstChild, r), M(f, u);
+    ] : r ? null : i.firstChild ? n.call(i.childNodes) : null, f, !o && t ? t : r ? r.__e : i.firstChild, o), M(f, u);
 }
-function D(n, l) {
-    B(n, l, D);
+function E(n, l) {
+    D(n, l, E);
 }
-function E(l, u, i) {
-    var t, r, o, f = h({}, l.props);
-    for(o in u)"key" == o ? t = u[o] : "ref" == o ? r = u[o] : f[o] = u[o];
-    return arguments.length > 2 && (f.children = arguments.length > 3 ? n.call(arguments, 2) : i), p(l.type, f, t || l.key, r || l.ref, null);
+function F(l, u, i) {
+    var t, o, r, f, e = h({}, l.props);
+    for(r in l.type && l.type.defaultProps && (f = l.type.defaultProps), u)"key" == r ? t = u[r] : "ref" == r ? o = u[r] : e[r] = void 0 === u[r] && void 0 !== f ? f[r] : u[r];
+    return arguments.length > 2 && (e.children = arguments.length > 3 ? n.call(arguments, 2) : i), d(l.type, e, t || l.key, o || l.ref, null);
 }
-function F(n, l) {
+function G(n, l) {
     var u = {
         __c: l = "__cC" + e++,
         __: n,
@@ -950,7 +950,7 @@ function F(n, l) {
                 return i;
             }, this.shouldComponentUpdate = function(n) {
                 this.props.value !== n.value && u.some(function(n) {
-                    n.__e = !0, m(n);
+                    n.__e = !0, w(n);
                 });
             }, this.sub = function(n) {
                 u.push(n);
@@ -965,8 +965,8 @@ function F(n, l) {
 }
 n = s.slice, l = {
     __e: function(n, l, u, i) {
-        for(var t, r, o; l = l.__;)if ((t = l.__c) && !t.__) try {
-            if ((r = t.constructor) && null != r.getDerivedStateFromError && (t.setState(r.getDerivedStateFromError(n)), o = t.__d), null != t.componentDidCatch && (t.componentDidCatch(n, i || {}), o = t.__d), o) return t.__E = t;
+        for(var t, o, r; l = l.__;)if ((t = l.__c) && !t.__) try {
+            if ((o = t.constructor) && null != o.getDerivedStateFromError && (t.setState(o.getDerivedStateFromError(n)), r = t.__d), null != t.componentDidCatch && (t.componentDidCatch(n, i || {}), r = t.__d), r) return t.__E = t;
         } catch (l) {
             n = l;
         }
@@ -974,16 +974,16 @@ n = s.slice, l = {
     }
 }, u = 0, i = function(n) {
     return null != n && void 0 === n.constructor;
-}, k.prototype.setState = function(n, l) {
+}, b.prototype.setState = function(n, l) {
     var u;
-    u = null != this.__s && this.__s !== this.state ? this.__s : this.__s = h({}, this.state), "function" == typeof n && (n = n(h({}, u), this.props)), n && h(u, n), null != n && this.__v && (l && this._sb.push(l), m(this));
-}, k.prototype.forceUpdate = function(n) {
-    this.__v && (this.__e = !0, n && this.__h.push(n), m(this));
-}, k.prototype.render = _, t = [], o = "function" == typeof Promise ? Promise.prototype.then.bind(Promise.resolve()) : setTimeout, f = function(n, l) {
+    u = null != this.__s && this.__s !== this.state ? this.__s : this.__s = h({}, this.state), "function" == typeof n && (n = n(h({}, u), this.props)), n && h(u, n), null != n && this.__v && (l && this._sb.push(l), w(this));
+}, b.prototype.forceUpdate = function(n) {
+    this.__v && (this.__e = !0, n && this.__h.push(n), w(this));
+}, b.prototype.render = k, t = [], r = "function" == typeof Promise ? Promise.prototype.then.bind(Promise.resolve()) : setTimeout, f = function(n, l) {
     return n.__v.__b - l.__v.__b;
-}, w.__r = 0, e = 0;
+}, x.__r = 0, e = 0;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jBK01"}],"jBK01":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -1013,89 +1013,117 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"5X9LG":[function(require,module,exports) {
+},{}],"bCMOY":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "resetPropWarnings", ()=>r);
+parcelHelpers.export(exports, "resetPropWarnings", ()=>i);
 var _preact = require("preact");
 var _devtools = require("preact/devtools");
-var o = {};
-function r() {
-    o = {};
+function o(n, e) {
+    (null == e || e > n.length) && (e = n.length);
+    for(var t = 0, o = new Array(e); t < e; t++)o[t] = n[t];
+    return o;
 }
-function a(e) {
+function r(n, e) {
+    var t = "undefined" != typeof Symbol && n[Symbol.iterator] || n["@@iterator"];
+    if (t) return (t = t.call(n)).next.bind(t);
+    if (Array.isArray(n) || (t = function(n, e) {
+        if (n) {
+            if ("string" == typeof n) return o(n, e);
+            var t = Object.prototype.toString.call(n).slice(8, -1);
+            return "Object" === t && n.constructor && (t = n.constructor.name), "Map" === t || "Set" === t ? Array.from(n) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? o(n, e) : void 0;
+        }
+    }(n)) || e && n && "number" == typeof n.length) {
+        t && (n = t);
+        var r = 0;
+        return function() {
+            return r >= n.length ? {
+                done: !0
+            } : {
+                done: !1,
+                value: n[r++]
+            };
+        };
+    }
+    throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+}
+var a = {};
+function i() {
+    a = {};
+}
+function c(e) {
     return e.type === (0, _preact.Fragment) ? "Fragment" : "function" == typeof e.type ? e.type.displayName || e.type.name : "string" == typeof e.type ? e.type : "#text";
 }
-var i = [], c = [];
-function s() {
-    return i.length > 0 ? i[i.length - 1] : null;
+var s = [], u = [];
+function l() {
+    return s.length > 0 ? s[s.length - 1] : null;
 }
-var u = !1;
-function l(e) {
+var f = !1;
+function p(e) {
     return "function" == typeof e.type && e.type != (0, _preact.Fragment);
 }
-function f(n) {
+function d(n) {
     for(var e = [
         n
     ], t = n; null != t.__o;)e.push(t.__o), t = t.__o;
     return e.reduce(function(n, e) {
-        n += "  in " + a(e);
+        n += "  in " + c(e);
         var t = e.__source;
-        return t ? n += " (at " + t.fileName + ":" + t.lineNumber + ")" : u || (u = !0, console.warn("Add @babel/plugin-transform-react-jsx-source to get a more detailed component stack. Note that you should not add it to production builds of your App for bundle size reasons.")), n + "\n";
+        return t ? n += " (at " + t.fileName + ":" + t.lineNumber + ")" : f || (f = !0, console.warn("Add @babel/plugin-transform-react-jsx-source to get a more detailed component stack. Note that you should not add it to production builds of your App for bundle size reasons.")), n + "\n";
     }, "");
 }
-var p = "function" == typeof WeakMap;
-function d(n) {
-    return n ? "function" == typeof n.type ? d(n.__) : n : {};
-}
-var h = (0, _preact.Component).prototype.setState;
-(0, _preact.Component).prototype.setState = function(n, e) {
-    return null == this.__v && null == this.state && console.warn('Calling "this.setState" inside the constructor of a component is a no-op and might be a bug in your application. Instead, set "this.state = {}" directly.\n\n' + f(s())), h.call(this, n, e);
-};
-var y = (0, _preact.Component).prototype.forceUpdate;
+var h = "function" == typeof WeakMap;
 function v(n) {
-    var e = n.props, t = a(n), o = "";
+    return n ? "function" == typeof n.type ? v(n.__) : n : {};
+}
+var y = (0, _preact.Component).prototype.setState;
+(0, _preact.Component).prototype.setState = function(n, e) {
+    return null == this.__v && null == this.state && console.warn('Calling "this.setState" inside the constructor of a component is a no-op and might be a bug in your application. Instead, set "this.state = {}" directly.\n\n' + d(l())), y.call(this, n, e);
+};
+var m = (0, _preact.Component).prototype.forceUpdate;
+function b(n) {
+    var e = n.props, t = c(n), o = "";
     for(var r in e)if (e.hasOwnProperty(r) && "children" !== r) {
-        var i = e[r];
-        "function" == typeof i && (i = "function " + (i.displayName || i.name) + "() {}"), i = Object(i) !== i || i.toString ? i + "" : Object.prototype.toString.call(i), o += " " + r + "=" + JSON.stringify(i);
+        var a = e[r];
+        "function" == typeof a && (a = "function " + (a.displayName || a.name) + "() {}"), a = Object(a) !== a || a.toString ? a + "" : Object.prototype.toString.call(a), o += " " + r + "=" + JSON.stringify(a);
     }
-    var c = e.children;
-    return "<" + t + o + (c && c.length ? ">..</" + t + ">" : " />");
+    var i = e.children;
+    return "<" + t + o + (i && i.length ? ">..</" + t + ">" : " />");
 }
 (0, _preact.Component).prototype.forceUpdate = function(n) {
-    return null == this.__v ? console.warn('Calling "this.forceUpdate" inside the constructor of a component is a no-op and might be a bug in your application.\n\n' + f(s())) : null == this.__P && console.warn('Can\'t call "this.forceUpdate" on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in the componentWillUnmount method.\n\n' + f(this.__v)), y.call(this, n);
+    return null == this.__v ? console.warn('Calling "this.forceUpdate" inside the constructor of a component is a no-op and might be a bug in your application.\n\n' + d(l())) : null == this.__P && console.warn('Can\'t call "this.forceUpdate" on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in the componentWillUnmount method.\n\n' + d(this.__v)), m.call(this, n);
 }, function() {
     !function() {
         var n = (0, _preact.options).__b, t = (0, _preact.options).diffed, o = (0, _preact.options).__, r = (0, _preact.options).vnode, a = (0, _preact.options).__r;
         (0, _preact.options).diffed = function(n) {
-            l(n) && c.pop(), i.pop(), t && t(n);
+            p(n) && u.pop(), s.pop(), t && t(n);
         }, (0, _preact.options).__b = function(e) {
-            l(e) && i.push(e), n && n(e);
+            p(e) && s.push(e), n && n(e);
         }, (0, _preact.options).__ = function(n, e) {
-            c = [], o && o(n, e);
+            u = [], o && o(n, e);
         }, (0, _preact.options).vnode = function(n) {
-            n.__o = c.length > 0 ? c[c.length - 1] : null, r && r(n);
+            n.__o = u.length > 0 ? u[u.length - 1] : null, r && r(n);
         }, (0, _preact.options).__r = function(n) {
-            l(n) && c.push(n), a && a(n);
+            p(n) && u.push(n), a && a(n);
         };
     }();
-    var n = !1, t = (0, _preact.options).__b, r = (0, _preact.options).diffed, s = (0, _preact.options).vnode, u = (0, _preact.options).__e, h = (0, _preact.options).__, y = (0, _preact.options).__h, m = p ? {
+    var n = !1, t = (0, _preact.options).__b, o = (0, _preact.options).diffed, i = (0, _preact.options).vnode, l = (0, _preact.options).__r, f = (0, _preact.options).__e, y = (0, _preact.options).__, m = (0, _preact.options).__h, w = h ? {
         useEffect: new WeakMap,
         useLayoutEffect: new WeakMap,
         lazyPropTypes: new WeakMap
-    } : null, b = [];
+    } : null, g = [];
     (0, _preact.options).__e = function(n, e, t, o) {
         if (e && e.__c && "function" == typeof n.then) {
             var r = n;
-            n = new Error("Missing Suspense. The throwing component was: " + a(e));
-            for(var i = e; i; i = i.__)if (i.__c && i.__c.__c) {
+            n = new Error("Missing Suspense. The throwing component was: " + c(e));
+            for(var a = e; a; a = a.__)if (a.__c && a.__c.__c) {
                 n = r;
                 break;
             }
             if (n instanceof Error) throw n;
         }
         try {
-            (o = o || {}).componentStack = f(e), u(n, e, t, o), "function" != typeof n.then && setTimeout(function() {
+            (o = o || {}).componentStack = d(e), f(n, e, t, o), "function" != typeof n.then && setTimeout(function() {
                 throw n;
             });
         } catch (n) {
@@ -1114,27 +1142,27 @@ function v(n) {
                 t = !1;
         }
         if (!t) {
-            var o = a(n);
+            var o = c(n);
             throw new Error("Expected a valid HTML node as a second argument to render.	Received " + e + " instead: render(<" + o + " />, " + e + ");");
         }
-        h && h(n, e);
+        y && y(n, e);
     }, (0, _preact.options).__b = function(e) {
-        var r = e.type, i = d(e.__);
-        if (n = !0, void 0 === r) throw new Error("Undefined component passed to createElement()\n\nYou likely forgot to export your component or might have mixed up default and named imports" + v(e) + "\n\n" + f(e));
-        if (null != r && "object" == typeof r) {
-            if (void 0 !== r.__k && void 0 !== r.__e) throw new Error("Invalid type passed to createElement(): " + r + "\n\nDid you accidentally pass a JSX literal as JSX twice?\n\n  let My" + a(e) + " = " + v(r) + ";\n  let vnode = <My" + a(e) + " />;\n\nThis usually happens when you export a JSX literal and not the component.\n\n" + f(e));
-            throw new Error("Invalid type passed to createElement(): " + (Array.isArray(r) ? "array" : r));
+        var o = e.type, r = v(e.__);
+        if (n = !0, void 0 === o) throw new Error("Undefined component passed to createElement()\n\nYou likely forgot to export your component or might have mixed up default and named imports" + b(e) + "\n\n" + d(e));
+        if (null != o && "object" == typeof o) {
+            if (void 0 !== o.__k && void 0 !== o.__e) throw new Error("Invalid type passed to createElement(): " + o + "\n\nDid you accidentally pass a JSX literal as JSX twice?\n\n  let My" + c(e) + " = " + b(o) + ";\n  let vnode = <My" + c(e) + " />;\n\nThis usually happens when you export a JSX literal and not the component.\n\n" + d(e));
+            throw new Error("Invalid type passed to createElement(): " + (Array.isArray(o) ? "array" : o));
         }
-        if ("thead" !== r && "tfoot" !== r && "tbody" !== r || "table" === i.type ? "tr" === r && "thead" !== i.type && "tfoot" !== i.type && "tbody" !== i.type && "table" !== i.type ? console.error("Improper nesting of table. Your <tr> should have a <thead/tbody/tfoot/table> parent." + v(e) + "\n\n" + f(e)) : "td" === r && "tr" !== i.type ? console.error("Improper nesting of table. Your <td> should have a <tr> parent." + v(e) + "\n\n" + f(e)) : "th" === r && "tr" !== i.type && console.error("Improper nesting of table. Your <th> should have a <tr>." + v(e) + "\n\n" + f(e)) : console.error("Improper nesting of table. Your <thead/tbody/tfoot> should have a <table> parent." + v(e) + "\n\n" + f(e)), void 0 !== e.ref && "function" != typeof e.ref && "object" != typeof e.ref && !("$$typeof" in e)) throw new Error('Component\'s "ref" property should be a function, or an object created by createRef(), but got [' + typeof e.ref + "] instead\n" + v(e) + "\n\n" + f(e));
+        if ("thead" !== o && "tfoot" !== o && "tbody" !== o || "table" === r.type ? "tr" === o && "thead" !== r.type && "tfoot" !== r.type && "tbody" !== r.type && "table" !== r.type ? console.error("Improper nesting of table. Your <tr> should have a <thead/tbody/tfoot/table> parent." + b(e) + "\n\n" + d(e)) : "td" === o && "tr" !== r.type ? console.error("Improper nesting of table. Your <td> should have a <tr> parent." + b(e) + "\n\n" + d(e)) : "th" === o && "tr" !== r.type && console.error("Improper nesting of table. Your <th> should have a <tr>." + b(e) + "\n\n" + d(e)) : console.error("Improper nesting of table. Your <thead/tbody/tfoot> should have a <table> parent." + b(e) + "\n\n" + d(e)), void 0 !== e.ref && "function" != typeof e.ref && "object" != typeof e.ref && !("$$typeof" in e)) throw new Error('Component\'s "ref" property should be a function, or an object created by createRef(), but got [' + typeof e.ref + "] instead\n" + b(e) + "\n\n" + d(e));
         if ("string" == typeof e.type) {
-            for(var c in e.props)if ("o" === c[0] && "n" === c[1] && "function" != typeof e.props[c] && null != e.props[c]) throw new Error("Component's \"" + c + '" property should be a function, but got [' + typeof e.props[c] + "] instead\n" + v(e) + "\n\n" + f(e));
+            for(var i in e.props)if ("o" === i[0] && "n" === i[1] && "function" != typeof e.props[i] && null != e.props[i]) throw new Error("Component's \"" + i + '" property should be a function, but got [' + typeof e.props[i] + "] instead\n" + b(e) + "\n\n" + d(e));
         }
         if ("function" == typeof e.type && e.type.propTypes) {
-            if ("Lazy" === e.type.displayName && m && !m.lazyPropTypes.has(e.type)) {
+            if ("Lazy" === e.type.displayName && w && !w.lazyPropTypes.has(e.type)) {
                 var s = "PropTypes are not supported on lazy(). Use propTypes on the wrapped component itself. ";
                 try {
                     var u = e.type();
-                    m.lazyPropTypes.set(e.type, !0), console.warn(s + "Component wrapped in lazy() is " + a(u));
+                    w.lazyPropTypes.set(e.type, !0), console.warn(s + "Component wrapped in lazy() is " + c(u));
                 } catch (n) {
                     console.warn(s + "We will log the wrapped component's name once it is loaded.");
                 }
@@ -1143,41 +1171,43 @@ function v(n) {
             e.type.__f && delete (l = function(n, e) {
                 for(var t in e)n[t] = e[t];
                 return n;
-            }({}, l)).ref, function(n, e, t, r, a) {
+            }({}, l)).ref, function(n, e, t, o, r) {
                 Object.keys(n).forEach(function(t) {
                     var i;
                     try {
-                        i = n[t](e, t, r, "prop", null, "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED");
+                        i = n[t](e, t, o, "prop", null, "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED");
                     } catch (n) {
                         i = n;
                     }
-                    i && !(i.message in o) && (o[i.message] = !0, console.error("Failed prop type: " + i.message + (a && "\n" + a() || "")));
+                    i && !(i.message in a) && (a[i.message] = !0, console.error("Failed prop type: " + i.message + (r && "\n" + r() || "")));
                 });
-            }(e.type.propTypes, l, 0, a(e), function() {
-                return f(e);
+            }(e.type.propTypes, l, 0, c(e), function() {
+                return d(e);
             });
         }
         t && t(e);
+    }, (0, _preact.options).__r = function(e) {
+        l && l(e), n = !0;
     }, (0, _preact.options).__h = function(e, t, o) {
         if (!e || !n) throw new Error("Hook can only be invoked from render methods.");
-        y && y(e, t, o);
+        m && m(e, t, o);
     };
-    var w = function(n, e) {
+    var E = function(n, e) {
         return {
             get: function() {
                 var t = "get" + n + e;
-                b && b.indexOf(t) < 0 && (b.push(t), console.warn("getting vnode." + n + " is deprecated, " + e));
+                g && g.indexOf(t) < 0 && (g.push(t), console.warn("getting vnode." + n + " is deprecated, " + e));
             },
             set: function() {
                 var t = "set" + n + e;
-                b && b.indexOf(t) < 0 && (b.push(t), console.warn("setting vnode." + n + " is not allowed, " + e));
+                g && g.indexOf(t) < 0 && (g.push(t), console.warn("setting vnode." + n + " is not allowed, " + e));
             }
         };
-    }, g = {
-        nodeName: w("nodeName", "use vnode.type"),
-        attributes: w("attributes", "use vnode.props"),
-        children: w("children", "use vnode.props.children")
-    }, E = Object.create({}, g);
+    }, k = {
+        nodeName: E("nodeName", "use vnode.type"),
+        attributes: E("attributes", "use vnode.props"),
+        children: E("children", "use vnode.props.children")
+    }, _ = Object.create({}, k);
     (0, _preact.options).vnode = function(n) {
         var e = n.props;
         if (null !== n.type && null != e && ("__source" in e || "__self" in e)) {
@@ -1187,28 +1217,41 @@ function v(n) {
                 "__source" === o ? n.__source = r : "__self" === o ? n.__self = r : t[o] = r;
             }
         }
-        n.__proto__ = E, s && s(n);
+        n.__proto__ = _, i && i(n);
     }, (0, _preact.options).diffed = function(e) {
         if (e.__k && e.__k.forEach(function(n) {
             if ("object" == typeof n && n && void 0 === n.type) {
                 var t = Object.keys(n).join(",");
-                throw new Error("Objects are not valid as a child. Encountered an object with the keys {" + t + "}.\n\n" + f(e));
+                throw new Error("Objects are not valid as a child. Encountered an object with the keys {" + t + "}.\n\n" + d(e));
             }
-        }), n = !1, r && r(e), null != e.__k) for(var t = [], o = 0; o < e.__k.length; o++){
-            var a = e.__k[o];
-            if (a && null != a.key) {
-                var i = a.key;
-                if (-1 !== t.indexOf(i)) {
-                    console.error('Following component has two or more children with the same key attribute: "' + i + '". This may cause glitches and misbehavior in rendering process. Component: \n\n' + v(e) + "\n\n" + f(e));
+        }), n = !1, o && o(e), null != e.__k) for(var t = [], a = 0; a < e.__k.length; a++){
+            var i = e.__k[a];
+            if (i && null != i.key) {
+                var s = i.key;
+                if (-1 !== t.indexOf(s)) {
+                    console.error('Following component has two or more children with the same key attribute: "' + s + '". This may cause glitches and misbehavior in rendering process. Component: \n\n' + b(e) + "\n\n" + d(e));
                     break;
                 }
-                t.push(i);
+                t.push(s);
             }
         }
+        if (null != e.__c && null != e.__c.__H) {
+            var u = e.__c.__H.__;
+            if (u) for(var l = 0; l < u.length; l += 1){
+                var f = u[l];
+                if (f.__H) {
+                    for(var p, h = r(f.__H); !(p = h()).done;)if ((y = p.value) != y) {
+                        var v = c(e);
+                        throw new Error("Invalid argument passed to hook. Hooks should not be called with NaN in the dependency array. Hook index " + l + " in component " + v + " was called with NaN.");
+                    }
+                }
+            }
+        }
+        var y;
     };
 }();
 
-},{"preact":"idiRz","preact/devtools":"cZFHy","@parcel/transformer-js/src/esmodule-helpers.js":"jBK01"}],"cZFHy":[function(require,module,exports) {
+},{"preact":"26zcy","preact/devtools":"filjq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"filjq":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "addHookName", ()=>t);
@@ -1216,12 +1259,12 @@ var _preact = require("preact");
 function t(o, e) {
     return (0, _preact.options).__a && (0, _preact.options).__a(e), o;
 }
-"undefined" != typeof window && window.__PREACT_DEVTOOLS__ && window.__PREACT_DEVTOOLS__.attachPreact("10.13.2", (0, _preact.options), {
+"undefined" != typeof window && window.__PREACT_DEVTOOLS__ && window.__PREACT_DEVTOOLS__.attachPreact("10.15.0", (0, _preact.options), {
     Fragment: (0, _preact.Fragment),
     Component: (0, _preact.Component)
 });
 
-},{"preact":"idiRz","@parcel/transformer-js/src/esmodule-helpers.js":"jBK01"}],"kLvDP":[function(require,module,exports) {
+},{"preact":"26zcy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"alkXf":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("preact/jsx-dev-runtime");
@@ -1262,7 +1305,7 @@ const Form = ({ data  })=>{
                 style: style,
                 setStyle: setStyle
             }, void 0, false, {
-                fileName: "components/Form.jsx",
+                fileName: "src/preact/monogram/components/Form.jsx",
                 lineNumber: 35,
                 columnNumber: 7
             }, undefined),
@@ -1277,7 +1320,7 @@ const Form = ({ data  })=>{
                 setMiddleInitial: setMiddleInitial,
                 setLastInitial: setLastInitial
             }, void 0, false, {
-                fileName: "components/Form.jsx",
+                fileName: "src/preact/monogram/components/Form.jsx",
                 lineNumber: 36,
                 columnNumber: 7
             }, undefined),
@@ -1289,7 +1332,7 @@ const Form = ({ data  })=>{
                 middleInitial: middleInitial,
                 lastInitial: lastInitial
             }, void 0, false, {
-                fileName: "components/Form.jsx",
+                fileName: "src/preact/monogram/components/Form.jsx",
                 lineNumber: 47,
                 columnNumber: 7
             }, undefined),
@@ -1297,7 +1340,7 @@ const Form = ({ data  })=>{
                 class: "btn monogram__add-to-cart",
                 children: "Submit"
             }, void 0, false, {
-                fileName: "components/Form.jsx",
+                fileName: "src/preact/monogram/components/Form.jsx",
                 lineNumber: 57,
                 columnNumber: 9
             }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -1306,20 +1349,20 @@ const Form = ({ data  })=>{
                 disabled: true,
                 children: "ERROR"
             }, void 0, false, {
-                fileName: "components/Form.jsx",
+                fileName: "src/preact/monogram/components/Form.jsx",
                 lineNumber: 59,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "components/Form.jsx",
+        fileName: "src/preact/monogram/components/Form.jsx",
         lineNumber: 34,
         columnNumber: 5
     }, undefined);
 };
 exports.default = Form;
 
-},{"preact/jsx-dev-runtime":"3bvRD","preact/hooks":"1Pirh","../utils":"bIDtH","./MonogramButtons":"jUUln","./MonogramInputs":"5b2s3","./HiddenLineItemProperties":"7nXrG","@parcel/transformer-js/src/esmodule-helpers.js":"jBK01"}],"1Pirh":[function(require,module,exports) {
+},{"preact/jsx-dev-runtime":"3mFUL","preact/hooks":"eZN76","../utils":"iJLHw","./MonogramButtons":"5XO2M","./MonogramInputs":"irRpO","./HiddenLineItemProperties":"5rua3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eZN76":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useCallback", ()=>T);
@@ -1466,7 +1509,7 @@ function b() {
     var i = (r = n.__c).__H;
     i && (u === r ? (i.__h = [], r.__h = [], i.__.forEach(function(n) {
         n.__N && (n.__ = n.__N), n.__V = c, n.__N = n.i = void 0;
-    })) : (i.__h.forEach(k), i.__h.forEach(w), i.__h = [])), u = r;
+    })) : (i.__h.forEach(k), i.__h.forEach(w), i.__h = [], t = 0)), u = r;
 }, (0, _preact.options).diffed = function(t) {
     v && v(t);
     var o = t.__c;
@@ -1520,7 +1563,7 @@ function B(n, t) {
     return "function" == typeof t ? t(n) : t;
 }
 
-},{"preact":"idiRz","@parcel/transformer-js/src/esmodule-helpers.js":"jBK01"}],"bIDtH":[function(require,module,exports) {
+},{"preact":"26zcy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iJLHw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "handleize", ()=>handleize);
@@ -1543,7 +1586,7 @@ function handleize(string) {
     return string;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jBK01"}],"jUUln":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5XO2M":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("preact/jsx-dev-runtime");
@@ -1561,20 +1604,20 @@ const MonogramButtons = ({ data , style , setStyle  })=>{
                             src: variant.featured_image.src,
                             alt: variant.featured_image.title
                         }, void 0, false, {
-                            fileName: "components/MonogramButtons.jsx",
+                            fileName: "src/preact/monogram/components/MonogramButtons.jsx",
                             lineNumber: 19,
                             columnNumber: 9
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             children: variant.title
                         }, void 0, false, {
-                            fileName: "components/MonogramButtons.jsx",
+                            fileName: "src/preact/monogram/components/MonogramButtons.jsx",
                             lineNumber: 23,
                             columnNumber: 9
                         }, undefined)
                     ]
                 }, void 0, true, {
-                    fileName: "components/MonogramButtons.jsx",
+                    fileName: "src/preact/monogram/components/MonogramButtons.jsx",
                     lineNumber: 15,
                     columnNumber: 7
                 }, undefined),
@@ -1588,7 +1631,7 @@ const MonogramButtons = ({ data , style , setStyle  })=>{
                     "data-title": variant.title,
                     style: "display:none;"
                 }, void 0, false, {
-                    fileName: "components/MonogramButtons.jsx",
+                    fileName: "src/preact/monogram/components/MonogramButtons.jsx",
                     lineNumber: 25,
                     columnNumber: 7
                 }, undefined)
@@ -1597,7 +1640,7 @@ const MonogramButtons = ({ data , style , setStyle  })=>{
 };
 exports.default = MonogramButtons;
 
-},{"preact/jsx-dev-runtime":"3bvRD","../utils":"bIDtH","@parcel/transformer-js/src/esmodule-helpers.js":"jBK01"}],"5b2s3":[function(require,module,exports) {
+},{"preact/jsx-dev-runtime":"3mFUL","../utils":"iJLHw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"irRpO":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("preact/jsx-dev-runtime");
@@ -1609,7 +1652,7 @@ const MonogramInputs = ({ style , monogram , firstInitial , middleInitial , last
         onInput: (e)=>setMonogram(e.target.value),
         value: monogram
     }, void 0, false, {
-        fileName: "components/MonogramInputs.jsx",
+        fileName: "src/preact/monogram/components/MonogramInputs.jsx",
         lineNumber: 16,
         columnNumber: 7
     }, undefined);
@@ -1621,7 +1664,7 @@ const MonogramInputs = ({ style , monogram , firstInitial , middleInitial , last
                 onInput: (e)=>setFirstInitial(e.target.value),
                 value: firstInitial
             }, void 0, false, {
-                fileName: "components/MonogramInputs.jsx",
+                fileName: "src/preact/monogram/components/MonogramInputs.jsx",
                 lineNumber: 27,
                 columnNumber: 7
             }, undefined),
@@ -1631,7 +1674,7 @@ const MonogramInputs = ({ style , monogram , firstInitial , middleInitial , last
                 onChange: (e)=>setMiddleInitial(e.target.value),
                 value: middleInitial
             }, void 0, false, {
-                fileName: "components/MonogramInputs.jsx",
+                fileName: "src/preact/monogram/components/MonogramInputs.jsx",
                 lineNumber: 33,
                 columnNumber: 7
             }, undefined),
@@ -1641,7 +1684,7 @@ const MonogramInputs = ({ style , monogram , firstInitial , middleInitial , last
                 onChange: (e)=>setLastInitial(e.target.value),
                 value: lastInitial
             }, void 0, false, {
-                fileName: "components/MonogramInputs.jsx",
+                fileName: "src/preact/monogram/components/MonogramInputs.jsx",
                 lineNumber: 39,
                 columnNumber: 7
             }, undefined)
@@ -1650,7 +1693,7 @@ const MonogramInputs = ({ style , monogram , firstInitial , middleInitial , last
 };
 exports.default = MonogramInputs;
 
-},{"preact/jsx-dev-runtime":"3bvRD","../utils":"bIDtH","@parcel/transformer-js/src/esmodule-helpers.js":"jBK01"}],"7nXrG":[function(require,module,exports) {
+},{"preact/jsx-dev-runtime":"3mFUL","../utils":"iJLHw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5rua3":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("preact/jsx-dev-runtime");
@@ -1685,7 +1728,7 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
                 name: "items[0][quantity]",
                 value: "1"
             }, void 0, false, {
-                fileName: "components/HiddenLineItemProperties.jsx",
+                fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
                 lineNumber: 66,
                 columnNumber: 7
             }, undefined),
@@ -1694,7 +1737,7 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
                 name: "items[0][properties][_Monogram ID]",
                 value: monogramUuid
             }, void 0, false, {
-                fileName: "components/HiddenLineItemProperties.jsx",
+                fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
                 lineNumber: 67,
                 columnNumber: 7
             }, undefined),
@@ -1703,7 +1746,7 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
                 name: "items[0][properties][Monogram for]",
                 value: monogramFor
             }, void 0, false, {
-                fileName: "components/HiddenLineItemProperties.jsx",
+                fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
                 lineNumber: 72,
                 columnNumber: 7
             }, undefined),
@@ -1712,7 +1755,7 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
                 name: "items[0][properties][Style]",
                 value: style
             }, void 0, false, {
-                fileName: "components/HiddenLineItemProperties.jsx",
+                fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
                 lineNumber: 77,
                 columnNumber: 7
             }, undefined),
@@ -1721,7 +1764,7 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
                 name: "items[0][properties][_Location]",
                 value: location()
             }, void 0, false, {
-                fileName: "components/HiddenLineItemProperties.jsx",
+                fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
                 lineNumber: 78,
                 columnNumber: 7
             }, undefined),
@@ -1730,7 +1773,7 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
                 name: "items[0][properties][_Gift wrap]",
                 value: "No"
             }, void 0, false, {
-                fileName: "components/HiddenLineItemProperties.jsx",
+                fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
                 lineNumber: 83,
                 columnNumber: 7
             }, undefined),
@@ -1739,7 +1782,7 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
                 name: "items[0][properties][Monogram]",
                 value: setMonogramLineItemProperty()
             }, void 0, false, {
-                fileName: "components/HiddenLineItemProperties.jsx",
+                fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
                 lineNumber: 84,
                 columnNumber: 7
             }, undefined),
@@ -1748,7 +1791,7 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
                 name: "items[1][id]",
                 value: parentProductVariantId
             }, void 0, false, {
-                fileName: "components/HiddenLineItemProperties.jsx",
+                fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
                 lineNumber: 91,
                 columnNumber: 7
             }, undefined),
@@ -1757,7 +1800,7 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
                 name: "items[1][quantity]",
                 value: "1"
             }, void 0, false, {
-                fileName: "components/HiddenLineItemProperties.jsx",
+                fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
                 lineNumber: 92,
                 columnNumber: 7
             }, undefined),
@@ -1766,7 +1809,7 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
                 name: "items[1][properties][_Monogram ID]",
                 value: monogramUuid
             }, void 0, false, {
-                fileName: "components/HiddenLineItemProperties.jsx",
+                fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
                 lineNumber: 93,
                 columnNumber: 7
             }, undefined),
@@ -1775,7 +1818,7 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
                 name: "items[1][properties][Style]",
                 value: style
             }, void 0, false, {
-                fileName: "components/HiddenLineItemProperties.jsx",
+                fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
                 lineNumber: 98,
                 columnNumber: 7
             }, undefined),
@@ -1784,7 +1827,7 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
                 name: "items[1][properties][_Location]",
                 value: location()
             }, void 0, false, {
-                fileName: "components/HiddenLineItemProperties.jsx",
+                fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
                 lineNumber: 99,
                 columnNumber: 7
             }, undefined),
@@ -1793,7 +1836,7 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
                 name: "items[1][properties][Monogram]",
                 value: setMonogramLineItemProperty()
             }, void 0, false, {
-                fileName: "components/HiddenLineItemProperties.jsx",
+                fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
                 lineNumber: 104,
                 columnNumber: 7
             }, undefined)
@@ -1802,6 +1845,6 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
 };
 exports.default = HiddenLineItemProperties;
 
-},{"preact/jsx-dev-runtime":"3bvRD","preact/hooks":"1Pirh","../utils":"bIDtH","@parcel/transformer-js/src/esmodule-helpers.js":"jBK01"}]},["1v2iq","j51ut"], "j51ut", "parcelRequire6d00")
+},{"preact/jsx-dev-runtime":"3mFUL","preact/hooks":"eZN76","../utils":"iJLHw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["GSt8q","cPD9E"], "cPD9E", "parcelRequire6d00")
 
 //# sourceMappingURL=monogram.js.map

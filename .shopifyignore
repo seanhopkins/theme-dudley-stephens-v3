@@ -1,5 +1,7 @@
-.gitignore
-src/*
-package.json
-package-lock.json
 node_modules
+src/*
+.gitignore
+.parcel-cache
+package-lock.json
+package.json
+webpack.config.js

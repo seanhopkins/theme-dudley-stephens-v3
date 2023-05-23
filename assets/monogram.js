@@ -1019,31 +1019,25 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("preact/jsx-dev-runtime");
 var _hooks = require("preact/hooks");
 var _utils = require("../utils");
+var _monogramButtons = require("./MonogramButtons");
+var _monogramButtonsDefault = parcelHelpers.interopDefault(_monogramButtons);
+var _monogramInputs = require("./MonogramInputs");
+var _monogramInputsDefault = parcelHelpers.interopDefault(_monogramInputs);
+var _hiddenLineItemProperties = require("./HiddenLineItemProperties");
+var _hiddenLineItemPropertiesDefault = parcelHelpers.interopDefault(_hiddenLineItemProperties);
 const Form = ({ data  })=>{
-    console.log(data);
-    const [parentProductVariantId, setParentProductVariantId] = (0, _hooks.useState)(data.parent_product_initial_variant.id);
-    const [monogramUuid, setMonogramUuid] = (0, _hooks.useState)(crypto.randomUUID());
-    const [monogramFor, setMonogramFor] = (0, _hooks.useState)(`${data.parent_product.title} - ${data.parent_product_initial_variant.title}`);
     const [style, setStyle] = (0, _hooks.useState)(data.monogram_product_initial_variant.title);
     const [monogram, setMonogram] = (0, _hooks.useState)("Dudley");
     const [firstInitial, setFirstInitial] = (0, _hooks.useState)("A");
     const [middleInitial, setMiddleInitial] = (0, _hooks.useState)("B");
     const [lastInitial, setLastInitial] = (0, _hooks.useState)("C");
     const textOverlay = document.querySelector("monogram-customizer .text-overlay");
-    document.addEventListener("ajaxProduct:added", ()=>{
-        setMonogramUuid(crypto.randomUUID());
-    });
-    document.addEventListener("variant:change", (e)=>{
-        setParentProductVariantId(e.detail.variant.id);
-        setMonogramFor(e.detail.variant.name);
-    });
     (0, _hooks.useEffect)(()=>{
-        if (textOverlay) {
-            textOverlay.classList.remove("classic", "block", "monogram");
-            textOverlay.classList.add((0, _utils.handleize)(style));
-            // need to use spans for ability to style individual letters
-            textOverlay.innerHTML = (0, _utils.handleize)(style) === "block" ? monogram : `<span class="first">${firstInitial.toUpperCase()}</span><span class="middle">${middleInitial.toUpperCase()}</span><span class="last">${lastInitial.toUpperCase()}</span>`;
-        }
+        if (!textOverlay) return;
+        textOverlay.classList.remove("classic", "block", "monogram");
+        textOverlay.classList.add((0, _utils.handleize)(style));
+        // need to use spans for ability to style individual letters
+        textOverlay.innerHTML = (0, _utils.handleize)(style) === "block" ? monogram : `<span class="first">${firstInitial.toUpperCase()}</span><span class="middle">${middleInitial.toUpperCase()}</span><span class="last">${lastInitial.toUpperCase()}</span>`;
     }, [
         style,
         monogram,
@@ -1051,239 +1045,44 @@ const Form = ({ data  })=>{
         middleInitial,
         lastInitial
     ]);
-    function location() {
-        const handle = (0, _utils.handleize)(data.parent_product.type);
-        if (handle === "kids") return "Left Chest";
-        else if (handle === "accessories" || handle === "kids-accessories") return "Opposite pineapple (left side)";
-        else return "Left Sleeve";
-    }
-    function setMonogramLineItemProperty() {
-        if ((0, _utils.handleize)(style) === "classic") return firstInitial.toUpperCase() + middleInitial.toUpperCase() + lastInitial.toUpperCase();
-        if ((0, _utils.handleize)(style) === "block") return monogram;
-        if ((0, _utils.handleize)(style) === "monogram") return firstInitial.toUpperCase() + lastInitial.toUpperCase() + middleInitial.toUpperCase();
-    }
-    function MonogramButtons() {
-        // only show block option for kids products
-        const visibleMonogramVariants = data.monogram_product.variants.filter((variant)=>(0, _utils.handleize)(variant.title).includes("block") && (0, _utils.handleize)(data.parent_product.type) !== "kids" ? false : true);
-        return visibleMonogramVariants.map((variant)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                        for: variant.id,
-                        className: style === variant.title ? "active" : "",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: variant.featured_image.src,
-                                alt: variant.featured_image.title
-                            }, void 0, false, {
-                                fileName: "components/Form.jsx",
-                                lineNumber: 98,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: variant.title
-                            }, void 0, false, {
-                                fileName: "components/Form.jsx",
-                                lineNumber: 102,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/Form.jsx",
-                        lineNumber: 94,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                        type: "radio",
-                        name: "items[0][id]",
-                        id: variant.id,
-                        value: variant.id,
-                        onChange: ()=>setStyle(variant.title),
-                        checked: style === variant.title,
-                        "data-title": variant.title,
-                        style: "display:none;"
-                    }, void 0, false, {
-                        fileName: "components/Form.jsx",
-                        lineNumber: 104,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true));
-    }
-    function MonogramInputs() {
-        if ((0, _utils.handleize)(style) === "block") return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-            type: "text",
-            maxLength: "10",
-            onInput: (e)=>setMonogram(e.target.value),
-            value: monogram
-        }, void 0, false, {
-            fileName: "components/Form.jsx",
-            lineNumber: 121,
-            columnNumber: 9
-        }, this);
-        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                    type: "text",
-                    maxLength: "1",
-                    onInput: (e)=>setFirstInitial(e.target.value),
-                    value: firstInitial
-                }, void 0, false, {
-                    fileName: "components/Form.jsx",
-                    lineNumber: 132,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                    type: "text",
-                    maxLength: "1",
-                    onChange: (e)=>setMiddleInitial(e.target.value),
-                    value: middleInitial
-                }, void 0, false, {
-                    fileName: "components/Form.jsx",
-                    lineNumber: 138,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                    type: "text",
-                    maxLength: "1",
-                    onChange: (e)=>setLastInitial(e.target.value),
-                    value: lastInitial
-                }, void 0, false, {
-                    fileName: "components/Form.jsx",
-                    lineNumber: 144,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true);
-    }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
         action: "/cart/add",
         method: "POST",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(MonogramButtons, {}, void 0, false, {
-                fileName: "components/Form.jsx",
-                lineNumber: 156,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(MonogramInputs, {}, void 0, false, {
-                fileName: "components/Form.jsx",
-                lineNumber: 157,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                type: "hidden",
-                name: "items[0][quantity]",
-                value: "1"
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _monogramButtonsDefault.default), {
+                data: data,
+                style: style,
+                setStyle: setStyle
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 160,
+                lineNumber: 35,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                type: "hidden",
-                name: "items[0][properties][_Monogram ID]",
-                value: monogramUuid
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _monogramInputsDefault.default), {
+                style: style,
+                monogram: monogram,
+                firstInitial: firstInitial,
+                middleInitial: middleInitial,
+                lastInitial: lastInitial,
+                setMonogram: setMonogram,
+                setFirstInitial: setFirstInitial,
+                setMiddleInitial: setMiddleInitial,
+                setLastInitial: setLastInitial
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 161,
+                lineNumber: 36,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                type: "hidden",
-                name: "items[0][properties][Monogram for]",
-                value: monogramFor
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _hiddenLineItemPropertiesDefault.default), {
+                data: data,
+                style: style,
+                monogram: monogram,
+                firstInitial: firstInitial,
+                middleInitial: middleInitial,
+                lastInitial: lastInitial
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 166,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                type: "hidden",
-                name: "items[0][properties][Style]",
-                value: style
-            }, void 0, false, {
-                fileName: "components/Form.jsx",
-                lineNumber: 171,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                type: "hidden",
-                name: "items[0][properties][_Location]",
-                value: location()
-            }, void 0, false, {
-                fileName: "components/Form.jsx",
-                lineNumber: 172,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                type: "hidden",
-                name: "items[0][properties][_Gift wrap]",
-                value: "No"
-            }, void 0, false, {
-                fileName: "components/Form.jsx",
-                lineNumber: 177,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                type: "hidden",
-                name: "items[0][properties][Monogram]",
-                value: setMonogramLineItemProperty()
-            }, void 0, false, {
-                fileName: "components/Form.jsx",
-                lineNumber: 178,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                type: "hidden",
-                name: "items[1][id]",
-                value: parentProductVariantId
-            }, void 0, false, {
-                fileName: "components/Form.jsx",
-                lineNumber: 185,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                type: "hidden",
-                name: "items[1][quantity]",
-                value: "1"
-            }, void 0, false, {
-                fileName: "components/Form.jsx",
-                lineNumber: 186,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                type: "hidden",
-                name: "items[1][properties][_Monogram ID]",
-                value: monogramUuid
-            }, void 0, false, {
-                fileName: "components/Form.jsx",
-                lineNumber: 187,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                type: "hidden",
-                name: "items[1][properties][Style]",
-                value: style
-            }, void 0, false, {
-                fileName: "components/Form.jsx",
-                lineNumber: 192,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                type: "hidden",
-                name: "items[1][properties][_Location]",
-                value: location()
-            }, void 0, false, {
-                fileName: "components/Form.jsx",
-                lineNumber: 193,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                type: "hidden",
-                name: "items[1][properties][Monogram]",
-                value: setMonogramLineItemProperty()
-            }, void 0, false, {
-                fileName: "components/Form.jsx",
-                lineNumber: 198,
+                lineNumber: 47,
                 columnNumber: 7
             }, undefined),
             monogram && firstInitial && middleInitial && lastInitial ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -1291,7 +1090,7 @@ const Form = ({ data  })=>{
                 children: "Submit"
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 205,
+                lineNumber: 57,
                 columnNumber: 9
             }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                 class: "btn monogram__add-to-cart",
@@ -1300,19 +1099,19 @@ const Form = ({ data  })=>{
                 children: "ERROR"
             }, void 0, false, {
                 fileName: "components/Form.jsx",
-                lineNumber: 207,
+                lineNumber: 59,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "components/Form.jsx",
-        lineNumber: 155,
+        lineNumber: 34,
         columnNumber: 5
     }, undefined);
 };
 exports.default = Form;
 
-},{"preact/jsx-dev-runtime":"3mFUL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","preact/hooks":"eZN76","../utils":"bIDtH"}],"eZN76":[function(require,module,exports) {
+},{"preact/jsx-dev-runtime":"3mFUL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","preact/hooks":"eZN76","../utils":"bIDtH","./MonogramButtons":"jUUln","./MonogramInputs":"5b2s3","./HiddenLineItemProperties":"7nXrG"}],"eZN76":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useCallback", ()=>T);
@@ -1536,7 +1335,266 @@ function handleize(string) {
     return string;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bCMOY":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jUUln":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("preact/jsx-dev-runtime");
+var _utils = require("../utils");
+const MonogramButtons = ({ data , style , setStyle  })=>{
+    // only show block option for kids products
+    const visibleMonogramVariants = data.monogram_product.variants.filter((variant)=>(0, _utils.handleize)(variant.title).includes("block") && (0, _utils.handleize)(data.parent_product.type) !== "kids" ? false : true);
+    return visibleMonogramVariants.map((variant)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                    for: variant.id,
+                    className: style === variant.title ? "active" : "",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: variant.featured_image.src,
+                            alt: variant.featured_image.title
+                        }, void 0, false, {
+                            fileName: "components/MonogramButtons.jsx",
+                            lineNumber: 19,
+                            columnNumber: 9
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: variant.title
+                        }, void 0, false, {
+                            fileName: "components/MonogramButtons.jsx",
+                            lineNumber: 23,
+                            columnNumber: 9
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/MonogramButtons.jsx",
+                    lineNumber: 15,
+                    columnNumber: 7
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                    type: "radio",
+                    name: "items[0][id]",
+                    id: variant.id,
+                    value: variant.id,
+                    onChange: ()=>setStyle(variant.title),
+                    checked: style === variant.title,
+                    "data-title": variant.title,
+                    style: "display:none;"
+                }, void 0, false, {
+                    fileName: "components/MonogramButtons.jsx",
+                    lineNumber: 25,
+                    columnNumber: 7
+                }, undefined)
+            ]
+        }, void 0, true));
+};
+exports.default = MonogramButtons;
+
+},{"preact/jsx-dev-runtime":"3mFUL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../utils":"bIDtH"}],"5b2s3":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("preact/jsx-dev-runtime");
+var _utils = require("../utils");
+const MonogramInputs = ({ style , monogram , firstInitial , middleInitial , lastInitial , setMonogram , setFirstInitial , setMiddleInitial , setLastInitial  })=>{
+    if ((0, _utils.handleize)(style) === "block") return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+        type: "text",
+        maxLength: "10",
+        onInput: (e)=>setMonogram(e.target.value),
+        value: monogram
+    }, void 0, false, {
+        fileName: "components/MonogramInputs.jsx",
+        lineNumber: 16,
+        columnNumber: 7
+    }, undefined);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "text",
+                maxLength: "1",
+                onInput: (e)=>setFirstInitial(e.target.value),
+                value: firstInitial
+            }, void 0, false, {
+                fileName: "components/MonogramInputs.jsx",
+                lineNumber: 27,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "text",
+                maxLength: "1",
+                onChange: (e)=>setMiddleInitial(e.target.value),
+                value: middleInitial
+            }, void 0, false, {
+                fileName: "components/MonogramInputs.jsx",
+                lineNumber: 33,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "text",
+                maxLength: "1",
+                onChange: (e)=>setLastInitial(e.target.value),
+                value: lastInitial
+            }, void 0, false, {
+                fileName: "components/MonogramInputs.jsx",
+                lineNumber: 39,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true);
+};
+exports.default = MonogramInputs;
+
+},{"preact/jsx-dev-runtime":"3mFUL","../utils":"bIDtH","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7nXrG":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("preact/jsx-dev-runtime");
+var _hooks = require("preact/hooks");
+var _utils = require("../utils");
+const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , middleInitial , lastInitial  })=>{
+    const [parentProductVariantId, setParentProductVariantId] = (0, _hooks.useState)(data.parent_product_initial_variant.id);
+    const [monogramUuid, setMonogramUuid] = (0, _hooks.useState)(crypto.randomUUID());
+    const [monogramFor, setMonogramFor] = (0, _hooks.useState)(`${data.parent_product.title} - ${data.parent_product_initial_variant.title}`);
+    document.addEventListener("ajaxProduct:added", ()=>{
+        setMonogramUuid(crypto.randomUUID());
+    });
+    document.addEventListener("variant:change", (e)=>{
+        setParentProductVariantId(e.detail.variant.id);
+        setMonogramFor(e.detail.variant.name);
+    });
+    function location() {
+        const handle = (0, _utils.handleize)(data.parent_product.type);
+        if (handle === "kids") return "Left Chest";
+        else if (handle === "accessories" || handle === "kids-accessories") return "Opposite pineapple (left side)";
+        else return "Left Sleeve";
+    }
+    function setMonogramLineItemProperty() {
+        if ((0, _utils.handleize)(style) === "classic") return firstInitial.toUpperCase() + middleInitial.toUpperCase() + lastInitial.toUpperCase();
+        if ((0, _utils.handleize)(style) === "block") return monogram;
+        if ((0, _utils.handleize)(style) === "monogram") return firstInitial.toUpperCase() + lastInitial.toUpperCase() + middleInitial.toUpperCase();
+    }
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[0][quantity]",
+                value: "1"
+            }, void 0, false, {
+                fileName: "components/HiddenLineItemProperties.jsx",
+                lineNumber: 66,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[0][properties][_Monogram ID]",
+                value: monogramUuid
+            }, void 0, false, {
+                fileName: "components/HiddenLineItemProperties.jsx",
+                lineNumber: 67,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[0][properties][Monogram for]",
+                value: monogramFor
+            }, void 0, false, {
+                fileName: "components/HiddenLineItemProperties.jsx",
+                lineNumber: 72,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[0][properties][Style]",
+                value: style
+            }, void 0, false, {
+                fileName: "components/HiddenLineItemProperties.jsx",
+                lineNumber: 77,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[0][properties][_Location]",
+                value: location()
+            }, void 0, false, {
+                fileName: "components/HiddenLineItemProperties.jsx",
+                lineNumber: 78,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[0][properties][_Gift wrap]",
+                value: "No"
+            }, void 0, false, {
+                fileName: "components/HiddenLineItemProperties.jsx",
+                lineNumber: 83,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[0][properties][Monogram]",
+                value: setMonogramLineItemProperty()
+            }, void 0, false, {
+                fileName: "components/HiddenLineItemProperties.jsx",
+                lineNumber: 84,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[1][id]",
+                value: parentProductVariantId
+            }, void 0, false, {
+                fileName: "components/HiddenLineItemProperties.jsx",
+                lineNumber: 91,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[1][quantity]",
+                value: "1"
+            }, void 0, false, {
+                fileName: "components/HiddenLineItemProperties.jsx",
+                lineNumber: 92,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[1][properties][_Monogram ID]",
+                value: monogramUuid
+            }, void 0, false, {
+                fileName: "components/HiddenLineItemProperties.jsx",
+                lineNumber: 93,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[1][properties][Style]",
+                value: style
+            }, void 0, false, {
+                fileName: "components/HiddenLineItemProperties.jsx",
+                lineNumber: 98,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[1][properties][_Location]",
+                value: location()
+            }, void 0, false, {
+                fileName: "components/HiddenLineItemProperties.jsx",
+                lineNumber: 99,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
+                name: "items[1][properties][Monogram]",
+                value: setMonogramLineItemProperty()
+            }, void 0, false, {
+                fileName: "components/HiddenLineItemProperties.jsx",
+                lineNumber: 104,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true);
+};
+exports.default = HiddenLineItemProperties;
+
+},{"preact/jsx-dev-runtime":"3mFUL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../utils":"bIDtH","preact/hooks":"eZN76"}],"bCMOY":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "resetPropWarnings", ()=>r);

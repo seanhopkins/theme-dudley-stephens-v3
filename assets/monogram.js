@@ -586,6 +586,14 @@ class MonogramToggle extends HTMLElement {
         this.buttonWrapper = this.querySelector(".monogram-button-wrapper");
     }
     connectedCallback() {
+        setTimeout(()=>{
+            // show correct button on page load
+            // checkbox will stay selected if you use the back button
+            if (this.checkbox.checked) {
+                this.buttonWrapper.classList.remove("hide");
+                this.addToCart.classList.add("hide");
+            }
+        }, 300);
         this.checkbox.addEventListener("change", this.toggleButtons.bind(this));
     }
     toggleButtons() {

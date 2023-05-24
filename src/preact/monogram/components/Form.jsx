@@ -3,6 +3,7 @@ import { handleize } from "../utils";
 import MonogramButtons from "./MonogramButtons";
 import MonogramInputs from "./MonogramInputs";
 import HiddenLineItemProperties from "./HiddenLineItemProperties";
+import MonogramSubmit from "./MonogramSubmit";
 
 const Form = ({ data }) => {
   const [style, setStyle] = useState(
@@ -52,15 +53,13 @@ const Form = ({ data }) => {
         middleInitial={middleInitial}
         lastInitial={lastInitial}
       />
-      <div className="MonogramSubmit">
-        {monogram && firstInitial && middleInitial && lastInitial ? (
-          <button class="btn monogram__add-to-cart">Submit</button>
-        ) : (
-          <button class="btn monogram__add-to-cart" type="button" disabled>
-            ERROR
-          </button>
-        )}
-      </div>
+      <MonogramSubmit
+        style={style}
+        monogram={monogram}
+        firstInitial={firstInitial}
+        middleInitial={middleInitial}
+        lastInitial={lastInitial}
+      />
     </form>
   );
 };

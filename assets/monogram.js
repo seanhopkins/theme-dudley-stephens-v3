@@ -1284,6 +1284,8 @@ var _monogramInputs = require("./MonogramInputs");
 var _monogramInputsDefault = parcelHelpers.interopDefault(_monogramInputs);
 var _hiddenLineItemProperties = require("./HiddenLineItemProperties");
 var _hiddenLineItemPropertiesDefault = parcelHelpers.interopDefault(_hiddenLineItemProperties);
+var _monogramSubmit = require("./MonogramSubmit");
+var _monogramSubmitDefault = parcelHelpers.interopDefault(_monogramSubmit);
 const Form = ({ data  })=>{
     const [style, setStyle] = (0, _hooks.useState)(data.monogram_product_initial_variant.title);
     const [monogram, setMonogram] = (0, _hooks.useState)("Dudley");
@@ -1314,7 +1316,7 @@ const Form = ({ data  })=>{
                 setStyle: setStyle
             }, void 0, false, {
                 fileName: "src/preact/monogram/components/Form.jsx",
-                lineNumber: 35,
+                lineNumber: 36,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _monogramInputsDefault.default), {
@@ -1329,7 +1331,7 @@ const Form = ({ data  })=>{
                 setLastInitial: setLastInitial
             }, void 0, false, {
                 fileName: "src/preact/monogram/components/Form.jsx",
-                lineNumber: 36,
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _hiddenLineItemPropertiesDefault.default), {
@@ -1341,43 +1343,30 @@ const Form = ({ data  })=>{
                 lastInitial: lastInitial
             }, void 0, false, {
                 fileName: "src/preact/monogram/components/Form.jsx",
-                lineNumber: 47,
+                lineNumber: 48,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "MonogramSubmit",
-                children: monogram && firstInitial && middleInitial && lastInitial ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                    class: "btn monogram__add-to-cart",
-                    children: "Submit"
-                }, void 0, false, {
-                    fileName: "src/preact/monogram/components/Form.jsx",
-                    lineNumber: 57,
-                    columnNumber: 11
-                }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                    class: "btn monogram__add-to-cart",
-                    type: "button",
-                    disabled: true,
-                    children: "ERROR"
-                }, void 0, false, {
-                    fileName: "src/preact/monogram/components/Form.jsx",
-                    lineNumber: 59,
-                    columnNumber: 11
-                }, undefined)
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _monogramSubmitDefault.default), {
+                style: style,
+                monogram: monogram,
+                firstInitial: firstInitial,
+                middleInitial: middleInitial,
+                lastInitial: lastInitial
             }, void 0, false, {
                 fileName: "src/preact/monogram/components/Form.jsx",
-                lineNumber: 55,
+                lineNumber: 56,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/preact/monogram/components/Form.jsx",
-        lineNumber: 34,
+        lineNumber: 35,
         columnNumber: 5
     }, undefined);
 };
 exports.default = Form;
 
-},{"preact/jsx-dev-runtime":"3mFUL","preact/hooks":"eZN76","../utils":"iJLHw","./MonogramButtons":"5XO2M","./MonogramInputs":"irRpO","./HiddenLineItemProperties":"5rua3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eZN76":[function(require,module,exports) {
+},{"preact/jsx-dev-runtime":"3mFUL","preact/hooks":"eZN76","../utils":"iJLHw","./MonogramButtons":"5XO2M","./MonogramInputs":"irRpO","./HiddenLineItemProperties":"5rua3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./MonogramSubmit":"lRovl"}],"eZN76":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useCallback", ()=>T);
@@ -1971,6 +1960,58 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
 };
 exports.default = HiddenLineItemProperties;
 
-},{"preact/jsx-dev-runtime":"3mFUL","preact/hooks":"eZN76","../utils":"iJLHw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["GSt8q","cPD9E"], "cPD9E", "parcelRequire6d00")
+},{"preact/jsx-dev-runtime":"3mFUL","preact/hooks":"eZN76","../utils":"iJLHw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lRovl":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("preact/jsx-dev-runtime");
+var _utils = require("../utils");
+const MonogramSubmit = ({ style , monogram , firstInitial , middleInitial , lastInitial  })=>{
+    const Button = ()=>{
+        if ((0, _utils.handleize)(style) === "block") {
+            if (monogram) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                class: "btn monogram__add-to-cart",
+                children: "Submit"
+            }, void 0, false, {
+                fileName: "src/preact/monogram/components/MonogramSubmit.jsx",
+                lineNumber: 13,
+                columnNumber: 16
+            }, undefined);
+        } else {
+            if (firstInitial && middleInitial && lastInitial) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                class: "btn monogram__add-to-cart",
+                children: "Submit"
+            }, void 0, false, {
+                fileName: "src/preact/monogram/components/MonogramSubmit.jsx",
+                lineNumber: 17,
+                columnNumber: 16
+            }, undefined);
+        }
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+            class: "btn monogram__add-to-cart",
+            type: "button",
+            disabled: true,
+            children: "ERROR"
+        }, void 0, false, {
+            fileName: "src/preact/monogram/components/MonogramSubmit.jsx",
+            lineNumber: 22,
+            columnNumber: 7
+        }, undefined);
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "MonogramSubmit",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Button, {}, void 0, false, {
+            fileName: "src/preact/monogram/components/MonogramSubmit.jsx",
+            lineNumber: 30,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/preact/monogram/components/MonogramSubmit.jsx",
+        lineNumber: 29,
+        columnNumber: 5
+    }, undefined);
+};
+exports.default = MonogramSubmit;
+
+},{"preact/jsx-dev-runtime":"3mFUL","../utils":"iJLHw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["GSt8q","cPD9E"], "cPD9E", "parcelRequire6d00")
 
 //# sourceMappingURL=monogram.js.map

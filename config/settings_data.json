@@ -1667,7 +1667,7 @@
   "platform_customizations": {
     "custom_css": [
       ".rte p,.rte-setting p {color: var(--colorTextBodyLight);}",
-      ".btn,.rte .btn,.slideshow__slide .hero__link .btn {letter-spacing: 0.1em; font-weight: 500;}",
+      ".btn,.rte .btn,.slideshow__slide .hero__link .btn {letter-spacing: 0.05em; font-weight: 500; text-transform: none;}",
       "a:not(.btn):after {color: var(--colorCartDot);}",
       ".collapsible-trigger-btn {border: 0;}"
     ]

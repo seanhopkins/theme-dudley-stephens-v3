@@ -90,7 +90,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "SHOP BY CATEGORY"
+            "title": "Shop by category"
           }
         },
         "text": {
@@ -106,8 +106,7 @@
         "text"
       ],
       "custom_css": [
-        ".theme-block,.theme-block h2 {margin: 0em;}",
-        "h2 {letter-spacing: 0.075em;}"
+        ".theme-block,.theme-block h2 {margin: 0em;}"
       ],
       "settings": {
         "align_text": "center",

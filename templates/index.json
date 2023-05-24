@@ -442,6 +442,7 @@
     },
     "0ea63146-12df-42a7-a684-7d4133fd7903": {
       "type": "hotspots",
+      "disabled": true,
       "blocks": {
         "template--14916567695402__0ea63146-12df-42a7-a684-7d4133fd7903-16844350879d46fb13-1": {
           "type": "product",

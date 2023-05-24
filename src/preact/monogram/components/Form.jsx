@@ -19,7 +19,7 @@ const Form = ({ data }) => {
 
   useEffect(() => {
     if (!textOverlay) return;
-    
+
     textOverlay.classList.remove("classic", "block", "monogram");
     textOverlay.classList.add(handleize(style));
 
@@ -52,14 +52,15 @@ const Form = ({ data }) => {
         middleInitial={middleInitial}
         lastInitial={lastInitial}
       />
-
-      {monogram && firstInitial && middleInitial && lastInitial ? (
-        <button class="btn monogram__add-to-cart">Submit</button>
-      ) : (
-        <button class="btn monogram__add-to-cart" type="button" disabled>
-          ERROR
-        </button>
-      )}
+      <div className="MonogramSubmit">
+        {monogram && firstInitial && middleInitial && lastInitial ? (
+          <button class="btn monogram__add-to-cart">Submit</button>
+        ) : (
+          <button class="btn monogram__add-to-cart" type="button" disabled>
+            ERROR
+          </button>
+        )}
+      </div>
     </form>
   );
 };

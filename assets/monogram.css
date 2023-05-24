@@ -20,3 +20,21 @@ monogram-customizer .text-overlay.monogram .middle {
 monogram-customizer .text-overlay.monogram .last {
   font-size: 30px;
 }
+
+.MonogramButtons {
+  display: flex;
+}
+
+.MonogramInputs .field {
+  display: flex;
+  flex-direction: column;
+}
+
+.MonogramInputs fieldset {
+  display: flex;
+}
+
+.MonogramInputs input {
+  min-width: 10px;
+  margin-right: 4px;
+}

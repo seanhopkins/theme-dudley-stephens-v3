@@ -10,30 +10,34 @@ const MonogramButtons = ({ data, style, setStyle }) => {
         : true
   );
 
-  return visibleMonogramVariants.map((variant) => (
-    <>
-      <label
-        for={variant.id}
-        className={style === variant.title ? "active" : ""}
-      >
-        <img
-          src={variant.featured_image.src}
-          alt={variant.featured_image.title}
-        />
-        <p>{variant.title}</p>
-      </label>
-      <input
-        type="radio"
-        name="items[0][id]"
-        id={variant.id}
-        value={variant.id}
-        onChange={() => setStyle(variant.title)}
-        checked={style === variant.title}
-        data-title={variant.title}
-        style="display:none;"
-      />
-    </>
-  ));
+  return (
+    <div className="MonogramButtons">
+      {visibleMonogramVariants.map((variant) => (
+        <>
+          <label
+            for={variant.id}
+            className={style === variant.title ? "active" : ""}
+          >
+            <img
+              src={variant.featured_image.src}
+              alt={variant.featured_image.title}
+            />
+            <p>{variant.title}</p>
+          </label>
+          <input
+            type="radio"
+            name="items[0][id]"
+            id={variant.id}
+            value={variant.id}
+            onChange={() => setStyle(variant.title)}
+            checked={style === variant.title}
+            data-title={variant.title}
+            style="display:none;"
+          />
+        </>
+      ))}
+    </div>
+  );
 };
 
 export default MonogramButtons;

@@ -1344,22 +1344,29 @@ const Form = ({ data  })=>{
                 lineNumber: 47,
                 columnNumber: 7
             }, undefined),
-            monogram && firstInitial && middleInitial && lastInitial ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                class: "btn monogram__add-to-cart",
-                children: "Submit"
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "MonogramSubmit",
+                children: monogram && firstInitial && middleInitial && lastInitial ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                    class: "btn monogram__add-to-cart",
+                    children: "Submit"
+                }, void 0, false, {
+                    fileName: "src/preact/monogram/components/Form.jsx",
+                    lineNumber: 57,
+                    columnNumber: 11
+                }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                    class: "btn monogram__add-to-cart",
+                    type: "button",
+                    disabled: true,
+                    children: "ERROR"
+                }, void 0, false, {
+                    fileName: "src/preact/monogram/components/Form.jsx",
+                    lineNumber: 59,
+                    columnNumber: 11
+                }, undefined)
             }, void 0, false, {
                 fileName: "src/preact/monogram/components/Form.jsx",
-                lineNumber: 57,
-                columnNumber: 9
-            }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                class: "btn monogram__add-to-cart",
-                type: "button",
-                disabled: true,
-                children: "ERROR"
-            }, void 0, false, {
-                fileName: "src/preact/monogram/components/Form.jsx",
-                lineNumber: 59,
-                columnNumber: 9
+                lineNumber: 55,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
@@ -1602,49 +1609,56 @@ var _utils = require("../utils");
 const MonogramButtons = ({ data , style , setStyle  })=>{
     // only show block option for kids products
     const visibleMonogramVariants = data.monogram_product.variants.filter((variant)=>(0, _utils.handleize)(variant.title).includes("block") && (0, _utils.handleize)(data.parent_product.type) !== "kids" ? false : true);
-    return visibleMonogramVariants.map((variant)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                    for: variant.id,
-                    className: style === variant.title ? "active" : "",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: variant.featured_image.src,
-                            alt: variant.featured_image.title
-                        }, void 0, false, {
-                            fileName: "src/preact/monogram/components/MonogramButtons.jsx",
-                            lineNumber: 19,
-                            columnNumber: 9
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: variant.title
-                        }, void 0, false, {
-                            fileName: "src/preact/monogram/components/MonogramButtons.jsx",
-                            lineNumber: 23,
-                            columnNumber: 9
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/preact/monogram/components/MonogramButtons.jsx",
-                    lineNumber: 15,
-                    columnNumber: 7
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                    type: "radio",
-                    name: "items[0][id]",
-                    id: variant.id,
-                    value: variant.id,
-                    onChange: ()=>setStyle(variant.title),
-                    checked: style === variant.title,
-                    "data-title": variant.title,
-                    style: "display:none;"
-                }, void 0, false, {
-                    fileName: "src/preact/monogram/components/MonogramButtons.jsx",
-                    lineNumber: 25,
-                    columnNumber: 7
-                }, undefined)
-            ]
-        }, void 0, true));
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "MonogramButtons",
+        children: visibleMonogramVariants.map((variant)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        for: variant.id,
+                        className: style === variant.title ? "active" : "",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: variant.featured_image.src,
+                                alt: variant.featured_image.title
+                            }, void 0, false, {
+                                fileName: "src/preact/monogram/components/MonogramButtons.jsx",
+                                lineNumber: 21,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: variant.title
+                            }, void 0, false, {
+                                fileName: "src/preact/monogram/components/MonogramButtons.jsx",
+                                lineNumber: 25,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/preact/monogram/components/MonogramButtons.jsx",
+                        lineNumber: 17,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "radio",
+                        name: "items[0][id]",
+                        id: variant.id,
+                        value: variant.id,
+                        onChange: ()=>setStyle(variant.title),
+                        checked: style === variant.title,
+                        "data-title": variant.title,
+                        style: "display:none;"
+                    }, void 0, false, {
+                        fileName: "src/preact/monogram/components/MonogramButtons.jsx",
+                        lineNumber: 27,
+                        columnNumber: 11
+                    }, undefined)
+                ]
+            }, void 0, true))
+    }, void 0, false, {
+        fileName: "src/preact/monogram/components/MonogramButtons.jsx",
+        lineNumber: 14,
+        columnNumber: 5
+    }, undefined);
 };
 exports.default = MonogramButtons;
 
@@ -1654,50 +1668,154 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("preact/jsx-dev-runtime");
 var _utils = require("../utils");
 const MonogramInputs = ({ style , monogram , firstInitial , middleInitial , lastInitial , setMonogram , setFirstInitial , setMiddleInitial , setLastInitial  })=>{
-    if ((0, _utils.handleize)(style) === "block") return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-        type: "text",
-        maxLength: "10",
-        onInput: (e)=>setMonogram(e.target.value),
-        value: monogram
+    if ((0, _utils.handleize)(style) === "block") return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "MonogramInputs",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("fieldset", {
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("legend", {
+                    children: "Your Name"
+                }, void 0, false, {
+                    fileName: "src/preact/monogram/components/MonogramInputs.jsx",
+                    lineNumber: 18,
+                    columnNumber: 11
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                    class: "field",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                            type: "text",
+                            maxLength: "10",
+                            onInput: (e)=>setMonogram(e.target.value),
+                            value: monogram
+                        }, void 0, false, {
+                            fileName: "src/preact/monogram/components/MonogramInputs.jsx",
+                            lineNumber: 20,
+                            columnNumber: 13
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                            children: "ⓘ Case sensitive, Max 10 characters."
+                        }, void 0, false, {
+                            fileName: "src/preact/monogram/components/MonogramInputs.jsx",
+                            lineNumber: 26,
+                            columnNumber: 13
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/preact/monogram/components/MonogramInputs.jsx",
+                    lineNumber: 19,
+                    columnNumber: 11
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/preact/monogram/components/MonogramInputs.jsx",
+            lineNumber: 17,
+            columnNumber: 9
+        }, undefined)
     }, void 0, false, {
         fileName: "src/preact/monogram/components/MonogramInputs.jsx",
         lineNumber: 16,
         columnNumber: 7
     }, undefined);
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                type: "text",
-                maxLength: "1",
-                onInput: (e)=>setFirstInitial(e.target.value),
-                value: firstInitial
-            }, void 0, false, {
-                fileName: "src/preact/monogram/components/MonogramInputs.jsx",
-                lineNumber: 27,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                type: "text",
-                maxLength: "1",
-                onChange: (e)=>setMiddleInitial(e.target.value),
-                value: middleInitial
-            }, void 0, false, {
-                fileName: "src/preact/monogram/components/MonogramInputs.jsx",
-                lineNumber: 33,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                type: "text",
-                maxLength: "1",
-                onChange: (e)=>setLastInitial(e.target.value),
-                value: lastInitial
-            }, void 0, false, {
-                fileName: "src/preact/monogram/components/MonogramInputs.jsx",
-                lineNumber: 39,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "MonogramInputs",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("fieldset", {
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("legend", {
+                    children: "Your Initials"
+                }, void 0, false, {
+                    fileName: "src/preact/monogram/components/MonogramInputs.jsx",
+                    lineNumber: 36,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                    class: "field",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                            type: "text",
+                            maxLength: "1",
+                            onInput: (e)=>setFirstInitial(e.target.value),
+                            value: firstInitial
+                        }, void 0, false, {
+                            fileName: "src/preact/monogram/components/MonogramInputs.jsx",
+                            lineNumber: 38,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                            children: "First"
+                        }, void 0, false, {
+                            fileName: "src/preact/monogram/components/MonogramInputs.jsx",
+                            lineNumber: 44,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/preact/monogram/components/MonogramInputs.jsx",
+                    lineNumber: 37,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                    class: "field",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                            type: "text",
+                            maxLength: "1",
+                            onChange: (e)=>setMiddleInitial(e.target.value),
+                            value: middleInitial
+                        }, void 0, false, {
+                            fileName: "src/preact/monogram/components/MonogramInputs.jsx",
+                            lineNumber: 47,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                            children: "Middle"
+                        }, void 0, false, {
+                            fileName: "src/preact/monogram/components/MonogramInputs.jsx",
+                            lineNumber: 53,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/preact/monogram/components/MonogramInputs.jsx",
+                    lineNumber: 46,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                    class: "field",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                            type: "text",
+                            maxLength: "1",
+                            onChange: (e)=>setLastInitial(e.target.value),
+                            value: lastInitial
+                        }, void 0, false, {
+                            fileName: "src/preact/monogram/components/MonogramInputs.jsx",
+                            lineNumber: 56,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                            children: "Last"
+                        }, void 0, false, {
+                            fileName: "src/preact/monogram/components/MonogramInputs.jsx",
+                            lineNumber: 62,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/preact/monogram/components/MonogramInputs.jsx",
+                    lineNumber: 55,
+                    columnNumber: 9
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/preact/monogram/components/MonogramInputs.jsx",
+            lineNumber: 35,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/preact/monogram/components/MonogramInputs.jsx",
+        lineNumber: 34,
+        columnNumber: 5
+    }, undefined);
 };
 exports.default = MonogramInputs;
 

@@ -459,15 +459,16 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Endless\npossibilities.",
+            "title": "Female founded, \nfamily owned.",
             "title_size": 80,
-            "subheading": "Bring your brand to life",
-            "link": "",
-            "link_text": "Optional button",
+            "subheading": "",
+            "link": "shopify:\/\/pages\/about-dudley-stephens",
+            "link_text": "Our Story",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/Dudley-Sisters.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }

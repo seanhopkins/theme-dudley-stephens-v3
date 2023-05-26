@@ -193,7 +193,7 @@
         "template--14916568285226__c61ccae2-815c-49aa-b30a-3184a8bc085c-1684792101acffbb66-2"
       ],
       "custom_css": [
-        ".index-section {background-color: #f8f4ed; padding: 5em 0;}"
+
       ],
       "settings": {
         "title": "",
@@ -217,8 +217,8 @@
         "align_text": "center",
         "image_width": "50",
         "layout": "right",
-        "divider": false,
-        "top_padding": false,
+        "divider": true,
+        "top_padding": true,
         "bottom_padding": false,
         "lazyload_images": true
       }

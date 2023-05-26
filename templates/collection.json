@@ -6,7 +6,7 @@
         "h1 {text-align: center;}"
       ],
       "settings": {
-        "enable": true,
+        "enable": false,
         "collection_image_enable": false,
         "parallax": false,
         "parallax_direction": "top"
@@ -18,7 +18,7 @@
         "template--14916568055850__20f04a9a-02c8-46f9-a48b-0fa7bfe764a8-16851228491a6ae787-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if collection.description %}\n<div class=\"page-width page-width--narrow text-center\">\n{{ collection.description }}\n<\/div>\n{% endif %}",
+            "code": "<div class=\"page-width page-content page-content--top text-center\">\n<h1>{{ collection.title }}<\/h1>\n{% if collection.description %}\n{{ collection.description }}\n<\/div>\n{% endif %}",
             "width": "100%",
             "alignment": "center"
           }

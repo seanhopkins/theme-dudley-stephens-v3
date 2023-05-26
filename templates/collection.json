@@ -101,15 +101,15 @@
     "main-collection": {
       "type": "main-collection",
       "blocks": {
-        "cdb3fbbc-ff47-4052-a5d0-ff0177f1fe0a": {
-          "type": "subcollections",
-          "settings": {
-            "subcollections_per_row": 5
-          }
-        },
         "collection_description": {
           "type": "collection_description",
           "settings": {
+          }
+        },
+        "cdb3fbbc-ff47-4052-a5d0-ff0177f1fe0a": {
+          "type": "subcollections",
+          "settings": {
+            "subcollections_per_row": 4
           }
         },
         "product_grid": {
@@ -123,8 +123,8 @@
         }
       },
       "block_order": [
-        "cdb3fbbc-ff47-4052-a5d0-ff0177f1fe0a",
         "collection_description",
+        "cdb3fbbc-ff47-4052-a5d0-ff0177f1fe0a",
         "product_grid"
       ],
       "custom_css": [

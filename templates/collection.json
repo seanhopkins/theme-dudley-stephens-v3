@@ -12,6 +12,64 @@
         "parallax_direction": "left"
       }
     },
+    "e1f1007d-af4d-437e-baa9-7a8ecaf60313": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--14916568055850__e1f1007d-af4d-437e-baa9-7a8ecaf60313-16851213259a117373-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "template--14916568055850__e1f1007d-af4d-437e-baa9-7a8ecaf60313-16851213259a117373-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "template--14916568055850__e1f1007d-af4d-437e-baa9-7a8ecaf60313-16851213259a117373-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "template--14916568055850__e1f1007d-af4d-437e-baa9-7a8ecaf60313-16851213259a117373-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "da7b58b6-21f9-4206-a1cc-ff4b51455030": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14916568055850__e1f1007d-af4d-437e-baa9-7a8ecaf60313-16851213259a117373-0",
+        "template--14916568055850__e1f1007d-af4d-437e-baa9-7a8ecaf60313-16851213259a117373-1",
+        "template--14916568055850__e1f1007d-af4d-437e-baa9-7a8ecaf60313-16851213259a117373-2",
+        "template--14916568055850__e1f1007d-af4d-437e-baa9-7a8ecaf60313-16851213259a117373-3",
+        "da7b58b6-21f9-4206-a1cc-ff4b51455030"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false,
+        "per_row": 5,
+        "enable_gutter": true
+      }
+    },
     "promo-grid": {
       "type": "promo-grid",
       "disabled": true,
@@ -108,6 +166,7 @@
         },
         "cdb3fbbc-ff47-4052-a5d0-ff0177f1fe0a": {
           "type": "subcollections",
+          "disabled": true,
           "settings": {
             "subcollections_per_row": 4
           }
@@ -142,6 +201,7 @@
   },
   "order": [
     "collection-header",
+    "e1f1007d-af4d-437e-baa9-7a8ecaf60313",
     "promo-grid",
     "main-collection"
   ]

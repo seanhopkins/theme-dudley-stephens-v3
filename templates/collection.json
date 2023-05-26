@@ -76,6 +76,7 @@
       "blocks": {
         "advanced": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "subheading": "",
             "heading": "Park Slope",
@@ -97,6 +98,7 @@
         },
         "00bab92b-c60b-456a-a456-99e96610f6ef": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "subheading": "",
             "heading": "Greenpoint",
@@ -118,6 +120,7 @@
         },
         "bf5328bd-22e0-46c6-ad37-3c5e5362fe58": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "subheading": "",
             "heading": "Cobble Hill",
@@ -145,32 +148,19 @@
       ],
       "custom_css": [
         ".promo-grid__container {border-radius: 4px;}",
-        ".type-advanced .promo-grid__container--framed:not(.promo-grid__container--boxed):after {border-radius: 4px;}",
-        ".promo-grid__container .btn {padding: 5px 12px; font-size: 1rem; margin-top: 2em;}"
+        ".type-advanced .promo-grid__container--framed:not(.promo-grid__container--boxed):after {border-radius: 4px;}"
       ],
       "settings": {
         "full_width": false,
-        "gutter_size": 20,
-        "space_above": true,
+        "gutter_size": 0,
+        "space_above": false,
         "space_below": false,
-        "lazyload_images": true
+        "lazyload_images": false
       }
     },
     "main-collection": {
       "type": "main-collection",
       "blocks": {
-        "collection_description": {
-          "type": "collection_description",
-          "settings": {
-          }
-        },
-        "cdb3fbbc-ff47-4052-a5d0-ff0177f1fe0a": {
-          "type": "subcollections",
-          "disabled": true,
-          "settings": {
-            "subcollections_per_row": 4
-          }
-        },
         "product_grid": {
           "type": "product_grid",
           "settings": {
@@ -182,8 +172,6 @@
         }
       },
       "block_order": [
-        "collection_description",
-        "cdb3fbbc-ff47-4052-a5d0-ff0177f1fe0a",
         "product_grid"
       ],
       "custom_css": [

@@ -9,7 +9,7 @@
         "enable": true,
         "collection_image_enable": false,
         "parallax": false,
-        "parallax_direction": "left"
+        "parallax_direction": "top"
       }
     },
     "e1f1007d-af4d-437e-baa9-7a8ecaf60313": {

@@ -73,12 +73,12 @@
         "header-0"
       ],
       "custom_css": [
-        ".svg-mask--landscape {display: none;}"
+
       ],
       "settings": {
         "main_menu_link_list": "main-menu",
         "hover_menu": false,
-        "mega_menu_images": false,
+        "mega_menu_images": true,
         "main_menu_alignment": "left-center",
         "header_style": "sticky",
         "sticky_index": false,

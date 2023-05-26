@@ -76,7 +76,7 @@
         ".svg-mask--landscape {display: none;}"
       ],
       "settings": {
-        "main_menu_link_list": "new-2020-menu",
+        "main_menu_link_list": "main-menu",
         "hover_menu": false,
         "mega_menu_images": false,
         "main_menu_alignment": "left-center",

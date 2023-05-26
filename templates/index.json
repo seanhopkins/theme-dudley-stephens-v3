@@ -443,8 +443,8 @@
     "9d451ba4-68b4-470b-85d1-cce179b92548": {
       "type": "featured-collection",
       "settings": {
-        "title": "Top selling items this year",
-        "home_featured_products": "2023-best-sellers",
+        "title": "New essentials",
+        "home_featured_products": "new-essentials",
         "per_row": 5,
         "rows": 1,
         "mobile_scrollable": true,

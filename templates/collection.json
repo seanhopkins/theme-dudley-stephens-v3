@@ -18,8 +18,8 @@
         "template--14916568055850__20f04a9a-02c8-46f9-a48b-0fa7bfe764a8-16851228491a6ae787-1": {
           "type": "liquid",
           "settings": {
-            "code": "<div class=\"page-width page-width--narrow text-center\">\n{{ collection.description }}\n<\/div>",
-            "width": "50%",
+            "code": "{{ collection.description }}",
+            "width": "66%",
             "alignment": "center"
           }
         }
@@ -29,8 +29,8 @@
       ],
       "settings": {
         "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
+        "space_around": false,
+        "lazyload_images": false
       }
     },
     "e1f1007d-af4d-437e-baa9-7a8ecaf60313": {

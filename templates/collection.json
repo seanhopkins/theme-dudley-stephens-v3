@@ -18,7 +18,7 @@
         "template--14916568055850__20f04a9a-02c8-46f9-a48b-0fa7bfe764a8-16851228491a6ae787-1": {
           "type": "liquid",
           "settings": {
-            "code": "<div class=\"page-width page-content page-content--top text-center\">\n<h1>{{ collection.title }}<\/h1>\n{% if collection.description %}\n{{ collection.description }}\n<\/div>\n{% endif %}",
+            "code": "<div class=\"page-width page-content page-content--top text-center\">\n<h1>{{ collection.title }}<\/h1>\n{% if collection.description %}\n<p>{{ collection.description }}<\/p>\n<\/div>\n{% endif %}",
             "width": "100%",
             "alignment": "center"
           }

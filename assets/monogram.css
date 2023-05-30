@@ -27,21 +27,19 @@ monogram-customizer .text-overlay.monogram .last {
   line-height: 1em;
 }
 
-.MonogramButtons {
+
+.MonogramButtons,
+.MonogramInputs fieldset {
   display: flex;
   gap: 1em;
 }
 .MonogramInputs {
   margin-bottom: 1em;
 }
+
 .MonogramInputs .field {
   display: flex;
   flex-direction: column;
-}
-
-.MonogramInputs fieldset {
-  display: flex;
-  gap: 1em;
 }
 
 .MonogramInputs input {
@@ -49,7 +47,6 @@ monogram-customizer .text-overlay.monogram .last {
   width: 100%;
   margin-right: 4px;
 }
-
 
 monogram-toggle { 
   display: flex;
@@ -85,6 +82,9 @@ label[for="add-monogram"] {
   margin: auto;
 }
 
+monogram-customizer .image-wrap.loaded {
+  background: none;
+}
 span.text-overlay {
   font-size: 3.5em;
   -webkit-background-clip: text !important;

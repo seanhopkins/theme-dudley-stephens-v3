@@ -15,6 +15,9 @@
   if context == 'main-product'
     assign loading = 'eager'
   endif
+
+  assign parent_product_color = parent_product.title | split: ' (' | last
+  assign monogram_swatch_color = parent_product_color | remove: ')' | handleize
 -%}
 
 {%- unless product.empty? -%}
@@ -44,6 +47,7 @@
             {%- render 'media',
               section_id: section_id,
               media: media,
+              monogram_swatch_color: monogram_swatch_color,
               featured_media: featured_media,
               loopIndex0: forloop.index0,
               loopIndex: forloop.index,

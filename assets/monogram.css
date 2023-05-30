@@ -23,13 +23,17 @@ monogram-customizer .text-overlay.monogram .middle {
 }
 
 monogram-customizer .text-overlay.monogram .last {
-  font-size: 30px;
+  font-size: 2em;
+  line-height: 1em;
 }
 
 .MonogramButtons {
   display: flex;
+  gap: 1em;
 }
-
+.MonogramInputs {
+  margin-bottom: 1em;
+}
 .MonogramInputs .field {
   display: flex;
   flex-direction: column;
@@ -37,9 +41,63 @@ monogram-customizer .text-overlay.monogram .last {
 
 .MonogramInputs fieldset {
   display: flex;
+  gap: 1em;
 }
 
 .MonogramInputs input {
   min-width: 10px;
+  width: 100%;
   margin-right: 4px;
+}
+
+
+monogram-toggle { 
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+
+label[for="add-monogram"] {
+  margin-bottom: 0;
+  letter-spacing: 0 !important;
+}
+
+.monogram-button-wrapper {
+  width: 100%;
+  margin: 1em 0;
+}
+
+.monogram-button-wrapper small {
+  margin-top: 1em;
+}
+
+.MonogramButtons label {
+  padding: 1em;
+  text-align: center;
+  background-color: var(--colorBody);
+  box-shadow: 0 0 0 1px #e8e8e1;
+  box-shadow: 0 0 0 1px var(--colorBorder);
+}
+
+.MonogramButtons img {
+  width: 96px;
+  margin: auto;
+}
+
+span.text-overlay {
+  font-size: 3.5em;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent;
+  background: url(//cdn.shopify.com/s/files/1/0833/2853/files/green-thread_small.jpg?v=1648493344);
+  background-size: 100px;
+  text-shadow: 0px 0px 2px #36530e1a;
+  filter: drop-shadow(-1px -1px 1px rgba(0,0,0,30%)) drop-shadow(1px 1px 1px rgba(0,0,0,30%));
+  text-shadow: 2px 1px 0px rgb(0 0 0 / 20%), 0px -1px 0px rgb(255 255 255 / 1%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  line-height: 1em;
 }

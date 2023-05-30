@@ -15,6 +15,13 @@
        .monogram-swatch--{{ block.settings.title | handle }} img {
          visibility: hidden;
        }
+       {% else %}
+        .monogram-swatch--{{ block.settings.title | handle }} {
+          background-color: {{ block.settings.swatch_color }};
+        }
+        .monogram-swatch--{{ block.settings.title | handle }} img {
+          visibility: hidden;
+        }
      {%- endif -%}
    {%- endfor -%}
    

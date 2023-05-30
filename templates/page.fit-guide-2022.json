@@ -95,6 +95,9 @@
         "template--14933261484074__2537d320-00ba-453c-9c5f-53df5336762d-1685485115b2bb5adc-4",
         "9c761d1b-9e3c-4610-9795-06b592abb609"
       ],
+      "custom_css": [
+        ".tab-nav {display: flex; gap: 1em; justify-content: center;}"
+      ],
       "settings": {
       }
     }

@@ -1,0 +1,189 @@
+{% comment %} Example vid: https://cdn.shopify.com/videos/c/o/v/a20bd5a8f5284443a6e9b91821937aff.mp4 {% endcomment %}
+
+{%- style -%}
+  .carousels-{{ section.id }} {
+    background-color: {{ section.settings.color_background }};
+    color: {{ section.settings.color_text }};
+  }
+}
+{%- endstyle -%}
+
+<div
+  class="carousels-section carousels-{{ section.id }} text-{{ section.settings.align_text }}"
+  data-section-id="{{ section.id }}"
+  data-section-type="carousels"
+  data-aos>
+  {%- if section.settings.title != blank -%}
+    <div class="page-width">
+      <div class="section-header">
+        <p class="{{ section.settings.heading_size }}">{{ section.settings.title | escape }}</p>
+      </div>
+    </div>
+  {%- endif -%}
+
+  {%- if section.blocks.size > 0 -%}
+    <div class="slideshow-wrapper">
+      <div
+        class="carousels-slider"
+        id="Carousels-{{ section.id }}"
+        data-dots="true"
+        data-count="{{ section.blocks.size }}">
+        {%- for block in section.blocks -%}
+          {%- if block.settings.image != blank or block.settings.video != blank -%}
+            <div
+              class="carousels-slide carousels-slide--{{ block.id }}"
+              data-index="{{ forloop.index0 }}"
+              data-aos="row-of-{{ section.blocks.size }}"
+              {{ block.shopify_attributes }}>
+
+              {%- if block.type == 'video' -%}
+                {%- if block.settings.video != blank -%}
+                  <video-slide data-is-playing="{{ block.settings.autoplay }}">
+                    <button class="play-button">
+                      <svg viewBox="0 0 20 20" focusable="false" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M10 20c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10zm-2-13.138v6.276a.5.5 0 0 0 .748.434l5.492-3.138a.5.5 0 0 0 0-.868l-5.492-3.139a.5.5 0 0 0-.748.435z"></path>
+                      </svg>
+                    </button>
+                    {{ block.settings.video | video_tag: autoplay: block.settings.autoplay, loop: true, image_size: '400x' }}
+                  </video-slide>
+                {%- endif -%}
+              {%- endif -%}
+
+              {%- if block.type == 'image' -%}
+                {%- if block.settings.image != blank -%}
+                  <div class="image-wrap text-spacing" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
+                    {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    <img class="lazyload"
+                      data-src="{{ img_url }}"
+                      data-widths="[180, 360, 540, 720]"
+                      data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                      data-sizes="auto"
+                      role="presentation"
+                      alt="{{ block.settings.image.alt }}">
+                    <noscript>
+                      <img class="lazyloaded" src="{{ block.settings.image | img_url: '400x' }}" alt="{{ block.settings.image.alt }}">
+                    </noscript>
+                  </div>
+                {%- endif -%}
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+    </div>
+  {%- endif -%}
+</div>
+
+{% schema %}
+  {
+    "name": "Carousel",
+    "max_blocks": 9,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Carousel"
+      },
+      {
+        "type": "select",
+        "id": "heading_size",
+        "label": "Heading Size",
+        "default": "h2",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "h4",
+            "label": "H4"
+          },
+          {
+            "value": "h5",
+            "label": "H5"
+          },
+          {
+            "value": "h6",
+            "label": "H6"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "align_text",
+        "label": "Text alignment",
+        "default": "center",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Centered"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "color",
+        "id": "color_background",
+        "label": "Background",
+        "default": "#f9f9f9"
+      },
+      {
+        "type": "color",
+        "id": "color_text",
+        "label": "Text",
+        "default": "#1c1d1d"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      },
+      {
+        "type": "video",
+        "name": "Video",
+        "settings": [
+          {
+            "type": "video",
+            "id": "video",
+            "label": "Video"
+          },
+          {
+            "type": "checkbox",
+            "id": "autoplay",
+            "label": "Enable autoplay"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Carousel",
+        "category": "Text"
+      }
+    ]
+  }
+{% endschema %}

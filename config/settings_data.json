@@ -10,7 +10,7 @@
     "color_sale_tag": "#f8f4ed",
     "color_sale_tag_text": "#232528",
     "color_cart_dot": "#9bcc56",
-    "color_small_image_bg": "#f8f4ed",
+    "color_small_image_bg": "rgba(0,0,0,0)",
     "color_large_image_bg": "#f8f4ed",
     "color_header": "#ffffff",
     "color_header_text": "#232528",

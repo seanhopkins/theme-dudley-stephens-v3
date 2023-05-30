@@ -15,9 +15,6 @@
   if context == 'main-product'
     assign loading = 'eager'
   endif
-
-  assign parent_product_color = parent_product.title | split: ' (' | last
-  assign monogram_swatch_color = parent_product_color | remove: ')' | handleize
 -%}
 
 {%- unless product.empty? -%}

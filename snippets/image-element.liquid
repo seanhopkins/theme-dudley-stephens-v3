@@ -64,11 +64,6 @@
     assign preload = false
   endif
 
-  # If image is to be lazyloaded, add a 'lazyload' class to be used in the CSS
-  if loading == 'lazy'
-    assign classes = classes | append: ' lazyload'
-  endif
-
   # Image sizes https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/sizes
    # Can explicitly pass in sizes. For example: sizes: '200px' or '(min-width: 769px) 400px, 30vw'
    # Can pass in only a sizeVariable
@@ -93,7 +88,7 @@
   endif
 %}
 
-<image-element>
+<image-element data-aos="image-fade-in">
 
 {% if type == blank %}
   {% if widths != blank %}
@@ -101,8 +96,10 @@
       {% assign img_width = widths | split: ',' | last %}
     {% endif %}
     {{ img
-      | image_url: width: img_width, height: img_height, format: format
+      | image_url: width: img_width, format: format
       | image_tag: preload: preload,
+                  height: img_height,
+                  width: img_tag_width,
                   class: classes,
                   loading: loading,
                   alt: alt,
@@ -118,8 +115,10 @@
       {% assign img_width = img.width | times: 2 | round %}
     {% endif %}
     {{ img
-      | image_url: width: img_width, height: img_height, format: format
+      | image_url: width: img_width, format: format
       | image_tag: preload: preload,
+                  height: img_height,
+                  width: img_tag_width,
                   class: classes,
                   loading: loading,
                   alt: alt,

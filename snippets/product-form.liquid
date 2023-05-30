@@ -1,5 +1,7 @@
+{% comment %} START custom feature {% endcomment %}
 {% render 'monogram', parent_product: product %}
-
+{% render 'color-swatches', separate_by_material: true %}
+{% comment %} END custom feature {% endcomment %}
 {%- form 'product', product, id: form_id, class: 'product-single__form' -%}
 
   {%- liquid

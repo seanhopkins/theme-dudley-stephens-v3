@@ -73,7 +73,7 @@
       predictiveSearchPrice: {{ settings.predictive_search_show_price | json }},
       quickView: {{ settings.quick_shop_enable }},
       themeName: 'Impulse',
-      themeVersion: "7.3.1"
+      themeVersion: "7.3.3"
     };
   </script>
 
@@ -96,6 +96,11 @@
     <script src="https://api.archetypethemes.co/design-mode.js" defer="defer"></script>
   {% endif %}
   <script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/qM5x3tstHllz2X1MSpMslg" async></script>
+
+{% comment %} START custom feature {% endcomment %}
+  {% section 'swatch-colors' %}
+  <script src="{{ 'color-swatches.js' | asset_url }}" defer="defer"></script>
+{% comment %} END custom feature {% endcomment %}
 </head>
 
 <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}" data-center-text="{{ settings.type_body_align_text }}" data-button_style="{{ settings.button_style }}" data-type_header_capitalize="{{ settings.type_header_capitalize }}" data-type_headers_align_text="{{ settings.type_headers_align_text }}" data-type_product_capitalize="{{ settings.type_product_capitalize }}" data-swatch_style="{{ settings.swatch_style }}" {% if settings.disable_animations %}data-disable-animations="true"{% endif %}>
@@ -127,20 +132,20 @@
   <template id="naturalImageMarkup">
     <div class="image-wrap" style="height: 0;">
       <image-element>
-        <img class="grid-product__image lazyload" width height src srcset loading="lazy" alt>
+        <img class="grid-product__image" width height src srcset loading="lazy" alt>
       </image-element>
     </div>
   </template>
   <template id="fixedRatioImageMarkup">
     <div class="grid__image-ratio">
       <image-element>
-        <img class="lazyload" width height src srcset loading="lazy" alt>
+        <img width height src srcset loading="lazy" alt>
       </image-element>
     </div>
   </template>
   <template id="articleImageMarkup">
     <image-element>
-      <img class="lazyload" width height src loading="lazy">
+      <img width height src loading="lazy">
     </image-element>
   </template>
 </body>

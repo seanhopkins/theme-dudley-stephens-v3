@@ -1,6 +1,6 @@
 <script defer src="{{ 'fitguide.js' | asset_url }}"></script>
 
-<div class="page-width page-content">
+<div class="page-width">
   <div class="grid">
     <div class="grid__item">
       <div x-data="test">
@@ -10,7 +10,7 @@
               <button 
                 @click="openTab = {{ forloop.index }}"
                 x-bind:class="openTab === {{ forloop.index }} ? 'active' : ''"
-                class="h3"
+                class=""
               >
                 {% if block.settings.title == blank %}
                   {{ block.settings.page.title }}

@@ -1,0 +1,36 @@
+/* FIT GUIDE */
+.tab-nav {
+   display: flex;
+   gap: 1em;
+   justify-content: center;
+}
+.tab-nav button {
+   background-color: var(--colorTextBody);
+   padding: 0.5em 1em;
+   border-radius: 2px;
+   color: #fff;
+}
+.tab-nav button.active {
+   background-color: var(--colorBtnPrimary);
+   color: #fff;
+}
+button:hover {
+   background-color: var(--colorBtnPrimaryLight);
+   color: #fff;
+}
+ .carousels-slide {
+   width: 33%;
+   padding: 30px;
+}
+button.play-button {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateY(-50%) translateX(-50%);
+   z-index: 10;
+}
+video-slide .play-button svg {
+   width: 50px;
+   fill: #fff;
+   opacity: 0.7;
+}

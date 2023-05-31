@@ -68,6 +68,7 @@
         "eb198ce1-6593-4f3f-afa6-fd566fc126b4": {
           "type": "video",
           "settings": {
+            "video": "shopify:\/\/files\/videos\/DDS096_5x7_Cobble Hill Black S_HD.mov",
             "autoplay": false
           }
         }
@@ -85,7 +86,7 @@
         "title": "Cobble Hill Turtleneck",
         "heading_size": "h2",
         "align_text": "center",
-        "color_background": "#f9f9f9",
+        "color_background": "rgba(0,0,0,0)",
         "color_text": "#1c1d1d"
       }
     },
@@ -95,36 +96,43 @@
         "70f9b4d1-f671-4482-809d-f8c925b0024e": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS097_Greenpoint_Black_S_A.jpg"
           }
         },
         "1e8ccd04-09f2-4794-9d58-3244827bc95b": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS097_Greenpoint_Black_S_B.jpg"
           }
         },
         "c8ab0612-fd15-4826-906e-b0d0f730348e": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS097_Greenpoint_Black_S_C.jpg"
           }
         },
         "a85982fb-a875-4b33-a8ed-f3fbcf4d3699": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS097_Greenpoint_Black_S_D.jpg"
           }
         },
         "5af3c6c6-aaf9-4e40-ab26-653e1d6300b4": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS097_Greenpoint_Black_S_E.jpg"
           }
         },
         "2f344482-5126-4c27-bc72-8f610a117b37": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS097_Greenpoint_Black_S_unknown_description_Black_ALT.jpg"
           }
         },
         "ec80820c-8018-420b-9118-1a42263e6c10": {
           "type": "video",
           "settings": {
+            "video": "shopify:\/\/files\/videos\/DDS097_5x7_Greenpoint Black S_HD (1).mov",
             "autoplay": false
           }
         }
@@ -142,7 +150,7 @@
         "title": "Greenpoint Turtleneck",
         "heading_size": "h2",
         "align_text": "center",
-        "color_background": "#f9f9f9",
+        "color_background": "rgba(0,0,0,0)",
         "color_text": "#1c1d1d"
       }
     },
@@ -152,36 +160,43 @@
         "c457a910-5225-4da7-adc2-c7dae1a74715": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS098_Park_Slope_Black_S_A.jpg"
           }
         },
         "392e4b3e-bcd5-4f2e-8bd7-1b45cf78d586": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS098_Park_Slope_Black_S_B.jpg"
           }
         },
         "ac0eb265-3fc9-464a-a841-7c4017806aac": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS098_Park_Slope_Black_S_C.jpg"
           }
         },
         "fff95980-3209-44a9-9a4c-2e61e5d9a133": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS098_Park_Slope_Black_S_D.jpg"
           }
         },
         "14cd9e9a-7e42-4181-b34e-3807318e63c5": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS098_Park_Slope_Black_S_E.jpg"
           }
         },
         "fbb289e4-676a-4e99-9c21-d59f30a5efb3": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS098_Park_Slope_Black_S_unknown_description_Black_ALT.jpg"
           }
         },
         "a3fb30ff-b7fe-4c26-91e5-261b15e74c34": {
           "type": "video",
           "settings": {
+            "video": "shopify:\/\/files\/videos\/DDS098_5x7_Park Slope Black S_HD.mov",
             "autoplay": false
           }
         }
@@ -199,7 +214,7 @@
         "title": "Park Slope Turtleneck",
         "heading_size": "h2",
         "align_text": "center",
-        "color_background": "#f9f9f9",
+        "color_background": "rgba(0,0,0,0)",
         "color_text": "#1c1d1d"
       }
     }

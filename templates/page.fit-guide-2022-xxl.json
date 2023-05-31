@@ -13,7 +13,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p><strong>Height:<\/strong>5'11\" <strong>Bust:<\/strong>36D <strong>Pant Size:<\/strong>30 <strong>Dress Size:<\/strong>10<\/p>"
+            "text": "<p><strong>Height:<\/strong> 5'9\" <strong>Bust:<\/strong> 40DDD <strong>Pant Size:<\/strong> 40 <strong>Dress Size:<\/strong> 18<\/p>"
           }
         }
       },
@@ -32,37 +32,43 @@
         "cb4cec6d-ce9e-4ced-9c83-6d2e6ff6c9fd": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DDS095_Park_Slope_Black_XS_A.jpg"
+            "image": "shopify:\/\/shop_images\/DDS108_Cobble_Hill_Black_XXL_A.jpg"
           }
         },
         "a6a55e62-bfb8-4bd2-8122-cddbcfdb39ff": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/92D04FE1-F689-421A-986D-310754B8772F_1_201_a.jpg"
           }
         },
         "1ce0f55c-6b16-4849-b762-c21d726e9e5b": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS108_Cobble_Hill_Black_XXL_C.jpg"
           }
         },
         "853175ca-124a-4255-bf58-1b69970ae679": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS108_Cobble_Hill_Black_XXL_D.jpg"
           }
         },
         "6fe3c8f3-f3c2-4743-883f-cdfe34c3ce7c": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS108_Cobble_Hill_Black_XXL_E.jpg"
           }
         },
         "b777a530-bed1-4f07-8f21-f89070cf433d": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS108_Cobble_Hill_Black_XXL_unknown_description_Black_ALT.jpg"
           }
         },
         "eb198ce1-6593-4f3f-afa6-fd566fc126b4": {
           "type": "video",
           "settings": {
+            "video": "shopify:\/\/files\/videos\/DDS108_5x7_Cobble Hill Black XXL_HD.mov",
             "autoplay": false
           }
         }
@@ -80,7 +86,7 @@
         "title": "Cobble Hill Turtleneck",
         "heading_size": "h2",
         "align_text": "center",
-        "color_background": "#f9f9f9",
+        "color_background": "rgba(0,0,0,0)",
         "color_text": "#1c1d1d"
       }
     },
@@ -90,36 +96,43 @@
         "70f9b4d1-f671-4482-809d-f8c925b0024e": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS109_Greenpoint_Black_XXL_A.jpg"
           }
         },
         "1e8ccd04-09f2-4794-9d58-3244827bc95b": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS109_Greenpoint_Black_XXL_B.jpg"
           }
         },
         "c8ab0612-fd15-4826-906e-b0d0f730348e": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS109_Greenpoint_Black_XXL_C.jpg"
           }
         },
         "a85982fb-a875-4b33-a8ed-f3fbcf4d3699": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS109_Greenpoint_Black_XXL_D.jpg"
           }
         },
         "5af3c6c6-aaf9-4e40-ab26-653e1d6300b4": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS109_Greenpoint_Black_XXL_E.jpg"
           }
         },
         "2f344482-5126-4c27-bc72-8f610a117b37": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS109_Greenpoint_Black_XXL_unknown_description_Black_ALT.jpg"
           }
         },
         "ec80820c-8018-420b-9118-1a42263e6c10": {
           "type": "video",
           "settings": {
+            "video": "shopify:\/\/files\/videos\/DDS109_5x7_Greenpoint Black XXL_HD.mov",
             "autoplay": false
           }
         }
@@ -137,7 +150,7 @@
         "title": "Greenpoint Turtleneck",
         "heading_size": "h2",
         "align_text": "center",
-        "color_background": "#f9f9f9",
+        "color_background": "rgba(0,0,0,0)",
         "color_text": "#1c1d1d"
       }
     },
@@ -147,36 +160,43 @@
         "c457a910-5225-4da7-adc2-c7dae1a74715": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS110_Park_Slope_Black_XXL_A.jpg"
           }
         },
         "392e4b3e-bcd5-4f2e-8bd7-1b45cf78d586": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS110_Park_Slope_Black_XXL_B.jpg"
           }
         },
         "ac0eb265-3fc9-464a-a841-7c4017806aac": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS110_Park_Slope_Black_XXL_C.jpg"
           }
         },
         "fff95980-3209-44a9-9a4c-2e61e5d9a133": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS110_Park_Slope_Black_XXL_D.jpg"
           }
         },
         "14cd9e9a-7e42-4181-b34e-3807318e63c5": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS110_Park_Slope_Black_XXL_E.jpg"
           }
         },
         "fbb289e4-676a-4e99-9c21-d59f30a5efb3": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DDS110_Park_Slope_Black_XXL_unknown_description_Black_ALT.jpg"
           }
         },
         "a3fb30ff-b7fe-4c26-91e5-261b15e74c34": {
           "type": "video",
           "settings": {
+            "video": "shopify:\/\/files\/videos\/DDS110_5x7_Park Slope Black XXL_HD.mov",
             "autoplay": false
           }
         }
@@ -194,7 +214,7 @@
         "title": "Park Slope Turtleneck",
         "heading_size": "h2",
         "align_text": "center",
-        "color_background": "#f9f9f9",
+        "color_background": "rgba(0,0,0,0)",
         "color_text": "#1c1d1d"
       }
     }

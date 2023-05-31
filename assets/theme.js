@@ -439,22 +439,22 @@ theme.recentlyViewed = {
   })();
   
   // Init section function when it's visible, then disable observer
-  theme.initWhenVisible = function(options) {
-    var threshold = options.threshold ? options.threshold : 0;
+  theme.initWhenVisible = function (options) {
+    var threshold = options.threshold ? options.threshold : 0
   
     var observer = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           if (typeof options.callback === 'function') {
-            options.callback();
-            observer.unobserve(entry.target);
+            options.callback()
+            observer.unobserve(entry.target)
           }
         }
-      });
-    }, {rootMargin: '0px 0px '+ threshold +'px 0px'});
+      })
+    }, { rootMargin: '0px 0px ' + threshold + 'px 0px' })
   
-    observer.observe(options.element);
-  };
+    observer.observe(options.element)
+  }
   
   theme.LibraryLoader = (function() {
     var types = {
@@ -1051,96 +1051,94 @@ theme.recentlyViewed = {
     return Variants;
   })();
   
-  window.vimeoApiReady = function() {
-    theme.config.vimeoLoading = true;
+  window.vimeoApiReady = function () {
+    theme.config.vimeoLoading = true
   
     // Because there's no way to check for the Vimeo API being loaded
     // asynchronously, we use this terrible timeout to wait for it being ready
     checkIfVimeoIsReady()
-      .then(function() {
-        theme.config.vimeoReady = true;
-        theme.config.vimeoLoading = false;
-        document.dispatchEvent(new CustomEvent('vimeoReady'));
-      });
+      .then(function () {
+        theme.config.vimeoReady = true
+        theme.config.vimeoLoading = false
+        document.dispatchEvent(new CustomEvent('vimeoReady'))
+      })
   }
   
-  function checkIfVimeoIsReady() {
-    var wait;
-    var timeout;
+  function checkIfVimeoIsReady () {
+    let wait
+    let timeout
   
-    var deferred = new Promise((resolve, reject) => {
-      wait = setInterval(function() {
+    return new Promise((resolve, reject) => {
+      wait = setInterval(function () {
         if (!Vimeo) {
-          return;
+          return
         }
   
-        clearInterval(wait);
-        clearTimeout(timeout);
-        resolve();
-      }, 500);
+        clearInterval(wait)
+        clearTimeout(timeout)
+        resolve()
+      }, 500)
   
-      timeout = setTimeout(function() {
-        clearInterval(wait);
-        reject();
-      }, 4000); // subjective. test up to 8 times over 4 seconds
-    });
-  
-    return deferred;
+      timeout = setTimeout(function () {
+        clearInterval(wait)
+        reject()
+      }, 4000) // subjective. test up to 8 times over 4 seconds
+    })
   }
   
-  theme.VimeoPlayer = (function() {
-    var classes = {
+  theme.VimeoPlayer = (function () {
+    const classes = {
       loading: 'loading',
       loaded: 'loaded',
       interactable: 'video-interactable'
     }
   
-    var defaults = {
+    const defaults = {
       byline: false,
       loop: true,
       muted: true,
       playsinline: true,
       portrait: false,
       title: false
-    };
+    }
   
-    function VimeoPlayer(divId, videoId, options) {
-      this.divId = divId;
-      this.el = document.getElementById(divId);
-      this.videoId = videoId;
-      this.iframe = null;
-      this.options = options;
+    function VimeoPlayer (divId, videoId, options) {
+      this.divId = divId
+      this.el = document.getElementById(divId)
+      this.videoId = videoId
+      this.iframe = null
+      this.options = options
   
       if (this.options && this.options.videoParent) {
-        this.parent = this.el.closest(this.options.videoParent);
+        this.parent = this.el.closest(this.options.videoParent)
       }
   
-      this.setAsLoading();
+      this.setAsLoading()
   
       if (theme.config.vimeoReady) {
-        this.init();
+        this.init()
       } else {
-        theme.LibraryLoader.load('vimeo', window.vimeoApiReady);
-        document.addEventListener('vimeoReady', this.init.bind(this));
+        theme.LibraryLoader.load('vimeo', window.vimeoApiReady)
+        document.addEventListener('vimeoReady', this.init.bind(this))
       }
     }
   
     VimeoPlayer.prototype = Object.assign({}, VimeoPlayer.prototype, {
-      init: function() {
-        var args = defaults;
-        args.id = this.videoId;
+      init: function () {
+        const args = defaults
+        args.id = this.videoId
   
-        this.videoPlayer = new Vimeo.Player(this.el, args);
+        this.videoPlayer = new Vimeo.Player(this.el, args)
   
-        this.videoPlayer.ready().then(this.playerReady.bind(this));
+        this.videoPlayer.ready().then(this.playerReady.bind(this))
       },
   
-      playerReady: function() {
-        this.iframe = this.el.querySelector('iframe');
-        this.iframe.setAttribute('tabindex', '-1');
+      playerReady: function () {
+        this.iframe = this.el.querySelector('iframe')
+        this.iframe.setAttribute('tabindex', '-1')
   
         if (this.options.loop === 'false') {
-          this.videoPlayer.setLoop(false);
+          this.videoPlayer.setLoop(false)
         }
   
         // When sound is enabled in section settings,
@@ -1148,68 +1146,68 @@ theme.recentlyViewed = {
         // will stop immediately after starting and
         // will require users to tap the play button once more
         if (this.options.style === 'sound') {
-         this.videoPlayer.setVolume(1);
+          this.videoPlayer.setVolume(1)
         } else {
-          this.videoPlayer.setVolume(0);
+          this.videoPlayer.setVolume(0)
         }
   
-        this.setAsLoaded();
+        this.setAsLoaded()
   
         // pause when out of view
-        var observer = new IntersectionObserver((entries, observer) => {
+        const observer = new IntersectionObserver((entries, observer) => {
           entries.forEach(entry => {
             if (entry.isIntersecting) {
-              this.play();
+              this.play()
             } else {
-              this.pause();
+              this.pause()
             }
-          });
-        }, {rootMargin: '0px 0px 50px 0px'});
+          })
+        }, { rootMargin: '0px 0px 50px 0px' })
   
-        observer.observe(this.iframe);
+        observer.observe(this.iframe)
       },
   
-      setAsLoading: function() {
-        if (!this.parent) return;
-        this.parent.classList.add(classes.loading);
+      setAsLoading: function () {
+        if (!this.parent) return
+        this.parent.classList.add(classes.loading)
       },
   
-      setAsLoaded: function() {
-        if (!this.parent) return;
-        this.parent.classList.remove(classes.loading);
-        this.parent.classList.add(classes.loaded);
-        this.parent.classList.add(classes.interactable); // Once video is loaded, we should be able to interact with it
+      setAsLoaded: function () {
+        if (!this.parent) return
+        this.parent.classList.remove(classes.loading)
+        this.parent.classList.add(classes.loaded)
+        this.parent.classList.add(classes.interactable) // Once video is loaded, we should be able to interact with it
         if (Shopify && Shopify.designMode) {
           if (window.AOS) {AOS.refreshHard()}
         }
       },
   
-      enableInteraction: function() {
-        if (!this.parent) return;
-        this.parent.classList.add(classes.interactable);
+      enableInteraction: function () {
+        if (!this.parent) return
+        this.parent.classList.add(classes.interactable)
       },
   
-      play: function() {
+      play: function () {
         if (this.videoPlayer && typeof this.videoPlayer.play === 'function') {
-          this.videoPlayer.play();
+          this.videoPlayer.play()
         }
       },
   
-      pause: function() {
+      pause: function () {
         if (this.videoPlayer && typeof this.videoPlayer.pause === 'function') {
-          this.videoPlayer.pause();
+          this.videoPlayer.pause()
         }
       },
   
-      destroy: function() {
+      destroy: function () {
         if (this.videoPlayer && typeof this.videoPlayer.destroy === 'function') {
-          this.videoPlayer.destroy();
+          this.videoPlayer.destroy()
         }
       }
-    });
+    })
   
-    return VimeoPlayer;
-  })();
+    return VimeoPlayer
+  })()
   
   window.onYouTubeIframeAPIReady = function() {
     theme.config.youTubeReady = true;
@@ -1577,6 +1575,7 @@ theme.recentlyViewed = {
     },
   
     changeItem: function(key, qty) {
+  
       return this._updateCart({
         url: ''.concat(theme.routes.cartChange, '?t=').concat(Date.now()),
         data: JSON.stringify({
@@ -1593,13 +1592,12 @@ theme.recentlyViewed = {
         credentials: 'same-origin',
         headers: {
           'Content-Type': 'application/json',
-          'X-Requested-With': 'XMLHttpRequest'
+          'X-Requested-With': 'XMLHttpRequest',
+          'Accept': 'application/json'
         }
       })
-      .then(response => response.json())
-      .then(function(cart) {
-        return cart;
-      });
+      .then(response => { return response.text() })
+      .then(cart => { return cart; });
     },
   
     updateAttribute: function(key, value) {
@@ -1836,32 +1834,37 @@ theme.recentlyViewed = {
         theme.cart.changeItem(key, qty)
           .then(function(cart) {
   
-            const updatedItem = cart.items.find(item => item.key === key);
+            const parsedCart = JSON.parse(cart);
   
-            // Update cartItemsUpdated property on object so we can reference later
-            if (updatedItem && (evt.type === 'cart:quantity.cart-cart-drawer' || evt.type === 'cart:quantity.cart-header')) {
-              this.cartItemsUpdated = true;
-            }
-  
-            if ((updatedItem && evt.type === 'cart:quantity.cart-cart-drawer') || (updatedItem && evt.type === 'cart:quantity.cart-header')) {
-              if (updatedItem.quantity !== qty) {
-                alert(theme.strings.maxQuantity.replace('[quantity]', updatedItem.quantity).replace('[title]', updatedItem.title));
-              }
-              // Reset property on object so that checkout button will work as usual
-              this.cartItemsUpdated = false;
-            }
-  
-            if (cart.item_count > 0) {
-              this.wrapper.classList.remove('is-empty');
+            if (parsedCart.status === 422) {
+              alert(parsedCart.message);
             } else {
-              this.wrapper.classList.add('is-empty');
+              const updatedItem = parsedCart.items.find(item => item.key === key);
+  
+              // Update cartItemsUpdated property on object so we can reference later
+              if (updatedItem && (evt.type === 'cart:quantity.cart-cart-drawer' || evt.type === 'cart:quantity.cart-header')) {
+                this.cartItemsUpdated = true;
+              }
+  
+              if ((updatedItem && evt.type === 'cart:quantity.cart-cart-drawer') || (updatedItem && evt.type === 'cart:quantity.cart-header')) {
+                if (updatedItem.quantity !== qty) {
+                }
+                // Reset property on object so that checkout button will work as usual
+                this.cartItemsUpdated = false;
+              }
+  
+              if (parsedCart.item_count > 0) {
+                this.wrapper.classList.remove('is-empty');
+              } else {
+                this.wrapper.classList.add('is-empty');
+              }
             }
   
             this.buildCart();
   
             document.dispatchEvent(new CustomEvent('cart:updated', {
               detail: {
-                cart: cart
+                cart: parsedCart
               }
             }));
           }.bind(this))
@@ -3144,13 +3147,12 @@ theme.recentlyViewed = {
     // remove double `/` in case shop might have /en or language in URL
     url = url.replace('//', '/');
   
-    fetch(url).then(function(response) {
-      return response.text();
-    }).then(function(html) {
-      // Convert the HTML string into a document object
-      var parser = new DOMParser();
-      var doc = parser.parseFromString(html, 'text/html');
-      var div = doc.querySelector('.product-section[data-product-handle="'+handle+'"]');
+    fetch(url)
+    .then(response => response.text())
+    .then(text => {
+      const html = document.createElement('div');
+      html.innerHTML = text;
+      const div = html.querySelector('.product-section[data-product-handle="'+handle+'"]');
   
       if (!holder) {
         return;
@@ -3961,27 +3963,11 @@ theme.recentlyViewed = {
     }
   
     init() {
-      /*
-        Most images have 0 opacity until a lazyloaded class is added
-        Look for eager loaded images right away and add lazyloaded class to get them to show
-      */
-  
-      const eagerLoadedImg = this.querySelector('img[loading="eager"]');
-  
-      if (eagerLoadedImg) {
-        eagerLoadedImg.classList.remove('lazyload');
-        eagerLoadedImg.classList.add('lazyloaded');
-      }
-  
-      if (Shopify.designMode) {
-        this.updateLazyLoadingClasses();
-      }
   
       const handleIntersection = (entries, observer) => {
         if (!entries[0].isIntersecting) return;
   
         this.removeAnimations();
-        this.updateLazyLoadingClasses();
   
         observer.unobserve(this);
       }
@@ -4001,17 +3987,6 @@ theme.recentlyViewed = {
   
       if (skrimWrap) {
         skrimWrap.classList.add('loaded');
-      }
-    }
-  
-    updateLazyLoadingClasses() {
-      const imgEls = this.querySelectorAll('img[loading="lazy"].lazyload');
-  
-      if (imgEls) {
-        imgEls.forEach(img => {
-          img.classList.remove('lazyload');
-          img.classList.add('lazyloaded');
-        });
       }
     }
   }
@@ -4111,6 +4086,8 @@ theme.recentlyViewed = {
           const resultsMarkup = new DOMParser().parseFromString(text, 'text/html').querySelector('#shopify-section-search-results').innerHTML;
           this.predictiveSearchResults.innerHTML = resultsMarkup;
           this.open();
+  
+          AOS.refreshHard();
         })
         .catch((error) => {
           this.close();
@@ -6777,6 +6754,35 @@ theme.recentlyViewed = {
         this.initDisclosures();
         theme.headerNav.init();
         theme.announcementBar.init();
+        this.hoverMenu();
+      },
+  
+      hoverMenu: function() {
+        const detailsEl = document.querySelectorAll('[data-section-type="header"] details[data-hover="true"]');
+  
+        detailsEl.forEach((detail) => {
+          const summary = detail.querySelector('summary');
+          const summaryLink = summary.dataset.link;
+  
+          summary.addEventListener('click', e => {
+            e.preventDefault();
+            window.location.href = summaryLink;
+          });
+  
+          detail.addEventListener('mouseover', () => {
+            if (!detail.hasAttribute('open')) {
+              detail.setAttribute('open', '');
+              detail.setAttribute('aria-expanded', 'true');
+            }
+          });
+  
+          detail.addEventListener('mouseleave', () => {
+            if (detail.hasAttribute('open')) {
+              detail.removeAttribute('open');
+              detail.setAttribute('aria-expanded', 'false');
+            }
+          });
+        });
       },
   
       initDisclosures: function() {
@@ -6801,14 +6807,6 @@ theme.recentlyViewed = {
         }
   
         theme.collapsibles.init(document.getElementById('NavDrawer'));
-      },
-  
-      onBlockSelect: function(evt) {
-        theme.announcementBar.onBlockSelect(evt.detail.blockId);
-      },
-  
-      onBlockDeselect: function() {
-        theme.announcementBar.onBlockDeselect();
       },
   
       onUnload: function() {
@@ -8216,7 +8214,9 @@ theme.recentlyViewed = {
   theme.reinitProductGridItem = function(scope) {
     if (AOS) {AOS.refreshHard()}
 
-    theme.initQuickShop();
+    if (!document.documentElement.classList.contains('modal-open')) {
+      theme.initQuickShop();
+    }
 
     // Refresh reviews app
     if (window.SPR) {SPR.initDomEls();SPR.loadBadges()}

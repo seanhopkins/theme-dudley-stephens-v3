@@ -1,0 +1,156 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/SMS_page_header_f16d62f5-c61a-4b83-8ff5-8eaf395090d6.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/SMS_page_header-mobile_7d4cfc6f-abb9-494d-8856-f6591a06ad1c.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "lazyload_images": true
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "DS Gives"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Our ideal is to look good, feel good <em>and<\/em> do good. Through DS Gives initiatives we seek to bring the comfort at the heart of our brand to those who need it most.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "custom_css": [
+        ".enlarge-text p {max-width: 800px; margin: auto;}"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "52683eff-e658-4591-b0fa-8734621ab3c9": {
+      "type": "text-and-image",
+      "custom_css": [
+        "em {top: -0.5em; position: relative; font-size: 60%; vertical-align: baseline;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2022-08-09-dudleystephens-6679.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "",
+        "text": "<h2>Dudley Stephens x St. Jude Children’s Research Hospital<em>®<\/em><\/h2><p>For children receiving lifesaving care at St. Jude Children’s Research Hospital, hope is everything.<\/p><p>We're proud to partner with St. Jude in 2022 to help advance their life-saving mission: Finding cures. Saving children.<em>®<\/em> St. Jude is leading the way the world understands, treats, and defeats childhood cancer and other life-threatening diseases. They pursue their mission while ensuring that families never receive a bill from St. Jude for treatment, travel, housing or food.<\/p><p>To date, our DS Gives partnership with St. Jude has raised over $200,000 to advance that life-saving mission. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "10e7451b-d347-42b9-a10b-4eab7720d420": {
+      "type": "text-and-image",
+      "custom_css": [
+        "em {top: -0.5em; position: relative; font-size: 60%; vertical-align: baseline;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled-3.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "DS Gives Blanket in Sherpa Fleece",
+        "text": "<p>Do good—for the planet and for the children of St. Jude Children’s Research Hospital<em>®<\/em>—with this ultra-cozy lap blanket made with recycled Sherpa and Vello Fleece. For every purchase, we’ll donate a portion of proceeds to St. Jude’s lifesaving mission: Finding Cures. Saving Children<em>®<\/em>.<\/p><p>*While supplies last<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "6d8ba875-0cf8-47e0-9521-67e17967124a": {
+      "type": "text-and-image",
+      "custom_css": [
+        "em {top: -0.5em; position: relative; font-size: 60%; vertical-align: baseline;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SJ_FullVert_DkGray_RGB_1_3dd50e77-bf79-4962-9d6f-5177c6464f91.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "",
+        "text": "<p>For children receiving lifesaving care at St. Jude Children’s Research Hospital<em>®<\/em>, hope is everything.<\/p><p>We're proud to partner with St. Jude in 2021 to help advance their life-saving mission: Finding cures. Saving children.<em>®<\/em> St. Jude is leading the way the world understands, treats, and defeats childhood cancer and other life-threatening diseases.<\/p><p>They pursue their mission while ensuring that no family receives a bill from St. Jude for anything.<\/p>",
+        "button_label": "Donate Now",
+        "button_link": "https:\/\/www.stjude.org\/donate\/thanks-and-giving.html?source_code=CMWDUDLAD20",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow",
+    "rich-text",
+    "52683eff-e658-4591-b0fa-8734621ab3c9",
+    "10e7451b-d347-42b9-a10b-4eab7720d420",
+    "6d8ba875-0cf8-47e0-9521-67e17967124a"
+  ]
+}

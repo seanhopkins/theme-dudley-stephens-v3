@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"bWB49":[function(require,module,exports) {
+})({"2AnJL":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "a25fa05b72adf3b0";
+module.bundle.HMR_BUNDLE_ID = "979b52f6e2c1dfc7";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -573,7 +573,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
-},{}],"jIed4":[function(require,module,exports) {
+},{}],"3CnMu":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _alpinejs = require("alpinejs");
 var _alpinejsDefault = parcelHelpers.interopDefault(_alpinejs);
@@ -598,14 +598,14 @@ var _alpinejsDefault = parcelHelpers.interopDefault(_alpinejs);
                 theme.sections.register("carousels", theme.Carousels);
                 theme.sections.register("video-section", theme.VideoSection);
                 theme.sections.register("recently-viewed", theme.RecentlyViewed);
-                var api = new Yotpo.API(yotpo);
-                api.refreshWidgets();
+            // var api = new Yotpo.API(yotpo);
+            // api.refreshWidgets();
             }, 1);
         }
     }));
 (0, _alpinejsDefault.default).start();
 
-},{"alpinejs":"69hXP","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo"}],"69hXP":[function(require,module,exports) {
+},{"alpinejs":"6uY62","@parcel/transformer-js/src/esmodule-helpers.js":"2okgG"}],"6uY62":[function(require,module,exports) {
 // packages/alpinejs/src/scheduler.js
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
@@ -2848,7 +2848,7 @@ var src_default = alpine_default;
 // packages/alpinejs/builds/module.js
 var module_default = src_default;
 
-},{"@vue/reactivity":"d7UXQ","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo"}],"d7UXQ":[function(require,module,exports) {
+},{"@vue/reactivity":"75ASX","@parcel/transformer-js/src/esmodule-helpers.js":"2okgG"}],"75ASX":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ITERATE_KEY", ()=>ITERATE_KEY);
@@ -3617,7 +3617,7 @@ function computed(getterOrOptions) {
     return new ComputedRefImpl(getter, setter, (0, _shared.isFunction)(getterOrOptions) || !getterOrOptions.set);
 }
 
-},{"@vue/shared":"3SM3y","@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo"}],"3SM3y":[function(require,module,exports) {
+},{"@vue/shared":"3Wlxs","@parcel/transformer-js/src/esmodule-helpers.js":"2okgG"}],"3Wlxs":[function(require,module,exports) {
 /**
  * Make a map and return a function for checking if a key
  * is in that map.
@@ -4036,7 +4036,7 @@ const getGlobalThis = ()=>{
     return _globalThis || (_globalThis = typeof globalThis !== "undefined" ? globalThis : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : typeof global !== "undefined" ? global : {});
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"9FYyo"}],"9FYyo":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"2okgG"}],"2okgG":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -4066,6 +4066,6 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}]},["bWB49","jIed4"], "jIed4", "parcelRequire0f08")
+},{}]},["2AnJL","3CnMu"], "3CnMu", "parcelRequire94c2")
 
 //# sourceMappingURL=fitguide.js.map

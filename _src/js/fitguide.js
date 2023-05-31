@@ -24,8 +24,8 @@ Alpine.data('test', () => ({
       theme.sections.register('video-section', theme.VideoSection);
       theme.sections.register('recently-viewed', theme.RecentlyViewed);
 
-      var api = new Yotpo.API(yotpo);
-      api.refreshWidgets();
+      // var api = new Yotpo.API(yotpo);
+      // api.refreshWidgets();
     }, 1);
   },
 }));

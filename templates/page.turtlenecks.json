@@ -89,8 +89,8 @@
             "subheading": "Turtlenecks",
             "heading": "Park Slope Turtleneck",
             "textarea": "Hits at hip for wearable versatility",
-            "cta_text1": "",
-            "cta_link1": "",
+            "cta_text1": "Shop",
+            "cta_link1": "shopify:\/\/collections\/park-slope-turtleneck",
             "cta_text2": "",
             "cta_link2": "",
             "image": "shopify:\/\/shop_images\/Rectangle_1_8677b56f-f0cb-4d29-89c0-55b36da94706.png",
@@ -132,7 +132,7 @@
       ],
       "custom_css": [
         ".type-advanced .promo-grid__content:after {display: none;}",
-        ".promo-grid__text {color: #232528;}"
+        ".promo-grid__text, .btn {color: #232528; border-color: #232528;}"
       ],
       "settings": {
         "full_width": true,

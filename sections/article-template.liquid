@@ -51,44 +51,103 @@
   </div>
 {%- endif -%}
 
-<div class="page-width page-width--narrow page-content">
+<div class="page-width page-content">
   <article class="article">
-    {%- unless section.settings.image_hero and article.image -%}
-      {%- render 'breadcrumbs' -%}
+    
 
-      <header class="section-header">
-        {%- if section.settings.blog_show_date or article.tags.size > 0 or articles.comments_count > 0 -%}
-          <div class="article__date">
-            {%- if section.settings.blog_show_tags and article.tags.size > 0 -%}
-              {%- for tag in article.tags -%}
-                {% if tag contains "_" %}{%- assign tag_starts_with = tag | slice: 0 -%}{% if tag_starts_with == "_" %}{% if tag_count %}{%- assign tag_count = tag_count | minus: 1 | at_least: 0 -%}{% endif %}{% continue %}{% endif %}{% endif %}
-                <a href="{{ blog.url }}/tagged/{{ tag | handle }}">{{ tag }}</a> &middot;
-              {%- endfor -%}
-            {%- endif -%}
-            {%- if section.settings.blog_show_comments and article.comments_count > 0 -%}
-              <a href="#comments">
-                {{ 'blogs.comments.with_count' | t: count: number_of_comments }}
-              </a> &middot;
-            {%- endif -%}
-            {%- if section.settings.blog_show_date -%}
-              {{ article.published_at | time_tag: format: 'month_day_year' }}
-            {%- endif -%}
-          </div>
-        {%- endif -%}
-        <h1 class="section-header__title">{{ article.title }}</h1>
-        {%- if section.settings.blog_show_author -%}
-          <div class="article__author">by {{ article.author }}</div>
-        {%- endif -%}
-      </header>
-    {%- endunless -%}
-
+    {% comment %} 
     <div class="article__body rte">
       {{ article.content }}
-    </div>
+    </div> 
+  {% endcomment %}
 
-    {%- if section.settings.social_sharing_blog -%}
-      {%- render 'social-sharing', share_title: article.title, share_permalink: article.url, share_image: article.image -%}
-    {%- endif -%}
+    {% comment %} === START custom feature === {% endcomment %}
+      <div class="grid">
+        <div class="grid__item medium-up--four-fifths">
+          <div class="article__body page-width page-width--narrow">
+            {%- unless section.settings.image_hero and article.image -%}
+              {%- render 'breadcrumbs' -%}
+              <header class="section-header">
+                {%- if section.settings.blog_show_date or article.tags.size > 0 or articles.comments_count > 0 -%}
+                  <div class="article__date">
+                    {%- if section.settings.blog_show_tags and article.tags.size > 0 -%}
+                      {%- for tag in article.tags -%}
+                        {% if tag contains "_" %}{%- assign tag_starts_with = tag | slice: 0 -%}{% if tag_starts_with == "_" %}{% if tag_count %}{%- assign tag_count = tag_count | minus: 1 | at_least: 0 -%}{% endif %}{% continue %}{% endif %}{% endif %}
+                        <a href="{{ blog.url }}/tagged/{{ tag | handle }}">{{ tag }}</a> &middot;
+                      {%- endfor -%}
+                    {%- endif -%}
+                    {%- if section.settings.blog_show_comments and article.comments_count > 0 -%}
+                      <a href="#comments">
+                        {{ 'blogs.comments.with_count' | t: count: number_of_comments }}
+                      </a> &middot;
+                    {%- endif -%}
+                    {%- if section.settings.blog_show_date -%}
+                      {{ article.published_at | time_tag: format: 'month_day_year' }}
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
+                <h1 class="section-header__title">{{ article.title }}</h1>
+                {%- if section.settings.blog_show_author -%}
+                  <div class="article__author">by {{ article.author }}</div>
+                {%- endif -%}
+              </header>
+              <hr class="hr--large">
+            {%- endunless -%}
+            <div class="rte">
+              {{ article.content }}
+            </div>
+
+            {%- if section.settings.social_sharing_blog -%}
+              {%- render 'social-sharing', share_title: article.title, share_permalink: article.url, share_image: article.image -%}
+            {%- endif -%}
+            
+          </div>
+        </div>
+        <div class="grid__item medium-up--one-fifth">
+          {% if article.metafields.custom.featured_products != blank %}
+            <header class="section-header">
+              <p class="section-header__title h3">Shop the Blog</p>
+            </header>
+            <div class="grid article__related-items">
+              {% for product in article.metafields.custom.featured_products.value %}
+                {% include 'product-grid-item', product: product, per_row: 1 %}
+              {% endfor %}
+            </div>
+          {% endif %}
+          <header class="section-header text-left">
+            <p class="section-header__title h3">Recent Articles</p>
+          </header>
+          <ul class="no-bullets site-footer__linklist article__recent-articles">
+            {%- for article in blog.articles limit: 7 -%}
+            <li>
+              <a href="{{ article.url }}">{{ article.title}}</a>
+              <div class="article__date">{{ article.published_at | date: "%B, %Y"}}</div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+
+      {% style %}
+      .section-header__title.h3 {
+        border-bottom: 1px solid var(--colorBorder);
+      }
+      .article__body h2, .article__body h3, .artcile__body h4 {
+          text-transform: none;
+          font-size: 1.5em;
+          font-style: normal;
+      }
+      .article__recent-articles li {
+        border-top: 1px solid #ebf3f9;
+        padding: 15px 0;
+      }
+      .article__recent-articles li:first-child {
+        border-top: 0;
+      }
+      {% endstyle %}
+    {% comment %} === END custom feature  {% endcomment %}
+
+    
 
     {%- if blog.comments_enabled? -%}
 

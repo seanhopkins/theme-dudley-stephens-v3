@@ -1,0 +1,54 @@
+/* FIT GUIDE */
+.tab-nav {
+   display: flex;
+   gap: 1em;
+   justify-content: center;
+}
+.tab-nav button {
+   background-color: var(--colorTextBody);
+   padding: 0.5em 1em;
+   border-radius: 2px;
+   color: #fff;
+}
+.tab-nav button.active {
+   background-color: var(--colorBtnPrimary);
+   color: #fff;
+}
+button:not(.play-button):hover {
+   background-color: var(--colorBtnPrimaryLight);
+   color: #fff;
+}
+.carousels-slide {
+   width: 33%;
+}
+.carousels-slide img, .carousels-slide video {
+   padding: 28px 20px;
+}
+@media only screen and (max-width: 768px){
+   .carousels-slide {
+      width: 100%;
+   }
+}
+button.play-button {
+   position: absolute;
+   z-index: 10;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+   width: 100%;
+}
+video-slide .play-button svg {
+   width: 50px;
+   fill: #fff;
+   opacity: 0.7;
+}
+video-slide .play-button:hover svg {
+   opacity: 1;
+}
+video-slide[data-is-playing="true"] .play-button {
+   opacity: 0;
+}
+video-slide video {
+   width: 100%;
+}

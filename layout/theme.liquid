@@ -99,6 +99,8 @@
 {% comment %} START custom feature {% endcomment %}
   {% section 'swatch-colors' %}
   <script src="{{ 'color-swatches.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
+  {{ 'custom.css' | asset_url | stylesheet_tag: preload: true }}
 {% comment %} END custom feature {% endcomment %}
 </head>
 

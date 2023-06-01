@@ -12,7 +12,7 @@
         "template--14934300557354__4c8df3d2-334d-4772-9798-42aa37869464-1685641611c4b2bc49-0": {
           "type": "advanced",
           "settings": {
-            "subheading": "Turtlenecks",
+            "subheading": "",
             "heading": "Greenpoint Turtleneck",
             "textarea": "Meet our midi– a happy medium.",
             "cta_text1": "",
@@ -86,7 +86,7 @@
         "f8755462-3c8d-4be5-9d0c-9c7b44e81ee0": {
           "type": "advanced",
           "settings": {
-            "subheading": "Turtlenecks",
+            "subheading": "",
             "heading": "Park Slope Turtleneck",
             "textarea": "Hits at hip for wearable versatility",
             "cta_text1": "Shop",
@@ -132,7 +132,7 @@
       ],
       "custom_css": [
         ".type-advanced .promo-grid__content:after {display: none;}",
-        ".promo-grid__text, .btn {color: #232528; border-color: #232528;}"
+        ".promo-grid__text,.btn {color: #232528; border-color: #232528;}"
       ],
       "settings": {
         "full_width": true,

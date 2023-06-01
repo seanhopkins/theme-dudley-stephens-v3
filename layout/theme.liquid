@@ -58,7 +58,8 @@
       searchPages: {{ 'general.search.pages' | t | json }},
       searchArticles: {{ 'general.search.articles' | t | json }},
       productFrom: {{ 'products.general.from_text_html' | t: price: '' | json }},
-      maxQuantity: {{ 'cart.general.max_quantity' | t: quantity: '[quantity]', title: '[title]' | json }}
+      maxQuantity: {{ 'cart.general.max_quantity' | t: quantity: '[quantity]', title: '[title]' | json }},
+      monogramErrorMessage: {{ 'products.general.monogram_error_message' | t | json }}
     };
     theme.settings = {
       cartType: {{ settings.cart_type | json }},

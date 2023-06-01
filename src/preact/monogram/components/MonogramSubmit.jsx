@@ -12,6 +12,10 @@ const MonogramSubmit = ({
       if (monogram) {
         return <button class="btn monogram__add-to-cart">Submit</button>;
       }
+    } else if (handleize(style) === "classic") {
+      if (firstInitial || middleInitial || lastInitial) {
+        return <button class="btn monogram__add-to-cart">Submit</button>;
+      }
     } else {
       if (firstInitial && middleInitial && lastInitial) {
         return <button class="btn monogram__add-to-cart">Submit</button>;
@@ -19,9 +23,14 @@ const MonogramSubmit = ({
     }
 
     return (
-      <button class="btn monogram__add-to-cart" type="button" disabled>
-        ERROR
-      </button>
+      <>
+        <button class="btn monogram__add-to-cart" type="button" disabled>
+          ERROR
+        </button>
+        <span className="monogram__error-message">
+          {theme.strings.monogramErrorMessage}
+        </span>
+      </>
     );
   };
 

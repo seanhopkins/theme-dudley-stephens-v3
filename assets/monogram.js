@@ -1366,7 +1366,7 @@ const Form = ({ data  })=>{
 };
 exports.default = Form;
 
-},{"preact/jsx-dev-runtime":"3mFUL","preact/hooks":"eZN76","../utils":"iJLHw","./MonogramButtons":"5XO2M","./MonogramInputs":"irRpO","./HiddenLineItemProperties":"5rua3","./MonogramSubmit":"lRovl","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eZN76":[function(require,module,exports) {
+},{"preact/jsx-dev-runtime":"3mFUL","preact/hooks":"eZN76","../utils":"iJLHw","./MonogramButtons":"5XO2M","./MonogramInputs":"irRpO","./HiddenLineItemProperties":"5rua3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./MonogramSubmit":"lRovl"}],"eZN76":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useCallback", ()=>T);
@@ -1976,8 +1976,8 @@ const MonogramSubmit = ({ style , monogram , firstInitial , middleInitial , last
                 lineNumber: 13,
                 columnNumber: 16
             }, undefined);
-        } else {
-            if (firstInitial && middleInitial && lastInitial) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+        } else if ((0, _utils.handleize)(style) === "classic") {
+            if (firstInitial || middleInitial || lastInitial) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                 class: "btn monogram__add-to-cart",
                 children: "Submit"
             }, void 0, false, {
@@ -1985,28 +1985,49 @@ const MonogramSubmit = ({ style , monogram , firstInitial , middleInitial , last
                 lineNumber: 17,
                 columnNumber: 16
             }, undefined);
+        } else {
+            if (firstInitial && middleInitial && lastInitial) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                class: "btn monogram__add-to-cart",
+                children: "Submit"
+            }, void 0, false, {
+                fileName: "src/preact/monogram/components/MonogramSubmit.jsx",
+                lineNumber: 21,
+                columnNumber: 16
+            }, undefined);
         }
-        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-            class: "btn monogram__add-to-cart",
-            type: "button",
-            disabled: true,
-            children: "ERROR"
-        }, void 0, false, {
-            fileName: "src/preact/monogram/components/MonogramSubmit.jsx",
-            lineNumber: 22,
-            columnNumber: 7
-        }, undefined);
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                    class: "btn monogram__add-to-cart",
+                    type: "button",
+                    disabled: true,
+                    children: "ERROR"
+                }, void 0, false, {
+                    fileName: "src/preact/monogram/components/MonogramSubmit.jsx",
+                    lineNumber: 27,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                    className: "monogram__error-message",
+                    children: theme.strings.monogramErrorMessage
+                }, void 0, false, {
+                    fileName: "src/preact/monogram/components/MonogramSubmit.jsx",
+                    lineNumber: 30,
+                    columnNumber: 9
+                }, undefined)
+            ]
+        }, void 0, true);
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "MonogramSubmit",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Button, {}, void 0, false, {
             fileName: "src/preact/monogram/components/MonogramSubmit.jsx",
-            lineNumber: 30,
+            lineNumber: 39,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/preact/monogram/components/MonogramSubmit.jsx",
-        lineNumber: 29,
+        lineNumber: 38,
         columnNumber: 5
     }, undefined);
 };

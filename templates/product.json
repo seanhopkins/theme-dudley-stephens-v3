@@ -225,6 +225,7 @@
     },
     "42bbdc9e-6eff-44f4-9eb7-2fb48cd87e58": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/2023-04-17-dudldeystephens_ShadesOfPinck-JDP_2505.jpg",
         "image_mask": "none",

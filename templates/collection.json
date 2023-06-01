@@ -33,8 +33,65 @@
         "lazyload_images": false
       }
     },
+    "bff22a85-fe75-499b-83af-4859b5818f94": {
+      "type": "promo-grid",
+      "blocks": {
+        "template--14916568055850__bff22a85-fe75-499b-83af-4859b5818f94-1685641611c4b2bc49-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "template--14916568055850__bff22a85-fe75-499b-83af-4859b5818f94-1685641611c4b2bc49-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14916568055850__bff22a85-fe75-499b-83af-4859b5818f94-1685641611c4b2bc49-0",
+        "template--14916568055850__bff22a85-fe75-499b-83af-4859b5818f94-1685641611c4b2bc49-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": true,
+        "lazyload_images": true
+      }
+    },
     "e1f1007d-af4d-437e-baa9-7a8ecaf60313": {
       "type": "featured-collections",
+      "disabled": true,
       "blocks": {
         "template--14916568055850__e1f1007d-af4d-437e-baa9-7a8ecaf60313-16851213259a117373-0": {
           "type": "collection",
@@ -211,6 +268,7 @@
   "order": [
     "collection-header",
     "20f04a9a-02c8-46f9-a48b-0fa7bfe764a8",
+    "bff22a85-fe75-499b-83af-4859b5818f94",
     "e1f1007d-af4d-437e-baa9-7a8ecaf60313",
     "promo-grid",
     "main-collection"

@@ -5,9 +5,79 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "4c8df3d2-334d-4772-9798-42aa37869464": {
+      "type": "promo-grid",
+      "blocks": {
+        "template--14934300557354__4c8df3d2-334d-4772-9798-42aa37869464-1685641611c4b2bc49-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "template--14934300557354__4c8df3d2-334d-4772-9798-42aa37869464-1685641611c4b2bc49-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14934300557354__4c8df3d2-334d-4772-9798-42aa37869464-1685641611c4b2bc49-0",
+        "template--14934300557354__4c8df3d2-334d-4772-9798-42aa37869464-1685641611c4b2bc49-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false,
+        "lazyload_images": true
+      }
+    },
+    "259836b0-b7d8-4638-9720-762d08db1f60": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "greenpoint-turtleneck",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "4c8df3d2-334d-4772-9798-42aa37869464",
+    "259836b0-b7d8-4638-9720-762d08db1f60"
   ]
 }

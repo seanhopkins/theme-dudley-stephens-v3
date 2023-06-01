@@ -6,6 +6,33 @@
       "settings": {
       }
     },
+    "278fb546-67e5-41ca-924c-edef8fcff99c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14934300557354__278fb546-67e5-41ca-924c-edef8fcff99c-16856422993f6ca896-0": {
+          "type": "heading",
+          "settings": {
+            "title": "DS Signature Turtlenecks"
+          }
+        },
+        "template--14934300557354__278fb546-67e5-41ca-924c-edef8fcff99c-16856422993f6ca896-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14934300557354__278fb546-67e5-41ca-924c-edef8fcff99c-16856422993f6ca896-0",
+        "template--14934300557354__278fb546-67e5-41ca-924c-edef8fcff99c-16856422993f6ca896-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "4c8df3d2-334d-4772-9798-42aa37869464": {
       "type": "promo-grid",
       "blocks": {
@@ -157,6 +184,7 @@
   },
   "order": [
     "main",
+    "278fb546-67e5-41ca-924c-edef8fcff99c",
     "4c8df3d2-334d-4772-9798-42aa37869464",
     "259836b0-b7d8-4638-9720-762d08db1f60",
     "473cde3c-dd14-47cf-980a-8806d5f53fd7",

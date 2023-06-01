@@ -22,7 +22,7 @@
             "image": "shopify:\/\/shop_images\/Rectangle_1_8677b56f-f0cb-4d29-89c0-55b36da94706.png",
             "video_url": "",
             "width": "50",
-            "height": 500,
+            "height": 300,
             "text_size": 140,
             "text_align": "vertical-center horizontal-center",
             "color_accent": "rgba(0,0,0,0)",
@@ -43,7 +43,7 @@
             "image": "shopify:\/\/shop_images\/GREENPOINT_TURTLENECK_CELESTIAL_BLUE_1800.jpg",
             "video_url": "",
             "width": "50",
-            "height": 500,
+            "height": 300,
             "text_size": 100,
             "text_align": "vertical-center horizontal-center",
             "color_accent": "rgba(0,0,0,0)",
@@ -55,6 +55,10 @@
       "block_order": [
         "template--14934300557354__4c8df3d2-334d-4772-9798-42aa37869464-1685641611c4b2bc49-0",
         "template--14934300557354__4c8df3d2-334d-4772-9798-42aa37869464-1685641611c4b2bc49-1"
+      ],
+      "custom_css": [
+        ".type-advanced .promo-grid__content:after {display: none;}",
+        ".promo-grid__text {color: #232528;}"
       ],
       "settings": {
         "full_width": true,

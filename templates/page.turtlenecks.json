@@ -141,12 +141,25 @@
         "space_below": false,
         "lazyload_images": true
       }
+    },
+    "1a839421-77e0-464a-8bfb-b3275bd6ed73": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "park-slope-turtleneck",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
     "4c8df3d2-334d-4772-9798-42aa37869464",
     "259836b0-b7d8-4638-9720-762d08db1f60",
-    "473cde3c-dd14-47cf-980a-8806d5f53fd7"
+    "473cde3c-dd14-47cf-980a-8806d5f53fd7",
+    "1a839421-77e0-464a-8bfb-b3275bd6ed73"
   ]
 }

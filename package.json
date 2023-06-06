@@ -19,7 +19,7 @@
     "js:checkout:prod": "webpack --env production",
     "js:theme:dev": "watch 'uglifyjs ./assets/theme.js --output ./assets/theme.min.js' ./assets/",
     "js:theme:prod": "uglifyjs ./assets/theme.js --output ./assets/theme.min.js",
-    "js:fitguide": "parcel _src/js/fitguide.js --dist-dir assets",
+    "js:fitguide": "parcel src/js/fitguide.js --dist-dir assets",
     "gwp:build": "vue-cli-service build --dest ./assets --formats umd,umd-min --target lib --inline-vue --name giftWithPurchase src/vue/gift-with-purchase/gift-with-purchase.js --no-clean && rm assets/demo.html"
   },
   "author": "",

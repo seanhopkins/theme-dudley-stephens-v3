@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"fLgh2":[function(require,module,exports) {
+})({"bXPtD":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "a25fa05b72adf3b0";
+module.bundle.HMR_BUNDLE_ID = "b6ec03a00aecc30c";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, globalThis, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -556,7 +556,7 @@ function hmrAccept(bundle, id) {
     });
 }
 
-},{}],"jIed4":[function(require,module,exports) {
+},{}],"ejB9i":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _alpinejs = require("alpinejs");
 var _alpinejsDefault = parcelHelpers.interopDefault(_alpinejs);
@@ -3444,6 +3444,6 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}]},["fLgh2","jIed4"], "jIed4", "parcelRequire6d00")
+},{}]},["bXPtD","ejB9i"], "ejB9i", "parcelRequire6d00")
 
 //# sourceMappingURL=fitguide.js.map

@@ -369,6 +369,10 @@
                         </div>
                       {%- endunless -%}
 
+                      {% comment %} Start Affirm {% endcomment %}
+                        <p class="affirm-as-low-as text-center" data-page-type="product" data-amount="{{ current_variant.price }}"></p>
+                      {% comment %} End Affirm {% endcomment %}
+
                       {%- if block.settings.surface_pickup_enable -%}
                         <div data-store-availability-holder
                           data-product-name="{{ product.title | escape }}"

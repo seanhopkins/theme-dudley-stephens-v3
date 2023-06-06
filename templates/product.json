@@ -41,12 +41,6 @@
             "surface_pickup_enable": false
           }
         },
-        "1a4aa169-40d1-40fe-bedc-d396695ba77e": {
-          "type": "custom",
-          "settings": {
-            "code": "<p class=\"affirm-as-low-as text-center\" data-page-type=\"product\" data-amount=\"{{current_variant.price}}\"><\/p>"
-          }
-        },
         "inventory_status": {
           "type": "inventory_status",
           "settings": {
@@ -118,7 +112,6 @@
         "898a4dd8-f55a-4ad6-ac0c-2974dd79371b",
         "variant_picker",
         "buy_buttons",
-        "1a4aa169-40d1-40fe-bedc-d396695ba77e",
         "inventory_status",
         "description",
         "tab",

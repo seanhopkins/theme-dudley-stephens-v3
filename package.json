@@ -17,6 +17,9 @@
     "shop:start": "shopify theme dev --store=dudley-stephens",
     "js:checkout:dev": "webpack --env development",
     "js:checkout:prod": "webpack --env production",
+    "js:theme:dev": "watch 'uglifyjs ./assets/theme.js --output ./assets/theme.min.js' ./assets/",
+    "js:theme:prod": "uglifyjs ./assets/theme.js --output ./assets/theme.min.js",
+    "js:fitguide": "parcel _src/js/fitguide.js --dist-dir assets",
     "gwp:build": "vue-cli-service build --dest ./assets --formats umd,umd-min --target lib --inline-vue --name giftWithPurchase src/vue/gift-with-purchase/gift-with-purchase.js --no-clean && rm assets/demo.html"
   },
   "author": "",
@@ -34,11 +37,20 @@
     "eslint-plugin-vue": "^8.7.1",
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
-    "core-js": "^3.8.3"
+    "core-js": "^3.8.3",
+    "uglify-js": "^3.13.3",
+    "watch": "^0.13.0"
   },
   "dependencies": {
     "@discolabs/custard-js": "^0.1.3",
+    "alpinejs": "^3.10.3",
     "preact": "^10.15.0",
     "vue": "^3.2.13"
-  }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
 }

@@ -4,13 +4,13 @@
     "color_body_text": "#232528",
     "color_price": "#7f8182",
     "color_savings_text": "#9bcc56",
-    "color_borders": "#f8f4ed",
+    "color_borders": "#ced4dc",
     "color_button": "#9bcc56",
     "color_button_text": "#ffffff",
     "color_sale_tag": "#f8f4ed",
     "color_sale_tag_text": "#232528",
     "color_cart_dot": "#9bcc56",
-    "color_small_image_bg": "#f8f4ed",
+    "color_small_image_bg": "rgba(0,0,0,0)",
     "color_large_image_bg": "#f8f4ed",
     "color_header": "#ffffff",
     "color_header_text": "#232528",
@@ -56,7 +56,7 @@
     "product_grid_image_fill": false,
     "product_hover_image": false,
     "enable_swatches": true,
-    "enable_product_reviews": true,
+    "enable_product_reviews": false,
     "collection_grid_style": "overlaid-box",
     "collection_grid_shape": "portrait",
     "collection_grid_image": "product",
@@ -1198,12 +1198,6 @@
 
     ],
     "blocks": {
-      "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "7570552984445421165": {
         "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/settings\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
         "disabled": false,
@@ -1216,6 +1210,12 @@
         "settings": {
           "inject_modules_loader": true,
           "inject_sdk_loader": true
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
         }
       }
     }

@@ -449,7 +449,7 @@
         "rows": 1,
         "mobile_scrollable": true,
         "view_all": true,
-        "divider": true
+        "divider": false
       }
     },
     "e235f58e-57de-464a-8a72-837ea277361a": {

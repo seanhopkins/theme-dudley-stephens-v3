@@ -149,5 +149,45 @@
       <img width height src loading="lazy">
     </image-element>
   </template>
+{% comment %} === START custom feature === {% endcomment %}
+  <script src="https://a.klaviyo.com/media/js/onsite/onsite.js"></script>
+  <script>
+      var klaviyo = klaviyo || [];
+      klaviyo.init({
+        account: "PK2RxX",
+        platform: "shopify",
+        exclude_on_tags: "hide-back-in-stock"
+      });
+      klaviyo.enable("backinstock",{
+      trigger: {
+        product_page_text: "Notify Me When Available",
+        product_page_class: "btn btn--full btn--primary",
+        product_page_text_align: "center",
+        product_page_margin: "15px 0",
+        replace_anchor: false
+      },
+      modal: {
+        headline: "{product_name}",
+        body_content: "Register to receive a notification when this item comes back in stock.",
+        email_field_label: "Email",
+        button_label: "Notify me when available",
+        newsletter_subscribe_label: "Subscribe to join the #dsgoods community",
+        subscription_success_label: "You're in! We'll let you know when it's back.",
+        footer_content: '',
+        drop_background_color: "#2a3b57",
+        background_color: "#fff",
+        text_color: "#2a3b57",
+        button_text_color: "#fff",
+        button_background_color: "#1b4464",
+        close_button_color: "#1b4464",
+        error_background_color: "#fcd6d7",
+        error_text_color: "#C72E2F",
+        success_background_color: "#D4F1AE",
+        success_text_color: "#fff",
+        additional_styles: "@import url(' {{ 'klaviyo.scss.css' | asset_url }}');",
+      }
+    });
+  </script>
+  {% comment %} === END custom feature === {% endcomment %}
 </body>
 </html>

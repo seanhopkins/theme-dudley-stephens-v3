@@ -1,6 +1,6 @@
 <div class="footer__item-padding">
   {%- if block.settings.show_footer_title -%}
-    <h2 class="h4 footer__title small--hide">{{ block.settings.title }}</h2>
+    <h2 class="h3 footer__title small--hide">{{ block.settings.title }}</h2>
     <button type="button" class="h4 footer__title collapsible-trigger collapsible-trigger-btn medium-up--hide" aria-controls="Footer-{{ block.id }}">
       {{ block.settings.title }}
       {%- render 'collapsible-icons' -%}
@@ -40,6 +40,12 @@
             </button>
           </div>
         {%- endform -%}
+
+        {%- if block.settings.show_postscript == true -%}
+          <div class="footer__sms">
+            {%- render 'postscript-form', block: block, postscript_id: block.settings.form_id -%}
+          </div>
+        {%- endif -%}
 
         {% render 'social-icons', additional_classes: 'footer__social' %}
 

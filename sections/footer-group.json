@@ -70,7 +70,7 @@
           "type": "menu",
           "settings": {
             "show_footer_title": true,
-            "menu": "footer-customer-service",
+            "menu": "2023-customer-service",
             "container_width": 20
           }
         },
@@ -78,7 +78,7 @@
           "type": "menu",
           "settings": {
             "show_footer_title": true,
-            "menu": "2021-footer-about",
+            "menu": "2023-about",
             "container_width": 20
           }
         },
@@ -86,7 +86,7 @@
           "type": "menu",
           "settings": {
             "show_footer_title": true,
-            "menu": "footer-account-1",
+            "menu": "2023-account",
             "container_width": 20
           }
         }

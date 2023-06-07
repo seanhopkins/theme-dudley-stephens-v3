@@ -380,41 +380,6 @@
         "lazyload_images": true
       }
     },
-    "e235f58e-57de-464a-8a72-837ea277361a": {
-      "type": "slideshow",
-      "blocks": {
-        "template--14916567695402__e235f58e-57de-464a-8a72-837ea277361a-1684955786c23e5155-0": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "Female founded, \nfamily owned.",
-            "title_size": 80,
-            "subheading": "",
-            "link": "shopify:\/\/pages\/about-dudley-stephens",
-            "link_text": "Our Story",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/Dudley-Sisters.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--14916567695402__e235f58e-57de-464a-8a72-837ea277361a-1684955786c23e5155-0"
-      ],
-      "settings": {
-        "section_height": "650px",
-        "mobile_height": "auto",
-        "parallax": true,
-        "style": "bars",
-        "autoplay": true,
-        "autoplay_speed": 5,
-        "lazyload_images": true
-      }
-    },
     "3acb1261-9345-47a4-bd1a-d0ef5ac97f9c": {
       "type": "text-with-icons",
       "blocks": {
@@ -423,7 +388,7 @@
           "settings": {
             "icon": "package",
             "title": "Female founded",
-            "text": "<p>Etiam feugiat lorem non metus. Nullam quis ante.<\/p>"
+            "text": "<p>Etiam feugiat lorem non metus. j<a href=\"#@!\" title=\"#@!\">Nullam quis ante.<\/a><\/p>"
           }
         },
         "fb5cf248-626f-455c-9505-61ff07cbc9f8": {
@@ -458,7 +423,6 @@
         "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-2"
       ],
       "custom_css": [
-        ".index-section {background-color: #f2f8fd; margin: 0;}",
         ".text-with-icons__block-icon .icon {width: 40px;}",
         "h3 {font-size: 1.5em;}"
       ],
@@ -688,7 +652,6 @@
     "b436726f-56a1-40d8-9a9c-1d5386d219c4",
     "dd662593-564f-46bd-965c-42be0bb69954",
     "0ea63146-12df-42a7-a684-7d4133fd7903",
-    "e235f58e-57de-464a-8a72-837ea277361a",
     "3acb1261-9345-47a4-bd1a-d0ef5ac97f9c",
     "3283dc6a-ca11-4d10-91a7-cedc47a19e46",
     "55b4676d-449a-4dad-bd6c-c86b5726c2ae",

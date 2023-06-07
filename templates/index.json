@@ -15,7 +15,7 @@
             "cta_link2": "",
             "image": "shopify:\/\/shop_images\/Slider_Moblie_b34dcf70-f892-443c-8c03-bfeb4678f440.jpg",
             "video_url": "",
-            "width": "100",
+            "width": "50",
             "height": 800,
             "text_size": 135,
             "text_align": "vertical-bottom horizontal-center",
@@ -26,7 +26,6 @@
         },
         "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1": {
           "type": "advanced",
-          "disabled": true,
           "settings": {
             "subheading": "",
             "heading": "Capsule Wardrobe",

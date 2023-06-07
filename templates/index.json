@@ -155,6 +155,7 @@
         },
         "template--14916567695402__ad8d799a-dd28-40ce-8234-0b79cb13bd90-16851213259a117373-3": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "dresses",
             "title": "",
@@ -163,6 +164,7 @@
         },
         "a8507b50-c9f2-4ee1-8107-45b5179e5370": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "outerwear",
             "title": "",
@@ -171,6 +173,7 @@
         },
         "81a8ff31-c9ed-4f4d-9b20-5bb38a440fc7": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "kids",
             "title": "",
@@ -243,23 +246,6 @@
         "overlay_color": "#ffffff",
         "overlay_opacity": 80,
         "lazyload_images": true
-      }
-    },
-    "537cdca2-2a11-4865-bc4f-c49f8928662a": {
-      "type": "featured-collection",
-      "custom_css": [
-        ".index-section {margin: 0;}",
-        ".grid-product__tag--sale,.grid-product__tag--custom {text-transform: uppercase; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.05em; border-bottom-left-radius: 4px;}",
-        "h3 {font-family: \"Gill Sans\";}"
-      ],
-      "settings": {
-        "title": "",
-        "home_featured_products": "4-26-drop",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": false,
-        "divider": false
       }
     },
     "cf175cf8-a4e8-45f7-8a52-3b14ac752957": {
@@ -689,7 +675,6 @@
     "rich-text",
     "ad8d799a-dd28-40ce-8234-0b79cb13bd90",
     "b436726f-56a1-40d8-9a9c-1d5386d219c4",
-    "537cdca2-2a11-4865-bc4f-c49f8928662a",
     "cf175cf8-a4e8-45f7-8a52-3b14ac752957",
     "dd662593-564f-46bd-965c-42be0bb69954",
     "0ea63146-12df-42a7-a684-7d4133fd7903",

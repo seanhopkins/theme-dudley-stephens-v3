@@ -3,6 +3,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "091eb20e-2579-4d9a-8f96-0cc9f850590a": {
+          "type": "custom",
+          "settings": {
+            "code": "<h1> {{product.metafields.custom.prodcut_style }}<\/h1>"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -94,6 +100,7 @@
         }
       },
       "block_order": [
+        "091eb20e-2579-4d9a-8f96-0cc9f850590a",
         "price",
         "c73cc944-2dd8-41be-96f5-01434a99b524",
         "separator",

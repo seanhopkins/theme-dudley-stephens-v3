@@ -6,7 +6,7 @@
         "091eb20e-2579-4d9a-8f96-0cc9f850590a": {
           "type": "custom",
           "settings": {
-            "code": "<h1> {{product.metafields.custom.prodcut_style }}<\/h1>"
+            "code": "<h1> {{ product.metafields.custom.prodcut_style }}<\/h1>"
           }
         },
         "price": {
@@ -248,6 +248,7 @@
     },
     "recently-viewed": {
       "type": "recently-viewed",
+      "disabled": true,
       "settings": {
         "recent_count": 5
       }

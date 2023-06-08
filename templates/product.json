@@ -19,6 +19,12 @@
           "settings": {
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
         "898a4dd8-f55a-4ad6-ac0c-2974dd79371b": {
           "type": "size_chart",
           "settings": {
@@ -39,12 +45,6 @@
           "settings": {
             "show_dynamic_checkout": false,
             "surface_pickup_enable": false
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "is_tab": false
           }
         },
         "tab": {
@@ -97,10 +97,10 @@
         "price",
         "c73cc944-2dd8-41be-96f5-01434a99b524",
         "separator",
+        "description",
         "898a4dd8-f55a-4ad6-ac0c-2974dd79371b",
         "variant_picker",
         "buy_buttons",
-        "description",
         "tab",
         "ab135439-7e5c-4100-a042-17e17f3fa6c7",
         "e84a0778-3ebe-4d15-9d52-f89ac088f28f",
@@ -109,13 +109,7 @@
         "43d3e37f-8860-40ef-8349-35ff7eaa9cc4"
       ],
       "custom_css": [
-        ".product-single__title {font-size: 1.76em;}",
-        ".product-block--price {display: flex; align-items: center;}",
-        ".product-block--header {margin-bottom: 0;}",
-        ".standalone-bottomline {text-align: left; padding-bottom: 1em;}",
-        ".variant__label {font-weight: 500;}",
-        ".variant-input-wrap label {border-radius: 2px; font-size: 0.85em;}",
-        ".variant__label.product__price-savings {letter-spacing: 0; font-weight: 400;}"
+
       ],
       "settings": {
         "sku_enable": false,
@@ -163,6 +157,9 @@
       },
       "block_order": [
         "f0a190d9-8ce5-4fc7-b3b8-ddadc7af6f37"
+      ],
+      "custom_css": [
+        ".yotpo-main-widget {max-width: 1000px;}"
       ],
       "settings": {
         "full_width": false,

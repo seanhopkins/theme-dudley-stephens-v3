@@ -8279,7 +8279,8 @@ theme.recentlyViewed = {
     theme.sections = new theme.Sections();
 
     theme.sections.register('slideshow-section', theme.SlideshowSection);
-    theme.sections.register('header', theme.HeaderSection);
+    // Commented out by Lucid. Methods are overwritten, and the class registered, in custom.js.
+    // theme.sections.register('header', theme.HeaderSection);
     theme.sections.register('product', theme.Product);
     theme.sections.register('blog', theme.Blog);
     theme.sections.register('password-header', theme.PasswordHeader);

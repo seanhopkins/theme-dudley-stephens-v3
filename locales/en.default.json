@@ -310,7 +310,8 @@
       "regular_price": "Regular price",
       "from_text_html": "from {{ price }}",
       "recent_products": "Recently viewed",
-      "reviews": "Reviews"
+      "reviews": "Reviews",
+      "monogram_error_message": "Finish customizing"
     },
     "product": {
       "description": "Description",

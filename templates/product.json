@@ -59,7 +59,7 @@
           "type": "tab",
           "settings": {
             "title": "Fit",
-            "content": "{{ product.metafields.custom.product_fit | metafield_tag }}",
+            "content": "{{ product.metafields.custom.product_fit | metafield_tag }}<p>View <a href=\"\/pages\/fit-guide-2022\" target=\"_blank\" title=\"Fit Guide 2022\">Fit Guide<\/a><\/p>",
             "page": ""
           }
         },

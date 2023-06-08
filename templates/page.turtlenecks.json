@@ -1,0 +1,193 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "278fb546-67e5-41ca-924c-edef8fcff99c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14934300557354__278fb546-67e5-41ca-924c-edef8fcff99c-16856422993f6ca896-0": {
+          "type": "heading",
+          "settings": {
+            "title": "DS Signature Turtlenecks"
+          }
+        },
+        "template--14934300557354__278fb546-67e5-41ca-924c-edef8fcff99c-16856422993f6ca896-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14934300557354__278fb546-67e5-41ca-924c-edef8fcff99c-16856422993f6ca896-0",
+        "template--14934300557354__278fb546-67e5-41ca-924c-edef8fcff99c-16856422993f6ca896-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "4c8df3d2-334d-4772-9798-42aa37869464": {
+      "type": "promo-grid",
+      "blocks": {
+        "template--14934300557354__4c8df3d2-334d-4772-9798-42aa37869464-1685641611c4b2bc49-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Greenpoint Turtleneck",
+            "textarea": "Meet our midi– a happy medium.",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/Rectangle_1_8677b56f-f0cb-4d29-89c0-55b36da94706.png",
+            "video_url": "",
+            "width": "50",
+            "height": 300,
+            "text_size": 140,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "template--14934300557354__4c8df3d2-334d-4772-9798-42aa37869464-1685641611c4b2bc49-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/GREENPOINT_TURTLENECK_CELESTIAL_BLUE_1800.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14934300557354__4c8df3d2-334d-4772-9798-42aa37869464-1685641611c4b2bc49-0",
+        "template--14934300557354__4c8df3d2-334d-4772-9798-42aa37869464-1685641611c4b2bc49-1"
+      ],
+      "custom_css": [
+        ".type-advanced .promo-grid__content:after {display: none;}",
+        ".promo-grid__text {color: #232528;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false,
+        "lazyload_images": true
+      }
+    },
+    "259836b0-b7d8-4638-9720-762d08db1f60": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "greenpoint-turtleneck",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "473cde3c-dd14-47cf-980a-8806d5f53fd7": {
+      "type": "promo-grid",
+      "blocks": {
+        "f8755462-3c8d-4be5-9d0c-9c7b44e81ee0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Park Slope Turtleneck",
+            "textarea": "Hits at hip for wearable versatility",
+            "cta_text1": "Shop",
+            "cta_link1": "shopify:\/\/collections\/park-slope-turtleneck",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/Rectangle_1_8677b56f-f0cb-4d29-89c0-55b36da94706.png",
+            "video_url": "",
+            "width": "50",
+            "height": 300,
+            "text_size": 140,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "2aa10d05-28af-47bb-8ff2-904b527b82f9": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/turtleneck_header_park_slope.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 520,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "f8755462-3c8d-4be5-9d0c-9c7b44e81ee0",
+        "2aa10d05-28af-47bb-8ff2-904b527b82f9"
+      ],
+      "custom_css": [
+        ".type-advanced .promo-grid__content:after {display: none;}",
+        ".promo-grid__text,.btn {color: #232528; border-color: #232528;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false,
+        "lazyload_images": true
+      }
+    },
+    "1a839421-77e0-464a-8bfb-b3275bd6ed73": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "park-slope-turtleneck",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "278fb546-67e5-41ca-924c-edef8fcff99c",
+    "4c8df3d2-334d-4772-9798-42aa37869464",
+    "259836b0-b7d8-4638-9720-762d08db1f60",
+    "473cde3c-dd14-47cf-980a-8806d5f53fd7",
+    "1a839421-77e0-464a-8bfb-b3275bd6ed73"
+  ]
+}

@@ -19,6 +19,12 @@
           "settings": {
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
         "898a4dd8-f55a-4ad6-ac0c-2974dd79371b": {
           "type": "size_chart",
           "settings": {
@@ -39,19 +45,6 @@
           "settings": {
             "show_dynamic_checkout": false,
             "surface_pickup_enable": false
-          }
-        },
-        "inventory_status": {
-          "type": "inventory_status",
-          "settings": {
-            "inventory_threshold": 10,
-            "inventory_transfers_enable": true
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "is_tab": false
           }
         },
         "tab": {
@@ -78,14 +71,8 @@
             "page": ""
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-          }
-        },
         "f04ac498-aae2-4dea-a727-52ea7ef7ff36": {
           "type": "sales_point",
-          "disabled": true,
           "settings": {
             "icon": "globe",
             "text": "Free worldwide shipping"
@@ -93,7 +80,6 @@
         },
         "8058ac20-bea7-49a4-ad34-845c2aa0437b": {
           "type": "sales_point",
-          "disabled": true,
           "settings": {
             "icon": "package",
             "text": "Easy returns"
@@ -101,7 +87,6 @@
         },
         "43d3e37f-8860-40ef-8349-35ff7eaa9cc4": {
           "type": "sales_point",
-          "disabled": true,
           "settings": {
             "icon": "leaf",
             "text": "Sustainable shipping options available"
@@ -112,27 +97,19 @@
         "price",
         "c73cc944-2dd8-41be-96f5-01434a99b524",
         "separator",
+        "description",
         "898a4dd8-f55a-4ad6-ac0c-2974dd79371b",
         "variant_picker",
         "buy_buttons",
-        "inventory_status",
-        "description",
         "tab",
         "ab135439-7e5c-4100-a042-17e17f3fa6c7",
         "e84a0778-3ebe-4d15-9d52-f89ac088f28f",
-        "share",
         "f04ac498-aae2-4dea-a727-52ea7ef7ff36",
         "8058ac20-bea7-49a4-ad34-845c2aa0437b",
         "43d3e37f-8860-40ef-8349-35ff7eaa9cc4"
       ],
       "custom_css": [
-        ".product-single__title {font-size: 1.76em;}",
-        ".product-block--price {display: flex; align-items: center;}",
-        ".product-block--header {margin-bottom: 0;}",
-        ".standalone-bottomline {text-align: left; padding-bottom: 1em;}",
-        ".variant__label {font-weight: 500;}",
-        ".variant-input-wrap label {border-radius: 2px; font-size: 0.85em;}",
-        ".variant__label.product__price-savings {letter-spacing: 0; font-weight: 400;}"
+
       ],
       "settings": {
         "sku_enable": false,
@@ -147,101 +124,24 @@
         "product_video_style": "muted"
       }
     },
-    "c61ccae2-815c-49aa-b30a-3184a8bc085c": {
-      "type": "text-columns",
+    "cb0b4ebb-60f1-4c0c-a08f-3bcaa11774b6": {
+      "type": "advanced-content",
       "blocks": {
-        "template--14916568285226__c61ccae2-815c-49aa-b30a-3184a8bc085c-1684792101acffbb66-0": {
-          "type": "text_block",
+        "template--14916568285226__cb0b4ebb-60f1-4c0c-a08f-3bcaa11774b6-1686166578f0efbd44-1": {
+          "type": "liquid",
           "settings": {
-            "enable_image": true,
-            "image_mask": "square",
-            "image_width": 60,
-            "title": "Crop-length",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--14916568285226__c61ccae2-815c-49aa-b30a-3184a8bc085c-1684792101acffbb66-1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "square",
-            "image_width": 60,
-            "title": "Dual pockets",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--14916568285226__c61ccae2-815c-49aa-b30a-3184a8bc085c-1684792101acffbb66-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "square",
-            "image_width": 60,
-            "title": "Drop Shoulder",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "code": "<div\n    \tclass=\"yotpo yotpo-pictures-widget\"\n    \tdata-gallery-id=\"627ac733701eef16225b91e1\"\n    \tdata-product-id=\"{{ product.id }}\">\n    <\/div>",
+            "width": "100%",
+            "alignment": "center"
           }
         }
       },
       "block_order": [
-        "template--14916568285226__c61ccae2-815c-49aa-b30a-3184a8bc085c-1684792101acffbb66-0",
-        "template--14916568285226__c61ccae2-815c-49aa-b30a-3184a8bc085c-1684792101acffbb66-1",
-        "template--14916568285226__c61ccae2-815c-49aa-b30a-3184a8bc085c-1684792101acffbb66-2"
-      ],
-      "custom_css": [
-
+        "template--14916568285226__cb0b4ebb-60f1-4c0c-a08f-3bcaa11774b6-1686166578f0efbd44-1"
       ],
       "settings": {
-        "title": "",
-        "align_text": "center",
-        "divider": false
-      }
-    },
-    "8b559b9f-150c-4440-836a-63d9a427e9ee": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/2023-04-17-dudldeystephens_ShadesOfPinck-JDP_2505.jpg",
-        "image_mask": "none",
-        "image2": "shopify:\/\/shop_images\/2023-04-17-dudldeystephens_ShadesOfPinck-JDP_2353.jpg",
-        "image2_mask": "none",
-        "subtitle": "Find your style",
-        "title": "About the fabric",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-        "button_label": "FABRIC GUIDE",
-        "button_link": "shopify:\/\/pages\/fabric-guide",
-        "button_style": "secondary",
-        "align_text": "center",
-        "image_width": "50",
-        "layout": "right",
-        "divider": true,
-        "top_padding": true,
-        "bottom_padding": false,
-        "lazyload_images": true
-      }
-    },
-    "42bbdc9e-6eff-44f4-9eb7-2fb48cd87e58": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/2023-04-17-dudldeystephens_ShadesOfPinck-JDP_2505.jpg",
-        "image_mask": "none",
-        "image2": "shopify:\/\/shop_images\/2023-04-17-dudldeystephens_ShadesOfPinck-JDP_2353.jpg",
-        "image2_mask": "none",
-        "subtitle": "Find your style",
-        "title": "About the fit",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-        "button_label": "FIT GUIDE",
-        "button_link": "shopify:\/\/pages\/fit-guide-2022",
-        "button_style": "secondary",
-        "align_text": "center",
-        "image_width": "50",
-        "layout": "left",
-        "divider": false,
-        "top_padding": false,
-        "bottom_padding": false,
+        "full_width": false,
+        "space_around": true,
         "lazyload_images": true
       }
     },
@@ -257,6 +157,9 @@
       },
       "block_order": [
         "f0a190d9-8ce5-4fc7-b3b8-ddadc7af6f37"
+      ],
+      "custom_css": [
+        ".yotpo-main-widget {max-width: 1000px;}"
       ],
       "settings": {
         "full_width": false,
@@ -280,6 +183,7 @@
     },
     "recently-viewed": {
       "type": "recently-viewed",
+      "disabled": true,
       "settings": {
         "recent_count": 5
       }
@@ -292,9 +196,7 @@
   },
   "order": [
     "main",
-    "c61ccae2-815c-49aa-b30a-3184a8bc085c",
-    "8b559b9f-150c-4440-836a-63d9a427e9ee",
-    "42bbdc9e-6eff-44f4-9eb7-2fb48cd87e58",
+    "cb0b4ebb-60f1-4c0c-a08f-3bcaa11774b6",
     "16851221169ef3c6b3",
     "sub",
     "product-recommendations",

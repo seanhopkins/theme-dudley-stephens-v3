@@ -155,6 +155,7 @@
         },
         "template--14916567695402__ad8d799a-dd28-40ce-8234-0b79cb13bd90-16851213259a117373-3": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "dresses",
             "title": "",
@@ -163,6 +164,7 @@
         },
         "a8507b50-c9f2-4ee1-8107-45b5179e5370": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "outerwear",
             "title": "",
@@ -171,6 +173,7 @@
         },
         "81a8ff31-c9ed-4f4d-9b20-5bb38a440fc7": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "kids",
             "title": "",
@@ -245,25 +248,65 @@
         "lazyload_images": true
       }
     },
-    "537cdca2-2a11-4865-bc4f-c49f8928662a": {
-      "type": "featured-collection",
+    "3acb1261-9345-47a4-bd1a-d0ef5ac97f9c": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "package",
+            "title": "Female founded",
+            "text": "<p>Etiam feugiat lorem non metus. j<a href=\"#@!\" title=\"#@!\">Nullam quis ante.<\/a><\/p>"
+          }
+        },
+        "fb5cf248-626f-455c-9505-61ff07cbc9f8": {
+          "type": "text_block",
+          "settings": {
+            "icon": "sales-tag",
+            "title": "Family owned",
+            "text": "<p>Quisque id odio. Morbi nec metus.<\/p>"
+          }
+        },
+        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "recycle",
+            "title": "Responsible retail",
+            "text": "<p>All our products are made from recycled waterbottles<\/p>"
+          }
+        },
+        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-2": {
+          "type": "text_block",
+          "settings": {
+            "icon": "charity",
+            "title": "DS gives back",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-1",
+        "fb5cf248-626f-455c-9505-61ff07cbc9f8",
+        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-0",
+        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-2"
+      ],
       "custom_css": [
-        ".index-section {margin: 0;}",
-        ".grid-product__tag--sale,.grid-product__tag--custom {text-transform: uppercase; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.05em; border-bottom-left-radius: 4px;}",
-        "h3 {font-family: \"Gill Sans\";}"
+        ".text-with-icons__block-icon .icon {width: 40px;}",
+        "h3 {font-size: 1.5em;}"
       ],
       "settings": {
         "title": "",
-        "home_featured_products": "4-26-drop",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": false,
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
         "divider": false
       }
     },
     "cf175cf8-a4e8-45f7-8a52-3b14ac752957": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-0": {
           "type": "title",
@@ -302,384 +345,58 @@
         "image_width": "33",
         "image_mask": "none",
         "image_position": "right",
-        "color_background": "#f8f4ed",
+        "color_background": "rgba(0,0,0,0)",
         "color_text": "#232528",
         "top_padding": true,
         "bottom_padding": true
       }
     },
-    "dd662593-564f-46bd-965c-42be0bb69954": {
-      "type": "logo-list",
-      "disabled": true,
+    "8bf51204-064d-4110-81a9-f1c24de072bd": {
+      "type": "rich-text",
       "blocks": {
-        "template--14916567695402__dd662593-564f-46bd-965c-42be0bb69954-1683732257b215b813-0": {
-          "type": "logo_image",
+        "template--14916567695402__8bf51204-064d-4110-81a9-f1c24de072bd-1686246314199da9f7-0": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/elle.jpg",
-            "link": ""
+            "title": "This is how we dudley"
           }
         },
-        "template--14916567695402__dd662593-564f-46bd-965c-42be0bb69954-1683732257b215b813-1": {
-          "type": "logo_image",
+        "template--14916567695402__8bf51204-064d-4110-81a9-f1c24de072bd-1686246314199da9f7-1": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/people_300x_757ee6a7-7e6b-446c-ac16-d598aa89063e.png",
-            "link": ""
-          }
-        },
-        "template--14916567695402__dd662593-564f-46bd-965c-42be0bb69954-1683732257b215b813-2": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/o-mag-logo_300x_840ae9d1-fd1d-4cd8-9062-0be94333c294.jpg",
-            "link": ""
-          }
-        },
-        "template--14916567695402__dd662593-564f-46bd-965c-42be0bb69954-1683732257b215b813-3": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/cnn-logo-logo_300x_72ec6853-6cd8-4a9a-9e1e-32901582365b.png",
-            "link": ""
-          }
-        },
-        "c9c2aa45-7d05-43f5-94a7-df3ff625b4ad": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/fox-business-vector-logo_300x_b438eb99-9333-4007-b078-807d279dd14d.png",
-            "link": ""
-          }
-        },
-        "b1fd02c9-85f4-4f4b-8577-b376a592bc27": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/womens-wear-daily-wwd-vector-logo_240x_686bf968-8164-4fb9-81d5-5f73e44810cd.png",
-            "link": ""
+            "enlarge_text": true,
+            "text": "<p><a href=\"https:\/\/www.instagram.com\/dudley_stephens\/?hl=en\">@dudley_stephens<\/a> | #howdoyoududley<\/p>"
           }
         }
       },
       "block_order": [
-        "template--14916567695402__dd662593-564f-46bd-965c-42be0bb69954-1683732257b215b813-0",
-        "template--14916567695402__dd662593-564f-46bd-965c-42be0bb69954-1683732257b215b813-1",
-        "template--14916567695402__dd662593-564f-46bd-965c-42be0bb69954-1683732257b215b813-2",
-        "template--14916567695402__dd662593-564f-46bd-965c-42be0bb69954-1683732257b215b813-3",
-        "c9c2aa45-7d05-43f5-94a7-df3ff625b4ad",
-        "b1fd02c9-85f4-4f4b-8577-b376a592bc27"
-      ],
-      "custom_css": [
-        "h2 {text-align: center;}",
-        ".index-section {background-color: #f8f4ed;}"
+        "template--14916567695402__8bf51204-064d-4110-81a9-f1c24de072bd-1686246314199da9f7-0",
+        "template--14916567695402__8bf51204-064d-4110-81a9-f1c24de072bd-1686246314199da9f7-1"
       ],
       "settings": {
-        "title": "",
-        "logo_opacity": 20,
-        "divider": false
-      }
-    },
-    "0ea63146-12df-42a7-a684-7d4133fd7903": {
-      "type": "hotspots",
-      "disabled": true,
-      "blocks": {
-        "template--14916567695402__0ea63146-12df-42a7-a684-7d4133fd7903-16844350879d46fb13-1": {
-          "type": "product",
-          "settings": {
-            "featured_product": "cat-rock-cardigan-in-vello-fleece-ice-blue",
-            "vertical": 30,
-            "horizontal": 25
-          }
-        },
-        "template--14916567695402__0ea63146-12df-42a7-a684-7d4133fd7903-16844350879d46fb13-0": {
-          "type": "product",
-          "settings": {
-            "featured_product": "bali-top-in-repreve-stretch-white",
-            "vertical": 60,
-            "horizontal": 50
-          }
-        },
-        "01eb130c-2c88-43d6-9b27-4195d8e8adb5": {
-          "type": "product",
-          "settings": {
-            "featured_product": "jetties-pant-in-terry-fleece-off-white",
-            "vertical": 90,
-            "horizontal": 75
-          }
-        },
-        "f7b0e148-7baa-4f45-bf02-c25d7063f64b": {
-          "type": "product",
-          "settings": {
-            "featured_product": "",
-            "vertical": 10,
-            "horizontal": 53
-          }
-        },
-        "38676eaf-f210-4140-9703-cadf3efba5f6": {
-          "type": "product",
-          "settings": {
-            "featured_product": "",
-            "vertical": 62,
-            "horizontal": 78
-          }
-        }
-      },
-      "block_order": [
-        "template--14916567695402__0ea63146-12df-42a7-a684-7d4133fd7903-16844350879d46fb13-1",
-        "template--14916567695402__0ea63146-12df-42a7-a684-7d4133fd7903-16844350879d46fb13-0",
-        "01eb130c-2c88-43d6-9b27-4195d8e8adb5",
-        "f7b0e148-7baa-4f45-bf02-c25d7063f64b",
-        "38676eaf-f210-4140-9703-cadf3efba5f6"
-      ],
-      "custom_css": [
-        ".hotspots-wrapper {max-width: 66%;}"
-      ],
-      "settings": {
-        "title": "Shop the look",
-        "heading_size": "h2",
-        "heading_position": "center",
-        "image": "shopify:\/\/shop_images\/MothersdayGG.jpg",
-        "indent_image": false,
-        "image_position": "left",
-        "hotspot_style": "tag",
-        "hotspot_color": "#ffffff",
-        "lazyload_images": true
-      }
-    },
-    "9d451ba4-68b4-470b-85d1-cce179b92548": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "New essentials",
-        "home_featured_products": "new-essentials",
-        "per_row": 5,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": true
-      }
-    },
-    "e235f58e-57de-464a-8a72-837ea277361a": {
-      "type": "slideshow",
-      "blocks": {
-        "template--14916567695402__e235f58e-57de-464a-8a72-837ea277361a-1684955786c23e5155-0": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "Female founded, \nfamily owned.",
-            "title_size": 80,
-            "subheading": "",
-            "link": "shopify:\/\/pages\/about-dudley-stephens",
-            "link_text": "Our Story",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/Dudley-Sisters.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--14916567695402__e235f58e-57de-464a-8a72-837ea277361a-1684955786c23e5155-0"
-      ],
-      "settings": {
-        "section_height": "650px",
-        "mobile_height": "auto",
-        "parallax": true,
-        "style": "bars",
-        "autoplay": true,
-        "autoplay_speed": 5,
-        "lazyload_images": true
-      }
-    },
-    "3acb1261-9345-47a4-bd1a-d0ef5ac97f9c": {
-      "type": "text-with-icons",
-      "blocks": {
-        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-1": {
-          "type": "text_block",
-          "settings": {
-            "icon": "package",
-            "title": "Female founded",
-            "text": "<p>Etiam feugiat lorem non metus. Nullam quis ante.<\/p>"
-          }
-        },
-        "fb5cf248-626f-455c-9505-61ff07cbc9f8": {
-          "type": "text_block",
-          "settings": {
-            "icon": "sales-tag",
-            "title": "Family owned",
-            "text": "<p>Quisque id odio. Morbi nec metus.<\/p>"
-          }
-        },
-        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-0": {
-          "type": "text_block",
-          "settings": {
-            "icon": "recycle",
-            "title": "Responsible retail",
-            "text": "<p>All our products are made from recycled waterbottles<\/p>"
-          }
-        },
-        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-2": {
-          "type": "text_block",
-          "settings": {
-            "icon": "charity",
-            "title": "DS gives back",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-1",
-        "fb5cf248-626f-455c-9505-61ff07cbc9f8",
-        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-0",
-        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-2"
-      ],
-      "custom_css": [
-        ".index-section {background-color: #f2f8fd; margin: 0;}",
-        ".text-with-icons__block-icon .icon {width: 40px;}",
-        "h3 {font-size: 1.5em;}"
-      ],
-      "settings": {
-        "title": "",
         "align_text": "center",
-        "desktop_columns_per_row": 4,
-        "icon_color": "#000000",
-        "button_label": "",
-        "button_link": "",
+        "narrow_column": true,
         "divider": false
       }
     },
-    "3283dc6a-ca11-4d10-91a7-cedc47a19e46": {
-      "type": "text-columns",
-      "disabled": true,
+    "b00ee6a4-d768-42d2-b053-75459ca062fe": {
+      "type": "advanced-content",
       "blocks": {
-        "766713eb-6a75-4905-a739-d9a676b8f737": {
-          "type": "text_block",
+        "template--14916567695402__b00ee6a4-d768-42d2-b053-75459ca062fe-1686166578f0efbd44-1": {
+          "type": "liquid",
           "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/2023-04-17-dudldeystephens-JDP_1713.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "",
-            "text": "<h4><a href=\"\/collections\/new-drops\" title=\"Shop the New Drops\">Shop the latest<\/a><\/h4>",
-            "button_label": "",
-            "button_link": "shopify:\/\/collections\/new-drops"
-          }
-        },
-        "be088a18-d7e5-4c84-be33-80be16342c10": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Seasonal Refresh",
-            "text": "<p>New styles for right now<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/turtlenecks"
-          }
-        },
-        "3ddf58c6-3030-4e6f-8364-889614041e2c": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/fabricguide.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "",
-            "text": "<h4><a href=\"\/pages\/fabric-guide\" title=\"Fabric Guide\">DS Fabric Guide<\/a><\/h4>",
-            "button_label": "",
-            "button_link": "shopify:\/\/pages\/fabric-guide"
+            "code": "<div class=\"yotpo yotpo-pictures-widget\" data-gallery-id=\"60b94222238de4456e9fb81a\"><\/div>",
+            "width": "100%",
+            "alignment": "center"
           }
         }
       },
       "block_order": [
-        "766713eb-6a75-4905-a739-d9a676b8f737",
-        "be088a18-d7e5-4c84-be33-80be16342c10",
-        "3ddf58c6-3030-4e6f-8364-889614041e2c"
-      ],
-      "custom_css": [
-        "h3 {font-size: 2em; margin-bottom: 0;}",
-        ".btn {margin-top: 2em;}",
-        ".grid--uniform {display: flex; align-items: center;}",
-        "h4 {font-size: 0.9em; letter-spacing: 2px;}",
-        ".medium-up--one-third:nth-child(1) {text-align: right !important;}",
-        ".medium-up--one-third:nth-child(2) {text-align: center !important;}",
-        ".image-wrap {border-radius: 8px;}"
+        "template--14916567695402__b00ee6a4-d768-42d2-b053-75459ca062fe-1686166578f0efbd44-1"
       ],
       "settings": {
-        "title": "",
-        "align_text": "left",
-        "divider": true
-      }
-    },
-    "55b4676d-449a-4dad-bd6c-c86b5726c2ae": {
-      "type": "text-columns",
-      "disabled": true,
-      "blocks": {
-        "template--14916567695402__55b4676d-449a-4dad-bd6c-c86b5726c2ae-1683728794ec26b989-0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/A6ED2CA7-11F8-4C5C-A9C8-62737607A943_1_201_a_c145a2e5-60c5-434a-a646-79fdccb90aa5.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "Park Slope",
-            "button_link": "shopify:\/\/collections\/park-slope-turtleneck"
-          }
-        },
-        "template--14916567695402__55b4676d-449a-4dad-bd6c-c86b5726c2ae-1683728794ec26b989-1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/1C0BCD44-F270-4D06-AC06-496D76516010_1_201_a_678db4a3-8fd8-44d6-adec-fd51c069aa1f.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "Greenpoint",
-            "button_link": "shopify:\/\/collections\/greenpoint-turtleneck"
-          }
-        },
-        "template--14916567695402__55b4676d-449a-4dad-bd6c-c86b5726c2ae-1683728794ec26b989-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/342CB2A9-F717-42D6-8366-CACA7CCE3118_1_201_a_fd73901d-7f16-45a9-843d-a5cd65bc49aa.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "Cobble Hill",
-            "button_link": "shopify:\/\/collections\/cobble-hill-turtleneck"
-          }
-        },
-        "b4389e38-d626-4753-b544-cb0c7daa17aa": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Our Bestselling Turtlenecks",
-            "text": "<p>Three versatile lengths. Coziness for days (and nights)<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/turtlenecks"
-          }
-        }
-      },
-      "block_order": [
-        "template--14916567695402__55b4676d-449a-4dad-bd6c-c86b5726c2ae-1683728794ec26b989-0",
-        "template--14916567695402__55b4676d-449a-4dad-bd6c-c86b5726c2ae-1683728794ec26b989-1",
-        "template--14916567695402__55b4676d-449a-4dad-bd6c-c86b5726c2ae-1683728794ec26b989-2",
-        "b4389e38-d626-4753-b544-cb0c7daa17aa"
-      ],
-      "custom_css": [
-        "h3 {font-size: 2em; line-height: 1em;}",
-        "h4 {font-size: 0.9em; letter-spacing: 2px;}",
-        ".rte-setting + .btn {margin-top: 2em;}",
-        ".grid--uniform {display: flex; align-items: center;}",
-        ".grid__item:last-of-type {text-align: center !important;}"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "left",
-        "divider": false
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
       }
     }
   },
@@ -689,14 +406,9 @@
     "rich-text",
     "ad8d799a-dd28-40ce-8234-0b79cb13bd90",
     "b436726f-56a1-40d8-9a9c-1d5386d219c4",
-    "537cdca2-2a11-4865-bc4f-c49f8928662a",
-    "cf175cf8-a4e8-45f7-8a52-3b14ac752957",
-    "dd662593-564f-46bd-965c-42be0bb69954",
-    "0ea63146-12df-42a7-a684-7d4133fd7903",
-    "9d451ba4-68b4-470b-85d1-cce179b92548",
-    "e235f58e-57de-464a-8a72-837ea277361a",
     "3acb1261-9345-47a4-bd1a-d0ef5ac97f9c",
-    "3283dc6a-ca11-4d10-91a7-cedc47a19e46",
-    "55b4676d-449a-4dad-bd6c-c86b5726c2ae"
+    "cf175cf8-a4e8-45f7-8a52-3b14ac752957",
+    "8bf51204-064d-4110-81a9-f1c24de072bd",
+    "b00ee6a4-d768-42d2-b053-75459ca062fe"
   ]
 }

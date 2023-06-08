@@ -1,0 +1,32 @@
+{%- assign postscript_id = postscript_id -%}
+
+{%- if block.settings.id != blank -%}
+	{%- assign postscript_id = block.settings.id -%}
+{%- endif -%}
+
+{%- assign block_id = block.id -%}
+
+{%- if block_id == blank -%}
+	{%- assign block_id = 'footer' -%}
+{%- endif %}
+
+
+<div id="ps__subscribe-form-{{ postscript_id }}--{{ block_id }}" class="footer__newsletter">
+   <form action="https://api.postscript.io/subscribe/form" method="post" onsubmit="document.getElementById('ps__sent-message-{{ postscript_id }}--{{ block_id }}').style.display = 'block'; document.getElementById('ps__subscribe-form-{{ postscript_id }}--{{ block_id }}').style.display = 'none';" target="dummyframe">
+      <input id="ps__shop_id-{{ postscript_id }}" name="shop_id" type="hidden" value="11859">
+      <input id="ps__keyword_id-{{ postscript_id }}" name="keyword_id" type="hidden" value="{{ postscript_id }}">
+      <input id="ps__phone-subscribe-{{ postscript_id }}" class="footer__newsletter-input" name="phone" type="phone" placeholder="Phone Number" required>
+      <button type="submit" value="Subscribe" class="footer__newsletter-btn">
+         <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-phone" viewBox="0 0 64 64"><path d="m18.4 9.65 10.2 10.2-6.32 6.32c2.1 7 6.89 12.46 15.55 15.55l6.32-6.32 10.2 10.2-8.75 8.75C25.71 50.3 13.83 38.21 9.65 18.4Z" style="fill:none;stroke:#000;stroke-width:2px"/></svg>
+         <span class="footer__newsletter-btn-label">
+            {{ 'general.newsletter_form.submit' | t }}
+         </span>
+      </button>
+   </form>
+</div>
+<div id="ps__sent-message-{{ postscript_id }}--{{ block_id }}" class="rte" style="display: none;">
+   <p class="confirmation-message">Thanks for subscribing! We'll send you a message shortly.</p>
+</div>
+<small class="disclaimer rte"> *By subscribing, you agree to receive recurring automated marketing text messages (e.g. cart reminders) at the phone number provided. Consent is not a condition to purchase. Msg & data rates may apply. Msg frequency varies. Reply HELP for help and STOP to cancel. View our <a class="text-link no-letter-spacing" href="{{shop.privacy_policy.url}}">Privacy Policy</a> and <a class="text-link no-letter-spacing" href="{{shop.terms_of_service.url}}">Terms of Service</a>.</small>
+<iframe width="0" height="0" border="0" name="dummyframe" id="ps__dummyframe-{{ postscript_id }}" style="display: none;"></iframe>
+

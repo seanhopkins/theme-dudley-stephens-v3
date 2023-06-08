@@ -1,1 +1,48 @@
-{"sections":{"main":{"type":"list-collections-template","settings":{}},"logo-list":{"type":"logo-list","blocks":{"logo1":{"type":"logo_image","settings":{}},"logo2":{"type":"logo_image","settings":{}},"logo3":{"type":"logo_image","settings":{}},"logo4":{"type":"logo_image","settings":{}},"logo5":{"type":"logo_image","settings":{}},"logo6":{"type":"logo_image","settings":{}}},"block_order":["logo1","logo2","logo3","logo4","logo5","logo6"],"settings":{"title":"Our brands"}}},"order":["main","logo-list"]}
+{
+  "sections": {
+    "main": {
+      "type": "list-collections-template",
+      "blocks": {
+        "354f240a-556f-45c0-a13f-bfbfcd7a3266": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "a31fe153-fca0-4e64-9ee8-2448970bf6c3": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "73d56897-ae7d-4466-bc5e-539405240e25": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "07392962-b263-476d-87d3-7580407be7a6": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "354f240a-556f-45c0-a13f-bfbfcd7a3266",
+        "a31fe153-fca0-4e64-9ee8-2448970bf6c3",
+        "73d56897-ae7d-4466-bc5e-539405240e25",
+        "07392962-b263-476d-87d3-7580407be7a6"
+      ],
+      "settings": {
+        "title_enable": true,
+        "display_type": "selected",
+        "sort": "alphabetical",
+        "grid": "4"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

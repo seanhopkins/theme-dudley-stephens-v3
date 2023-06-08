@@ -12,21 +12,39 @@
     "preact/jsx-dev-runtime": "preact/jsx-runtime"
   },
   "scripts": {
+    "gwp:build": "vue-cli-service build --dest ./assets --formats umd,umd-min --target lib --inline-vue --name giftWithPurchase _src/vue/gift-with-purchase/gift-with-purchase.js --no-clean && rm _src/js/demo.html",
     "watch": "parcel watch",
     "build": "parcel build",
     "shop:start": "shopify theme dev --store=dudley-stephens",
     "js:checkout:dev": "webpack --env development",
-    "js:checkout:prod": "webpack --env production"
+    "js:checkout:prod": "webpack --env production",
+    "js:fitguide": "parcel _src/js/fitguide.js --dist-dir assets"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier-vue": "^4.2.0",
+    "eslint-plugin-vue": "^8.7.1",
     "parcel": "^2.8.3",
     "webpack": "^5.83.1",
     "webpack-cli": "^5.1.1"
   },
   "dependencies": {
     "@discolabs/custard-js": "^0.1.3",
-    "preact": "^10.15.0"
-  }
+    "preact": "^10.15.0",
+    "vue": "^3.2.13"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
 }

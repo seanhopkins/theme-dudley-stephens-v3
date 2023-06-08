@@ -59,30 +59,34 @@
             "show_footer_title": true,
             "title": "Sign up and save",
             "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-            "container_width": 40
+            "container_width": 40,
+            "show_postscript": true,
+            "form_id": "29344",
+            "postscript_title": "Exclusive Notifications",
+            "postscript_description": "<p>Enter your phone number below to receive DS insider updates and offers by text.<\/p>"
           }
         },
         "footer-1": {
           "type": "menu",
           "settings": {
-            "show_footer_title": false,
-            "menu": "footer-customer-service",
+            "show_footer_title": true,
+            "menu": "2023-customer-service",
             "container_width": 20
           }
         },
         "d3d35720-b5de-4334-b86a-53cd32d32b1c": {
           "type": "menu",
           "settings": {
-            "show_footer_title": false,
-            "menu": "2021-footer-about",
+            "show_footer_title": true,
+            "menu": "2023-about",
             "container_width": 20
           }
         },
         "28561ea1-faee-40ab-9c1f-b2f80ab03606": {
           "type": "menu",
           "settings": {
-            "show_footer_title": false,
-            "menu": "footer-account-1",
+            "show_footer_title": true,
+            "menu": "2023-account",
             "container_width": 20
           }
         }

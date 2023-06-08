@@ -233,8 +233,10 @@ export default {
     document.addEventListener(
       "cart:updated",
       function (evt) {
-        this.updateCartSubtotalCents(evt.detail.cart.total_price);
-        this.updateGwpInCart(evt.detail.cart);
+        if (evt.detail.cart.total_price) {
+          this.updateCartSubtotalCents(evt.detail.cart.total_price);
+          this.updateGwpInCart(evt.detail.cart);
+        }
       }.bind(this)
     );
 

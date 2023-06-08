@@ -351,14 +351,40 @@
         "bottom_padding": true
       }
     },
+    "8bf51204-064d-4110-81a9-f1c24de072bd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14916567695402__8bf51204-064d-4110-81a9-f1c24de072bd-1686246314199da9f7-0": {
+          "type": "heading",
+          "settings": {
+            "title": "This is how we dudley"
+          }
+        },
+        "template--14916567695402__8bf51204-064d-4110-81a9-f1c24de072bd-1686246314199da9f7-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p><a href=\"https:\/\/www.instagram.com\/dudley_stephens\/?hl=en\">@dudley_stephens<\/a> | #howdoyoududley<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14916567695402__8bf51204-064d-4110-81a9-f1c24de072bd-1686246314199da9f7-0",
+        "template--14916567695402__8bf51204-064d-4110-81a9-f1c24de072bd-1686246314199da9f7-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "b00ee6a4-d768-42d2-b053-75459ca062fe": {
       "type": "advanced-content",
-      "disabled": true,
       "blocks": {
         "template--14916567695402__b00ee6a4-d768-42d2-b053-75459ca062fe-1686166578f0efbd44-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h1> EMBED YOTPO GALLERY <\/h1>",
+            "code": "<div class=\"yotpo yotpo-pictures-widget\" data-gallery-id=\"60b94222238de4456e9fb81a\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -382,6 +408,7 @@
     "b436726f-56a1-40d8-9a9c-1d5386d219c4",
     "3acb1261-9345-47a4-bd1a-d0ef5ac97f9c",
     "cf175cf8-a4e8-45f7-8a52-3b14ac752957",
+    "8bf51204-064d-4110-81a9-f1c24de072bd",
     "b00ee6a4-d768-42d2-b053-75459ca062fe"
   ]
 }

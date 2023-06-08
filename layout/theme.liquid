@@ -104,11 +104,6 @@
 
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
 
-  {% if settings.gwp_enable %}
-    <link rel="stylesheet" href="{{ 'gwp.css' | asset_url | split: '?' | first }}">
-    <script src="{{ 'giftWithPurchase.umd.js' | asset_url }}" defer="defer"></script>
-  {% endif %}
-
   {%- if request.page_type contains 'customers/' -%}
     <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
   {%- endif -%}

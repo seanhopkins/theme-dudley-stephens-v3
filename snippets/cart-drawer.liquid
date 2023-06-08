@@ -16,6 +16,8 @@
       {% comment %} Vue component {% endcomment %}
       {% if settings.gwp_enable %}
         <div id="GiftWithPurchase"></div>
+        <link rel="stylesheet" href="{{ 'gwp.css' | asset_url | split: '?' | first }}">
+        <script src="{{ 'gift-with-purchase.js' | asset_url }}" defer="defer"></script>
       {% endif %}
 
       <div class="drawer__inner">

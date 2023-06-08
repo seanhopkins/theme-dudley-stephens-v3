@@ -1,0 +1,110 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "30cb9ec0-0743-490d-ad88-58dc8f6ee5c1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14916874403882__30cb9ec0-0743-490d-ad88-58dc8f6ee5c1-1681492553a288e12b-0": {
+          "type": "heading",
+          "settings": {
+            "title": "The Dudley Stephens Fit Guide"
+          }
+        },
+        "template--14916874403882__30cb9ec0-0743-490d-ad88-58dc8f6ee5c1-1681492553a288e12b-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Welcome to our fit guide, where six women across sizes XS-XXL show you how our pieces fit. To find your best Dudley size, just click the size icons below to view our videos and see the fit guide details.<\/p>"
+          }
+        },
+        "e4b32f6b-ff48-4333-bbf1-bf8dca1662ae": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Still have questions? Our stylists are ready to help. <a href=\"https:\/\/www.dudley-stephens.com\/pages\/contact-us\" title=\"https:\/\/www.dudley-stephens.com\/pages\/contact-us\">Contact us<\/a> or sign up for our <a href=\"https:\/\/www.dudley-stephens.com\/pages\/sms\" title=\"https:\/\/www.dudley-stephens.com\/pages\/sms\">SMS<\/a> service to connect directly with a member of our customer service team. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14916874403882__30cb9ec0-0743-490d-ad88-58dc8f6ee5c1-1681492553a288e12b-0",
+        "template--14916874403882__30cb9ec0-0743-490d-ad88-58dc8f6ee5c1-1681492553a288e12b-1",
+        "e4b32f6b-ff48-4333-bbf1-bf8dca1662ae"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "2537d320-00ba-453c-9c5f-53df5336762d": {
+      "type": "page-fit-guide-2022",
+      "blocks": {
+        "template--14933261484074__2537d320-00ba-453c-9c5f-53df5336762d-1685485115b2bb5adc-0": {
+          "type": "size-page",
+          "settings": {
+            "page": "fit-guide-2022-xs",
+            "title": "XS"
+          }
+        },
+        "template--14933261484074__2537d320-00ba-453c-9c5f-53df5336762d-1685485115b2bb5adc-1": {
+          "type": "size-page",
+          "settings": {
+            "page": "fit-guide-2022-s",
+            "title": "S"
+          }
+        },
+        "template--14933261484074__2537d320-00ba-453c-9c5f-53df5336762d-1685485115b2bb5adc-2": {
+          "type": "size-page",
+          "settings": {
+            "page": "fit-guide-2022-m",
+            "title": "M"
+          }
+        },
+        "template--14933261484074__2537d320-00ba-453c-9c5f-53df5336762d-1685485115b2bb5adc-3": {
+          "type": "size-page",
+          "settings": {
+            "page": "fit-guide-2022-l",
+            "title": "L"
+          }
+        },
+        "template--14933261484074__2537d320-00ba-453c-9c5f-53df5336762d-1685485115b2bb5adc-4": {
+          "type": "size-page",
+          "settings": {
+            "page": "fit-guide-2022-xl",
+            "title": "XL"
+          }
+        },
+        "9c761d1b-9e3c-4610-9795-06b592abb609": {
+          "type": "size-page",
+          "settings": {
+            "page": "fit-guide-2022-xxl",
+            "title": "XXL"
+          }
+        }
+      },
+      "block_order": [
+        "template--14933261484074__2537d320-00ba-453c-9c5f-53df5336762d-1685485115b2bb5adc-0",
+        "template--14933261484074__2537d320-00ba-453c-9c5f-53df5336762d-1685485115b2bb5adc-1",
+        "template--14933261484074__2537d320-00ba-453c-9c5f-53df5336762d-1685485115b2bb5adc-2",
+        "template--14933261484074__2537d320-00ba-453c-9c5f-53df5336762d-1685485115b2bb5adc-3",
+        "template--14933261484074__2537d320-00ba-453c-9c5f-53df5336762d-1685485115b2bb5adc-4",
+        "9c761d1b-9e3c-4610-9795-06b592abb609"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "30cb9ec0-0743-490d-ad88-58dc8f6ee5c1",
+    "2537d320-00ba-453c-9c5f-53df5336762d"
+  ]
+}

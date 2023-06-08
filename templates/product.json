@@ -1,1 +1,206 @@
-{"sections":{"main":{"type":"main-product","blocks":{"price":{"type":"price","settings":{}},"separator":{"type":"separator","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"variant_labels":true,"picker_type":"button","product_dynamic_variants_enable":true,"color_swatches":false}},"inventory_status":{"type":"inventory_status","settings":{"inventory_threshold":10,"inventory_transfers_enable":true}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":false,"surface_pickup_enable":false}},"description":{"type":"description","settings":{"is_tab":false}},"tab":{"type":"tab","settings":{"title":"Details","content":"{{ product.metafields.custom.product_details | metafield_tag }}","page":""}},"a9647209-69d7-4725-adbc-99a8bc34a600":{"type":"tab","settings":{"title":"Fit","content":"{{ product.metafields.custom.product_fit | metafield_tag }}<ul><li>Width: {{ product.metafields.custom.dimensions.value.width.value }}<\/li><li>Length: {{ product.metafields.custom.dimensions.value.length.value }}<\/li><li>Back Length:{{ product.metafields.custom.dimensions.value.back_length.value }}<\/li><li>Sleeve Length: {{ product.metafields.custom.dimensions.value.sleeve_length.value }}<\/li><li>Bust: {{ product.metafields.custom.dimensions.value.bust.value }}<\/li><li>Inseam: {{ product.metafields.custom.dimensions.value.inseam.value }}<\/li><li>Front Rise: {{ product.metafields.custom.dimensions.value.front_rise.value }}<\/li><\/ul>","page":""}},"a993a2f9-2010-4809-9570-0e2179514bf7":{"type":"tab","settings":{"title":"Care","content":"{{ product.metafields.custom.product_care | metafield_tag }}","page":""}},"share":{"type":"share","settings":{}}},"block_order":["price","separator","variant_picker","inventory_status","buy_buttons","description","tab","a9647209-69d7-4725-adbc-99a8bc34a600","a993a2f9-2010-4809-9570-0e2179514bf7","share"],"settings":{"sku_enable":false,"image_position":"left","image_size":"large","product_zoom_enable":true,"thumbnail_position":"beside","thumbnail_height":"flexible","thumbnail_arrows":false,"mobile_layout":"partial","enable_video_looping":true,"product_video_style":"muted"}},"sub":{"type":"product-full-width","disabled":true,"settings":{"max_width":true}},"background-image-text":{"type":"background-image-text","settings":{"subtitle":"Impressive","title":"About your brand","text":"<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>","button_label":"","button_link":"","layout":"left","height":550,"framed":false,"parallax":false,"parallax_direction":"top","lazyload_images":true}},"text-and-image":{"type":"text-and-image","settings":{"image_mask":"none","image2_mask":"none","subtitle":"","title":"About your brand","text":"<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>","button_label":"","button_link":"","button_style":"primary","align_text":"left","image_width":"50","layout":"right","divider":false,"top_padding":true,"bottom_padding":true,"lazyload_images":true}},"text-and-image2":{"type":"text-and-image","settings":{"image_mask":"none","image2_mask":"none","subtitle":"","title":"About your brand","text":"<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>","button_label":"","button_link":"","button_style":"primary","align_text":"left","image_width":"50","layout":"left","divider":false,"top_padding":true,"bottom_padding":true,"lazyload_images":true}},"testimonials":{"type":"testimonials","blocks":{"testimonials-0":{"type":"testimonial","settings":{"icon":"5-stars","testimonial":"<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>","author":"Author's name","author_info":"Los Angeles, CA"}},"testimonials-1":{"type":"testimonial","settings":{"icon":"5-stars","testimonial":"<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>","author":"Author's name","author_info":"Los Angeles, CA"}},"testimonials-2":{"type":"testimonial","settings":{"icon":"5-stars","testimonial":"<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>","author":"Author's name","author_info":"Los Angeles, CA"}}},"block_order":["testimonials-0","testimonials-1","testimonials-2"],"settings":{"title":"Testimonials","align_text":"center","round_images":true,"color_background":"#f9f9f9","color_text":"#1c1d1d"}},"product-recommendations":{"type":"product-recommendations","settings":{"product_recommendations_heading":"You may also like","related_count":4,"products_per_row":4}},"recently-viewed":{"type":"recently-viewed","settings":{"recent_count":5}},"collection-return":{"type":"collection-return","settings":{}}},"order":["main","sub","background-image-text","text-and-image","text-and-image2","testimonials","product-recommendations","recently-viewed","collection-return"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "c73cc944-2dd8-41be-96f5-01434a99b524": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "898a4dd8-f55a-4ad6-ac0c-2974dd79371b": {
+          "type": "size_chart",
+          "settings": {
+            "size_chart": "{{ product.metafields.custom.size_chart.value }}"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "Details",
+            "content": "{{ product.metafields.custom.product_details | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "ab135439-7e5c-4100-a042-17e17f3fa6c7": {
+          "type": "tab",
+          "settings": {
+            "title": "Fit",
+            "content": "{{ product.metafields.custom.product_fit | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "e84a0778-3ebe-4d15-9d52-f89ac088f28f": {
+          "type": "tab",
+          "settings": {
+            "title": "Care",
+            "content": "{{ product.metafields.custom.product_care | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "f04ac498-aae2-4dea-a727-52ea7ef7ff36": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "8058ac20-bea7-49a4-ad34-845c2aa0437b": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "package",
+            "text": "Easy returns"
+          }
+        },
+        "43d3e37f-8860-40ef-8349-35ff7eaa9cc4": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "leaf",
+            "text": "Sustainable shipping options available"
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "c73cc944-2dd8-41be-96f5-01434a99b524",
+        "separator",
+        "description",
+        "898a4dd8-f55a-4ad6-ac0c-2974dd79371b",
+        "variant_picker",
+        "buy_buttons",
+        "tab",
+        "ab135439-7e5c-4100-a042-17e17f3fa6c7",
+        "e84a0778-3ebe-4d15-9d52-f89ac088f28f",
+        "f04ac498-aae2-4dea-a727-52ea7ef7ff36",
+        "8058ac20-bea7-49a4-ad34-845c2aa0437b",
+        "43d3e37f-8860-40ef-8349-35ff7eaa9cc4"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "large",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "cb0b4ebb-60f1-4c0c-a08f-3bcaa11774b6": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14916568285226__cb0b4ebb-60f1-4c0c-a08f-3bcaa11774b6-1686166578f0efbd44-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div\n    \tclass=\"yotpo yotpo-pictures-widget\"\n    \tdata-gallery-id=\"627ac733701eef16225b91e1\"\n    \tdata-product-id=\"{{ product.id }}\">\n    <\/div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14916568285226__cb0b4ebb-60f1-4c0c-a08f-3bcaa11774b6-1686166578f0efbd44-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
+    "16851221169ef3c6b3": {
+      "type": "apps",
+      "blocks": {
+        "f0a190d9-8ce5-4fc7-b3b8-ddadc7af6f37": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "f0a190d9-8ce5-4fc7-b3b8-ddadc7af6f37"
+      ],
+      "custom_css": [
+        ".yotpo-main-widget {max-width: 1000px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "You may also like",
+        "related_count": 4,
+        "products_per_row": 4
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cb0b4ebb-60f1-4c0c-a08f-3bcaa11774b6",
+    "16851221169ef3c6b3",
+    "sub",
+    "product-recommendations",
+    "recently-viewed",
+    "collection-return"
+  ]
+}

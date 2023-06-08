@@ -3,9 +3,9 @@
     "name": "theme_info",
     "theme_name": "Impulse",
     "theme_author": "Archetype Themes",
-    "theme_version": "7.3.1",
-    "theme_documentation_url": "https://archetypethemes.co/blogs/impulse",
-    "theme_support_url": "https://archetypethemes.co/pages/support#impulse"
+    "theme_version": "7.3.3",
+    "theme_documentation_url": "https:\/\/archetypethemes.co\/blogs\/impulse",
+    "theme_support_url": "https:\/\/archetypethemes.co\/pages\/support#impulse"
   },
   {
     "name": "t:settings_schema.colors.name",
@@ -1039,6 +1039,83 @@
         "type": "checkbox",
         "id": "disable_animations",
         "label": "t:settings_schema.extras.settings.disable_animations.label"
+      }
+    ]
+  },
+  {
+    "name": "Custom Features",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Color Swatches"
+      },
+      {
+        "type": "checkbox",
+        "id": "product_grid_enable_swatches",
+        "label": "Show color swatches",
+        "default": false
+      },
+      {
+        "type": "range",
+        "id": "product_grid_swatch_limit",
+        "label": "Swatch limit",
+        "info": "Only applies if color swacthes are enabled",
+        "default": 4,
+        "min": 2,
+        "max": 20,
+        "step": 1
+      },
+      {
+        "type": "header",
+        "content": "Materials"
+      },
+      {
+        "type": "paragraph",
+        "content": "The listed materials will display as groupings on the swatch picker for the product page"
+      },
+      {
+        "type": "textarea",
+        "id": "materials_list",
+        "label": "Full list of materials (one per line)",
+        "default": "Material: Vello Fleece\nMaterial: Terry Fleece\nMaterial: Bubble Fleece\nMaterial: Double Layer Vello Fleece\nMaterial: Double Layer Vello Fleece with Neon Zipper\nMaterial: Brushed Fleece\nMaterial: Chevron\nMaterial: Ribbed Fleece\nMaterial: Vello Fleece Color Block\nMaterial: Shearling Fleece\nMaterial: Lightweight Vello Fleece\nMaterial: Townhouse Trunk Show\nMaterial: Silk\nMaterial: N\/A\nMaterial: Striped Fleece\nMaterial: Eco Jersey\nMaterial: Repreve® Jersey\nMaterial: Repreve® Striped Jersey\nMaterial: Waffle Jersey",
+        "info": "Include all materials in the order they should display on the product page"
+      },
+      {
+        "type": "textarea",
+        "id": "non_recycled_list",
+        "label": "Non-recycled materials (one per line)",
+        "default": "Material: Bubble Fleece\nMaterial: Brushed Fleece\nMaterial: Lightweight Vello Fleece\nMaterial: Townhouse Trunk Show\nMaterial: Silk\nMaterial: N\/A",
+        "info": "Include only the materials which should not display a recycled symbol"
+      },
+      {
+        "type": "header",
+        "content": "Tag Sale"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_tag_sale_message_clp",
+        "label": "Show on Collections",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "show_tag_sale_message_pdp",
+        "label": "Show on Products",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "tag_sale_tag",
+        "label": "Tag",
+        "default": "Example Tag Sale",
+        "info": "Tags are case sensitive and must match the tag on the product"
+      },
+      {
+        "type": "richtext",
+        "id": "tag_sale_message",
+        "label": "Message",
+        "default": "<p>Save 10% with code Extra10<\/p>",
+        "info": "Enter a message to be displayed if the product is tagged with the tag entered above"
       }
     ]
   }

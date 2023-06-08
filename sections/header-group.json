@@ -1,1 +1,108 @@
-{"type":"header","name":"t:sections.header-group.name","sections":{"header":{"type":"header","blocks":{"header-0":{"type":"logo","settings":{"logo":"shopify:\/\/shop_images\/dudley-logo-black-2020_1.png","desktop_logo_width":140,"mobile_logo_width":110}}},"block_order":["header-0"],"settings":{"main_menu_link_list":"new-2020-menu","mega_menu_images":true,"main_menu_alignment":"left-center","header_style":"sticky","sticky_index":false,"sticky_collection":false,"toolbar_menu":"footer","toolbar_social":true,"show_locale_selector":true,"show_currency_selector":true,"show_currency_flags":true}},"announcement":{"type":"announcement","blocks":{"announcement-1":{"type":"announcement","settings":{"text":"The first styles of summer are here!","link_text":"Shop the Drop","link":"shopify:\/\/collections\/new-drops"}}},"block_order":["announcement-1"],"settings":{"announcement_compact":true}},"8dce3f61-fd2a-4776-bb92-27498c1db1e3":{"type":"countdown","blocks":{"sections--14914129821738__8dce3f61-fd2a-4776-bb92-27498c1db1e3-168139475682f5b9db-0":{"type":"content","settings":{"heading":"Summer 2023 Drop","heading_size":"h2","text":"<p>Use this timer to create urgency and boost sales.<\/p>","content_alignment":"left"}},"sections--14914129821738__8dce3f61-fd2a-4776-bb92-27498c1db1e3-168139475682f5b9db-1":{"type":"timer","settings":{"year":"2023","month":"06","day":"1","hour":"03","minute":"00","hide_timer":true,"text":"<p>Shop the new drop!<\/p>"}},"sections--14914129821738__8dce3f61-fd2a-4776-bb92-27498c1db1e3-168139475682f5b9db-2":{"type":"button","settings":{"button_link":"","button":"Preview the Drop","button_style":"solid"}}},"block_order":["sections--14914129821738__8dce3f61-fd2a-4776-bb92-27498c1db1e3-168139475682f5b9db-0","sections--14914129821738__8dce3f61-fd2a-4776-bb92-27498c1db1e3-168139475682f5b9db-1","sections--14914129821738__8dce3f61-fd2a-4776-bb92-27498c1db1e3-168139475682f5b9db-2"],"settings":{"layout":"banner","full_width":true,"text_color":"#000","background_color":"#fafafa","overlay_color":"#000","overlay_opacity":0,"lazyload_images":true}}},"order":["header","announcement","8dce3f61-fd2a-4776-bb92-27498c1db1e3"]}
+{
+  "type": "header",
+  "name": "t:sections.header-group.name",
+  "sections": {
+    "7e8e0522-0025-4346-b01c-7825d2c36831": {
+      "type": "advanced-content",
+      "blocks": {
+        "sections--14928410804266__7e8e0522-0025-4346-b01c-7825d2c36831-16842749570980054c-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% comment %}\n**DO NOT DELETE**\nThis is how the custom font (QuaverSerif) is added to the theme\n{% endcomment %}\n{% style %}\n@font-face { \nfont-family: 'QuaverSerif';\nsrc: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0833\/2853\/files\/QuaverSerif.woff?v=1683726791 format('woff2');\n}\nh1,\nh2,\nh3,\nh4,\n.h0,\n.h1,\n.h2,\n.h3,\n.h4{\n  font-family: 'QuaverSerif' !important;\n  font-style: var(--font-heading-style);\n  font-weight: var(--font-heading-weight);\n  letter-spacing: calc(var(--font-heading-scale) * 0.06rem);\n  color: rgb(var(--color-foreground));\n  line-height: calc(1 + 0.3 \/ max(1, var(--font-heading-scale)));\n}\n{% endstyle %}",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "f8b43d0a-b141-4378-946f-f497ebac1a17": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% comment %}\nGorgias Chat Widget Start\n{% endcomment %}\n  <script>!function(_){_.GORGIAS_CHAT_APP_ID=\"1062\",_.GORGIAS_CHAT_BASE_URL=\"us-east1-898b.production.gorgias.chat\",_.GORGIAS_API_BASE_URL=\"config.gorgias.chat\";var e=new XMLHttpRequest;e.open(\"GET\",\"https:\/\/config.gorgias.chat\/applications\/1062\",!0),e.onload=function(n){if(4===e.readyState)if(200===e.status){var t=JSON.parse(e.responseText);if(!t.application||!t.bundleVersion)throw new Error(\"Missing fields in the response body - https:\/\/config.gorgias.chat\/applications\/1062\");if(_.GORGIAS_CHAT_APP=t.application,_.GORGIAS_CHAT_BUNDLE_VERSION=t.bundleVersion,t&&t.texts&&(_.GORGIAS_CHAT_TEXTS=t.texts),!document.getElementById(\"gorgias-chat-container\")){var o=document.createElement(\"div\");o.id=\"gorgias-chat-container\",document.body.appendChild(o);var r=document.createElement(\"script\");r.setAttribute(\"defer\",!0),r.src=\"https:\/\/storage.googleapis.com\/gorgias-chat-production-client-builds\/{bundleVersion}\/static\/js\/main.js\".replace(\"{bundleVersion}\",t.bundleVersion),document.body.appendChild(r)}}else console.error(\"Failed request GET - https:\/\/config.gorgias.chat\/applications\/1062\")},e.onerror=function(_){console.error(_)},e.send()}(window||{});<\/script>\n  {% comment %}Gorgias Chat Widget End{% endcomment %}",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "sections--14928410804266__7e8e0522-0025-4346-b01c-7825d2c36831-16842749570980054c-1",
+        "f8b43d0a-b141-4378-946f-f497ebac1a17"
+      ],
+      "custom_css": [
+        ".custom__item {margin: 0;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false,
+        "lazyload_images": true
+      }
+    },
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "announcement-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "The first styles of summer are here!",
+            "link_text": "Shop the Drop",
+            "link": "shopify:\/\/collections\/new-drops"
+          }
+        },
+        "announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "Hassle-free returns",
+            "link_text": "30-day postage paid returns",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-0",
+        "announcement-1"
+      ],
+      "custom_css": [
+        ".announcement-text {letter-spacing: 0.025em; text-transform: none; font-size: 1em; font-weight: 500;}"
+      ],
+      "settings": {
+        "announcement_compact": true
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "header-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/dudley-logo-black-2020_1.png",
+            "desktop_logo_width": 150,
+            "mobile_logo_width": 110
+          }
+        }
+      },
+      "block_order": [
+        "header-0"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "main_menu_link_list": "2023-menu",
+        "hover_menu": false,
+        "mega_menu_images": true,
+        "main_menu_alignment": "left-center",
+        "header_style": "sticky",
+        "sticky_index": false,
+        "sticky_collection": false,
+        "toolbar_menu": "",
+        "toolbar_social": true,
+        "show_locale_selector": false,
+        "show_currency_selector": false,
+        "show_currency_flags": false
+      }
+    }
+  },
+  "order": [
+    "7e8e0522-0025-4346-b01c-7825d2c36831",
+    "announcement",
+    "header"
+  ]
+}

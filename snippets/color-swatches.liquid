@@ -1,0 +1,280 @@
+{%- liquid 
+   assign style_collection_handle = product.metafields.custom.product_style | handle
+   # assign material_collection_handle = product.metafields.custom.product_material | handle
+ 
+   assign style_products = collections[style_collection_handle].products | sort: 'created_at' | reverse
+   assign materials_list = settings.materials_list | newline_to_br | strip_newlines | split:'<br />'
+   
+   # start the product count at 1 so that the 'first_swatch' is factored in
+   assign product_count = 1 
+   
+   assign current_option_handle = product.selected_or_first_available_variant.title | handleize
+   assign non_recycled_list = settings.non_recycled_list | newline_to_br | strip_newlines | append: '<br />' | prepend: '<br />' 
+   assign sale_prices = nil 
+ 
+   assign soldout_sizes = ''
+ 
+     if product.title contains '('
+       assign product_title_split = product.title | split: ' ('
+       assign product_title = product_title_split.first
+       assign product_color = product_title_split.last | remove: ')'
+     else
+       assign product_title = product.title
+       assign product_color = ''
+     endif
+     
+     assign product_color_handle = product_color | handle
+     
+     # assign townhouse_item = ''
+     # if product.vendor == 'Townhouse Trunk Sale'
+       # assign townhouse_item = 'hide'
+     # endif
+     
+     for variant in product.variants
+       unless variant.available
+         for option in variant.options
+           assign option_handle = option | handle
+           assign soldout_sizes = soldout_sizes | append: ' soldout-' | append: option_handle
+         endfor
+       endunless
+     endfor
+ -%}
+ 
+ {%- capture first_swatch -%}
+   <li class="tag">
+     <a href="{{ product.url }}">
+       <span 
+         class="
+           color-swatch 
+           color-swatch--{{ product_color_handle }} 
+           color-swatch--filter
+           active
+           {{ townhouse_item }} 
+           {{ soldout_sizes }}
+           {% if soldout_sizes == current_option_handle %}color-swatch--unavailable {% endif %}
+         " 
+         title="{{ product_color }} {{ product_title }}"
+       >
+       </span>
+     </a>
+   </li>
+ {%- endcapture -%}
+ 
+ {% unless separate_by_material %}
+   <div class="variant-wrapper">
+     <ul class="variant-input-wrap no-bullets tag-list tag-list--swatches">
+       {{ first_swatch }}
+ {% endunless %}
+ 
+ {% comment %} 
+   TODO:
+   - Replace materials_list with an array of product materials for that partiular style 
+{% endcomment %}
+ {%- for material in materials_list -%}
+   {% liquid 
+     assign material_delimited = material | append: '<br />' | prepend: '<br />'
+     assign material_name = material | remove: 'Material: ' 
+     assign material_name_handle = material_name | handle 
+     assign swatches = '' 
+     assign sale_swatches = '' 
+     assign sale_prices = nil 
+   %}
+     
+   {% comment %} NOTE: This will only show products that are available on the online sales channel, even though unavailable products show up in the collection in the admin {% endcomment %}
+   {%- for style_product in style_products -%}
+     {% liquid
+       assign soldout_sizes = ''
+   
+       if style_product.title contains '('
+         assign product_title_split = style_product.title | split: ' ('
+         assign product_title = product_title_split.first
+         assign product_color = product_title_split.last | remove: ')'
+       else
+         assign product_title = style_product.title
+         assign product_color = ''
+       endif
+       
+       assign product_color_handle = product_color | handle
+       
+       assign townhouse_item = ''
+       if style_product.vendor == 'Townhouse Trunk Sale'
+         assign townhouse_item = 'hide'
+       endif
+       
+       comment
+         Loop through each variant
+         If the variant is unavailable, get the option handle and prefix it with soldout
+         Resulting in soldout-s-0-2
+       endcomment
+       
+       for variant in style_product.variants
+         unless variant.available
+           for option in variant.options
+             assign option_handle = option | handle
+             assign soldout_sizes = soldout_sizes | append: ' soldout-' | append: option_handle
+           endfor
+         endunless
+       endfor
+     %}
+   
+     {% comment %} Capture the list item markup. {% endcomment %}
+     {%- for value in style_product.metafields.custom.product_material -%}
+       {%- if value != '' -%}
+         {%- if value == material_name -%}
+           
+           {% liquid 
+           comment
+             Don't show the current product's swatch (if we are NOT separating by material).
+           endcomment
+           if separate_by_material == false and style_product.id == product.id
+             break
+           endif
+ 
+           comment
+             If there is a limit, show a message that tells how many other swatches there are.
+           endcomment
+           if limit
+             assign product_count = product_count | plus: 1
+ 
+             comment
+               Stop showing swatches if we've hit the limit.
+             endcomment
+             if product_count > limit
+               break
+             endif
+           endif
+           %}
+ 
+           {% if style_product.price < style_product.compare_at_price %}
+             {% assign sale_prices = style_product.price | append: ',' | append: sale_prices %}
+ 
+ 
+             {%- capture sale_swatches -%}
+               <li class="tag">
+                 <a href="{{ style_product.url }}">
+                   <span 
+                     class="
+                       color-swatch 
+                       color-swatch--{{ product_color_handle }} 
+                       color-swatch--filter
+                       {% unless separate_by_material %}color-swatch--medium {% endunless %}
+                       {% if style_product.id == product.id -%}active {%- endif %}
+                       {{ townhouse_item }} 
+                       {{ soldout_sizes }}
+                       {% if soldout_sizes == current_option_handle %}color-swatch--unavailable {% endif %}
+                     " 
+                     title="{{ product_color }} {{ product_title }}"
+                   >
+                   </span>
+                 </a>
+               </li>
+               <!-- delim -->
+               {{ sale_swatches }}
+             {%- endcapture -%}
+           {% else %}
+             {%- capture swatches -%}
+               {{ swatches }}
+               <li class="tag">
+                 <a href="{{ style_product.url }}">
+                   <span 
+                     class="
+                       color-swatch 
+                       color-swatch--{{ product_color_handle }} 
+                       color-swatch--filter
+                       {% unless separate_by_material %}color-swatch--medium {% endunless %}
+                       {% if style_product.id == product.id -%}active {%- endif %} 
+                       {{ townhouse_item }} 
+                       {{ soldout_sizes }} 
+                       {% if soldout_sizes == current_option_handle %}color-swatch--unavailable {% endif %}
+                     " 
+                     title="{{ product_color }} {{ product_title }}"
+                   >
+                   </span>
+                 </a>
+               </li>
+             {%- endcapture -%}
+           {% endif %}
+         {%- endif -%}
+       {%- endif -%}
+     {%- endfor -%}
+ 
+   {%- endfor -%}
+   
+   {% comment %} swatches markup. {% endcomment %}
+   {%- if swatches.size > 0 or sale_swatches.size > 0 -%}
+     {% if separate_by_material %}
+       <div class="variant-wrapper">
+         {%- unless material == "Material: N/A" -%}
+           <label class="variant__label ">
+            {{ material_name }} {% unless non_recycled_list contains material_delimited %} <span class="icon--recycle">&#9851;</span> {% endunless %} 
+            {% if material_name == product.metafields.custom.product_material %} 
+              — <span class="product-color">{{ product.title | split:"(" | last | remove:")"}}</span> 
+            {% endif %}
+          </label>
+         {%- endunless -%}
+ 
+         {%- if swatches.size > 0 -%}
+           <ul class="variant-input-wrap no-bullets tag-list tag-list--swatches">{{ swatches }}</ul>
+         {%- endif -%}
+ 
+         {%- if sale_swatches.size > 0 -%}
+           {% comment %} 
+             Liquid can't sort numbers (easily), so we instead sorted the style_products by price. 
+             This means the first item in sale_prices_array_uniq will be the least expensive price option.
+ 
+             pseudo code, for reference:
+             sale_prices_array =      [40,         100,        40]
+             sale_prices_array_uniq = [40,         100]
+             sale_swatches_array =    [HTMLString, HTMLString, HTMLString]
+ 
+             sale_prices_array[i] lines up with the appropriate markup for that sale_swatch, sale_swatches_array[i] 
+             sale_prices_array_uniq is used to group the swatches by their prices
+           {% endcomment %}
+           {% assign sale_prices_array = sale_prices | split: ',' | compact %}
+           {% assign sale_prices_array_uniq = sale_prices_array | uniq %}
+           {% assign sale_swatches_array = sale_swatches | split: '<!-- delim -->' | compact %}
+           {% assign sale_price_uniq_index = 0 %}
+           {% assign sale_markup = nil %}
+ 
+           {% for sale_price_uniq in sale_prices_array_uniq %}
+             {% comment %} reset sale_price_index for each sale price {% endcomment %}
+             {% assign sale_price_index = 0 %}
+             {% assign sale_price_display = sale_prices_array_uniq[sale_price_uniq_index] | money_without_trailing_zeros %}
+             
+             {% comment %} Each price point requires it's own "section" (label and ul) {% endcomment %}
+             {% capture sale_markup %}
+               {{ sale_markup }}
+               <label class="variant__label product__price-savings">
+                 {{ 'products.product.color_swatch_on_sale' | t: price: sale_price_display }}
+               </label>
+               <ul class="variant-input-wrap no-bullets tag-list tag-list--swatches">
+                 {% for sale_price in sale_prices_array %}
+                   {% if sale_price == sale_price_uniq %}
+                     {{ sale_swatches_array[sale_price_index] }}
+                   {% endif %}
+ 
+                   {% assign sale_price_index = sale_price_index | plus: 1 %}
+                 {% endfor %}
+               </ul>
+             {% endcapture %}
+ 
+             {% assign sale_price_uniq_index = sale_price_uniq_index | plus: 1 %}
+           {% endfor %}
+ 
+           {{ sale_markup }}
+         {%- endif -%}
+       </div>
+     {% else %}
+       {% comment %} Just need the LI's when not separated by material {% endcomment %}
+       {{ swatches }}{{ sale_swatches }}
+     {% endif %}
+   {%- endif -%}
+ {%- endfor -%}
+ 
+ {% unless separate_by_material %}
+       {% if product_count > limit %}
+         <a href="{{ product.url }}" class="remaining-swatch-count">+ {{ product_count | minus: limit }} more</a>
+       {% endif %}
+     </ul><!-- .variant-input-wrap.no-bullets.tag-list.tag-list--swatches -->
+   </div><!-- .variant-wrapper -->
+ {% endunless %}

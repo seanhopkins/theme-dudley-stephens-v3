@@ -4,7 +4,6 @@ import Test from "./components/Test";
 
 const gwp = document.querySelector("#GiftWithPurchase");
 
-console.log(gwp);
-
-render(<h1>test</h1>, gwp);
-
+if (theme.gwpData.enabled) {
+  render(<Test data={theme.gwpData} />, gwp);
+}

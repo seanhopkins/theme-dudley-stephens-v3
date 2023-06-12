@@ -233,9 +233,17 @@ export default {
     document.addEventListener(
       "cart:updated",
       function (evt) {
-        if (evt.detail.cart.total_price) {
-          this.updateCartSubtotalCents(evt.detail.cart.total_price);
-          this.updateGwpInCart(evt.detail.cart);
+        let cart;
+
+        if (evt.detail.cart) {
+          if (typeof evt.detail.cart === "string") {
+            cart = JSON.parse(evt.detail.cart);
+          } else {
+            cart = evt.detail.cart;
+          }
+
+          this.updateCartSubtotalCents(cart.total_price);
+          this.updateGwpInCart(cart);
         }
       }.bind(this)
     );

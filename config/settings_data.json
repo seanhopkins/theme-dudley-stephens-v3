@@ -16,8 +16,8 @@
     "color_header_text": "#232528",
     "color_announcement": "#232528",
     "color_announcement_text": "#f8f4ed",
-    "color_footer": "#232528",
-    "color_footer_text": "#f8f4ed",
+    "color_footer": "#f8f4ed",
+    "color_footer_text": "#232528",
     "color_drawer_background": "#ffffff",
     "color_drawer_text": "#232528",
     "color_drawer_border": "#e8e8e1",
@@ -74,6 +74,11 @@
     "gwp_tier_1_unlocked": "<p>Good news: Your $150+ cart will earn you our Hemlock Headband! Add one to your cart before checking out, with no additional charge.<\/p>",
     "gwp_tier_2_product_ids": "3952059940906,6923672420394",
     "gwp_tier_2_threshold": "200",
+    "social_facebook_link": "#",
+    "social_twitter_link": "#",
+    "social_pinterest_link": "#",
+    "social_instagram_link": "#",
+    "social_snapchat_link": "#",
     "show_breadcrumbs": false,
     "show_breadcrumbs_collection_link": false,
     "product_grid_enable_swatches": true,
@@ -1673,10 +1678,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".rte p,.rte-setting p {color: var(--colorTextBodyLight);}",
-      ".btn,.rte .btn,.slideshow__slide .hero__link .btn {letter-spacing: 0.05em; font-weight: 500; text-transform: none;}",
-      "a:not(.btn):after {color: var(--colorCartDot);}",
-      ".collapsible-trigger-btn {border: 0;}"
+
     ]
   }
 }

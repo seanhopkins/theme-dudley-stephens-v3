@@ -870,6 +870,69 @@
         "type": "url",
         "id": "cart_terms_conditions_page",
         "label": "t:settings_schema.cart.settings.cart_terms_conditions_page.label"
+      },
+      {
+        "type": "header",
+        "content": "Gift with Purchase (GWP)"
+      },
+      {
+        "type": "checkbox",
+        "id": "gwp_enable",
+        "label": "Enable gift with purchase"
+      },
+      {
+        "type": "header",
+        "content": "GWP - Tier 1"
+      },
+      {
+        "type": "textarea",
+        "id": "gwp_tier_1_product_ids",
+        "label": "Gift with purchase product IDs",
+        "info": "This should be a comma separated list of the product's IDs. Changes to this value need to be updated in the line item scripts as well"
+      },
+      {
+        "type": "text",
+        "id": "gwp_tier_1_threshold",
+        "label": "Free gift with purchase threshold",
+        "info": "Changes to this value need to be updated in the line item scripts as well"
+      },
+      {
+        "type": "text",
+        "id": "gwp_tier_1_spend_more",
+        "label": "Spend more description",
+        "info": "Add '[money]' where you'd like to surface the remaining amount"
+      },
+      {
+        "type": "richtext",
+        "id": "gwp_tier_1_unlocked",
+        "label": "GWP unlocked message"
+      },
+      {
+        "type": "header",
+        "content": "GWP - Tier 2"
+      },
+      {
+        "type": "textarea",
+        "id": "gwp_tier_2_product_ids",
+        "label": "Gift with purchase product IDs",
+        "info": "This should be a comma separated list of the product's IDs. Changes to this value need to be updated in the line item scripts as well"
+      },
+      {
+        "type": "text",
+        "id": "gwp_tier_2_threshold",
+        "label": "Free gift with purchase threshold",
+        "info": "Changes to this value need to be updated in the line item scripts as well"
+      },
+      {
+        "type": "text",
+        "id": "gwp_tier_2_spend_more",
+        "label": "Spend more description",
+        "info": "Add '[money]' where you'd like to surface the remaining amount"
+      },
+      {
+        "type": "richtext",
+        "id": "gwp_tier_2_unlocked",
+        "label": "GWP unlocked message"
       }
     ]
   },

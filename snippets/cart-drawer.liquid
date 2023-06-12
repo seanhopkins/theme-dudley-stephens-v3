@@ -13,6 +13,11 @@
         </div>
       </div>
 
+      {% comment %} Vue component {% endcomment %}
+      {% if settings.gwp_enable %}
+        <div id="GiftWithPurchase"></div>
+      {% endif %}
+
       <div class="drawer__inner">
         <div class="drawer__scrollable">
           <div data-products class="appear-animation appear-delay-2"></div>

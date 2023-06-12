@@ -1,0 +1,56 @@
+.gwp-content-wrapper {
+  padding: 15px 60px;
+}
+
+.gwp-content-wrapper p {
+  margin-bottom: 0;
+}
+
+.gwp-content-wrapper img {
+  opacity: 1;
+}
+
+.gwp-slider-wrapper {
+  min-height: 180px;
+  height: 1px;
+}
+.gwp-slider-wrapper .flickity-previous {
+  left: -50px;
+}
+.gwp-slider-wrapper .flickity-next {
+  right: -50px;
+}
+
+.flickity-enabled .gwp__slide.is-selected {
+  display: block;
+}
+
+.flickity-enabled .gwp__slide {
+  display: none;
+}
+
+progress.gwp-bar {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 5px;
+}
+
+progress.gwp-bar::-webkit-progress-bar {
+  background-color: #efefef;
+}
+
+progress.gwp-bar::-webkit-progress-value {
+  background: #fa706d;
+}
+
+.gwp--spend-more {
+  background-color: #f9f9f9;
+  padding: 10px 50px;
+  border-radius: 5px;
+}
+.gwp-slider-wrapper .flickity-prev-next-button {
+  top: 33%;
+}
+.gwp-content-wrapper .disabled {
+  pointer-events: none;
+}

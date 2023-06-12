@@ -12,32 +12,38 @@
     "preact/jsx-dev-runtime": "preact/jsx-runtime"
   },
   "scripts": {
-    "gwp:build": "vue-cli-service build --dest ./assets --formats umd,umd-min --target lib --inline-vue --name giftWithPurchase _src/vue/gift-with-purchase/gift-with-purchase.js --no-clean && rm _src/js/demo.html",
     "watch": "parcel watch",
     "build": "parcel build",
     "shop:start": "shopify theme dev --store=dudley-stephens",
     "js:checkout:dev": "webpack --env development",
     "js:checkout:prod": "webpack --env production",
-    "js:fitguide": "parcel _src/js/fitguide.js --dist-dir assets"
+    "js:theme:dev": "watch 'uglifyjs ./assets/theme.js --output ./assets/theme.min.js' ./assets/",
+    "js:theme:prod": "uglifyjs ./assets/theme.js --output ./assets/theme.min.js",
+    "js:fitguide": "parcel src/js/fitguide.js --dist-dir assets",
+    "gwp:build": "vue-cli-service build --dest ./assets --formats umd,umd-min --target lib --inline-vue --name giftWithPurchase src/vue/gift-with-purchase/gift-with-purchase.js --no-clean && rm assets/demo.html"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/eslint-parser": "^7.12.16",
+    "parcel": "^2.8.3",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier-vue": "^4.2.0",
     "eslint-plugin-vue": "^8.7.1",
-    "parcel": "^2.8.3",
-    "webpack": "^5.83.1",
-    "webpack-cli": "^5.1.1"
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "core-js": "^3.8.3",
+    "uglify-js": "^3.13.3",
+    "watch": "^0.13.0"
   },
   "dependencies": {
     "@discolabs/custard-js": "^0.1.3",
+    "alpinejs": "^3.10.3",
     "preact": "^10.15.0",
     "vue": "^3.2.13"
   },

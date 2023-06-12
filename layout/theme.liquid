@@ -76,6 +76,23 @@
       themeName: 'Impulse',
       themeVersion: "7.3.3"
     };
+    theme.gwpData = {
+      enabled: {{ settings.gwp_enable }},
+      tierData: [
+        {
+          threshold: {{ settings.gwp_tier_1_threshold | times: 100 | json }},
+          productIdsArray: [{{ settings.gwp_tier_1_product_ids }}],
+          underMessageTemplate: {{ settings.gwp_tier_1_spend_more | json }},
+          overMessageTemplate: {{ settings.gwp_tier_1_unlocked | json }},
+        },
+        {
+          threshold: {{ settings.gwp_tier_2_threshold | times: 100 | json }},
+          productIdsArray: [{{ settings.gwp_tier_2_product_ids }}],
+          underMessageTemplate: {{ settings.gwp_tier_2_spend_more | json }},
+          overMessageTemplate: {{ settings.gwp_tier_2_unlocked | json }},
+        },
+      ]
+    }
   </script>
 
   {{ content_for_header }}
@@ -88,6 +105,11 @@
 
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
+
+  {% if settings.gwp_enable %}
+    <link rel="stylesheet" href="{{ 'gwp.css' | asset_url | split: '?' | first }}">
+    <script src="{{ 'giftWithPurchase.umd.js' | asset_url }}" defer="defer"></script>
+  {% endif %}
 
   {%- if request.page_type contains 'customers/' -%}
     <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>

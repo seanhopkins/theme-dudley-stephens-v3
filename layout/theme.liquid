@@ -58,7 +58,8 @@
       searchPages: {{ 'general.search.pages' | t | json }},
       searchArticles: {{ 'general.search.articles' | t | json }},
       productFrom: {{ 'products.general.from_text_html' | t: price: '' | json }},
-      maxQuantity: {{ 'cart.general.max_quantity' | t: quantity: '[quantity]', title: '[title]' | json }}
+      maxQuantity: {{ 'cart.general.max_quantity' | t: quantity: '[quantity]', title: '[title]' | json }},
+      monogramErrorMessage: {{ 'products.general.monogram_error_message' | t | json }}
     };
     theme.settings = {
       cartType: {{ settings.cart_type | json }},
@@ -75,6 +76,23 @@
       themeName: 'Impulse',
       themeVersion: "7.3.3"
     };
+    theme.gwpData = {
+      enabled: {{ settings.gwp_enable }},
+      tierData: [
+        {
+          threshold: {{ settings.gwp_tier_1_threshold | times: 100 | json }},
+          productIdsArray: [{{ settings.gwp_tier_1_product_ids }}],
+          underMessageTemplate: {{ settings.gwp_tier_1_spend_more | json }},
+          overMessageTemplate: {{ settings.gwp_tier_1_unlocked | json }},
+        },
+        {
+          threshold: {{ settings.gwp_tier_2_threshold | times: 100 | json }},
+          productIdsArray: [{{ settings.gwp_tier_2_product_ids }}],
+          underMessageTemplate: {{ settings.gwp_tier_2_spend_more | json }},
+          overMessageTemplate: {{ settings.gwp_tier_2_unlocked | json }},
+        },
+      ]
+    }
   </script>
 
   {{ content_for_header }}
@@ -86,6 +104,12 @@
   {%- endif -%}
 
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
+
+  {% if settings.gwp_enable %}
+    <link rel="stylesheet" href="{{ 'gwp.css' | asset_url | split: '?' | first }}">
+    <script src="{{ 'giftWithPurchase.umd.js' | asset_url }}" defer="defer"></script>
+  {% endif %}
 
   {%- if request.page_type contains 'customers/' -%}
     <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
@@ -99,8 +123,14 @@
 {% comment %} START custom feature {% endcomment %}
   {% section 'swatch-colors' %}
   <script src="{{ 'color-swatches.js' | asset_url }}" defer="defer"></script>
-  <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
-  {{ 'custom.css' | asset_url | stylesheet_tag: preload: true }}
+    {%- comment %}This is Dudley's Creative Cloud Account{% endcomment -%}
+    <link rel="stylesheet" href="https://use.typekit.net/yyp8czm.css">
+
+    {%- comment %}  	Used for the monogram preview {% endcomment -%}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+    {{ 'custom.css' | asset_url | stylesheet_tag: preload: true }}
 {% comment %} END custom feature {% endcomment %}
 </head>
 
@@ -149,7 +179,14 @@
       <img width height src loading="lazy">
     </image-element>
   </template>
-{% comment %} === START custom feature === {% endcomment %}
+
+{% comment %}
+  Gorgias Chat Widget Start
+{% endcomment %}
+  <script>!function(_){_.GORGIAS_CHAT_APP_ID="1062",_.GORGIAS_CHAT_BASE_URL="us-east1-898b.production.gorgias.chat",_.GORGIAS_API_BASE_URL="config.gorgias.chat";var e=new XMLHttpRequest;e.open("GET","https://config.gorgias.chat/applications/1062",!0),e.onload=function(n){if(4===e.readyState)if(200===e.status){var t=JSON.parse(e.responseText);if(!t.application||!t.bundleVersion)throw new Error("Missing fields in the response body - https://config.gorgias.chat/applications/1062");if(_.GORGIAS_CHAT_APP=t.application,_.GORGIAS_CHAT_BUNDLE_VERSION=t.bundleVersion,t&&t.texts&&(_.GORGIAS_CHAT_TEXTS=t.texts),!document.getElementById("gorgias-chat-container")){var o=document.createElement("div");o.id="gorgias-chat-container",document.body.appendChild(o);var r=document.createElement("script");r.setAttribute("defer",!0),r.src="https://storage.googleapis.com/gorgias-chat-production-client-builds/{bundleVersion}/static/js/main.js".replace("{bundleVersion}",t.bundleVersion),document.body.appendChild(r)}}else console.error("Failed request GET - https://config.gorgias.chat/applications/1062")},e.onerror=function(_){console.error(_)},e.send()}(window||{});</script>
+{% comment %}Gorgias Chat Widget End{% endcomment %}
+
+{% comment %} Start Klaviyo{% endcomment %}
   <script src="https://a.klaviyo.com/media/js/onsite/onsite.js"></script>
   <script>
       var klaviyo = klaviyo || [];
@@ -188,7 +225,7 @@
       }
     });
   </script>
-  {% comment %} === END custom feature === {% endcomment %}
+  {% comment %} End Klaviyo{% endcomment %}
 
   {% comment %} Affirm {% endcomment %}
     <script>

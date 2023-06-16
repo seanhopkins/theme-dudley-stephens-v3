@@ -1,1 +1,13 @@
+.eslintrc.js
+.DS_Store
+.gitignore
+.parcel-cache
 package.json
+package-lock.json
+jsconfig.json
+babel.config.json
+vue.config.json
+webpack.config.js
+line-item-script.rb
+node_modules
+src/*

@@ -1,0 +1,116 @@
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "custom_css": [
+        "h1 {text-align: center;}"
+      ],
+      "settings": {
+        "enable": false,
+        "collection_image_enable": false,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    },
+    "9f2f8ec2-a27c-4723-8fbd-1c943d4846a9": {
+      "type": "text-columns",
+      "blocks": {
+        "template--14941186293802__9f2f8ec2-a27c-4723-8fbd-1c943d4846a9-1686857266cb48b043-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "template--14941186293802__9f2f8ec2-a27c-4723-8fbd-1c943d4846a9-1686857266cb48b043-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "template--14941186293802__9f2f8ec2-a27c-4723-8fbd-1c943d4846a9-1686857266cb48b043-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "8ec9f29e-5c87-4ba3-9b2b-1da159f0e4fe": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14941186293802__9f2f8ec2-a27c-4723-8fbd-1c943d4846a9-1686857266cb48b043-0",
+        "template--14941186293802__9f2f8ec2-a27c-4723-8fbd-1c943d4846a9-1686857266cb48b043-1",
+        "template--14941186293802__9f2f8ec2-a27c-4723-8fbd-1c943d4846a9-1686857266cb48b043-2",
+        "8ec9f29e-5c87-4ba3-9b2b-1da159f0e4fe"
+      ],
+      "custom_css": [
+        ".grid {display: flex;}"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 3,
+            "rows_per_page": 7,
+            "mobile_flush_grid": true
+          }
+        }
+      },
+      "block_order": [
+        "product_grid"
+      ],
+      "custom_css": [
+        "span.h6 {color: var(--colorPrice);}",
+        ".grid-product__title {font-weight: 500;}"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapsed": true,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_sort": true
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "9f2f8ec2-a27c-4723-8fbd-1c943d4846a9",
+    "main-collection"
+  ]
+}

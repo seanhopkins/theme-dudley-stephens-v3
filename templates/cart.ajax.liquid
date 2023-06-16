@@ -9,12 +9,31 @@
     as it can change anytime a cart-item changes
 {% endcomment %}
 {% layout none %}
+{% assign monogram_product_id = 6786596175914 %}
 
 <div class="cart__items"
   data-count="{{ cart.item_count }}"
   data-cart-subtotal="{{ cart.total_price }}">
   {% for item in cart.items %}
+    {% assign is_part_of_monogram = false %}
+    
+    {% for p in item.properties %}
+      {% if p.first == '_Monogram ID' %}
+        {% assign is_part_of_monogram = true %}
+      {% endif %}
+    {% endfor %}
+
+    {% comment %} if not the monogram product, yet contains a monogram ID, open up the div {% endcomment %}
+    {% if item.product_id != monogram_product_id and is_part_of_monogram %}
+      <div class="monogram-cart-group">
+    {% endif %}
+
     {%- render 'cart-item', product: item, sizes: '100px', -%}
+
+    {% comment %} if it is the monogram product, close up the div {% endcomment %}
+    {% if item.product_id == monogram_product_id %}
+      </div>
+    {% endif %}
   {% endfor %}
 </div>
 <div class="cart__discounts cart__item-sub cart__item-row{% if cart.cart_level_discount_applications == blank %} hide{% endif %}">

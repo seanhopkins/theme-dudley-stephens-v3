@@ -1,0 +1,93 @@
+{% comment %} 
+  TODO:
+  - image slider
+  - monogram LIP (WIP)
+  - monogram font (change based on variant selection)
+  - monogram color
+  - monogram overlaid on images
+  - monogram variant image on radio button
+  - grouping the products in the cart (visuals and functionality (based on LIPs))
+{% endcomment %}
+
+{% liquid 
+  assign monogram_product = all_products.monogram
+  assign current_variant = monogram_product.selected_or_first_available_variant
+  assign parent_type_handle = parent_product.type | handleize
+  assign parent_product_color = parent_product.title | split: ' (' | last
+  assign monogram_swatch_color = parent_product_color | remove: ')' | handleize
+%}
+
+{{ 'monogram.css' | asset_url | stylesheet_tag: preload: true }}
+<script src="{{ 'monogram.js' | asset_url }}" defer></script>
+
+<monogram-toggle>
+  <input id="add-monogram" type="checkbox">
+  <label for="add-monogram">Add a custom embroidery +$15</label>
+
+  <div class="monogram-button-wrapper hide">
+    <button
+      class="js-modal-open-monogram-modal btn btn--secondary btn--full"
+    >
+      Personalize it
+    </button>
+    <small class="text-center"> ⓘ You must personalize it before adding to the cart. </small>
+  </div>
+</monogram-toggle>
+
+<div id="MonogramModal" class="modal modal--square">
+  <div class="modal__inner">
+    <div class="modal__centered">
+      <div class="modal__centered-content">
+        <monogram-customizer class="grid grid--full grid--product-images-left grid--product-images--partial">
+          <div class="grid__item medium-up--one-half"> 
+            {%- render 'product-images',
+              section_id: 'monogram-product-images',
+              product: monogram_product,
+              monogram_swatch_color: monogram_swatch_color,
+              isModal: false,
+              image_position: 'left',
+              product_zoom_enable: 'true',
+              product_zoom_size: '1800x1800',
+              product_image_size: '740x',
+              thumbnail_arrows: false,
+              thumbnail_position: 'beside',
+              video_looping: true,
+              video_style: 'muted',
+              context: 'main-product',
+              mobile_layout: 'partial',
+              is_monogram: true,
+            -%}
+          </div>
+          <div class="grid__item medium-up--one-half monogram-customizer">
+            <div class="product-single__meta">
+              <h2>Personalize it</h2>
+              <div class="product-block"><hr></div>
+              <div class="rte"><p>{{ monogram_product.description }}</p></div>
+
+              <script type="application/json" id="monogram-product-data">
+                {{ monogram_product | json }}
+              </script>
+              <script type="application/json" id="monogram-product-initial-variant-data">
+                {{ monogram_product.selected_or_first_available_variant | json }}
+              </script>
+              <script type="application/json" id="parent-product-data">
+                {{ parent_product | json }}
+              </script>
+              <script type="application/json" id="parent-product-initial-variant-data">
+                {{ parent_product.selected_or_first_available_variant | json }}
+              </script>
+              <div id="monogram-form"></div>
+            </div>
+          </div>
+        </div>
+      </monogram-customizer>
+
+      <button type="button" class="modal__close js-modal-close text-link">
+        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64">
+          <path d="M19 17.61l27.12 27.13m0-27.12L19 44.74"/>
+        </svg>
+        <span class="icon__fallback-text">{{ 'general.accessibility.close_modal' | t | json }}</span>
+      </button>
+    </div>
+  </div>
+</div>

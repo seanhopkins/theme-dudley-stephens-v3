@@ -251,7 +251,7 @@
                       </span>
 
                       {% comment %} START custom feature {% endcomment %}
-                      {% if product.metafields.theme.label %}
+                      {% if product.metafields.theme.custom.final_sale %}
                         <span class="product__price--final-sale">{{ product.metafields.theme.label.value }}</span>
                       {% endif %}
                       {% if tag_sale and settings.show_tag_sale_message_clp %}
@@ -303,6 +303,9 @@
 
                       
                     </div>
+                    {% comment %} Start Affirm {% endcomment %}
+                    <p class="affirm-as-low-as" data-page-type="product" data-amount="{{ current_variant.price }}"></p>
+                    {% comment %} End Affirm {% endcomment %}
                   {%- when 'quantity_selector' -%}
                     <div class="product-block" {{ block.shopify_attributes }}>
                       <div class="product__quantity">
@@ -389,10 +392,6 @@
                           -%}
                         </div>
                       {%- endunless -%}
-
-                      {% comment %} Start Affirm {% endcomment %}
-                        <p class="affirm-as-low-as text-center" data-page-type="product" data-amount="{{ current_variant.price }}"></p>
-                      {% comment %} End Affirm {% endcomment %}
 
                       {%- if block.settings.surface_pickup_enable -%}
                         <div data-store-availability-holder

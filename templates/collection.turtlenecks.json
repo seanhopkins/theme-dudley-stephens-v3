@@ -23,7 +23,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "Cropped",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "text": "<p>Short text description about this product style, max two-lines<\/p>",
             "button_label": "SHOP NOW",
             "button_link": "shopify:\/\/collections\/cropped-turtlenecks"
           }
@@ -36,7 +36,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "Short",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "text": "<p>Short text description about this product style, max two-lines<\/p>",
             "button_label": "SHOP NOW",
             "button_link": "shopify:\/\/collections\/short-turtlenecks"
           }
@@ -49,7 +49,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "Midi",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "text": "<p>Short text description about this product style, max two-lines<\/p>",
             "button_label": "SHOP NOW",
             "button_link": "shopify:\/\/collections\/midi-turtlenecks"
           }
@@ -62,7 +62,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "Long",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "text": "<p>Short text description about this product style, max two-lines<\/p>",
             "button_label": "SHOP NOW",
             "button_link": "shopify:\/\/collections\/long-turtlenecks"
           }

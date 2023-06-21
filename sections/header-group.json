@@ -2,37 +2,6 @@
   "type": "header",
   "name": "t:sections.header-group.name",
   "sections": {
-    "announcement": {
-      "type": "announcement",
-      "blocks": {
-        "announcement-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "The first styles of summer are here!",
-            "link_text": "Shop the Drop",
-            "link": "shopify:\/\/collections\/new-drops"
-          }
-        },
-        "announcement-1": {
-          "type": "announcement",
-          "settings": {
-            "text": "Hassle-free returns",
-            "link_text": "30-day postage paid returns",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement-0",
-        "announcement-1"
-      ],
-      "custom_css": [
-        ".announcement-text {letter-spacing: 0.025em; text-transform: none; font-size: 1em; font-weight: 500;}"
-      ],
-      "settings": {
-        "announcement_compact": true
-      }
-    },
     "header": {
       "type": "header",
       "blocks": {
@@ -65,10 +34,41 @@
         "show_currency_selector": false,
         "show_currency_flags": false
       }
+    },
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "announcement-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "The first styles of summer are here!",
+            "link_text": "Shop the Drop",
+            "link": "shopify:\/\/collections\/new-drops"
+          }
+        },
+        "announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "Hassle-free returns",
+            "link_text": "30-day postage paid returns",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-0",
+        "announcement-1"
+      ],
+      "custom_css": [
+        ".announcement-text {letter-spacing: 0.025em; text-transform: none; font-size: 1em; font-weight: 500;}"
+      ],
+      "settings": {
+        "announcement_compact": true
+      }
     }
   },
   "order": [
-    "announcement",
-    "header"
+    "header",
+    "announcement"
   ]
 }

@@ -58,12 +58,12 @@
       {%- endif -%}
       {%- if natural_mobile_height -%}
         {%- style -%}
-          @media screen and (max-width: 768px) {
+          /* @media screen and (max-width: 768px) {
             .hero-natural-mobile--{{ section.id }} {
               height: 0;
               padding-bottom: {{ natural_mobile_height_ratio }};
             }
-          }
+          } */
         {%- endstyle -%}
       {%- endif -%}
 
@@ -360,6 +360,12 @@
       "id": "parallax",
       "label": "t:sections.slideshow.settings.parallax.label",
       "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "framed",
+      "label": "t:sections.background-image-text.settings.framed.label",
+      "default": false
     },
     {
       "type": "select",

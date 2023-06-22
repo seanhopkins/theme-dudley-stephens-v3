@@ -2,7 +2,6 @@
   "sections": {
     "a157bf24-d940-4390-b13d-0ccfe9541493": {
       "type": "advanced-content",
-      "disabled": true,
       "blocks": {
         "template--14916567957546__a157bf24-d940-4390-b13d-0ccfe9541493-16817410538d6492ee-0": {
           "type": "image",
@@ -24,25 +23,6 @@
         "full_width": false,
         "space_around": true,
         "lazyload_images": true
-      }
-    },
-    "8a9cbfa1-2b55-405f-9517-08824b0d8c1c": {
-      "type": "rich-text",
-      "blocks": {
-        "template--14916567957546__8a9cbfa1-2b55-405f-9517-08824b0d8c1c-16817414204b99e015-0": {
-          "type": "heading",
-          "settings": {
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14916567957546__8a9cbfa1-2b55-405f-9517-08824b0d8c1c-16817414204b99e015-0"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
       }
     },
     "b23c0f69-dbf6-48a9-9e49-92bb1f1b3be9": {
@@ -71,6 +51,9 @@
     },
     "main": {
       "type": "blog-template",
+      "custom_css": [
+        "header {display: none;}"
+      ],
       "settings": {
         "blog_show_tag_filter": false,
         "blog_show_rss": false,
@@ -85,7 +68,6 @@
   },
   "order": [
     "a157bf24-d940-4390-b13d-0ccfe9541493",
-    "8a9cbfa1-2b55-405f-9517-08824b0d8c1c",
     "b23c0f69-dbf6-48a9-9e49-92bb1f1b3be9",
     "main"
   ]

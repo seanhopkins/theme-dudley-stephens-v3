@@ -248,6 +248,101 @@
         "lazyload_images": true
       }
     },
+    "cf175cf8-a4e8-45f7-8a52-3b14ac752957": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-0": {
+          "type": "title",
+          "settings": {
+            "title": "Never miss a drop",
+            "heading_size": "h3"
+          }
+        },
+        "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
+        "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-0",
+        "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-1",
+        "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-2"
+      ],
+      "custom_css": [
+        ".theme-block {margin-bottom: 0;}",
+        ".h3 {margin: 0;}",
+        ".contact-form {margin-top: 2em;}",
+        ".newsletter__input-group {max-width: 600px;}",
+        ".input-group-field {background-color: #fff; padding: 0.75em 2em 0.75em 1em; border-top-left-radius: 4px; border-bottom-left-radius: 4px; width: 100%;}",
+        "button {text-transform: uppercase; font-weight: 600; letter-spacing: 1px;}"
+      ],
+      "settings": {
+        "align_text": "center",
+        "image_width": "33",
+        "image_mask": "none",
+        "image_position": "right",
+        "color_background": "rgba(0,0,0,0)",
+        "color_text": "#232528",
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "50370838-75ed-486a-9c7b-001bf82a5e5e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14938178879530__50370838-75ed-486a-9c7b-001bf82a5e5e-168624616344b8cdfd-0": {
+          "type": "heading",
+          "settings": {
+            "title": "This is how we dudley"
+          }
+        },
+        "template--14938178879530__50370838-75ed-486a-9c7b-001bf82a5e5e-168624616344b8cdfd-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p><a href=\"https:\/\/www.instagram.com\/dudley_stephens\/?hl=en\">@dudley_stephens<\/a> | #howdoyoududley<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14938178879530__50370838-75ed-486a-9c7b-001bf82a5e5e-168624616344b8cdfd-0",
+        "template--14938178879530__50370838-75ed-486a-9c7b-001bf82a5e5e-168624616344b8cdfd-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "b00ee6a4-d768-42d2-b053-75459ca062fe": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14916567695402__b00ee6a4-d768-42d2-b053-75459ca062fe-1686166578f0efbd44-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"yotpo yotpo-pictures-widget\" data-gallery-id=\"60b94222238de4456e9fb81a\"><\/div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14916567695402__b00ee6a4-d768-42d2-b053-75459ca062fe-1686166578f0efbd44-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
     "3acb1261-9345-47a4-bd1a-d0ef5ac97f9c": {
       "type": "text-with-icons",
       "blocks": {
@@ -303,101 +398,6 @@
         "button_link": "",
         "divider": false
       }
-    },
-    "cf175cf8-a4e8-45f7-8a52-3b14ac752957": {
-      "type": "newsletter",
-      "disabled": true,
-      "blocks": {
-        "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-0": {
-          "type": "title",
-          "settings": {
-            "title": "Never miss a drop",
-            "heading_size": "h3"
-          }
-        },
-        "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
-          }
-        },
-        "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-2": {
-          "type": "form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-0",
-        "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-1",
-        "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-2"
-      ],
-      "custom_css": [
-        ".theme-block {margin-bottom: 0;}",
-        ".h3 {margin: 0;}",
-        ".contact-form {margin-top: 2em;}",
-        ".newsletter__input-group {max-width: 600px;}",
-        ".input-group-field {background-color: #fff; padding: 0.75em 2em 0.75em 1em; border-top-left-radius: 4px; border-bottom-left-radius: 4px; width: 100%;}",
-        "button {text-transform: uppercase; font-weight: 600; letter-spacing: 1px;}"
-      ],
-      "settings": {
-        "align_text": "center",
-        "image_width": "33",
-        "image_mask": "none",
-        "image_position": "right",
-        "color_background": "rgba(0,0,0,0)",
-        "color_text": "#232528",
-        "top_padding": true,
-        "bottom_padding": true
-      }
-    },
-    "8bf51204-064d-4110-81a9-f1c24de072bd": {
-      "type": "rich-text",
-      "blocks": {
-        "template--14916567695402__8bf51204-064d-4110-81a9-f1c24de072bd-1686246314199da9f7-0": {
-          "type": "heading",
-          "settings": {
-            "title": "This is how we dudley"
-          }
-        },
-        "template--14916567695402__8bf51204-064d-4110-81a9-f1c24de072bd-1686246314199da9f7-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p><a href=\"https:\/\/www.instagram.com\/dudley_stephens\/?hl=en\">@dudley_stephens<\/a> | #howdoyoududley<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14916567695402__8bf51204-064d-4110-81a9-f1c24de072bd-1686246314199da9f7-0",
-        "template--14916567695402__8bf51204-064d-4110-81a9-f1c24de072bd-1686246314199da9f7-1"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
-    "b00ee6a4-d768-42d2-b053-75459ca062fe": {
-      "type": "advanced-content",
-      "blocks": {
-        "template--14916567695402__b00ee6a4-d768-42d2-b053-75459ca062fe-1686166578f0efbd44-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "<div class=\"yotpo yotpo-pictures-widget\" data-gallery-id=\"60b94222238de4456e9fb81a\"><\/div>",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--14916567695402__b00ee6a4-d768-42d2-b053-75459ca062fe-1686166578f0efbd44-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
-      }
     }
   },
   "order": [
@@ -406,9 +406,9 @@
     "rich-text",
     "ad8d799a-dd28-40ce-8234-0b79cb13bd90",
     "b436726f-56a1-40d8-9a9c-1d5386d219c4",
-    "3acb1261-9345-47a4-bd1a-d0ef5ac97f9c",
     "cf175cf8-a4e8-45f7-8a52-3b14ac752957",
-    "8bf51204-064d-4110-81a9-f1c24de072bd",
-    "b00ee6a4-d768-42d2-b053-75459ca062fe"
+    "50370838-75ed-486a-9c7b-001bf82a5e5e",
+    "b00ee6a4-d768-42d2-b053-75459ca062fe",
+    "3acb1261-9345-47a4-bd1a-d0ef5ac97f9c"
   ]
 }

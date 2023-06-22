@@ -76,13 +76,16 @@
 
 <div data-section-id="{{ section.id }}" data-section-type="header">
 
-  {%- unless overlay_header -%}
+{%- unless overlay_header -%}
     {%- if section.settings.show_locale_selector or section.settings.show_currency_selector or section.settings.toolbar_social or section.settings.toolbar_menu != blank -%}
-      {%- render 'toolbar',
-        section: section,
-        toolbar_menu: toolbar_menu,
-        overlay_header: overlay_header
-      -%}
+      {% comment %} Hide toolbar if logo is set to center {% endcomment %}
+      {% if logo_alignment != 'center' %}
+        {%- render 'toolbar',
+          section: section,
+          toolbar_menu: toolbar_menu,
+          overlay_header: overlay_header
+        -%}
+      {%- endif -%}
     {%- endif -%}
   {%- endunless -%}
 
@@ -122,6 +125,23 @@
 
             {%- if logo_alignment == 'center' -%}
               <div class="header-item header-item--left header-item--navigation">
+                {% comment %} START custom feature {% endcomment %}
+                {%- if section.settings.toolbar_menu != blank and section.settings.main_menu_alignment != 'center-drawer' -%}
+                  <div class="toolbar__item toolbar__item--menu small--hide">
+                    <ul class="inline-list toolbar__menu">
+                    {%- for link in toolbar_menu.links -%}
+                      <li class="site-nav__item">
+                        <a class="site-nav__link site-nav__link--underline" href="{{ link.url }}">{{ link.title }}</a>
+                      </li>
+                    {%- endfor -%}
+                    </ul>
+                  </div>
+                {%- endif -%}
+                {% comment %} END custom feature {% endcomment %}
+
+                {% comment %} 
+                ** HIDE SEARCH FROM LEFT SIDE
+                
                 {%- if section.settings.main_menu_alignment == 'center' or section.settings.main_menu_alignment == 'center-split' -%}
                   {%- if settings.search_enable -%}
                     <div class="site-nav small--hide">
@@ -131,7 +151,8 @@
                       </a>
                     </div>
                   {%- endif -%}
-                {%- endif -%}
+                {%- endif -%} 
+              {% endcomment %}
 
                 {%- if section.settings.main_menu_alignment == 'center-left' -%}
                   {%- render 'header-desktop-nav', main_menu: main_menu, dropdown_alignment: dropdown_alignment, hover_menu: section.settings.hover_menu -%}

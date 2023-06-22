@@ -1,5 +1,43 @@
 {
   "sections": {
+    "1a4d9a53-964a-41f0-8545-5ecbeedfa2b5": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "template--14928844390442__1a4d9a53-964a-41f0-8545-5ecbeedfa2b5-1687472987ab5faa84-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Endless\npossibilities.",
+            "title_size": 80,
+            "subheading": "Bring your brand to life",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/blog-travel-4_28836c52-48d8-4aab-8721-f3a4027b4343.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_6b7e4fc5-b70c-4fa6-ac8d-81452c412007.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--14928844390442__1a4d9a53-964a-41f0-8545-5ecbeedfa2b5-1687472987ab5faa84-0"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "framed": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
     "b8fccc94-b721-4ed5-a976-f81ed754cc18": {
       "type": "promo-grid",
       "blocks": {
@@ -15,7 +53,7 @@
             "cta_link2": "",
             "image": "shopify:\/\/shop_images\/Slider_Moblie_b34dcf70-f892-443c-8c03-bfeb4678f440.jpg",
             "video_url": "",
-            "width": "50",
+            "width": "100",
             "height": 800,
             "text_size": 135,
             "text_align": "vertical-bottom horizontal-center",
@@ -26,6 +64,7 @@
         },
         "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "subheading": "",
             "heading": "Capsule Wardrobe",
@@ -401,6 +440,7 @@
     }
   },
   "order": [
+    "1a4d9a53-964a-41f0-8545-5ecbeedfa2b5",
     "b8fccc94-b721-4ed5-a976-f81ed754cc18",
     "deced09a-7ae6-46bd-add7-75b8eb496d49",
     "rich-text",

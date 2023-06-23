@@ -12,7 +12,7 @@
    .h2,
    .h3,
    .h4{
-     font-family: 'QuaverSerif' !important;
+     font-family: 'QuaverSerif';
      font-style: var(--font-heading-style);
      font-weight: var(--font-heading-weight);
      letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
@@ -99,12 +99,6 @@ a:not(.btn):after {
 }
 .grid-product__title {
    font-weight: 500;
-}
-@media screen and (max-width: 768px) {
-   .tag-list a.remaining-swatch-count {
-      display: block;
-      margin-top: 10px;
-   }
 }
 
 /* Featured Collection */
@@ -272,6 +266,10 @@ video-slide video {
 }
 
 /* FOOTER */
+.h4.footer__title {
+   font-family: var(--typeBasePrimary),var(--typeBaseFallback);
+   font-weight: 500;
+}
 .confirmation-message {
    margin-top: 1em;
    font-weight: 600;

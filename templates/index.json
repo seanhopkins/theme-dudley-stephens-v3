@@ -113,7 +113,7 @@
         "c0ceff30-f019-44d7-b646-cab022cd267f"
       ],
       "custom_css": [
-
+        "h2 {font-family: 'QuaverSerif';}"
       ],
       "settings": {
         "full_width": true,

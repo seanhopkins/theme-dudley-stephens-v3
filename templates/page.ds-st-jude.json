@@ -36,6 +36,7 @@
         "section_height": "natural",
         "mobile_height": "auto",
         "parallax": false,
+        "framed": false,
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 7,
@@ -83,7 +84,7 @@
         "image2_mask": "none",
         "subtitle": "",
         "title": "",
-        "text": "<h2>Dudley Stephens x St. Jude Children’s Research Hospital<em>®<\/em><\/h2><p>For children receiving lifesaving care at St. Jude Children’s Research Hospital, hope is everything.<\/p><p>We're proud to partner with St. Jude in 2022 to help advance their life-saving mission: Finding cures. Saving children.<em>®<\/em> St. Jude is leading the way the world understands, treats, and defeats childhood cancer and other life-threatening diseases. They pursue their mission while ensuring that families never receive a bill from St. Jude for treatment, travel, housing or food.<\/p><p>To date, our DS Gives partnership with St. Jude has raised over $200,000 to advance that life-saving mission. <\/p>",
+        "text": "<h3>Dudley Stephens x St. Jude Children’s Research Hospital<em>®<\/em><\/h3><p>For children receiving lifesaving care at St. Jude Children’s Research Hospital, hope is everything.<\/p><p>We're proud to partner with St. Jude in 2022 to help advance their life-saving mission: Finding cures. Saving children.<em>®<\/em> St. Jude is leading the way the world understands, treats, and defeats childhood cancer and other life-threatening diseases. They pursue their mission while ensuring that families never receive a bill from St. Jude for treatment, travel, housing or food.<\/p><p>To date, our DS Gives partnership with St. Jude has raised over $200,000 to advance that life-saving mission. <\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -99,7 +100,8 @@
     "10e7451b-d347-42b9-a10b-4eab7720d420": {
       "type": "text-and-image",
       "custom_css": [
-        "em {top: -0.5em; position: relative; font-size: 60%; vertical-align: baseline;}"
+        "em {top: -0.5em; position: relative; font-size: 60%; vertical-align: baseline;}",
+        "h2.h1 {font-size: calc(var(--typeHeaderSize)*0.65);}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled-3.png",

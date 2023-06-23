@@ -41,12 +41,18 @@
   # Some products are not discountable unless tagged with "_discountable"
   assign discountable = false
 
+  # Some products are not monogrammable
+  assign enable_monogram = false
+
   for tag in product.tags
     if tag contains settings.tag_sale_tag
       assign tag_sale = true
     endif
     if tag contains 'final-sale'
       assign final_sale_tag = true
+    endif
+    if tag contains 'monogram'
+      assign enable_monogram = true
     endif
   endfor 
 
@@ -166,8 +172,12 @@
                   </div>
                 </div>
                 <h1 class="h2 product-single__title">
-                  {%- unless product.empty? -%}
-                    {{ product.metafields.custom.product_style }} in {{ product_color }}
+                  {%- unless product.empty?  -%}
+                    {% if product.metafields.custom.product_style != blank and product_color != blank%}
+                      {{ product.metafields.custom.product_style }} in {{ product_color }}
+                    {% else %}
+                      {{ product.title }}
+                    {% endif %}
                   {%- else -%}
                     {{ 'home_page.onboarding.product_title' | t }}
                   {%- endunless -%}
@@ -388,7 +398,8 @@
                             form_id: form_id,
                             product: product,
                             show_dynamic_checkout: block.settings.show_dynamic_checkout,
-                            current_variant: current_variant
+                            current_variant: current_variant,
+                            enable_monogram: enable_monogram
                           -%}
                         </div>
                       {%- endunless -%}

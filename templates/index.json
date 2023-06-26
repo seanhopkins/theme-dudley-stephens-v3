@@ -113,7 +113,7 @@
         "c0ceff30-f019-44d7-b646-cab022cd267f"
       ],
       "custom_css": [
-        "h2 {font-family: 'QuaverSerif';}"
+        "h2 {font-family: \"QuaverSerif\";}"
       ],
       "settings": {
         "full_width": true,
@@ -388,7 +388,7 @@
         "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-1": {
           "type": "text_block",
           "settings": {
-            "icon": "package",
+            "icon": "store",
             "title": "Female founded",
             "text": "<p>Etiam feugiat lorem non metus. j<a href=\"#@!\" title=\"#@!\">Nullam quis ante.<\/a><\/p>"
           }
@@ -396,7 +396,7 @@
         "fb5cf248-626f-455c-9505-61ff07cbc9f8": {
           "type": "text_block",
           "settings": {
-            "icon": "sales-tag",
+            "icon": "globe",
             "title": "Family owned",
             "text": "<p>Quisque id odio. Morbi nec metus.<\/p>"
           }

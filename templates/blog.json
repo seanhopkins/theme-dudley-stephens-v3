@@ -5,6 +5,7 @@
       "blocks": {
         "template--14916567957546__a157bf24-d940-4390-b13d-0ccfe9541493-16817410538d6492ee-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/pineapple-street-logo_1250x_991e2593-0533-4fbb-b0f7-4a1c955de7cc.png",
             "link": "",

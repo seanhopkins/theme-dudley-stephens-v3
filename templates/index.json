@@ -7,7 +7,7 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Endless\npossibilities.",
+            "title": "Endless possibilities.",
             "title_size": 80,
             "subheading": "Bring your brand to life",
             "link": "",
@@ -15,11 +15,11 @@
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
-            "text_align": "vertical-bottom horizontal-center",
+            "text_align": "vertical-center horizontal-left",
             "image": "shopify:\/\/shop_images\/Slider_4306ed93-9cef-4ebc-8ca8-1c60921bead9.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_6b7e4fc5-b70c-4fa6-ac8d-81452c412007.jpg",
             "parallax_direction": "top",
-            "overlay_opacity": 0
+            "overlay_opacity": 12
           }
         }
       },

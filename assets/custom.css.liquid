@@ -25,7 +25,6 @@
 .slideshow__slide .hero__link .btn {
    letter-spacing: 0.05em;
    font-weight: 500;
-   text-transform: none;
 }
 a:not(.btn):after {
   color: var(--colorCartDot);
@@ -42,6 +41,31 @@ a:not(.btn):after {
 
 
 /* HOMEPAGE */
+.hero__text-wrap:before {
+  border: 16px solid transparent;
+  bottom: 0;
+  box-shadow: inset 0 0 0 2px #fff;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: auto;
+  z-index: 3;
+}
+
+.hero__text-wrap:after {
+  border: 8px solid transparent;
+  bottom: 0;
+  box-shadow: inset 0 0 0 2px #fff;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: auto;
+  z-index: 3;
+}
 .promo-grid__container--framed:not(.promo-grid__container--boxed):before {
    border: 4px solid transparent;
    bottom: 0;

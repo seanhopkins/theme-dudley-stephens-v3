@@ -82,6 +82,7 @@
     "social_tiktok_link": "https:\/\/www.tiktok.com\/@dudleystephens",
     "show_breadcrumbs": false,
     "show_breadcrumbs_collection_link": false,
+    "disable_animations": true,
     "product_grid_enable_swatches": true,
     "show_tag_sale_message_clp": false,
     "tag_sale_tag": "example",

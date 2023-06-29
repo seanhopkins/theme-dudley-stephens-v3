@@ -2,7 +2,6 @@
   "sections": {
     "1a4d9a53-964a-41f0-8545-5ecbeedfa2b5": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--14928844390442__1a4d9a53-964a-41f0-8545-5ecbeedfa2b5-1687472987ab5faa84-0": {
           "type": "image",
@@ -15,7 +14,7 @@
             "link_text": "Optional button",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
+            "color_accent": "#9bcc56",
             "text_align": "vertical-bottom horizontal-center",
             "image": "shopify:\/\/shop_images\/blog-travel-4_28836c52-48d8-4aab-8721-f3a4027b4343.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_6b7e4fc5-b70c-4fa6-ac8d-81452c412007.jpg",
@@ -27,8 +26,11 @@
       "block_order": [
         "template--14928844390442__1a4d9a53-964a-41f0-8545-5ecbeedfa2b5-1687472987ab5faa84-0"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
-        "section_height": "650px",
+        "section_height": "natural",
         "mobile_height": "auto",
         "parallax": false,
         "framed": false,

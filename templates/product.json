@@ -74,8 +74,8 @@
         "f04ac498-aae2-4dea-a727-52ea7ef7ff36": {
           "type": "sales_point",
           "settings": {
-            "icon": "globe",
-            "text": "Free worldwide shipping"
+            "icon": "truck",
+            "text": "Free shipping over $250"
           }
         },
         "8058ac20-bea7-49a4-ad34-845c2aa0437b": {

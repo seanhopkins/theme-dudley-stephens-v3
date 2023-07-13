@@ -287,7 +287,7 @@
         "background_color": "#ffffff",
         "background_image": "shopify:\/\/shop_images\/tiedye_banner.jpg",
         "overlay_color": "#ffffff",
-        "overlay_opacity": 80,
+        "overlay_opacity": 70,
         "lazyload_images": true
       }
     },

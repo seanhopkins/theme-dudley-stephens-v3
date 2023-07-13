@@ -16,8 +16,8 @@
         "announcement-1": {
           "type": "announcement",
           "settings": {
-            "text": "Hassle-free returns",
-            "link_text": "Shop our Warehouse Sale: up to 70% off styles to wear now & later.",
+            "text": "Shop our Warehouse Sale: up to 70% off styles to wear now & later.",
+            "link_text": "",
             "link": ""
           }
         }

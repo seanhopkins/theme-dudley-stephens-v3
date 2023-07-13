@@ -24,7 +24,7 @@
             "image_width": 650,
             "title": "",
             "text": "",
-            "button_label": "The Crop",
+            "button_label": "Crop-Length",
             "button_link": "shopify:\/\/collections\/cropped-turtlenecks"
           }
         },
@@ -37,7 +37,7 @@
             "image_width": 650,
             "title": "",
             "text": "",
-            "button_label": "Hits at Hip",
+            "button_label": "Hip-Length",
             "button_link": "shopify:\/\/collections\/short-turtlenecks"
           }
         },
@@ -63,7 +63,7 @@
             "image_width": 650,
             "title": "",
             "text": "",
-            "button_label": "Tunic Territory",
+            "button_label": "Tunic-Length",
             "button_link": "shopify:\/\/collections\/long-turtlenecks"
           }
         }

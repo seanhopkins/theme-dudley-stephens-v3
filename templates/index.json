@@ -267,7 +267,7 @@
           "type": "button",
           "settings": {
             "button_link": "shopify:\/\/collections\/new-drops",
-            "button": "Shop New",
+            "button": "Preview now",
             "button_style": "solid"
           }
         }

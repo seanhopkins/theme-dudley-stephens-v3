@@ -88,6 +88,11 @@
         </div>
       {% endif %}
       {% for block in section.blocks %}
+        {% if block.type == '@app' %}
+          <div class="countdown__block countdown__block--{{ block.type }}" {{ block.shopify_attributes }}>
+            {%- render block -%}
+          </div>
+        {% endif %}
         {% if block.type == 'timer' %}
           <div class="countdown__block countdown__block--{{ block.type }}" {{ block.shopify_attributes }}>
             <countdown-timer
@@ -242,6 +247,9 @@
     }
   ],
   "blocks": [
+    {
+      "type": "@app"
+    },
     {
       "type": "timer",
       "name": "t:sections.countdown.blocks.timer.name",

@@ -1720,11 +1720,11 @@ theme.recentlyViewed = {
   
           Error is handled in the quantityChanged method
   
-          For Expanse/Fetch quick add, if an error is present it is alerted
+          For Expanse/Fetch/Gem quick add, if an error is present it is alerted
           through the add to cart fetch request in quick-add.js.
   
           Custom property this.cartItemsUpdated = false is reset in cart-drawer.js for
-          Expanse/Fetch when using quick add
+          Expanse/Fetch/Gem when using quick add
         */
   
         if (document.documentElement.classList.contains('js-drawer-open') && this.cartItemsUpdated ||
@@ -2856,11 +2856,12 @@ theme.recentlyViewed = {
           errors.remove();
         }
   
-        document.dispatchEvent(new CustomEvent('ajaxProduct:added', {
+        this.form.dispatchEvent(new CustomEvent('ajaxProduct:added', {
           detail: {
             product: product,
             addToCartBtn: this.addToCart
-          }
+          },
+          bubbles: true
         }));
   
         if (this.args && this.args.scopedEventId) {
@@ -2886,13 +2887,20 @@ theme.recentlyViewed = {
   
         var errorDiv = document.createElement('div');
         errorDiv.classList.add('errors', 'text-center');
-        errorDiv.textContent = error.description;
+  
+        if (typeof error.description === 'object') {
+          errorDiv.textContent = error.message;
+        } else {
+          errorDiv.textContent = error.description;
+        }
+  
         this.form.append(errorDiv);
   
-        document.dispatchEvent(new CustomEvent('ajaxProduct:error', {
+        this.form.dispatchEvent(new CustomEvent('ajaxProduct:error', {
           detail: {
             errorMessage: error.description
-          }
+          },
+          bubbles: true
         }));
   
         if (this.args && this.args.scopedEventId) {
@@ -3004,9 +3012,10 @@ theme.recentlyViewed = {
     function setupModelViewerListeners(model) {
       var xrButton = xrButtons[model.sectionId];
   
-      model.container.addEventListener('mediaVisible', function() {
+      model.container.addEventListener('mediaVisible', function(event) {
         xrButton.element.setAttribute('data-shopify-model3d-id', model.modelId);
         if (theme.config.isTouch) return;
+        if (!event.detail.autoplayMedia) return;
         model.modelViewerUi.play();
       });
   
@@ -4015,6 +4024,8 @@ theme.recentlyViewed = {
   
         // Wait for opening events to finish then apply focus
         setTimeout(() => { this.input.focus(); }, 100);
+  
+        document.body.classList.add('predictive-overflow-hidden');
       });
   
       // listen for class change of 'modal--is-active on this.SearchModal
@@ -4054,10 +4065,7 @@ theme.recentlyViewed = {
     onChange() {
       const searchTerm = this.input.value.trim();
   
-      if (!searchTerm.length) {
-        this.close();
-        return;
-      }
+      if (!searchTerm.length) return;
   
       this.getSearchResults(searchTerm);
     }
@@ -4072,7 +4080,7 @@ theme.recentlyViewed = {
   
       const params = this.paramUrl(searchObj);
   
-      fetch(`/search/suggest?${params}&section_id=search-results`)
+      fetch(`${theme.routes.predictiveSearch}?${params}&section_id=search-results`)
         .then((response) => {
           if (!response.ok) {
             const error = new Error(response.status);
@@ -4097,7 +4105,6 @@ theme.recentlyViewed = {
   
     open() {
       this.predictiveSearchResults.style.display = 'block';
-      document.body.classList.add('predictive-overflow-hidden');
     }
   
     close() {
@@ -4125,6 +4132,73 @@ theme.recentlyViewed = {
   }
   
   customElements.define('predictive-search', PredictiveSearch);
+  
+  class RecipientForm extends HTMLElement {
+    constructor() {
+      super();
+      this.checkboxInput = this.querySelector(`#Recipient-Checkbox-${ this.dataset.sectionId }`);
+      this.emailInput = this.querySelector(`#Recipient-email-${ this.dataset.sectionId }`);
+      this.nameInput = this.querySelector(`#Recipient-name-${ this.dataset.sectionId }`);
+      this.messageInput = this.querySelector(`#Recipient-message-${ this.dataset.sectionId }`);
+      this.addEventListener('change', () => this.onChange());
+      this.recipientFields = this.querySelector('.recipient-fields');
+  
+      this.checkboxInput.addEventListener('change', () => {
+        this.recipientFields.style.display = this.checkboxInput.checked ? 'block' : 'none';
+      });
+    }
+  
+    connectedCallback() {
+      document.addEventListener('ajaxProduct:error', (event) => {
+        const productVariantID = event.target.querySelector('[name="id"]').value;
+        if (productVariantID === this.dataset.productVariantId) {
+          this.displayErrorMessage(event.detail.errorMessage);
+        }
+      });
+  
+      document.addEventListener('ajaxProduct:added', (event) => {
+        const productVariantID = event.target.querySelector('[name="id"]').value;
+        if (productVariantID === this.dataset.productVariantId) {
+          this.clearInputFields();
+          this.clearErrorMessage();
+        }
+      });
+    }
+  
+    onChange() {
+      if (!this.checkboxInput.checked) {
+        this.clearInputFields();
+        this.clearErrorMessage();
+      }
+    }
+  
+    clearInputFields() {
+      this.querySelectorAll('.field__input').forEach(el => el.value = '');
+    }
+  
+    displayErrorMessage(body) {
+      this.clearErrorMessage();
+      if (body) {
+        return Object.entries(body).forEach(([key, value]) => {
+          const inputElement = this[`${key}Input`];
+          if (!inputElement) return;
+  
+          inputElement.setAttribute('aria-invalid', true);
+          inputElement.classList.add('field__input--error');
+        });
+      }
+    }
+  
+    clearErrorMessage() {
+      this.querySelectorAll('.field__input').forEach(inputElement => {
+        inputElement.setAttribute('aria-invalid', false);
+        inputElement.removeAttribute('aria-describedby');
+        inputElement.classList.remove('field__input--error');
+      });
+    }
+  };
+  
+  customElements.define('recipient-form', RecipientForm);
   
 
   theme.announcementBar = (function() {
@@ -4732,88 +4806,6 @@ theme.recentlyViewed = {
     }
   
     return output;
-  }
-  
-  theme.buildCollectionItem = function(items) {
-    var output = '';
-  
-    items.forEach(collection => {
-      var markup = `
-        <li>
-          <a href="${collection.url}">
-            ${collection.title}
-          </a>
-        </li>
-      `;
-  
-      output += markup;
-    });
-  
-    return output;
-  }
-  
-  theme.buildPageItem = function(items) {
-    var output = '';
-  
-    items.forEach(page => {
-      var markup = `
-        <li>
-          <a href="${page.url}">
-            ${page.title}
-          </a>
-        </li>
-      `;
-  
-      output += markup;
-    });
-  
-    return output;
-  }
-  
-  theme.buildArticleItem = function(items, imageSize) {
-    var output = '';
-  
-    items.forEach(article => {
-      var image = theme.buildPredictiveImage(article);
-      var markup = `
-        <div class="grid__item grid-product small--one-half medium-up--one-quarter" data-aos="row-of-4">
-          <a href="${article.url}" class="grid-product__link grid-product__link--inline">
-            <div class="grid-product__image-mask">
-              <div
-                class="grid__image-ratio grid__image-ratio--object grid__image-ratio--${imageSize}">
-                <div class="predictive__image-wrap">
-                  ${image}
-                </div>
-              </div>
-            </div>
-            <div class="grid-product__meta">
-              ${article.title}
-            </div>
-          </a>
-        </div>
-      `;
-  
-      output += markup;
-    });
-  
-    return output;
-  }
-  
-  theme.buildPredictiveImage = function(obj) {
-    var imageMarkup = '';
-    if (obj.image) {
-      const template = document.getElementById("articleImageMarkup");
-      const clonedMarkup = template.content.cloneNode(true);
-      const imageEl = clonedMarkup.querySelector('img');
-  
-      imageEl.src = obj.image;
-  
-      const imageDiv = document.createElement('div');
-      imageDiv.appendChild(clonedMarkup);
-  
-      imageMarkup = imageDiv.innerHTML;
-    }
-    return imageMarkup;
   }
   
 
@@ -6837,7 +6829,8 @@ theme.recentlyViewed = {
       loaded: 'loaded',
       hidden: 'hide',
       interactable: 'video-interactable',
-      visuallyHide: 'visually-invisible'
+      visuallyHide: 'visually-invisible',
+      lowInventory: 'inventory--low',
     };
   
     var selectors = {
@@ -7091,6 +7084,10 @@ theme.recentlyViewed = {
         if (inventoryEl) {
           this.settings.inventory = true;
           this.settings.inventoryThreshold = inventoryEl.dataset.threshold;
+  
+          // Update inventory on page load
+          this.updateInventory({ detail: { variant: this.variants.currentVariant } });
+  
           this.container.on('variantChange' + this.settings.namespace, this.updateInventory.bind(this));
         }
   
@@ -7290,33 +7287,23 @@ theme.recentlyViewed = {
   
         // Hide stock if no inventory management or policy is continue
         if (!variant || !variant.inventory_management || variant.inventory_policy === 'continue') {
-          this.toggleInventoryQuantity(variant, false);
-          this.toggleIncomingInventory(false);
+          this.toggleInventoryQuantity(false);
+          this.toggleIncomingInventory(true, false);
           return;
         }
   
         if (variant.inventory_management === 'shopify' && window.inventories && window.inventories[this.productId]) {
-          var variantInventoryObject = window.inventories[this.productId][variant.id];
+          const variantInventoryObject = window.inventories[this.productId][variant.id];
   
-          var quantity = variantInventoryObject.quantity;
-          var showInventory = true;
-          var showIncomingInventory = false;
+          const { quantity, policy, incoming, next_incoming_date } = variantInventoryObject || {};
   
-          if (quantity <= 0 || quantity > this.settings.inventoryThreshold || variantInventoryObject.policy === 'continue') {
-            showInventory = false;
+          this.toggleInventoryQuantity(quantity);
+  
+          if ((incoming && !variant.available) || (quantity <= 0 && policy === 'continue')) {
+            this.toggleIncomingInventory(true, next_incoming_date);
+          } else {
+            this.toggleIncomingInventory(false);
           }
-  
-          this.toggleInventoryQuantity(variant, variantInventoryObject);
-  
-          // Only show incoming inventory when:
-          // - inventory notice itself is hidden
-          // - have incoming inventory
-          // - current quantity is below theme setting threshold
-          if (showInventory && variantInventoryObject.incoming === 'true' && quantity <= this.settings.inventoryThreshold) {
-            showIncomingInventory = true;
-          }
-  
-          this.toggleIncomingInventory(showIncomingInventory, variant.available, variantInventoryObject.next_incoming_date);
         }
       },
   
@@ -7329,66 +7316,67 @@ theme.recentlyViewed = {
         this.storeAvailability.updateContent(variant.id);
       },
   
-      toggleInventoryQuantity: function(variant, variantInventoryObject) {
-        const { quantity, policy } = variantInventoryObject || {};
-        if (!this.settings.inventory) {
-          return;
+      toggleInventoryQuantity: function(quantity) {
+  
+        const productInventoryEl = this.container.querySelector(this.selectors.inventory);
+        const inventorySalesPoint = productInventoryEl.closest('.sales-point');
+  
+        let showLowInventoryMessage = false;
+  
+        // Check if we should show low inventory message
+        if (parseInt(quantity) <= parseInt(this.settings.inventoryThreshold) && parseInt(quantity) > 0) {
+          showLowInventoryMessage = true;
         }
   
-        var el = this.container.querySelector(this.selectors.inventory);
-        var salesPoint = el.closest('.product-block');
-  
-        if (parseInt(quantity) <= parseInt(this.settings.inventoryThreshold) && policy !== 'continue') {
-          el.parentNode.classList.add('inventory--low');
-          if (quantity > 1) {
-            el.textContent = theme.strings.otherStockLabel.replace('[count]', quantity);
+        if (parseInt(quantity) > 0) {
+          if (showLowInventoryMessage) {
+            productInventoryEl.parentNode.classList.add(classes.lowInventory);
+            if (quantity > 1) {
+              productInventoryEl.textContent = theme.strings.otherStockLabel.replace('[count]', quantity);
+            } else {
+              productInventoryEl.textContent = theme.strings.oneStockLabel.replace('[count]', quantity);
+            }
           } else {
-            el.textContent = theme.strings.oneStockLabel.replace('[count]', quantity);
+            productInventoryEl.parentNode.classList.remove(classes.lowInventory);
+            productInventoryEl.textContent = theme.strings.inStockLabel;
           }
-        } else {
-          el.parentNode.classList.remove('inventory--low');
-          el.textContent = theme.strings.inStockLabel;
-        }
   
-        if (variant && variant.available) {
-          el.parentNode.classList.remove(classes.hidden);
-          if (salesPoint) {
-            salesPoint.classList.remove(classes.hidden);
+          if (inventorySalesPoint) {
+            inventorySalesPoint.classList.remove(classes.hidden);
           }
+  
         } else {
-          el.parentNode.classList.add(classes.hidden);
-          if (salesPoint) {
-            salesPoint.classList.add(classes.hidden);
+          if (inventorySalesPoint) {
+            inventorySalesPoint.classList.add(classes.hidden);
           }
         }
       },
   
-      toggleIncomingInventory: function(show, available, date) {
-        var el = this.container.querySelector(this.selectors.incomingInventory);
+      toggleIncomingInventory: function(showIncomingInventory, incomingInventoryDate) {
   
-        if (!el) {
+        const incomingInventoryEl = this.container.querySelector(this.selectors.incomingInventory);
+  
+        if (!incomingInventoryEl) return;
+  
+        const incomingInventoryBlockEnabled = incomingInventoryEl.dataset.enabled === 'true';
+        const textEl = incomingInventoryEl.querySelector('.js-incoming-text');
+  
+        // If incoming inventory block is disabled, hide it
+        if (!incomingInventoryBlockEnabled) {
+          incomingInventoryEl.classList.add(classes.hidden);
           return;
         }
   
-        var salesPoint = el.closest('.product-block');
-        var textEl = el.querySelector('.js-incoming-text');
-  
-        if (show) {
-          var string = available ?
-                       theme.strings.willNotShipUntil.replace('[date]', date) :
-                       theme.strings.willBeInStockAfter.replace('[date]', date);
-  
-          if (!date) {
-            string = theme.strings.waitingForStock;
+        if (showIncomingInventory) {
+          if (incomingInventoryDate) {
+            textEl.textContent = theme.strings.willBeInStockAfter.replace('[date]', incomingInventoryDate);
+            incomingInventoryEl.classList.remove(classes.hidden);
+          } else {
+            textEl.textContent = theme.strings.waitingForStock;
+            incomingInventoryEl.classList.remove(classes.hidden);
           }
-  
-          el.classList.remove(classes.hidden);
-          if (salesPoint) {
-            salesPoint.classList.remove(classes.hidden);
-          }
-          textEl.textContent = string;
         } else {
-          el.classList.add(classes.hidden);
+          incomingInventoryEl.classList.add(classes.hidden);
         }
       },
   

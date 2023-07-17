@@ -148,6 +148,10 @@
 
       <div class="flex-grid__item flex-grid__item--{{ block.settings.width }} flex-grid__item--{{ block.id }} type-{{ block.type }}" {{ block.shopify_attributes }}>
         {%- case block.type -%}
+          {%- when '@app' -%}
+            <div class="promo-grid__container">
+              {%- render block -%}
+            </div>
 
           {%- when 'advanced' -%}
             <div

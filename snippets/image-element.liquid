@@ -86,9 +86,18 @@
   if alt == blank
     assign alt = img.alt | default: ''
   endif
+
+  if animation == blank
+    assign animation = 'image-fade-in'
+  else
+    assign animation = animation
+  endif
+
+  # Add a class to the image so we can target theme images
+  assign classes = classes | append: ' image-element'
 %}
 
-<image-element data-aos="image-fade-in">
+<image-element data-aos="{{ animation }}" data-aos-offset="150">
 
 {% if type == blank %}
   {% if widths != blank %}

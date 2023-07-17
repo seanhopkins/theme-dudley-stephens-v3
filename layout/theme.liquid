@@ -237,5 +237,14 @@
       // Use your live public API Key and https://cdn1.affirm.com/js/v2/affirm.js script to point to Affirm production environment.
     </script>
   {% comment %} End Affirm {% endcomment %}
+  <script src="https://cdn.jsdelivr.net/npm/@loophq/onstore-sdk@latest/dist/loop-onstore-sdk.min.js"></script>
+
+<script> 
+   LoopOnstore.init({ 
+   key: "6efb900732ac154ed50f84d6529c11d2a594f3ed", 
+   attach: ".cart__checkout", 
+   });
+</script>
+  
 </body>
 </html>

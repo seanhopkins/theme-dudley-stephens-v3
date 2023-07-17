@@ -22,9 +22,9 @@
             "image": "shopify:\/\/shop_images\/MENS_HARBORSIDE_HOODIE_PETENATTI_TERRY_HEATHER_GRAY_097.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Cropped",
-            "text": "<p>Short text description about this product style, max two-lines<\/p>",
-            "button_label": "SHOP NOW",
+            "title": "",
+            "text": "",
+            "button_label": "Crop-Length",
             "button_link": "shopify:\/\/collections\/cropped-turtlenecks"
           }
         },
@@ -35,9 +35,9 @@
             "image": "shopify:\/\/shop_images\/MENS_HARBORSIDE_HOODIE_PETENATTI_TERRY_HEATHER_GRAY_097.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Short",
-            "text": "<p>Short text description about this product style, max two-lines<\/p>",
-            "button_label": "SHOP NOW",
+            "title": "",
+            "text": "",
+            "button_label": "Hip-Length",
             "button_link": "shopify:\/\/collections\/short-turtlenecks"
           }
         },
@@ -48,9 +48,9 @@
             "image": "shopify:\/\/shop_images\/MENS_HARBORSIDE_HOODIE_PETENATTI_TERRY_HEATHER_GRAY_097.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Midi",
-            "text": "<p>Short text description about this product style, max two-lines<\/p>",
-            "button_label": "SHOP NOW",
+            "title": "",
+            "text": "",
+            "button_label": "Midi-Length",
             "button_link": "shopify:\/\/collections\/midi-turtlenecks"
           }
         },
@@ -61,9 +61,9 @@
             "image": "shopify:\/\/shop_images\/MENS_HARBORSIDE_HOODIE_PETENATTI_TERRY_HEATHER_GRAY_097.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Long",
-            "text": "<p>Short text description about this product style, max two-lines<\/p>",
-            "button_label": "SHOP NOW",
+            "title": "",
+            "text": "",
+            "button_label": "Tunic-Length",
             "button_link": "shopify:\/\/collections\/long-turtlenecks"
           }
         }

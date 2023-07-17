@@ -2,36 +2,38 @@
   "sections": {
     "1a4d9a53-964a-41f0-8545-5ecbeedfa2b5": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--14928844390442__1a4d9a53-964a-41f0-8545-5ecbeedfa2b5-1687472987ab5faa84-0": {
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Endless\npossibilities.",
+            "title": "Just In",
             "title_size": 80,
-            "subheading": "Bring your brand to life",
+            "subheading": "Easygoing pieces for your forever wardrobe",
             "link": "",
-            "link_text": "Optional button",
+            "link_text": "SHOP NOW",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-bottom horizontal-center",
-            "image": "shopify:\/\/shop_images\/blog-travel-4_28836c52-48d8-4aab-8721-f3a4027b4343.jpg",
+            "color_accent": "#9bcc56",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/Slider_4306ed93-9cef-4ebc-8ca8-1c60921bead9.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_6b7e4fc5-b70c-4fa6-ac8d-81452c412007.jpg",
             "parallax_direction": "top",
-            "overlay_opacity": 0
+            "overlay_opacity": 12
           }
         }
       },
       "block_order": [
         "template--14928844390442__1a4d9a53-964a-41f0-8545-5ecbeedfa2b5-1687472987ab5faa84-0"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
-        "section_height": "650px",
+        "section_height": "natural",
         "mobile_height": "auto",
         "parallax": false,
-        "framed": false,
+        "framed": true,
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 5,
@@ -40,6 +42,7 @@
     },
     "b8fccc94-b721-4ed5-a976-f81ed754cc18": {
       "type": "promo-grid",
+      "disabled": true,
       "blocks": {
         "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-0": {
           "type": "advanced",
@@ -126,7 +129,7 @@
     "deced09a-7ae6-46bd-add7-75b8eb496d49": {
       "type": "featured-collection",
       "settings": {
-        "title": "Trending this season",
+        "title": "Styles for all seasons",
         "home_featured_products": "best-sellers",
         "per_row": 4,
         "rows": 1,
@@ -141,14 +144,15 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Shop by category"
+            "title": "Everyday dressing, evolved"
           }
         },
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Style to live in. Responsible fabrics. Female founded.<\/p>"
+            "text": ""
           }
         }
       },
@@ -241,9 +245,9 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-0": {
           "type": "content",
           "settings": {
-            "heading": "Limited runs of our most popular styles and colors, dropped monthly",
+            "heading": "The Dudley drop",
             "heading_size": "h3",
-            "text": "",
+            "text": "<p>New releases & restocks of familiar favorites. <\/p>",
             "content_alignment": "center"
           }
         },
@@ -255,15 +259,15 @@
             "day": "10",
             "hour": "09",
             "minute": "00",
-            "hide_timer": true,
-            "text": "<p>Never miss a drop, sign up for our newsletter to get auto reminders<\/p>"
+            "hide_timer": false,
+            "text": "<p>Don't miss the latest. Join our newsletter list for new drop news.<\/p>"
           }
         },
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2": {
           "type": "button",
           "settings": {
             "button_link": "shopify:\/\/collections\/new-drops",
-            "button": "Shop the Drop",
+            "button": "Preview now",
             "button_style": "solid"
           }
         }
@@ -281,9 +285,9 @@
         "full_width": false,
         "text_color": "#232528",
         "background_color": "#ffffff",
-        "background_image": "shopify:\/\/shop_images\/summer-ikat.png",
+        "background_image": "shopify:\/\/shop_images\/tiedye_banner.jpg",
         "overlay_color": "#ffffff",
-        "overlay_opacity": 80,
+        "overlay_opacity": 70,
         "lazyload_images": true
       }
     },
@@ -390,39 +394,30 @@
           "settings": {
             "icon": "store",
             "title": "Female founded",
-            "text": "<p>Etiam feugiat lorem non metus. j<a href=\"#@!\" title=\"#@!\">Nullam quis ante.<\/a><\/p>"
+            "text": "<p>A family-owned brand—by women, for women<\/p>"
           }
         },
         "fb5cf248-626f-455c-9505-61ff07cbc9f8": {
           "type": "text_block",
           "settings": {
-            "icon": "globe",
-            "title": "Family owned",
-            "text": "<p>Quisque id odio. Morbi nec metus.<\/p>"
+            "icon": "recycle",
+            "title": "Responsible fashion",
+            "text": "<p>Our recycled fabrics are made to perform <em>and<\/em> do good for the planet<\/p>"
           }
         },
         "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-0": {
           "type": "text_block",
           "settings": {
-            "icon": "recycle",
-            "title": "Responsible retail",
-            "text": "<p>All our products are made from recycled waterbottles<\/p>"
-          }
-        },
-        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-2": {
-          "type": "text_block",
-          "settings": {
             "icon": "charity",
-            "title": "DS gives back",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <\/p>"
+            "title": "DS Gives",
+            "text": "<p>We do our part to give back by helping women & children in need<\/p>"
           }
         }
       },
       "block_order": [
         "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-1",
         "fb5cf248-626f-455c-9505-61ff07cbc9f8",
-        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-0",
-        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-2"
+        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-0"
       ],
       "custom_css": [
         ".text-with-icons__block-icon .icon {width: 40px;}",
@@ -431,7 +426,7 @@
       "settings": {
         "title": "",
         "align_text": "center",
-        "desktop_columns_per_row": 4,
+        "desktop_columns_per_row": 3,
         "icon_color": "#000000",
         "button_label": "",
         "button_link": "",

@@ -25,43 +25,6 @@
         "divider": false
       }
     },
-    "211b1ca9-d3de-4d42-b0d1-90bc4b9ca4fe": {
-      "type": "slideshow",
-      "blocks": {
-        "template--14916873748522__211b1ca9-d3de-4d42-b0d1-90bc4b9ca4fe-1681493300dcbc6bb1-0": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Slider_ff16db10-f6d7-4ebd-a935-1a16d730457c.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_8c6e76ae-ec0e-4352-85f9-f55e7737cd85.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--14916873748522__211b1ca9-d3de-4d42-b0d1-90bc4b9ca4fe-1681493300dcbc6bb1-0"
-      ],
-      "settings": {
-        "section_height": "natural",
-        "mobile_height": "auto",
-        "parallax": false,
-        "framed": false,
-        "style": "bars",
-        "autoplay": false,
-        "autoplay_speed": 5,
-        "lazyload_images": false
-      }
-    },
     "c8a72bb7-4915-4ed7-ba64-198e8079eb61": {
       "type": "text-and-image",
       "custom_css": [
@@ -675,7 +638,6 @@
   "order": [
     "main",
     "2f6a095d-856d-49d2-a1b6-439a5b00244c",
-    "211b1ca9-d3de-4d42-b0d1-90bc4b9ca4fe",
     "c8a72bb7-4915-4ed7-ba64-198e8079eb61",
     "a69fd163-00cb-4c3f-b058-6f787e92ddcc",
     "1be8593d-b644-4e82-a366-0168333c3256",

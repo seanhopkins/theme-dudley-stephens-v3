@@ -36,6 +36,7 @@
         "section_height": "natural",
         "mobile_height": "auto",
         "parallax": false,
+        "framed": false,
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 7,
@@ -48,14 +49,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Welcome to Dudley Stephens"
+            "title": "Everyday dressing, evolved."
           }
         },
         "text": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Redefining everyday dressing with put-together closet essentials made to pair with all. Female-founded and run, with styles sourced from innovative recycled materials.<\/p>"
+            "text": "<p>Dudley Stephens was created for the modern woman who favors timeless versatility over trends when it comes to her wardrobe. From our core turtlenecks to our full collection of eco-friendly clothing and outerwear, we offer effortless styles—for men and kids, too—that stand up to real life, 24\/7.<\/p><p><\/p><p>We believe the question of what to wear today should have a simple answer—so we created those pieces ourselves. For every day, for all you do, there’s a Dudley.<br\/><\/p>"
           }
         }
       },
@@ -68,185 +69,11 @@
         "narrow_column": true,
         "divider": false
       }
-    },
-    "52683eff-e658-4591-b0fa-8734621ab3c9": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephens-JDP_5078.jpg",
-        "image_mask": "none",
-        "image2_mask": "none",
-        "subtitle": "",
-        "title": "FLEECE, THE STYLISH WAY",
-        "text": "<p>It starts with our flagship, the statement collar turtleneck in three tailored lengths.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "left",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
-    "10e7451b-d347-42b9-a10b-4eab7720d420": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephens-JDP_5456.jpg",
-        "image_mask": "none",
-        "image2_mask": "none",
-        "subtitle": "",
-        "title": "OUT-THE-DOOR OUTERWEAR",
-        "text": "<p>Warm up in an instant, for every jam-packed day.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "right",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
-    "6d8ba875-0cf8-47e0-9521-67e17967124a": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephens-JDP_4132.jpg",
-        "image_mask": "none",
-        "image2_mask": "none",
-        "subtitle": "",
-        "title": "THE SEASON’S STYLE DEBUTS",
-        "text": "<p>Tops and pullovers in debut colorways for women & children.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "left",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
-    "7b00adac-00b2-4aad-bee5-c7b1ff832677": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephensxMestiza-JDP_4167_1.jpg",
-        "image_mask": "none",
-        "image2_mask": "none",
-        "subtitle": "",
-        "title": "WHAT WE STAND FOR",
-        "text": "<p>As a female-founded, family-owned brand, we take pride in retailing responsibly. Our pieces are sold direct-to-consumer and through select storefronts. We work to promote positive change through initiatives authentic to our brand.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "right",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
-    "38e5439e-964d-485a-b83b-305e3ad922cb": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephens-JDP_4274.jpg",
-        "image_mask": "portrait",
-        "image2_mask": "portrait",
-        "subtitle": "",
-        "title": "Where we are made",
-        "text": "<p>Our collection began with a small factory in Brooklyn, New York. As we grew, we recognized the need to scale production—which sadly became an imperative when the 2020 pandemic hit close to home with the closure of our Brooklyn factory. To continue meeting customer demand, we quickly diversified production, identifying like-minded, environmentally conscious production partners in the US and Central America, and a factory in Asia that is also female-owned.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "left",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
-    "2a207a4a-4b5b-4636-a2dc-ddebc3b03d2a": {
-      "type": "advanced-content",
-      "blocks": {
-        "template--14916872863786__2a207a4a-4b5b-4636-a2dc-ddebc3b03d2a-16814924901b275260-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephens-JDP_3488.jpg",
-            "link": "",
-            "width": "33%",
-            "alignment": "center"
-          }
-        },
-        "964ae9ed-d08d-42cf-9800-55be7b94b76f": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephens-JDP_3263.jpg",
-            "link": "",
-            "width": "33%",
-            "alignment": "center"
-          }
-        },
-        "22a1e90a-d991-4bda-82ed-32897ffbfb97": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2023-01-12-dudleystephens-JDP_5489.jpg",
-            "link": "",
-            "width": "33%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--14916872863786__2a207a4a-4b5b-4636-a2dc-ddebc3b03d2a-16814924901b275260-0",
-        "964ae9ed-d08d-42cf-9800-55be7b94b76f",
-        "22a1e90a-d991-4bda-82ed-32897ffbfb97"
-      ],
-      "settings": {
-        "full_width": true,
-        "space_around": true,
-        "lazyload_images": true
-      }
-    },
-    "cb733efa-701b-4e53-ba56-082d209a1180": {
-      "type": "rich-text",
-      "blocks": {
-        "template--14916872863786__cb733efa-701b-4e53-ba56-082d209a1180-1681492553a288e12b-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p><strong>Environmental Stewardship.<\/strong><br\/>We source recycled fabrics that keep harmful plastics out of landfills and oceans, and calibrate production to reduce waste.<br\/><br\/><strong>Female Entrepreneurship.<\/strong><br\/>We support other female-founded companies through collaboration and promotion.<br\/><br\/><strong>Diversity in Fashion.<\/strong><br\/>We intentionally strive toward an inclusive community of customers and partners, prioritizing diversity in advertising and marketing.<\/p><p><strong>Brand Philanthropy. <br\/><\/strong>Through #dsgives we provide financial and in-kind support via partnerships with St. Jude Children’s Research Hospital[®].<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14916872863786__cb733efa-701b-4e53-ba56-082d209a1180-1681492553a288e12b-1"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
     }
   },
   "order": [
     "main",
     "slideshow",
-    "rich-text",
-    "52683eff-e658-4591-b0fa-8734621ab3c9",
-    "10e7451b-d347-42b9-a10b-4eab7720d420",
-    "6d8ba875-0cf8-47e0-9521-67e17967124a",
-    "7b00adac-00b2-4aad-bee5-c7b1ff832677",
-    "38e5439e-964d-485a-b83b-305e3ad922cb",
-    "2a207a4a-4b5b-4636-a2dc-ddebc3b03d2a",
-    "cb733efa-701b-4e53-ba56-082d209a1180"
+    "rich-text"
   ]
 }

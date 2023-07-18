@@ -17,7 +17,11 @@
 <div class="variant-wrapper js" data-type="button">
   <label class="variant__label{% if option.name == 'Default' or option.name == 'Title' %} hidden-label{% endif %}{% unless variant_labels %} hidden-label{% endunless %}"
     for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ forloop.index0 }}">
-    {{ option.name }}
+    {% if option.name contains "size" or option.name contains "Size"%}
+      Size
+    {% else %}
+      {{ option.name }}
+    {% endif %}
     {%- if connect_to_sizechart and is_size -%}
       <span class="variant__label-info">
         &mdash;

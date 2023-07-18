@@ -7,11 +7,20 @@
 {%- form 'product', product, id: form_id, class: 'product-single__form' -%}
 
   {%- liquid
+    assign gift_card_recipient_feature_active = false
+    if block.settings.show_gift_card_recipient and product.gift_card?
+      assign gift_card_recipient_feature_active = true
+    endif
+
     assign enable_dynamic_buttons = false
-    if show_dynamic_checkout and template != 'product.preorder'
+    if show_dynamic_checkout and template != 'product.preorder' and gift_card_recipient_feature_active == false
       assign enable_dynamic_buttons = true
     endif
   -%}
+
+  {%- if gift_card_recipient_feature_active -%}
+    {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
+  {%- endif -%}
 
   {%- if enable_dynamic_buttons -%}
     <div class="payment-buttons">

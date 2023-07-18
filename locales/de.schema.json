@@ -4200,9 +4200,65 @@
     }
   },
   "common": {
+    "color_scheme": {
+      "label": "Farbschema",
+      "options": {
+        "none": {
+          "label": "Keine"
+        },
+        "custom_1": {
+          "label": "Benutzerdefiniert 1"
+        },
+        "custom_2": {
+          "label": "Benutzerdefiniert 2"
+        },
+        "custom_3": {
+          "label": "Benutzerdefiniert 3"
+        }
+      }
+    },
     "lazyload_images": {
       "label": "Bilder faul laden",
       "info": "Lazy Loading sollte aktiviert werden, wenn sich Abschnittsbilder unterhalb der Falte befinden. [Mehr erfahren](https:\/\/archetypethemes.co\/blogs\/support\/what-is-lazyloading)"
+    },
+    "subheading": {
+      "label": "Unter-Überschrift"
+    },
+    "heading": {
+      "label": "Bildvergleich"
+    },
+    "richtext": {
+      "label": "Text"
+    },
+    "text_highlight": {
+      "label": "Überschrift kursiv geschriebener Textstil",
+      "info": "Stile werden nur auf den kursiven Text in der Überschrift angewendet",
+      "options": {
+        "underline": {
+          "label": "Unterstreichen"
+        },
+        "outline": {
+          "label": "Umriss"
+        },
+        "serif": {
+          "label": "Serife"
+        },
+        "handwrite": {
+          "label": "Handschrift"
+        },
+        "accent-color": {
+          "label": "Farbeinstellung „Verkaufsetiketten“."
+        },
+        "regular": {
+          "label": "Regulär"
+        }
+      }
+    },
+    "button_text": {
+      "label": "Schaltflächentext"
+    },
+    "button_link": {
+      "label": "Schaltflächenlink"
     },
     "heading_size": {
       "label": "Überschriftengröße",
@@ -4221,6 +4277,20 @@
         }
       }
     },
+    "text_position": {
+      "label": "Textposition",
+      "options": {
+        "left": {
+          "label": "Links"
+        },
+        "center": {
+          "label": "Center"
+        },
+        "right": {
+          "label": "Recht"
+        }
+      }
+    },
     "heading_position": {
       "label": "Kopfposition",
       "options": {
@@ -4233,6 +4303,57 @@
         "right": {
           "label": "Recht"
         }
+      }
+    },
+    "content_alignment": {
+      "label": "Inhaltliche Ausrichtung",
+      "options": {
+        "left": {
+          "label": "Links"
+        },
+        "center": {
+          "label": "Zentriert"
+        },
+        "right": {
+          "label": "Rechts"
+        }
+      }
+    },
+    "text_alignment": {
+      "label": "Textausrichtung"
+    },
+    "content_position": {
+      "label": "Inhaltliche Position",
+      "options": {
+        "top": {
+          "label": "Spitze"
+        },
+        "center": {
+          "label": "Center"
+        },
+        "bottom": {
+          "label": "Unterseite"
+        }
+      }
+    },
+    "top_padding": {
+      "label": "Zeige obere Abstand"
+    },
+    "bottom_padding": {
+      "label": "Zeige untere Abstand"
+    },
+    "full_width": {
+      "label": "Volle Breite aktivieren"
+    },
+    "layout": {
+      "space_above": {
+        "label": "Abstand oben hinzufügen"
+      },
+      "space_below": {
+        "label": "Abstand unten hinzufügen"
+      },
+      "gutter_size": {
+        "label": "Rasterabstand"
       }
     },
     "image_size": {
@@ -4251,6 +4372,9 @@
           "label": "Klein"
         }
       }
+    },
+    "image_crop": {
+      "label": "Bildausschnitt"
     },
     "image_mask": {
       "label": "Bildform",
@@ -4296,6 +4420,278 @@
     "products": {
       "max_products": {
         "label": "Maximal anzuzeigende Produkte"
+      }
+    },
+    "images": {
+      "hide_on_mobile": {
+        "label": "Auf Mobilgeräten alle Bildblöcke verbergen"
+      }
+    },
+    "gift_card": {
+      "show_gift_card_recipient": {
+        "label": "Formular für Empfängerinformationen für Geschenkgutscheinprodukte anzeigen",
+        "info": "Geschenkkartenprodukte können optional mit einer persönlichen Nachricht an einem bestimmten Datum direkt an einen Empfänger gesendet werden.[Mehr erfahren](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
+      }
+    },
+    "follow_on_shop": {
+      "name": "In Shop folgen",
+      "paragraph": {
+        "content": "Damit Kunden deinem Shop in der Shop-App über deine Storefront folgen können, muss Shop Pay aktiviert sein. [Mehr Informationen](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
+      },
+      "button": {
+        "label": "\"In Shop folgen\" aktivieren"
+      }
+    },
+    "text_with_icons": {
+      "name": {
+        "label": "Text mit Icons"
+      },
+      "settings": {
+        "title": {
+          "label": "Überschrift"
+        },
+        "align_text": {
+          "label": "Textausrichtung",
+          "options": {
+            "left": {
+              "label": "Links"
+            },
+            "center": {
+              "label": "Center"
+            }
+          }
+        },
+        "desktop_columns_per_row": {
+          "label": "Spalten pro Zeile (Desktop)"
+        },
+        "icon_color": {
+          "label": "Icon-Farbe"
+        },
+        "button_label": {
+          "label": "Schaltflächentext"
+        },
+        "button_link": {
+          "label": "Schaltflächenlink"
+        },
+        "divider": {
+          "label": "Trennlinie"
+        },
+        "alt": {
+          "label": "Alternative Abschnittsfarbe verwenden"
+        }
+      },
+      "blocks": {
+        "column": {
+          "name": "Spalte",
+          "settings": {
+            "icon": {
+              "label": "Icon",
+              "options": {
+                "bills": {
+                  "label": "Bills"
+                },
+                "calendar": {
+                  "label": "Kalender"
+                },
+                "cart": {
+                  "label": "Wagen"
+                },
+                "charity": {
+                  "label": "Wohltätigkeit"
+                },
+                "chat": {
+                  "label": "Plaudern"
+                },
+                "envelope": {
+                  "label": "Umschlag"
+                },
+                "gears": {
+                  "label": "Zahnräder"
+                },
+                "gift": {
+                  "label": "Geschenk"
+                },
+                "globe": {
+                  "label": "Globus"
+                },
+                "package": {
+                  "label": "Paket"
+                },
+                "phone": {
+                  "label": "Telefon"
+                },
+                "plant": {
+                  "label": "Pflanze"
+                },
+                "recycle": {
+                  "label": "Recyceln"
+                },
+                "ribbon": {
+                  "label": "Band"
+                },
+                "sales-tag": {
+                  "label": "Verkaufspreis"
+                },
+                "shield": {
+                  "label": "Schild"
+                },
+                "stopwatch": {
+                  "label": "Stoppuhr"
+                },
+                "store": {
+                  "label": "Geschäft"
+                },
+                "thumbs-up": {
+                  "label": "Daumen hoch"
+                },
+                "trophy": {
+                  "label": "Trophäe"
+                },
+                "truck": {
+                  "label": "Lkw"
+                },
+                "wallet": {
+                  "label": "Brieftasche"
+                }
+              }
+            },
+            "title": {
+              "label": "Überschrift"
+            },
+            "text": {
+              "label": "Text"
+            }
+          }
+        }
+      },
+      "presets": {
+        "text_with_icons": {
+          "name": "Text mit Icons"
+        }
+      }
+    },
+    "advanced-accordion": {
+      "name": "Fortgeschrittenes Akkordeon",
+      "settings": {
+        "disabled": {
+          "label": "Akkordeon deaktivieren"
+        },
+        "per_row": {
+          "label": "Blöcke pro Reihe"
+        },
+        "two_per_row_mobile": {
+          "label": "Zwei Blöcke pro Reihe auf Mobilgeräten"
+        },
+        "opened": {
+          "label": "Wird zunächst im geöffneten Zustand angezeigt"
+        }
+      },
+      "blocks": {
+        "text_block": {
+          "name": "Textblock",
+          "settings": {
+            "enable_image": {
+              "label": "Bild anzeigen"
+            },
+            "image": {
+              "label": "Bild"
+            },
+            "image_width": {
+              "label": "Bild breite"
+            }
+          }
+        },
+        "link_block": {
+          "name": "Linkblock",
+          "settings": {
+            "link_label": {
+              "label": "Link-Label"
+            },
+            "link": {
+              "label": "Verknüpfung"
+            },
+            "show_arrow": {
+              "label": "Pfeil anzeigen"
+            }
+          }
+        },
+        "html_block": {
+          "name": "HTML-Block",
+          "settings": {
+            "html": {
+              "label": "HTML"
+            }
+          }
+        }
+      }
+    },
+    "media_with_text": {
+      "name": "Medien mit Text",
+      "header": {
+        "content": "Medien"
+      },
+      "media_width": {
+        "label": "Medienbreite"
+      },
+      "media_crop": {
+        "label": "Medienausschnitt"
+      },
+      "layout": {
+        "label": "Layout auf dem Desktop",
+        "options": {
+          "left": {
+            "label": "Medien links"
+          },
+          "right": {
+            "label": "Medien rechts"
+          }
+        }
+      },
+      "content_header": {
+        "content": "Content"
+      },
+      "blocks": {
+        "video": {
+          "label": "Video",
+          "autoplay": {
+            "label": "Autoplay-Video"
+          },
+          "loop": {
+            "label": "Loop-Video"
+          },
+          "hide_controls": {
+            "label": "Steuerelemente ausblenden"
+          },
+          "mute_video": {
+            "label": "Video stumm schalten"
+          },
+          "alt_image_content": {
+            "content": "Fallback-Bild"
+          },
+          "alt_image": {
+            "label": "Bild",
+            "info": "Bild wird angezeigt, falls Video nicht geladen werden kann"
+          }
+        },
+        "image": {
+          "label": "Bild"
+        }
+      }
+    },
+    "gallery": {
+      "name": "Galerie",
+      "header": {
+        "content": "Inhalt",
+        "layout": "Layout"
+      },
+      "images_per_row": {
+        "label": "Bilder pro Zeile"
+      },
+      "image_alignment": {
+        "label": "Bildausrichtung"
+      },
+      "image": {
+        "label": "Bildausrichtung"
       }
     }
   }

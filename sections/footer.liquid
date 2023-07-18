@@ -65,16 +65,11 @@
                 render 'footer-newsletter', block: block
               when 'menu'
                 render 'footer-menu', block: block
+              when 'follow_shop_cta'
+                render 'follow-shop-cta', block: block
             endcase
           -%}
         </div>
-      {%- endfor -%}
-      {%- for block in section.blocks -%}
-        {%- if block.type == 'logo' -%}
-          <div class="grid__item medium-up--hide">
-            {%- render 'footer-logo', block: block -%}
-          </div>
-        {%- endif -%}
       {%- endfor -%}
     </div>
 
@@ -326,6 +321,26 @@
           "label": "t:sections.footer.blocks.custom_text.settings.container_width.label",
           "default": 25,
           "min": 15,
+          "max": 95,
+          "unit": "%"
+        }
+      ]
+    },
+    {
+      "type": "follow_shop_cta",
+      "name": "t:common.follow_shop_cta.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "t:common.follow_shop_cta.paragraph.content"
+        },
+        {
+          "type": "range",
+          "id": "container_width",
+          "label": "t:sections.footer.blocks.custom_text.settings.container_width.label",
+          "default": 25,
+          "min": 20,
           "max": 95,
           "unit": "%"
         }

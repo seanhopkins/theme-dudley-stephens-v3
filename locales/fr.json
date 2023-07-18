@@ -353,6 +353,21 @@
       "add_to_apple_wallet": "Ajouter à Apple Wallet"
     }
   },
+  "recipient": {
+    "form": {
+      "checkbox": "Je veux envoyer ce produit comme cadeau",
+      "email_label": "E‑mail du destinataire",
+      "email": "E‑mail",
+      "name_label": "Nom du destinataire (facultatif)",
+      "name": "Nom",
+      "message_label": "Message (facultatif)",
+      "message": "Message",
+      "max_characters": "{{ max_chars }} caractères au maximum",
+      "email_label_optional_for_no_js_behavior": "E‑mail du destinataire (facultatif)",
+      "send_on": "AAAA-MM-JJ",
+      "send_on_label": "Envoyer le (facultatif)"
+    }
+  },
   "date_formats": {
     "month_day_year": "%d %B, %Y"
   }

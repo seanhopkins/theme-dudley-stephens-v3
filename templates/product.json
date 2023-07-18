@@ -44,7 +44,8 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
-            "surface_pickup_enable": false
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
           }
         },
         "tab": {
@@ -71,25 +72,25 @@
             "page": ""
           }
         },
-        "f04ac498-aae2-4dea-a727-52ea7ef7ff36": {
-          "type": "sales_point",
-          "settings": {
-            "icon": "truck",
-            "text": "Free shipping over $250"
-          }
-        },
         "8058ac20-bea7-49a4-ad34-845c2aa0437b": {
           "type": "sales_point",
           "settings": {
             "icon": "package",
-            "text": "Easy returns"
+            "text": "Simple, no-hassle returns"
+          }
+        },
+        "f04ac498-aae2-4dea-a727-52ea7ef7ff36": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "truck",
+            "text": "Free shipping on orders $250+"
           }
         },
         "43d3e37f-8860-40ef-8349-35ff7eaa9cc4": {
           "type": "sales_point",
           "settings": {
-            "icon": "leaf",
-            "text": "Responsible materials"
+            "icon": "recycle",
+            "text": "Eco-friendly recycled fabrics"
           }
         }
       },
@@ -104,8 +105,8 @@
         "tab",
         "ab135439-7e5c-4100-a042-17e17f3fa6c7",
         "e84a0778-3ebe-4d15-9d52-f89ac088f28f",
-        "f04ac498-aae2-4dea-a727-52ea7ef7ff36",
         "8058ac20-bea7-49a4-ad34-845c2aa0437b",
+        "f04ac498-aae2-4dea-a727-52ea7ef7ff36",
         "43d3e37f-8860-40ef-8349-35ff7eaa9cc4"
       ],
       "custom_css": [

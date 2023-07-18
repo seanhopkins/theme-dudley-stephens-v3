@@ -2,7 +2,6 @@
   assign resources = predictive_search.resources
   assign columnCount = resources.queries.size | plus: resources.pages.size | plus: resources.articles.size | plus: resources.collections.size
   assign totalCount = resources.queries.size | plus: resources.pages.size | plus: resources.articles.size | plus: resources.collections.size | plus: resources.products.size
-
 %}
 
 {%- if predictive_search.performed -%}
@@ -86,10 +85,12 @@
                 <li role="option">
                   <a href="{{ product.url }}">
                     <div class="results-products__image grid__image-ratio">
-                      {%- render 'image-element',
-                        img: product,
-                        widths: '80, 160, 240',
-                      -%}
+                      {% if product.media != blank %}
+                        {%- render 'image-element',
+                          img: product.featured_media,
+                          widths: '80, 160, 240',
+                        -%}
+                      {% endif %}
                     </div>
                     <div class="results-products__info">
                       <span>{{ product.title }}</span>

@@ -72,6 +72,7 @@
     },
     "1c29967c-50f2-4767-936c-a79dea3e3576": {
       "type": "text-with-icons",
+      "disabled": true,
       "blocks": {
         "template--14938178781226__1c29967c-50f2-4767-936c-a79dea3e3576-16897063447d9ce7ac-0": {
           "type": "text_block",
@@ -112,12 +113,78 @@
         "button_link": "",
         "divider": false
       }
+    },
+    "2fa8335b-2fee-40d7-a896-1d3a9f8b7fa3": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/April17dudleystephensR-5_bd993dfc-ac49-4ca7-8be2-6f79e89edbed.jpg",
+        "image_mask": "none",
+        "image2_mask": "landscape",
+        "subtitle": "",
+        "title": "Female Founded",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "2bf09f21-e028-497d-9fae-3b7e804b7797": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2021-08-11-dudleystephens-5628.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Responsible Fashion",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "965db2db-ed75-4d85-a621-0f73c4f07b8c": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DS_GIVES_BLANKET_SHERPA_BUTTERCREAM_046_c068c698-afca-4eeb-8af1-c1825ad16e48.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "DS Gives",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
     "main",
     "slideshow",
     "rich-text",
-    "1c29967c-50f2-4767-936c-a79dea3e3576"
+    "1c29967c-50f2-4767-936c-a79dea3e3576",
+    "2fa8335b-2fee-40d7-a896-1d3a9f8b7fa3",
+    "2bf09f21-e028-497d-9fae-3b7e804b7797",
+    "965db2db-ed75-4d85-a621-0f73c4f07b8c"
   ]
 }

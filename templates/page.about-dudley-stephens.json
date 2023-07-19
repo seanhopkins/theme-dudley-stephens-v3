@@ -13,16 +13,16 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Two line\ntitle slide.",
+            "title": "",
             "title_size": 80,
-            "subheading": "And optional subtext",
+            "subheading": "",
             "link": "",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Slider_24ebbf8b-337b-4ae3-87c0-84d03e1e18f5.jpg",
+            "image": "shopify:\/\/shop_images\/About_Us_23.png",
             "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_a753a4d4-5ed8-4e09-9e14-03a994880abe.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
@@ -107,7 +107,7 @@
         "title": "",
         "align_text": "center",
         "desktop_columns_per_row": 3,
-        "icon_color": "#000",
+        "icon_color": "#000000",
         "button_label": "",
         "button_link": "",
         "divider": false

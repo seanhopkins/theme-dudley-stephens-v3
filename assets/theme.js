@@ -6593,6 +6593,11 @@ theme.recentlyViewed = {
       },
   
       renderCollectionPage: function(searchParams, updateURLHash = true) {
+        if (!searchParams.has('filter.v.availability')) {
+          searchParams.append('filter.v.availability', 1);
+        }
+        // qwertyuiop
+
         this.ajaxRenderer
           .renderPage(window.location.pathname, searchParams, updateURLHash)
           .then(() => {

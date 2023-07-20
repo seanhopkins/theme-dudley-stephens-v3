@@ -98,6 +98,37 @@
           background: none;
           background-color: transparent;
         }
+        @media screen and (max-width: 768px) {
+          .hero__image-wrapper:before {
+          border: 16px solid transparent;
+          bottom: 0;
+          box-shadow: inset 0 0 0 2px #fff;
+          content: "";
+          left: 0;
+          position: absolute;
+          right: 0;
+          top: 0;
+          z-index: 999;
+          opacity: 1;
+          background: none;
+          background-color: transparent;
+        }
+        
+        .hero__image-wrapper:after {
+          border: 8px solid transparent;
+          bottom: 0;
+          box-shadow: inset 0 0 0 2px #fff;
+          content: "";
+          left: 0;
+          position: absolute;
+          right: 0;
+          top: 0;
+          z-index: 999;
+          opacity: 1;
+          background: none;
+          background-color: transparent;
+        }
+        }
       {%  endstyle %}
     {% endif %}
 

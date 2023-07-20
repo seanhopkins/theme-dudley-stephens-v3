@@ -118,7 +118,7 @@
       "type": "text-and-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/April17dudleystephensR-5_bd993dfc-ac49-4ca7-8be2-6f79e89edbed.jpg",
-        "image_mask": "none",
+        "image_mask": "square",
         "image2_mask": "landscape",
         "subtitle": "",
         "title": "Female Founded",
@@ -139,7 +139,7 @@
       "type": "text-and-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/2021-08-11-dudleystephens-5628.jpg",
-        "image_mask": "none",
+        "image_mask": "square",
         "image2_mask": "none",
         "subtitle": "",
         "title": "Responsible Fashion",
@@ -160,7 +160,7 @@
       "type": "text-and-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/DS_GIVES_BLANKET_SHERPA_BUTTERCREAM_046_c068c698-afca-4eeb-8af1-c1825ad16e48.jpg",
-        "image_mask": "none",
+        "image_mask": "square",
         "image2_mask": "none",
         "subtitle": "",
         "title": "DS Gives",

@@ -21,29 +21,10 @@
             "parallax_direction": "top",
             "overlay_opacity": 12
           }
-        },
-        "5b537237-54b5-4a5c-9ae5-10b509ef05bb": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "Two line\ntitle slide.",
-            "title_size": 80,
-            "subheading": "And optional subtext",
-            "link": "",
-            "link_text": "Optional button",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image_mobile": "shopify:\/\/shop_images\/April17dudleystephensR-5_bd993dfc-ac49-4ca7-8be2-6f79e89edbed.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
-        "template--14928844390442__1a4d9a53-964a-41f0-8545-5ecbeedfa2b5-1687472987ab5faa84-0",
-        "5b537237-54b5-4a5c-9ae5-10b509ef05bb"
+        "template--14928844390442__1a4d9a53-964a-41f0-8545-5ecbeedfa2b5-1687472987ab5faa84-0"
       ],
       "custom_css": [
 

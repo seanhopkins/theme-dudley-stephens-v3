@@ -102,8 +102,8 @@
       ],
       "settings": {
         "show_locale_selector": true,
-        "show_currency_selector": true,
-        "show_currency_flags": true,
+        "show_currency_selector": false,
+        "show_currency_flags": false,
         "show_payment_icons": false,
         "show_copyright": false,
         "copyright_text": ""

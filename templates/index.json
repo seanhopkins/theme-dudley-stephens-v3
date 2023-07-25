@@ -175,16 +175,16 @@
         "template--14916567695402__ad8d799a-dd28-40ce-8234-0b79cb13bd90-16851213259a117373-0": {
           "type": "collection",
           "settings": {
-            "collection": "tops",
-            "title": "",
+            "collection": "turtlenecks",
+            "title": "Our flagship: the turtleneck",
             "focal_point": "center center"
           }
         },
         "template--14916567695402__ad8d799a-dd28-40ce-8234-0b79cb13bd90-16851213259a117373-1": {
           "type": "collection",
           "settings": {
-            "collection": "bottoms",
-            "title": "",
+            "collection": "kids",
+            "title": "Back to School, styled",
             "focal_point": "center center"
           }
         },

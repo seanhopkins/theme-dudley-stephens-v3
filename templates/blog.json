@@ -6,14 +6,14 @@
         "template--14938178912298__d4456aa8-23c5-4ab7-9808-9c13cefd116d-heading-1": {
           "type": "heading",
           "settings": {
-            "title": "Pineapple Street Blog"
+            "title": "Pineapple Street: The Blog"
           }
         },
         "template--14938178912298__d4456aa8-23c5-4ab7-9808-9c13cefd116d-text-1": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Welcome to the world of Dudley—chic inspiration, trends worth spotting and chronicles of everyday adventures outfitted by our styles.<\/p>"
           }
         }
       },

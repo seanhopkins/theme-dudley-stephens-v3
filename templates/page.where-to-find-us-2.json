@@ -14,10 +14,18 @@
           "settings": {
             "title": "{{ page.title }}"
           }
+        },
+        "84192662-8fdd-4278-92ca-dbacd77e7891": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>From our Greenwich, CT Townhouse to retail partners nationwide, discover the many destinations where you can shop our styles.<\/p>"
+          }
         }
       },
       "block_order": [
-        "template--14916873748522__2f6a095d-856d-49d2-a1b6-439a5b00244c-1681492553a288e12b-0"
+        "template--14916873748522__2f6a095d-856d-49d2-a1b6-439a5b00244c-1681492553a288e12b-0",
+        "84192662-8fdd-4278-92ca-dbacd77e7891"
       ],
       "settings": {
         "align_text": "center",

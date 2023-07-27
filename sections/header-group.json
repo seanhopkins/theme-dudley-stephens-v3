@@ -8,13 +8,14 @@
         "announcement-0": {
           "type": "announcement",
           "settings": {
-            "text": "The first styles of summer are here!",
-            "link_text": "Shop the Drop",
+            "text": "Celebrate our site’s new look with 30% off core styles.",
+            "link_text": "Shop now.",
             "link": "shopify:\/\/collections\/new-drops"
           }
         },
         "announcement-1": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Shop our Warehouse Sale: up to 70% off styles to wear now & later.",
             "link_text": "",

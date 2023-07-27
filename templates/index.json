@@ -171,6 +171,7 @@
     },
     "169048578304a868ab": {
       "type": "apps",
+      "disabled": true,
       "blocks": {
         "d6a326f6-3162-463a-9810-96962c9572ab": {
           "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",

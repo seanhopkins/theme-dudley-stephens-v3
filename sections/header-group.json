@@ -55,7 +55,7 @@
       "settings": {
         "main_menu_link_list": "2023-menu",
         "hover_menu": false,
-        "mega_menu_images": false,
+        "mega_menu_images": true,
         "main_menu_alignment": "center",
         "header_style": "sticky",
         "sticky_index": false,

@@ -92,6 +92,16 @@
             "icon": "recycle",
             "text": "Eco-friendly recycled fabrics"
           }
+        },
+        "8f0954c1-0b81-4d99-adee-73d712a03e49": {
+          "type": "complementary_products",
+          "settings": {
+            "product_complementary_heading": "Make it a gift",
+            "complementary_count": 2,
+            "per_slide": 2,
+            "control_type": "dots",
+            "image_style": "default"
+          }
         }
       },
       "block_order": [
@@ -107,7 +117,8 @@
         "e84a0778-3ebe-4d15-9d52-f89ac088f28f",
         "8058ac20-bea7-49a4-ad34-845c2aa0437b",
         "f04ac498-aae2-4dea-a727-52ea7ef7ff36",
-        "43d3e37f-8860-40ef-8349-35ff7eaa9cc4"
+        "43d3e37f-8860-40ef-8349-35ff7eaa9cc4",
+        "8f0954c1-0b81-4d99-adee-73d712a03e49"
       ],
       "custom_css": [
 

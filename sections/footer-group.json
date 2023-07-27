@@ -57,7 +57,7 @@
           "type": "newsletter",
           "settings": {
             "show_footer_title": true,
-            "title": "Join our list",
+            "title": "Join Our List",
             "text": "<p>Become a DS Insider for drop news, special offers & styling ideas<\/p>",
             "container_width": 40,
             "show_postscript": true,

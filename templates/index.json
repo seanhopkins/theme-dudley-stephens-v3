@@ -144,7 +144,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Everyday dressing, evolved"
+            "title": "Everyday Dressing, Evolved"
           }
         },
         "text": {
@@ -245,7 +245,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-0": {
           "type": "content",
           "settings": {
-            "heading": "The Dudley drop",
+            "heading": "The Dudley Drop",
             "heading_size": "h3",
             "text": "<p>New releases & restocks of familiar favorites. <\/p>",
             "content_alignment": "center"
@@ -344,7 +344,7 @@
         "template--14938178879530__50370838-75ed-486a-9c7b-001bf82a5e5e-168624616344b8cdfd-0": {
           "type": "heading",
           "settings": {
-            "title": "This is how we dudley"
+            "title": "This is How We Dudley"
           }
         },
         "template--14938178879530__50370838-75ed-486a-9c7b-001bf82a5e5e-168624616344b8cdfd-1": {
@@ -393,7 +393,7 @@
           "type": "text_block",
           "settings": {
             "icon": "store",
-            "title": "Female founded",
+            "title": "Female Founded",
             "text": "<p>A family-owned brand—by women, for women<\/p>"
           }
         },
@@ -401,7 +401,7 @@
           "type": "text_block",
           "settings": {
             "icon": "recycle",
-            "title": "Responsible fashion",
+            "title": "Responsible Fashion",
             "text": "<p>Our recycled fabrics are made to perform <em>and<\/em> do good for the planet<\/p>"
           }
         },

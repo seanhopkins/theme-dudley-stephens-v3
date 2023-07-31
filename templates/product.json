@@ -93,14 +93,13 @@
             "text": "Eco-friendly recycled fabrics"
           }
         },
-        "8f0954c1-0b81-4d99-adee-73d712a03e49": {
-          "type": "complementary_products",
+        "f3a9819f-f30f-4d77-96de-f4d4a46ce0d5": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
           "settings": {
-            "product_complementary_heading": "Make it a gift",
-            "complementary_count": 2,
-            "per_slide": 2,
-            "control_type": "dots",
-            "image_style": "default"
+            "enabled": true,
+            "id": "99229",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
           }
         }
       },
@@ -118,7 +117,7 @@
         "8058ac20-bea7-49a4-ad34-845c2aa0437b",
         "f04ac498-aae2-4dea-a727-52ea7ef7ff36",
         "43d3e37f-8860-40ef-8349-35ff7eaa9cc4",
-        "8f0954c1-0b81-4d99-adee-73d712a03e49"
+        "f3a9819f-f30f-4d77-96de-f4d4a46ce0d5"
       ],
       "custom_css": [
 

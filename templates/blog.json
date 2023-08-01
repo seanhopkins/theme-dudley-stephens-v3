@@ -1,29 +1,30 @@
 {
   "sections": {
-    "a157bf24-d940-4390-b13d-0ccfe9541493": {
-      "type": "advanced-content",
+    "d4456aa8-23c5-4ab7-9808-9c13cefd116d": {
+      "type": "rich-text",
       "blocks": {
-        "template--14916567957546__a157bf24-d940-4390-b13d-0ccfe9541493-16817410538d6492ee-0": {
-          "type": "image",
-          "disabled": true,
+        "template--14938178912298__d4456aa8-23c5-4ab7-9808-9c13cefd116d-heading-1": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pineapple-street-logo_1250x_991e2593-0533-4fbb-b0f7-4a1c955de7cc.png",
-            "link": "",
-            "width": "50%",
-            "alignment": "center"
+            "title": "Pineapple Street: The Blog"
+          }
+        },
+        "template--14938178912298__d4456aa8-23c5-4ab7-9808-9c13cefd116d-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Welcome to the world of Dudley—chic inspiration, trends worth spotting and chronicles of everyday adventures outfitted by our styles.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--14916567957546__a157bf24-d940-4390-b13d-0ccfe9541493-16817410538d6492ee-0"
-      ],
-      "custom_css": [
-        ".custom__item {margin: auto;}"
+        "template--14938178912298__d4456aa8-23c5-4ab7-9808-9c13cefd116d-heading-1",
+        "template--14938178912298__d4456aa8-23c5-4ab7-9808-9c13cefd116d-text-1"
       ],
       "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
       }
     },
     "b23c0f69-dbf6-48a9-9e49-92bb1f1b3be9": {
@@ -68,7 +69,7 @@
     }
   },
   "order": [
-    "a157bf24-d940-4390-b13d-0ccfe9541493",
+    "d4456aa8-23c5-4ab7-9808-9c13cefd116d",
     "b23c0f69-dbf6-48a9-9e49-92bb1f1b3be9",
     "main"
   ]

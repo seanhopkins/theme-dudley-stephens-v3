@@ -15,9 +15,9 @@
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/Slider_4306ed93-9cef-4ebc-8ca8-1c60921bead9.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_6b7e4fc5-b70c-4fa6-ac8d-81452c412007.jpg",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/Slider_7907148a-4d5a-4e23-8702-a2bb01be90b7.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_6337d134-d7e3-4024-93e0-193eaf0c7a23.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 12
           }
@@ -129,7 +129,7 @@
     "deced09a-7ae6-46bd-add7-75b8eb496d49": {
       "type": "featured-collection",
       "settings": {
-        "title": "Styles for all seasons",
+        "title": "Our Bestselling Styles",
         "home_featured_products": "best-sellers",
         "per_row": 4,
         "rows": 1,
@@ -138,13 +138,34 @@
         "divider": false
       }
     },
+    "169048578304a868ab": {
+      "type": "apps",
+      "blocks": {
+        "d6a326f6-3162-463a-9810-96962c9572ab": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "99217",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "d6a326f6-3162-463a-9810-96962c9572ab"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
     "rich-text": {
       "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Everyday dressing, evolved"
+            "title": "Everyday Dressing, Evolved"
           }
         },
         "text": {
@@ -175,24 +196,24 @@
         "template--14916567695402__ad8d799a-dd28-40ce-8234-0b79cb13bd90-16851213259a117373-0": {
           "type": "collection",
           "settings": {
-            "collection": "tops",
-            "title": "",
+            "collection": "turtlenecks",
+            "title": "Essentially Dudley",
             "focal_point": "center center"
           }
         },
         "template--14916567695402__ad8d799a-dd28-40ce-8234-0b79cb13bd90-16851213259a117373-1": {
           "type": "collection",
           "settings": {
-            "collection": "bottoms",
-            "title": "",
+            "collection": "kids",
+            "title": "Back to School, styled",
             "focal_point": "center center"
           }
         },
         "template--14916567695402__ad8d799a-dd28-40ce-8234-0b79cb13bd90-16851213259a117373-2": {
           "type": "collection",
           "settings": {
-            "collection": "turtlenecks",
-            "title": "",
+            "collection": "trending-for-fall",
+            "title": "Trending for fall",
             "focal_point": "center center"
           }
         },
@@ -245,7 +266,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-0": {
           "type": "content",
           "settings": {
-            "heading": "The Dudley drop",
+            "heading": "The Dudley Drop",
             "heading_size": "h3",
             "text": "<p>New releases & restocks of familiar favorites. <\/p>",
             "content_alignment": "center"
@@ -255,9 +276,9 @@
           "type": "timer",
           "settings": {
             "year": "2023",
-            "month": "06",
-            "day": "10",
-            "hour": "09",
+            "month": "08",
+            "day": "15",
+            "hour": "10",
             "minute": "00",
             "hide_timer": false,
             "text": "<p>Don't miss the latest. Join our newsletter list for new drop news.<\/p>"
@@ -344,7 +365,7 @@
         "template--14938178879530__50370838-75ed-486a-9c7b-001bf82a5e5e-168624616344b8cdfd-0": {
           "type": "heading",
           "settings": {
-            "title": "This is how we dudley"
+            "title": "This is How We Dudley"
           }
         },
         "template--14938178879530__50370838-75ed-486a-9c7b-001bf82a5e5e-168624616344b8cdfd-1": {
@@ -393,7 +414,7 @@
           "type": "text_block",
           "settings": {
             "icon": "store",
-            "title": "Female founded",
+            "title": "Female Founded",
             "text": "<p>A family-owned brand—by women, for women<\/p>"
           }
         },
@@ -401,7 +422,7 @@
           "type": "text_block",
           "settings": {
             "icon": "recycle",
-            "title": "Responsible fashion",
+            "title": "Responsible Fashion",
             "text": "<p>Our recycled fabrics are made to perform <em>and<\/em> do good for the planet<\/p>"
           }
         },
@@ -438,6 +459,7 @@
     "1a4d9a53-964a-41f0-8545-5ecbeedfa2b5",
     "b8fccc94-b721-4ed5-a976-f81ed754cc18",
     "deced09a-7ae6-46bd-add7-75b8eb496d49",
+    "169048578304a868ab",
     "rich-text",
     "ad8d799a-dd28-40ce-8234-0b79cb13bd90",
     "b436726f-56a1-40d8-9a9c-1d5386d219c4",

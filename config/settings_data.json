@@ -67,7 +67,7 @@
     "cart_type": "drawer",
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
-    "gwp_enable": true,
+    "gwp_enable": false,
     "gwp_tier_1_product_ids": "3952059940906",
     "gwp_tier_1_threshold": "150",
     "gwp_tier_1_spend_more": "You’re just [money] away from our Hemlock Headband!",

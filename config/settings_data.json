@@ -85,6 +85,7 @@
     "disable_animations": true,
     "product_grid_enable_swatches": true,
     "show_tag_sale_message_clp": false,
+    "show_tag_sale_message_pdp": false,
     "tag_sale_tag": "example",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",

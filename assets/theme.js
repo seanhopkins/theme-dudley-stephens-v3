@@ -6593,9 +6593,11 @@ theme.recentlyViewed = {
       },
   
       renderCollectionPage: function(searchParams, updateURLHash = true) {
-        if (!searchParams.has('filter.v.availability')) {
-          searchParams.append('filter.v.availability', 1);
-        }
+        // TODO: Auto apply in-stock filter, but allow a customer to remove it
+        
+        // if (!searchParams.has('filter.v.availability')) {
+        //   searchParams.append('filter.v.availability', 1);
+        // }
         // qwertyuiop
 
         this.ajaxRenderer

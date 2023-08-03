@@ -19,12 +19,6 @@
           "settings": {
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "is_tab": false
-          }
-        },
         "898a4dd8-f55a-4ad6-ac0c-2974dd79371b": {
           "type": "size_chart",
           "settings": {
@@ -40,29 +34,16 @@
             "color_swatches": true
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
+        "8be094d0-bbd6-4aad-980a-a98086f937da": {
+          "type": "custom",
           "settings": {
-            "show_dynamic_checkout": false,
-            "surface_pickup_enable": false,
-            "show_gift_card_recipient": false
+            "code": "{% render 'color-swatches', separate_by_material: true %}"
           }
         },
-        "f3a9819f-f30f-4d77-96de-f4d4a46ce0d5": {
-          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+        "description": {
+          "type": "description",
           "settings": {
-            "enabled": true,
-            "id": "99229",
-            "product_id_enabled": true,
-            "collection_id_enabled": false
-          }
-        },
-        "tab": {
-          "type": "tab",
-          "settings": {
-            "title": "Details",
-            "content": "{{ product.metafields.custom.product_details | metafield_tag }}",
-            "page": ""
+            "is_tab": true
           }
         },
         "ab135439-7e5c-4100-a042-17e17f3fa6c7": {
@@ -79,6 +60,38 @@
             "title": "Care",
             "content": "{{ product.metafields.custom.product_care | metafield_tag }}<p>View <a href=\"\/pages\/fabric-guide\" target=\"_blank\" title=\"Fabric Guide\">Fabric Guide<\/a><\/p>",
             "page": ""
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "Details",
+            "content": "{{ product.metafields.custom.product_details | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "f3a9819f-f30f-4d77-96de-f4d4a46ce0d5": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "disabled": true,
+          "settings": {
+            "enabled": true,
+            "id": "99229",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        },
+        "f748a8e4-cb48-49f5-8fb5-45436e04f0d0": {
+          "type": "custom",
+          "settings": {
+            "code": "{% assign enable_monogram = false %}\n{% for tag in product.tags %}\n  {% if tag contains 'monogram' %} \n  {% assign enable_monogram = true %}\n  {% endif %}\n{% endfor %}\n{% if enable_monogram %}\n  {% render 'monogram', parent_product: product %}\n{% endif %}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
           }
         },
         "8058ac20-bea7-49a4-ad34-845c2aa0437b": {
@@ -107,14 +120,16 @@
         "c73cc944-2dd8-41be-96f5-01434a99b524",
         "price",
         "separator",
-        "description",
         "898a4dd8-f55a-4ad6-ac0c-2974dd79371b",
         "variant_picker",
-        "buy_buttons",
-        "f3a9819f-f30f-4d77-96de-f4d4a46ce0d5",
-        "tab",
+        "8be094d0-bbd6-4aad-980a-a98086f937da",
+        "description",
         "ab135439-7e5c-4100-a042-17e17f3fa6c7",
         "e84a0778-3ebe-4d15-9d52-f89ac088f28f",
+        "tab",
+        "f3a9819f-f30f-4d77-96de-f4d4a46ce0d5",
+        "f748a8e4-cb48-49f5-8fb5-45436e04f0d0",
+        "buy_buttons",
         "8058ac20-bea7-49a4-ad34-845c2aa0437b",
         "f04ac498-aae2-4dea-a727-52ea7ef7ff36",
         "43d3e37f-8860-40ef-8349-35ff7eaa9cc4"

@@ -22,7 +22,31 @@
         "description": {
           "type": "description",
           "settings": {
-            "is_tab": false
+            "is_tab": true
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "Details",
+            "content": "{{ product.metafields.custom.product_details | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "ab135439-7e5c-4100-a042-17e17f3fa6c7": {
+          "type": "tab",
+          "settings": {
+            "title": "Fit",
+            "content": "{{ product.metafields.custom.product_fit | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "e84a0778-3ebe-4d15-9d52-f89ac088f28f": {
+          "type": "tab",
+          "settings": {
+            "title": "Care",
+            "content": "{{ product.metafields.custom.product_care | metafield_tag }}<p>View <a href=\"\/pages\/fabric-guide\" target=\"_blank\" title=\"Fabric Guide\">Fabric Guide<\/a><\/p>",
+            "page": ""
           }
         },
         "898a4dd8-f55a-4ad6-ac0c-2974dd79371b": {
@@ -57,30 +81,6 @@
             "collection_id_enabled": false
           }
         },
-        "tab": {
-          "type": "tab",
-          "settings": {
-            "title": "Details",
-            "content": "{{ product.metafields.custom.product_details | metafield_tag }}",
-            "page": ""
-          }
-        },
-        "ab135439-7e5c-4100-a042-17e17f3fa6c7": {
-          "type": "tab",
-          "settings": {
-            "title": "Fit",
-            "content": "{{ product.metafields.custom.product_fit | metafield_tag }}",
-            "page": ""
-          }
-        },
-        "e84a0778-3ebe-4d15-9d52-f89ac088f28f": {
-          "type": "tab",
-          "settings": {
-            "title": "Care",
-            "content": "{{ product.metafields.custom.product_care | metafield_tag }}<p>View <a href=\"\/pages\/fabric-guide\" target=\"_blank\" title=\"Fabric Guide\">Fabric Guide<\/a><\/p>",
-            "page": ""
-          }
-        },
         "8058ac20-bea7-49a4-ad34-845c2aa0437b": {
           "type": "sales_point",
           "settings": {
@@ -108,13 +108,13 @@
         "price",
         "separator",
         "description",
+        "tab",
+        "ab135439-7e5c-4100-a042-17e17f3fa6c7",
+        "e84a0778-3ebe-4d15-9d52-f89ac088f28f",
         "898a4dd8-f55a-4ad6-ac0c-2974dd79371b",
         "variant_picker",
         "buy_buttons",
         "f3a9819f-f30f-4d77-96de-f4d4a46ce0d5",
-        "tab",
-        "ab135439-7e5c-4100-a042-17e17f3fa6c7",
-        "e84a0778-3ebe-4d15-9d52-f89ac088f28f",
         "8058ac20-bea7-49a4-ad34-845c2aa0437b",
         "f04ac498-aae2-4dea-a727-52ea7ef7ff36",
         "43d3e37f-8860-40ef-8349-35ff7eaa9cc4"

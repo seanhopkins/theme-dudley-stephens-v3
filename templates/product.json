@@ -74,6 +74,7 @@
         },
         "f3a9819f-f30f-4d77-96de-f4d4a46ce0d5": {
           "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "disabled": true,
           "settings": {
             "enabled": true,
             "id": "99229",

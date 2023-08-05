@@ -7,17 +7,17 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Fresh Outlook",
+            "title": "Just In",
             "title_size": 80,
-            "subheading": "Celebrate our site's new look with 25% off core styles.",
-            "link": "https:\/\/www.dudley-stephens.com\/collections\/dudley-classics",
+            "subheading": "Easygoing pieces for your forever wardrobe",
+            "link": "",
             "link_text": "SHOP NOW",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
-            "text_align": "vertical-center horizontal-right",
-            "image": "shopify:\/\/shop_images\/Slider_cf088500-6a1f-4b7d-a4fa-7baddd168bd1.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_511769eb-9998-4b73-857b-77a165c8aeca.jpg",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/Slider_7907148a-4d5a-4e23-8702-a2bb01be90b7.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_6337d134-d7e3-4024-93e0-193eaf0c7a23.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 12
           }

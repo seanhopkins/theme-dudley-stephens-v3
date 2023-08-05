@@ -335,6 +335,17 @@
       "color_swatch_available_in": "Available in",
       "color_swatch_on_sale": "On sale for {{ price }}",
       "color_swatch_on_sale_starting_at": "On sale (some styles as low as {{ price }})"
+    },
+    "monogram": {
+      "pdp_title": "Monogram it",
+      "pdp_description_html": "Add initials or letters to make your Dudley uniquely yours.",
+      "pdp_checkbox": "Add a custom embroidery +$15.00",
+      "pdp_button": "Personalize It",
+      "pdp_warning": "ⓘ You must personalize it before adding to the cart.",
+      "modal_title": "Personalize it",
+      "modal_input_title": "Your Name",
+      "modal_character_warning": "ⓘ Case sensitive, Max 10 characters.",
+      "modal_blank_warning": "⚠ Can't be blank."
     }
   },
   "store_availability": {

@@ -333,10 +333,11 @@ Arguments
 
     {% comment %} START custom feature  {% endcomment %}
     {% if settings.product_grid_enable_swatches %}
+      {% unless product.title contains "Gift Card" %}
       <color-swatches
         product-handle="{{ product.handle }}"
         limit="{{ settings.product_grid_swatch_limit }}"
-      >
+      > 
         {% comment %} Placeholder markup {% endcomment %}
         <div class="variant-wrapper">
           {% comment %} Hide "Available In" label {% endcomment %}
@@ -353,6 +354,7 @@ Arguments
           </ul>
         </div>
       </color-swatches>
+    {% endunless %}
     {% endif %}
   {% comment %} END custom feature  {% endcomment %}
 

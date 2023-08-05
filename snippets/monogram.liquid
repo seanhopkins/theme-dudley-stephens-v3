@@ -19,18 +19,21 @@
 
 {{ 'monogram.css' | asset_url | stylesheet_tag: preload: true }}
 <script src="{{ 'monogram.js' | asset_url }}" defer></script>
-
+<div class="rte">
+  <p class="h3">{{ 'products.monogram.pdp_title' | t }}</p>
+  <p>{{ 'products.monogram.pdp_description_html' | t }}</p>
+</div>
 <monogram-toggle>
   <input id="add-monogram" type="checkbox">
-  <label for="add-monogram">Add a custom embroidery +$15</label>
+  <label for="add-monogram">{{ 'products.monogram.pdp_checkbox' | t }}</label>
 
   <div class="monogram-button-wrapper hide">
     <button
       class="js-modal-open-monogram-modal btn btn--secondary btn--full"
     >
-      Personalize it
+      {{ 'products.monogram.pdp_button' | t }}
     </button>
-    <small class="text-center"> ⓘ You must personalize it before adding to the cart. </small>
+    <small class="text-center">{{ 'products.monogram.pdp_warning' | t }}</small>
   </div>
 </monogram-toggle>
 
@@ -60,7 +63,7 @@
           </div>
           <div class="grid__item medium-up--one-half monogram-customizer">
             <div class="product-single__meta">
-              <h2>Personalize it</h2>
+              <h2>{{ 'products.monogram.modal_title' | t }}</h2>
               <div class="product-block"><hr></div>
               <div class="rte"><p>{{ monogram_product.description }}</p></div>
 

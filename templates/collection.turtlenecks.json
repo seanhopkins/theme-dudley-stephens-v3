@@ -25,7 +25,7 @@
             "title": "",
             "text": "",
             "button_label": "Crop-Length",
-            "button_link": "\/collections\/turtlenecks\/?filter.p.m.custom.length=Crop"
+            "button_link": "\/collections\/turtlenecks?filter.p.m.custom.length=Crop"
           }
         },
         "template--14941186293802__9f2f8ec2-a27c-4723-8fbd-1c943d4846a9-1686857266cb48b043-1": {
@@ -38,7 +38,7 @@
             "title": "",
             "text": "",
             "button_label": "Hip-Length",
-            "button_link": "\/collections\/turtlenecks\/?filter.p.m.custom.length=Hip"
+            "button_link": "\/collections\/turtlenecks?filter.p.m.custom.length=Hip"
           }
         },
         "template--14941186293802__9f2f8ec2-a27c-4723-8fbd-1c943d4846a9-1686857266cb48b043-2": {
@@ -51,7 +51,7 @@
             "title": "",
             "text": "",
             "button_label": "Midi-Length",
-            "button_link": "\/collections\/turtlenecks\/?filter.p.m.custom.length=Midi"
+            "button_link": "\/collections\/turtlenecks?filter.p.m.custom.length=Midi"
           }
         },
         "8ec9f29e-5c87-4ba3-9b2b-1da159f0e4fe": {
@@ -64,7 +64,7 @@
             "title": "",
             "text": "",
             "button_label": "Tunic-Length",
-            "button_link": "\/collections\/turtlenecks\/?filter.p.m.custom.length=Tunic"
+            "button_link": "\/collections\/turtlenecks?filter.p.m.custom.length=Tunic"
           }
         }
       },

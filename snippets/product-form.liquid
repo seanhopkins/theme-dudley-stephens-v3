@@ -68,4 +68,8 @@
       {%- endif -%}
     {%- endfor -%}
   </select>
+
+  {% if product.metafields.theme.custom.final_sale %}
+    <input id="Final Sale" type="text" name="properties[FINAL SALE]">
+  {%  endif %}
 {%- endform -%}

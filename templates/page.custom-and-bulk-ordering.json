@@ -18,7 +18,7 @@
         "template--14916927946794__ebaf6f14-0401-40df-9285-11231985f449-1681505432fc581d6b-1": {
           "type": "text",
           "settings": {
-            "enlarge_text": false,
+            "enlarge_text": true,
             "text": "<p><em>Your guide to corporate, custom and bulk ordering. <\/em><\/p>"
           }
         },

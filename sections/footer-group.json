@@ -70,7 +70,7 @@
           "type": "menu",
           "settings": {
             "show_footer_title": true,
-            "menu": "customer-service",
+            "menu": "2023-customer-service",
             "container_width": 20
           }
         },

@@ -288,11 +288,24 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "62395583-cf40-4d0f-be0c-7e08c33cadd5": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "df131dc2-e2bc-4b84-8291-7eb54a5b39f4",
-        "737800c0-9e45-49de-b01c-435272699362"
+        "737800c0-9e45-49de-b01c-435272699362",
+        "62395583-cf40-4d0f-be0c-7e08c33cadd5"
       ],
       "settings": {
         "title": "Illinois",

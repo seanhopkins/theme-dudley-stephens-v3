@@ -214,8 +214,11 @@ Arguments
       <div class="grid-product__material">{{ product.metafields.custom.product_material }}</div>
       <div class="grid-product__title--{{ settings.type_product_style }}">
         {% comment %}Start custom feature {% endcomment %}
-          <span class="visually-hidden">{{ product.title }} </span>
+          {% if product.metafields.custom.product_style %}
           <span class="grid-product__title">{{ product.metafields.custom.product_style }}</span>
+          {% else %}
+        <span class="grid-product__title">{{ product.title }} </span>
+          {% endif %}
         {% comment %}End custom feature {% endcomment %}
       </div>
       {%- if settings.vendor_enable -%}

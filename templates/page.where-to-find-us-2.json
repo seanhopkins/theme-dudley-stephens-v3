@@ -364,11 +364,24 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "2d48abb8-d6c2-43fe-99ce-cb3bde84edf7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "6fb6f349-9a18-45df-8477-4458610373df",
-        "4f0c1f56-ced7-4a16-9cdf-9863f5c028cc"
+        "4f0c1f56-ced7-4a16-9cdf-9863f5c028cc",
+        "2d48abb8-d6c2-43fe-99ce-cb3bde84edf7"
       ],
       "settings": {
         "title": "Maryland",

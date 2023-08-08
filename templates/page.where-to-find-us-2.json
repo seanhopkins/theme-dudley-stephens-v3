@@ -416,18 +416,6 @@
             "button_link": ""
           }
         },
-        "c2aed130-3aee-43ec-87ab-5e65550f6600": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "2d9fd8c1-c03a-48a3-bb12-409fe7c3a046": {
           "type": "text_block",
           "settings": {
@@ -451,27 +439,13 @@
             "button_label": "",
             "button_link": ""
           }
-        },
-        "50d67ab3-04ad-4572-9555-6320ac29ca02": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "1a187ebc-5981-4ef6-9275-adfc26c4ebc5",
         "0c7c32fe-d1a9-4f01-91f1-54c348bd8f8f",
-        "c2aed130-3aee-43ec-87ab-5e65550f6600",
         "2d9fd8c1-c03a-48a3-bb12-409fe7c3a046",
-        "e67479e0-20d1-4adf-97ff-5b6e311119a3",
-        "50d67ab3-04ad-4572-9555-6320ac29ca02"
+        "e67479e0-20d1-4adf-97ff-5b6e311119a3"
       ],
       "settings": {
         "title": "Massachusetts",
@@ -567,7 +541,7 @@
             "button_link": ""
           }
         },
-        "f0e3ad16-550c-4161-88c8-d74487bf4f3c": {
+        "2243c7f9-c685-4ed9-8c6a-3026968b19ee": {
           "type": "text_block",
           "settings": {
             "enable_image": false,
@@ -586,7 +560,7 @@
         "e2fba160-a5b6-4ae3-9263-61fb4fb4ec83",
         "ee091b32-f51c-4296-ba51-489d3a6f6415",
         "e5f1a248-11f8-4551-9675-1e064dd6cc56",
-        "f0e3ad16-550c-4161-88c8-d74487bf4f3c"
+        "2243c7f9-c685-4ed9-8c6a-3026968b19ee"
       ],
       "settings": {
         "title": "New York",

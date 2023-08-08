@@ -1,7 +1,7 @@
 /* GLOBAL */
 @font-face { 
    font-family: 'QuaverSerif';
-   src: url(https://cdn.shopify.com/s/files/1/0833/2853/files/QuaverSerif.woff?v=1683726791 format('woff2');
+   src: url(https://cdn.shopify.com/s/files/1/0833/2853/files/QuaverSerif.woff?v=1683726791) format('woff2');
    }
    h1,
    h2,
@@ -56,6 +56,11 @@ a:not(.btn):after {
    background-color: #fdfbf8;
    padding: 0 1em;
  }
+
+/* CART */
+.cart__item--final-sale {
+  display: none !important;
+}
 
 
 /* HOMEPAGE */
@@ -152,12 +157,12 @@ h1.h2.product-single__title {
 .product__price--compare {
    font-size: .85em;
 }
-.product__price--final-sale { 
-   background-color: var(--colorTextBody);
-   text-transform: uppercase;
-   font-size: .75em;
-   color: #fff;
-   padding: 3px 8px;
+span.product__price--final-sale {
+    background-color: #efefef;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
 }
 
 p.affirm-as-low-as {
@@ -286,6 +291,10 @@ video-slide[data-is-playing="true"] .play-button {
 }
 video-slide video {
    width: 100%;
+}
+/* Fix Image opacity bug */
+.slideshow-wrapper .loaded .image-element {
+    opacity: 1;
 }
 
 /* FOOTER */

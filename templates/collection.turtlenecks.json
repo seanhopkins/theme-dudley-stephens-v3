@@ -6,10 +6,31 @@
         "h1 {text-align: center;}"
       ],
       "settings": {
-        "enable": false,
+        "enable": true,
         "collection_image_enable": false,
         "parallax": false,
         "parallax_direction": "top"
+      }
+    },
+    "831a17d3-b3ec-4cfe-b906-7d042c3f99f4": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14941659693098__831a17d3-b3ec-4cfe-b906-7d042c3f99f4-liquid-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if collection.description %}\n<div class=\"text-center\">{{ collection.description }}<\/div>\n{% endif %}",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14941659693098__831a17d3-b3ec-4cfe-b906-7d042c3f99f4-liquid-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false,
+        "lazyload_images": true
       }
     },
     "9f2f8ec2-a27c-4723-8fbd-1c943d4846a9": {
@@ -19,7 +40,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/MEADOWCAMEL_9fa8bc6c-53c8-4b67-8d65-70c3947564f5.jpg",
+            "image": "shopify:\/\/shop_images\/meadow.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -32,7 +53,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/PARK_SLOPE_VELLO_ARMY_GREEN_2301.jpg",
+            "image": "shopify:\/\/shop_images\/PARK_SLOPE_VELLO_ARMY_GREEN_2301_734d33c6-af54-4693-97ac-e5b94fe4e9b5.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -45,7 +66,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/greenpoint_black_eb6b7748-42c3-4af9-8374-6842f9b20d25.jpg",
+            "image": "shopify:\/\/shop_images\/parkslopeblack.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -58,7 +79,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/COBBLE_HILL_VELLO_CREAM_2949.jpg",
+            "image": "shopify:\/\/shop_images\/COBBLE_HILL_VELLO_CREAM_2949_1.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -114,6 +135,7 @@
   },
   "order": [
     "collection-header",
+    "831a17d3-b3ec-4cfe-b906-7d042c3f99f4",
     "9f2f8ec2-a27c-4723-8fbd-1c943d4846a9",
     "main-collection"
   ]

@@ -18,6 +18,9 @@
     </a>
   </div>
   <div class="cart__item-details">
+    {% if product.product.metafields.custom.final_sale %}
+      <span class="product__price--final-sale">Final Sale</span>
+    {% endif %}
     <div class="cart__item-title">
       <a href="{{ product.url }}" class="cart__item-name">
         {{ product.product.title }}
@@ -44,7 +47,7 @@
           {%- endif -%}
 
           {% unless p.last == blank or first_character_in_key == '_' %}
-            <div>
+            <div class="cart__item--properties {% if p.first == 'Promo' %} cart__item--final-sale {% endif %}">
               {{ p.first }}:
               {% if p.last contains '/uploads/' %}
                 <a href="{{ p.last }}">{{ p.last | split: '/' | last }}</a>
@@ -56,7 +59,9 @@
         {% endfor %}
       {% endif %}
 
-      <div data-position="wrapped-item"></div>
+      {% unless product.title contains "_" %}
+        <div data-position="wrapped-item"></div>
+      {% endunless %}
 
     </div>
     <div class="cart__item-sub">

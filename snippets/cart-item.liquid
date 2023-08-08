@@ -47,7 +47,7 @@
           {%- endif -%}
 
           {% unless p.last == blank or first_character_in_key == '_' %}
-            <div class="cart__item--properties">
+            <div class="cart__item--properties {%- if p.first == 'Promo' %}cart__item--final-sale {% endif %}">
               {{ p.first }}:
               {% if p.last contains '/uploads/' %}
                 <a href="{{ p.last }}">{{ p.last | split: '/' | last }}</a>

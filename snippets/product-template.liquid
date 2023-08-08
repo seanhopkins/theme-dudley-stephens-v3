@@ -261,7 +261,7 @@
                       </span>
 
                       {% comment %} START custom feature {% endcomment %}
-                      {% if product.metafields.theme.custom.final_sale %}
+                      {% if product.metafields.custom.final_sale %}
                         <span class="product__price--final-sale">{{ product.metafields.theme.label.value }}</span>
                       {% endif %}
                       {% if tag_sale and settings.show_tag_sale_message_clp %}

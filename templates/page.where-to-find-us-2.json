@@ -49,7 +49,7 @@
         "button_link": "",
         "button_style": "primary",
         "align_text": "left",
-        "image_width": "50",
+        "image_width": "33",
         "layout": "left",
         "divider": false,
         "top_padding": true,
@@ -288,11 +288,24 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "62395583-cf40-4d0f-be0c-7e08c33cadd5": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "df131dc2-e2bc-4b84-8291-7eb54a5b39f4",
-        "737800c0-9e45-49de-b01c-435272699362"
+        "737800c0-9e45-49de-b01c-435272699362",
+        "62395583-cf40-4d0f-be0c-7e08c33cadd5"
       ],
       "settings": {
         "title": "Illinois",
@@ -351,11 +364,24 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "2d48abb8-d6c2-43fe-99ce-cb3bde84edf7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "6fb6f349-9a18-45df-8477-4458610373df",
-        "4f0c1f56-ced7-4a16-9cdf-9863f5c028cc"
+        "4f0c1f56-ced7-4a16-9cdf-9863f5c028cc",
+        "2d48abb8-d6c2-43fe-99ce-cb3bde84edf7"
       ],
       "settings": {
         "title": "Maryland",
@@ -514,6 +540,18 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "2243c7f9-c685-4ed9-8c6a-3026968b19ee": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -521,7 +559,8 @@
         "cc51b223-e552-4d11-92ec-c8bcb9e70cf0",
         "e2fba160-a5b6-4ae3-9263-61fb4fb4ec83",
         "ee091b32-f51c-4296-ba51-489d3a6f6415",
-        "e5f1a248-11f8-4551-9675-1e064dd6cc56"
+        "e5f1a248-11f8-4551-9675-1e064dd6cc56",
+        "2243c7f9-c685-4ed9-8c6a-3026968b19ee"
       ],
       "settings": {
         "title": "New York",

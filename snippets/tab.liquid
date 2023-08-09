@@ -21,7 +21,7 @@
           <ul class="list">
             {% for fit in product.metafields.custom.product_fit.value %}
               {% if forloop.last %}
-                <ul style="margin-top:-25px;">
+                <ul>
                   {% if product.metafields.custom.bust.value %}<li> Bust: {{ product.metafields.custom.bust.value }}</li>{% endif %}
                   {% if product.metafields.custom.sleeve_length.value %}<li> Sleeve Length: {{ product.metafields.custom.sleeve_length.value }}</li>{% endif %}
                   {% if product.metafields.custom.back_length.value %}<li> Back Length: {{ product.metafields.custom.back_length.value }}</li>{% endif %}

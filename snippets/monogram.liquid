@@ -19,9 +19,9 @@
 
 {{ 'monogram.css' | asset_url | stylesheet_tag: preload: true }}
 <script src="{{ 'monogram.js' | asset_url }}" defer></script>
-<div class="rte">
-  <p class="h3">{{ 'products.monogram.pdp_title' | t }}</p>
-  <p>{{ 'products.monogram.pdp_description_html' | t }}</p>
+<div class="rte monogram--text">
+  <p class="h3 monogram--title">{{ 'products.monogram.pdp_title' | t }}</p>
+  <p class="monogram--description">{{ 'products.monogram.pdp_description_html' | t }}</p>
 </div>
 <monogram-toggle>
   <input id="add-monogram" type="checkbox">

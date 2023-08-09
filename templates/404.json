@@ -8,7 +8,7 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Popular picks",
+        "title": "Our Bestselling Styles",
         "home_featured_products": "best-sellers",
         "per_row": 4,
         "rows": 1,

@@ -155,7 +155,6 @@
       "blocks": {
         "cfbe4144-5c38-475e-88b4-0522af0539a9": {
           "type": "liquid",
-          "disabled": true,
           "settings": {
             "code": "<p class=\"h2 text-center\">Show us how you dudley<\/h2>",
             "width": "100%",

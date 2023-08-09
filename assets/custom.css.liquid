@@ -85,6 +85,12 @@ a:not(.btn):after {
 
 /* SLIDESHOW */
 @media screen and (max-width: 768px) {
+   .hero__text-content.horizontal-center, 
+   .hero__text-content.horizontal-left,
+   .hero__text-content.horizontal-right {
+      text-align:center;
+   }
+
    .hero--mobile--auto[data-mobile-natural=true] {
       bottom: 0;
       height: 100%;
@@ -208,6 +214,9 @@ p.affirm-as-low-as {
    margin-bottom: .5em;
    color: var(--colorPrice);
  }
+ ul.metafield-single_line_text_field-array {
+   margin-bottom: 0;
+}
 
  label:not(.variant__button-label):not(.text-label) {
    font-size: 1em;

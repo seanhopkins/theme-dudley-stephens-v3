@@ -14,41 +14,19 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Popular picks",
-        "home_featured_products": "",
+        "title": "Our Bestselling Styles",
+        "home_featured_products": "best-sellers",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
       }
-    },
-    "16904864174a96c2bc": {
-      "type": "apps",
-      "blocks": {
-        "1ed8b141-c01a-4fc5-9331-3e4668b28e01": {
-          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
-          "settings": {
-            "enabled": true,
-            "id": "99215",
-            "product_id_enabled": true,
-            "collection_id_enabled": false
-          }
-        }
-      },
-      "block_order": [
-        "1ed8b141-c01a-4fc5-9331-3e4668b28e01"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
     }
   },
   "order": [
     "main",
     "recently-viewed",
-    "featured-collection",
-    "16904864174a96c2bc"
+    "featured-collection"
   ]
 }

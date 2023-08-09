@@ -1,0 +1,110 @@
+{
+  "sections": {
+    "c2c61d7a-e2ae-40d0-b04e-c5710f4422ce": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14968061362218__c2c61d7a-e2ae-40d0-b04e-c5710f4422ce-image-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/SMS_page_header_46d52c07-be65-4705-92a4-d167a338371a.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/SMS_page_header-mobile_002baff8-407d-4877-8ac6-940e727f270b.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--14968061362218__c2c61d7a-e2ae-40d0-b04e-c5710f4422ce-image-1"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "framed": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "818135d7-0f00-49f7-a2be-8873265c3cf1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14968061362218__818135d7-0f00-49f7-a2be-8873265c3cf1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Your direct line"
+          }
+        },
+        "template--14968061362218__818135d7-0f00-49f7-a2be-8873265c3cf1-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Join one (or both) of our two targeted SMS subscription services to stay connected with all things Dudley Stephens. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14968061362218__818135d7-0f00-49f7-a2be-8873265c3cf1-heading-1",
+        "template--14968061362218__818135d7-0f00-49f7-a2be-8873265c3cf1-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "5a345c87-09c2-4faf-9715-443a56378cb7": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14968061362218__5a345c87-09c2-4faf-9715-443a56378cb7-liquid-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "[poscript form here]",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "39edd145-9b94-4a20-8859-f7d273124455": {
+          "type": "liquid",
+          "settings": {
+            "code": "[postscript form here]",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14968061362218__5a345c87-09c2-4faf-9715-443a56378cb7-liquid-1",
+        "39edd145-9b94-4a20-8859-f7d273124455"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    }
+  },
+  "order": [
+    "c2c61d7a-e2ae-40d0-b04e-c5710f4422ce",
+    "main",
+    "818135d7-0f00-49f7-a2be-8873265c3cf1",
+    "5a345c87-09c2-4faf-9715-443a56378cb7"
+  ]
+}

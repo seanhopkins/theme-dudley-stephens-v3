@@ -265,9 +265,8 @@
         },
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_link": "shopify:\/\/collections\/new-drops",
+            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-transition-ready-styles",
             "button": "Preview now",
             "button_style": "solid"
           }

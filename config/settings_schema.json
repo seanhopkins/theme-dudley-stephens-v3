@@ -1155,6 +1155,12 @@
         "content": "Tag Sale"
       },
       {
+        "type": "color",
+        "id": "tag_sale_text_color",
+        "label": "Text color",
+        "default": "#9bcc56"
+      },
+      {
         "type": "checkbox",
         "id": "show_tag_sale_message_clp",
         "label": "Show on Collections",

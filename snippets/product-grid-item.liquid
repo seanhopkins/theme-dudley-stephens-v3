@@ -265,13 +265,6 @@ Arguments
           </div>
         {%- endif -%}
       </div>
-      
-      {% comment %} START custom feature {% endcomment %}
-      {% if tag_sale and settings.show_tag_sale_message_clp %}
-        <small class="product__price-savings uppercase">{{ settings.tag_sale_message }}</small>
-      {% endif %}
-      {% comment %} END custom feature {% endcomment %}
-
       {%- if settings.enable_swatches and type == 'horizontal' -%}
         {%- liquid
           assign swatch_trigger = 'products.general.color_swatch_trigger' | t | downcase
@@ -328,6 +321,12 @@ Arguments
           {%- endif -%}
         {%- endfor -%}
       {%- endif -%}
+
+      {% comment %} START custom feature {% endcomment %}
+      {% if tag_sale and settings.show_tag_sale_message_clp %}
+        <div class="product__price--tag-sale-message" style="color: {{ settings.tag_sale_text_color }};">{{ settings.tag_sale_message }}</div>
+      {% endif %}
+      {% comment %} END custom feature {% endcomment %}
 
       {%- if settings.enable_product_reviews and type == 'horizontal' -%}
         <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>

@@ -1,5 +1,6 @@
 /* hide from quick shop modals */
-.modal--quick-shop monogram-toggle {
+.modal--quick-shop monogram-toggle,
+.modal--quick-shop .monogram--text {
   display: none;
 }
 

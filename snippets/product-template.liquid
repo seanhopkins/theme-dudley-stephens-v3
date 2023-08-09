@@ -264,9 +264,6 @@
                       {% if product.metafields.custom.final_sale %}
                         <span class="product__price--final-sale">Final Sale</span>
                       {% endif %}
-                      {% if tag_sale and settings.show_tag_sale_message_clp %}
-                        <div class="product__price--tag-sale-message">{{ settings.tag_sale_message }}</div>
-                      {% endif %}
                       {% comment %} END custom feature {% endcomment %}
 
                       {%- if settings.product_save_amount -%}
@@ -310,9 +307,17 @@
                         </div>
                       {%- endif -%}
                     </div>
+
+                    {% comment %} START custom feature {% endcomment %}
+                    {% if tag_sale and settings.show_tag_sale_message_pdp %}
+                      <div class="product__price--tag-sale-message" style="color: {{ settings.tag_sale_text_color }};">{{ settings.tag_sale_message }}</div>
+                    {% endif %}
+                    {% comment %} END custom feature {% endcomment %}
+
                     {% comment %} Start Affirm {% endcomment %}
                     <p class="affirm-as-low-as" data-page-type="product" data-amount="{{ current_variant.price }}"></p>
                     {% comment %} End Affirm {% endcomment %}
+                    
                   {%- when 'quantity_selector' -%}
                     <div class="product-block" {{ block.shopify_attributes }}>
                       <div class="product__quantity">

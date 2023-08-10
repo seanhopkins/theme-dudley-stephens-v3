@@ -162,7 +162,7 @@
                   {{ product.title }}
                 </p>
               {%- else -%}
-                {%  if product.metafields.custom.product_material != "N/A" %}
+                {%-  if product.metafields.custom.product_material != "N/A" -%}
                   <div class="product-links">
                     <div class="rte">
                       <a href="/collections/shop-all?filter.p.m.custom.product_material={{ product.metafields.custom.product_material | replace:" ", "+" }}" 

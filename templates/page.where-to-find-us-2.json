@@ -93,6 +93,7 @@
         },
         "ba914395-0123-41c4-8c58-76123ea02a2b": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "Maine",
             "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"

@@ -88,7 +88,7 @@
     "show_tag_sale_message_clp": true,
     "show_tag_sale_message_pdp": false,
     "tag_sale_tag": "essentially",
-    "tag_sale_message": "<p>25% off today only with code <strong>CORESTYLE<\/strong><\/p>",
+    "tag_sale_message": "<p>25% off with code <strong>CORESTYLE<\/strong><\/p>",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",

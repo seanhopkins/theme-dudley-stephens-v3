@@ -93,7 +93,6 @@
         },
         "ba914395-0123-41c4-8c58-76123ea02a2b": {
           "type": "question",
-          "disabled": true,
           "settings": {
             "title": "Maine",
             "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
@@ -316,9 +315,11 @@
     },
     "d976aff8-5daa-4266-9f37-b3982781f6b1": {
       "type": "text-columns",
+      "disabled": true,
       "blocks": {
         "f6923081-93c0-4a4d-bfce-58fc0398ae03": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": false,
             "image_mask": "none",

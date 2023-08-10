@@ -21,12 +21,14 @@
         },
         "898a4dd8-f55a-4ad6-ac0c-2974dd79371b": {
           "type": "size_chart",
+          "disabled": true,
           "settings": {
             "size_chart": "{{ product.metafields.custom.size_chart.value }}"
           }
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "variant_labels": true,
             "picker_type": "button",
@@ -36,6 +38,7 @@
         },
         "8be094d0-bbd6-4aad-980a-a98086f937da": {
           "type": "custom",
+          "disabled": true,
           "settings": {
             "code": "{% render 'color-swatches', separate_by_material: true %}"
           }
@@ -43,11 +46,12 @@
         "description": {
           "type": "description",
           "settings": {
-            "is_tab": true
+            "is_tab": false
           }
         },
         "ab135439-7e5c-4100-a042-17e17f3fa6c7": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "Fit",
             "content": "{{ product.metafields.custom.product_fit | metafield_tag }}",
@@ -56,6 +60,7 @@
         },
         "e84a0778-3ebe-4d15-9d52-f89ac088f28f": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "Care",
             "content": "{{ product.metafields.custom.product_care | metafield_tag }}<p>View <a href=\"\/pages\/fabric-guide\" target=\"_blank\" title=\"Fabric Guide\">Fabric Guide<\/a><\/p>",
@@ -64,6 +69,7 @@
         },
         "tab": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "Details",
             "content": "{{ product.metafields.custom.product_details | metafield_tag }}",

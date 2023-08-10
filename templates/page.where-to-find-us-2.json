@@ -75,7 +75,6 @@
     },
     "1be8593d-b644-4e82-a366-0168333c3256": {
       "type": "faq",
-      "disabled": true,
       "blocks": {
         "template--14916873748522__1be8593d-b644-4e82-a366-0168333c3256-16814930647819abe6-0": {
           "type": "question",
@@ -168,6 +167,7 @@
         "d658c0ba-5cf9-4ae6-84e4-0cf0e4c007b1",
         "8d666474-d3ae-459c-8cd9-67b7e20afca8"
       ],
+      "disabled": true,
       "settings": {
         "title": "Locations"
       }
@@ -315,7 +315,6 @@
     },
     "d976aff8-5daa-4266-9f37-b3982781f6b1": {
       "type": "text-columns",
-      "disabled": true,
       "blocks": {
         "f6923081-93c0-4a4d-bfce-58fc0398ae03": {
           "type": "text_block",
@@ -329,10 +328,23 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "917b528c-e48c-44ec-b284-f72019d3f5b6": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Kennebunck Outfitters",
+            "text": "<p>51 Western Ave, Kennebunk, ME<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "f6923081-93c0-4a4d-bfce-58fc0398ae03"
+        "f6923081-93c0-4a4d-bfce-58fc0398ae03",
+        "917b528c-e48c-44ec-b284-f72019d3f5b6"
       ],
       "settings": {
         "title": "Maine",
@@ -362,7 +374,19 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "Becket Hitch",
-            "text": "<p>2360 W Joppa Road #107, Lutherville, Maryland<\/p>",
+            "text": "<p>2360 W Joppa Road #107, Lutherville, MD<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "4968a584-f7ee-41f0-bab1-19930e8f48ed": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Ruxton Mercantile",
+            "text": "<p>7625 Bellona Ave, Ruxton, MD<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -383,6 +407,7 @@
       "block_order": [
         "6fb6f349-9a18-45df-8477-4458610373df",
         "4f0c1f56-ced7-4a16-9cdf-9863f5c028cc",
+        "4968a584-f7ee-41f0-bab1-19930e8f48ed",
         "2d48abb8-d6c2-43fe-99ce-cb3bde84edf7"
       ],
       "settings": {

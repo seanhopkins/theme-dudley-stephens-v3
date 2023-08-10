@@ -88,6 +88,7 @@
         },
         "f748a8e4-cb48-49f5-8fb5-45436e04f0d0": {
           "type": "custom",
+          "disabled": true,
           "settings": {
             "code": "{% assign enable_monogram = false %}\n{% for tag in product.tags %}\n  {% if tag contains 'monogram' %} \n  {% assign enable_monogram = true %}\n  {% endif %}\n{% endfor %}\n{% if enable_monogram %}\n  {% render 'monogram', parent_product: product %}\n{% endif %}"
           }
@@ -158,6 +159,7 @@
     },
     "cb0b4ebb-60f1-4c0c-a08f-3bcaa11774b6": {
       "type": "advanced-content",
+      "disabled": true,
       "blocks": {
         "cfbe4144-5c38-475e-88b4-0522af0539a9": {
           "type": "liquid",

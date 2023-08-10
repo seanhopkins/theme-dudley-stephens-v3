@@ -291,6 +291,7 @@
         },
         "bb6645d9-232a-41f4-8b0f-53c12b77ce11": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": false,
             "image_mask": "none",

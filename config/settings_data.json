@@ -1074,6 +1074,13 @@
               "swatch_color": "",
               "swatch_image": "shopify:\/\/shop_images\/white-navy.png"
             }
+          },
+          "77dae634-e12e-47d3-8128-5a2a43b6b219": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Grey",
+              "swatch_color": "#c0bfbf"
+            }
           }
         },
         "block_order": [
@@ -1198,7 +1205,8 @@
           "e6bd5ae0-f88f-4b77-becb-162959cb8eec",
           "1574186951943",
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
-          "250b5ae7-c936-4846-8ffc-76eb6db8d944"
+          "250b5ae7-c936-4846-8ffc-76eb6db8d944",
+          "77dae634-e12e-47d3-8128-5a2a43b6b219"
         ],
         "settings": {
         }

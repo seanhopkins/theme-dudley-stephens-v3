@@ -1081,6 +1081,13 @@
               "title": "Grey",
               "swatch_color": "#838487"
             }
+          },
+          "194151db-ffc1-4605-9e0d-ef117bcd30fb": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Denim Blue",
+              "swatch_color": "#65769b"
+            }
           }
         },
         "block_order": [
@@ -1206,7 +1213,8 @@
           "1574186951943",
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
           "250b5ae7-c936-4846-8ffc-76eb6db8d944",
-          "77dae634-e12e-47d3-8128-5a2a43b6b219"
+          "77dae634-e12e-47d3-8128-5a2a43b6b219",
+          "194151db-ffc1-4605-9e0d-ef117bcd30fb"
         ],
         "settings": {
         }

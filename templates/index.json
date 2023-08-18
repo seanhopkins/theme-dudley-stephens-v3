@@ -7,9 +7,9 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Fresh Outlook",
+            "title": "Dudley Classics",
             "title_size": 80,
-            "subheading": "Celebrate our site's new look with 25% off core styles.",
+            "subheading": "The turtleneck, our icon for every season.",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/dudley-classics",
             "link_text": "SHOP NOW",
             "link_2": "",
@@ -42,7 +42,6 @@
     },
     "b8fccc94-b721-4ed5-a976-f81ed754cc18": {
       "type": "promo-grid",
-      "disabled": true,
       "blocks": {
         "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-0": {
           "type": "advanced",
@@ -115,6 +114,7 @@
         "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1",
         "c0ceff30-f019-44d7-b646-cab022cd267f"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-family: \"QuaverSerif\";}"
       ],
@@ -129,8 +129,8 @@
     "deced09a-7ae6-46bd-add7-75b8eb496d49": {
       "type": "featured-collection",
       "settings": {
-        "title": "Our Bestselling Styles",
-        "home_featured_products": "best-sellers",
+        "title": "Our Latest Arrivals",
+        "home_featured_products": "new-drops",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -256,7 +256,7 @@
           "settings": {
             "year": "2023",
             "month": "08",
-            "day": "15",
+            "day": "22",
             "hour": "10",
             "minute": "00",
             "hide_timer": false,
@@ -266,7 +266,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2": {
           "type": "button",
           "settings": {
-            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-transition-ready-styles",
+            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-one-piece-wonders",
             "button": "Preview now",
             "button_style": "solid"
           }
@@ -293,7 +293,6 @@
     },
     "cf175cf8-a4e8-45f7-8a52-3b14ac752957": {
       "type": "newsletter",
-      "disabled": true,
       "blocks": {
         "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-0": {
           "type": "title",
@@ -319,6 +318,7 @@
         "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-1",
         "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-2"
       ],
+      "disabled": true,
       "custom_css": [
         ".theme-block {margin-bottom: 0;}",
         ".h3 {margin: 0;}",

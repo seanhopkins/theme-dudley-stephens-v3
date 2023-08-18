@@ -17,9 +17,9 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "variant_labels": true,
+            "variant_labels": false,
             "picker_type": "button",
-            "product_dynamic_variants_enable": true,
+            "product_dynamic_variants_enable": false,
             "color_swatches": false
           }
         },

@@ -84,11 +84,11 @@
     "show_breadcrumbs_collection_link": false,
     "disable_animations": true,
     "product_grid_enable_swatches": true,
-    "materials_list": "Material: Vello Fleece\nMaterial: Terry Fleece\nMaterial: Bubble Fleece\nMaterial: Double Layer Vello Fleece\nMaterial: Double Layer Vello Fleece with Neon Zipper\nMaterial: Brushed Fleece\nMaterial: Chevron\nMaterial: Ribbed Fleece\nMaterial: Vello Fleece Color Block\nMaterial: Shearling Fleece\nMaterial: Lightweight Vello Fleece\nMaterial: Townhouse Trunk Show\nMaterial: Silk\nMaterial: N\/A\nMaterial: Striped Fleece\nMaterial: Eco Jersey\nMaterial: Repreve® Jersey\nMaterial: Repreve® Striped Jersey\nMaterial: Repreve® Stretch\nMaterial: Waffle Jersey\nMaterial: Sherpa Fleece\nMaterial: Eco Stretch\nMaterial: Waffle\/Vello Fleece\nMaterial: Waffle\nMaterial: Luxe Stretch",
-    "show_tag_sale_message_clp": true,
+    "materials_list": "Material: Vello Fleece\nMaterial: Terry Fleece\nMaterial: Bubble Fleece\nMaterial: Double Layer Vello Fleece\nMaterial: Double Layer Vello Fleece with Neon Zipper\nMaterial: Brushed Fleece\nMaterial: Chevron\nMaterial: Ribbed Fleece\nMaterial: Vello Fleece Color Block\nMaterial: Shearling Fleece\nMaterial: Lightweight Vello Fleece\nMaterial: Townhouse Trunk Show\nMaterial: Silk\nMaterial: N\/A\nMaterial: Striped Fleece\nMaterial: Eco Jersey\nMaterial: Repreve® Jersey\nMaterial: Repreve® Striped Jersey\nMaterial: Repreve® Stretch\nMaterial: Waffle Jersey\nMaterial: Sherpa Fleece\nMaterial: Eco Stretch\nMaterial: Waffle\/Vello Fleece\nMaterial: Waffle\nMaterial: Luxe Stretch\nMaterial: Power Stretch",
+    "show_tag_sale_message_clp": false,
     "show_tag_sale_message_pdp": false,
-    "tag_sale_tag": "essentially",
-    "tag_sale_message": "<p>25% off today only with code <strong>CORESTYLE<\/strong><\/p>",
+    "tag_sale_tag": "",
+    "tag_sale_message": "",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
@@ -1074,6 +1074,27 @@
               "swatch_color": "",
               "swatch_image": "shopify:\/\/shop_images\/white-navy.png"
             }
+          },
+          "77dae634-e12e-47d3-8128-5a2a43b6b219": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Grey",
+              "swatch_color": "#838487"
+            }
+          },
+          "194151db-ffc1-4605-9e0d-ef117bcd30fb": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Denim Blue",
+              "swatch_color": "#65769b"
+            }
+          },
+          "707afe18-710f-4f2b-b682-86f10dd3e3f3": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Berry",
+              "swatch_color": "#a52451"
+            }
           }
         },
         "block_order": [
@@ -1198,7 +1219,10 @@
           "e6bd5ae0-f88f-4b77-becb-162959cb8eec",
           "1574186951943",
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
-          "250b5ae7-c936-4846-8ffc-76eb6db8d944"
+          "250b5ae7-c936-4846-8ffc-76eb6db8d944",
+          "77dae634-e12e-47d3-8128-5a2a43b6b219",
+          "194151db-ffc1-4605-9e0d-ef117bcd30fb",
+          "707afe18-710f-4f2b-b682-86f10dd3e3f3"
         ],
         "settings": {
         }

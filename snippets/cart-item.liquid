@@ -18,9 +18,13 @@
     </a>
   </div>
   <div class="cart__item-details">
-    {% if product.product.metafields.custom.final_sale %}
-      <span class="product__price--final-sale">Final Sale</span>
-    {% endif %}
+    {% comment %} START custom feature {% endcomment %}
+    {% for tag in product.product.tags %}
+      {% if tag == "final-sale"%}
+        <span class="product__price--final-sale">Final Sale</span>
+      {%  endif %}
+    {% endfor %}
+    {% comment %} END custom feature {% endcomment %}
     <div class="cart__item-title">
       <a href="{{ product.url }}" class="cart__item-name">
         {{ product.product.title }}

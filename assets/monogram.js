@@ -1943,11 +1943,20 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                 type: "hidden",
+                name: "items[1][properties][_LPROP]",
+                value: "final-sale"
+            }, void 0, false, {
+                fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
+                lineNumber: 98,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
                 name: "items[1][properties][Style]",
                 value: style
             }, void 0, false, {
                 fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
-                lineNumber: 98,
+                lineNumber: 99,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1956,7 +1965,7 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
                 value: location()
             }, void 0, false, {
                 fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
-                lineNumber: 99,
+                lineNumber: 100,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1965,7 +1974,7 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
                 value: setMonogramLineItemProperty()
             }, void 0, false, {
                 fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
-                lineNumber: 104,
+                lineNumber: 105,
                 columnNumber: 7
             }, undefined)
         ]

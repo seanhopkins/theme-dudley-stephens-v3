@@ -95,6 +95,7 @@ const HiddenLineItemProperties = ({
         name="items[1][properties][_Monogram ID]"
         value={monogramUuid}
       />
+      <input type="hidden" name="items[1][properties][_LPROP]" value="final-sale" />
       <input type="hidden" name="items[1][properties][Style]" value={style} />
       <input
         type="hidden"

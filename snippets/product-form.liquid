@@ -69,7 +69,10 @@
     {%- endfor -%}
   </select>
 
-  {% if product.metafields.custom.final_sale %}
-    <input id="Final Sale" type="hidden" name="properties[Promo]" value="Final Sale">
-  {%  endif %}
+  {% for tag in product.tags %}
+    {% if tag == "final-sale"%}
+      <input id="Final Sale" type="hidden" name="properties[Promo]" value="Final Sale">
+      <input id="Final Sale" type="hidden" name="properties[LPROP]" value="final-sale">
+    {%  endif %}
+  {% endfor%}
 {%- endform -%}

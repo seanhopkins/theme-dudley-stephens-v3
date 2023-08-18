@@ -72,7 +72,7 @@
   {% for tag in product.tags %}
     {% if tag == "final-sale"%}
       <input id="Final Sale" type="hidden" name="properties[Promo]" value="Final Sale">
-      <input id="Final Sale" type="hidden" name="properties[LPROP]" value="final-sale">
+      <input id="Final Sale" type="hidden" name="properties[_LPROP]" value="final-sale">
     {%  endif %}
   {% endfor%}
 {%- endform -%}

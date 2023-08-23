@@ -263,9 +263,11 @@
                       </span>
 
                       {% comment %} START custom feature {% endcomment %}
-                      {% if product.metafields.custom.final_sale %}
-                        <span class="product__price--final-sale">Final Sale</span>
-                      {% endif %}
+                      {% for tag in product.tags %}
+                        {% if tag == "final-sale"%}
+                          <span class="product__price--final-sale">Final Sale</span>
+                        {%  endif %}
+                      {% endfor %}
                       {% comment %} END custom feature {% endcomment %}
 
                       {%- if settings.product_save_amount -%}

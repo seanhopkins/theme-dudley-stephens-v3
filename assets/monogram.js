@@ -640,245 +640,40 @@ class MonogramCustomizer extends HTMLElement {
 }
 customElements.define("monogram-customizer", MonogramCustomizer);
 
-},{"preact/debug":"5d21n","preact":"756Y1","./components/Form":"1KlyZ","@parcel/transformer-js/src/esmodule-helpers.js":"3rdBK","preact/jsx-dev-runtime":"9JxeF"}],"5d21n":[function(require,module,exports) {
+},{"preact/jsx-dev-runtime":"9JxeF","preact/debug":"5d21n","preact":"756Y1","./components/Form":"1KlyZ","@parcel/transformer-js/src/esmodule-helpers.js":"3rdBK"}],"9JxeF":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "resetPropWarnings", ()=>i);
+parcelHelpers.export(exports, "Fragment", ()=>(0, _preact.Fragment));
+parcelHelpers.export(exports, "jsx", ()=>o);
+parcelHelpers.export(exports, "jsxDEV", ()=>o);
+parcelHelpers.export(exports, "jsxs", ()=>o);
 var _preact = require("preact");
-var _devtools = require("preact/devtools");
-function o(n, e) {
-    (null == e || e > n.length) && (e = n.length);
-    for(var t = 0, o = new Array(e); t < e; t++)o[t] = n[t];
-    return o;
-}
-function r(n, e) {
-    var t = "undefined" != typeof Symbol && n[Symbol.iterator] || n["@@iterator"];
-    if (t) return (t = t.call(n)).next.bind(t);
-    if (Array.isArray(n) || (t = function(n, e) {
-        if (n) {
-            if ("string" == typeof n) return o(n, e);
-            var t = Object.prototype.toString.call(n).slice(8, -1);
-            return "Object" === t && n.constructor && (t = n.constructor.name), "Map" === t || "Set" === t ? Array.from(n) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? o(n, e) : void 0;
-        }
-    }(n)) || e && n && "number" == typeof n.length) {
-        t && (n = t);
-        var r = 0;
-        return function() {
-            return r >= n.length ? {
-                done: !0
-            } : {
-                done: !1,
-                value: n[r++]
-            };
-        };
-    }
-    throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
-}
-var a = {};
-function i() {
-    a = {};
-}
-function c(e) {
-    return e.type === (0, _preact.Fragment) ? "Fragment" : "function" == typeof e.type ? e.type.displayName || e.type.name : "string" == typeof e.type ? e.type : "#text";
-}
-var s = [], u = [];
-function l() {
-    return s.length > 0 ? s[s.length - 1] : null;
-}
-var f = !1;
-function p(e) {
-    return "function" == typeof e.type && e.type != (0, _preact.Fragment);
-}
-function d(n) {
-    for(var e = [
-        n
-    ], t = n; null != t.__o;)e.push(t.__o), t = t.__o;
-    return e.reduce(function(n, e) {
-        n += "  in " + c(e);
-        var t = e.__source;
-        return t ? n += " (at " + t.fileName + ":" + t.lineNumber + ")" : f || (f = !0, console.warn("Add @babel/plugin-transform-react-jsx-source to get a more detailed component stack. Note that you should not add it to production builds of your App for bundle size reasons.")), n + "\n";
-    }, "");
-}
-var h = "function" == typeof WeakMap;
-function v(n) {
-    return n ? "function" == typeof n.type ? v(n.__) : n : {};
-}
-var y = (0, _preact.Component).prototype.setState;
-(0, _preact.Component).prototype.setState = function(n, e) {
-    return null == this.__v && null == this.state && console.warn('Calling "this.setState" inside the constructor of a component is a no-op and might be a bug in your application. Instead, set "this.state = {}" directly.\n\n' + d(l())), y.call(this, n, e);
-};
-var m = (0, _preact.Component).prototype.forceUpdate;
-function b(n) {
-    var e = n.props, t = c(n), o = "";
-    for(var r in e)if (e.hasOwnProperty(r) && "children" !== r) {
-        var a = e[r];
-        "function" == typeof a && (a = "function " + (a.displayName || a.name) + "() {}"), a = Object(a) !== a || a.toString ? a + "" : Object.prototype.toString.call(a), o += " " + r + "=" + JSON.stringify(a);
-    }
-    var i = e.children;
-    return "<" + t + o + (i && i.length ? ">..</" + t + ">" : " />");
-}
-(0, _preact.Component).prototype.forceUpdate = function(n) {
-    return null == this.__v ? console.warn('Calling "this.forceUpdate" inside the constructor of a component is a no-op and might be a bug in your application.\n\n' + d(l())) : null == this.__P && console.warn('Can\'t call "this.forceUpdate" on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in the componentWillUnmount method.\n\n' + d(this.__v)), m.call(this, n);
-}, function() {
-    !function() {
-        var n = (0, _preact.options).__b, t = (0, _preact.options).diffed, o = (0, _preact.options).__, r = (0, _preact.options).vnode, a = (0, _preact.options).__r;
-        (0, _preact.options).diffed = function(n) {
-            p(n) && u.pop(), s.pop(), t && t(n);
-        }, (0, _preact.options).__b = function(e) {
-            p(e) && s.push(e), n && n(e);
-        }, (0, _preact.options).__ = function(n, e) {
-            u = [], o && o(n, e);
-        }, (0, _preact.options).vnode = function(n) {
-            n.__o = u.length > 0 ? u[u.length - 1] : null, r && r(n);
-        }, (0, _preact.options).__r = function(n) {
-            p(n) && u.push(n), a && a(n);
-        };
-    }();
-    var n = !1, t = (0, _preact.options).__b, o = (0, _preact.options).diffed, i = (0, _preact.options).vnode, l = (0, _preact.options).__r, f = (0, _preact.options).__e, y = (0, _preact.options).__, m = (0, _preact.options).__h, w = h ? {
-        useEffect: new WeakMap,
-        useLayoutEffect: new WeakMap,
-        lazyPropTypes: new WeakMap
-    } : null, g = [];
-    (0, _preact.options).__e = function(n, e, t, o) {
-        if (e && e.__c && "function" == typeof n.then) {
-            var r = n;
-            n = new Error("Missing Suspense. The throwing component was: " + c(e));
-            for(var a = e; a; a = a.__)if (a.__c && a.__c.__c) {
-                n = r;
-                break;
-            }
-            if (n instanceof Error) throw n;
-        }
-        try {
-            (o = o || {}).componentStack = d(e), f(n, e, t, o), "function" != typeof n.then && setTimeout(function() {
-                throw n;
-            });
-        } catch (n) {
-            throw n;
-        }
-    }, (0, _preact.options).__ = function(n, e) {
-        if (!e) throw new Error("Undefined parent passed to render(), this is the second argument.\nCheck if the element is available in the DOM/has the correct id.");
-        var t;
-        switch(e.nodeType){
-            case 1:
-            case 11:
-            case 9:
-                t = !0;
-                break;
-            default:
-                t = !1;
-        }
-        if (!t) {
-            var o = c(n);
-            throw new Error("Expected a valid HTML node as a second argument to render.	Received " + e + " instead: render(<" + o + " />, " + e + ");");
-        }
-        y && y(n, e);
-    }, (0, _preact.options).__b = function(e) {
-        var o = e.type, r = v(e.__);
-        if (n = !0, void 0 === o) throw new Error("Undefined component passed to createElement()\n\nYou likely forgot to export your component or might have mixed up default and named imports" + b(e) + "\n\n" + d(e));
-        if (null != o && "object" == typeof o) {
-            if (void 0 !== o.__k && void 0 !== o.__e) throw new Error("Invalid type passed to createElement(): " + o + "\n\nDid you accidentally pass a JSX literal as JSX twice?\n\n  let My" + c(e) + " = " + b(o) + ";\n  let vnode = <My" + c(e) + " />;\n\nThis usually happens when you export a JSX literal and not the component.\n\n" + d(e));
-            throw new Error("Invalid type passed to createElement(): " + (Array.isArray(o) ? "array" : o));
-        }
-        if ("thead" !== o && "tfoot" !== o && "tbody" !== o || "table" === r.type ? "tr" === o && "thead" !== r.type && "tfoot" !== r.type && "tbody" !== r.type && "table" !== r.type ? console.error("Improper nesting of table. Your <tr> should have a <thead/tbody/tfoot/table> parent." + b(e) + "\n\n" + d(e)) : "td" === o && "tr" !== r.type ? console.error("Improper nesting of table. Your <td> should have a <tr> parent." + b(e) + "\n\n" + d(e)) : "th" === o && "tr" !== r.type && console.error("Improper nesting of table. Your <th> should have a <tr>." + b(e) + "\n\n" + d(e)) : console.error("Improper nesting of table. Your <thead/tbody/tfoot> should have a <table> parent." + b(e) + "\n\n" + d(e)), void 0 !== e.ref && "function" != typeof e.ref && "object" != typeof e.ref && !("$$typeof" in e)) throw new Error('Component\'s "ref" property should be a function, or an object created by createRef(), but got [' + typeof e.ref + "] instead\n" + b(e) + "\n\n" + d(e));
-        if ("string" == typeof e.type) {
-            for(var i in e.props)if ("o" === i[0] && "n" === i[1] && "function" != typeof e.props[i] && null != e.props[i]) throw new Error("Component's \"" + i + '" property should be a function, but got [' + typeof e.props[i] + "] instead\n" + b(e) + "\n\n" + d(e));
-        }
-        if ("function" == typeof e.type && e.type.propTypes) {
-            if ("Lazy" === e.type.displayName && w && !w.lazyPropTypes.has(e.type)) {
-                var s = "PropTypes are not supported on lazy(). Use propTypes on the wrapped component itself. ";
-                try {
-                    var u = e.type();
-                    w.lazyPropTypes.set(e.type, !0), console.warn(s + "Component wrapped in lazy() is " + c(u));
-                } catch (n) {
-                    console.warn(s + "We will log the wrapped component's name once it is loaded.");
-                }
-            }
-            var l = e.props;
-            e.type.__f && delete (l = function(n, e) {
-                for(var t in e)n[t] = e[t];
-                return n;
-            }({}, l)).ref, function(n, e, t, o, r) {
-                Object.keys(n).forEach(function(t) {
-                    var i;
-                    try {
-                        i = n[t](e, t, o, "prop", null, "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED");
-                    } catch (n) {
-                        i = n;
-                    }
-                    i && !(i.message in a) && (a[i.message] = !0, console.error("Failed prop type: " + i.message + (r && "\n" + r() || "")));
-                });
-            }(e.type.propTypes, l, 0, c(e), function() {
-                return d(e);
-            });
-        }
-        t && t(e);
-    }, (0, _preact.options).__r = function(e) {
-        l && l(e), n = !0;
-    }, (0, _preact.options).__h = function(e, t, o) {
-        if (!e || !n) throw new Error("Hook can only be invoked from render methods.");
-        m && m(e, t, o);
+var _ = 0;
+function o(o, e, n, t, f, l) {
+    var s, u, a = {};
+    for(u in e)"ref" == u ? s = e[u] : a[u] = e[u];
+    var i = {
+        type: o,
+        props: a,
+        key: n,
+        ref: s,
+        __k: null,
+        __: null,
+        __b: 0,
+        __e: null,
+        __d: void 0,
+        __c: null,
+        __h: null,
+        constructor: void 0,
+        __v: --_,
+        __source: f,
+        __self: l
     };
-    var E = function(n, e) {
-        return {
-            get: function() {
-                var t = "get" + n + e;
-                g && g.indexOf(t) < 0 && (g.push(t), console.warn("getting vnode." + n + " is deprecated, " + e));
-            },
-            set: function() {
-                var t = "set" + n + e;
-                g && g.indexOf(t) < 0 && (g.push(t), console.warn("setting vnode." + n + " is not allowed, " + e));
-            }
-        };
-    }, k = {
-        nodeName: E("nodeName", "use vnode.type"),
-        attributes: E("attributes", "use vnode.props"),
-        children: E("children", "use vnode.props.children")
-    }, _ = Object.create({}, k);
-    (0, _preact.options).vnode = function(n) {
-        var e = n.props;
-        if (null !== n.type && null != e && ("__source" in e || "__self" in e)) {
-            var t = n.props = {};
-            for(var o in e){
-                var r = e[o];
-                "__source" === o ? n.__source = r : "__self" === o ? n.__self = r : t[o] = r;
-            }
-        }
-        n.__proto__ = _, i && i(n);
-    }, (0, _preact.options).diffed = function(e) {
-        if (e.__k && e.__k.forEach(function(n) {
-            if ("object" == typeof n && n && void 0 === n.type) {
-                var t = Object.keys(n).join(",");
-                throw new Error("Objects are not valid as a child. Encountered an object with the keys {" + t + "}.\n\n" + d(e));
-            }
-        }), n = !1, o && o(e), null != e.__k) for(var t = [], a = 0; a < e.__k.length; a++){
-            var i = e.__k[a];
-            if (i && null != i.key) {
-                var s = i.key;
-                if (-1 !== t.indexOf(s)) {
-                    console.error('Following component has two or more children with the same key attribute: "' + s + '". This may cause glitches and misbehavior in rendering process. Component: \n\n' + b(e) + "\n\n" + d(e));
-                    break;
-                }
-                t.push(s);
-            }
-        }
-        if (null != e.__c && null != e.__c.__H) {
-            var u = e.__c.__H.__;
-            if (u) for(var l = 0; l < u.length; l += 1){
-                var f = u[l];
-                if (f.__H) {
-                    for(var p, h = r(f.__H); !(p = h()).done;)if ((y = p.value) != y) {
-                        var v = c(e);
-                        throw new Error("Invalid argument passed to hook. Hooks should not be called with NaN in the dependency array. Hook index " + l + " in component " + v + " was called with NaN.");
-                    }
-                }
-            }
-        }
-        var y;
-    };
-}();
+    if ("function" == typeof o && (s = o.defaultProps)) for(u in s)void 0 === a[u] && (a[u] = s[u]);
+    return (0, _preact.options).vnode && (0, _preact.options).vnode(i), i;
+}
 
-},{"preact":"756Y1","preact/devtools":"bZKKK","@parcel/transformer-js/src/esmodule-helpers.js":"3rdBK"}],"756Y1":[function(require,module,exports) {
+},{"preact":"756Y1","@parcel/transformer-js/src/esmodule-helpers.js":"3rdBK"}],"756Y1":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Component", ()=>b);
@@ -1226,7 +1021,245 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"bZKKK":[function(require,module,exports) {
+},{}],"5d21n":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "resetPropWarnings", ()=>i);
+var _preact = require("preact");
+var _devtools = require("preact/devtools");
+function o(n, e) {
+    (null == e || e > n.length) && (e = n.length);
+    for(var t = 0, o = new Array(e); t < e; t++)o[t] = n[t];
+    return o;
+}
+function r(n, e) {
+    var t = "undefined" != typeof Symbol && n[Symbol.iterator] || n["@@iterator"];
+    if (t) return (t = t.call(n)).next.bind(t);
+    if (Array.isArray(n) || (t = function(n, e) {
+        if (n) {
+            if ("string" == typeof n) return o(n, e);
+            var t = Object.prototype.toString.call(n).slice(8, -1);
+            return "Object" === t && n.constructor && (t = n.constructor.name), "Map" === t || "Set" === t ? Array.from(n) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? o(n, e) : void 0;
+        }
+    }(n)) || e && n && "number" == typeof n.length) {
+        t && (n = t);
+        var r = 0;
+        return function() {
+            return r >= n.length ? {
+                done: !0
+            } : {
+                done: !1,
+                value: n[r++]
+            };
+        };
+    }
+    throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+}
+var a = {};
+function i() {
+    a = {};
+}
+function c(e) {
+    return e.type === (0, _preact.Fragment) ? "Fragment" : "function" == typeof e.type ? e.type.displayName || e.type.name : "string" == typeof e.type ? e.type : "#text";
+}
+var s = [], u = [];
+function l() {
+    return s.length > 0 ? s[s.length - 1] : null;
+}
+var f = !1;
+function p(e) {
+    return "function" == typeof e.type && e.type != (0, _preact.Fragment);
+}
+function d(n) {
+    for(var e = [
+        n
+    ], t = n; null != t.__o;)e.push(t.__o), t = t.__o;
+    return e.reduce(function(n, e) {
+        n += "  in " + c(e);
+        var t = e.__source;
+        return t ? n += " (at " + t.fileName + ":" + t.lineNumber + ")" : f || (f = !0, console.warn("Add @babel/plugin-transform-react-jsx-source to get a more detailed component stack. Note that you should not add it to production builds of your App for bundle size reasons.")), n + "\n";
+    }, "");
+}
+var h = "function" == typeof WeakMap;
+function v(n) {
+    return n ? "function" == typeof n.type ? v(n.__) : n : {};
+}
+var y = (0, _preact.Component).prototype.setState;
+(0, _preact.Component).prototype.setState = function(n, e) {
+    return null == this.__v && null == this.state && console.warn('Calling "this.setState" inside the constructor of a component is a no-op and might be a bug in your application. Instead, set "this.state = {}" directly.\n\n' + d(l())), y.call(this, n, e);
+};
+var m = (0, _preact.Component).prototype.forceUpdate;
+function b(n) {
+    var e = n.props, t = c(n), o = "";
+    for(var r in e)if (e.hasOwnProperty(r) && "children" !== r) {
+        var a = e[r];
+        "function" == typeof a && (a = "function " + (a.displayName || a.name) + "() {}"), a = Object(a) !== a || a.toString ? a + "" : Object.prototype.toString.call(a), o += " " + r + "=" + JSON.stringify(a);
+    }
+    var i = e.children;
+    return "<" + t + o + (i && i.length ? ">..</" + t + ">" : " />");
+}
+(0, _preact.Component).prototype.forceUpdate = function(n) {
+    return null == this.__v ? console.warn('Calling "this.forceUpdate" inside the constructor of a component is a no-op and might be a bug in your application.\n\n' + d(l())) : null == this.__P && console.warn('Can\'t call "this.forceUpdate" on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in the componentWillUnmount method.\n\n' + d(this.__v)), m.call(this, n);
+}, function() {
+    !function() {
+        var n = (0, _preact.options).__b, t = (0, _preact.options).diffed, o = (0, _preact.options).__, r = (0, _preact.options).vnode, a = (0, _preact.options).__r;
+        (0, _preact.options).diffed = function(n) {
+            p(n) && u.pop(), s.pop(), t && t(n);
+        }, (0, _preact.options).__b = function(e) {
+            p(e) && s.push(e), n && n(e);
+        }, (0, _preact.options).__ = function(n, e) {
+            u = [], o && o(n, e);
+        }, (0, _preact.options).vnode = function(n) {
+            n.__o = u.length > 0 ? u[u.length - 1] : null, r && r(n);
+        }, (0, _preact.options).__r = function(n) {
+            p(n) && u.push(n), a && a(n);
+        };
+    }();
+    var n = !1, t = (0, _preact.options).__b, o = (0, _preact.options).diffed, i = (0, _preact.options).vnode, l = (0, _preact.options).__r, f = (0, _preact.options).__e, y = (0, _preact.options).__, m = (0, _preact.options).__h, w = h ? {
+        useEffect: new WeakMap,
+        useLayoutEffect: new WeakMap,
+        lazyPropTypes: new WeakMap
+    } : null, g = [];
+    (0, _preact.options).__e = function(n, e, t, o) {
+        if (e && e.__c && "function" == typeof n.then) {
+            var r = n;
+            n = new Error("Missing Suspense. The throwing component was: " + c(e));
+            for(var a = e; a; a = a.__)if (a.__c && a.__c.__c) {
+                n = r;
+                break;
+            }
+            if (n instanceof Error) throw n;
+        }
+        try {
+            (o = o || {}).componentStack = d(e), f(n, e, t, o), "function" != typeof n.then && setTimeout(function() {
+                throw n;
+            });
+        } catch (n) {
+            throw n;
+        }
+    }, (0, _preact.options).__ = function(n, e) {
+        if (!e) throw new Error("Undefined parent passed to render(), this is the second argument.\nCheck if the element is available in the DOM/has the correct id.");
+        var t;
+        switch(e.nodeType){
+            case 1:
+            case 11:
+            case 9:
+                t = !0;
+                break;
+            default:
+                t = !1;
+        }
+        if (!t) {
+            var o = c(n);
+            throw new Error("Expected a valid HTML node as a second argument to render.	Received " + e + " instead: render(<" + o + " />, " + e + ");");
+        }
+        y && y(n, e);
+    }, (0, _preact.options).__b = function(e) {
+        var o = e.type, r = v(e.__);
+        if (n = !0, void 0 === o) throw new Error("Undefined component passed to createElement()\n\nYou likely forgot to export your component or might have mixed up default and named imports" + b(e) + "\n\n" + d(e));
+        if (null != o && "object" == typeof o) {
+            if (void 0 !== o.__k && void 0 !== o.__e) throw new Error("Invalid type passed to createElement(): " + o + "\n\nDid you accidentally pass a JSX literal as JSX twice?\n\n  let My" + c(e) + " = " + b(o) + ";\n  let vnode = <My" + c(e) + " />;\n\nThis usually happens when you export a JSX literal and not the component.\n\n" + d(e));
+            throw new Error("Invalid type passed to createElement(): " + (Array.isArray(o) ? "array" : o));
+        }
+        if ("thead" !== o && "tfoot" !== o && "tbody" !== o || "table" === r.type ? "tr" === o && "thead" !== r.type && "tfoot" !== r.type && "tbody" !== r.type && "table" !== r.type ? console.error("Improper nesting of table. Your <tr> should have a <thead/tbody/tfoot/table> parent." + b(e) + "\n\n" + d(e)) : "td" === o && "tr" !== r.type ? console.error("Improper nesting of table. Your <td> should have a <tr> parent." + b(e) + "\n\n" + d(e)) : "th" === o && "tr" !== r.type && console.error("Improper nesting of table. Your <th> should have a <tr>." + b(e) + "\n\n" + d(e)) : console.error("Improper nesting of table. Your <thead/tbody/tfoot> should have a <table> parent." + b(e) + "\n\n" + d(e)), void 0 !== e.ref && "function" != typeof e.ref && "object" != typeof e.ref && !("$$typeof" in e)) throw new Error('Component\'s "ref" property should be a function, or an object created by createRef(), but got [' + typeof e.ref + "] instead\n" + b(e) + "\n\n" + d(e));
+        if ("string" == typeof e.type) {
+            for(var i in e.props)if ("o" === i[0] && "n" === i[1] && "function" != typeof e.props[i] && null != e.props[i]) throw new Error("Component's \"" + i + '" property should be a function, but got [' + typeof e.props[i] + "] instead\n" + b(e) + "\n\n" + d(e));
+        }
+        if ("function" == typeof e.type && e.type.propTypes) {
+            if ("Lazy" === e.type.displayName && w && !w.lazyPropTypes.has(e.type)) {
+                var s = "PropTypes are not supported on lazy(). Use propTypes on the wrapped component itself. ";
+                try {
+                    var u = e.type();
+                    w.lazyPropTypes.set(e.type, !0), console.warn(s + "Component wrapped in lazy() is " + c(u));
+                } catch (n) {
+                    console.warn(s + "We will log the wrapped component's name once it is loaded.");
+                }
+            }
+            var l = e.props;
+            e.type.__f && delete (l = function(n, e) {
+                for(var t in e)n[t] = e[t];
+                return n;
+            }({}, l)).ref, function(n, e, t, o, r) {
+                Object.keys(n).forEach(function(t) {
+                    var i;
+                    try {
+                        i = n[t](e, t, o, "prop", null, "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED");
+                    } catch (n) {
+                        i = n;
+                    }
+                    i && !(i.message in a) && (a[i.message] = !0, console.error("Failed prop type: " + i.message + (r && "\n" + r() || "")));
+                });
+            }(e.type.propTypes, l, 0, c(e), function() {
+                return d(e);
+            });
+        }
+        t && t(e);
+    }, (0, _preact.options).__r = function(e) {
+        l && l(e), n = !0;
+    }, (0, _preact.options).__h = function(e, t, o) {
+        if (!e || !n) throw new Error("Hook can only be invoked from render methods.");
+        m && m(e, t, o);
+    };
+    var E = function(n, e) {
+        return {
+            get: function() {
+                var t = "get" + n + e;
+                g && g.indexOf(t) < 0 && (g.push(t), console.warn("getting vnode." + n + " is deprecated, " + e));
+            },
+            set: function() {
+                var t = "set" + n + e;
+                g && g.indexOf(t) < 0 && (g.push(t), console.warn("setting vnode." + n + " is not allowed, " + e));
+            }
+        };
+    }, k = {
+        nodeName: E("nodeName", "use vnode.type"),
+        attributes: E("attributes", "use vnode.props"),
+        children: E("children", "use vnode.props.children")
+    }, _ = Object.create({}, k);
+    (0, _preact.options).vnode = function(n) {
+        var e = n.props;
+        if (null !== n.type && null != e && ("__source" in e || "__self" in e)) {
+            var t = n.props = {};
+            for(var o in e){
+                var r = e[o];
+                "__source" === o ? n.__source = r : "__self" === o ? n.__self = r : t[o] = r;
+            }
+        }
+        n.__proto__ = _, i && i(n);
+    }, (0, _preact.options).diffed = function(e) {
+        if (e.__k && e.__k.forEach(function(n) {
+            if ("object" == typeof n && n && void 0 === n.type) {
+                var t = Object.keys(n).join(",");
+                throw new Error("Objects are not valid as a child. Encountered an object with the keys {" + t + "}.\n\n" + d(e));
+            }
+        }), n = !1, o && o(e), null != e.__k) for(var t = [], a = 0; a < e.__k.length; a++){
+            var i = e.__k[a];
+            if (i && null != i.key) {
+                var s = i.key;
+                if (-1 !== t.indexOf(s)) {
+                    console.error('Following component has two or more children with the same key attribute: "' + s + '". This may cause glitches and misbehavior in rendering process. Component: \n\n' + b(e) + "\n\n" + d(e));
+                    break;
+                }
+                t.push(s);
+            }
+        }
+        if (null != e.__c && null != e.__c.__H) {
+            var u = e.__c.__H.__;
+            if (u) for(var l = 0; l < u.length; l += 1){
+                var f = u[l];
+                if (f.__H) {
+                    for(var p, h = r(f.__H); !(p = h()).done;)if ((y = p.value) != y) {
+                        var v = c(e);
+                        throw new Error("Invalid argument passed to hook. Hooks should not be called with NaN in the dependency array. Hook index " + l + " in component " + v + " was called with NaN.");
+                    }
+                }
+            }
+        }
+        var y;
+    };
+}();
+
+},{"preact":"756Y1","preact/devtools":"bZKKK","@parcel/transformer-js/src/esmodule-helpers.js":"3rdBK"}],"bZKKK":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "addHookName", ()=>t);
@@ -1333,7 +1366,7 @@ const Form = ({ data  })=>{
 };
 exports.default = Form;
 
-},{"preact/hooks":"gL63U","../utils":"dLmVf","./MonogramButtons":"01ucg","./MonogramInputs":"bjna3","./HiddenLineItemProperties":"9Ii62","./MonogramSubmit":"6EDrM","@parcel/transformer-js/src/esmodule-helpers.js":"3rdBK","preact/jsx-dev-runtime":"9JxeF"}],"gL63U":[function(require,module,exports) {
+},{"preact/jsx-dev-runtime":"9JxeF","preact/hooks":"gL63U","../utils":"dLmVf","./MonogramButtons":"01ucg","./MonogramInputs":"bjna3","./HiddenLineItemProperties":"9Ii62","./MonogramSubmit":"6EDrM","@parcel/transformer-js/src/esmodule-helpers.js":"3rdBK"}],"gL63U":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useCallback", ()=>T);
@@ -1564,7 +1597,20 @@ var _jsxDevRuntime = require("preact/jsx-dev-runtime");
 var _utils = require("../utils");
 const MonogramButtons = ({ data , style , setStyle  })=>{
     // only show block option for kids products
-    const visibleMonogramVariants = data.monogram_product.variants.filter((variant)=>(0, _utils.handleize)(variant.title).includes("block") && (0, _utils.handleize)(data.parent_product.type) !== "kids" ? false : true);
+    const visibleMonogramVariants = data.monogram_product.variants.filter((variant)=>(0, _utils.handleize)(variant.title).includes("block") && !(0, _utils.handleize)(data.parent_product.type).includes("kids") ? false : true);
+    // FYI, if it's easier to process, lines 5 => 11 could be rewrriten like this:
+    // const visibleMonogramVariants = data.monogram_product.variants.filter(
+    //   (variant) => {
+    //     if (
+    //       handleize(variant.title).includes("block") &&
+    //       !handleize(data.parent_product.type).includes("kids")
+    //     ) {
+    //       return false;
+    //     } else {
+    //       return true;
+    //     }
+    //   }
+    // );
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "MonogramButtons",
         children: visibleMonogramVariants.map((variant)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
@@ -1578,20 +1624,20 @@ const MonogramButtons = ({ data , style , setStyle  })=>{
                                 alt: variant.featured_image.title
                             }, void 0, false, {
                                 fileName: "src/preact/monogram/components/MonogramButtons.jsx",
-                                lineNumber: 21,
+                                lineNumber: 37,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: variant.title
                             }, void 0, false, {
                                 fileName: "src/preact/monogram/components/MonogramButtons.jsx",
-                                lineNumber: 25,
+                                lineNumber: 41,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/preact/monogram/components/MonogramButtons.jsx",
-                        lineNumber: 17,
+                        lineNumber: 33,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1605,53 +1651,20 @@ const MonogramButtons = ({ data , style , setStyle  })=>{
                         style: "display:none;"
                     }, void 0, false, {
                         fileName: "src/preact/monogram/components/MonogramButtons.jsx",
-                        lineNumber: 27,
+                        lineNumber: 43,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true))
     }, void 0, false, {
         fileName: "src/preact/monogram/components/MonogramButtons.jsx",
-        lineNumber: 14,
+        lineNumber: 30,
         columnNumber: 5
     }, undefined);
 };
 exports.default = MonogramButtons;
 
-},{"../utils":"dLmVf","@parcel/transformer-js/src/esmodule-helpers.js":"3rdBK","preact/jsx-dev-runtime":"9JxeF"}],"9JxeF":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Fragment", ()=>(0, _preact.Fragment));
-parcelHelpers.export(exports, "jsx", ()=>o);
-parcelHelpers.export(exports, "jsxDEV", ()=>o);
-parcelHelpers.export(exports, "jsxs", ()=>o);
-var _preact = require("preact");
-var _ = 0;
-function o(o, e, n, t, f, l) {
-    var s, u, a = {};
-    for(u in e)"ref" == u ? s = e[u] : a[u] = e[u];
-    var i = {
-        type: o,
-        props: a,
-        key: n,
-        ref: s,
-        __k: null,
-        __: null,
-        __b: 0,
-        __e: null,
-        __d: void 0,
-        __c: null,
-        __h: null,
-        constructor: void 0,
-        __v: --_,
-        __source: f,
-        __self: l
-    };
-    if ("function" == typeof o && (s = o.defaultProps)) for(u in s)void 0 === a[u] && (a[u] = s[u]);
-    return (0, _preact.options).vnode && (0, _preact.options).vnode(i), i;
-}
-
-},{"preact":"756Y1","@parcel/transformer-js/src/esmodule-helpers.js":"3rdBK"}],"bjna3":[function(require,module,exports) {
+},{"preact/jsx-dev-runtime":"9JxeF","../utils":"dLmVf","@parcel/transformer-js/src/esmodule-helpers.js":"3rdBK"}],"bjna3":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("preact/jsx-dev-runtime");
@@ -1808,7 +1821,7 @@ const MonogramInputs = ({ style , monogram , firstInitial , middleInitial , last
 };
 exports.default = MonogramInputs;
 
-},{"../utils":"dLmVf","@parcel/transformer-js/src/esmodule-helpers.js":"3rdBK","preact/jsx-dev-runtime":"9JxeF"}],"9Ii62":[function(require,module,exports) {
+},{"preact/jsx-dev-runtime":"9JxeF","../utils":"dLmVf","@parcel/transformer-js/src/esmodule-helpers.js":"3rdBK"}],"9Ii62":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("preact/jsx-dev-runtime");
@@ -1930,11 +1943,20 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                 type: "hidden",
+                name: "items[1][properties][_LPROP]",
+                value: "final-sale"
+            }, void 0, false, {
+                fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
+                lineNumber: 98,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "hidden",
                 name: "items[1][properties][Style]",
                 value: style
             }, void 0, false, {
                 fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
-                lineNumber: 98,
+                lineNumber: 99,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1943,7 +1965,7 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
                 value: location()
             }, void 0, false, {
                 fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
-                lineNumber: 99,
+                lineNumber: 100,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -1952,7 +1974,7 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
                 value: setMonogramLineItemProperty()
             }, void 0, false, {
                 fileName: "src/preact/monogram/components/HiddenLineItemProperties.jsx",
-                lineNumber: 104,
+                lineNumber: 105,
                 columnNumber: 7
             }, undefined)
         ]
@@ -1960,7 +1982,7 @@ const HiddenLineItemProperties = ({ data , style , monogram , firstInitial , mid
 };
 exports.default = HiddenLineItemProperties;
 
-},{"preact/hooks":"gL63U","../utils":"dLmVf","@parcel/transformer-js/src/esmodule-helpers.js":"3rdBK","preact/jsx-dev-runtime":"9JxeF"}],"6EDrM":[function(require,module,exports) {
+},{"preact/jsx-dev-runtime":"9JxeF","preact/hooks":"gL63U","../utils":"dLmVf","@parcel/transformer-js/src/esmodule-helpers.js":"3rdBK"}],"6EDrM":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("preact/jsx-dev-runtime");
@@ -2033,6 +2055,6 @@ const MonogramSubmit = ({ style , monogram , firstInitial , middleInitial , last
 };
 exports.default = MonogramSubmit;
 
-},{"../utils":"dLmVf","@parcel/transformer-js/src/esmodule-helpers.js":"3rdBK","preact/jsx-dev-runtime":"9JxeF"}]},["azPEH","8h5lo"], "8h5lo", "parcelRequire6d00")
+},{"preact/jsx-dev-runtime":"9JxeF","../utils":"dLmVf","@parcel/transformer-js/src/esmodule-helpers.js":"3rdBK"}]},["azPEH","8h5lo"], "8h5lo", "parcelRequire6d00")
 
 //# sourceMappingURL=monogram.js.map

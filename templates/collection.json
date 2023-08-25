@@ -47,6 +47,7 @@
         },
         "690ccfae-bdb4-4e14-a918-769109aceffe": {
           "type": "collection_description",
+          "disabled": true,
           "settings": {
           }
         }

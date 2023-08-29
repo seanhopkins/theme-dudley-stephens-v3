@@ -610,6 +610,31 @@
         "divider": true
       }
     },
+    "5d1fef6a-4eb5-46f0-82b8-6a89335ae4af": {
+      "type": "text-columns",
+      "blocks": {
+        "0d63717e-5668-4ec5-987b-e2a1abf43ab7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Trevor Furbay",
+            "text": "<p>116 E Main St, Harbor Springs, MI<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "0d63717e-5668-4ec5-987b-e2a1abf43ab7"
+      ],
+      "settings": {
+        "title": "Michigan",
+        "align_text": "left",
+        "divider": true
+      }
+    },
     "bcbd9bde-5db4-4f42-b931-44547ed81ac3": {
       "type": "text-columns",
       "blocks": {
@@ -725,6 +750,44 @@
         "divider": true
       }
     },
+    "49ab7d9d-dee7-4243-970d-e1711fec9e49": {
+      "type": "text-columns",
+      "blocks": {
+        "e0025eab-3aa0-4fb9-914a-88c8bb917cd7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Ruxton Mercantile Charlotte",
+            "text": "<p>102B Middleton Dr, Charlotte, NC<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "68fc1b7f-927d-4b17-ab27-c47519565292": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "e0025eab-3aa0-4fb9-914a-88c8bb917cd7",
+        "68fc1b7f-927d-4b17-ab27-c47519565292"
+      ],
+      "settings": {
+        "title": "North Carolina",
+        "align_text": "left",
+        "divider": true
+      }
+    },
     "35879af4-3d04-4217-a536-6a3b0356d869": {
       "type": "text-columns",
       "blocks": {
@@ -822,6 +885,43 @@
             "enable_image": false,
             "image_mask": "none",
             "image_width": 650,
+            "title": "Archery Close",
+            "text": "<p>25 Main Street, Stowe, VT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "a1876f4a-dfbf-4992-9e20-7830baa9ca31"
+      ],
+      "settings": {
+        "title": "Vermont",
+        "align_text": "left",
+        "divider": true
+      }
+    },
+    "c7df65b0-cfb1-430a-bc0f-ee3e572442c8": {
+      "type": "text-columns",
+      "blocks": {
+        "47f437d3-ad1e-4ad2-895b-00e7f9b648c8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Monkees of Fairfax",
+            "text": "<p>11899 Grand Commons Ave, Fairfax, VA<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "39b27b12-dc63-4297-ac00-e7bb94f899ce": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
             "title": "Punch Boutique",
             "text": "<p>3117 Franklin Road SW, #6, Roanoke, VA<\/p>",
             "button_label": "",
@@ -830,7 +930,8 @@
         }
       },
       "block_order": [
-        "a1876f4a-dfbf-4992-9e20-7830baa9ca31"
+        "47f437d3-ad1e-4ad2-895b-00e7f9b648c8",
+        "39b27b12-dc63-4297-ac00-e7bb94f899ce"
       ],
       "settings": {
         "title": "Virginia",
@@ -852,11 +953,14 @@
     "d976aff8-5daa-4266-9f37-b3982781f6b1",
     "17c10a59-16f1-4137-bc3a-36ee06cdc8f9",
     "d6162ded-79b4-47aa-97ed-34a26dfd3eba",
+    "5d1fef6a-4eb5-46f0-82b8-6a89335ae4af",
     "bcbd9bde-5db4-4f42-b931-44547ed81ac3",
     "dc6faf5d-1d8f-44e4-8f53-2ca33dbb5ec1",
+    "49ab7d9d-dee7-4243-970d-e1711fec9e49",
     "35879af4-3d04-4217-a536-6a3b0356d869",
     "1068a5e8-5ed4-4fa9-8b87-49a72d2508e9",
     "b65d3e4a-099f-4d6e-b2f8-4ecd61b29349",
-    "9e363f98-6ad9-42b4-a849-4a65ffad92d8"
+    "9e363f98-6ad9-42b4-a849-4a65ffad92d8",
+    "c7df65b0-cfb1-430a-bc0f-ee3e572442c8"
   ]
 }

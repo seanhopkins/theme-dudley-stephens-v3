@@ -187,6 +187,30 @@
             "button_link": ""
           }
         },
+        "522cbcd2-4255-4077-abd3-39b7cfc07bcc": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Chou Chou",
+            "text": "<p>201 Main St. Unit 201 Westport, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "04b1a7b7-98b0-4670-91f3-890ec1172092": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Fred",
+            "text": "<p>201 Main St. Unit 201 Westport, CT<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "template--14916873748522__5dee744c-bf51-4b21-b38f-c17a935a8da7-1681493702bde4a8ca-1": {
           "type": "text_block",
           "settings": {
@@ -250,6 +274,8 @@
       },
       "block_order": [
         "template--14916873748522__5dee744c-bf51-4b21-b38f-c17a935a8da7-1681493702bde4a8ca-0",
+        "522cbcd2-4255-4077-abd3-39b7cfc07bcc",
+        "04b1a7b7-98b0-4670-91f3-890ec1172092",
         "template--14916873748522__5dee744c-bf51-4b21-b38f-c17a935a8da7-1681493702bde4a8ca-1",
         "template--14916873748522__5dee744c-bf51-4b21-b38f-c17a935a8da7-1681493702bde4a8ca-2",
         "5356e8ed-2ade-4479-b3ae-b533c06fdbb9",

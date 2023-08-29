@@ -378,6 +378,58 @@
         "divider": true
       }
     },
+    "adcf0919-a6d2-4e2a-965a-e7971c50d043": {
+      "type": "text-columns",
+      "blocks": {
+        "1f9239be-6892-416b-9899-b9fb07c8bf1f": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Palm on Chestnut",
+            "text": "<p>1203-B, 1203 Chestnut St, Murray, KY<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1faa638a-5789-4bbb-94e6-01796dea3a75": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Caleta Lake Forest",
+            "text": "<p>265 Market Square Court, IL<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "80915b86-abf1-4f5e-bcb1-e4e192de7dfb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1f9239be-6892-416b-9899-b9fb07c8bf1f",
+        "1faa638a-5789-4bbb-94e6-01796dea3a75",
+        "80915b86-abf1-4f5e-bcb1-e4e192de7dfb"
+      ],
+      "settings": {
+        "title": "Kentucky",
+        "align_text": "left",
+        "divider": true
+      }
+    },
     "d976aff8-5daa-4266-9f37-b3982781f6b1": {
       "type": "text-columns",
       "blocks": {
@@ -783,6 +835,7 @@
     "5dee744c-bf51-4b21-b38f-c17a935a8da7",
     "e054fc62-2f22-40b7-ae17-d786e8af14dd",
     "c4de96f8-963f-4edb-ab31-816e6756dbb6",
+    "adcf0919-a6d2-4e2a-965a-e7971c50d043",
     "d976aff8-5daa-4266-9f37-b3982781f6b1",
     "17c10a59-16f1-4137-bc3a-36ee06cdc8f9",
     "d6162ded-79b4-47aa-97ed-34a26dfd3eba",

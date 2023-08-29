@@ -288,6 +288,31 @@
         "divider": true
       }
     },
+    "e054fc62-2f22-40b7-ae17-d786e8af14dd": {
+      "type": "text-columns",
+      "blocks": {
+        "71118db0-645a-4192-be09-cd179028cd93": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Whimsy",
+            "text": "<p>3838 Kennett Pike. Greenville, DE<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "71118db0-645a-4192-be09-cd179028cd93"
+      ],
+      "settings": {
+        "title": "Delaware",
+        "align_text": "left",
+        "divider": true
+      }
+    },
     "c4de96f8-963f-4edb-ab31-816e6756dbb6": {
       "type": "text-columns",
       "blocks": {
@@ -756,6 +781,7 @@
     "a69fd163-00cb-4c3f-b058-6f787e92ddcc",
     "1be8593d-b644-4e82-a366-0168333c3256",
     "5dee744c-bf51-4b21-b38f-c17a935a8da7",
+    "e054fc62-2f22-40b7-ae17-d786e8af14dd",
     "c4de96f8-963f-4edb-ab31-816e6756dbb6",
     "d976aff8-5daa-4266-9f37-b3982781f6b1",
     "17c10a59-16f1-4137-bc3a-36ee06cdc8f9",

@@ -572,18 +572,6 @@
             "button_link": ""
           }
         },
-        "3d5e7a33-8d37-45ef-8123-9e83252c9e3b": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Murray’s Toggery Shop",
-            "text": "<p>62 Main Street, Nantucket, MA<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "2d9fd8c1-c03a-48a3-bb12-409fe7c3a046": {
           "type": "text_block",
           "settings": {
@@ -601,7 +589,6 @@
         "1a187ebc-5981-4ef6-9275-adfc26c4ebc5",
         "0c7c32fe-d1a9-4f01-91f1-54c348bd8f8f",
         "d58701a8-c62b-4ce4-ac21-3a76b26757e7",
-        "3d5e7a33-8d37-45ef-8123-9e83252c9e3b",
         "2d9fd8c1-c03a-48a3-bb12-409fe7c3a046"
       ],
       "settings": {

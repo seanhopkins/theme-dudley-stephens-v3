@@ -15,9 +15,9 @@
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify:\/\/shop_images\/Slider_a78b9e87-48cd-43a8-95a9-2b714dc25e94.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_b996969e-9595-4a94-8ca2-b16d1cd7aca9.jpg",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/unnamed_e6fab425-2450-4881-b016-467428084a9a.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_f4e5847c-7fd3-4f85-8561-8e6499416e9d.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 12
           }

@@ -7,17 +7,17 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Dudley Classics",
+            "title": "The Hello Fall Sale",
             "title_size": 80,
-            "subheading": "The turtleneck, our icon for every season.",
-            "link": "https:\/\/www.dudley-stephens.com\/collections\/dudley-classics",
+            "subheading": "Celebrate Labor Day Weekend with 30% off sidewide with code HELLOFALL.",
+            "link": "https:\/\/www.dudley-stephens.com\/collections\/hello-fall-sale",
             "link_text": "SHOP NOW",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
             "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify:\/\/shop_images\/Slider_cf088500-6a1f-4b7d-a4fa-7baddd168bd1.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_511769eb-9998-4b73-857b-77a165c8aeca.jpg",
+            "image": "shopify:\/\/shop_images\/Slider_a78b9e87-48cd-43a8-95a9-2b714dc25e94.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_b996969e-9595-4a94-8ca2-b16d1cd7aca9.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 12
           }

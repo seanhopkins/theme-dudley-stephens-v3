@@ -43,10 +43,22 @@
         "top_padding": true,
         "bottom_padding": true
       }
+    },
+    "66c12cf9-7b53-4b9b-a637-cf5ca04e5cb9": {
+      "type": "postscript-form",
+      "settings": {
+        "title": "",
+        "text": "",
+        "postscript_id": "",
+        "narrow_column": true,
+        "align_text": "center",
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
-    "85510021-b31d-4805-bf08-ff32d547ba06"
+    "85510021-b31d-4805-bf08-ff32d547ba06",
+    "66c12cf9-7b53-4b9b-a637-cf5ca04e5cb9"
   ]
 }

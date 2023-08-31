@@ -12,20 +12,20 @@
     {%- endif -%}
   </div>
 
-  <div id="ps__subscribe-form-{{ postscript_id }}--{{section.id }}">
-    <form action="https://api.postscript.io/subscribe/form" method="post" onsubmit="document.getElementById('ps__sent-message-{{ postscript_id }}--{{section.id }}').style.display = 'block'; document.getElementById('ps__subscribe-form-{{ postscript_id }}--{{section.id }}').style.display = 'none';" target="dummyframe">
-      <input id="ps__shop_id-{{ postscript_id }}" name="shop_id" type="hidden" value="11859">
-      <input id="ps__keyword_id-{{ postscript_id }}" name="keyword_id" type="hidden" value="{{ postscript_id }}">
+  <div id="ps__subscribe-form-{{ section.settings.postscript_id }}}">
+    <form action="https://api.postscript.io/subscribe/form" method="post" onsubmit="document.getElementById('ps__sent-message-{{ section.settings.postscript_id }}--{{section.id }}').style.display = 'block'; document.getElementById('ps__subscribe-form-{{ section.settings.postscript_id }}--{{section.id }}').style.display = 'none';" target="dummyframe">
+      <input id="ps__shop_id-{{ section.settings.postscript_id }}" name="shop_id" type="hidden" value="11859">
+      <input id="ps__keyword_id-{{ section.settings.postscript_id }}" name="keyword_id" type="hidden" value="{{ section.settings.postscript_id }}">
 
-      <input id="ps__phone-subscribe-{{ postscript_id }}" name="phone" type="phone" placeholder="Phone Number" required>
+      <input id="ps__phone-subscribe-{{ section.settings.postscript_id }}" name="phone" type="phone" placeholder="Phone Number" required>
       <input type="submit" value="Subscribe" class="btn">
 
       <small class="disclaimer">*By subscribing, you agree to receive recurring automated marketing text messages (e.g. cart reminders) at the phone number provided. Consent is not a condition to purchase. Msg & data rates may apply. Msg frequency varies. Reply HELP for help and STOP to cancel. View our <a href="{{ shop.privacy_policy.url }}">Privacy Policy</a> and <a href="{{ shop.terms_of_service.url }}">Terms of Service</a>.</small>
     </form>
   </div>
-  <iframe width="0" height="0" border="0" name="dummyframe" id="ps__dummyframe-{{ postscript_id }}" style="display: none;"></iframe>
+  <iframe width="0" height="0" border="0" name="dummyframe" id="ps__dummyframe-{{ section.settings.postscript_id }}" style="display: none;"></iframe>
 
-  <div id="ps__sent-message-{{ postscript_id }}--{{section.id }}" style="display: none;">
+  <div id="ps__sent-message-{{ section.settings.postscript_id }}" style="display: none;">
     <span class="note note--success">Thanks for subscribing! We'll send you a message shortly.</span>
   </div>
 </div>

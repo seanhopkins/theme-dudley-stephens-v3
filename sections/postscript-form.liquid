@@ -13,7 +13,7 @@
   </div>
 
   <div id="ps__subscribe-form-{{ section.settings.postscript_id }}}">
-    <form action="https://api.postscript.io/subscribe/form" method="post" onsubmit="document.getElementById('ps__sent-message-{{ section.settings.postscript_id }}').style.display = 'block'; document.getElementById('ps__subscribe-form-{{ section.settings.postscript_id }}--{{section.id }}').style.display = 'none';" target="dummyframe">
+    <form action="https://api.postscript.io/subscribe/form" method="post" onsubmit="document.getElementById('ps__sent-message-{{ section.settings.postscript_id }}').style.display = 'block'; document.getElementById('ps__subscribe-form-{{ section.settings.postscript_id }}').style.display = 'none';" target="dummyframe">
       <input id="ps__shop_id-{{ section.settings.postscript_id }}" name="shop_id" type="hidden" value="11859">
       <input id="ps__keyword_id-{{ section.settings.postscript_id }}" name="keyword_id" type="hidden" value="{{ section.settings.postscript_id }}">
 

@@ -72,7 +72,6 @@
     },
     "1c29967c-50f2-4767-936c-a79dea3e3576": {
       "type": "text-with-icons",
-      "disabled": true,
       "blocks": {
         "template--14938178781226__1c29967c-50f2-4767-936c-a79dea3e3576-16897063447d9ce7ac-0": {
           "type": "text_block",
@@ -104,6 +103,7 @@
         "template--14938178781226__1c29967c-50f2-4767-936c-a79dea3e3576-16897063447d9ce7ac-1",
         "template--14938178781226__1c29967c-50f2-4767-936c-a79dea3e3576-16897063447d9ce7ac-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "center",

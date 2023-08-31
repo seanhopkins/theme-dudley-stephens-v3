@@ -4,7 +4,6 @@
   "sections": {
     "newsletter-popup": {
       "type": "newsletter-popup",
-      "disabled": true,
       "blocks": {
         "reminder-block": {
           "type": "header",
@@ -16,6 +15,7 @@
       "block_order": [
         "reminder-block"
       ],
+      "disabled": true,
       "settings": {
         "disable_for_account_holders": true,
         "popup_seconds": 2,

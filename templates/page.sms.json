@@ -70,34 +70,26 @@
         "divider": false
       }
     },
-    "5a345c87-09c2-4faf-9715-443a56378cb7": {
-      "type": "advanced-content",
-      "blocks": {
-        "template--14968061362218__5a345c87-09c2-4faf-9715-443a56378cb7-liquid-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "[poscript form here]",
-            "width": "50%",
-            "alignment": "center"
-          }
-        },
-        "39edd145-9b94-4a20-8859-f7d273124455": {
-          "type": "liquid",
-          "settings": {
-            "code": "[postscript form here]",
-            "width": "50%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--14968061362218__5a345c87-09c2-4faf-9715-443a56378cb7-liquid-1",
-        "39edd145-9b94-4a20-8859-f7d273124455"
-      ],
+    "08b78423-1a25-499a-9607-08189d66c98d": {
+      "type": "postscript-form",
       "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
+        "title": "Exclusive Notifications",
+        "text": "Enter your phone number below to receive DS insider updates and offers by text.",
+        "postscript_id": "342067",
+        "narrow_column": true,
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "317e5fa0-3947-4268-9f83-be706cba023d": {
+      "type": "postscript-form",
+      "settings": {
+        "title": "Personalized Shopping Support",
+        "text": "Enter your phone number below to text directly with a DS Personal Shopper.",
+        "postscript_id": "29345",
+        "narrow_column": true,
+        "align_text": "center",
+        "divider": false
       }
     }
   },
@@ -105,6 +97,7 @@
     "c2c61d7a-e2ae-40d0-b04e-c5710f4422ce",
     "main",
     "818135d7-0f00-49f7-a2be-8873265c3cf1",
-    "5a345c87-09c2-4faf-9715-443a56378cb7"
+    "08b78423-1a25-499a-9607-08189d66c98d",
+    "317e5fa0-3947-4268-9f83-be706cba023d"
   ]
 }

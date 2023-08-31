@@ -2,11 +2,51 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "85510021-b31d-4805-bf08-ff32d547ba06": {
+      "type": "newsletter",
+      "blocks": {
+        "template--14975512739882__85510021-b31d-4805-bf08-ff32d547ba06-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "Sign up for drops",
+            "heading_size": "h2"
+          }
+        },
+        "template--14975512739882__85510021-b31d-4805-bf08-ff32d547ba06-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
+        "template--14975512739882__85510021-b31d-4805-bf08-ff32d547ba06-form-1": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--14975512739882__85510021-b31d-4805-bf08-ff32d547ba06-title-1",
+        "template--14975512739882__85510021-b31d-4805-bf08-ff32d547ba06-text-1",
+        "template--14975512739882__85510021-b31d-4805-bf08-ff32d547ba06-form-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "image_width": "33",
+        "image_mask": "none",
+        "image_position": "right",
+        "color_background": "rgba(0,0,0,0)",
+        "color_text": "#1c1d1d",
+        "top_padding": true,
+        "bottom_padding": true
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "85510021-b31d-4805-bf08-ff32d547ba06"
   ]
 }

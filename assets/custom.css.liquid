@@ -348,19 +348,3 @@ video-slide video {
 div#loop-onstore {
     z-index: 1;
 }
-
-/* TODO: Fix the sold out swatch styling with JS */
-.soldout-xs.soldout-s.soldout-m.soldout-l.soldout-xl.soldout-xxl {
-   opacity: .4;
-}
-.soldout-xs.soldout-s.soldout-m.soldout-l.soldout-xl.soldout-xxl:after {
-   position: absolute;
-   content: "";
-   left: 50%;
-   top: 0;
-   bottom: 0;
-   border-left: 3px solid;
-   border-color: var(--shopify-editor-setting-color_borders);
-   border-color: var(--colorBorder);
-   transform: rotate(45deg);
-}

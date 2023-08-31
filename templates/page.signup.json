@@ -47,9 +47,9 @@
     "66c12cf9-7b53-4b9b-a637-cf5ca04e5cb9": {
       "type": "postscript-form",
       "settings": {
-        "title": "",
-        "text": "",
-        "postscript_id": "",
+        "title": "Exclusive Notifications",
+        "text": "Enter your phone number below to receive DS insider updates and offers by text.",
+        "postscript_id": "342067",
         "narrow_column": true,
         "align_text": "center",
         "divider": false

@@ -51,7 +51,7 @@
            active
            {{ townhouse_item }} 
            {{ soldout_sizes }}
-           {% if soldout_sizes == current_option_handle %}color-swatch--unavailable {% endif %}
+           {% if soldout_sizes contains current_option_handle %}color-swatch--unavailable {% endif %}
          " 
          title="{{ product_color }} {{ product_title }}"
        >

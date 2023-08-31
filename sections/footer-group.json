@@ -4,7 +4,6 @@
   "sections": {
     "footer-promotions": {
       "type": "footer-promotions",
-      "disabled": true,
       "blocks": {
         "8ebf8d9e-5a16-484e-a420-613f9dbc49f6": {
           "type": "promotion",
@@ -45,6 +44,7 @@
         "f3e56d98-8a7d-48ce-a9dd-e9f25bbc987d",
         "7261a532-de72-43de-b5d4-0e1bb8403535"
       ],
+      "disabled": true,
       "settings": {
         "hide_homepage": false,
         "image_size": "wide"

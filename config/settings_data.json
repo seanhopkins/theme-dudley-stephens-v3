@@ -134,6 +134,14 @@
               "swatch_image": "shopify:\/\/shop_images\/basil-cream.png"
             }
           },
+          "707afe18-710f-4f2b-b682-86f10dd3e3f3": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Berry",
+              "swatch_color": "#a52451",
+              "monogram_swatch": "shopify:\/\/shop_images\/Berry_Vello.jpg"
+            }
+          },
           "1573762103534": {
             "type": "color_swatch",
             "settings": {
@@ -1088,19 +1096,13 @@
               "title": "Denim Blue",
               "swatch_color": "#65769b"
             }
-          },
-          "707afe18-710f-4f2b-b682-86f10dd3e3f3": {
-            "type": "color_swatch",
-            "settings": {
-              "title": "Berry",
-              "swatch_color": "#a52451"
-            }
           }
         },
         "block_order": [
           "2e56268f-d913-4279-a0f8-89b1bb5acbc5",
           "328c3ac9-f906-4c22-a2d0-5a712f91c895",
           "8fdba468-34df-47ae-b4b3-bc5969028dda",
+          "707afe18-710f-4f2b-b682-86f10dd3e3f3",
           "1573762103534",
           "b32b6997-f9f0-47ea-8155-00ab3dee3a23",
           "02c54f45-7e25-4ac9-83f3-3cd521e87dd9",
@@ -1221,8 +1223,7 @@
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
           "250b5ae7-c936-4846-8ffc-76eb6db8d944",
           "77dae634-e12e-47d3-8128-5a2a43b6b219",
-          "194151db-ffc1-4605-9e0d-ef117bcd30fb",
-          "707afe18-710f-4f2b-b682-86f10dd3e3f3"
+          "194151db-ffc1-4605-9e0d-ef117bcd30fb"
         ],
         "settings": {
         }

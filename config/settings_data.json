@@ -458,6 +458,13 @@
               "swatch_image": "shopify:\/\/shop_images\/green-pineapple-print.png"
             }
           },
+          "77dae634-e12e-47d3-8128-5a2a43b6b219": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Grey",
+              "swatch_color": "#838487"
+            }
+          },
           "14e1950e-fc48-4966-928a-0dec8d223ec5": {
             "type": "color_swatch",
             "settings": {
@@ -1090,13 +1097,6 @@
               "swatch_color": "",
               "swatch_image": "shopify:\/\/shop_images\/white-navy.png"
             }
-          },
-          "77dae634-e12e-47d3-8128-5a2a43b6b219": {
-            "type": "color_swatch",
-            "settings": {
-              "title": "Grey",
-              "swatch_color": "#838487"
-            }
           }
         },
         "block_order": [
@@ -1144,6 +1144,7 @@
           "1573761957468",
           "5d0e3eaa-267d-407f-9d8d-197ebfa68995",
           "a71aa5cb-b9d3-4bf0-8d2b-ea88fa012b15",
+          "77dae634-e12e-47d3-8128-5a2a43b6b219",
           "14e1950e-fc48-4966-928a-0dec8d223ec5",
           "107d0cda-9b48-4576-98d1-41106e0c6aa2",
           "1574187314649",
@@ -1223,8 +1224,7 @@
           "e6bd5ae0-f88f-4b77-becb-162959cb8eec",
           "1574186951943",
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
-          "250b5ae7-c936-4846-8ffc-76eb6db8d944",
-          "77dae634-e12e-47d3-8128-5a2a43b6b219"
+          "250b5ae7-c936-4846-8ffc-76eb6db8d944"
         ],
         "settings": {
         }

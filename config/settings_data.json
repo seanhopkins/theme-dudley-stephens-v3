@@ -411,6 +411,14 @@
               "swatch_image": "shopify:\/\/shop_images\/Cream-Camel.jpg"
             }
           },
+          "194151db-ffc1-4605-9e0d-ef117bcd30fb": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Denim Blue",
+              "swatch_color": "#65769b",
+              "monogram_swatch": "shopify:\/\/shop_images\/Denim_Blue_Vello.jpg"
+            }
+          },
           "9403ef65-0d9b-457e-8f04-c242b2aef3c5": {
             "type": "color_swatch",
             "settings": {
@@ -1089,13 +1097,6 @@
               "title": "Grey",
               "swatch_color": "#838487"
             }
-          },
-          "194151db-ffc1-4605-9e0d-ef117bcd30fb": {
-            "type": "color_swatch",
-            "settings": {
-              "title": "Denim Blue",
-              "swatch_color": "#65769b"
-            }
           }
         },
         "block_order": [
@@ -1137,6 +1138,7 @@
           "1602597080054",
           "8bae95ee-8c1d-4178-a303-87dd3e91273f",
           "0e835829-040e-4fea-b13d-104e7043648b",
+          "194151db-ffc1-4605-9e0d-ef117bcd30fb",
           "9403ef65-0d9b-457e-8f04-c242b2aef3c5",
           "1602597047269",
           "1573761957468",
@@ -1222,8 +1224,7 @@
           "1574186951943",
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
           "250b5ae7-c936-4846-8ffc-76eb6db8d944",
-          "77dae634-e12e-47d3-8128-5a2a43b6b219",
-          "194151db-ffc1-4605-9e0d-ef117bcd30fb"
+          "77dae634-e12e-47d3-8128-5a2a43b6b219"
         ],
         "settings": {
         }

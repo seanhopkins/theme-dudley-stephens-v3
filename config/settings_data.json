@@ -1098,6 +1098,15 @@
               "swatch_color": "",
               "swatch_image": "shopify:\/\/shop_images\/white-navy.png"
             }
+          },
+          "79e848db-dfc8-4f23-aff5-32b5ceff5893": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Blue Camo",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/blue-camo_e2ec0c3f-5045-4053-92a2-2f6fc6e21029.png",
+              "monogram_swatch": "shopify:\/\/shop_images\/Blue_Camo_Terry.jpg"
+            }
           }
         },
         "block_order": [
@@ -1225,7 +1234,8 @@
           "e6bd5ae0-f88f-4b77-becb-162959cb8eec",
           "1574186951943",
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
-          "250b5ae7-c936-4846-8ffc-76eb6db8d944"
+          "250b5ae7-c936-4846-8ffc-76eb6db8d944",
+          "79e848db-dfc8-4f23-aff5-32b5ceff5893"
         ],
         "settings": {
         }

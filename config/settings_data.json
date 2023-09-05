@@ -1063,7 +1063,8 @@
             "settings": {
               "title": "Tie Dye",
               "swatch_color": "",
-              "swatch_image": "shopify:\/\/shop_images\/tie-dye_c58a9667-970f-435d-a39f-c73b3ba1bf36.png"
+              "swatch_image": "shopify:\/\/shop_images\/tie-dye_c58a9667-970f-435d-a39f-c73b3ba1bf36.png",
+              "monogram_swatch": "shopify:\/\/shop_images\/Tie_Dye_Terry.jpg"
             }
           },
           "e6bd5ae0-f88f-4b77-becb-162959cb8eec": {

@@ -455,6 +455,30 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "73740f22-9b56-4e99-a906-659f3bc64f9a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1c25cc58-102d-4749-8f7f-ec2535ea08df": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -462,7 +486,9 @@
         "0c7c32fe-d1a9-4f01-91f1-54c348bd8f8f",
         "d58701a8-c62b-4ce4-ac21-3a76b26757e7",
         "2d9fd8c1-c03a-48a3-bb12-409fe7c3a046",
-        "8879c5b5-b5bf-490e-9f87-c44c488f5848"
+        "8879c5b5-b5bf-490e-9f87-c44c488f5848",
+        "73740f22-9b56-4e99-a906-659f3bc64f9a",
+        "1c25cc58-102d-4749-8f7f-ec2535ea08df"
       ],
       "settings": {
         "title": "Massachusetts",

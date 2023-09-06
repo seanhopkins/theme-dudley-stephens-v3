@@ -326,6 +326,14 @@
               "swatch_image": "shopify:\/\/shop_images\/camo.png"
             }
           },
+          "7cd9ba90-3d2e-48ab-a05d-646664a81e03": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Camp Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/camp-stripe.png"
+            }
+          },
           "b59bc7c5-778f-438b-8b24-f3cba0787516": {
             "type": "color_swatch",
             "settings": {
@@ -528,6 +536,14 @@
               "swatch_color": "#f97272",
               "swatch_image": "shopify:\/\/shop_images\/Hibiscus.jpg",
               "monogram_swatch": "shopify:\/\/shop_images\/HIBISCUS_TERRY.png"
+            }
+          },
+          "0f4c9ee9-f0b8-486f-b853-eb9d76149e15": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Holiday Tartan",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/holiday-tartan.png"
             }
           },
           "3b47349d-917d-4237-a0f3-0cf745769167": {
@@ -1107,14 +1123,6 @@
               "swatch_color": "",
               "swatch_image": "shopify:\/\/shop_images\/white-navy.png"
             }
-          },
-          "0f4c9ee9-f0b8-486f-b853-eb9d76149e15": {
-            "type": "color_swatch",
-            "settings": {
-              "title": "Holiday Tartan",
-              "swatch_color": "",
-              "swatch_image": "shopify:\/\/shop_images\/holiday-tartan.png"
-            }
           }
         },
         "block_order": [
@@ -1145,6 +1153,7 @@
           "72f8dc21-ced6-42ee-a642-915a99a5af54",
           "1600111120829",
           "555abcee-cc86-48f3-81cc-efbdd33d73b2",
+          "7cd9ba90-3d2e-48ab-a05d-646664a81e03",
           "b59bc7c5-778f-438b-8b24-f3cba0787516",
           "1574207100188",
           "81462c94-97df-436f-8418-9fd118649067",
@@ -1171,6 +1180,7 @@
           "1595351289499",
           "1600111146861",
           "dd440519-9e9b-43bf-9b66-3d21f7703fc2",
+          "0f4c9ee9-f0b8-486f-b853-eb9d76149e15",
           "3b47349d-917d-4237-a0f3-0cf745769167",
           "1574187168038",
           "1574187271808",
@@ -1243,8 +1253,7 @@
           "e6bd5ae0-f88f-4b77-becb-162959cb8eec",
           "1574186951943",
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
-          "250b5ae7-c936-4846-8ffc-76eb6db8d944",
-          "0f4c9ee9-f0b8-486f-b853-eb9d76149e15"
+          "250b5ae7-c936-4846-8ffc-76eb6db8d944"
         ],
         "settings": {
         }

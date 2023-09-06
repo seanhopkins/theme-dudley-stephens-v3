@@ -1,1 +1,41 @@
-{"sections":{"main":{"type":"main-page","settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "c3220d24-8e7b-4f84-a431-0aae228e36f2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Dudley Classics"
+          }
+        },
+        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Timelessly appealing. Everyday elevated. Reimagined, reinvented, restyled—again and again. <\/p><p>Our icon, <em>the turtleneck.<\/em> <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1",
+        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c3220d24-8e7b-4f84-a431-0aae228e36f2"
+  ]
+}

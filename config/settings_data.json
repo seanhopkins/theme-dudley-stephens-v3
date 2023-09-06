@@ -1107,6 +1107,14 @@
               "swatch_color": "",
               "swatch_image": "shopify:\/\/shop_images\/white-navy.png"
             }
+          },
+          "0f4c9ee9-f0b8-486f-b853-eb9d76149e15": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Holiday Tartan",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/holiday-tartan.png"
+            }
           }
         },
         "block_order": [
@@ -1235,7 +1243,8 @@
           "e6bd5ae0-f88f-4b77-becb-162959cb8eec",
           "1574186951943",
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
-          "250b5ae7-c936-4846-8ffc-76eb6db8d944"
+          "250b5ae7-c936-4846-8ffc-76eb6db8d944",
+          "0f4c9ee9-f0b8-486f-b853-eb9d76149e15"
         ],
         "settings": {
         }

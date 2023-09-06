@@ -134,6 +134,14 @@
               "swatch_image": "shopify:\/\/shop_images\/basil-cream.png"
             }
           },
+          "707afe18-710f-4f2b-b682-86f10dd3e3f3": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Berry",
+              "swatch_color": "#a52451",
+              "monogram_swatch": "shopify:\/\/shop_images\/Berry_Vello.jpg"
+            }
+          },
           "1573762103534": {
             "type": "color_swatch",
             "settings": {
@@ -204,6 +212,15 @@
               "title": "Blue Cabana Stripe",
               "swatch_color": "",
               "swatch_image": "shopify:\/\/shop_images\/BlueCabanaStripe.jpg"
+            }
+          },
+          "79e848db-dfc8-4f23-aff5-32b5ceff5893": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Blue Camo",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/blue-camo_e2ec0c3f-5045-4053-92a2-2f6fc6e21029.png",
+              "monogram_swatch": "shopify:\/\/shop_images\/Blue_Camo_Terry.jpg"
             }
           },
           "1574452635410": {
@@ -403,6 +420,14 @@
               "swatch_image": "shopify:\/\/shop_images\/Cream-Camel.jpg"
             }
           },
+          "194151db-ffc1-4605-9e0d-ef117bcd30fb": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Denim Blue",
+              "swatch_color": "#65769b",
+              "monogram_swatch": "shopify:\/\/shop_images\/Denim_Blue_Vello.jpg"
+            }
+          },
           "9403ef65-0d9b-457e-8f04-c242b2aef3c5": {
             "type": "color_swatch",
             "settings": {
@@ -440,6 +465,13 @@
               "title": "Green Pineapple Print",
               "swatch_color": "",
               "swatch_image": "shopify:\/\/shop_images\/green-pineapple-print.png"
+            }
+          },
+          "77dae634-e12e-47d3-8128-5a2a43b6b219": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Grey",
+              "swatch_color": "#838487"
             }
           },
           "14e1950e-fc48-4966-928a-0dec8d223ec5": {
@@ -1040,7 +1072,8 @@
             "settings": {
               "title": "Tie Dye",
               "swatch_color": "",
-              "swatch_image": "shopify:\/\/shop_images\/tie-dye_c58a9667-970f-435d-a39f-c73b3ba1bf36.png"
+              "swatch_image": "shopify:\/\/shop_images\/tie-dye_c58a9667-970f-435d-a39f-c73b3ba1bf36.png",
+              "monogram_swatch": "shopify:\/\/shop_images\/Tie_Dye_Terry.jpg"
             }
           },
           "e6bd5ae0-f88f-4b77-becb-162959cb8eec": {
@@ -1074,33 +1107,13 @@
               "swatch_color": "",
               "swatch_image": "shopify:\/\/shop_images\/white-navy.png"
             }
-          },
-          "77dae634-e12e-47d3-8128-5a2a43b6b219": {
-            "type": "color_swatch",
-            "settings": {
-              "title": "Grey",
-              "swatch_color": "#838487"
-            }
-          },
-          "194151db-ffc1-4605-9e0d-ef117bcd30fb": {
-            "type": "color_swatch",
-            "settings": {
-              "title": "Denim Blue",
-              "swatch_color": "#65769b"
-            }
-          },
-          "707afe18-710f-4f2b-b682-86f10dd3e3f3": {
-            "type": "color_swatch",
-            "settings": {
-              "title": "Berry",
-              "swatch_color": "#a52451"
-            }
           }
         },
         "block_order": [
           "2e56268f-d913-4279-a0f8-89b1bb5acbc5",
           "328c3ac9-f906-4c22-a2d0-5a712f91c895",
           "8fdba468-34df-47ae-b4b3-bc5969028dda",
+          "707afe18-710f-4f2b-b682-86f10dd3e3f3",
           "1573762103534",
           "b32b6997-f9f0-47ea-8155-00ab3dee3a23",
           "02c54f45-7e25-4ac9-83f3-3cd521e87dd9",
@@ -1110,6 +1123,7 @@
           "af29784f-bcca-4f2f-8712-75de7defcccc",
           "1600111007963",
           "9964f19b-b16a-413f-bdca-c90f29d81277",
+          "79e848db-dfc8-4f23-aff5-32b5ceff5893",
           "1574452635410",
           "d87df12a-d2fd-41da-8dd3-6a71e88bd407",
           "68f73094-1f7c-4be5-af6e-80e8bd0c1e2c",
@@ -1135,11 +1149,13 @@
           "1602597080054",
           "8bae95ee-8c1d-4178-a303-87dd3e91273f",
           "0e835829-040e-4fea-b13d-104e7043648b",
+          "194151db-ffc1-4605-9e0d-ef117bcd30fb",
           "9403ef65-0d9b-457e-8f04-c242b2aef3c5",
           "1602597047269",
           "1573761957468",
           "5d0e3eaa-267d-407f-9d8d-197ebfa68995",
           "a71aa5cb-b9d3-4bf0-8d2b-ea88fa012b15",
+          "77dae634-e12e-47d3-8128-5a2a43b6b219",
           "14e1950e-fc48-4966-928a-0dec8d223ec5",
           "107d0cda-9b48-4576-98d1-41106e0c6aa2",
           "1574187314649",
@@ -1219,10 +1235,7 @@
           "e6bd5ae0-f88f-4b77-becb-162959cb8eec",
           "1574186951943",
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
-          "250b5ae7-c936-4846-8ffc-76eb6db8d944",
-          "77dae634-e12e-47d3-8128-5a2a43b6b219",
-          "194151db-ffc1-4605-9e0d-ef117bcd30fb",
-          "707afe18-710f-4f2b-b682-86f10dd3e3f3"
+          "250b5ae7-c936-4846-8ffc-76eb6db8d944"
         ],
         "settings": {
         }
@@ -1259,10 +1272,11 @@
           "cart_widget_enabled": false,
           "item_widget_enabled": true,
           "product_widget_enabled": false,
-          "message_enabled": false,
+          "message_enabled": true,
           "sender_recipient": "none",
           "message_max_length": 250,
           "show_pricing": true,
+          "money_filter": "money_without_currency",
           "variant_selector_type": "images",
           "disabled_checkbox": false,
           "font_scale": 100,

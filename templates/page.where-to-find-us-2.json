@@ -44,7 +44,7 @@
         "image2_mask": "none",
         "subtitle": "",
         "title": "The Dudley Stephens Townhouse",
-        "text": "<p>6 W. Putnam Ave, 2nd Floor, Greenwich, CT<\/p><p>Summer hours: Shopping by appointment only. Contact us to inquire about a shopping appointment. Day trippers, girls getaways, special occasion shopping events all welcome!<\/p><p><\/p><p>Select styles in-stock in our showroom; please contact us in advance to confirm availability of specific items<\/p>",
+        "text": "<p>6 W Putnam Avenue, 2nd Floor, Greenwich, CT<\/p><p>Shopping hours: Monday - Friday, 9:30 a.m. - 5 p.m., by appointment only. <\/p><p>Contact us to make an appointment or to schedule a private shopping event: info@dudley-stephens.com.<br\/><\/p><p>Select styles in-stock in our showroom; please contact us in advance to confirm availability of specific items.<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -194,7 +194,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "Chou Chou",
-            "text": "<p>201 Main St. Unit 201 Westport, CT<\/p>",
+            "text": "<p>201 Main Street. Unit 201 Westport, CT<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -206,7 +206,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "Fred",
-            "text": "<p>236 Sound Beach Ave, Old Greenwich, CT<\/p>",
+            "text": "<p>236 Sound Beach Avenue, Old Greenwich, CT<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -298,7 +298,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "Whimsy",
-            "text": "<p>3838 Kennett Pike. Greenville, DE<\/p>",
+            "text": "<p>3838 Kennett Pike, Greenville, DE<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -375,7 +375,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "Palm on Chestnut",
-            "text": "<p>1203-B, 1203 Chestnut St, Murray, KY<\/p>",
+            "text": "<p>1203-B, 1203 Chestnut Street, Murray, KY<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -440,7 +440,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "Kennebunck Outfitters",
-            "text": "<p>51 Western Ave, Kennebunk, ME<\/p>",
+            "text": "<p>51 Western Avenue, Kennebunk, ME<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -490,7 +490,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "Ruxton Mercantile",
-            "text": "<p>7625 Bellona Ave, Ruxton, MD<\/p>",
+            "text": "<p>7625 Bellona Avenue, Ruxton, MD<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -554,7 +554,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "Mahi Gold",
-            "text": "<p>579 Washington St, Wellesley, MA<\/p>",
+            "text": "<p>579 Washington Street, Wellesley, MA<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -594,7 +594,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "Trevor Furbay",
-            "text": "<p>116 E Main St, Harbor Springs, MI<\/p>",
+            "text": "<p>116 E Main Street, Harbor Springs, MI<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -680,7 +680,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "Skaneateles",
-            "text": "<p>300W Genesee Street, Skaneateles, NY<\/p>",
+            "text": "<p>300 W Genesee Street, Skaneateles, NY<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -734,7 +734,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "Ruxton Mercantile Charlotte",
-            "text": "<p>102B Middleton Dr, Charlotte, NC<\/p>",
+            "text": "<p>102B Middleton Drive, Charlotte, NC<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -910,7 +910,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "Monkees of Fairfax",
-            "text": "<p>11899 Grand Commons Ave, Fairfax, VA<\/p>",
+            "text": "<p>11899 Grand Commons Avenue, Fairfax, VA<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -922,7 +922,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "Punch Boutique",
-            "text": "<p>3117 Franklin Road SW, #6, Roanoke, VA<\/p>",
+            "text": "<p>3117 Franklin Road SW #6, Roanoke, VA<\/p>",
             "button_label": "",
             "button_link": ""
           }

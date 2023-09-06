@@ -459,6 +459,14 @@
               "swatch_color": "#06655b"
             }
           },
+          "1eb0eb3c-af96-4b7c-be2e-0961c7d8d91a": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Green Camo",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/green-camo.png"
+            }
+          },
           "5d0e3eaa-267d-407f-9d8d-197ebfa68995": {
             "type": "color_swatch",
             "settings": {
@@ -1170,6 +1178,7 @@
           "9403ef65-0d9b-457e-8f04-c242b2aef3c5",
           "1602597047269",
           "1573761957468",
+          "1eb0eb3c-af96-4b7c-be2e-0961c7d8d91a",
           "5d0e3eaa-267d-407f-9d8d-197ebfa68995",
           "a71aa5cb-b9d3-4bf0-8d2b-ea88fa012b15",
           "77dae634-e12e-47d3-8128-5a2a43b6b219",

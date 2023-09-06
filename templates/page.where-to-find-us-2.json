@@ -459,18 +459,6 @@
     "17c10a59-16f1-4137-bc3a-36ee06cdc8f9": {
       "type": "text-columns",
       "blocks": {
-        "6fb6f349-9a18-45df-8477-4458610373df": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Monkee’s",
-            "text": "<p>5909 Coastal Highway #4, Ocean City, MD<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "4f0c1f56-ced7-4a16-9cdf-9863f5c028cc": {
           "type": "text_block",
           "settings": {
@@ -509,7 +497,6 @@
         }
       },
       "block_order": [
-        "6fb6f349-9a18-45df-8477-4458610373df",
         "4f0c1f56-ced7-4a16-9cdf-9863f5c028cc",
         "4968a584-f7ee-41f0-bab1-19930e8f48ed",
         "2d48abb8-d6c2-43fe-99ce-cb3bde84edf7"
@@ -570,13 +557,27 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "8879c5b5-b5bf-490e-9f87-c44c488f5848": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Strand, The Boutique",
+            "text": "<p>35 Depot Street, Duxbury, MA<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "1a187ebc-5981-4ef6-9275-adfc26c4ebc5",
         "0c7c32fe-d1a9-4f01-91f1-54c348bd8f8f",
         "d58701a8-c62b-4ce4-ac21-3a76b26757e7",
-        "2d9fd8c1-c03a-48a3-bb12-409fe7c3a046"
+        "2d9fd8c1-c03a-48a3-bb12-409fe7c3a046",
+        "8879c5b5-b5bf-490e-9f87-c44c488f5848"
       ],
       "settings": {
         "title": "Massachusetts",
@@ -605,6 +606,31 @@
       ],
       "settings": {
         "title": "Michigan",
+        "align_text": "left",
+        "divider": true
+      }
+    },
+    "5e545505-2ee5-45ef-81d2-98ef695fa944": {
+      "type": "text-columns",
+      "blocks": {
+        "2e721630-c1ae-470f-85af-843084ad338e": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Mister Guy Clothiers",
+            "text": "<p>9811 Clayton Rd, Street, Louis, MO<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "2e721630-c1ae-470f-85af-843084ad338e"
+      ],
+      "settings": {
+        "title": "Missouri",
         "align_text": "left",
         "divider": true
       }
@@ -643,56 +669,8 @@
             "enable_image": false,
             "image_mask": "none",
             "image_width": 650,
-            "title": "Molly + Kate",
-            "text": "<p>35 Main Street, Hamburg, NY<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "cc51b223-e552-4d11-92ec-c8bcb9e70cf0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Gracies",
-            "text": "<p>588 Loudon Road, Latham, NY<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "e2fba160-a5b6-4ae3-9263-61fb4fb4ec83": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Dabney Lee",
-            "text": "<p>31 Purchase Street, Rye, NY<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "ee091b32-f51c-4296-ba51-489d3a6f6415": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Skaneateles",
-            "text": "<p>300 W Genesee Street, Skaneateles, NY<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "e5f1a248-11f8-4551-9675-1e064dd6cc56": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Blush Boutique",
-            "text": "<p>12 Birch Hill Road, Locust Valley, NY<\/p>",
+            "title": "Teggy French",
+            "text": "<p>20 Olcott Square, Bernardsville, NJ<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -712,11 +690,97 @@
       },
       "block_order": [
         "f39c3a30-1ec0-4fae-ace6-cb00d2c4a4ee",
-        "cc51b223-e552-4d11-92ec-c8bcb9e70cf0",
-        "e2fba160-a5b6-4ae3-9263-61fb4fb4ec83",
-        "ee091b32-f51c-4296-ba51-489d3a6f6415",
-        "e5f1a248-11f8-4551-9675-1e064dd6cc56",
         "2243c7f9-c685-4ed9-8c6a-3026968b19ee"
+      ],
+      "settings": {
+        "title": "New Jersey",
+        "align_text": "left",
+        "divider": true
+      }
+    },
+    "caa25528-8be9-4922-a0a2-a4ac41b250be": {
+      "type": "text-columns",
+      "blocks": {
+        "6481e98f-a158-467e-9e14-64d2e4c111c6": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Molly + Kate",
+            "text": "<p>35 Main Street, Hamburg, NY<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "a3b8b8e4-2f6b-4b22-8cba-4d39d55d179d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Gracies",
+            "text": "<p>588 Loudon Road, Latham, NY<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "90110893-6633-4f53-b5fe-cd1a66dc5a28": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Dabney Lee",
+            "text": "<p>31 Purchase Street, Rye, NY<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "89d0db5d-f7e9-42a3-861b-fea7ac65b966": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Skaneateles",
+            "text": "<p>300 W Genesee Street, Skaneateles, NY<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "cccba7c1-87ec-458a-9e42-8a050cb7ee37": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Blush Boutique",
+            "text": "<p>12 Birch Hill Road, Locust Valley, NY<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "73507637-50b1-4ff6-8f91-4691ea944c1a": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "6481e98f-a158-467e-9e14-64d2e4c111c6",
+        "a3b8b8e4-2f6b-4b22-8cba-4d39d55d179d",
+        "90110893-6633-4f53-b5fe-cd1a66dc5a28",
+        "89d0db5d-f7e9-42a3-861b-fea7ac65b966",
+        "cccba7c1-87ec-458a-9e42-8a050cb7ee37",
+        "73507637-50b1-4ff6-8f91-4691ea944c1a"
       ],
       "settings": {
         "title": "New York",
@@ -788,11 +852,24 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "87f77b80-c072-4e24-b2e6-c7d3150780f3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Honey On Miami",
+            "text": "<p>6928 Miami Avenue, Cincinnati, OH<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "ca6943de-dd01-48f2-b160-1f88f24813a0",
-        "ec0e1287-4b7a-4f02-a345-9b44708548f9"
+        "ec0e1287-4b7a-4f02-a345-9b44708548f9",
+        "87f77b80-c072-4e24-b2e6-c7d3150780f3"
       ],
       "settings": {
         "title": "Ohio",
@@ -846,6 +923,31 @@
       ],
       "settings": {
         "title": "Rhode Island",
+        "align_text": "left",
+        "divider": true
+      }
+    },
+    "95f081ef-0d96-40cc-a431-4d2626aeef0a": {
+      "type": "text-columns",
+      "blocks": {
+        "89221733-db7a-4f5c-94ea-e7301e3be5d5": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Twill",
+            "text": "<p>2222 Augusta Street #7, Greenville, SC<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "89221733-db7a-4f5c-94ea-e7301e3be5d5"
+      ],
+      "settings": {
+        "title": "South Carolina",
         "align_text": "left",
         "divider": true
       }
@@ -953,12 +1055,15 @@
     "17c10a59-16f1-4137-bc3a-36ee06cdc8f9",
     "d6162ded-79b4-47aa-97ed-34a26dfd3eba",
     "5d1fef6a-4eb5-46f0-82b8-6a89335ae4af",
+    "5e545505-2ee5-45ef-81d2-98ef695fa944",
     "bcbd9bde-5db4-4f42-b931-44547ed81ac3",
     "dc6faf5d-1d8f-44e4-8f53-2ca33dbb5ec1",
+    "caa25528-8be9-4922-a0a2-a4ac41b250be",
     "49ab7d9d-dee7-4243-970d-e1711fec9e49",
     "35879af4-3d04-4217-a536-6a3b0356d869",
     "1068a5e8-5ed4-4fa9-8b87-49a72d2508e9",
     "cfa2cf15-0c81-4074-9c65-e6f0d4097538",
+    "95f081ef-0d96-40cc-a431-4d2626aeef0a",
     "b65d3e4a-099f-4d6e-b2f8-4ecd61b29349",
     "9e363f98-6ad9-42b4-a849-4a65ffad92d8",
     "c7df65b0-cfb1-430a-bc0f-ee3e572442c8"

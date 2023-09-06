@@ -64,7 +64,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Crop-Length",
-        "home_featured_products": "",
+        "home_featured_products": "cropped-turtlenecks",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,

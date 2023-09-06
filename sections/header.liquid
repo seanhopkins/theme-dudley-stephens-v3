@@ -187,7 +187,12 @@
 
           {%- if section.settings.main_menu_alignment == 'center' -%}
             <div class="text-center">
-              {%- render 'header-desktop-nav', main_menu: main_menu, dropdown_alignment: dropdown_alignment, hover_menu: section.settings.hover_menu -%}
+              {% comment %} Original: {%- render 'header-desktop-nav', main_menu: main_menu, dropdown_alignment: dropdown_alignment, hover_menu: section.settings.hover_menu -%} {% endcomment %}
+
+              {% comment %} START Custom feature {% endcomment %}
+              {%- render 'header-desktop-nav', main_menu: main_menu, dropdown_alignment: dropdown_alignment, hover_menu: section.settings.hover_menu, section: section -%}
+              {% comment %} END Custom feature {% endcomment %}
+
             </div>
           {%- endif -%}
         </div>
@@ -372,6 +377,64 @@
           "step": 10,
           "unit": "px",
           "info": "t:sections.header.blocks.logo.settings.mobile_logo_width.info"
+        }
+      ]
+    },
+    {
+      "type": "mega_menu_images",
+      "name": "Mega Menu Images",
+      "settings": [
+        {
+          "type": "text",
+          "id": "menu_item",
+          "label": "Menu",
+          "info": "Enter menu item to show images on"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_column_1",
+          "label": "Show column",
+          "default": true
+        },
+        {
+          "type": "image_picker",
+          "id": "image_1",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title_1",
+          "label": "Title"
+        },
+        {
+          "type": "url",
+          "id": "link_1",
+          "label": "Link"
+        },
+        {
+          "type": "header",
+          "content": "Image 2"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_column_2",
+          "label": "Show column",
+          "default": true
+        },
+        {
+          "type": "image_picker",
+          "id": "image_2",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title_2",
+          "label": "Title"
+        },
+        {
+          "type": "url",
+          "id": "link_2",
+          "label": "Link"
         }
       ]
     }

@@ -21,21 +21,109 @@
             "enlarge_text": true,
             "text": "<p>Timelessly appealing. Everyday elevated. Reimagined, reinvented, restyled—again and again. <\/p><p>Our icon, <em>the turtleneck.<\/em><\/p>"
           }
+        },
+        "c4093489-01d6-47ab-b586-47fdc007d5a8": {
+          "type": "button",
+          "settings": {
+            "link": "https:\/\/www.dudley-stephens.com\/collections\/dudley-classics",
+            "link_text": "Shop Core Classic"
+          }
         }
       },
       "block_order": [
         "template--14977556873258__3dfed964-b856-410a-9742-3528b608ec79-heading-1",
-        "template--14977556873258__3dfed964-b856-410a-9742-3528b608ec79-text-1"
+        "template--14977556873258__3dfed964-b856-410a-9742-3528b608ec79-text-1",
+        "c4093489-01d6-47ab-b586-47fdc007d5a8"
       ],
       "settings": {
         "align_text": "center",
         "narrow_column": true,
         "divider": false
       }
+    },
+    "d457a640-2c96-45d3-917e-da8f4df43640": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14977556873258__d457a640-2c96-45d3-917e-da8f4df43640-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Find Your Perfect Silhouette"
+          }
+        },
+        "template--14977556873258__d457a640-2c96-45d3-917e-da8f4df43640-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>In four lengths for a fit that suits your style.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14977556873258__d457a640-2c96-45d3-917e-da8f4df43640-heading-1",
+        "template--14977556873258__d457a640-2c96-45d3-917e-da8f4df43640-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "0ea55325-77de-40b6-b0e8-77042f848eef": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Crop-Length",
+        "home_featured_products": "",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "eee60234-2523-4eb9-b6a9-d267a5481df7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Hip-Length",
+        "home_featured_products": "",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "9ccd80e5-cd88-492b-8828-75adf760f4e5": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Midi-Length",
+        "home_featured_products": "",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "7287961e-9c19-47e7-a3e9-b94e1afcf3cb": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Tunic-Length",
+        "home_featured_products": "",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
-    "3dfed964-b856-410a-9742-3528b608ec79"
+    "3dfed964-b856-410a-9742-3528b608ec79",
+    "d457a640-2c96-45d3-917e-da8f4df43640",
+    "0ea55325-77de-40b6-b0e8-77042f848eef",
+    "eee60234-2523-4eb9-b6a9-d267a5481df7",
+    "9ccd80e5-cd88-492b-8828-75adf760f4e5",
+    "7287961e-9c19-47e7-a3e9-b94e1afcf3cb"
   ]
 }

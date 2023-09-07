@@ -72,7 +72,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Crop-Length",
-        "home_featured_products": "",
+        "home_featured_products": "cropped-turtlenecks",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -84,7 +84,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Hip-Length",
-        "home_featured_products": "",
+        "home_featured_products": "hip-length",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -96,7 +96,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Midi-Length",
-        "home_featured_products": "",
+        "home_featured_products": "midi-length",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -108,7 +108,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Tunic-Length",
-        "home_featured_products": "",
+        "home_featured_products": "tunic-length",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,

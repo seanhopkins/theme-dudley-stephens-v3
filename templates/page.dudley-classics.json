@@ -150,6 +150,27 @@
         "narrow_column": true,
         "divider": false
       }
+    },
+    "389fffed-75fe-40b7-b959-0faeb8cb375e": {
+      "type": "text-and-image",
+      "settings": {
+        "image_mask": "none",
+        "image2": "shopify:\/\/shop_images\/30.png",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Counting Our Classics",
+        "text": "<p>Lorem Ipsum<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -160,6 +181,7 @@
     "eee60234-2523-4eb9-b6a9-d267a5481df7",
     "9ccd80e5-cd88-492b-8828-75adf760f4e5",
     "7287961e-9c19-47e7-a3e9-b94e1afcf3cb",
-    "8a1dbf36-4947-46e3-9882-73aff5fba715"
+    "8a1dbf36-4947-46e3-9882-73aff5fba715",
+    "389fffed-75fe-40b7-b959-0faeb8cb375e"
   ]
 }

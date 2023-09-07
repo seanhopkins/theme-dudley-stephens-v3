@@ -2,11 +2,40 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "3dfed964-b856-410a-9742-3528b608ec79": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14977556873258__3dfed964-b856-410a-9742-3528b608ec79-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "template--14977556873258__3dfed964-b856-410a-9742-3528b608ec79-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14977556873258__3dfed964-b856-410a-9742-3528b608ec79-heading-1",
+        "template--14977556873258__3dfed964-b856-410a-9742-3528b608ec79-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "3dfed964-b856-410a-9742-3528b608ec79"
   ]
 }

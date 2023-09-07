@@ -12,14 +12,14 @@
         "template--14977556873258__3dfed964-b856-410a-9742-3528b608ec79-heading-1": {
           "type": "heading",
           "settings": {
-            "title": "Rich text"
+            "title": "Dudley Classics"
           }
         },
         "template--14977556873258__3dfed964-b856-410a-9742-3528b608ec79-text-1": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Timelessly appealing. Everyday elevated. Reimagined, reinvented, restyled—again and again. <\/p><p>Our icon, <em>the turtleneck.<\/em><\/p>"
           }
         }
       },

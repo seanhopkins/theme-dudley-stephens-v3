@@ -155,11 +155,11 @@
       "type": "text-and-image",
       "settings": {
         "image_mask": "none",
-        "image2": "shopify:\/\/shop_images\/30.png",
+        "image2": "shopify:\/\/shop_images\/30_367076bd-ca7e-4957-825f-5dbe8ead5147.png",
         "image2_mask": "none",
         "subtitle": "",
         "title": "Counting Our Classics",
-        "text": "<p>Lorem Ipsum<\/p>",
+        "text": "<p>The numbers behind our bestselling turtlenecks.<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",

@@ -125,6 +125,9 @@
     },
     "69baa3ba-f1b1-47cf-903d-f577eef637b4": {
       "type": "text-and-image",
+      "custom_css": [
+        ".feature-row__images {order: 2;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/30_65cda60f-09b0-410b-9fd9-5297b84ecf07.png",
         "image_mask": "none",

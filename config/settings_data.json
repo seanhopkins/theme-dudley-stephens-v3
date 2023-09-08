@@ -118,6 +118,13 @@
               "monogram_swatch": "shopify:\/\/shop_images\/PARK_SLOPE_VELLO_ARMY_GREEN_084.jpg"
             }
           },
+          "b62f44a3-e13a-43c3-8dd0-cd070654e5b7": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Aqua",
+              "swatch_color": "#b5ced4"
+            }
+          },
           "328c3ac9-f906-4c22-a2d0-5a712f91c895": {
             "type": "color_swatch",
             "settings": {
@@ -444,6 +451,13 @@
               "monogram_swatch": "shopify:\/\/shop_images\/450814E3-3120-4BD3-A8F6-5373C8899304_1_201_a.jpg"
             }
           },
+          "ae995c2d-bad7-464a-8216-d2196cdf43d2": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Elderberry",
+              "swatch_color": "#4c3246"
+            }
+          },
           "1602597047269": {
             "type": "color_swatch",
             "settings": {
@@ -624,6 +638,13 @@
               "title": "Island Ikat",
               "swatch_color": "",
               "swatch_image": "shopify:\/\/shop_images\/island-ikat.jpg"
+            }
+          },
+          "891401f5-ac7b-4f77-9f81-3079e99400a5": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Jaguar Green",
+              "swatch_color": "#497461"
             }
           },
           "1583256044838": {
@@ -943,6 +964,13 @@
               "swatch_color": "#fa7b95"
             }
           },
+          "73f5fe5e-3b4b-4324-9d5c-b436b1913238": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Pink Peony",
+              "swatch_color": "#f9bac2"
+            }
+          },
           "e20cf8b1-8f97-477b-b058-c9ba7bcb5765": {
             "type": "color_swatch",
             "settings": {
@@ -1015,6 +1043,13 @@
               "swatch_image": "shopify:\/\/shop_images\/red-green.png"
             }
           },
+          "c8ac5c7d-81b0-494f-af6b-de00a0d6153b": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Rhythmic Red",
+              "swatch_color": "#8c2230"
+            }
+          },
           "558933fd-6bb0-437b-887a-fd7809f851e7": {
             "type": "color_swatch",
             "settings": {
@@ -1043,6 +1078,13 @@
             "settings": {
               "title": "Soft Yellow",
               "swatch_color": "#f3f5aa"
+            }
+          },
+          "97cb6275-4ab8-4fcf-8274-4fea59378220": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Spruce",
+              "swatch_color": "#374431"
             }
           },
           "1600103847112": {
@@ -1100,6 +1142,13 @@
               "monogram_swatch": "shopify:\/\/shop_images\/Tie_Dye_Terry.jpg"
             }
           },
+          "9a80cae9-66a8-4d4d-a097-539d575aa31b": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Violet",
+              "swatch_color": "#9e91c3"
+            }
+          },
           "e6bd5ae0-f88f-4b77-becb-162959cb8eec": {
             "type": "color_swatch",
             "settings": {
@@ -1131,10 +1180,18 @@
               "swatch_color": "",
               "swatch_image": "shopify:\/\/shop_images\/white-navy.png"
             }
+          },
+          "c0374977-3323-4214-a3f7-f1cce5b2f5f6": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Yellow Pear",
+              "swatch_color": "#edea9b"
+            }
           }
         },
         "block_order": [
           "2e56268f-d913-4279-a0f8-89b1bb5acbc5",
+          "b62f44a3-e13a-43c3-8dd0-cd070654e5b7",
           "328c3ac9-f906-4c22-a2d0-5a712f91c895",
           "8fdba468-34df-47ae-b4b3-bc5969028dda",
           "707afe18-710f-4f2b-b682-86f10dd3e3f3",
@@ -1176,6 +1233,7 @@
           "0e835829-040e-4fea-b13d-104e7043648b",
           "194151db-ffc1-4605-9e0d-ef117bcd30fb",
           "9403ef65-0d9b-457e-8f04-c242b2aef3c5",
+          "ae995c2d-bad7-464a-8216-d2196cdf43d2",
           "1602597047269",
           "1573761957468",
           "1eb0eb3c-af96-4b7c-be2e-0961c7d8d91a",
@@ -1199,6 +1257,7 @@
           "1574187253989",
           "1595351255417",
           "174ee371-0d98-47f2-8e4c-c78276479b63",
+          "891401f5-ac7b-4f77-9f81-3079e99400a5",
           "1583256044838",
           "9db0910b-3bbe-4da8-bf0d-b0c4cb7666d0",
           "1574207139700",
@@ -1239,6 +1298,7 @@
           "1574188159208",
           "1573770334967",
           "d30c31bd-9e2c-4d50-a519-a482e71288a8",
+          "73f5fe5e-3b4b-4324-9d5c-b436b1913238",
           "e20cf8b1-8f97-477b-b058-c9ba7bcb5765",
           "1574452494129",
           "97c5ea37-3356-4003-8c75-e0a0c92b2bb7",
@@ -1248,10 +1308,12 @@
           "1602596994240",
           "1573761680636",
           "1600111056141",
+          "c8ac5c7d-81b0-494f-af6b-de00a0d6153b",
           "558933fd-6bb0-437b-887a-fd7809f851e7",
           "245b6bab-9bb9-4141-a7b8-e83d3a44419d",
           "1574187025080",
           "1574187124703",
+          "97cb6275-4ab8-4fcf-8274-4fea59378220",
           "1600103847112",
           "2c3238ec-1fbe-4360-a8dd-bf1027f0a6c3",
           "f6099cba-5aa4-4657-b41d-8268f1b91445",
@@ -1259,10 +1321,12 @@
           "6bfdaac1-dd78-4d5e-a01a-438b11d0e6de",
           "8563dcc6-c2c3-433e-80e8-989b61fa6b68",
           "5be8487b-9e1f-4650-9d7d-ca5d267c59a8",
+          "9a80cae9-66a8-4d4d-a097-539d575aa31b",
           "e6bd5ae0-f88f-4b77-becb-162959cb8eec",
           "1574186951943",
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
-          "250b5ae7-c936-4846-8ffc-76eb6db8d944"
+          "250b5ae7-c936-4846-8ffc-76eb6db8d944",
+          "c0374977-3323-4214-a3f7-f1cce5b2f5f6"
         ],
         "settings": {
         }

@@ -107,6 +107,41 @@
         "view_all": true,
         "divider": false
       }
+    },
+    "2707e084-ad5e-41bb-9816-fd3ccdda1d0b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14978274099242__2707e084-ad5e-41bb-9816-fd3ccdda1d0b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Fashion, Forward"
+          }
+        },
+        "template--14978274099242__2707e084-ad5e-41bb-9816-fd3ccdda1d0b-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Propel your look ahead of the curve with modern detailing that sets these styles apart. <\/p>"
+          }
+        },
+        "8907dcff-db57-4bc1-98ad-51b2c96054bc": {
+          "type": "button",
+          "settings": {
+            "link": "shopify:\/\/collections\/turtleneck-twists",
+            "link_text": "Shop Turtleneck Twists"
+          }
+        }
+      },
+      "block_order": [
+        "template--14978274099242__2707e084-ad5e-41bb-9816-fd3ccdda1d0b-heading-1",
+        "template--14978274099242__2707e084-ad5e-41bb-9816-fd3ccdda1d0b-text-1",
+        "8907dcff-db57-4bc1-98ad-51b2c96054bc"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -116,6 +151,7 @@
     "50c43048-9982-4115-85ba-cae759aa5888",
     "bc59d967-cb6a-43d7-981f-f7165f775819",
     "95b1a523-559c-4437-befa-839266141cb1",
-    "45d53247-d730-4e59-9dd2-f7346f732c13"
+    "45d53247-d730-4e59-9dd2-f7346f732c13",
+    "2707e084-ad5e-41bb-9816-fd3ccdda1d0b"
   ]
 }

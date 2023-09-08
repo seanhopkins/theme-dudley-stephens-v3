@@ -142,6 +142,27 @@
         "narrow_column": true,
         "divider": false
       }
+    },
+    "69baa3ba-f1b1-47cf-903d-f577eef637b4": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/30_d7851eed-42c8-4154-9ee7-f42809c31060.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Counting Our Classics",
+        "text": "<p>The numbers behind our bestselling turtlenecks.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -152,6 +173,7 @@
     "bc59d967-cb6a-43d7-981f-f7165f775819",
     "95b1a523-559c-4437-befa-839266141cb1",
     "45d53247-d730-4e59-9dd2-f7346f732c13",
-    "2707e084-ad5e-41bb-9816-fd3ccdda1d0b"
+    "2707e084-ad5e-41bb-9816-fd3ccdda1d0b",
+    "69baa3ba-f1b1-47cf-903d-f577eef637b4"
   ]
 }

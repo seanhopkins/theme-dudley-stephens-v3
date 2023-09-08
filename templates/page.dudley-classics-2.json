@@ -201,6 +201,22 @@
         "bottom_padding": true,
         "lazyload_images": true
       }
+    },
+    "363a236e-5e4f-417a-bbfc-87c234d76a24": {
+      "type": "hero-video",
+      "settings": {
+        "title": "",
+        "title_size": 80,
+        "subheading": "",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=1ekVDN94_Zk",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
     }
   },
   "order": [
@@ -213,6 +229,7 @@
     "95b1a523-559c-4437-befa-839266141cb1",
     "45d53247-d730-4e59-9dd2-f7346f732c13",
     "2707e084-ad5e-41bb-9816-fd3ccdda1d0b",
-    "69baa3ba-f1b1-47cf-903d-f577eef637b4"
+    "69baa3ba-f1b1-47cf-903d-f577eef637b4",
+    "363a236e-5e4f-417a-bbfc-87c234d76a24"
   ]
 }

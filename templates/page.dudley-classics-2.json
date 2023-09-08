@@ -21,19 +21,11 @@
             "enlarge_text": true,
             "text": "<p>Timelessly appealing. Everyday elevated. Reimagined, reinvented, restyled—again and again. <\/p><p>Our icon, <em>the turtleneck.<\/em> <\/p>"
           }
-        },
-        "70aaafeb-dce2-40db-b5b4-abd6a0c6b364": {
-          "type": "button",
-          "settings": {
-            "link": "shopify:\/\/collections\/dudley-classics",
-            "link_text": "SHOP CORE CLASSICS"
-          }
         }
       },
       "block_order": [
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1",
-        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1",
-        "70aaafeb-dce2-40db-b5b4-abd6a0c6b364"
+        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1"
       ],
       "settings": {
         "align_text": "center",
@@ -55,6 +47,43 @@
         "overlay_opacity": 0,
         "section_height": "650px",
         "mobile_height": "auto"
+      }
+    },
+    "3212d842-1629-46ce-8893-90879ab32758": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14978274099242__3212d842-1629-46ce-8893-90879ab32758-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": ""
+          }
+        },
+        "template--14978274099242__3212d842-1629-46ce-8893-90879ab32758-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "enlarge_text": true,
+            "text": ""
+          }
+        },
+        "01dd2950-1dc8-434a-ab93-2e0079ab1790": {
+          "type": "button",
+          "settings": {
+            "link": "shopify:\/\/collections\/dudley-classics",
+            "link_text": "SHOP CORE CLASSICS"
+          }
+        }
+      },
+      "block_order": [
+        "template--14978274099242__3212d842-1629-46ce-8893-90879ab32758-heading-1",
+        "template--14978274099242__3212d842-1629-46ce-8893-90879ab32758-text-1",
+        "01dd2950-1dc8-434a-ab93-2e0079ab1790"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
       }
     },
     "2707e084-ad5e-41bb-9816-fd3ccdda1d0b": {
@@ -86,6 +115,7 @@
         "template--14978274099242__2707e084-ad5e-41bb-9816-fd3ccdda1d0b-text-1",
         "8907dcff-db57-4bc1-98ad-51b2c96054bc"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -193,6 +223,7 @@
     "main",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "363a236e-5e4f-417a-bbfc-87c234d76a24",
+    "3212d842-1629-46ce-8893-90879ab32758",
     "2707e084-ad5e-41bb-9816-fd3ccdda1d0b",
     "69baa3ba-f1b1-47cf-903d-f577eef637b4",
     "0462ca32-1921-42d0-9b0d-239c90c50a09",

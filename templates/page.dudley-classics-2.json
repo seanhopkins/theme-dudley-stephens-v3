@@ -49,33 +49,6 @@
         "divider": false
       }
     },
-    "0462ca32-1921-42d0-9b0d-239c90c50a09": {
-      "type": "rich-text",
-      "blocks": {
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1": {
-          "type": "heading",
-          "settings": {
-            "title": "Find Your Perfect Silhouette"
-          }
-        },
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>In three lengths for a fit that suits your style.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1",
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
     "2707e084-ad5e-41bb-9816-fd3ccdda1d0b": {
       "type": "rich-text",
       "blocks": {
@@ -132,6 +105,33 @@
         "lazyload_images": true
       }
     },
+    "0462ca32-1921-42d0-9b0d-239c90c50a09": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Find Your Perfect Silhouette"
+          }
+        },
+        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>In three lengths for a fit that suits your style.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1",
+        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "50c43048-9982-4115-85ba-cae759aa5888": {
       "type": "featured-collection",
       "settings": {
@@ -185,9 +185,9 @@
     "main",
     "363a236e-5e4f-417a-bbfc-87c234d76a24",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
-    "0462ca32-1921-42d0-9b0d-239c90c50a09",
     "2707e084-ad5e-41bb-9816-fd3ccdda1d0b",
     "69baa3ba-f1b1-47cf-903d-f577eef637b4",
+    "0462ca32-1921-42d0-9b0d-239c90c50a09",
     "50c43048-9982-4115-85ba-cae759aa5888",
     "bc59d967-cb6a-43d7-981f-f7165f775819",
     "95b1a523-559c-4437-befa-839266141cb1",

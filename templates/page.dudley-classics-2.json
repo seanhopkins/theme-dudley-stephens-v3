@@ -13,7 +13,7 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Endless\npossibilities.",
+            "title": "",
             "title_size": 80,
             "subheading": "Bring your brand to life",
             "link": "",
@@ -22,6 +22,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Slider_27c06582-4b4b-462f-adac-8b4376778b1c.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_9b13aa11-5cda-4f2b-a98f-a6dbd87e3253.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }

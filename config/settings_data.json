@@ -118,13 +118,6 @@
               "monogram_swatch": "shopify:\/\/shop_images\/PARK_SLOPE_VELLO_ARMY_GREEN_084.jpg"
             }
           },
-          "b62f44a3-e13a-43c3-8dd0-cd070654e5b7": {
-            "type": "color_swatch",
-            "settings": {
-              "title": "Aqua",
-              "swatch_color": "#b5ced4"
-            }
-          },
           "328c3ac9-f906-4c22-a2d0-5a712f91c895": {
             "type": "color_swatch",
             "settings": {
@@ -466,6 +459,20 @@
               "monogram_swatch": "shopify:\/\/shop_images\/PARK_SLOPE_VELLO_EMERALD_122.jpg"
             }
           },
+          "b62f44a3-e13a-43c3-8dd0-cd070654e5b7": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Frost",
+              "swatch_color": "#b5ced4"
+            }
+          },
+          "c0374977-3323-4214-a3f7-f1cce5b2f5f6": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Goldfinch",
+              "swatch_color": "#edea9b"
+            }
+          },
           "1573761957468": {
             "type": "color_swatch",
             "settings": {
@@ -640,13 +647,6 @@
               "swatch_image": "shopify:\/\/shop_images\/island-ikat.jpg"
             }
           },
-          "891401f5-ac7b-4f77-9f81-3079e99400a5": {
-            "type": "color_swatch",
-            "settings": {
-              "title": "Jaguar Green",
-              "swatch_color": "#497461"
-            }
-          },
           "1583256044838": {
             "type": "color_swatch",
             "settings": {
@@ -676,6 +676,13 @@
               "title": "Marigold",
               "swatch_color": "#f5bc40",
               "monogram_swatch": "shopify:\/\/shop_images\/BD742D94-4A17-41A4-B862-77B223E18902_1_201_a.jpg"
+            }
+          },
+          "891401f5-ac7b-4f77-9f81-3079e99400a5": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Marine Green",
+              "swatch_color": "#497461"
             }
           },
           "e7c40981-5c8b-49f2-83c2-54c4a7625f44": {
@@ -1043,13 +1050,6 @@
               "swatch_image": "shopify:\/\/shop_images\/red-green.png"
             }
           },
-          "c8ac5c7d-81b0-494f-af6b-de00a0d6153b": {
-            "type": "color_swatch",
-            "settings": {
-              "title": "Rhythmic Red",
-              "swatch_color": "#8c2230"
-            }
-          },
           "558933fd-6bb0-437b-887a-fd7809f851e7": {
             "type": "color_swatch",
             "settings": {
@@ -1181,17 +1181,16 @@
               "swatch_image": "shopify:\/\/shop_images\/white-navy.png"
             }
           },
-          "c0374977-3323-4214-a3f7-f1cce5b2f5f6": {
+          "c8ac5c7d-81b0-494f-af6b-de00a0d6153b": {
             "type": "color_swatch",
             "settings": {
-              "title": "Yellow Pear",
-              "swatch_color": "#edea9b"
+              "title": "Winterberry",
+              "swatch_color": "#8c2230"
             }
           }
         },
         "block_order": [
           "2e56268f-d913-4279-a0f8-89b1bb5acbc5",
-          "b62f44a3-e13a-43c3-8dd0-cd070654e5b7",
           "328c3ac9-f906-4c22-a2d0-5a712f91c895",
           "8fdba468-34df-47ae-b4b3-bc5969028dda",
           "707afe18-710f-4f2b-b682-86f10dd3e3f3",
@@ -1235,6 +1234,8 @@
           "9403ef65-0d9b-457e-8f04-c242b2aef3c5",
           "ae995c2d-bad7-464a-8216-d2196cdf43d2",
           "1602597047269",
+          "b62f44a3-e13a-43c3-8dd0-cd070654e5b7",
+          "c0374977-3323-4214-a3f7-f1cce5b2f5f6",
           "1573761957468",
           "1eb0eb3c-af96-4b7c-be2e-0961c7d8d91a",
           "5d0e3eaa-267d-407f-9d8d-197ebfa68995",
@@ -1257,11 +1258,11 @@
           "1574187253989",
           "1595351255417",
           "174ee371-0d98-47f2-8e4c-c78276479b63",
-          "891401f5-ac7b-4f77-9f81-3079e99400a5",
           "1583256044838",
           "9db0910b-3bbe-4da8-bf0d-b0c4cb7666d0",
           "1574207139700",
           "1573847292915",
+          "891401f5-ac7b-4f77-9f81-3079e99400a5",
           "e7c40981-5c8b-49f2-83c2-54c4a7625f44",
           "af1af07f-16d5-4d8b-91c2-a88ff79f41e5",
           "caa10c17-1f13-414c-b172-8b2b8f352e7c",
@@ -1308,7 +1309,6 @@
           "1602596994240",
           "1573761680636",
           "1600111056141",
-          "c8ac5c7d-81b0-494f-af6b-de00a0d6153b",
           "558933fd-6bb0-437b-887a-fd7809f851e7",
           "245b6bab-9bb9-4141-a7b8-e83d3a44419d",
           "1574187025080",
@@ -1326,7 +1326,7 @@
           "1574186951943",
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
           "250b5ae7-c936-4846-8ffc-76eb6db8d944",
-          "c0374977-3323-4214-a3f7-f1cce5b2f5f6"
+          "c8ac5c7d-81b0-494f-af6b-de00a0d6153b"
         ],
         "settings": {
         }

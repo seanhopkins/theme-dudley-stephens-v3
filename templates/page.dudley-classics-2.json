@@ -6,11 +6,28 @@
       "settings": {
       }
     },
+    "363a236e-5e4f-417a-bbfc-87c234d76a24": {
+      "type": "hero-video",
+      "settings": {
+        "title": "Dudley Classics",
+        "title_size": 80,
+        "subheading": "",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=1ekVDN94_Zk",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
+    },
     "c3220d24-8e7b-4f84-a431-0aae228e36f2": {
       "type": "rich-text",
       "blocks": {
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "Dudley Classics"
           }
@@ -31,22 +48,6 @@
         "align_text": "center",
         "narrow_column": true,
         "divider": false
-      }
-    },
-    "363a236e-5e4f-417a-bbfc-87c234d76a24": {
-      "type": "hero-video",
-      "settings": {
-        "title": "",
-        "title_size": 80,
-        "subheading": "",
-        "link_text": "",
-        "link": "",
-        "color_accent": "rgba(0,0,0,0)",
-        "text_align": "vertical-center horizontal-center",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=1ekVDN94_Zk",
-        "overlay_opacity": 0,
-        "section_height": "650px",
-        "mobile_height": "auto"
       }
     },
     "3212d842-1629-46ce-8893-90879ab32758": {
@@ -143,6 +144,27 @@
         "lazyload_images": true
       }
     },
+    "a0a129e5-a07a-4046-b002-6f79527eb1fe": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14978274099242__a0a129e5-a07a-4046-b002-6f79527eb1fe-liquid-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"position:relative;padding-top:max(60%,326px);height:0;width:100%\"><iframe allow=\"clipboard-write\" sandbox=\"allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms\" allowfullscreen=\"true\" style=\"position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;\" src=\"https:\/\/e.issuu.com\/embed.html?d=claiborneissuu&u=dudley_stephens\"><\/iframe><\/div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14978274099242__a0a129e5-a07a-4046-b002-6f79527eb1fe-liquid-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
     "0462ca32-1921-42d0-9b0d-239c90c50a09": {
       "type": "rich-text",
       "blocks": {
@@ -217,41 +239,20 @@
         "view_all": true,
         "divider": false
       }
-    },
-    "a0a129e5-a07a-4046-b002-6f79527eb1fe": {
-      "type": "advanced-content",
-      "blocks": {
-        "template--14978274099242__a0a129e5-a07a-4046-b002-6f79527eb1fe-liquid-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "<div style=\"position:relative;padding-top:max(60%,326px);height:0;width:100%\"><iframe allow=\"clipboard-write\" sandbox=\"allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms\" allowfullscreen=\"true\" style=\"position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;\" src=\"https:\/\/e.issuu.com\/embed.html?d=claiborneissuu&u=dudley_stephens\"><\/iframe><\/div>",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--14978274099242__a0a129e5-a07a-4046-b002-6f79527eb1fe-liquid-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
-      }
     }
   },
   "order": [
     "main",
-    "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "363a236e-5e4f-417a-bbfc-87c234d76a24",
+    "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "3212d842-1629-46ce-8893-90879ab32758",
     "2707e084-ad5e-41bb-9816-fd3ccdda1d0b",
     "69baa3ba-f1b1-47cf-903d-f577eef637b4",
+    "a0a129e5-a07a-4046-b002-6f79527eb1fe",
     "0462ca32-1921-42d0-9b0d-239c90c50a09",
     "50c43048-9982-4115-85ba-cae759aa5888",
     "bc59d967-cb6a-43d7-981f-f7165f775819",
     "95b1a523-559c-4437-befa-839266141cb1",
-    "45d53247-d730-4e59-9dd2-f7346f732c13",
-    "a0a129e5-a07a-4046-b002-6f79527eb1fe"
+    "45d53247-d730-4e59-9dd2-f7346f732c13"
   ]
 }

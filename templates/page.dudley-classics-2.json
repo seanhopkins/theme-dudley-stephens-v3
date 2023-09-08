@@ -6,6 +6,60 @@
       "settings": {
       }
     },
+    "3295bdec-2283-4a6c-8601-7042c5490543": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14978274099242__3295bdec-2283-4a6c-8601-7042c5490543-image-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Endless\npossibilities.",
+            "title_size": 80,
+            "subheading": "Bring your brand to life",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "template--14978274099242__3295bdec-2283-4a6c-8601-7042c5490543-image-2": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "subheading": "And big, beautiful imagery",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--14978274099242__3295bdec-2283-4a6c-8601-7042c5490543-image-1",
+        "template--14978274099242__3295bdec-2283-4a6c-8601-7042c5490543-image-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "framed": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
     "c3220d24-8e7b-4f84-a431-0aae228e36f2": {
       "type": "rich-text",
       "blocks": {
@@ -167,6 +221,7 @@
   },
   "order": [
     "main",
+    "3295bdec-2283-4a6c-8601-7042c5490543",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "0462ca32-1921-42d0-9b0d-239c90c50a09",
     "50c43048-9982-4115-85ba-cae759aa5888",

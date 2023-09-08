@@ -21,11 +21,19 @@
             "enlarge_text": true,
             "text": "<p>Timelessly appealing. Everyday elevated. Reimagined, reinvented, restyled—again and again. <\/p><p>Our icon, <em>the turtleneck.<\/em> <\/p>"
           }
+        },
+        "70aaafeb-dce2-40db-b5b4-abd6a0c6b364": {
+          "type": "button",
+          "settings": {
+            "link": "shopify:\/\/collections\/dudley-classics",
+            "link_text": "SHOP CORE CLASSICS"
+          }
         }
       },
       "block_order": [
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1",
-        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1"
+        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1",
+        "70aaafeb-dce2-40db-b5b4-abd6a0c6b364"
       ],
       "settings": {
         "align_text": "center",

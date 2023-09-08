@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
       }
     },
@@ -27,6 +26,7 @@
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1",
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -54,6 +54,7 @@
         "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1",
         "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -62,6 +63,7 @@
     },
     "50c43048-9982-4115-85ba-cae759aa5888": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Crop-Length",
         "home_featured_products": "cropped-turtlenecks",
@@ -74,6 +76,7 @@
     },
     "bc59d967-cb6a-43d7-981f-f7165f775819": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Hip-Length",
         "home_featured_products": "",
@@ -86,6 +89,7 @@
     },
     "95b1a523-559c-4437-befa-839266141cb1": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Midi-Length",
         "home_featured_products": "",
@@ -98,6 +102,7 @@
     },
     "45d53247-d730-4e59-9dd2-f7346f732c13": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Tunic-Length",
         "home_featured_products": "",

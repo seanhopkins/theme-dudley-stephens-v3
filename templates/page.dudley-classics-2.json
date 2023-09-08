@@ -6,22 +6,6 @@
       "settings": {
       }
     },
-    "363a236e-5e4f-417a-bbfc-87c234d76a24": {
-      "type": "hero-video",
-      "settings": {
-        "title": "",
-        "title_size": 80,
-        "subheading": "",
-        "link_text": "",
-        "link": "",
-        "color_accent": "rgba(0,0,0,0)",
-        "text_align": "vertical-center horizontal-center",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=1ekVDN94_Zk",
-        "overlay_opacity": 0,
-        "section_height": "650px",
-        "mobile_height": "auto"
-      }
-    },
     "c3220d24-8e7b-4f84-a431-0aae228e36f2": {
       "type": "rich-text",
       "blocks": {
@@ -47,6 +31,22 @@
         "align_text": "center",
         "narrow_column": true,
         "divider": false
+      }
+    },
+    "363a236e-5e4f-417a-bbfc-87c234d76a24": {
+      "type": "hero-video",
+      "settings": {
+        "title": "",
+        "title_size": 80,
+        "subheading": "",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=1ekVDN94_Zk",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
       }
     },
     "2707e084-ad5e-41bb-9816-fd3ccdda1d0b": {
@@ -183,8 +183,8 @@
   },
   "order": [
     "main",
-    "363a236e-5e4f-417a-bbfc-87c234d76a24",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
+    "363a236e-5e4f-417a-bbfc-87c234d76a24",
     "2707e084-ad5e-41bb-9816-fd3ccdda1d0b",
     "69baa3ba-f1b1-47cf-903d-f577eef637b4",
     "0462ca32-1921-42d0-9b0d-239c90c50a09",

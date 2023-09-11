@@ -44,10 +44,25 @@
             "desktop_logo_width": 150,
             "mobile_logo_width": 110
           }
+        },
+        "4bbf52a8-4c42-4c3f-a74f-94e396af61b9": {
+          "type": "mega_menu_images",
+          "settings": {
+            "menu_item": "Women's",
+            "show_column_1": true,
+            "image_1": "shopify:\/\/shop_images\/dudclassics.jpg",
+            "title_1": "Dudley Classics",
+            "link_1": "shopify:\/\/pages\/dudley-classics",
+            "show_column_2": true,
+            "image_2": "shopify:\/\/shop_images\/EDITORIAL_VELLO_FALL_COLORS_TURTLENECK_STACK_285.jpg",
+            "title_2": "Shades of Fall",
+            "link_2": "shopify:\/\/collections\/shades-of-fall"
+          }
         }
       },
       "block_order": [
-        "header-0"
+        "header-0",
+        "4bbf52a8-4c42-4c3f-a74f-94e396af61b9"
       ],
       "custom_css": [
 

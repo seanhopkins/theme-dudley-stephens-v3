@@ -20,6 +20,21 @@
           assign is_megamenu = true
         endif
       endif
+
+      # START CUSTOM
+      assign has_images = false
+      assign link_title_downcase = link.title | downcase
+      assign mega_menu_block = ''
+      for block in section.blocks
+        if block.type == 'mega_menu_images'
+          assign menu_item_downcase = block.settings.menu_item | strip | downcase
+        endif
+        if menu_item_downcase == link_title_downcase
+          assign has_images = true
+          assign mega_menu_block = block
+        endif
+      endfor
+      # END custom
     -%}
 
     <li class="site-nav__item site-nav__expanded-item{% if has_dropdown %} site-nav--has-dropdown{% endif %}{% if is_megamenu %} site-nav--is-megamenu{% endif %}">
@@ -109,7 +124,49 @@
                     {%- endfor -%}
                   {%- endfor -%}
                 </div>
+
+                {%- if mega_menu_block != '' -%}
+                  {% if mega_menu_block.settings.show_column_1 %}
+                    <div class="grid__item medium-up--one-fifth appear-animation appear-delay-{{ animation_column }}">
+                      {% if mega_menu_block.settings.image_1 %}
+                        <a href="{{ mega_menu_block.settings.link_1 }}">
+                          {%- render 'image-element',
+                            img: mega_menu_block.settings.image_1,
+                            sizeVariable: '20vw',
+                            alt: mega_menu_block.settings.title_1,
+                            classes: 'megamenu__collection-image',
+                          -%}
+                        </a>
+                      {% else %}
+                        {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg megamenu__collection-image' }}
+                      {% endif %}
+                      {% if mega_menu_block.settings.title_1 %}
+                        <h5>{{ mega_menu_block.settings.title_1 }}</h5>
+                      {% endif%}
+                    </div>
+                  {% endif %}
+                  {% if mega_menu_block.settings.show_column_2 %}
+                    <div class="grid__item medium-up--one-fifth appear-animation appear-delay-{{ animation_column }}">
+                      {% if mega_menu_block.settings.image_2 %}
+                        <a href="{{ mega_menu_block.settings.link_2 }}">
+                          {%- render 'image-element',
+                            img: mega_menu_block.settings.image_2,
+                            sizeVariable: '20vw',
+                            alt: mega_menu_block.settings.title_2,
+                            classes: 'megamenu__collection-image',
+                          -%}
+                        </a>
+                      {% else %}
+                        {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg megamenu__collection-image' }}
+                      {% endif %}
+                      {% if mega_menu_block.settings.title_2 %}
+                        <h5>{{ mega_menu_block.settings.title_2 }}</h5>
+                      {% endif%}
+                    </div>
+                  {% endif %}
+                {%- endif -%}
               </div>
+
             </div>
           </div>
         {%- elsif has_dropdown -%}

@@ -1363,7 +1363,7 @@
           "cart_widget_enabled": false,
           "item_widget_enabled": true,
           "product_widget_enabled": false,
-          "message_enabled": true,
+          "message_enabled": false,
           "sender_recipient": "none",
           "message_max_length": 250,
           "show_pricing": true,

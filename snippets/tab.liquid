@@ -18,21 +18,6 @@
       <div class="collapsible-content__inner rte">
         {{ content }}
         {% if title == 'Fit' %}
-          <ul class="list">
-            {% for fit in product.metafields.custom.product_fit.value %}
-              {% if forloop.last %}
-                <ul>
-                  {% if product.metafields.custom.bust.value %}<li> Bust: {{ product.metafields.custom.bust.value }}</li>{% endif %}
-                  {% if product.metafields.custom.sleeve_length.value %}<li> Sleeve Length: {{ product.metafields.custom.sleeve_length.value }}</li>{% endif %}
-                  {% if product.metafields.custom.back_length.value %}<li> Back Length: {{ product.metafields.custom.back_length.value }}</li>{% endif %}
-                  {% if product.metafields.custom.chest.value %}<li> Chest: {{ product.metafields.custom.chest.value }}</li>{% endif %}
-                  {% if product.metafields.custom.back_rise.value %}<li> Back Rise: {{ product.metafields.custom.back_rise.value }}</li>{% endif %}
-                  {% if product.metafields.custom.front_rise.value %}<li> Front Rise: {{ product.metafields.custom.front_rise.value }}</li>{% endif %}
-                  {% if product.metafields.custom.inseam.value %}<li> Inseam: {{ product.metafields.custom.inseam.value }}</li>{% endif %}
-                </ul>
-              {% endif %}
-            {% endfor %}
-          </ul>
           <a class="text-link" href="/pages/fit-guide-2022">View Fit Guide</a>
         {% endif %}
       </div>

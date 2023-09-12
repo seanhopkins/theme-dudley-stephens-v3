@@ -50,7 +50,7 @@
           "type": "tab",
           "settings": {
             "title": "Fit",
-            "content": "<p>{{ product.metafields.sf_tabs.fit_richtext | metafield_tag }}<\/p><ul><li>{{ product.metafields.custom.dimensions.value.width.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.length.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.back_length.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.sleeve_length.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.bust.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.inseam.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.front_rise.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.back_rise.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.chest.value }}<\/li><\/ul>",
+            "content": "",
             "page": ""
           }
         },

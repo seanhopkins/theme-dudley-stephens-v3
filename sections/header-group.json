@@ -15,11 +15,10 @@
         },
         "announcement-1": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Shop our Warehouse Sale: up to 70% off styles to wear now & later.",
-            "link_text": "",
-            "link": ""
+            "text": "",
+            "link_text": "The Drop: Shop our essential turtlenecks, just in.",
+            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
           }
         }
       },

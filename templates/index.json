@@ -7,17 +7,17 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Dudley Classics",
+            "title": "The Dudley Icon",
             "title_size": 80,
-            "subheading": "The turtleneck, our icon for every season.",
+            "subheading": "Our first true drop of Fall brings turtlenecks—our flagship style—for all.",
             "link": "shopify:\/\/pages\/dudley-classics",
             "link_text": "SHOP now",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
             "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify:\/\/shop_images\/Slider_3fdc34ac-7de0-456e-a0e9-cf67672db3d0.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_fee5dda0-aee4-4f9b-9fbd-fb43025cf2a0.jpg",
+            "image": "shopify:\/\/shop_images\/Slider_6c0feb4b-33cb-4bd4-bac6-f0d74623f0a2.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_a6a5dd32-6af9-4d72-8f9e-7e99f187e9b8.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 12
           }
@@ -175,24 +175,24 @@
         "template--14916567695402__ad8d799a-dd28-40ce-8234-0b79cb13bd90-16851213259a117373-0": {
           "type": "collection",
           "settings": {
-            "collection": "turtlenecks",
-            "title": "Essentially Dudley",
+            "collection": "dudley-classics",
+            "title": "Dudley Classics",
             "focal_point": "center center"
           }
         },
         "template--14916567695402__ad8d799a-dd28-40ce-8234-0b79cb13bd90-16851213259a117373-1": {
           "type": "collection",
           "settings": {
-            "collection": "kids",
-            "title": "Back to School, styled",
+            "collection": "shades-of-fall",
+            "title": "Shades of Fall",
             "focal_point": "center center"
           }
         },
         "template--14916567695402__ad8d799a-dd28-40ce-8234-0b79cb13bd90-16851213259a117373-2": {
           "type": "collection",
           "settings": {
-            "collection": "trending-for-fall",
-            "title": "Trending for fall",
+            "collection": "office-style",
+            "title": "Working Girl Style",
             "focal_point": "center center"
           }
         },
@@ -277,6 +277,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-1",
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],

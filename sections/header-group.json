@@ -7,6 +7,7 @@
       "blocks": {
         "announcement-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "Shop More, Save More:  $150+ = 20% off | $300+ = 30% off | $600+ = 40% off (applies automatically in cart).",

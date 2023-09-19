@@ -7,17 +7,17 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "The Dudley Icon",
+            "title": "The Equestrian Collection",
             "title_size": 80,
-            "subheading": "Our first true drop of Fall brings turtlenecks—our flagship style—for all.",
+            "subheading": "Sporty meets chic for Fall's ultimate luxe look.",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
-            "link_text": "SHOP now",
+            "link_text": "SHOP the drop",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify:\/\/shop_images\/Slider_6c0feb4b-33cb-4bd4-bac6-f0d74623f0a2.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_a6a5dd32-6af9-4d72-8f9e-7e99f187e9b8.jpg",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/Slider_158e43ec-d0e6-4a71-8988-e108125aad3a.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_119a63b3-5a1c-4789-af5f-7705ee1d97b2.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 12
           }

@@ -119,7 +119,7 @@
     "general": {
       "title": "Cart",
       "remove": "Remove",
-      "note": "Order note",
+      "note": "Gift note",
       "subtotal": "Subtotal",
       "discounts": "Discounts",
       "shipping_at_checkout": "Shipping, taxes, and discount codes calculated at checkout.",

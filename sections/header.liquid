@@ -79,7 +79,7 @@
 {%- unless overlay_header -%}
     {%- if section.settings.show_locale_selector or section.settings.show_currency_selector or section.settings.toolbar_social or section.settings.toolbar_menu != blank -%}
       {% comment %} Hide toolbar if logo is set to center {% endcomment %}
-      {% if logo_alignment != 'center' %}
+      {% if section.settings.main_menu_alignment != 'center' %}
         {%- render 'toolbar',
           section: section,
           toolbar_menu: toolbar_menu,
@@ -126,7 +126,7 @@
             {%- if logo_alignment == 'center' -%}
               <div class="header-item header-item--left header-item--navigation">
                 {% comment %} START custom feature {% endcomment %}
-                {%- if section.settings.toolbar_menu != blank and section.settings.main_menu_alignment != 'center-drawer' -%}
+                {%- if section.settings.toolbar_menu != blank and section.settings.main_menu_alignment == 'center' -%}
                   <div class="toolbar__item toolbar__item--menu small--hide">
                     <ul class="inline-list toolbar__menu">
                     {%- for link in toolbar_menu.links -%}

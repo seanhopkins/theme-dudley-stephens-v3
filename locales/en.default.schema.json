@@ -909,7 +909,8 @@
           "info": "This menu won't show dropdown items"
         },
         "toolbar_social": {
-          "label": "Show social icons"
+          "label": "Show social icons",
+          "info": "Not visible when Header layout = Logo center, menu below"
         },
         "header_language_selector": "To add a language, go to your [language settings.](\/admin\/settings\/languages)",
         "show_locale_selector": {

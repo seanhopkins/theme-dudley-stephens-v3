@@ -65,7 +65,7 @@
     "collection_grid_opacity": 0,
     "collection_grid_gutter": true,
     "cart_type": "drawer",
-    "cart_notes_enable": false,
+    "cart_notes_enable": true,
     "cart_terms_conditions_enable": false,
     "gwp_enable": false,
     "gwp_tier_1_product_ids": "3952059940906",
@@ -87,8 +87,8 @@
     "materials_list": "Material: Vello Fleece\nMaterial: Terry Fleece\nMaterial: Bubble Fleece\nMaterial: Double Layer Vello Fleece\nMaterial: Double Layer Vello Fleece with Neon Zipper\nMaterial: Brushed Fleece\nMaterial: Chevron\nMaterial: Ribbed Fleece\nMaterial: Vello Fleece Color Block\nMaterial: Shearling Fleece\nMaterial: Lightweight Vello Fleece\nMaterial: Townhouse Trunk Show\nMaterial: Silk\nMaterial: N\/A\nMaterial: Striped Fleece\nMaterial: Eco Jersey\nMaterial: Repreve® Jersey\nMaterial: Repreve® Striped Jersey\nMaterial: Repreve® Stretch\nMaterial: Waffle Jersey\nMaterial: Sherpa Fleece\nMaterial: Eco Stretch\nMaterial: Waffle\/Vello Fleece\nMaterial: Waffle\nMaterial: Luxe Stretch\nMaterial: Power Stretch",
     "show_tag_sale_message_clp": false,
     "show_tag_sale_message_pdp": false,
-    "tag_sale_tag": "LDWS",
-    "tag_sale_message": "<p>30% OFF WITH CODE HELLOFALL<\/p>",
+    "tag_sale_tag": "bday",
+    "tag_sale_message": "<p>ANNIVERSARY SALE<\/p>",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
@@ -1187,6 +1187,15 @@
               "title": "Winterberry",
               "swatch_color": "#8c2230"
             }
+          },
+          "76bf0161-b7bf-4395-8da0-8b1a1719bc56": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Americana Patchwork",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/Americana.jpg",
+              "monogram_swatch": "shopify:\/\/shop_images\/Americana.jpg"
+            }
           }
         },
         "block_order": [
@@ -1326,7 +1335,8 @@
           "1574186951943",
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
           "250b5ae7-c936-4846-8ffc-76eb6db8d944",
-          "c8ac5c7d-81b0-494f-af6b-de00a0d6153b"
+          "c8ac5c7d-81b0-494f-af6b-de00a0d6153b",
+          "76bf0161-b7bf-4395-8da0-8b1a1719bc56"
         ],
         "settings": {
         }
@@ -1363,7 +1373,7 @@
           "cart_widget_enabled": false,
           "item_widget_enabled": true,
           "product_widget_enabled": false,
-          "message_enabled": true,
+          "message_enabled": false,
           "sender_recipient": "none",
           "message_max_length": 250,
           "show_pricing": true,

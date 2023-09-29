@@ -7,19 +7,19 @@
       "blocks": {
         "announcement-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
-            "link_text": "Just in: the Palmer Puff in bestselling Berry & more.",
+            "link_text": "Shop More, Save More:  $150+ = 20% off | $300+ = 30% off | $600+ = 40% off (applies automatically in cart).",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
           }
         },
         "announcement-1": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Shop our Warehouse Sale: up to 70% off styles to wear now & later.",
-            "link_text": "",
-            "link": ""
+            "text": "",
+            "link_text": "Fresh Fall styles just dropped: Classic Meets Cool.",
+            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
           }
         }
       },
@@ -54,9 +54,9 @@
             "title_1": "Dudley Classics",
             "link_1": "shopify:\/\/pages\/dudley-classics",
             "show_column_2": true,
-            "image_2": "shopify:\/\/shop_images\/EDITORIAL_VELLO_FALL_COLORS_TURTLENECK_STACK_285.jpg",
-            "title_2": "Shades of Fall",
-            "link_2": "shopify:\/\/collections\/shades-of-fall"
+            "image_2": "shopify:\/\/shop_images\/Horse.jpg",
+            "title_2": "The Equestrian Collection",
+            "link_2": "shopify:\/\/collections\/equestrian-collection"
           }
         }
       },

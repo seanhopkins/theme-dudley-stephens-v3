@@ -56,6 +56,9 @@ a:not(.btn):after {
    background-color: #fdfbf8;
    padding: 0 1em;
  }
+ .rte ul:not(.metafield-single_line_text_field-array) {
+    margin-left: 2em;
+}
 
 /* CART */
 .cart__item--final-sale {
@@ -182,6 +185,13 @@ span.product__price--final-sale {
    margin-bottom: 5px;
 }
 
+li:empty {
+    display: none;
+}
+.rte ul {
+    margin-left: 1em;
+    list-style-position: outside;
+}
 p.affirm-as-low-as {
    font-size: 1rem;
    color: var(--colorPrice);

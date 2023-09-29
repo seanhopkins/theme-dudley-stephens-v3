@@ -7,17 +7,17 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Dudley Classics",
+            "title": "Classic Meets Cool",
             "title_size": 80,
-            "subheading": "The turtleneck, our icon for every season.",
-            "link": "shopify:\/\/pages\/dudley-classics",
-            "link_text": "SHOP now",
+            "subheading": "Pullovers & outerwear that have all the details down.",
+            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
+            "link_text": "SHOP the drop",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify:\/\/shop_images\/Slider_3fdc34ac-7de0-456e-a0e9-cf67672db3d0.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_fee5dda0-aee4-4f9b-9fbd-fb43025cf2a0.jpg",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/Slider_d6cab542-4323-4b11-b303-188e262db9aa.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_25acbb37-1d80-475e-80fb-7d3f4e2efc33.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 12
           }
@@ -175,24 +175,24 @@
         "template--14916567695402__ad8d799a-dd28-40ce-8234-0b79cb13bd90-16851213259a117373-0": {
           "type": "collection",
           "settings": {
-            "collection": "turtlenecks",
-            "title": "Essentially Dudley",
+            "collection": "dudley-classics",
+            "title": "Dudley Classics",
             "focal_point": "center center"
           }
         },
         "template--14916567695402__ad8d799a-dd28-40ce-8234-0b79cb13bd90-16851213259a117373-1": {
           "type": "collection",
           "settings": {
-            "collection": "kids",
-            "title": "Back to School, styled",
+            "collection": "shades-of-fall",
+            "title": "Shades of Fall",
             "focal_point": "center center"
           }
         },
         "template--14916567695402__ad8d799a-dd28-40ce-8234-0b79cb13bd90-16851213259a117373-2": {
           "type": "collection",
           "settings": {
-            "collection": "trending-for-fall",
-            "title": "Trending for fall",
+            "collection": "office-style",
+            "title": "Working Girl Style",
             "focal_point": "center center"
           }
         },
@@ -256,7 +256,7 @@
           "settings": {
             "year": "2023",
             "month": "09",
-            "day": "12",
+            "day": "26",
             "hour": "10",
             "minute": "00",
             "hide_timer": false,
@@ -266,7 +266,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2": {
           "type": "button",
           "settings": {
-            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-the-dudley-icon",
+            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-classic-meets-cool",
             "button": "Preview now",
             "button_style": "solid"
           }
@@ -277,6 +277,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-1",
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],

@@ -443,6 +443,18 @@
             "button_link": ""
           }
         },
+        "679a0be7-f0a7-4f76-aef0-29e3b01ed943": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Strand Boutique",
+            "text": "<p>35 Depot St, Duxbury, MA<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "8879c5b5-b5bf-490e-9f87-c44c488f5848": {
           "type": "text_block",
           "disabled": true,
@@ -486,6 +498,7 @@
         "0c7c32fe-d1a9-4f01-91f1-54c348bd8f8f",
         "d58701a8-c62b-4ce4-ac21-3a76b26757e7",
         "2d9fd8c1-c03a-48a3-bb12-409fe7c3a046",
+        "679a0be7-f0a7-4f76-aef0-29e3b01ed943",
         "8879c5b5-b5bf-490e-9f87-c44c488f5848",
         "73740f22-9b56-4e99-a906-659f3bc64f9a",
         "1c25cc58-102d-4749-8f7f-ec2535ea08df"
@@ -827,10 +840,23 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "62714e93-09ec-4806-813d-89c2af8b8634": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Isle Newport",
+            "text": "<p>144 Bellevue Ave, Newport, RI<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "11c2879d-4eee-421e-bcff-ced21822ee42"
+        "11c2879d-4eee-421e-bcff-ced21822ee42",
+        "62714e93-09ec-4806-813d-89c2af8b8634"
       ],
       "settings": {
         "title": "Rhode Island",
@@ -852,10 +878,23 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "cae3a450-6578-434e-909a-cd0e445357cf": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Beau + Ro Charleston",
+            "text": "<p>171 King St, Charleston, SC<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "89221733-db7a-4f5c-94ea-e7301e3be5d5"
+        "89221733-db7a-4f5c-94ea-e7301e3be5d5",
+        "cae3a450-6578-434e-909a-cd0e445357cf"
       ],
       "settings": {
         "title": "South Carolina",
@@ -950,6 +989,31 @@
         "align_text": "left",
         "divider": true
       }
+    },
+    "3fea1480-8bc2-4c22-8098-6cee1d9e2bfb": {
+      "type": "text-columns",
+      "blocks": {
+        "1402e2df-89f1-45ac-9e6b-b3dba136bb04": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Navy Knot",
+            "text": "<p>308 E Silver Spring Dr, Whitefish Bay, WI<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1402e2df-89f1-45ac-9e6b-b3dba136bb04"
+      ],
+      "settings": {
+        "title": "Wisconsin",
+        "align_text": "left",
+        "divider": true
+      }
     }
   },
   "order": [
@@ -975,6 +1039,7 @@
     "95f081ef-0d96-40cc-a431-4d2626aeef0a",
     "b65d3e4a-099f-4d6e-b2f8-4ecd61b29349",
     "9e363f98-6ad9-42b4-a849-4a65ffad92d8",
-    "c7df65b0-cfb1-430a-bc0f-ee3e572442c8"
+    "c7df65b0-cfb1-430a-bc0f-ee3e572442c8",
+    "3fea1480-8bc2-4c22-8098-6cee1d9e2bfb"
   ]
 }

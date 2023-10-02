@@ -7,19 +7,19 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Classic Meets Cool",
+            "title": "",
             "title_size": 80,
-            "subheading": "Pullovers & outerwear that have all the details down.",
-            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
-            "link_text": "SHOP the drop",
+            "subheading": "",
+            "link": "https:\/\/www.dudley-stephens.com\/collections\/anniversary-sale",
+            "link_text": "SHOP now",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/Slider_d6cab542-4323-4b11-b303-188e262db9aa.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_25acbb37-1d80-475e-80fb-7d3f4e2efc33.jpg",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify:\/\/shop_images\/Slider_b0025dd8-d8fa-4edd-8ee0-f2cf4668d943.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_9a86b263-6246-4f97-a91f-617f981bed70.jpg",
             "parallax_direction": "top",
-            "overlay_opacity": 12
+            "overlay_opacity": 0
           }
         }
       },
@@ -33,7 +33,7 @@
         "section_height": "natural",
         "mobile_height": "auto",
         "parallax": false,
-        "framed": true,
+        "framed": false,
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 5,

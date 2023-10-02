@@ -17,6 +17,18 @@
     <div class="page-width">
       <div class="section-header">
         <p class="{{ section.settings.heading_size }}">{{ section.settings.title | escape }}</p>
+        {%- if section.settings.text != blank -%}
+          <div class="rte">
+            {%- if section.settings.enlarge_text %}<div class="enlarge-text">{% endif -%}
+              {{ section.settings.text }}
+            {%- if section.settings.enlarge_text %}</div>{% endif -%}
+          </div>
+        {%- endif -%}
+        {%- if section.settings.button_label != blank -%}
+            <a href="{{ section.settings.button_link }}" class="btn{% if section.settings.button_style == 'secondary' %} btn--tertiary{% endif %}">
+              {{ section.settings.button_label }}
+            </a>
+        {%- endif -%}
       </div>
     </div>
   {%- endif -%}
@@ -80,7 +92,7 @@
       {
         "type": "text",
         "id": "title",
-        "label": "Heading",
+        "label": "Heading!!!",
         "default": "Carousel"
       },
       {
@@ -112,6 +124,36 @@
           {
             "value": "h6",
             "label": "H6"
+          }
+        ]
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text"
+      },{
+        "type": "text",
+        "id": "button_label",
+        "label": "t:sections.text-and-image.settings.button_label.label"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "t:sections.text-and-image.settings.button_link.label"
+      },
+      {
+        "type": "select",
+        "id": "button_style",
+        "label": "t:sections.text-and-image.settings.button_style.label",
+        "default": "primary",
+        "options": [
+          {
+            "value": "primary",
+            "label": "t:sections.text-and-image.settings.button_style.options.primary.label"
+          },
+          {
+            "value": "secondary",
+            "label": "t:sections.text-and-image.settings.button_style.options.secondary.label"
           }
         ]
       },

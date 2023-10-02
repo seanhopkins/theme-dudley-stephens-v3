@@ -989,6 +989,31 @@
         "align_text": "left",
         "divider": true
       }
+    },
+    "3fea1480-8bc2-4c22-8098-6cee1d9e2bfb": {
+      "type": "text-columns",
+      "blocks": {
+        "1402e2df-89f1-45ac-9e6b-b3dba136bb04": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "The Navy Knot",
+            "text": "<p>308 E Silver Spring Dr, Whitefish Bay, WI<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1402e2df-89f1-45ac-9e6b-b3dba136bb04"
+      ],
+      "settings": {
+        "title": "Wisconsin",
+        "align_text": "left",
+        "divider": true
+      }
     }
   },
   "order": [
@@ -1014,6 +1039,7 @@
     "95f081ef-0d96-40cc-a431-4d2626aeef0a",
     "b65d3e4a-099f-4d6e-b2f8-4ecd61b29349",
     "9e363f98-6ad9-42b4-a849-4a65ffad92d8",
-    "c7df65b0-cfb1-430a-bc0f-ee3e572442c8"
+    "c7df65b0-cfb1-430a-bc0f-ee3e572442c8",
+    "3fea1480-8bc2-4c22-8098-6cee1d9e2bfb"
   ]
 }

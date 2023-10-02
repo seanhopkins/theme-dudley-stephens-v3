@@ -7,19 +7,19 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "",
+            "title": "The Anniversary Sale",
             "title_size": 80,
-            "subheading": "",
+            "subheading": "Shop the Dudley Classic in three essential shades, just $88.",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/anniversary-sale",
             "link_text": "SHOP now",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
-            "text_align": "vertical-bottom horizontal-center",
-            "image": "shopify:\/\/shop_images\/Slider_b0025dd8-d8fa-4edd-8ee0-f2cf4668d943.jpg",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Slider_30771ae4-8b32-4309-b8eb-67e7f0492828.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_9a86b263-6246-4f97-a91f-617f981bed70.jpg",
             "parallax_direction": "top",
-            "overlay_opacity": 0
+            "overlay_opacity": 14
           }
         }
       },

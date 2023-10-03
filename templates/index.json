@@ -15,9 +15,9 @@
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Slider_30771ae4-8b32-4309-b8eb-67e7f0492828.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_5d2df241-a386-4c28-88f1-5e800bc55260.jpg",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/Slider_241c4a8c-20b1-45e0-a7a3-deb6bec4be3d.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_d9fe1d20-cd6c-4fbf-9d36-b47b9b62217e.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 14
           }
@@ -33,7 +33,7 @@
         "section_height": "natural",
         "mobile_height": "auto",
         "parallax": false,
-        "framed": false,
+        "framed": true,
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 5,

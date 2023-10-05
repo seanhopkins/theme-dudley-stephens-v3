@@ -30,7 +30,7 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "divider": false
+        "divider": true
       }
     },
     "c8a72bb7-4915-4ed7-ba64-198e8079eb61": {

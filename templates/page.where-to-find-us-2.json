@@ -73,7 +73,7 @@
         "template--14916873748522__3b813877-f184-44a7-83d7-1d26bd50e41a-liquid-1"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "space_around": true,
         "lazyload_images": true
       }

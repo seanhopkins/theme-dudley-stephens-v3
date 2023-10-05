@@ -57,25 +57,21 @@
         "lazyload_images": true
       }
     },
-    "3b813877-f184-44a7-83d7-1d26bd50e41a": {
-      "type": "advanced-content",
+    "16965419460da0135b": {
+      "type": "apps",
       "blocks": {
-        "template--14916873748522__3b813877-f184-44a7-83d7-1d26bd50e41a-liquid-1": {
-          "type": "liquid",
+        "2f8f136e-6d47-4c86-8205-9f47ef705b7f": {
+          "type": "shopify:\/\/apps\/progus-store-locator-map\/blocks\/app-block\/d7896016-8cc9-45e0-860e-ba85ba3d5be4",
           "settings": {
-            "code": "<div id=\"progus-store-locator\"><\/div>\n<script>(function (p, r, o, g, u) {g = p.createElement(r); u = `?shop=${Shopify.shop}&root=${Shopify.routes.root}`; g.src = o + u; g.allowfullscreen = true; g.allow = 'geolocation'; g.frameborder = 0; g.setAttribute('frameBorder', '0'); g.setAttribute('allowfullscreen', ''); g.width = '100%'; g.height = '500px'; p.querySelector('#progus-store-locator').appendChild(g);window.addEventListener('message',(e) => { if(e.data.pslheight) { g.style.height = e.data.pslheight }});})(document, 'iframe', '\/\/sl-widget.proguscommerce.com\/main');<\/script>",
-            "width": "100%",
-            "alignment": "center"
           }
         }
       },
       "block_order": [
-        "template--14916873748522__3b813877-f184-44a7-83d7-1d26bd50e41a-liquid-1"
+        "2f8f136e-6d47-4c86-8205-9f47ef705b7f"
       ],
       "settings": {
         "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
+        "space_around": true
       }
     },
     "5dee744c-bf51-4b21-b38f-c17a935a8da7": {
@@ -1062,7 +1058,7 @@
     "main",
     "2f6a095d-856d-49d2-a1b6-439a5b00244c",
     "c8a72bb7-4915-4ed7-ba64-198e8079eb61",
-    "3b813877-f184-44a7-83d7-1d26bd50e41a",
+    "16965419460da0135b",
     "5dee744c-bf51-4b21-b38f-c17a935a8da7",
     "e054fc62-2f22-40b7-ae17-d786e8af14dd",
     "c4de96f8-963f-4edb-ab31-816e6756dbb6",

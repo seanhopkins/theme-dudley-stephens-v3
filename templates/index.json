@@ -7,17 +7,17 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Just Added to Sale",
+            "title": "Classic Meets Cool",
             "title_size": 80,
-            "subheading": "Newly added to our 8th anniversary celebration: select fashion turtlenecks, also just $88.",
-            "link": "https:\/\/www.dudley-stephens.com\/collections\/anniversary-sale",
-            "link_text": "SHOP now",
+            "subheading": "Pullovers & outerwear that have all the details down.",
+            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
+            "link_text": "SHOP THE DROP",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/Slider_241c4a8c-20b1-45e0-a7a3-deb6bec4be3d.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_d9fe1d20-cd6c-4fbf-9d36-b47b9b62217e.jpg",
+            "image": "shopify:\/\/shop_images\/Slider_d6cab542-4323-4b11-b303-188e262db9aa.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_25acbb37-1d80-475e-80fb-7d3f4e2efc33.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 14
           }

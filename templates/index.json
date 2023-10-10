@@ -7,19 +7,19 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Classic Meets Cool",
+            "title": "Polished Neutrals",
             "title_size": 80,
-            "subheading": "Pullovers & outerwear that have all the details down.",
+            "subheading": "The secret to everyday dressing: top layers that pull it all together.",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
             "link_text": "SHOP THE DROP",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/Slider_d6cab542-4323-4b11-b303-188e262db9aa.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_25acbb37-1d80-475e-80fb-7d3f4e2efc33.jpg",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify:\/\/shop_images\/Slider_01e6a9e0-94f8-44b7-8e22-8d5ad21183a8.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_6df3f105-f2eb-4225-b0c0-253025388a9e.jpg",
             "parallax_direction": "top",
-            "overlay_opacity": 14
+            "overlay_opacity": 4
           }
         }
       },

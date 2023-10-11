@@ -7,19 +7,19 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Classic Meets Cool",
+            "title": "Polished Neutrals",
             "title_size": 80,
-            "subheading": "Pullovers & outerwear that have all the details down.",
+            "subheading": "The secret to everyday dressing: top layers that pull it all together.",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
-            "link_text": "SHOP the drop",
+            "link_text": "SHOP THE DROP",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/Slider_d6cab542-4323-4b11-b303-188e262db9aa.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_25acbb37-1d80-475e-80fb-7d3f4e2efc33.jpg",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify:\/\/shop_images\/Slider_01e6a9e0-94f8-44b7-8e22-8d5ad21183a8.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_6df3f105-f2eb-4225-b0c0-253025388a9e.jpg",
             "parallax_direction": "top",
-            "overlay_opacity": 12
+            "overlay_opacity": 4
           }
         }
       },
@@ -255,8 +255,8 @@
           "type": "timer",
           "settings": {
             "year": "2023",
-            "month": "09",
-            "day": "26",
+            "month": "10",
+            "day": "10",
             "hour": "10",
             "minute": "00",
             "hide_timer": false,
@@ -266,7 +266,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2": {
           "type": "button",
           "settings": {
-            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-classic-meets-cool",
+            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-polished-neutrals",
             "button": "Preview now",
             "button_style": "solid"
           }

@@ -158,11 +158,17 @@
               {%- style -%}
                 .slideshow__slide--{{ block.id }} .hero__title {
                   font-size: {{ block.settings.title_size | times: 0.5 }}px;
+                  
                 }
+                
                 @media only screen and (min-width: 769px) {
                   .slideshow__slide--{{ block.id }} .hero__title {
                     font-size: {{ block.settings.title_size }}px;
+                    color: {{ block.settings.text_color }};
                   }
+                  .slideshow__slide--{{ block.id }} .hero__subtitle {
+                  color: {{ block.settings.text_color }};
+                }
                 }
 
                 {%- assign button_alpha = block.settings.color_accent | color_extract: 'alpha' -%}
@@ -500,6 +506,13 @@
           "min": 40,
           "max": 100,
           "unit": "px"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text Color",
+          "default": "#ffffff",
+          "info": "Only applies to desktop"
         },
         {
           "type": "text",

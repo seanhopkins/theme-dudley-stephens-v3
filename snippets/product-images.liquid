@@ -15,6 +15,7 @@
   if context == 'main-product'
     assign loading = 'eager'
   endif
+  assign stamp = ''
 -%}
 
 {%- unless product.empty? -%}
@@ -22,6 +23,15 @@
     data-product-images
     data-zoom="{{ product_zoom_enable }}"
     data-has-slideshow="{% if product.media.size > 1 %}true{% else %}false{% endif %}">
+    <div class="product__photos--stamps">
+      {% for stamp in product.metafields.custom.stamp.value %}
+        {% assign stamp_handle = stamp | handleize %}
+        {% assign stamp_filename = stamp_handle | append: ".png"%}
+        <div class="product__stamp stamp--{{ stamp_handle }}">
+          <img src="{{ stamp_filename | file_url }}" alt="{{ stamp }}">
+        </div>
+      {% endfor %}
+    </div>
     <div class="product__photos product__photos-{{ section_id }} product__photos--{{ thumbnail_position }}">
 
       <div class="product__main-photos" data-aos data-product-single-media-group>

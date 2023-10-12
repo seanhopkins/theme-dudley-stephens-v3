@@ -9,6 +9,7 @@
             "top_subheading": "",
             "title": "Polished Neutrals",
             "title_size": 80,
+            "text_color": "#ffffff",
             "subheading": "The secret to everyday dressing: top layers that pull it all together.",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
             "link_text": "SHOP THE DROP",
@@ -256,7 +257,7 @@
           "settings": {
             "year": "2023",
             "month": "10",
-            "day": "10",
+            "day": "17",
             "hour": "10",
             "minute": "00",
             "hide_timer": false,
@@ -266,7 +267,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2": {
           "type": "button",
           "settings": {
-            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-polished-neutrals",
+            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-dudley-sport",
             "button": "Preview now",
             "button_style": "solid"
           }
@@ -277,7 +278,6 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-1",
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2"
       ],
-      "disabled": true,
       "custom_css": [
 
       ],

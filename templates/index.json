@@ -38,7 +38,7 @@
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 5,
-        "lazyload_images": true
+        "lazyload_images": false
       }
     },
     "b8fccc94-b721-4ed5-a976-f81ed754cc18": {

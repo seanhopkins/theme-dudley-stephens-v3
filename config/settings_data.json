@@ -1201,7 +1201,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Emerald",
-              "swatch_color": "#115e3e"
+              "swatch_color": "#115e3e",
+              "monogram_swatch": "shopify:\/\/shop_images\/Screen_Shot_2023-10-17_at_10.37.09_AM.png"
             }
           }
         },

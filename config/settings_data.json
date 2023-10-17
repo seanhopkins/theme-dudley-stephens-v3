@@ -968,7 +968,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Pink Lemonade",
-              "swatch_color": "#fa7b95"
+              "swatch_color": "#fa7b95",
+              "monogram_swatch": "shopify:\/\/shop_images\/Screen_Shot_2023-10-17_at_10.39.25_AM.png"
             }
           },
           "73f5fe5e-3b4b-4324-9d5c-b436b1913238": {

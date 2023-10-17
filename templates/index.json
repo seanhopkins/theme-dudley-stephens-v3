@@ -7,18 +7,18 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Polished Neutrals",
+            "title": "Dudley Sport",
             "title_size": 80,
             "text_color": "#ffffff",
-            "subheading": "The secret to everyday dressing: top layers that pull it all together.",
+            "subheading": "Action-packed pieces for on-the-go days.",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
             "link_text": "SHOP THE DROP",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
-            "text_align": "vertical-bottom horizontal-right",
-            "image": "shopify:\/\/shop_images\/Slider_01e6a9e0-94f8-44b7-8e22-8d5ad21183a8.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_6df3f105-f2eb-4225-b0c0-253025388a9e.jpg",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/Slider_8e3a3b35-156d-4f52-9e98-a140fab8d7d8.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_5da9dae8-000d-48a9-b70a-11b5080cfe9b.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 4
           }
@@ -278,6 +278,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-1",
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],

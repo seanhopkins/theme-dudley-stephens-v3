@@ -32,7 +32,7 @@
             "image": "shopify:\/\/shop_images\/Horses.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Horse.jpg",
             "parallax_direction": "top",
-            "overlay_opacity": 0
+            "overlay_opacity": 26
           }
         }
       },

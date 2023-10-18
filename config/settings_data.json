@@ -968,7 +968,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Pink Lemonade",
-              "swatch_color": "#fa7b95"
+              "swatch_color": "#fa7b95",
+              "monogram_swatch": "shopify:\/\/shop_images\/Screen_Shot_2023-10-17_at_10.39.25_AM.png"
             }
           },
           "73f5fe5e-3b4b-4324-9d5c-b436b1913238": {
@@ -1196,6 +1197,14 @@
               "swatch_image": "shopify:\/\/shop_images\/Americana.jpg",
               "monogram_swatch": "shopify:\/\/shop_images\/Americana.jpg"
             }
+          },
+          "d777daf7-be50-4aa8-b326-a0c3487d37bd": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Emerald",
+              "swatch_color": "#115e3e",
+              "monogram_swatch": "shopify:\/\/shop_images\/Screen_Shot_2023-10-17_at_10.37.09_AM.png"
+            }
           }
         },
         "block_order": [
@@ -1336,7 +1345,8 @@
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
           "250b5ae7-c936-4846-8ffc-76eb6db8d944",
           "c8ac5c7d-81b0-494f-af6b-de00a0d6153b",
-          "76bf0161-b7bf-4395-8da0-8b1a1719bc56"
+          "76bf0161-b7bf-4395-8da0-8b1a1719bc56",
+          "d777daf7-be50-4aa8-b326-a0c3487d37bd"
         ],
         "settings": {
         }

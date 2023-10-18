@@ -969,7 +969,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Penguin Wonderland",
-              "swatch_color": ""
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/penguin-wonderland.png"
             }
           },
           "1574188159208": {

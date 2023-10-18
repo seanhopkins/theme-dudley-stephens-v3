@@ -19,16 +19,18 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Endless\npossibilities.",
+            "title": "The Equestrian Collection",
             "title_size": 80,
             "text_color": "#ffffff",
-            "subheading": "Bring your brand to life",
+            "subheading": "Supporting line can go here to further describe this collection",
             "link": "",
-            "link_text": "Optional button",
+            "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Horses.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Horse.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }

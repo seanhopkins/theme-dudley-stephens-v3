@@ -110,6 +110,15 @@
       "swatch-colors": {
         "type": "swatch-colors",
         "blocks": {
+          "76bf0161-b7bf-4395-8da0-8b1a1719bc56": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Americana Patchwork",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/Americana.jpg",
+              "monogram_swatch": "shopify:\/\/shop_images\/Americana.jpg"
+            }
+          },
           "2e56268f-d913-4279-a0f8-89b1bb5acbc5": {
             "type": "color_swatch",
             "settings": {
@@ -449,6 +458,14 @@
             "settings": {
               "title": "Elderberry",
               "swatch_color": "#4c3246"
+            }
+          },
+          "d777daf7-be50-4aa8-b326-a0c3487d37bd": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Emerald",
+              "swatch_color": "#115e3e",
+              "monogram_swatch": "shopify:\/\/shop_images\/Screen_Shot_2023-10-17_at_10.37.09_AM.png"
             }
           },
           "1602597047269": {
@@ -948,6 +965,14 @@
               "swatch_color": "#ec6a42"
             }
           },
+          "1373b977-38b7-462f-8b8e-41a06e1b59ea": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Penguin Wonderland",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/penguin-wonderland.png"
+            }
+          },
           "1574188159208": {
             "type": "color_swatch",
             "settings": {
@@ -968,7 +993,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Pink Lemonade",
-              "swatch_color": "#fa7b95"
+              "swatch_color": "#fa7b95",
+              "monogram_swatch": "shopify:\/\/shop_images\/Screen_Shot_2023-10-17_at_10.39.25_AM.png"
             }
           },
           "73f5fe5e-3b4b-4324-9d5c-b436b1913238": {
@@ -1187,18 +1213,10 @@
               "title": "Winterberry",
               "swatch_color": "#8c2230"
             }
-          },
-          "76bf0161-b7bf-4395-8da0-8b1a1719bc56": {
-            "type": "color_swatch",
-            "settings": {
-              "title": "Americana Patchwork",
-              "swatch_color": "",
-              "swatch_image": "shopify:\/\/shop_images\/Americana.jpg",
-              "monogram_swatch": "shopify:\/\/shop_images\/Americana.jpg"
-            }
           }
         },
         "block_order": [
+          "76bf0161-b7bf-4395-8da0-8b1a1719bc56",
           "2e56268f-d913-4279-a0f8-89b1bb5acbc5",
           "328c3ac9-f906-4c22-a2d0-5a712f91c895",
           "8fdba468-34df-47ae-b4b3-bc5969028dda",
@@ -1242,6 +1260,7 @@
           "194151db-ffc1-4605-9e0d-ef117bcd30fb",
           "9403ef65-0d9b-457e-8f04-c242b2aef3c5",
           "ae995c2d-bad7-464a-8216-d2196cdf43d2",
+          "d777daf7-be50-4aa8-b326-a0c3487d37bd",
           "1602597047269",
           "b62f44a3-e13a-43c3-8dd0-cd070654e5b7",
           "c0374977-3323-4214-a3f7-f1cce5b2f5f6",
@@ -1305,6 +1324,7 @@
           "f72afac0-8aa7-4d24-b989-89e6ce61c411",
           "ed1935f4-e063-4e76-b8ef-2c2e49d8c43b",
           "1573770298813",
+          "1373b977-38b7-462f-8b8e-41a06e1b59ea",
           "1574188159208",
           "1573770334967",
           "d30c31bd-9e2c-4d50-a519-a482e71288a8",
@@ -1335,8 +1355,7 @@
           "1574186951943",
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
           "250b5ae7-c936-4846-8ffc-76eb6db8d944",
-          "c8ac5c7d-81b0-494f-af6b-de00a0d6153b",
-          "76bf0161-b7bf-4395-8da0-8b1a1719bc56"
+          "c8ac5c7d-81b0-494f-af6b-de00a0d6153b"
         ],
         "settings": {
         }

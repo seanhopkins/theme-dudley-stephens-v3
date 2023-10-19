@@ -2,125 +2,213 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
-    "c3220d24-8e7b-4f84-a431-0aae228e36f2": {
-      "type": "rich-text",
+    "2bd673d7-c982-4d47-9c06-acef1a3cff9d": {
+      "type": "slideshow",
       "blocks": {
-        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1": {
-          "type": "heading",
+        "template--15051909660714__2bd673d7-c982-4d47-9c06-acef1a3cff9d-image-1": {
+          "type": "image",
           "settings": {
-            "title": "Dudley Classics"
-          }
-        },
-        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Timelessly appealing. Everyday elevated. Reimagined, reinvented, restyled—again and again. <\/p><p>Our icon, <em>the turtleneck.<\/em> <\/p>"
+            "top_subheading": "",
+            "title": "THANK YOU",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "Get 20% off on ALL #dsgoods",
+            "link": "",
+            "link_text": "Verify identity",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Slider_8e3a3b35-156d-4f52-9e98-a140fab8d7d8.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1",
-        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1"
+        "template--15051909660714__2bd673d7-c982-4d47-9c06-acef1a3cff9d-image-1"
       ],
-      "disabled": true,
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "framed": true,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "bd5bcecf-9dae-44a0-b877-3128b4358b0f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15051909660714__bd5bcecf-9dae-44a0-b877-3128b4358b0f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Our discount program"
+          }
+        },
+        "template--15051909660714__bd5bcecf-9dae-44a0-b877-3128b4358b0f-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Our community is everything. It’s full of people who work in pursuit of a better, healthier future. That’s why we’re proud to offer a 20% discount* to teachers, first responders, medical professionals, military and students. Getting verified is easy and quick—so don’t wait.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15051909660714__bd5bcecf-9dae-44a0-b877-3128b4358b0f-heading-1",
+        "template--15051909660714__bd5bcecf-9dae-44a0-b877-3128b4358b0f-text-1"
+      ],
       "settings": {
         "align_text": "center",
         "narrow_column": true,
         "divider": false
       }
     },
-    "0462ca32-1921-42d0-9b0d-239c90c50a09": {
+    "57a1120f-e667-421e-9978-6d952fa5d5a1": {
       "type": "rich-text",
       "blocks": {
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1": {
+        "0812a458-2788-46e7-8680-83a79790fab8": {
           "type": "heading",
           "settings": {
-            "title": "Find Your Perfect Silhouette"
-          }
-        },
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>In three lengths for a fit that suits your style.<\/p>"
+            "title": "Who is Eligible?"
           }
         }
       },
       "block_order": [
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1",
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1"
+        "0812a458-2788-46e7-8680-83a79790fab8"
       ],
-      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": true
+      }
+    },
+    "9b165baf-2795-4163-9e5e-75bbe6fab581": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DS_F2018_LITTLE_GIRLS_TURTLENECK_WHITE_0342.jpg",
+        "image_mask": "none",
+        "image2": "shopify:\/\/shop_images\/penguin-wonderland.png",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Teachers",
+        "text": "<p>Educators, faculty and staff at K-12 schools and universities<\/p>",
+        "button_label": "Get Verified",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "8ab5da3b-b1b5-470a-9962-ef369cd80b91": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DS_F2018_LITTLE_GIRLS_TURTLENECK_WHITE_0342.jpg",
+        "image_mask": "none",
+        "image2": "shopify:\/\/shop_images\/KAKI_PULLOVER_GREEN_CAMO_04433.jpg",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Medical Professionals",
+        "text": "<p>Nurses, doctors and other licensed healthcare workers<\/p>",
+        "button_label": "Get Verified",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "f58612b1-0e45-40e6-a0ff-6817af31afff": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15051909660714__f58612b1-0e45-40e6-a0ff-6817af31afff-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><em>*Terms & Conditions: 20% off one pair of shoes found on<\/em><a href=\"http:\/\/rothys.com\/\" target=\"_blank\"><em>rothys.com <\/em><\/a><em>or in a Rothy’s retail store. Offer eligible for: nurses, doctors, or other currently licensed medical professionals; first responders; teachers, faculty, or staff employed at a K-12 school or university; students enrolled in a degree or certificate-granting, accredited school of education; active duty military, reservist or National Guard, military veteran or retiree, military spouse or dependent, or Gold Star family (\"applicable parties\").  All applicable parties must complete the SheerID verification process to receive their discount code. Discount codes must be applied at checkout, prior to purchase, either online or in-store. $95 minimum purchase required. Discount codes cannot be stacked, redeemed for cash, combined with any other promotions or offers, applied to previous purchases, or applied to the purchase of gift cards, bags or accessories. All shoes sitewide and in-store are eligible for discount, unless stated otherwise. Some exclusions may apply. Lost or stolen discount codes will not be replaced. Offer valid in the U.S. only. Terms of offer are subject to change at any time. All discount codes expire at the end of the calendar year in which they were issued. Limit one discount code per person per calendar year.<\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15051909660714__f58612b1-0e45-40e6-a0ff-6817af31afff-text-1"
+      ],
       "settings": {
         "align_text": "center",
         "narrow_column": true,
         "divider": false
       }
     },
-    "50c43048-9982-4115-85ba-cae759aa5888": {
-      "type": "featured-collection",
-      "disabled": true,
+    "169774357223ac57ca": {
+      "type": "apps",
+      "blocks": {
+        "0749b59d-4241-43c6-876b-86ddc4158daf": {
+          "type": "shopify:\/\/apps\/sheerid\/blocks\/verification\/5d89573c-f987-420b-a60c-72549bb3e6d5",
+          "settings": {
+            "program_id": "",
+            "display_style": "embedded",
+            "background_color": "",
+            "extended_background": true,
+            "button_text": "Unlock discount",
+            "button_color": "",
+            "padding_top": 36,
+            "padding_bottom": 36
+          }
+        }
+      },
+      "block_order": [
+        "0749b59d-4241-43c6-876b-86ddc4158daf"
+      ],
       "settings": {
-        "title": "Crop-Length",
-        "home_featured_products": "cropped-turtlenecks",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
+        "full_width": false,
+        "space_around": true
       }
     },
-    "bc59d967-cb6a-43d7-981f-f7165f775819": {
-      "type": "featured-collection",
-      "disabled": true,
+    "6743dff4-fff3-4efa-b989-597ca88c8b8c": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--15051909660714__6743dff4-fff3-4efa-b989-597ca88c8b8c-liquid-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a onclick=\"displayVerification()\">Confirm Eligibility<\/a>\n<script>\n  function displayVerification() {\n    const verificationUrl = 'https:\/\/services.sheerid.com\/verify\/653182469376956b0337ebb4\/';\n    sheerId.loadInModal(\n        verificationUrl, {\n        mobileRedirect: true\n      });\n  };\n<\/script>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15051909660714__6743dff4-fff3-4efa-b989-597ca88c8b8c-liquid-1"
+      ],
       "settings": {
-        "title": "Hip-Length",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "95b1a523-559c-4437-befa-839266141cb1": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Midi-Length",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "45d53247-d730-4e59-9dd2-f7346f732c13": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Tunic-Length",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
       }
     }
   },
   "order": [
     "main",
-    "c3220d24-8e7b-4f84-a431-0aae228e36f2",
-    "0462ca32-1921-42d0-9b0d-239c90c50a09",
-    "50c43048-9982-4115-85ba-cae759aa5888",
-    "bc59d967-cb6a-43d7-981f-f7165f775819",
-    "95b1a523-559c-4437-befa-839266141cb1",
-    "45d53247-d730-4e59-9dd2-f7346f732c13"
+    "2bd673d7-c982-4d47-9c06-acef1a3cff9d",
+    "bd5bcecf-9dae-44a0-b877-3128b4358b0f",
+    "57a1120f-e667-421e-9978-6d952fa5d5a1",
+    "9b165baf-2795-4163-9e5e-75bbe6fab581",
+    "8ab5da3b-b1b5-470a-9962-ef369cd80b91",
+    "f58612b1-0e45-40e6-a0ff-6817af31afff",
+    "169774357223ac57ca",
+    "6743dff4-fff3-4efa-b989-597ca88c8b8c"
   ]
 }

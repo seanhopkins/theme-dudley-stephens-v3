@@ -140,7 +140,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p><em>*Terms & Conditions: 20% off one pair of shoes found on<\/em><a href=\"http:\/\/rothys.com\/\" target=\"_blank\"><em>rothys.com <\/em><\/a><em>or in a Rothy’s retail store. Offer eligible for: nurses, doctors, or other currently licensed medical professionals; first responders; teachers, faculty, or staff employed at a K-12 school or university; students enrolled in a degree or certificate-granting, accredited school of education; active duty military, reservist or National Guard, military veteran or retiree, military spouse or dependent, or Gold Star family (\"applicable parties\").  All applicable parties must complete the SheerID verification process to receive their discount code. Discount codes must be applied at checkout, prior to purchase, either online or in-store. $95 minimum purchase required. Discount codes cannot be stacked, redeemed for cash, combined with any other promotions or offers, applied to previous purchases, or applied to the purchase of gift cards, bags or accessories. All shoes sitewide and in-store are eligible for discount, unless stated otherwise. Some exclusions may apply. Lost or stolen discount codes will not be replaced. Offer valid in the U.S. only. Terms of offer are subject to change at any time. All discount codes expire at the end of the calendar year in which they were issued. Limit one discount code per person per calendar year.<\/em><\/p>"
+            "text": "<p><em>*Terms & Conditions: Offer eligible for: nurses, doctors, or other currently licensed medical professionals; first responders; teachers, faculty, or staff employed at a K-12 school or university; students enrolled in a degree or certificate-granting, accredited school of education; active duty military, reservist or National Guard, military veteran or retiree, military spouse or dependent, or Gold Star family (\"applicable parties\").  All applicable parties must complete the SheerID verification process to receive their discount code. Discount codes must be applied at checkout, prior to purchase, either online or in-store. $95 minimum purchase required. Discount codes cannot be stacked, redeemed for cash, combined with any other promotions or offers, applied to previous purchases, or applied to the purchase of gift cards, bags or accessories. All items sitewide and in-store are eligible for discount, unless stated otherwise. Some exclusions may apply. Lost or stolen discount codes will not be replaced. Offer valid in the U.S. only. Terms of offer are subject to change at any time. All discount codes expire at the end of the calendar year in which they were issued. Limit one discount code per person per calendar year.<\/em><\/p>"
           }
         }
       },
@@ -152,27 +152,6 @@
         "narrow_column": true,
         "divider": false
       }
-    },
-    "6743dff4-fff3-4efa-b989-597ca88c8b8c": {
-      "type": "advanced-content",
-      "blocks": {
-        "template--15051909660714__6743dff4-fff3-4efa-b989-597ca88c8b8c-liquid-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a onclick=\"displayVerification()\">Confirm Eligibility<\/a>\n<script>\n  function displayVerification() {\n    const verificationUrl = 'https:\/\/services.sheerid.com\/verify\/653182469376956b0337ebb4\/';\n    sheerId.loadInModal(\n        verificationUrl, {\n        mobileRedirect: true\n      });\n  };\n<\/script>",
-            "width": "50%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--15051909660714__6743dff4-fff3-4efa-b989-597ca88c8b8c-liquid-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
-      }
     }
   },
   "order": [
@@ -182,7 +161,6 @@
     "57a1120f-e667-421e-9978-6d952fa5d5a1",
     "9b165baf-2795-4163-9e5e-75bbe6fab581",
     "8ab5da3b-b1b5-470a-9962-ef369cd80b91",
-    "f58612b1-0e45-40e6-a0ff-6817af31afff",
-    "6743dff4-fff3-4efa-b989-597ca88c8b8c"
+    "f58612b1-0e45-40e6-a0ff-6817af31afff"
   ]
 }

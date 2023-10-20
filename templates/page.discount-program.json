@@ -1,0 +1,166 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "2bd673d7-c982-4d47-9c06-acef1a3cff9d": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15051909660714__2bd673d7-c982-4d47-9c06-acef1a3cff9d-image-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "THANK YOU",
+            "title": "20% off",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "Save  on all #dsgoods, forever.",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Slider_8e3a3b35-156d-4f52-9e98-a140fab8d7d8.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15051909660714__2bd673d7-c982-4d47-9c06-acef1a3cff9d-image-1"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "framed": true,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "bd5bcecf-9dae-44a0-b877-3128b4358b0f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15051909660714__bd5bcecf-9dae-44a0-b877-3128b4358b0f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Our discount program"
+          }
+        },
+        "template--15051909660714__bd5bcecf-9dae-44a0-b877-3128b4358b0f-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Our community is everything. It’s full of people who work in pursuit of a better, healthier future. That’s why we’re proud to offer a 20% discount* to teachers, first responders, medical professionals, military and students. Getting verified is easy and quick—so don’t wait.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15051909660714__bd5bcecf-9dae-44a0-b877-3128b4358b0f-heading-1",
+        "template--15051909660714__bd5bcecf-9dae-44a0-b877-3128b4358b0f-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "57a1120f-e667-421e-9978-6d952fa5d5a1": {
+      "type": "rich-text",
+      "blocks": {
+        "0812a458-2788-46e7-8680-83a79790fab8": {
+          "type": "heading",
+          "settings": {
+            "title": "Who is Eligible?"
+          }
+        }
+      },
+      "block_order": [
+        "0812a458-2788-46e7-8680-83a79790fab8"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": true
+      }
+    },
+    "9b165baf-2795-4163-9e5e-75bbe6fab581": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DS_F2018_LITTLE_GIRLS_TURTLENECK_WHITE_0342.jpg",
+        "image_mask": "none",
+        "image2": "shopify:\/\/shop_images\/penguin-wonderland.png",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Teachers",
+        "text": "<p>Educators, faculty and staff at K-12 schools and universities<\/p>",
+        "button_label": "Get Verified",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "8ab5da3b-b1b5-470a-9962-ef369cd80b91": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DS_F2018_LITTLE_GIRLS_TURTLENECK_WHITE_0342.jpg",
+        "image_mask": "none",
+        "image2": "shopify:\/\/shop_images\/KAKI_PULLOVER_GREEN_CAMO_04433.jpg",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Medical Professionals",
+        "text": "<p>Nurses, doctors and other licensed healthcare workers<\/p>",
+        "button_label": "Get Verified",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "f58612b1-0e45-40e6-a0ff-6817af31afff": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15051909660714__f58612b1-0e45-40e6-a0ff-6817af31afff-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><em>*Terms & Conditions: Offer eligible for: nurses, doctors, or other currently licensed medical professionals; first responders; teachers, faculty, or staff employed at a K-12 school or university; students enrolled in a degree or certificate-granting, accredited school of education; active duty military, reservist or National Guard, military veteran or retiree, military spouse or dependent, or Gold Star family (\"applicable parties\").  All applicable parties must complete the SheerID verification process to receive their discount code. Discount codes must be applied at checkout, prior to purchase, either online or in-store. $95 minimum purchase required. Discount codes cannot be stacked, redeemed for cash, combined with any other promotions or offers, applied to previous purchases, or applied to the purchase of gift cards, bags or accessories. All items sitewide and in-store are eligible for discount, unless stated otherwise. Some exclusions may apply. Lost or stolen discount codes will not be replaced. Offer valid in the U.S. only. Terms of offer are subject to change at any time. All discount codes expire at the end of the calendar year in which they were issued. Limit one discount code per person per calendar year.<\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15051909660714__f58612b1-0e45-40e6-a0ff-6817af31afff-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2bd673d7-c982-4d47-9c06-acef1a3cff9d",
+    "bd5bcecf-9dae-44a0-b877-3128b4358b0f",
+    "57a1120f-e667-421e-9978-6d952fa5d5a1",
+    "9b165baf-2795-4163-9e5e-75bbe6fab581",
+    "8ab5da3b-b1b5-470a-9962-ef369cd80b91",
+    "f58612b1-0e45-40e6-a0ff-6817af31afff"
+  ]
+}

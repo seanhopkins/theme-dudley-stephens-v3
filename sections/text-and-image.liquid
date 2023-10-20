@@ -105,19 +105,24 @@
 
       <div class="feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }} text-{{ section.settings.align_text }}" data-aos>
         {%- if section.settings.subtitle != blank -%}
-          <div class="subheading appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.subtitle }}</div>
+          <div class="subheading appear-delay{% cycle '','-1','-2','-3','-4','-5' %}">{{ section.settings.subtitle }}</div>
         {%- endif -%}
         {%- if section.settings.title != blank -%}
-          <h2 class="h1 appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.title | escape }}</h2>
+          <h2 class="h1 appear-delay{% cycle '','-1','-2','-3','-4','-5' %}">{{ section.settings.title | escape }}</h2>
         {%- endif -%}
         {%- if section.settings.text != blank -%}
-          <div class="rte appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.text }}</div>
+          <div class="rte appear-delay{% cycle '','-1','-2','-3','-4','-5' %}">{{ section.settings.text }}</div>
         {%- endif -%}
         {%- if section.settings.button_label != blank -%}
-          <div class="appear-delay{% cycle '','-1','-2','-3','-4' %}">
+          <div class="appear-delay{% cycle '','-1','-2','-3','-4','-5' %}">
             <a href="{{ section.settings.button_link }}" class="btn{% if section.settings.button_style == 'secondary' %} btn--tertiary{% endif %}">
               {{ section.settings.button_label }}
             </a>
+          </div>
+        {%- endif -%}
+        {%- if section.settings.liquid != blank -%}
+          <div class="appear-delay{% cycle '','-1','-2','-3','-4','-5' %}">
+              {{ section.settings.liquid }}
           </div>
         {%- endif -%}
       </div>
@@ -296,6 +301,11 @@
       "type": "url",
       "id": "button_link",
       "label": "t:sections.text-and-image.settings.button_link.label"
+    },
+    {
+      "type": "liquid",
+      "id": "liquid",
+      "label": "Custom Liquid"
     },
     {
       "type": "select",

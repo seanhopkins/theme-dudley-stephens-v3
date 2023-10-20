@@ -12,17 +12,17 @@
         "parallax_direction": "top"
       }
     },
-    "894e8142-307c-4a14-a3e5-7bbe1910bb4e": {
+    "257ba0dc-2d11-46f4-8e7c-7f3f208040a2": {
       "type": "slideshow",
       "blocks": {
-        "template--14938177470506__894e8142-307c-4a14-a3e5-7bbe1910bb4e-image-1": {
+        "template--15047858487338__257ba0dc-2d11-46f4-8e7c-7f3f208040a2-image-1": {
           "type": "image",
           "settings": {
             "top_subheading": "",
             "title": "The Equestrian Collection",
             "title_size": 80,
             "text_color": "#ffffff",
-            "subheading": "",
+            "subheading": "Supporting line can go here to further describe this collection",
             "link": "",
             "link_text": "",
             "link_2": "",
@@ -32,19 +32,19 @@
             "image": "shopify:\/\/shop_images\/Horses.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Horse.jpg",
             "parallax_direction": "top",
-            "overlay_opacity": 46
+            "overlay_opacity": 26
           }
         }
       },
       "block_order": [
-        "template--14938177470506__894e8142-307c-4a14-a3e5-7bbe1910bb4e-image-1"
+        "template--15047858487338__257ba0dc-2d11-46f4-8e7c-7f3f208040a2-image-1"
       ],
       "disabled": true,
       "settings": {
         "section_height": "natural",
         "mobile_height": "auto",
         "parallax": true,
-        "framed": true,
+        "framed": false,
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 5,
@@ -110,7 +110,7 @@
   },
   "order": [
     "collection-header",
-    "894e8142-307c-4a14-a3e5-7bbe1910bb4e",
+    "257ba0dc-2d11-46f4-8e7c-7f3f208040a2",
     "740d54a7-c2df-4b3f-b8cd-80bb36f3fe7e",
     "main-collection"
   ]

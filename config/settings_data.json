@@ -1002,7 +1002,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Pink Peony",
-              "swatch_color": "#f9bac2"
+              "swatch_color": "#f9bac2",
+              "monogram_swatch": "shopify:\/\/shop_images\/Pink_Peony_Monogram_Fabric_Swatch.png"
             }
           },
           "e20cf8b1-8f97-477b-b058-c9ba7bcb5765": {

@@ -284,7 +284,7 @@
             "settings": {
               "title": "Burgundy",
               "swatch_color": "#9d3f49",
-              "monogram_swatch": "shopify:\/\/shop_images\/0000s_0005_burgundy.jpg"
+              "monogram_swatch": "shopify:\/\/shop_images\/Burgundy_Monogram_Fabric_Swatch.png"
             }
           },
           "5abc2910-ee16-48e6-b991-e5e7ea69992e": {
@@ -457,7 +457,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Elderberry",
-              "swatch_color": "#4c3246"
+              "swatch_color": "#4c3246",
+              "monogram_swatch": "shopify:\/\/shop_images\/Elderberry_Monogram_Fabric_Swatch.png"
             }
           },
           "d777daf7-be50-4aa8-b326-a0c3487d37bd": {
@@ -612,7 +613,7 @@
             "settings": {
               "title": "Ice Blue",
               "swatch_color": "#c7eafb",
-              "monogram_swatch": "shopify:\/\/shop_images\/ice-blue.jpg"
+              "monogram_swatch": "shopify:\/\/shop_images\/Ice_Blue_Monogram_Fabric_Swatch.png"
             }
           },
           "1595351270156": {

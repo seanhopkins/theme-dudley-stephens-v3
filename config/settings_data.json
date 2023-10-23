@@ -1111,7 +1111,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Spruce",
-              "swatch_color": "#374431"
+              "swatch_color": "#374431",
+              "monogram_swatch": "shopify:\/\/shop_images\/Spruce_Monogram_Fabric_Swatch.png"
             }
           },
           "1600103847112": {

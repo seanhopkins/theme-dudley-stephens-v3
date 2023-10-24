@@ -1,0 +1,117 @@
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "custom_css": [
+        "h1 {text-align: center;}"
+      ],
+      "settings": {
+        "enable": true,
+        "collection_image_enable": false,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    },
+    "894e8142-307c-4a14-a3e5-7bbe1910bb4e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14938177470506__894e8142-307c-4a14-a3e5-7bbe1910bb4e-image-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Enter a title here",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "{{ collection.metafields.custom.hero_image.value }}",
+            "image_mobile": "{{ collection.metafields.custom.mobile_hero_image.value }}",
+            "parallax_direction": "top",
+            "overlay_opacity": 46
+          }
+        }
+      },
+      "block_order": [
+        "template--14938177470506__894e8142-307c-4a14-a3e5-7bbe1910bb4e-image-1"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": true,
+        "framed": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "740d54a7-c2df-4b3f-b8cd-80bb36f3fe7e": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14938177470506__740d54a7-c2df-4b3f-b8cd-80bb36f3fe7e-liquid-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% if collection.description %}\n<div class=\"text-center\">{{ collection.description }}<\/div>\n{% endif %}",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14938177470506__740d54a7-c2df-4b3f-b8cd-80bb36f3fe7e-liquid-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false,
+        "lazyload_images": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 3,
+            "rows_per_page": 10,
+            "mobile_flush_grid": true
+          }
+        },
+        "690ccfae-bdb4-4e14-a918-769109aceffe": {
+          "type": "collection_description",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "product_grid",
+        "690ccfae-bdb4-4e14-a918-769109aceffe"
+      ],
+      "custom_css": [
+        "span.h6 {color: var(--colorPrice);}",
+        ".grid-product__title {font-weight: 500;}"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapsed": true,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_sort": true
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "894e8142-307c-4a14-a3e5-7bbe1910bb4e",
+    "740d54a7-c2df-4b3f-b8cd-80bb36f3fe7e",
+    "main-collection"
+  ]
+}

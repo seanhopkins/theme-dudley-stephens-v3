@@ -7,18 +7,18 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Dudley Sport",
+            "title": "Holiday Ready",
             "title_size": 80,
             "text_color": "#ffffff",
-            "subheading": "Action-packed pieces for on-the-go days.",
+            "subheading": "Stock your closet with warm shades that take you everywhere the season calls.",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
             "link_text": "SHOP THE DROP",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/Slider_8e3a3b35-156d-4f52-9e98-a140fab8d7d8.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_5da9dae8-000d-48a9-b70a-11b5080cfe9b.jpg",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Slider_42a2ca82-2002-404c-915a-5a94390aba66.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_40082d69-cabe-47a1-a7e5-8d02939fe621.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 4
           }

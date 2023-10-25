@@ -12,20 +12,28 @@
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1": {
           "type": "heading",
           "settings": {
-            "title": "This is the gift guide"
+            "title": "Holiday Classics"
           }
         },
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Edit this page template<\/p>"
+            "text": "<p>What better time of year to return to tradition, to tried-and-true favorite things? This holiday we’re celebrating the cozy moments that make the season special.<\/p>"
+          }
+        },
+        "aa0aa0d9-46ab-4851-8584-1dd3411b34b0": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "SHOP ALL"
           }
         }
       },
       "block_order": [
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1",
-        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1"
+        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1",
+        "aa0aa0d9-46ab-4851-8584-1dd3411b34b0"
       ],
       "settings": {
         "align_text": "center",

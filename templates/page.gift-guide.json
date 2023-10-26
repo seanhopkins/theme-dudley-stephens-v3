@@ -40,10 +40,75 @@
         "narrow_column": true,
         "divider": false
       }
+    },
+    "275d77f1-8fc1-4bd0-b671-503acc0855bd": {
+      "type": "text-columns",
+      "blocks": {
+        "template--15070684512298__275d77f1-8fc1-4bd0-b671-503acc0855bd-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Gifts of Comfort",
+            "text": "<p>Coziness in gift form, to keep them warm and comfy all season long.<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": ""
+          }
+        },
+        "template--15070684512298__275d77f1-8fc1-4bd0-b671-503acc0855bd-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Time to Shine",
+            "text": "<p>Dress your festive best in these special-occasion pieces.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "template--15070684512298__275d77f1-8fc1-4bd0-b671-503acc0855bd-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "DS Holiday for Him",
+            "text": "<p>For gifting or giving in advance (he has holiday occasions to dress for, too).<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15070684512298__275d77f1-8fc1-4bd0-b671-503acc0855bd-text_block-1",
+        "template--15070684512298__275d77f1-8fc1-4bd0-b671-503acc0855bd-text_block-2",
+        "template--15070684512298__275d77f1-8fc1-4bd0-b671-503acc0855bd-text_block-3"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "dc5e4a7a-3282-4ba6-8691-111c47aa18aa": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Little Things",
+        "home_featured_products": "",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
-    "c3220d24-8e7b-4f84-a431-0aae228e36f2"
+    "c3220d24-8e7b-4f84-a431-0aae228e36f2",
+    "275d77f1-8fc1-4bd0-b671-503acc0855bd",
+    "dc5e4a7a-3282-4ba6-8691-111c47aa18aa"
   ]
 }

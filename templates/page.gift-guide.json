@@ -188,11 +188,12 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DS_Holiday23_Shot_08_075.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "title": "Luxe Indulgences",
+            "text": "<p>Sophisticated pieces for those who appreciate the finer things.<\/p>",
+            "button_label": "Shop now",
             "button_link": ""
           }
         },
@@ -200,11 +201,12 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DS_Holiday23_Shot_03_078.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "title": "Perfect Picks for Kids",
+            "text": "<p>Tied with toys at the top of their wish list: a cozy Dudley fleece.<\/p>",
+            "button_label": "Shop now",
             "button_link": ""
           }
         },
@@ -212,11 +214,12 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DS_Holiday23_Shot_05_048.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-            "button_label": "Optional button",
+            "title": "Forever Classics",
+            "text": "<p>These bestsellers are sure to become their instant holiday favorites.<\/p>",
+            "button_label": "Shop now",
             "button_link": ""
           }
         }

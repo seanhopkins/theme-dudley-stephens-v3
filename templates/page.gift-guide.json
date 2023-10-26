@@ -246,6 +246,72 @@
         "view_all": true,
         "divider": false
       }
+    },
+    "3d92c77d-2016-411c-822f-1f07c307485e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15070684512298__3d92c77d-2016-411c-822f-1f07c307485e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Holiday Shipping Deadlines"
+          }
+        },
+        "template--15070684512298__3d92c77d-2016-411c-822f-1f07c307485e-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Ground: Wednesday, December 13 at 5 p.m. ET<br\/>2-Day: Tuesday, December 19 at 12 p.m. ET<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15070684512298__3d92c77d-2016-411c-822f-1f07c307485e-heading-1",
+        "template--15070684512298__3d92c77d-2016-411c-822f-1f07c307485e-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "e867dc52-7838-4a1b-9eff-4930d7ae54f6": {
+      "type": "text-columns",
+      "blocks": {
+        "template--15070684512298__e867dc52-7838-4a1b-9eff-4930d7ae54f6-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "template--15070684512298__e867dc52-7838-4a1b-9eff-4930d7ae54f6-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15070684512298__e867dc52-7838-4a1b-9eff-4930d7ae54f6-text_block-1",
+        "template--15070684512298__e867dc52-7838-4a1b-9eff-4930d7ae54f6-text_block-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -256,6 +322,8 @@
     "dc5e4a7a-3282-4ba6-8691-111c47aa18aa",
     "5e71ce74-ea89-4606-8e54-7f428e43cb08",
     "78222b9f-e63b-4367-b8e0-6ccc4d914679",
-    "900a2857-5d6d-4401-91c1-adb9b261700b"
+    "900a2857-5d6d-4401-91c1-adb9b261700b",
+    "3d92c77d-2016-411c-822f-1f07c307485e",
+    "e867dc52-7838-4a1b-9eff-4930d7ae54f6"
   ]
 }

@@ -48,6 +48,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DS_Holiday23_Shot_16_125.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Gifts of Comfort",
@@ -60,6 +61,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DS_Holiday23_Shot_19_049.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Time to Shine",
@@ -72,6 +74,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DS_Holiday23_Shot_10_062.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "DS Holiday for Him",

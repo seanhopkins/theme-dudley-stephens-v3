@@ -181,54 +181,67 @@
         "lazyload_images": true
       }
     },
-    "1b88d9f3-9820-43b8-9d5a-3b28110ce1a3": {
-      "type": "countdown",
+    "78222b9f-e63b-4367-b8e0-6ccc4d914679": {
+      "type": "text-columns",
       "blocks": {
-        "template--15070684512298__1b88d9f3-9820-43b8-9d5a-3b28110ce1a3-content-1": {
-          "type": "content",
+        "template--15070684512298__78222b9f-e63b-4367-b8e0-6ccc4d914679-text_block-1": {
+          "type": "text_block",
           "settings": {
-            "heading": "Countdown to Christmas",
-            "heading_size": "h2",
-            "text": "<p>Use this timer to create urgency and boost sales.<\/p>",
-            "content_alignment": "left"
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
           }
         },
-        "template--15070684512298__1b88d9f3-9820-43b8-9d5a-3b28110ce1a3-timer-1": {
-          "type": "timer",
+        "template--15070684512298__78222b9f-e63b-4367-b8e0-6ccc4d914679-text_block-2": {
+          "type": "text_block",
           "settings": {
-            "year": "2023",
-            "month": "12",
-            "day": "25",
-            "hour": "00",
-            "minute": "00",
-            "hide_timer": false,
-            "text": ""
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
           }
         },
-        "template--15070684512298__1b88d9f3-9820-43b8-9d5a-3b28110ce1a3-button-1": {
-          "type": "button",
+        "template--15070684512298__78222b9f-e63b-4367-b8e0-6ccc4d914679-text_block-3": {
+          "type": "text_block",
           "settings": {
-            "button_link": "",
-            "button": "Shop Collection",
-            "button_style": "solid"
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "template--15070684512298__1b88d9f3-9820-43b8-9d5a-3b28110ce1a3-content-1",
-        "template--15070684512298__1b88d9f3-9820-43b8-9d5a-3b28110ce1a3-timer-1",
-        "template--15070684512298__1b88d9f3-9820-43b8-9d5a-3b28110ce1a3-button-1"
+        "template--15070684512298__78222b9f-e63b-4367-b8e0-6ccc4d914679-text_block-1",
+        "template--15070684512298__78222b9f-e63b-4367-b8e0-6ccc4d914679-text_block-2",
+        "template--15070684512298__78222b9f-e63b-4367-b8e0-6ccc4d914679-text_block-3"
       ],
-      "disabled": true,
       "settings": {
-        "layout": "banner",
-        "full_width": false,
-        "text_color": "#000",
-        "background_color": "#FFF",
-        "background_image": "shopify:\/\/shop_images\/1212Countdown.jpg",
-        "overlay_color": "#ffffff",
-        "overlay_opacity": 82,
-        "lazyload_images": true
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "900a2857-5d6d-4401-91c1-adb9b261700b": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Dudley Stephens x 1212",
+        "home_featured_products": "dudley-stephens-x-1212",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
       }
     }
   },
@@ -239,6 +252,7 @@
     "275d77f1-8fc1-4bd0-b671-503acc0855bd",
     "dc5e4a7a-3282-4ba6-8691-111c47aa18aa",
     "5e71ce74-ea89-4606-8e54-7f428e43cb08",
-    "1b88d9f3-9820-43b8-9d5a-3b28110ce1a3"
+    "78222b9f-e63b-4367-b8e0-6ccc4d914679",
+    "900a2857-5d6d-4401-91c1-adb9b261700b"
   ]
 }

@@ -286,7 +286,7 @@
             "image_width": 650,
             "title": "",
             "text": "",
-            "button_label": "Optional button",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -298,7 +298,7 @@
             "image_width": 650,
             "title": "",
             "text": "",
-            "button_label": "Optional button",
+            "button_label": "",
             "button_link": ""
           }
         }

@@ -106,12 +106,49 @@
         "view_all": true,
         "divider": false
       }
+    },
+    "5e71ce74-ea89-4606-8e54-7f428e43cb08": {
+      "type": "hotspots",
+      "blocks": {
+        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-1": {
+          "type": "product",
+          "settings": {
+            "featured_product": "",
+            "vertical": 56,
+            "horizontal": 47
+          }
+        },
+        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-2": {
+          "type": "product",
+          "settings": {
+            "featured_product": "",
+            "vertical": 41,
+            "horizontal": 83
+          }
+        }
+      },
+      "block_order": [
+        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-1",
+        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-2"
+      ],
+      "settings": {
+        "title": "Shop the look",
+        "heading_size": "h3",
+        "heading_position": "left",
+        "image": "shopify:\/\/shop_images\/DS_Holiday23_Shot_11_044.jpg",
+        "indent_image": false,
+        "image_position": "left",
+        "hotspot_style": "bag",
+        "hotspot_color": "#000000",
+        "lazyload_images": true
+      }
     }
   },
   "order": [
     "main",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "275d77f1-8fc1-4bd0-b671-503acc0855bd",
-    "dc5e4a7a-3282-4ba6-8691-111c47aa18aa"
+    "dc5e4a7a-3282-4ba6-8691-111c47aa18aa",
+    "5e71ce74-ea89-4606-8e54-7f428e43cb08"
   ]
 }

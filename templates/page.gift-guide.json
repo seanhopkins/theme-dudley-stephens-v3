@@ -180,6 +180,56 @@
         "hotspot_color": "#000000",
         "lazyload_images": true
       }
+    },
+    "1b88d9f3-9820-43b8-9d5a-3b28110ce1a3": {
+      "type": "countdown",
+      "blocks": {
+        "template--15070684512298__1b88d9f3-9820-43b8-9d5a-3b28110ce1a3-content-1": {
+          "type": "content",
+          "settings": {
+            "heading": "Countdown to Christmas",
+            "heading_size": "h2",
+            "text": "<p>Use this timer to create urgency and boost sales.<\/p>",
+            "content_alignment": "left"
+          }
+        },
+        "template--15070684512298__1b88d9f3-9820-43b8-9d5a-3b28110ce1a3-timer-1": {
+          "type": "timer",
+          "settings": {
+            "year": "2023",
+            "month": "12",
+            "day": "25",
+            "hour": "00",
+            "minute": "00",
+            "hide_timer": false,
+            "text": ""
+          }
+        },
+        "template--15070684512298__1b88d9f3-9820-43b8-9d5a-3b28110ce1a3-button-1": {
+          "type": "button",
+          "settings": {
+            "button_link": "",
+            "button": "Shop Collection",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "template--15070684512298__1b88d9f3-9820-43b8-9d5a-3b28110ce1a3-content-1",
+        "template--15070684512298__1b88d9f3-9820-43b8-9d5a-3b28110ce1a3-timer-1",
+        "template--15070684512298__1b88d9f3-9820-43b8-9d5a-3b28110ce1a3-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "banner",
+        "full_width": false,
+        "text_color": "#000",
+        "background_color": "#FFF",
+        "background_image": "shopify:\/\/shop_images\/1212Countdown.jpg",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 82,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -188,6 +238,7 @@
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "275d77f1-8fc1-4bd0-b671-503acc0855bd",
     "dc5e4a7a-3282-4ba6-8691-111c47aa18aa",
-    "5e71ce74-ea89-4606-8e54-7f428e43cb08"
+    "5e71ce74-ea89-4606-8e54-7f428e43cb08",
+    "1b88d9f3-9820-43b8-9d5a-3b28110ce1a3"
   ]
 }

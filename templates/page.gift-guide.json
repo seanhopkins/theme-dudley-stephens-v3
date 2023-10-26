@@ -282,6 +282,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/HolidayDeadlines_Shipping.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -294,6 +295,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/HolidayDeadlines_monogram.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",

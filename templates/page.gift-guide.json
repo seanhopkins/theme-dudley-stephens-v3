@@ -92,7 +92,7 @@
             "title": "Gifts of Comfort",
             "text": "<p>Coziness in gift form, to keep them warm and comfy all season long.<\/p>",
             "button_label": "SHOP NOW",
-            "button_link": ""
+            "button_link": "https:\/\/www.dudley-stephens.com\/collections\/gifts-of-comfort?_pos=2&_psq=gifts+of&_ss=e&_v=1.0"
           }
         },
         "template--15070684512298__275d77f1-8fc1-4bd0-b671-503acc0855bd-text_block-2": {
@@ -105,7 +105,7 @@
             "title": "Time to Shine",
             "text": "<p>Dress your festive best in these special-occasion pieces.<\/p>",
             "button_label": "shop now",
-            "button_link": ""
+            "button_link": "https:\/\/www.dudley-stephens.com\/collections\/time-to-shine?_pos=1&_psq=time+to+shine&_ss=e&_v=1.0"
           }
         },
         "template--15070684512298__275d77f1-8fc1-4bd0-b671-503acc0855bd-text_block-3": {
@@ -118,7 +118,7 @@
             "title": "DS Holiday for Him",
             "text": "<p>For gifting or giving in advance (he has holiday occasions to dress for, too).<\/p>",
             "button_label": "shop now",
-            "button_link": ""
+            "button_link": "https:\/\/www.dudley-stephens.com\/collections\/ds-holiday-for-him?_pos=1&_psq=ds+holiday+for+h&_ss=e&_v=1.0"
           }
         }
       },
@@ -137,7 +137,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Little Things: Small Treasures, Maximum Delight",
-        "home_featured_products": "",
+        "home_featured_products": "little-things",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -194,7 +194,7 @@
             "title": "Luxe Indulgences",
             "text": "<p>Sophisticated pieces for those who appreciate the finer things.<\/p>",
             "button_label": "Shop now",
-            "button_link": ""
+            "button_link": "https:\/\/www.dudley-stephens.com\/collections\/luxe-indulgences?_pos=1&_psq=luxe+indul&_ss=e&_v=1.0"
           }
         },
         "template--15070684512298__78222b9f-e63b-4367-b8e0-6ccc4d914679-text_block-2": {
@@ -207,7 +207,7 @@
             "title": "Perfect Picks for Kids",
             "text": "<p>Tied with toys at the top of their wish list: a cozy Dudley fleece.<\/p>",
             "button_label": "Shop now",
-            "button_link": ""
+            "button_link": "https:\/\/www.dudley-stephens.com\/collections\/perfect-picks-for-kids?_pos=1&_psq=perfect+pi&_ss=e&_v=1.0"
           }
         },
         "template--15070684512298__78222b9f-e63b-4367-b8e0-6ccc4d914679-text_block-3": {
@@ -220,7 +220,7 @@
             "title": "Forever Classics",
             "text": "<p>These bestsellers are sure to become their instant holiday favorites.<\/p>",
             "button_label": "Shop now",
-            "button_link": ""
+            "button_link": "https:\/\/www.dudley-stephens.com\/collections\/forever-classics?_pos=1&_psq=forever+classics&_ss=e&_v=1.0"
           }
         }
       },

@@ -59,19 +59,11 @@
             "enlarge_text": true,
             "text": "<p>What better time of year to return to tradition, to tried-and-true favorite things? This holiday we’re celebrating the cozy moments that make the season special.<\/p>"
           }
-        },
-        "aa0aa0d9-46ab-4851-8584-1dd3411b34b0": {
-          "type": "button",
-          "settings": {
-            "link": "https:\/\/www.dudley-stephens.com\/collections\/shop-all",
-            "link_text": "SHOP ALL"
-          }
         }
       },
       "block_order": [
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1",
-        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1",
-        "aa0aa0d9-46ab-4851-8584-1dd3411b34b0"
+        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1"
       ],
       "settings": {
         "align_text": "center",
@@ -148,32 +140,42 @@
     "5e71ce74-ea89-4606-8e54-7f428e43cb08": {
       "type": "hotspots",
       "blocks": {
-        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-1": {
-          "type": "product",
-          "settings": {
-            "featured_product": "",
-            "vertical": 56,
-            "horizontal": 47
-          }
-        },
         "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-2": {
           "type": "product",
           "settings": {
-            "featured_product": "",
-            "vertical": 41,
+            "featured_product": "tahoe-turtleneck-in-vello-fleece-cobalt",
+            "vertical": 58,
             "horizontal": 83
+          }
+        },
+        "832c630c-93b2-4573-8666-054729f0959e": {
+          "type": "product",
+          "settings": {
+            "featured_product": "toddler-turtleneck-in-vello-fleece-ice-blue",
+            "vertical": 50,
+            "horizontal": 16
+          }
+        },
+        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-1": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "featured_product": "",
+            "vertical": 54,
+            "horizontal": 33
           }
         }
       },
       "block_order": [
-        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-1",
-        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-2"
+        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-2",
+        "832c630c-93b2-4573-8666-054729f0959e",
+        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-1"
       ],
       "settings": {
         "title": "Holiday Memories, Outfitted",
         "heading_size": "h3",
         "heading_position": "left",
-        "image": "shopify:\/\/shop_images\/DS_Holiday23_Shot_11_044.jpg",
+        "image": "shopify:\/\/shop_images\/Holiday.jpg",
         "indent_image": false,
         "image_position": "left",
         "hotspot_style": "bag",

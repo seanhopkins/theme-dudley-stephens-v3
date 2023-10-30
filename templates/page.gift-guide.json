@@ -295,14 +295,14 @@
         "template--15070684512298__3d92c77d-2016-411c-822f-1f07c307485e-heading-1": {
           "type": "heading",
           "settings": {
-            "title": ""
+            "title": "Holiday Return Policy"
           }
         },
         "template--15070684512298__3d92c77d-2016-411c-822f-1f07c307485e-text-1": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Holiday returns are extended from November 1 through January 7.<\/p>"
+            "text": "<p>Orders placed November 1st through December 7, 2023 will be returnable until January 7th.<\/p><p><br\/>Orders placed from December 7th 2023 on will be subject to our 30 day return policy, returnable until Sunday January 7th<\/p>"
           }
         }
       },

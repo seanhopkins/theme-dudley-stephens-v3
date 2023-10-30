@@ -249,34 +249,6 @@
         "divider": false
       }
     },
-    "3d92c77d-2016-411c-822f-1f07c307485e": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15070684512298__3d92c77d-2016-411c-822f-1f07c307485e-heading-1": {
-          "type": "heading",
-          "settings": {
-            "title": "Holiday Shipping Deadlines"
-          }
-        },
-        "template--15070684512298__3d92c77d-2016-411c-822f-1f07c307485e-text-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Ground: Wednesday, December 13 at 5 p.m. ET<br\/>2-Day: Tuesday, December 19 at 12 p.m. ET<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15070684512298__3d92c77d-2016-411c-822f-1f07c307485e-heading-1",
-        "template--15070684512298__3d92c77d-2016-411c-822f-1f07c307485e-text-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
     "e867dc52-7838-4a1b-9eff-4930d7ae54f6": {
       "type": "text-columns",
       "blocks": {
@@ -316,6 +288,33 @@
         "align_text": "center",
         "divider": false
       }
+    },
+    "3d92c77d-2016-411c-822f-1f07c307485e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15070684512298__3d92c77d-2016-411c-822f-1f07c307485e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Holiday Return Policy"
+          }
+        },
+        "template--15070684512298__3d92c77d-2016-411c-822f-1f07c307485e-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Orders placed November 1st through December 7, 2023 will be returnable until January 7th.<\/p><p><br\/>Orders placed from December 7th 2023 on will be subject to our 30 day return policy, returnable until Sunday January 7th.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15070684512298__3d92c77d-2016-411c-822f-1f07c307485e-heading-1",
+        "template--15070684512298__3d92c77d-2016-411c-822f-1f07c307485e-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -327,7 +326,7 @@
     "5e71ce74-ea89-4606-8e54-7f428e43cb08",
     "78222b9f-e63b-4367-b8e0-6ccc4d914679",
     "900a2857-5d6d-4401-91c1-adb9b261700b",
-    "3d92c77d-2016-411c-822f-1f07c307485e",
-    "e867dc52-7838-4a1b-9eff-4930d7ae54f6"
+    "e867dc52-7838-4a1b-9eff-4930d7ae54f6",
+    "3d92c77d-2016-411c-822f-1f07c307485e"
   ]
 }

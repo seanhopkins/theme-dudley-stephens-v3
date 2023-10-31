@@ -175,7 +175,7 @@
         "title": "Holiday Memories, Outfitted",
         "heading_size": "h3",
         "heading_position": "left",
-        "image": "shopify:\/\/shop_images\/Holiday.jpg",
+        "image": "shopify:\/\/shop_images\/Hanukkah.jpg",
         "indent_image": false,
         "image_position": "left",
         "hotspot_style": "bag",
@@ -190,7 +190,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/DS_Holiday23_Shot_08_075.jpg",
+            "image": "shopify:\/\/shop_images\/luxe.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Luxe Indulgences",
@@ -216,7 +216,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/DS_Holiday23_Shot_05_048.jpg",
+            "image": "shopify:\/\/shop_images\/DSclassics.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Forever Classics",

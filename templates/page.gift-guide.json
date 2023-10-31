@@ -239,6 +239,7 @@
     },
     "900a2857-5d6d-4401-91c1-adb9b261700b": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Dudley Stephens x 1212",
         "home_featured_products": "dudley-stephens-x-1212",

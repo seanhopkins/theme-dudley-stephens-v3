@@ -43,7 +43,7 @@
       "settings": {
         "section_height": "natural",
         "mobile_height": "auto",
-        "parallax": true,
+        "parallax": false,
         "framed": true,
         "style": "bars",
         "autoplay": true,

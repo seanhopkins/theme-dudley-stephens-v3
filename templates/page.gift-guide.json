@@ -158,9 +158,8 @@
         },
         "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-1": {
           "type": "product",
-          "disabled": true,
           "settings": {
-            "featured_product": "",
+            "featured_product": "mens-salisbury-vest-in-double-layer-vello-fleece-charcoal-grey",
             "vertical": 54,
             "horizontal": 33
           }

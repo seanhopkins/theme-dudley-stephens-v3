@@ -284,7 +284,7 @@
             "settings": {
               "title": "Burgundy",
               "swatch_color": "#9d3f49",
-              "monogram_swatch": "shopify:\/\/shop_images\/0000s_0005_burgundy.jpg"
+              "monogram_swatch": "shopify:\/\/shop_images\/Burgundy_Monogram_Fabric_Swatch.png"
             }
           },
           "5abc2910-ee16-48e6-b991-e5e7ea69992e": {
@@ -402,7 +402,7 @@
             "settings": {
               "title": "Cobalt",
               "swatch_color": "#2f4697",
-              "monogram_swatch": "shopify:\/\/shop_images\/cobalt.jpg"
+              "monogram_swatch": "shopify:\/\/shop_images\/Cobalt_Monogram_Fabric_Swatch.png"
             }
           },
           "a69a798e-2ddd-4893-b7f0-0f201addc587": {
@@ -457,7 +457,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Elderberry",
-              "swatch_color": "#4c3246"
+              "swatch_color": "#4c3246",
+              "monogram_swatch": "shopify:\/\/shop_images\/Elderberry_Monogram_Fabric_Swatch.png"
             }
           },
           "d777daf7-be50-4aa8-b326-a0c3487d37bd": {
@@ -612,7 +613,7 @@
             "settings": {
               "title": "Ice Blue",
               "swatch_color": "#c7eafb",
-              "monogram_swatch": "shopify:\/\/shop_images\/ice-blue.jpg"
+              "monogram_swatch": "shopify:\/\/shop_images\/Ice_Blue_Monogram_Fabric_Swatch.png"
             }
           },
           "1595351270156": {
@@ -1001,7 +1002,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Pink Peony",
-              "swatch_color": "#f9bac2"
+              "swatch_color": "#f9bac2",
+              "monogram_swatch": "shopify:\/\/shop_images\/Pink_Peony_Monogram_Fabric_Swatch.png"
             }
           },
           "e20cf8b1-8f97-477b-b058-c9ba7bcb5765": {
@@ -1110,7 +1112,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Spruce",
-              "swatch_color": "#374431"
+              "swatch_color": "#374431",
+              "monogram_swatch": "shopify:\/\/shop_images\/Spruce_Monogram_Fabric_Swatch.png"
             }
           },
           "1600103847112": {

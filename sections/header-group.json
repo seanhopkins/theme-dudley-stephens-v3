@@ -9,8 +9,8 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "The Dudley Sport collection is here! Shop the Drop.",
-            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
+            "link_text": "Our Holiday Classics Gift Guide is here! Shop Now",
+            "link": "shopify:\/\/pages\/gift-guide-2023"
           }
         },
         "announcement-0": {
@@ -18,7 +18,7 @@
           "disabled": true,
           "settings": {
             "text": "",
-            "link_text": "Shop More, Save More:  $150+ = 20% off | $300+ = 30% off | $600+ = 40% off (applies automatically in cart).",
+            "link_text": "Shop More, Save More:  $150+ = 20% off | $300+ = 30% off | $600+ = 40% off",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
           }
         },

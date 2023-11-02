@@ -1,0 +1,332 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "9c3c6730-bdb9-4772-9ee6-476daf36a1fb": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15070684512298__9c3c6730-bdb9-4772-9ee6-476daf36a1fb-image-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify:\/\/shop_images\/Slider_9217487d-1b42-4ae5-9435-982775c5a92f.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_94d75f75-88cd-41a1-beb2-f08bd15bfd96.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15070684512298__9c3c6730-bdb9-4772-9ee6-476daf36a1fb-image-1"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "framed": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": false
+      }
+    },
+    "c3220d24-8e7b-4f84-a431-0aae228e36f2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Holiday Classics"
+          }
+        },
+        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>What better time of year to return to tradition, to tried-and-true favorite things? This holiday we’re celebrating the cozy moments that make the season special.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1",
+        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "275d77f1-8fc1-4bd0-b671-503acc0855bd": {
+      "type": "text-columns",
+      "blocks": {
+        "template--15070684512298__275d77f1-8fc1-4bd0-b671-503acc0855bd-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/giftsofcomfort.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Gifts of Comfort",
+            "text": "<p>Coziness in gift form, to keep them warm and comfy all season long.<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "https:\/\/www.dudley-stephens.com\/collections\/gifts-of-comfort?_pos=2&_psq=gifts+of&_ss=e&_v=1.0"
+          }
+        },
+        "template--15070684512298__275d77f1-8fc1-4bd0-b671-503acc0855bd-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Timetoshine.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Time to Shine",
+            "text": "<p>Dress your festive best in these special-occasion pieces.<\/p>",
+            "button_label": "shop now",
+            "button_link": "https:\/\/www.dudley-stephens.com\/collections\/time-to-shine?_pos=1&_psq=time+to+shine&_ss=e&_v=1.0"
+          }
+        },
+        "template--15070684512298__275d77f1-8fc1-4bd0-b671-503acc0855bd-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/dudleymen.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "DS Holiday for Him",
+            "text": "<p>For gifting or giving in advance (he has holiday occasions to dress for, too).<\/p>",
+            "button_label": "shop now",
+            "button_link": "https:\/\/www.dudley-stephens.com\/collections\/ds-holiday-for-him?_pos=1&_psq=ds+holiday+for+h&_ss=e&_v=1.0"
+          }
+        }
+      },
+      "block_order": [
+        "template--15070684512298__275d77f1-8fc1-4bd0-b671-503acc0855bd-text_block-1",
+        "template--15070684512298__275d77f1-8fc1-4bd0-b671-503acc0855bd-text_block-2",
+        "template--15070684512298__275d77f1-8fc1-4bd0-b671-503acc0855bd-text_block-3"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "dc5e4a7a-3282-4ba6-8691-111c47aa18aa": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Little Things: Small Treasures, Maximum Delight",
+        "home_featured_products": "little-things",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "5e71ce74-ea89-4606-8e54-7f428e43cb08": {
+      "type": "hotspots",
+      "blocks": {
+        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-2": {
+          "type": "product",
+          "settings": {
+            "featured_product": "tahoe-turtleneck-in-vello-fleece-cobalt",
+            "vertical": 58,
+            "horizontal": 83
+          }
+        },
+        "832c630c-93b2-4573-8666-054729f0959e": {
+          "type": "product",
+          "settings": {
+            "featured_product": "toddler-turtleneck-in-vello-fleece-ice-blue",
+            "vertical": 50,
+            "horizontal": 16
+          }
+        },
+        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-1": {
+          "type": "product",
+          "settings": {
+            "featured_product": "mens-salisbury-vest-in-double-layer-vello-fleece-charcoal-grey",
+            "vertical": 54,
+            "horizontal": 33
+          }
+        }
+      },
+      "block_order": [
+        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-2",
+        "832c630c-93b2-4573-8666-054729f0959e",
+        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-1"
+      ],
+      "settings": {
+        "title": "Holiday Memories, Outfitted",
+        "heading_size": "h3",
+        "heading_position": "left",
+        "image": "shopify:\/\/shop_images\/Hanukkah.jpg",
+        "indent_image": false,
+        "image_position": "left",
+        "hotspot_style": "bag",
+        "hotspot_color": "#000000",
+        "lazyload_images": true
+      }
+    },
+    "78222b9f-e63b-4367-b8e0-6ccc4d914679": {
+      "type": "text-columns",
+      "blocks": {
+        "template--15070684512298__78222b9f-e63b-4367-b8e0-6ccc4d914679-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/luxe.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Luxe Indulgences",
+            "text": "<p>Sophisticated pieces for those who appreciate the finer things.<\/p>",
+            "button_label": "Shop now",
+            "button_link": "https:\/\/www.dudley-stephens.com\/collections\/luxe-indulgences?_pos=1&_psq=luxe+indul&_ss=e&_v=1.0"
+          }
+        },
+        "template--15070684512298__78222b9f-e63b-4367-b8e0-6ccc4d914679-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/kids.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Perfect Picks for Kids",
+            "text": "<p>Tied with toys at the top of their wish list: a cozy Dudley fleece.<\/p>",
+            "button_label": "Shop now",
+            "button_link": "https:\/\/www.dudley-stephens.com\/collections\/perfect-picks-for-kids?_pos=1&_psq=perfect+pi&_ss=e&_v=1.0"
+          }
+        },
+        "template--15070684512298__78222b9f-e63b-4367-b8e0-6ccc4d914679-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DSclassics.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Forever Classics",
+            "text": "<p>These bestsellers are sure to become their instant holiday favorites.<\/p>",
+            "button_label": "Shop now",
+            "button_link": "https:\/\/www.dudley-stephens.com\/collections\/forever-classics?_pos=1&_psq=forever+classics&_ss=e&_v=1.0"
+          }
+        }
+      },
+      "block_order": [
+        "template--15070684512298__78222b9f-e63b-4367-b8e0-6ccc4d914679-text_block-1",
+        "template--15070684512298__78222b9f-e63b-4367-b8e0-6ccc4d914679-text_block-2",
+        "template--15070684512298__78222b9f-e63b-4367-b8e0-6ccc4d914679-text_block-3"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "900a2857-5d6d-4401-91c1-adb9b261700b": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Dudley Stephens x 1212",
+        "home_featured_products": "dudley-stephens-x-1212",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "e867dc52-7838-4a1b-9eff-4930d7ae54f6": {
+      "type": "text-columns",
+      "blocks": {
+        "template--15070684512298__e867dc52-7838-4a1b-9eff-4930d7ae54f6-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Holidayshipping.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--15070684512298__e867dc52-7838-4a1b-9eff-4930d7ae54f6-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/HolidayMonogram.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15070684512298__e867dc52-7838-4a1b-9eff-4930d7ae54f6-text_block-1",
+        "template--15070684512298__e867dc52-7838-4a1b-9eff-4930d7ae54f6-text_block-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "3d92c77d-2016-411c-822f-1f07c307485e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15070684512298__3d92c77d-2016-411c-822f-1f07c307485e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Holiday Return Policy"
+          }
+        },
+        "template--15070684512298__3d92c77d-2016-411c-822f-1f07c307485e-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Orders placed November 1st through December 7, 2023 will be returnable until January 7th.<\/p><p><br\/>Orders placed from December 7th 2023 on will be subject to our 30 day return policy, returnable until Sunday January 7th<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15070684512298__3d92c77d-2016-411c-822f-1f07c307485e-heading-1",
+        "template--15070684512298__3d92c77d-2016-411c-822f-1f07c307485e-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "9c3c6730-bdb9-4772-9ee6-476daf36a1fb",
+    "c3220d24-8e7b-4f84-a431-0aae228e36f2",
+    "275d77f1-8fc1-4bd0-b671-503acc0855bd",
+    "dc5e4a7a-3282-4ba6-8691-111c47aa18aa",
+    "5e71ce74-ea89-4606-8e54-7f428e43cb08",
+    "78222b9f-e63b-4367-b8e0-6ccc4d914679",
+    "900a2857-5d6d-4401-91c1-adb9b261700b",
+    "e867dc52-7838-4a1b-9eff-4930d7ae54f6",
+    "3d92c77d-2016-411c-822f-1f07c307485e"
+  ]
+}

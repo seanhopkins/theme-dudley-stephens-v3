@@ -7,18 +7,18 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Dudley Sport",
+            "title": "Holiday Ready",
             "title_size": 80,
             "text_color": "#ffffff",
-            "subheading": "Action-packed pieces for on-the-go days.",
+            "subheading": "Stock your closet with warm shades that take you everywhere the season calls.",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
             "link_text": "SHOP THE DROP",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/Slider_8e3a3b35-156d-4f52-9e98-a140fab8d7d8.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_5da9dae8-000d-48a9-b70a-11b5080cfe9b.jpg",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Slider_42a2ca82-2002-404c-915a-5a94390aba66.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_40082d69-cabe-47a1-a7e5-8d02939fe621.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 4
           }
@@ -27,6 +27,7 @@
       "block_order": [
         "template--14928844390442__1a4d9a53-964a-41f0-8545-5ecbeedfa2b5-1687472987ab5faa84-0"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -44,39 +45,17 @@
     "b8fccc94-b721-4ed5-a976-f81ed754cc18": {
       "type": "promo-grid",
       "blocks": {
-        "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-0": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "Summer Essentials",
-            "textarea": "Light, breathable, stylish—suitable for all occasions",
-            "cta_text1": "Shop Summer",
-            "cta_link1": "",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Slider_Moblie_b34dcf70-f892-443c-8c03-bfeb4678f440.jpg",
-            "video_url": "",
-            "width": "100",
-            "height": 800,
-            "text_size": 135,
-            "text_align": "vertical-bottom horizontal-center",
-            "color_accent": "#ffffff",
-            "boxed": false,
-            "framed": true
-          }
-        },
         "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1": {
           "type": "advanced",
-          "disabled": true,
           "settings": {
             "subheading": "",
-            "heading": "Capsule Wardrobe",
-            "textarea": "All the basics you need to mix and match",
-            "cta_text1": "Shop Basics",
-            "cta_link1": "",
+            "heading": "The Gift Guide: Holiday Classics",
+            "textarea": "This holiday, we’re celebrating the cozy moments that make the season special.",
+            "cta_text1": "Shop the guide",
+            "cta_link1": "shopify:\/\/pages\/gift-guide-2023",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/2023-04-17-dudldeystephens_ShadesOfPinck-JDP_2353.jpg",
+            "image": "shopify:\/\/shop_images\/holidaygg.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -87,35 +66,32 @@
             "framed": true
           }
         },
-        "c0ceff30-f019-44d7-b646-cab022cd267f": {
+        "b22e1874-3a53-481a-8ddb-89975d97e49b": {
           "type": "advanced",
-          "disabled": true,
           "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
-            "cta_link1": "",
+            "subheading": "",
+            "heading": "Just In",
+            "textarea": "Wearable and giftable pieces to start your thanks & giving season in style.",
+            "cta_text1": "Shop the drop",
+            "cta_link1": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/2023-04-17-dudldeystephens-JDP_1659.jpg",
+            "image": "shopify:\/\/shop_images\/dudleymen.jpg",
             "video_url": "",
-            "width": "33",
-            "height": 500,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "color_accent": "rgba(0,0,0,0)",
+            "width": "50",
+            "height": 800,
+            "text_size": 135,
+            "text_align": "vertical-bottom horizontal-center",
+            "color_accent": "#ffffff",
             "boxed": false,
             "framed": true
           }
         }
       },
       "block_order": [
-        "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-0",
         "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1",
-        "c0ceff30-f019-44d7-b646-cab022cd267f"
+        "b22e1874-3a53-481a-8ddb-89975d97e49b"
       ],
-      "disabled": true,
       "custom_css": [
         "h2 {font-family: \"QuaverSerif\";}"
       ],
@@ -256,8 +232,8 @@
           "type": "timer",
           "settings": {
             "year": "2023",
-            "month": "10",
-            "day": "24",
+            "month": "11",
+            "day": "2",
             "hour": "10",
             "minute": "00",
             "hide_timer": false,
@@ -267,7 +243,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2": {
           "type": "button",
           "settings": {
-            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-holiday-ready-turtlenecks",
+            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-ds-x-1212-holiday-pajamas",
             "button": "Preview now",
             "button_style": "solid"
           }
@@ -286,9 +262,9 @@
         "full_width": false,
         "text_color": "#232528",
         "background_color": "#ffffff",
-        "background_image": "shopify:\/\/shop_images\/DropCountdown_Americana.jpg",
+        "background_image": "shopify:\/\/shop_images\/1212countdown_7741cea7-cb39-4615-93a7-c11eac3e2759.jpg",
         "overlay_color": "#ffffff",
-        "overlay_opacity": 74,
+        "overlay_opacity": 76,
         "lazyload_images": true
       }
     },

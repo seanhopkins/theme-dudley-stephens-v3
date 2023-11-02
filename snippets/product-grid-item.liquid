@@ -70,15 +70,6 @@ Arguments
 <div class="grid__item grid-product {{ gridView }} {% if quick_shop_enable %} grid-product__has-quick-shop{% endif %}" data-aos="row-of-{{ per_row }}" data-product-handle="{{ product.handle }}" data-product-id="{{ product.id }}">
   <div class="grid-product__content">
 
-    <div class="product__photos--stamps">
-      {% for stamp in product.metafields.custom.stamp.value %}
-        {% assign stamp_handle = stamp | handleize %}
-        {% assign stamp_filename = stamp_handle | append: ".png"%}
-        <div class="product__stamp stamp--{{ stamp_handle }}">
-          <img src="{{ stamp_filename | file_url }}" alt="{{ stamp }}">
-        </div>
-      {% endfor %}
-    </div>
     
     {%- if has_custom_label -%}
       <div class="grid-product__tag grid-product__tag--custom">
@@ -113,6 +104,15 @@ Arguments
     -%}
 
     <div class="grid__item-image-wrapper">
+      <div class="product__photos--stamps">
+        {% for stamp in product.metafields.custom.stamp.value %}
+          {% assign stamp_handle = stamp | handleize %}
+          {% assign stamp_filename = stamp_handle | append: ".png"%}
+          <div class="product__stamp stamp--{{ stamp_handle }}">
+            {{ stamp }}
+          </div>
+        {% endfor %}
+      </div>
       <a href="{{ product.url | within: collection }}" class="grid-product__link">
         <div class="grid-product__image-mask">
           {%- if fixed_aspect_ratio -%}

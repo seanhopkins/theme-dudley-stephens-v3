@@ -28,7 +28,8 @@
         {% assign stamp_handle = stamp | handleize %}
         {% assign stamp_filename = stamp_handle | append: ".png"%}
         <div class="product__stamp stamp--{{ stamp_handle }}">
-          <img src="{{ stamp_filename | file_url }}" alt="{{ stamp }}">
+          <img class="product__stamp--image small--hide" src="{{ stamp_filename | file_url }}" alt="{{ stamp }}">
+          <div class="product__stamp--label medium-up--hide">{{ stamp }}</div>
         </div>
       {% endfor %}
     </div>

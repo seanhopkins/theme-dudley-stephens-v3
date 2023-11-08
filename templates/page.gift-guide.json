@@ -137,44 +137,35 @@
         "divider": false
       }
     },
-    "5e71ce74-ea89-4606-8e54-7f428e43cb08": {
+    "abb70cf8-d93b-4833-8aa6-a8a251d10615": {
       "type": "hotspots",
       "blocks": {
-        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-2": {
+        "template--15070684512298__abb70cf8-d93b-4833-8aa6-a8a251d10615-product-2": {
           "type": "product",
           "settings": {
-            "featured_product": "tahoe-turtleneck-in-vello-fleece-cobalt",
-            "vertical": 58,
-            "horizontal": 83
+            "featured_product": "kaki-pullover-in-sherpa-fleece-camp-stripe",
+            "vertical": 56,
+            "horizontal": 38
           }
         },
-        "832c630c-93b2-4573-8666-054729f0959e": {
+        "template--15070684512298__abb70cf8-d93b-4833-8aa6-a8a251d10615-product-1": {
           "type": "product",
           "settings": {
-            "featured_product": "toddler-turtleneck-in-vello-fleece-ice-blue",
-            "vertical": 50,
-            "horizontal": 16
-          }
-        },
-        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-1": {
-          "type": "product",
-          "settings": {
-            "featured_product": "mens-salisbury-vest-in-double-layer-vello-fleece-charcoal-grey",
-            "vertical": 54,
-            "horizontal": 33
+            "featured_product": "mens-beacon-pullover-in-double-layer-vello-fleece-navy",
+            "vertical": 42,
+            "horizontal": 77
           }
         }
       },
       "block_order": [
-        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-2",
-        "832c630c-93b2-4573-8666-054729f0959e",
-        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-1"
+        "template--15070684512298__abb70cf8-d93b-4833-8aa6-a8a251d10615-product-2",
+        "template--15070684512298__abb70cf8-d93b-4833-8aa6-a8a251d10615-product-1"
       ],
       "settings": {
-        "title": "Holiday Memories, Outfitted",
-        "heading_size": "h3",
+        "title": "A Time for Nostalgia (Captured in Our New Camp Stripe)",
+        "heading_size": "h2",
         "heading_position": "left",
-        "image": "shopify:\/\/shop_images\/Hanukkah.jpg",
+        "image": "shopify:\/\/shop_images\/campstripe.jpg",
         "indent_image": false,
         "image_position": "left",
         "hotspot_style": "bag",
@@ -246,6 +237,51 @@
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
+      }
+    },
+    "5e71ce74-ea89-4606-8e54-7f428e43cb08": {
+      "type": "hotspots",
+      "blocks": {
+        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-2": {
+          "type": "product",
+          "settings": {
+            "featured_product": "tahoe-turtleneck-in-vello-fleece-cobalt",
+            "vertical": 58,
+            "horizontal": 83
+          }
+        },
+        "832c630c-93b2-4573-8666-054729f0959e": {
+          "type": "product",
+          "settings": {
+            "featured_product": "toddler-turtleneck-in-vello-fleece-ice-blue",
+            "vertical": 50,
+            "horizontal": 16
+          }
+        },
+        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-1": {
+          "type": "product",
+          "settings": {
+            "featured_product": "mens-salisbury-vest-in-double-layer-vello-fleece-charcoal-grey",
+            "vertical": 54,
+            "horizontal": 33
+          }
+        }
+      },
+      "block_order": [
+        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-2",
+        "832c630c-93b2-4573-8666-054729f0959e",
+        "template--15070684512298__5e71ce74-ea89-4606-8e54-7f428e43cb08-product-1"
+      ],
+      "settings": {
+        "title": "Holiday Memories, Outfitted",
+        "heading_size": "h3",
+        "heading_position": "left",
+        "image": "shopify:\/\/shop_images\/Hanukkah.jpg",
+        "indent_image": false,
+        "image_position": "left",
+        "hotspot_style": "bag",
+        "hotspot_color": "#000000",
+        "lazyload_images": true
       }
     },
     "e867dc52-7838-4a1b-9eff-4930d7ae54f6": {
@@ -322,9 +358,10 @@
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "275d77f1-8fc1-4bd0-b671-503acc0855bd",
     "dc5e4a7a-3282-4ba6-8691-111c47aa18aa",
-    "5e71ce74-ea89-4606-8e54-7f428e43cb08",
+    "abb70cf8-d93b-4833-8aa6-a8a251d10615",
     "78222b9f-e63b-4367-b8e0-6ccc4d914679",
     "900a2857-5d6d-4401-91c1-adb9b261700b",
+    "5e71ce74-ea89-4606-8e54-7f428e43cb08",
     "e867dc52-7838-4a1b-9eff-4930d7ae54f6",
     "3d92c77d-2016-411c-822f-1f07c307485e"
   ]

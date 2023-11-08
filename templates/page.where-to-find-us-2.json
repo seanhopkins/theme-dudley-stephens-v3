@@ -30,7 +30,7 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "divider": false
+        "divider": true
       }
     },
     "c8a72bb7-4915-4ed7-ba64-198e8079eb61": {
@@ -52,9 +52,54 @@
         "image_width": "33",
         "layout": "left",
         "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
+        "top_padding": false,
+        "bottom_padding": false,
         "lazyload_images": true
+      }
+    },
+    "b2f8adf7-687d-472a-96ad-c9dbc54a3d5c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14916873748522__b2f8adf7-687d-472a-96ad-c9dbc54a3d5c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Find a store near you"
+          }
+        },
+        "template--14916873748522__b2f8adf7-687d-472a-96ad-c9dbc54a3d5c-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14916873748522__b2f8adf7-687d-472a-96ad-c9dbc54a3d5c-heading-1",
+        "template--14916873748522__b2f8adf7-687d-472a-96ad-c9dbc54a3d5c-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "16965419460da0135b": {
+      "type": "apps",
+      "blocks": {
+        "2f8f136e-6d47-4c86-8205-9f47ef705b7f": {
+          "type": "shopify:\/\/apps\/progus-store-locator-map\/blocks\/app-block\/d7896016-8cc9-45e0-860e-ba85ba3d5be4",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "2f8f136e-6d47-4c86-8205-9f47ef705b7f"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
       }
     },
     "5dee744c-bf51-4b21-b38f-c17a935a8da7": {
@@ -167,33 +212,9 @@
         "073a8d4f-a5c5-4836-80c0-459bc6a87a33",
         "0ca57132-3317-4022-aa69-bb7c77824319"
       ],
+      "disabled": true,
       "settings": {
         "title": "Connecticut",
-        "align_text": "left",
-        "divider": true
-      }
-    },
-    "e054fc62-2f22-40b7-ae17-d786e8af14dd": {
-      "type": "text-columns",
-      "blocks": {
-        "71118db0-645a-4192-be09-cd179028cd93": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Whimsy",
-            "text": "<p>3838 Kennett Pike, Greenville, DE<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "71118db0-645a-4192-be09-cd179028cd93"
-      ],
-      "settings": {
-        "title": "Delaware",
         "align_text": "left",
         "divider": true
       }
@@ -244,6 +265,7 @@
         "bb6645d9-232a-41f4-8b0f-53c12b77ce11",
         "62395583-cf40-4d0f-be0c-7e08c33cadd5"
       ],
+      "disabled": true,
       "settings": {
         "title": "Illinois",
         "align_text": "left",
@@ -296,6 +318,7 @@
         "1faa638a-5789-4bbb-94e6-01796dea3a75",
         "80915b86-abf1-4f5e-bcb1-e4e192de7dfb"
       ],
+      "disabled": true,
       "settings": {
         "title": "Kentucky",
         "align_text": "left",
@@ -335,6 +358,7 @@
         "f6923081-93c0-4a4d-bfce-58fc0398ae03",
         "917b528c-e48c-44ec-b284-f72019d3f5b6"
       ],
+      "disabled": true,
       "settings": {
         "title": "Maine",
         "align_text": "left",
@@ -386,6 +410,7 @@
         "4968a584-f7ee-41f0-bab1-19930e8f48ed",
         "2d48abb8-d6c2-43fe-99ce-cb3bde84edf7"
       ],
+      "disabled": true,
       "settings": {
         "title": "Maryland",
         "align_text": "left",
@@ -503,6 +528,7 @@
         "73740f22-9b56-4e99-a906-659f3bc64f9a",
         "1c25cc58-102d-4749-8f7f-ec2535ea08df"
       ],
+      "disabled": true,
       "settings": {
         "title": "Massachusetts",
         "align_text": "left",
@@ -528,6 +554,7 @@
       "block_order": [
         "0d63717e-5668-4ec5-987b-e2a1abf43ab7"
       ],
+      "disabled": true,
       "settings": {
         "title": "Michigan",
         "align_text": "left",
@@ -553,6 +580,7 @@
       "block_order": [
         "2e721630-c1ae-470f-85af-843084ad338e"
       ],
+      "disabled": true,
       "settings": {
         "title": "Missouri",
         "align_text": "left",
@@ -578,6 +606,7 @@
       "block_order": [
         "b40e9b15-43d4-4e40-8eac-97f42aaa4984"
       ],
+      "disabled": true,
       "settings": {
         "title": "Montana",
         "align_text": "left",
@@ -616,6 +645,7 @@
         "f39c3a30-1ec0-4fae-ace6-cb00d2c4a4ee",
         "2243c7f9-c685-4ed9-8c6a-3026968b19ee"
       ],
+      "disabled": true,
       "settings": {
         "title": "New Jersey",
         "align_text": "left",
@@ -706,6 +736,7 @@
         "cccba7c1-87ec-458a-9e42-8a050cb7ee37",
         "73507637-50b1-4ff6-8f91-4691ea944c1a"
       ],
+      "disabled": true,
       "settings": {
         "title": "New York",
         "align_text": "left",
@@ -744,6 +775,7 @@
         "e0025eab-3aa0-4fb9-914a-88c8bb917cd7",
         "68fc1b7f-927d-4b17-ab27-c47519565292"
       ],
+      "disabled": true,
       "settings": {
         "title": "North Carolina",
         "align_text": "left",
@@ -795,6 +827,7 @@
         "ec0e1287-4b7a-4f02-a345-9b44708548f9",
         "87f77b80-c072-4e24-b2e6-c7d3150780f3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Ohio",
         "align_text": "left",
@@ -820,6 +853,7 @@
       "block_order": [
         "e9bbdf40-18ce-433b-88b9-a42c55eb67b4"
       ],
+      "disabled": true,
       "settings": {
         "title": "Pennsylvania",
         "align_text": "left",
@@ -858,6 +892,7 @@
         "11c2879d-4eee-421e-bcff-ced21822ee42",
         "62714e93-09ec-4806-813d-89c2af8b8634"
       ],
+      "disabled": true,
       "settings": {
         "title": "Rhode Island",
         "align_text": "left",
@@ -896,6 +931,7 @@
         "89221733-db7a-4f5c-94ea-e7301e3be5d5",
         "cae3a450-6578-434e-909a-cd0e445357cf"
       ],
+      "disabled": true,
       "settings": {
         "title": "South Carolina",
         "align_text": "left",
@@ -921,6 +957,7 @@
       "block_order": [
         "b5cb6e81-8429-490f-b7db-42f89ed7dd70"
       ],
+      "disabled": true,
       "settings": {
         "title": "Tennessee",
         "align_text": "left",
@@ -946,6 +983,7 @@
       "block_order": [
         "a1876f4a-dfbf-4992-9e20-7830baa9ca31"
       ],
+      "disabled": true,
       "settings": {
         "title": "Vermont",
         "align_text": "left",
@@ -984,6 +1022,7 @@
         "47f437d3-ad1e-4ad2-895b-00e7f9b648c8",
         "39b27b12-dc63-4297-ac00-e7bb94f899ce"
       ],
+      "disabled": true,
       "settings": {
         "title": "Virginia",
         "align_text": "left",
@@ -1009,6 +1048,7 @@
       "block_order": [
         "1402e2df-89f1-45ac-9e6b-b3dba136bb04"
       ],
+      "disabled": true,
       "settings": {
         "title": "Wisconsin",
         "align_text": "left",
@@ -1020,8 +1060,9 @@
     "main",
     "2f6a095d-856d-49d2-a1b6-439a5b00244c",
     "c8a72bb7-4915-4ed7-ba64-198e8079eb61",
+    "b2f8adf7-687d-472a-96ad-c9dbc54a3d5c",
+    "16965419460da0135b",
     "5dee744c-bf51-4b21-b38f-c17a935a8da7",
-    "e054fc62-2f22-40b7-ae17-d786e8af14dd",
     "c4de96f8-963f-4edb-ab31-816e6756dbb6",
     "adcf0919-a6d2-4e2a-965a-e7971c50d043",
     "d976aff8-5daa-4266-9f37-b3982781f6b1",

@@ -30,8 +30,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Slider_fef82be7-9f37-4407-b035-81fb4d31a5d6.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_48428531-7a42-42c2-a354-c94359f61dfe.jpg",
+            "image": "{{ collection.metafields.custom.hero_image.value }}",
+            "image_mobile": "{{ collection.metafields.custom.mobile_hero_image.value }}",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }

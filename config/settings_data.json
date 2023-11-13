@@ -68,12 +68,12 @@
     "cart_notes_enable": true,
     "cart_terms_conditions_enable": false,
     "gwp_enable": false,
-    "gwp_tier_1_product_ids": "3952059940906",
-    "gwp_tier_1_threshold": "150",
-    "gwp_tier_1_spend_more": "You’re just [money] away from our Hemlock Headband!",
-    "gwp_tier_1_unlocked": "<p>Good news: Your $150+ cart will earn you our Hemlock Headband! Add one to your cart before checking out, with no additional charge.<\/p>",
-    "gwp_tier_2_product_ids": "3952059940906,6923672420394",
-    "gwp_tier_2_threshold": "200",
+    "gwp_tier_1_product_ids": "6944207994922, 6944207700010, 6864698933290, 6944207896618, 6864697950250",
+    "gwp_tier_1_threshold": "50",
+    "gwp_tier_1_spend_more": "You’re just [money] away from our Turtleneck Ornament",
+    "gwp_tier_1_unlocked": "<p>Good news: Your $50+ cart will earn you our Turtleneck Ornament! Add one to your cart before checking out, with no additional charge.<\/p>",
+    "gwp_tier_2_product_ids": "",
+    "gwp_tier_2_threshold": "",
     "social_facebook_link": "https:\/\/www.facebook.com\/dudleystephensofficial",
     "social_twitter_link": "",
     "social_pinterest_link": "https:\/\/www.pinterest.com\/dudley_stephens\/",
@@ -84,7 +84,7 @@
     "show_breadcrumbs_collection_link": false,
     "disable_animations": true,
     "product_grid_enable_swatches": true,
-    "materials_list": "Material: Vello Fleece\nMaterial: Terry Fleece\nMaterial: Bubble Fleece\nMaterial: Double Layer Vello Fleece\nMaterial: Double Layer Vello Fleece with Neon Zipper\nMaterial: Brushed Fleece\nMaterial: Chevron\nMaterial: Ribbed Fleece\nMaterial: Vello Fleece Color Block\nMaterial: Shearling Fleece\nMaterial: Lightweight Vello Fleece\nMaterial: Townhouse Trunk Show\nMaterial: Silk\nMaterial: N\/A\nMaterial: Striped Fleece\nMaterial: Eco Jersey\nMaterial: Repreve® Jersey\nMaterial: Repreve® Striped Jersey\nMaterial: Repreve® Stretch\nMaterial: Waffle Jersey\nMaterial: Sherpa Fleece\nMaterial: Eco Stretch\nMaterial: Waffle\/Vello Fleece\nMaterial: Waffle\nMaterial: Luxe Stretch\nMaterial: Power Stretch\nMaterial: Lustre Puff",
+    "materials_list": "Material: Vello Fleece\nMaterial: Terry Fleece\nMaterial: Bubble Fleece\nMaterial: Double Layer Vello Fleece\nMaterial: Double Layer Vello Fleece with Neon Zipper\nMaterial: Brushed Fleece\nMaterial: Chevron\nMaterial: Ribbed Fleece\nMaterial: Vello Fleece Color Block\nMaterial: Shearling Fleece\nMaterial: Lightweight Vello Fleece\nMaterial: Townhouse Trunk Show\nMaterial: Silk\nMaterial: N\/A\nMaterial: Striped Fleece\nMaterial: Eco Jersey\nMaterial: Repreve® Jersey\nMaterial: Repreve® Striped Jersey\nMaterial: Repreve® Stretch\nMaterial: Waffle Jersey\nMaterial: Sherpa Fleece\nMaterial: Eco Stretch\nMaterial: Waffle\/Vello Fleece\nMaterial: Waffle\nMaterial: Luxe Stretch\nMaterial: Power Stretch\nMaterial: Lustre Puff\nMaterial: Merino Wool",
     "show_tag_sale_message_clp": false,
     "show_tag_sale_message_pdp": false,
     "tag_sale_tag": "bday",
@@ -1132,6 +1132,14 @@
               "swatch_image": "shopify:\/\/shop_images\/Summer_Ikat.jpg"
             }
           },
+          "1d3fb780-b30a-489c-bfdb-bf7ef019c9e5": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Summer Floral",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/summer-floral.png"
+            }
+          },
           "f6099cba-5aa4-4657-b41d-8268f1b91445": {
             "type": "color_swatch",
             "settings": {
@@ -1348,6 +1356,7 @@
           "97cb6275-4ab8-4fcf-8274-4fea59378220",
           "1600103847112",
           "2c3238ec-1fbe-4360-a8dd-bf1027f0a6c3",
+          "1d3fb780-b30a-489c-bfdb-bf7ef019c9e5",
           "f6099cba-5aa4-4657-b41d-8268f1b91445",
           "36bd77b7-82b2-4a5e-a9e4-2461cc5daf77",
           "6bfdaac1-dd78-4d5e-a01a-438b11d0e6de",

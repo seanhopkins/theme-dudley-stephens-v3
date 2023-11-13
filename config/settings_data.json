@@ -1132,6 +1132,14 @@
               "swatch_image": "shopify:\/\/shop_images\/Summer_Ikat.jpg"
             }
           },
+          "1d3fb780-b30a-489c-bfdb-bf7ef019c9e5": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Summer Floral",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/summer-floral.png"
+            }
+          },
           "f6099cba-5aa4-4657-b41d-8268f1b91445": {
             "type": "color_swatch",
             "settings": {
@@ -1348,6 +1356,7 @@
           "97cb6275-4ab8-4fcf-8274-4fea59378220",
           "1600103847112",
           "2c3238ec-1fbe-4360-a8dd-bf1027f0a6c3",
+          "1d3fb780-b30a-489c-bfdb-bf7ef019c9e5",
           "f6099cba-5aa4-4657-b41d-8268f1b91445",
           "36bd77b7-82b2-4a5e-a9e4-2461cc5daf77",
           "6bfdaac1-dd78-4d5e-a01a-438b11d0e6de",

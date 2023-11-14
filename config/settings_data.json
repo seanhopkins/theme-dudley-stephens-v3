@@ -72,7 +72,7 @@
     "gwp_tier_1_threshold": "50",
     "gwp_tier_1_spend_more": "You’re just [money] away from our Turtleneck Ornament",
     "gwp_tier_1_unlocked": "<p>Good news: Your $50+ cart will earn you our Turtleneck Ornament! Add one to your cart before checking out, with no additional charge.<\/p>",
-    "gwp_tier_2_product_ids": "",
+    "gwp_tier_2_product_ids": "123",
     "gwp_tier_2_threshold": "",
     "gwp_tier_2_spend_more": "",
     "gwp_tier_2_unlocked": "",

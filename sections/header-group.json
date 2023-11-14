@@ -9,8 +9,8 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Our Holiday Classics Gift Guide is here! Shop Now",
-            "link": "shopify:\/\/pages\/gift-guide-2023"
+            "link_text": "Shop 40% off sitewide with code HOLIDAY40",
+            "link": "shopify:\/\/collections\/shop-all"
           }
         },
         "announcement-0": {

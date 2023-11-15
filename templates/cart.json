@@ -6,7 +6,7 @@
         "template--14938178846762__1ce6124e-1726-445c-9486-75098ab8f68d-liquid-1": {
           "type": "liquid",
           "settings": {
-            "code": "<script>\ndocument.location.href=\"\/\";\n<\/script>",
+            "code": "<script>\nsetTimeout(function() {\n    window.location.href = \"\/\";\n}, 3000);\n<\/script>",
             "width": "100%",
             "alignment": "center"
           }

@@ -6,7 +6,7 @@
         "template--14938178846762__1ce6124e-1726-445c-9486-75098ab8f68d-liquid-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% unless request.design_mode %}\n<script>\n    \/\/ Redirect to the homepage\n    window.location.href = \"\/\";\n\n    \/\/ Wait for the page to load and then trigger the button click event\n    window.addEventListener('load', function() {\n        \/\/ Assuming you have a button with the class \"js-drawer-open-cart\"\n        var drawerButton = document.querySelector('.js-drawer-open-cart');\n\n        \/\/ Check if the button exists before trying to click it\n        if (drawerButton) {\n            drawerButton.click();\n        }\n    });\n<\/script>\n{% endunless %}",
+            "code": "{% unless request.design_mode %}\n<script>\n    \/\/ Redirect to the homepage\n    window.location.href = \"\/\";\n\n    \/\/ Wait for the page to load and then check the current URL\n    window.addEventListener('load', function() {\n        \/\/ Check if the current URL is \"\/cart\"\n        if (window.location.pathname === \"\/cart\") {\n            \/\/ Assuming the button has href=\"\/cart\"\n            var drawerButton = document.querySelector('a[href=\"\/cart\"]');\n\n            \/\/ Check if the button exists before trying to click it\n            if (drawerButton) {\n                drawerButton.click();\n            }\n        }\n    });\n<\/script>\n{% endunless %}",
             "width": "100%",
             "alignment": "center"
           }

@@ -1,5 +1,26 @@
 {
   "sections": {
+    "1ce6124e-1726-445c-9486-75098ab8f68d": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14938178846762__1ce6124e-1726-445c-9486-75098ab8f68d-liquid-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<script>\ndocument.location.href=\"\/\";\n<\/script>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14938178846762__1ce6124e-1726-445c-9486-75098ab8f68d-liquid-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false,
+        "lazyload_images": false
+      }
+    },
     "main": {
       "type": "main-cart",
       "settings": {
@@ -25,6 +46,7 @@
     }
   },
   "order": [
+    "1ce6124e-1726-445c-9486-75098ab8f68d",
     "main",
     "recently-viewed",
     "featured-collection"

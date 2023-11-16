@@ -49,13 +49,13 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
-            "heading": "The Gift Guide: Holiday Classics",
-            "textarea": "This holiday, we’re celebrating the cozy moments that make the season special.",
-            "cta_text1": "Shop the guide",
-            "cta_link1": "shopify:\/\/pages\/gift-guide-2023",
+            "heading": "The Black Friday Sale",
+            "textarea": "Shop 40% off sitewide with code HOLIDAY40 (limited exclusions).",
+            "cta_text1": "Shop all",
+            "cta_link1": "https:\/\/www.dudley-stephens.com\/collections\/shop-all",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/holidaygg.jpg",
+            "image": "shopify:\/\/shop_images\/2023-11-01-ds-JDP_8527.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -70,13 +70,13 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
-            "heading": "Winter Luxe",
-            "textarea": "Classic-cool pieces inspired by glamorous winter destinations.",
+            "heading": "Updated Classics",
+            "textarea": "Timeless wardrobe essentials, evolved the Dudley way.",
             "cta_text1": "Shop the drop",
             "cta_link1": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Winterluxe.jpg",
+            "image": "shopify:\/\/shop_images\/Palcepuff.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -233,7 +233,7 @@
           "settings": {
             "year": "2023",
             "month": "11",
-            "day": "14",
+            "day": "21",
             "hour": "10",
             "minute": "00",
             "hide_timer": false,
@@ -243,7 +243,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2": {
           "type": "button",
           "settings": {
-            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-updated-classics",
+            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-holiday-tartan",
             "button": "Preview now",
             "button_style": "solid"
           }
@@ -262,7 +262,7 @@
         "full_width": false,
         "text_color": "#232528",
         "background_color": "#ffffff",
-        "background_image": "shopify:\/\/shop_images\/1212countdown_7741cea7-cb39-4615-93a7-c11eac3e2759.jpg",
+        "background_image": "shopify:\/\/shop_images\/Tartan_DropCountdown.jpg",
         "overlay_color": "#ffffff",
         "overlay_opacity": 76,
         "lazyload_images": true

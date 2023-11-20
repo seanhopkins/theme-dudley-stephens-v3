@@ -69,7 +69,7 @@
     "cart_terms_conditions_enable": false,
     "gwp_enable": true,
     "gwp_tier_1_product_ids": "4514505424938",
-    "gwp_tier_1_threshold": "2",
+    "gwp_tier_1_threshold": "1",
     "gwp_tier_1_spend_more": "This is a hidden item",
     "gwp_tier_1_unlocked": "<p>this message should also not be visible<\/p>",
     "gwp_tier_2_product_ids": "6944207994922, 6944207700010, 6864698933290, 6944207896618, 6864697950250",

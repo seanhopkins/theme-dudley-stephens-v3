@@ -160,7 +160,7 @@
 <body>
   {% for line_item in order.line_items %}
   {% for i in (1..line_item.quantity) %}
-  {%- capture return_url -%}https://returns.dudley-stephens.com/{%- endcapture -%}
+  {%- capture return_url -%}https://returns.dudley-stephens.com/#/gift{%- endcapture -%}
   <div class="gr-card-wrap">
     <div class="gr-card">
       <div class="gr-contents">

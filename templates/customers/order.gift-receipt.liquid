@@ -160,7 +160,7 @@
 <body>
   {% for line_item in order.line_items %}
   {% for i in (1..line_item.quantity) %}
-  {%- capture return_url -%}https://returns.dudley-stephens.com/start_gift_return?ext_order_number={{ order.name | url_encode }}&full_name={{ order.shipping_address.name | url_encode }}&zip_code={{ order.shipping_address.zip | url_encode }}{%- endcapture -%}
+  {%- capture return_url -%}https://returns.dudley-stephens.com/{%- endcapture -%}
   <div class="gr-card-wrap">
     <div class="gr-card">
       <div class="gr-contents">

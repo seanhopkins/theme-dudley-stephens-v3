@@ -592,7 +592,8 @@
             "settings": {
               "title": "Holiday Tartan",
               "swatch_color": "",
-              "swatch_image": "shopify:\/\/shop_images\/holiday-tartan.png"
+              "swatch_image": "shopify:\/\/shop_images\/holiday-tartan.png",
+              "monogram_swatch": "shopify:\/\/shop_images\/Holiday_Tartan_monogram_swatch.png"
             }
           },
           "3b47349d-917d-4237-a0f3-0cf745769167": {

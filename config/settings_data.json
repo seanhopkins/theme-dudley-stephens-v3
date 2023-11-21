@@ -483,14 +483,16 @@
             "type": "color_swatch",
             "settings": {
               "title": "Frost",
-              "swatch_color": "#b5ced4"
+              "swatch_color": "#b5ced4",
+              "monogram_swatch": "shopify:\/\/shop_images\/Frost_monogram_swatch.png"
             }
           },
           "c0374977-3323-4214-a3f7-f1cce5b2f5f6": {
             "type": "color_swatch",
             "settings": {
               "title": "Goldfinch",
-              "swatch_color": "#edea9b"
+              "swatch_color": "#edea9b",
+              "monogram_swatch": "shopify:\/\/shop_images\/Goldfinch_monogram_swatch.png"
             }
           },
           "1573761957468": {
@@ -703,7 +705,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Marine Green",
-              "swatch_color": "#497461"
+              "swatch_color": "#497461",
+              "monogram_swatch": "shopify:\/\/shop_images\/Marine_Green_monogram_swatch_0e7f4275-1336-467c-876c-92eda9d1f090.png"
             }
           },
           "e7c40981-5c8b-49f2-83c2-54c4a7625f44": {
@@ -1186,7 +1189,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Violet",
-              "swatch_color": "#9e91c3"
+              "swatch_color": "#9e91c3",
+              "monogram_swatch": "shopify:\/\/shop_images\/Violet_monogram_swatch.png"
             }
           },
           "e6bd5ae0-f88f-4b77-becb-162959cb8eec": {
@@ -1225,7 +1229,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Winterberry",
-              "swatch_color": "#8c2230"
+              "swatch_color": "#8c2230",
+              "monogram_swatch": "shopify:\/\/shop_images\/Winterberry_monogram_swatch.png"
             }
           }
         },

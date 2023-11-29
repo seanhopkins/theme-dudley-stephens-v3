@@ -56,7 +56,7 @@
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
-      padding: 2rem;
+      padding: 2rem 0rem;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       -webkit-flex-direction: column;
@@ -160,7 +160,7 @@
 <body>
   {% for line_item in order.line_items %}
   {% for i in (1..line_item.quantity) %}
-  {%- capture return_url -%}https://returns.dudley-stephens.com/#/gift{%- endcapture -%}
+  {%- capture return_url -%}https://returns.dudley-stephens.com/?order={{ order.name | remove: "#" }}&zip={{ order.shipping_address.zip }}{%- endcapture -%}
   <div class="gr-card-wrap">
     <div class="gr-card">
       <div class="gr-contents">

@@ -9,8 +9,8 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Shop 40% off sitewide with code HOLIDAY40",
-            "link": "shopify:\/\/collections\/shop-all"
+            "link_text": "Shop special edition, eco-friendly turtlenecks: $79",
+            "link": "shopify:\/\/collections\/the-color-collection"
           }
         },
         "announcement-0": {

@@ -48,6 +48,7 @@
         "text": "<p>Soft, tightly woven and warm, this fabric is most like the “traditional” fabric people associate with fleece (but ours is extra cozy!).<\/p>",
         "button_label": "Shop Vello",
         "button_link": "shopify:\/\/collections\/vello-fleece",
+        "liquid": "",
         "button_style": "secondary",
         "align_text": "center",
         "image_width": "50",
@@ -70,6 +71,7 @@
         "text": "<p>Think sweatshirt fabric (the most luxurious sweatshirt you can imagine), this versatile, four-season fabric has a hook-and-loop texture that’s almost towel-like.<\/p>",
         "button_label": "Shop Terry Fleece",
         "button_link": "shopify:\/\/collections\/terry-fleece",
+        "liquid": "",
         "button_style": "secondary",
         "align_text": "center",
         "image_width": "50",
@@ -92,6 +94,7 @@
         "text": "<p>A recycled fabric with a feel of its own: the sink-in soft finish of our core Vello Fleece, combined with the lightweight feel of our Terry Fleece, and a bit more stretch.<\/p>",
         "button_label": "Shop Striped Fleece",
         "button_link": "shopify:\/\/collections\/striped-fleece",
+        "liquid": "",
         "button_style": "secondary",
         "align_text": "center",
         "image_width": "50",
@@ -115,6 +118,7 @@
         "text": "<p>As a female-founded, family-owned brand, we take pride in retailing responsibly. Our pieces are sold direct-to-consumer and through select storefronts. We work to promote positive change through initiatives authentic to our brand.<\/p>",
         "button_label": "Shop Double Layer Vello Fleece",
         "button_link": "shopify:\/\/collections\/double-layer-vello-fleece",
+        "liquid": "",
         "button_style": "secondary",
         "align_text": "center",
         "image_width": "50",
@@ -137,6 +141,7 @@
         "text": "<p>Fuzzy soft and warm with a plush texture, this is as close to lambswool as fleece gets—without the itch factor.<\/p>",
         "button_label": "Shop Sherpa Fleece",
         "button_link": "shopify:\/\/collections\/sherpa-fleece-1",
+        "liquid": "",
         "button_style": "secondary",
         "align_text": "center",
         "image_width": "50",
@@ -159,6 +164,7 @@
         "text": "<p>This innovative recycled fabric is all about luxe texture. Polartec® calls it Power Air,™ since it catches air to keep in warmth while keeping microfiber shedding to a minimum (read: high-fashion, low eco-impact). With a jersey-sheen finish in a medium weight, it’s a woven waffle that checks all our boxes for elevated four-season wear.<\/p>",
         "button_label": "Shop Waffle",
         "button_link": "shopify:\/\/collections\/waffle",
+        "liquid": "",
         "button_style": "secondary",
         "align_text": "center",
         "image_width": "50",
@@ -182,6 +188,7 @@
         "text": "<p>The same feel as our Repreve Stretch, with a different look in an iconic stripe.<\/p>",
         "button_label": "Shop Repreve® Striped Stretch",
         "button_link": "shopify:\/\/collections\/repreve-striped-stretch",
+        "liquid": "",
         "button_style": "secondary",
         "align_text": "center",
         "image_width": "50",
@@ -204,6 +211,7 @@
         "text": "<p>A versatile, lightweight nylon\/lycra hybrid, layerable with a soft finish and a touch of recoverable stretch to move with you—no matter where you’re moved to take it. <\/p>",
         "button_label": "SHOP ECO STRETCH",
         "button_link": "shopify:\/\/collections\/eco-stretch",
+        "liquid": "",
         "button_style": "secondary",
         "align_text": "center",
         "image_width": "50",
@@ -226,6 +234,7 @@
         "text": "<p>Same stretch as our Eco Stretch, with a bit more structure. The feel of a premium performance  fabric, built into everywhere pieces.<\/p>",
         "button_label": "Shop Repreve®",
         "button_link": "shopify:\/\/collections\/repreve-stretch",
+        "liquid": "",
         "button_style": "secondary",
         "align_text": "center",
         "image_width": "50",
@@ -248,6 +257,7 @@
         "text": "<p>A Poly\/Lycra blend made from recycled bottles. Lightweight with some structure, stretchy and breathable. A luxe feel, as its name suggests.<\/p>",
         "button_label": "SHOP LUXE STRETCH",
         "button_link": "shopify:\/\/collections\/luxe-stretch",
+        "liquid": "",
         "button_style": "secondary",
         "align_text": "center",
         "image_width": "50",
@@ -256,6 +266,169 @@
         "top_padding": true,
         "bottom_padding": true,
         "lazyload_images": true
+      }
+    },
+    "d4530671-20da-4d84-bab1-5d9060d04349": {
+      "type": "text-columns",
+      "blocks": {
+        "template--14938177536042__d4530671-20da-4d84-bab1-5d9060d04349-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/FABRIC_GUIDE_VELLO_CREAM_031.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Vello Fleece",
+            "text": "<p>Soft, tightly woven and warm, this fabric is most like the “traditional” fabric people associate with fleece (but ours is extra cozy!).<\/p>",
+            "button_label": "shop vello fleece",
+            "button_link": "shopify:\/\/collections\/vello-fleece"
+          }
+        },
+        "template--14938177536042__d4530671-20da-4d84-bab1-5d9060d04349-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/FABRIC_GUIDE_TERRY_GREY_029.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Terry Fleece",
+            "text": "<p>Think sweatshirt fabric (the most luxurious sweatshirt you can imagine), this versatile, four-season fabric has a hook-and-loop texture that’s almost towel-like.<\/p>",
+            "button_label": "shop Terry Fleece",
+            "button_link": "shopify:\/\/collections\/terry-fleece"
+          }
+        },
+        "template--14938177536042__d4530671-20da-4d84-bab1-5d9060d04349-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/FABRIC_GUIDE_SHERPA_CAMEL_028.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Sherpa Fleece",
+            "text": "<p>Fuzzy soft and warm with a plush texture, this is as close to lambswool as fleece gets—without the itch factor.<\/p>",
+            "button_label": "shop Sherpa Fleece",
+            "button_link": "shopify:\/\/collections\/sherpa-fleece-1"
+          }
+        }
+      },
+      "block_order": [
+        "template--14938177536042__d4530671-20da-4d84-bab1-5d9060d04349-text_block-1",
+        "template--14938177536042__d4530671-20da-4d84-bab1-5d9060d04349-text_block-2",
+        "template--14938177536042__d4530671-20da-4d84-bab1-5d9060d04349-text_block-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "6a21b692-c612-4eda-a01e-0572a5d30817": {
+      "type": "text-columns",
+      "blocks": {
+        "template--14938177536042__6a21b692-c612-4eda-a01e-0572a5d30817-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/FABRIC_GUIDE_WAFFLE_BERRY_030.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Waffle",
+            "text": "<p>This innovative recycled fabric is all about luxe texture. Polartec® calls it Power Air,™ since it catches air to keep in warmth while keeping microfiber shedding to a minimum (read: high-fashion, low eco-impact). With a jersey-sheen finish in a medium weight, it’s a woven waffle that checks all our boxes for elevated four-season wear.<\/p>",
+            "button_label": "shop waffle",
+            "button_link": "shopify:\/\/collections\/waffle"
+          }
+        },
+        "template--14938177536042__6a21b692-c612-4eda-a01e-0572a5d30817-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/FABRIC_GUIDE_POWER_STRETCH_ARMY_GREEN_026.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Power Stretch",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "shop Power Stretch",
+            "button_link": "shopify:\/\/collections\/power-stretch"
+          }
+        },
+        "template--14938177536042__6a21b692-c612-4eda-a01e-0572a5d30817-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/FABRIC_GUIDE_REPREVE_STRETCH_NAVY_027.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Repreve® Stretch",
+            "text": "<p>Same stretch as our Eco Stretch, with a bit more structure. The feel of a premium performance  fabric, built into everywhere pieces.<\/p>",
+            "button_label": "shop Repreve® Stretch",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14938177536042__6a21b692-c612-4eda-a01e-0572a5d30817-text_block-1",
+        "template--14938177536042__6a21b692-c612-4eda-a01e-0572a5d30817-text_block-2",
+        "template--14938177536042__6a21b692-c612-4eda-a01e-0572a5d30817-text_block-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "c67e215c-630a-4cd8-9b92-10b7c649fb66": {
+      "type": "text-columns",
+      "blocks": {
+        "template--14938177536042__c67e215c-630a-4cd8-9b92-10b7c649fb66-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/FABRIC_GUIDE_LUXE_STRETCH_BLACK_025.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Luxe Stretch",
+            "text": "<p>A Poly\/Lycra blend made from recycled bottles. Lightweight with some structure, stretchy and breathable. A luxe feel, as its name suggests.<\/p>",
+            "button_label": "shop Luxe Stretch",
+            "button_link": "shopify:\/\/collections\/luxe-stretch"
+          }
+        },
+        "template--14938177536042__c67e215c-630a-4cd8-9b92-10b7c649fb66-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "template--14938177536042__c67e215c-630a-4cd8-9b92-10b7c649fb66-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14938177536042__c67e215c-630a-4cd8-9b92-10b7c649fb66-text_block-1",
+        "template--14938177536042__c67e215c-630a-4cd8-9b92-10b7c649fb66-text_block-2",
+        "template--14938177536042__c67e215c-630a-4cd8-9b92-10b7c649fb66-text_block-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
       }
     }
   },
@@ -271,6 +444,9 @@
     "f5eb2f01-22ae-4eb4-b5b5-cb9e4fcc8d0f",
     "d88920c7-2fd6-4b21-859d-60a2e5192e3d",
     "84dc4c93-fcc8-47e6-8bd1-408612cea349",
-    "8cc9ed5b-bba7-4cb4-a942-c47ded365174"
+    "8cc9ed5b-bba7-4cb4-a942-c47ded365174",
+    "d4530671-20da-4d84-bab1-5d9060d04349",
+    "6a21b692-c612-4eda-a01e-0572a5d30817",
+    "c67e215c-630a-4cd8-9b92-10b7c649fb66"
   ]
 }

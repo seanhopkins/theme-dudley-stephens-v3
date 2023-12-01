@@ -284,10 +284,10 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "",
+            "title": "The DS Fabric Guide",
             "title_size": 80,
             "text_color": "#ffffff",
-            "subheading": "",
+            "subheading": "With a wide range of weights and textures, there’s a Dudley Stephens recycled fabric for all seasons and occasions. Our styles have repurposed over 6 million plastic bottles (and counting).",
             "link": "",
             "link_text": "",
             "link_2": "",
@@ -356,6 +356,7 @@
         "template--14938177536042__be8c5dba-c6ef-4227-9f40-08a0b84333e6-heading-1",
         "template--14938177536042__be8c5dba-c6ef-4227-9f40-08a0b84333e6-text-1"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -455,7 +456,7 @@
             "title": "Repreve® Stretch",
             "text": "<p>Stretch meets structure in this recycled fabric that offers the feel of premium performance wear, built into everywhere pieces.<\/p>",
             "button_label": "shop Repreve® Stretch",
-            "button_link": "shopify:\/\/collections\/repreve-stretch"
+            "button_link": ""
           }
         }
       },

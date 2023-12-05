@@ -70,13 +70,13 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
-            "heading": "The Color Collection",
-            "textarea": "Celebrate eco-friendly giving with recycled, upcycled turtlenecks, just $79.",
+            "heading": "The DS x Mestiza Juliet Turtleneck",
+            "textarea": "A sold-out style, now in Classic Chinoiserie",
             "cta_text1": "Shop now",
-            "cta_link1": "shopify:\/\/collections\/the-color-collection",
+            "cta_link1": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/GREENPOINT_GOLDFINCH_04554.jpg",
+            "image": "shopify:\/\/shop_images\/JULIET_TURTLENECK_VELLO_PORCELAIN_CHINOISERIE_0935.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -254,6 +254,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-1",
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],

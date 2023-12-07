@@ -83,7 +83,7 @@
         "f748a8e4-cb48-49f5-8fb5-45436e04f0d0": {
           "type": "custom",
           "settings": {
-            "code": "{% assign enable_monogram = false %}\n{% for tag in product.tags %}\n  {% if tag contains 'monogram' %} \n  {% assign enable_monogram = true %}\n  {% endif %}\n{% endfor %}\n{% if enable_monogram %}\n  {% render 'monogram', parent_product: product %}\n{% endif %}"
+            "code": "{% if product.available %}\n{% assign enable_monogram = false %}\n{% for tag in product.tags %}\n  {% if tag contains 'monogram' %} \n  {% assign enable_monogram = true %}\n  {% endif %}\n{% endfor %}\n{% if enable_monogram %}\n  {% render 'monogram', parent_product: product %}\n{% endif %}\n{% endif %}"
           }
         },
         "buy_buttons": {
@@ -105,7 +105,7 @@
           "type": "sales_point",
           "settings": {
             "icon": "truck",
-            "text": "Free shipping on orders $250+"
+            "text": "Enjoy free ground shipping through 12\/13"
           }
         },
         "43d3e37f-8860-40ef-8349-35ff7eaa9cc4": {

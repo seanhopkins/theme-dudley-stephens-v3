@@ -67,7 +67,7 @@
     "cart_type": "drawer",
     "cart_notes_enable": true,
     "cart_terms_conditions_enable": false,
-    "gwp_enable": false,
+    "gwp_enable": true,
     "gwp_tier_1_product_ids": "4514505424938",
     "gwp_tier_1_threshold": "1",
     "gwp_tier_1_spend_more": "This is a hidden item",

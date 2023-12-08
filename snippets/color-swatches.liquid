@@ -51,7 +51,8 @@
            active
            {{ townhouse_item }} 
            {{ soldout_sizes }}
-           {% if soldout_sizes == current_option_handle %}color-swatch--unavailable {% endif %}
+           {% unless product.available %}color-swatch--unavailable{% endunless %}
+           {% unless style_product.available %}color-swatch--unavailable{% endunless %}
          " 
          title="{{ product_color }}"
        >
@@ -115,7 +116,11 @@
            endfor
          endunless
        endfor
+      
+       # Create an array to string match if the selected variant is sold out in other colors
+       assign soldout_sizes_array = soldout_sizes | split: " "
      %}
+   {%- assign selected_variant_soldout = product.selected_or_first_available_variant.option1 | downcase | prepend: "soldout-" -%}
    
      {% comment %} Capture the list item markup. {% endcomment %}
      {%- for value in style_product.metafields.custom.product_material -%}
@@ -161,7 +166,9 @@
                        {% if style_product.id == product.id -%}active {%- endif %}
                        {{ townhouse_item }} 
                        {{ soldout_sizes }}
-                       {% if soldout_sizes == current_option_handle %}color-swatch--unavailable {% endif %}
+                       {% unless product.available %}color-swatch--unavailable A{% endunless %}
+                       {% unless style_product.available %}color-swatch--unavailable B{% endunless %}
+                       {% if soldout_sizes_array contains selected_variant_soldout %}color-swatch--unavailable C{% endif %}
                      " 
                      title="{{ product_color }}"
                    >
@@ -184,8 +191,10 @@
                        {% unless separate_by_material %}color-swatch--medium {% endunless %}
                        {% if style_product.id == product.id -%}active {%- endif %} 
                        {{ townhouse_item }} 
-                       {{ soldout_sizes }} 
-                       {% if soldout_sizes == current_option_handle %}color-swatch--unavailable {% endif %}
+                       {{ soldout_sizes }}
+                       {% unless product.available %}color-swatch--unavailable A{% endunless %}
+                       {% unless style_product.available %}color-swatch--unavailable B{% endunless %}
+                       {% if soldout_sizes_array contains selected_variant_soldout %}color-swatch--unavailable C{% endif %}
                      " 
                      title="{{ product_color }}"
                    >

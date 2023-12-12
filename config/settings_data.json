@@ -234,6 +234,14 @@
               "monogram_swatch": "shopify:\/\/shop_images\/Blue_Camo_Terry.jpg"
             }
           },
+          "4794af07-7501-447a-b3a3-6d06c68081ce": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Blue Floral",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/blue-floral.png"
+            }
+          },
           "1574452635410": {
             "type": "color_swatch",
             "settings": {
@@ -1271,6 +1279,7 @@
           "1600111007963",
           "9964f19b-b16a-413f-bdca-c90f29d81277",
           "79e848db-dfc8-4f23-aff5-32b5ceff5893",
+          "4794af07-7501-447a-b3a3-6d06c68081ce",
           "1574452635410",
           "d87df12a-d2fd-41da-8dd3-6a71e88bd407",
           "68f73094-1f7c-4be5-af6e-80e8bd0c1e2c",

@@ -423,6 +423,13 @@
               "monogram_swatch": "shopify:\/\/shop_images\/FDFF317D-8161-4C51-9558-CA8930F509B6_4_5005_c.jpg"
             }
           },
+          "c69de3dc-25d0-4da3-ac99-2b49c4520ae9": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Cotton Candy",
+              "swatch_color": "#ffa9d6"
+            }
+          },
           "8bae95ee-8c1d-4178-a303-87dd3e91273f": {
             "type": "color_swatch",
             "settings": {
@@ -1100,6 +1107,13 @@
               "monogram_swatch": "shopify:\/\/shop_images\/ROYALVIOLET_TERRY.png"
             }
           },
+          "1c8c81b8-206d-400a-affd-52052c767d76": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Sea Glass Green",
+              "swatch_color": "#437d6d"
+            }
+          },
           "1574187025080": {
             "type": "color_swatch",
             "settings": {
@@ -1274,6 +1288,7 @@
           "1574186976358",
           "a69a798e-2ddd-4893-b7f0-0f201addc587",
           "1602597080054",
+          "c69de3dc-25d0-4da3-ac99-2b49c4520ae9",
           "8bae95ee-8c1d-4178-a303-87dd3e91273f",
           "0e835829-040e-4fea-b13d-104e7043648b",
           "194151db-ffc1-4605-9e0d-ef117bcd30fb",
@@ -1359,6 +1374,7 @@
           "1600111056141",
           "558933fd-6bb0-437b-887a-fd7809f851e7",
           "245b6bab-9bb9-4141-a7b8-e83d3a44419d",
+          "1c8c81b8-206d-400a-affd-52052c767d76",
           "1574187025080",
           "1574187124703",
           "97cb6275-4ab8-4fcf-8274-4fea59378220",

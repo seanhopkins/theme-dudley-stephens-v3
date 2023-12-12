@@ -7,6 +7,7 @@
       "blocks": {
         "announcement-1": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "Choose a complimentary Slopeside Scarf with your $150+ purchase!",

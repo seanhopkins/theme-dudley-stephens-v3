@@ -462,6 +462,13 @@
               "monogram_swatch": "shopify:\/\/shop_images\/450814E3-3120-4BD3-A8F6-5373C8899304_1_201_a.jpg"
             }
           },
+          "d484428c-aaa3-4651-9809-85efd1935aec": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Ecru",
+              "swatch_color": "#e4c5b4"
+            }
+          },
           "ae995c2d-bad7-464a-8216-d2196cdf43d2": {
             "type": "color_swatch",
             "settings": {
@@ -1293,6 +1300,7 @@
           "0e835829-040e-4fea-b13d-104e7043648b",
           "194151db-ffc1-4605-9e0d-ef117bcd30fb",
           "9403ef65-0d9b-457e-8f04-c242b2aef3c5",
+          "d484428c-aaa3-4651-9809-85efd1935aec",
           "ae995c2d-bad7-464a-8216-d2196cdf43d2",
           "d777daf7-be50-4aa8-b326-a0c3487d37bd",
           "1602597047269",

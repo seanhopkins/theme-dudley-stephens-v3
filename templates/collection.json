@@ -5,6 +5,7 @@
       "blocks": {
         "template--14938177470506__44d64ec7-ef8f-4070-bfed-e9ea744cdae3-liquid-1": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "code": "{% if collection.metafields.custom.hero_image.value == blank or collection.metafields.custom.mobile_hero_image.value == blank %}\n{% style %}\n.index-section--hero {\n    display: none;\n}\n{% endstyle %}\n{% endif %}",
             "width": "50%",

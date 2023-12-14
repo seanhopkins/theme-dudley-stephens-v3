@@ -56,7 +56,7 @@
         "template--14938177470506__740d54a7-c2df-4b3f-b8cd-80bb36f3fe7e-liquid-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if collection.description %}\n<div class=\"text-center\">{{ collection.description }}<\/div>\n{% endif %}",
+            "code": "{% comment %}==========\nDO NOT REMOVE, this displays the collection description\n=========={% endcomment %}\n\n{% if collection.description %}\n<div class=\"text-center\">{{ collection.description }}<\/div>\n{% endif %}",
             "width": "100%",
             "alignment": "center"
           }

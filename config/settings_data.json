@@ -75,7 +75,7 @@
     "gwp_tier_2_product_ids": "6945878048810, 6945878081578, 6945878769706, 6945879719978",
     "gwp_tier_2_threshold": "150",
     "gwp_tier_2_spend_more": "You’re just [money] away from our scarf gift with purchase",
-    "gwp_tier_2_unlocked": "<p>Good news: Your $150+ cart will earn you our scarf gift with purchase! Add one to your cart before checking out, with no additional charge.<\/p>",
+    "gwp_tier_2_unlocked": "<p>Good news: Your $150+ cart has earned you our scarf gift with purchase! Add one to your cart before checking out, with no additional charge.<\/p>",
     "social_facebook_link": "https:\/\/www.facebook.com\/dudleystephensofficial",
     "social_twitter_link": "",
     "social_pinterest_link": "https:\/\/www.pinterest.com\/dudley_stephens\/",
@@ -232,6 +232,14 @@
               "swatch_color": "",
               "swatch_image": "shopify:\/\/shop_images\/blue-camo_e2ec0c3f-5045-4053-92a2-2f6fc6e21029.png",
               "monogram_swatch": "shopify:\/\/shop_images\/Blue_Camo_Terry.jpg"
+            }
+          },
+          "4794af07-7501-447a-b3a3-6d06c68081ce": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Blue Floral",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/blue-floral.png"
             }
           },
           "1574452635410": {
@@ -423,6 +431,13 @@
               "monogram_swatch": "shopify:\/\/shop_images\/FDFF317D-8161-4C51-9558-CA8930F509B6_4_5005_c.jpg"
             }
           },
+          "c69de3dc-25d0-4da3-ac99-2b49c4520ae9": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Cotton Candy",
+              "swatch_color": "#ffa9d6"
+            }
+          },
           "8bae95ee-8c1d-4178-a303-87dd3e91273f": {
             "type": "color_swatch",
             "settings": {
@@ -453,6 +468,13 @@
               "title": "Dusty Rose",
               "swatch_color": "#bb7084",
               "monogram_swatch": "shopify:\/\/shop_images\/450814E3-3120-4BD3-A8F6-5373C8899304_1_201_a.jpg"
+            }
+          },
+          "d484428c-aaa3-4651-9809-85efd1935aec": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Ecru",
+              "swatch_color": "#e4c5b4"
             }
           },
           "ae995c2d-bad7-464a-8216-d2196cdf43d2": {
@@ -1100,6 +1122,13 @@
               "monogram_swatch": "shopify:\/\/shop_images\/ROYALVIOLET_TERRY.png"
             }
           },
+          "1c8c81b8-206d-400a-affd-52052c767d76": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Sea Glass Green",
+              "swatch_color": "#437d6d"
+            }
+          },
           "1574187025080": {
             "type": "color_swatch",
             "settings": {
@@ -1250,6 +1279,7 @@
           "1600111007963",
           "9964f19b-b16a-413f-bdca-c90f29d81277",
           "79e848db-dfc8-4f23-aff5-32b5ceff5893",
+          "4794af07-7501-447a-b3a3-6d06c68081ce",
           "1574452635410",
           "d87df12a-d2fd-41da-8dd3-6a71e88bd407",
           "68f73094-1f7c-4be5-af6e-80e8bd0c1e2c",
@@ -1274,10 +1304,12 @@
           "1574186976358",
           "a69a798e-2ddd-4893-b7f0-0f201addc587",
           "1602597080054",
+          "c69de3dc-25d0-4da3-ac99-2b49c4520ae9",
           "8bae95ee-8c1d-4178-a303-87dd3e91273f",
           "0e835829-040e-4fea-b13d-104e7043648b",
           "194151db-ffc1-4605-9e0d-ef117bcd30fb",
           "9403ef65-0d9b-457e-8f04-c242b2aef3c5",
+          "d484428c-aaa3-4651-9809-85efd1935aec",
           "ae995c2d-bad7-464a-8216-d2196cdf43d2",
           "d777daf7-be50-4aa8-b326-a0c3487d37bd",
           "1602597047269",
@@ -1359,6 +1391,7 @@
           "1600111056141",
           "558933fd-6bb0-437b-887a-fd7809f851e7",
           "245b6bab-9bb9-4141-a7b8-e83d3a44419d",
+          "1c8c81b8-206d-400a-affd-52052c767d76",
           "1574187025080",
           "1574187124703",
           "97cb6275-4ab8-4fcf-8274-4fea59378220",

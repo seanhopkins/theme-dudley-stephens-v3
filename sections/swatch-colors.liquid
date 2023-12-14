@@ -44,8 +44,12 @@ color-swatches .tag-list--swatches li{
 }
 .color-swatch--disabled,
 .color-swatch--unavailable {
-  opacity: 0.4;
+  opacity: 1;
 }
+.color-swatch.color-swatch--unavailable {
+  box-shadow:0 0 0 0px var(--colorBorder);
+}
+
 .color-swatch--disabled:after,
 .color-swatch--unavailable:after {
   position: absolute;
@@ -53,15 +57,16 @@ color-swatches .tag-list--swatches li{
   left: 50%;
   top: 0;
   bottom: 0;
-  border-left: 3px solid;
+  border-left: 2px solid;
   border-color: var(--shopify-editor-setting-color_borders);
-  border-color: var(--colorBorder);
+  border-color: #fff;
   transform: rotate(45deg);
+  box-shadow: 0px 0px 20px 10px #fff;
 }
 .color-swatch--filter.active {
     height: 32px;
     width: 32px;
-    box-shadow: 0 0 0 2px var(--colorBtnPrimary);
+    box-shadow: 0 0 0 2px var(--colorBtnPrimary) !important;
 }
 
 @media only screen and (max-width:768px) {

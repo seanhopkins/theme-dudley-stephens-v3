@@ -1,3 +1,10 @@
+{% if collection.metafields.custom.hero_image.value == blank or collection.metafields.custom.mobile_hero_image.value == blank %}
+  {% style %}
+    .index-section--hero {
+        display: none;
+    }
+  {% endstyle %}
+{% endif %}
 <div
   data-section-id="{{ section.id }}"
   data-section-type="slideshow-section"

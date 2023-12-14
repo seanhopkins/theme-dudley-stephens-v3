@@ -7,17 +7,18 @@
       "blocks": {
         "announcement-1": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
-            "link_text": "Shop special edition, eco-friendly turtlenecks: $79",
-            "link": "shopify:\/\/collections\/the-color-collection"
+            "link_text": "Choose a complimentary Slopeside Scarf with your $150+ purchase!",
+            "link": "shopify:\/\/collections\/shop-all"
           }
         },
         "announcement-0": {
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Enjoy free ground shipping through 12\/13",
+            "link_text": "Order with Express Shipping for delivery by Christmas!",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/shop-all"
           }
         },

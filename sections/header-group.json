@@ -7,11 +7,10 @@
       "blocks": {
         "announcement-1": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "",
-            "link_text": "Choose a complimentary Slopeside Scarf with your $150+ purchase!",
-            "link": "shopify:\/\/collections\/shop-all"
+            "link_text": "Shop $79 & under Vello Fleece turtlenecks!",
+            "link": "shopify:\/\/collections\/the-winter-warm-up-sale"
           }
         },
         "announcement-0": {
@@ -64,9 +63,9 @@
             "title_1": "The Gift Guide: Holiday Classics",
             "link_1": "shopify:\/\/pages\/gift-guide-2023",
             "show_column_2": true,
-            "image_2": "shopify:\/\/shop_images\/1212.jpg",
-            "title_2": "DS X 1212",
-            "link_2": "shopify:\/\/collections\/dudley-stephens-x-1212"
+            "image_2": "shopify:\/\/shop_images\/WinterWarmup.jpg",
+            "title_2": "The Winter Warm-Up Sale",
+            "link_2": "shopify:\/\/collections\/the-winter-warm-up-sale"
           }
         }
       },

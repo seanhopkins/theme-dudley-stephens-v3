@@ -135,6 +135,29 @@
         "lazyload_images": true
       }
     },
+    "09479c6c-fa99-479e-ab04-606cd5216936": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DS_F2018_LITTLE_GIRLS_TURTLENECK_WHITE_0342.jpg",
+        "image_mask": "none",
+        "image2": "shopify:\/\/shop_images\/KAKI_PULLOVER_GREEN_CAMO_04433.jpg",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Military",
+        "text": "<p>Nurses, doctors and other licensed healthcare workers<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a class=\"btn btn--primary btn--small\" onclick=\"displayVerification()\">Confirm Eligibility<\/a>\n<script>\n  function displayVerification() {\n    const verificationUrl = 'https:\/\/services.sheerid.com\/verify\/654cd47450631b79bb56e204\/';\n    sheerId.loadInModal(\n        verificationUrl, {\n        mobileRedirect: true\n      });\n  };\n<\/script>",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
     "f58612b1-0e45-40e6-a0ff-6817af31afff": {
       "type": "rich-text",
       "blocks": {
@@ -163,6 +186,7 @@
     "57a1120f-e667-421e-9978-6d952fa5d5a1",
     "9b165baf-2795-4163-9e5e-75bbe6fab581",
     "8ab5da3b-b1b5-470a-9962-ef369cd80b91",
+    "09479c6c-fa99-479e-ab04-606cd5216936",
     "f58612b1-0e45-40e6-a0ff-6817af31afff"
   ]
 }

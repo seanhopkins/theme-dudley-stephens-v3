@@ -124,7 +124,7 @@
         "text": "<p>Nurses, doctors and other licensed healthcare workers<\/p>",
         "button_label": "",
         "button_link": "",
-        "liquid": "",
+        "liquid": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a class=\"btn btn--primary btn--small\" onclick=\"displayVerification()\">Confirm Eligibility<\/a>\n<script>\n  function displayVerification() {\n    const verificationUrl = 'https:\/\/services.sheerid.com\/verify\/653181526f268b650f8941bd\/';\n    sheerId.loadInModal(\n        verificationUrl, {\n        mobileRedirect: true\n      });\n  };\n<\/script>",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",

@@ -24,14 +24,26 @@
     data-zoom="{{ product_zoom_enable }}"
     data-has-slideshow="{% if product.media.size > 1 %}true{% else %}false{% endif %}">
     <div class="product__photos--stamps">
-      {% for stamp in product.metafields.custom.stamp.value %}
-        {% assign stamp_handle = stamp | handleize %}
-        {% assign stamp_filename = stamp_handle | append: ".png"%}
-        <div class="product__stamp stamp--{{ stamp_handle }}">
-          <img class="product__stamp--image small--hide" src="{{ stamp_filename | file_url }}" alt="{{ stamp }}">
-          <div class="product__stamp--label medium-up--hide">{{ stamp }}</div>
+      {% comment %}
+        If a product has an inventory level lower than X, show "almost gone" stamp
+      {% endcomment %}
+      {% if product.first_available_variant.inventory_quantity <= 10 %}
+        <div class="product__stamp stamp--almost-gone">
+          <img class="product__stamp--image small--hide" src="{{ 'almost-gone.png' | file_url }}" alt="Almost Gone">
+          <div class="product__stamp--label medium-up--hide">Almost Gone</div>
         </div>
-      {% endfor %}
+        {% else %}
+        {% for stamp in product.metafields.custom.stamp.value %}
+          {% assign stamp_handle = stamp | handleize %}
+          {% assign stamp_filename = stamp_handle | append: ".png"%}
+          {% unless stamp_hanfle == 'almost-gone' %}
+            <div class="product__stamp stamp--{{ stamp_handle }}">
+              <img class="product__stamp--image small--hide" src="{{ stamp_filename | file_url }}" alt="{{ stamp }}">
+              <div class="product__stamp--label medium-up--hide">{{ stamp }}</div>
+            </div>
+          {% endunless %}
+        {% endfor %}
+      {% endif %}
     </div>
     <div class="product__photos product__photos-{{ section_id }} product__photos--{{ thumbnail_position }}">
 

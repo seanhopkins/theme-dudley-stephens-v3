@@ -11,3 +11,4 @@ webpack.config.js
 line-item-script.rb
 node_modules
 src/*
+notifications

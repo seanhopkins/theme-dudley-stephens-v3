@@ -27,7 +27,7 @@
       {% comment %}
         If a product has an inventory level lower than X, show "almost gone" stamp
       {% endcomment %}
-      {% if product.first_available_variant.inventory_quantity <= 10 %}
+      {% if product.first_available_variant.inventory_quantity <= 5 %}
         <div class="product__stamp stamp--almost-gone">
           <img class="product__stamp--image small--hide" src="{{ 'almost-gone.png' | file_url }}" alt="Almost Gone">
           <div class="product__stamp--label medium-up--hide">Almost Gone</div>

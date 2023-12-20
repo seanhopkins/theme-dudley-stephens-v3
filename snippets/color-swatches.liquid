@@ -165,9 +165,8 @@
                        {% if style_product.id == product.id -%}active {%- endif %}
                        {{ townhouse_item }} 
                        {{ soldout_sizes }}
-                       {% unless product.available %}color-swatch--unavailable A{% endunless %}
-                       {% unless style_product.available %}color-swatch--unavailable B{% endunless %}
-                       {% if soldout_sizes_array contains selected_variant_soldout %}color-swatch--unavailable C{% endif %}
+                       {% unless style_product.available %}color-swatch--unavailable {% endunless %}
+                       {% if soldout_sizes_array contains selected_variant_soldout %}color-swatch--unavailable {% endif %}
                      " 
                      title="{{ product_color }}"
                    >
@@ -191,9 +190,8 @@
                        {% if style_product.id == product.id -%}active {%- endif %} 
                        {{ townhouse_item }} 
                        {{ soldout_sizes }}
-                       {% unless product.available %}color-swatch--unavailable A{% endunless %}
-                       {% unless style_product.available %}color-swatch--unavailable B{% endunless %}
-                       {% if soldout_sizes_array contains selected_variant_soldout %}color-swatch--unavailable C{% endif %}
+                       {% unless style_product.available %}color-swatch--unavailable{% endunless %}
+                       {% if soldout_sizes_array contains selected_variant_soldout %}color-swatch--unavailable {% endif %}
                      " 
                      title="{{ product_color }}"
                    >

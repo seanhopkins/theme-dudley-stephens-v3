@@ -15,6 +15,7 @@
         },
         "announcement-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "Last minute gifting? Here's your lifeline: a DS e-gift card",

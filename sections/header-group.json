@@ -9,12 +9,13 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Shop $79 & under Vello Fleece turtlenecks!",
-            "link": "shopify:\/\/collections\/the-winter-warm-up-sale"
+            "link_text": "Back-to-work, but better. Keep it comfy with our Working Girl Style.",
+            "link": "shopify:\/\/collections\/office-style"
           }
         },
         "announcement-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "Last minute gifting? Here's your lifeline: a DS e-gift card",
@@ -59,13 +60,13 @@
           "settings": {
             "menu_item": "Women's",
             "show_column_1": true,
-            "image_1": "shopify:\/\/shop_images\/holidaygg.jpg",
-            "title_1": "The Gift Guide: Holiday Classics",
-            "link_1": "shopify:\/\/pages\/gift-guide-2023",
+            "image_1": "shopify:\/\/shop_images\/December11dudleystephens-77_74a556da-d0c1-435a-a0c5-e5c9d58595d9.jpg",
+            "title_1": "Ski Style",
+            "link_1": "shopify:\/\/collections\/ski-collection",
             "show_column_2": true,
-            "image_2": "shopify:\/\/shop_images\/WinterWarmup.jpg",
-            "title_2": "The Winter Warm-Up Sale",
-            "link_2": "shopify:\/\/collections\/the-winter-warm-up-sale"
+            "image_2": "shopify:\/\/shop_images\/JDP-ds-wholesalelookbook-02541.jpg",
+            "title_2": "Winter Whites",
+            "link_2": "shopify:\/\/collections\/cream"
           }
         }
       },

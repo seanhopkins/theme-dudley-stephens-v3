@@ -27,6 +27,7 @@
       "block_order": [
         "template--14928844390442__1a4d9a53-964a-41f0-8545-5ecbeedfa2b5-1687472987ab5faa84-0"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -91,7 +92,6 @@
         "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1",
         "b22e1874-3a53-481a-8ddb-89975d97e49b"
       ],
-      "disabled": true,
       "custom_css": [
         "h2 {font-family: \"QuaverSerif\";}"
       ],

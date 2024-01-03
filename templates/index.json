@@ -7,18 +7,18 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Holiday Ready",
+            "title": "The Coats You Crave",
             "title_size": 80,
             "text_color": "#ffffff",
-            "subheading": "Stock your closet with warm shades that take you everywhere the season calls.",
-            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
+            "subheading": "Outerwear you actually can't wait to wear.",
+            "link": "shopify:\/\/collections\/outerwear",
             "link_text": "SHOP THE DROP",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Slider_42a2ca82-2002-404c-915a-5a94390aba66.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_40082d69-cabe-47a1-a7e5-8d02939fe621.jpg",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/Slider_e8f9a02b-1053-44d6-a245-97aeec7fc608.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_30ea5b45-4d40-4a9e-ace4-86a494e2d117.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 4
           }
@@ -27,7 +27,6 @@
       "block_order": [
         "template--14928844390442__1a4d9a53-964a-41f0-8545-5ecbeedfa2b5-1687472987ab5faa84-0"
       ],
-      "disabled": true,
       "custom_css": [
 
       ],
@@ -92,6 +91,7 @@
         "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1",
         "b22e1874-3a53-481a-8ddb-89975d97e49b"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-family: \"QuaverSerif\";}"
       ],

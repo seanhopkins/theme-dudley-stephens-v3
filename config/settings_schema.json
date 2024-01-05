@@ -873,6 +873,15 @@
       },
       {
         "type": "header",
+        "content": "Rebuy Widget"
+      },
+      {
+        "type": "liquid",
+        "id": "rebuy_widget_embed",
+        "label": "Embed Rewind widget"
+      },
+      {
+        "type": "header",
         "content": "Gift with Purchase (GWP)"
       },
       {

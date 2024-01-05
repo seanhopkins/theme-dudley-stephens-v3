@@ -130,6 +130,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
     {{ 'custom.css' | asset_url | stylesheet_tag: preload: true }}
+    {{ 'wishlist.css' | asset_url | stylesheet_tag: preload: true }}
 {% comment %} END custom feature {% endcomment %}
 </head>
 
@@ -282,5 +283,6 @@
    attach: ".cart__checkout", 
    });
 </script>
+{% include 'swymSnippet' %}
 </body>
 </html>

@@ -67,6 +67,7 @@
     "cart_type": "drawer",
     "cart_notes_enable": true,
     "cart_terms_conditions_enable": false,
+    "rebuy_widget_embed": "<div data-rebuy-id=\"127216\"><\/div>",
     "gwp_enable": false,
     "gwp_tier_1_product_ids": "4514505424938",
     "gwp_tier_1_threshold": "1",
@@ -1448,14 +1449,18 @@
       },
       "15014643352720781508": {
         "type": "shopify:\/\/apps\/wrapped\/blocks\/app-embed\/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "cart_widget_enabled": false,
           "item_widget_enabled": true,
           "product_widget_enabled": false,
+          "gift_thumbnail_enabled": false,
+          "gift_thumbnail_position": "--wrapped-thumbnail-position-start",
+          "gift_thumbnail_size": 40,
           "message_enabled": false,
           "sender_recipient": "none",
           "message_max_length": 250,
+          "message_position_override": false,
           "show_pricing": true,
           "money_filter": "money_without_currency",
           "variant_selector_type": "images",
@@ -1473,7 +1478,7 @@
       },
       "5946647744298494267": {
         "type": "shopify:\/\/apps\/wishlist-plus\/blocks\/wishlist-app-embed\/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
-        "disabled": true,
+        "disabled": false,
         "settings": {
         }
       }

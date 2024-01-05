@@ -420,7 +420,17 @@
                     </div>
                   {%- when 'sales_point' -%}
                     {%- unless block.settings.text == blank -%}
-                      <div class="product-block product-block--sales-point" {{ block.shopify_attributes }}>
+                      {% for tag in product.tags %}
+                        {% if tag == "final-sale" %}
+                          {% style %}
+                            [data-content="Simple, no-hassle returns"] {
+                              display: none;
+                            }
+                          {% endstyle %}
+                          {% break %}
+                        {% endif %}
+                      {% endfor %}
+                      <div class="product-block product-block--sales-point" data-content="{{ block.settings.text }}" {{ block.shopify_attributes }}>
                         <ul class="sales-points">
                           <li class="sales-point">
                             <span class="icon-and-text">
@@ -491,6 +501,10 @@
                 </textarea>
               {%- endif -%}
             {%- endunless -%}
+            <!-- Swym button on product pages -->
+            <hr class="hr--medium">
+            <div class="swym-wishlist-button-bar"></div>
+            <!-- Swym button on product pages -->
           </div>
         </div>
 

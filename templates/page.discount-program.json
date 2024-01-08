@@ -12,11 +12,11 @@
         "template--15051909660714__2bd673d7-c982-4d47-9c06-acef1a3cff9d-image-1": {
           "type": "image",
           "settings": {
-            "top_subheading": "THANK YOU",
-            "title": "20% off",
+            "top_subheading": "",
+            "title": "",
             "title_size": 80,
             "text_color": "#ffffff",
-            "subheading": "Save  on all #dsgoods, forever.",
+            "subheading": "",
             "link": "",
             "link_text": "",
             "link_2": "",

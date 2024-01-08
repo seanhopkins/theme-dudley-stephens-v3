@@ -169,7 +169,7 @@
         "template--15051909660714__12a16dc6-533c-4b97-b394-648bff25e753-liquid-1": {
           "type": "liquid",
           "settings": {
-            "code": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a class=\"btn btn--primary btn--small\" onclick=\"displayVerification()\">Confirm Eligibility<\/a>\n<script>\n  function displayVerification() {\n    const verificationUrl = 'https:\/\/services.sheerid.com\/verify\/653181526f268b650f8941bd\/';\n    sheerId.loadInModal(\n        verificationUrl, {\n        mobileRedirect: true\n      });\n  };\n<\/script>",
+            "code": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a onclick=\"displayVerification()\">Confirm Eligibility<\/a>\n<script>\n  function displayVerification() {\n    const verificationUrl = 'https:\/\/services.sheerid.com\/verify\/653181526f268b650f8941bd\/';\n    sheerId.loadInModal(\n        verificationUrl, {\n        mobileRedirect: true\n      });\n  };\n<\/script>",
             "width": "33%",
             "alignment": "center"
           }
@@ -177,7 +177,7 @@
         "410f5be5-2bd2-41c4-9264-31600ddaca91": {
           "type": "liquid",
           "settings": {
-            "code": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a class=\"btn btn--primary btn--small\" onclick=\"displayVerification()\">Confirm Eligibility<\/a>\n<script>\n  function displayVerification() {\n    const verificationUrl = 'https:\/\/services.sheerid.com\/verify\/653181526f268b650f8941bd\/';\n    sheerId.loadInModal(\n        verificationUrl, {\n        mobileRedirect: true\n      });\n  };\n<\/script>",
+            "code": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a onclick=\"displayVerification()\">Confirm Eligibility<\/a>\n<script>\n  function displayVerification() {\n    const verificationUrl = 'https:\/\/services.sheerid.com\/verify\/654cd47450631b79bb56e204\/';\n    sheerId.loadInModal(\n        verificationUrl, {\n        mobileRedirect: true\n      });\n  };\n<\/script>",
             "width": "33%",
             "alignment": "center"
           }

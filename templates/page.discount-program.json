@@ -70,27 +70,9 @@
         "divider": false
       }
     },
-    "57a1120f-e667-421e-9978-6d952fa5d5a1": {
-      "type": "rich-text",
-      "blocks": {
-        "0812a458-2788-46e7-8680-83a79790fab8": {
-          "type": "heading",
-          "settings": {
-            "title": "Who is Eligible?"
-          }
-        }
-      },
-      "block_order": [
-        "0812a458-2788-46e7-8680-83a79790fab8"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": true
-      }
-    },
     "9b165baf-2795-4163-9e5e-75bbe6fab581": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/DS_F2018_LITTLE_GIRLS_TURTLENECK_WHITE_0342.jpg",
         "image_mask": "none",
@@ -114,6 +96,7 @@
     },
     "8ab5da3b-b1b5-470a-9962-ef369cd80b91": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/DS_F2018_LITTLE_GIRLS_TURTLENECK_WHITE_0342.jpg",
         "image_mask": "none",
@@ -137,6 +120,7 @@
     },
     "09479c6c-fa99-479e-ab04-606cd5216936": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/DS_F2018_LITTLE_GIRLS_TURTLENECK_WHITE_0342.jpg",
         "image_mask": "none",
@@ -172,63 +156,50 @@
       "block_order": [
         "template--15051909660714__f58612b1-0e45-40e6-a0ff-6817af31afff-text-1"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
         "divider": false
       }
     },
-    "1704744427cb7e7dee": {
-      "type": "apps",
+    "12a16dc6-533c-4b97-b394-648bff25e753": {
+      "type": "advanced-content",
       "blocks": {
-        "8606bca1-aa6b-4dc3-a719-3acc5ad64c80": {
-          "type": "shopify:\/\/apps\/sheerid-community-verification\/blocks\/verification\/5d89573c-f987-420b-a60c-72549bb3e6d5",
+        "template--15051909660714__12a16dc6-533c-4b97-b394-648bff25e753-liquid-1": {
+          "type": "liquid",
           "settings": {
-            "program_id": "654cd47450631b79bb56e204",
-            "display_style": "modal",
-            "background_color": "",
-            "extended_background": true,
-            "button_text": "Unlock Teacher discount",
-            "button_color": "#232528",
-            "padding_top": 36,
-            "padding_bottom": 36
+            "code": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a class=\"btn btn--primary btn--small\" onclick=\"displayVerification()\">Confirm Eligibility<\/a>\n<script>\n  function displayVerification() {\n    const verificationUrl = 'https:\/\/services.sheerid.com\/verify\/654cd47450631b79bb56e204\/';\n    sheerId.loadInModal(\n        verificationUrl, {\n        mobileRedirect: true\n      });\n  };\n<\/script>",
+            "width": "33%",
+            "alignment": "center"
           }
         },
-        "b7804282-a158-4978-8e7d-9d877540fc22": {
-          "type": "shopify:\/\/apps\/sheerid-community-verification\/blocks\/verification\/5d89573c-f987-420b-a60c-72549bb3e6d5",
+        "410f5be5-2bd2-41c4-9264-31600ddaca91": {
+          "type": "liquid",
           "settings": {
-            "program_id": "653181526f268b650f8941bd",
-            "display_style": "modal",
-            "background_color": "",
-            "extended_background": true,
-            "button_text": "Unlock Medical discount",
-            "button_color": "#232528",
-            "padding_top": 36,
-            "padding_bottom": 36
+            "code": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a class=\"btn btn--primary btn--small\" onclick=\"displayVerification()\">Confirm Eligibility<\/a>\n<script>\n  function displayVerification() {\n    const verificationUrl = 'https:\/\/services.sheerid.com\/verify\/653181526f268b650f8941bd\/';\n    sheerId.loadInModal(\n        verificationUrl, {\n        mobileRedirect: true\n      });\n  };\n<\/script>",
+            "width": "33%",
+            "alignment": "center"
           }
         },
-        "080f8ea7-c99e-4fc2-9f23-797947ecec55": {
-          "type": "shopify:\/\/apps\/sheerid-community-verification\/blocks\/verification\/5d89573c-f987-420b-a60c-72549bb3e6d5",
+        "6cbd2af0-fb93-40ff-8892-3b9340a02a31": {
+          "type": "liquid",
           "settings": {
-            "program_id": "654cd47450631b79bb56e204",
-            "display_style": "modal",
-            "background_color": "",
-            "extended_background": false,
-            "button_text": "Unlock Military discount",
-            "button_color": "#232528",
-            "padding_top": 36,
-            "padding_bottom": 36
+            "code": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a class=\"btn btn--primary btn--small\" onclick=\"displayVerification()\">Confirm Eligibility<\/a>\n<script>\n  function displayVerification() {\n    const verificationUrl = 'https:\/\/services.sheerid.com\/verify\/654cd47450631b79bb56e204\/';\n    sheerId.loadInModal(\n        verificationUrl, {\n        mobileRedirect: true\n      });\n  };\n<\/script>",
+            "width": "33%",
+            "alignment": "center"
           }
         }
       },
       "block_order": [
-        "8606bca1-aa6b-4dc3-a719-3acc5ad64c80",
-        "b7804282-a158-4978-8e7d-9d877540fc22",
-        "080f8ea7-c99e-4fc2-9f23-797947ecec55"
+        "template--15051909660714__12a16dc6-533c-4b97-b394-648bff25e753-liquid-1",
+        "410f5be5-2bd2-41c4-9264-31600ddaca91",
+        "6cbd2af0-fb93-40ff-8892-3b9340a02a31"
       ],
       "settings": {
         "full_width": false,
-        "space_around": true
+        "space_around": true,
+        "lazyload_images": true
       }
     }
   },
@@ -236,11 +207,10 @@
     "main",
     "2bd673d7-c982-4d47-9c06-acef1a3cff9d",
     "bd5bcecf-9dae-44a0-b877-3128b4358b0f",
-    "57a1120f-e667-421e-9978-6d952fa5d5a1",
     "9b165baf-2795-4163-9e5e-75bbe6fab581",
     "8ab5da3b-b1b5-470a-9962-ef369cd80b91",
     "09479c6c-fa99-479e-ab04-606cd5216936",
     "f58612b1-0e45-40e6-a0ff-6817af31afff",
-    "1704744427cb7e7dee"
+    "12a16dc6-533c-4b97-b394-648bff25e753"
   ]
 }

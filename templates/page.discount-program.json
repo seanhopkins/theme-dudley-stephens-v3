@@ -177,6 +177,59 @@
         "narrow_column": true,
         "divider": false
       }
+    },
+    "1704744427cb7e7dee": {
+      "type": "apps",
+      "blocks": {
+        "8606bca1-aa6b-4dc3-a719-3acc5ad64c80": {
+          "type": "shopify:\/\/apps\/sheerid-community-verification\/blocks\/verification\/5d89573c-f987-420b-a60c-72549bb3e6d5",
+          "settings": {
+            "program_id": "654cd47450631b79bb56e204",
+            "display_style": "modal",
+            "background_color": "",
+            "extended_background": true,
+            "button_text": "Unlock Teacher discount",
+            "button_color": "#232528",
+            "padding_top": 36,
+            "padding_bottom": 36
+          }
+        },
+        "b7804282-a158-4978-8e7d-9d877540fc22": {
+          "type": "shopify:\/\/apps\/sheerid-community-verification\/blocks\/verification\/5d89573c-f987-420b-a60c-72549bb3e6d5",
+          "settings": {
+            "program_id": "653181526f268b650f8941bd",
+            "display_style": "modal",
+            "background_color": "",
+            "extended_background": true,
+            "button_text": "Unlock Medical discount",
+            "button_color": "#232528",
+            "padding_top": 36,
+            "padding_bottom": 36
+          }
+        },
+        "080f8ea7-c99e-4fc2-9f23-797947ecec55": {
+          "type": "shopify:\/\/apps\/sheerid-community-verification\/blocks\/verification\/5d89573c-f987-420b-a60c-72549bb3e6d5",
+          "settings": {
+            "program_id": "654cd47450631b79bb56e204",
+            "display_style": "modal",
+            "background_color": "",
+            "extended_background": false,
+            "button_text": "Unlock Military discount",
+            "button_color": "#232528",
+            "padding_top": 36,
+            "padding_bottom": 36
+          }
+        }
+      },
+      "block_order": [
+        "8606bca1-aa6b-4dc3-a719-3acc5ad64c80",
+        "b7804282-a158-4978-8e7d-9d877540fc22",
+        "080f8ea7-c99e-4fc2-9f23-797947ecec55"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
@@ -187,6 +240,7 @@
     "9b165baf-2795-4163-9e5e-75bbe6fab581",
     "8ab5da3b-b1b5-470a-9962-ef369cd80b91",
     "09479c6c-fa99-479e-ab04-606cd5216936",
-    "f58612b1-0e45-40e6-a0ff-6817af31afff"
+    "f58612b1-0e45-40e6-a0ff-6817af31afff",
+    "1704744427cb7e7dee"
   ]
 }

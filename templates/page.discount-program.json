@@ -32,6 +32,9 @@
       "block_order": [
         "template--15051909660714__2bd673d7-c982-4d47-9c06-acef1a3cff9d-image-1"
       ],
+      "custom_css": [
+        ".hero__subtitle {max-width: 700px}"
+      ],
       "settings": {
         "section_height": "natural",
         "mobile_height": "auto",

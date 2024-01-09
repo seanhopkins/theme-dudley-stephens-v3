@@ -13,10 +13,10 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "",
-            "title_size": 80,
+            "title": "Dudley Discount for Essential Workers",
+            "title_size": 50,
             "text_color": "#ffffff",
-            "subheading": "",
+            "subheading": "Where would we be without our teachers, military members and health workers\/first responders? We appreciate all you do—so we’re giving you a  discount of 15% off sitewide (some exclusions may apply).",
             "link": "",
             "link_text": "",
             "link_2": "",
@@ -46,22 +46,15 @@
     "bd5bcecf-9dae-44a0-b877-3128b4358b0f": {
       "type": "rich-text",
       "blocks": {
-        "template--15051909660714__bd5bcecf-9dae-44a0-b877-3128b4358b0f-heading-1": {
-          "type": "heading",
-          "settings": {
-            "title": "Dudley Discount for Essential Workers"
-          }
-        },
         "template--15051909660714__bd5bcecf-9dae-44a0-b877-3128b4358b0f-text-1": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p><em>Where would we be without our teachers, military members and health workers\/first responders? We appreciate all you do—so we’re giving you a  discount of 15% off sitewide (some exclusions may apply).<\/em><\/p><p><em>To register and receive your discount, just follow our SheerID registration below. Happy shopping—and thank you for your service to all of us!<\/em><\/p>"
+            "text": "<p><\/p><p><em>To register and receive your discount, just follow our SheerID registration below. <br\/>Happy shopping—and thank you for your service to all of us!<\/em><\/p>"
           }
         }
       },
       "block_order": [
-        "template--15051909660714__bd5bcecf-9dae-44a0-b877-3128b4358b0f-heading-1",
         "template--15051909660714__bd5bcecf-9dae-44a0-b877-3128b4358b0f-text-1"
       ],
       "settings": {
@@ -169,7 +162,7 @@
         "template--15051909660714__12a16dc6-533c-4b97-b394-648bff25e753-liquid-1": {
           "type": "liquid",
           "settings": {
-            "code": "<div class=\"text-center\">\n<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a onclick=\"displayVerification()\">Confirm Eligibility<\/a>\n<script>\n  function displayVerification() {\n    const verificationUrl = 'https:\/\/services.sheerid.com\/verify\/653181526f268b650f8941bd\/';\n    sheerId.loadInModal(\n        verificationUrl, {\n        mobileRedirect: true\n      });\n  };\n<\/script>\n<\/div>",
+            "code": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a onclick=\"displayVerificationMedical()\">Confirm Medical Eligibility<\/a>\n<script>\nfunction displayVerificationMedical() {\nconst verificationUrl = 'https:\/\/services.sheerid.com\/verify\/653181526f268b650f8941bd\/';\nsheerId.loadInModal(\nverificationUrl, {\nmobileRedirect: true\n});\n};\n<\/script>",
             "width": "33%",
             "alignment": "center"
           }
@@ -177,7 +170,7 @@
         "410f5be5-2bd2-41c4-9264-31600ddaca91": {
           "type": "liquid",
           "settings": {
-            "code": "<div class=\"text-center\"><link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a onclick=\"displayVerification()\">Confirm Eligibility<\/a>\n<script>\n  function displayVerification() {\n    const verificationUrl = 'https:\/\/services.sheerid.com\/verify\/654cd47450631b79bb56e204\/';\n    sheerId.loadInModal(\n        verificationUrl, {\n        mobileRedirect: true\n      });\n  };\n<\/script>\n<\/div>",
+            "code": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a onclick=\"displayVerificationMilitary()\">Confirm Military Eligibility<\/a>\n<script>\nfunction displayVerificationMilitary() {\nconst verificationUrl = 'https:\/\/services.sheerid.com\/verify\/654cd47450631b79bb56e204\/';\nsheerId.loadInModal(\nverificationUrl, {\nmobileRedirect: true\n});\n};\n<\/script>",
             "width": "33%",
             "alignment": "center"
           }
@@ -185,7 +178,7 @@
         "6cbd2af0-fb93-40ff-8892-3b9340a02a31": {
           "type": "liquid",
           "settings": {
-            "code": "<div class=\"text-center\">\n<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a onclick=\"displayVerification()\">Confirm Eligibility<\/a>\n<script>\n  function displayVerification() {\n    const verificationUrl = 'https:\/\/services.sheerid.com\/verify\/654cd47450631b79bb56e204\/';\n    sheerId.loadInModal(\n        verificationUrl, {\n        mobileRedirect: true\n      });\n  };\n<\/script>\n<\/div>",
+            "code": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a onclick=\"displayVerificationTeacher()\">Confirm Eligibility<\/a>\n<script>\nfunction displayVerificationTeacher() {\nconst verificationUrl = 'https:\/\/services.sheerid.com\/verify\/653182469376956b0337ebb4\/';\nsheerId.loadInModal(\nverificationUrl, {\nmobileRedirect: true\n});\n};\n<\/script>",
             "width": "33%",
             "alignment": "center"
           }

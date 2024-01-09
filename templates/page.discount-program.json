@@ -93,7 +93,7 @@
         "template--15051909660714__12a16dc6-533c-4b97-b394-648bff25e753-liquid-1": {
           "type": "liquid",
           "settings": {
-            "code": "<div class=\"text-center'>\n<div class=\"text-center'>\n<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a onclick=\"displayVerificationMedical()\">Confirm Medical Eligibility<\/a>\n<script>\nfunction displayVerificationMedical() {\nconst verificationUrl = 'https:\/\/services.sheerid.com\/verify\/653181526f268b650f8941bd\/';\nsheerId.loadInModal(\nverificationUrl, {\nmobileRedirect: true\n});\n};\n<\/script>\n<\/div>\n<\/div>",
+            "code": "<div class=\"text-center\">\n<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a onclick=\"displayVerificationMedical()\">Confirm Medical Eligibility<\/a>\n<script>\nfunction displayVerificationMedical() {\nconst verificationUrl = 'https:\/\/services.sheerid.com\/verify\/653181526f268b650f8941bd\/';\nsheerId.loadInModal(\nverificationUrl, {\nmobileRedirect: true\n});\n};\n<\/script>\n<\/div>",
             "width": "33%",
             "alignment": "center"
           }
@@ -101,7 +101,7 @@
         "410f5be5-2bd2-41c4-9264-31600ddaca91": {
           "type": "liquid",
           "settings": {
-            "code": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a onclick=\"displayVerificationMilitary()\">Confirm Military Eligibility<\/a>\n<script>\nfunction displayVerificationMilitary() {\nconst verificationUrl = 'https:\/\/services.sheerid.com\/verify\/654cd47450631b79bb56e204\/';\nsheerId.loadInModal(\nverificationUrl, {\nmobileRedirect: true\n});\n};\n<\/script>",
+            "code": "<div class=\"text-center\">\n<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a onclick=\"displayVerificationMilitary()\">Confirm Military Eligibility<\/a>\n<script>\nfunction displayVerificationMilitary() {\nconst verificationUrl = 'https:\/\/services.sheerid.com\/verify\/654cd47450631b79bb56e204\/';\nsheerId.loadInModal(\nverificationUrl, {\nmobileRedirect: true\n});\n};\n<\/script>\n<\/div>",
             "width": "33%",
             "alignment": "center"
           }
@@ -109,7 +109,7 @@
         "6cbd2af0-fb93-40ff-8892-3b9340a02a31": {
           "type": "liquid",
           "settings": {
-            "code": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a onclick=\"displayVerificationTeacher()\">Confirm Eligibility<\/a>\n<script>\nfunction displayVerificationTeacher() {\nconst verificationUrl = 'https:\/\/services.sheerid.com\/verify\/653182469376956b0337ebb4\/';\nsheerId.loadInModal(\nverificationUrl, {\nmobileRedirect: true\n});\n};\n<\/script>",
+            "code": "<div class=\"text-center\">\n<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a onclick=\"displayVerificationTeacher()\">Confirm Teacher Eligibility<\/a>\n<script>\nfunction displayVerificationTeacher() {\nconst verificationUrl = 'https:\/\/services.sheerid.com\/verify\/653182469376956b0337ebb4\/';\nsheerId.loadInModal(\nverificationUrl, {\nmobileRedirect: true\n});\n};\n<\/script>\n<\/div>",
             "width": "33%",
             "alignment": "center"
           }

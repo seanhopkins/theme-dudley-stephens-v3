@@ -34,7 +34,8 @@
         "template--15051909660714__2bd673d7-c982-4d47-9c06-acef1a3cff9d-image-1"
       ],
       "custom_css": [
-        ".hero__subtitle {max-width: 700px;}"
+        ".hero__subtitle {max-width: 700px;}",
+        ".hero__text-shadow:before {display: none;}"
       ],
       "settings": {
         "section_height": "natural",

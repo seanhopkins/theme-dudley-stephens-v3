@@ -15,7 +15,7 @@
             "top_subheading": "",
             "title": "Dudley Discount for Essential Workers",
             "title_size": 50,
-            "text_color": "#ffffff",
+            "text_color": "#232528",
             "subheading": "Where would we be without our teachers, military members and health workers\/first responders? We appreciate all you do—so we’re giving you a  discount of 15% off sitewide (some exclusions may apply).",
             "link": "",
             "link_text": "",
@@ -26,7 +26,7 @@
             "image": "shopify:\/\/shop_images\/Slider_7f9178ba-4be7-450a-9992-26c6fd47e6a1.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_bc8680da-de76-4779-8080-b9b329e55089.jpg",
             "parallax_direction": "top",
-            "overlay_opacity": 10
+            "overlay_opacity": 0
           }
         }
       },

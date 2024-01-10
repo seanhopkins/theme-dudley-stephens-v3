@@ -22,10 +22,11 @@
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Jan16ds_banner-1_0649e6e6-d336-4447-b220-9145495bd09f.jpg",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify:\/\/shop_images\/Slider_7f9178ba-4be7-450a-9992-26c6fd47e6a1.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_bc8680da-de76-4779-8080-b9b329e55089.jpg",
             "parallax_direction": "top",
-            "overlay_opacity": 26
+            "overlay_opacity": 10
           }
         }
       },
@@ -39,7 +40,7 @@
         "section_height": "natural",
         "mobile_height": "auto",
         "parallax": false,
-        "framed": true,
+        "framed": false,
         "style": "bars",
         "autoplay": false,
         "autoplay_speed": 5,

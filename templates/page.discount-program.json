@@ -119,7 +119,7 @@
         "liquid_kETLyA": {
           "type": "liquid",
           "settings": {
-            "code": "<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a class=\"btn btn--primary\" onclick=\"displayVerificationFirstResponder()\">Confirm First Responder Eligibility<\/a>\n<script>\n  function displayVerificationFirstResponder() {\n    const verificationUrl = 'https:\/\/services.sheerid.com\/verify\/658f984f4081f66a3886d3fb\/';\n    sheerId.loadInModal(\n        verificationUrl, {\n        mobileRedirect: true\n      });\n  };\n<\/script>",
+            "code": "<div class=\"text-center\">\n<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a class=\"btn btn--primary\" onclick=\"displayVerificationFirstResponder()\">Confirm First Responder Eligibility<\/a>\n<script>\n  function displayVerificationFirstResponder() {\n    const verificationUrl = 'https:\/\/services.sheerid.com\/verify\/658f984f4081f66a3886d3fb\/';\n    sheerId.loadInModal(\n        verificationUrl, {\n        mobileRedirect: true\n      });\n  };\n<\/script>\n<\/div>",
             "width": "25%",
             "alignment": "center"
           }

@@ -7,6 +7,7 @@
       "blocks": {
         "announcement-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "Shop 50% off select outerwear, this weekend only!",

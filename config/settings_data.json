@@ -1447,9 +1447,15 @@
         "settings": {
         }
       },
+      "5946647744298494267": {
+        "type": "shopify:\/\/apps\/wishlist-plus\/blocks\/wishlist-app-embed\/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "15014643352720781508": {
         "type": "shopify:\/\/apps\/wrapped\/blocks\/app-embed\/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "cart_widget_enabled": false,
           "item_widget_enabled": true,
@@ -1474,12 +1480,6 @@
           "cart_widget_text_alignment": "--wrapped-checkbox--label-left",
           "item_widget_text_alignment": "--wrapped-checkbox--label-left",
           "product_widget_text_alignment": "--wrapped-checkbox--label-left"
-        }
-      },
-      "5946647744298494267": {
-        "type": "shopify:\/\/apps\/wishlist-plus\/blocks\/wishlist-app-embed\/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
-        "disabled": false,
-        "settings": {
         }
       }
     }

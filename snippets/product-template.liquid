@@ -162,17 +162,17 @@
                   {{ product.title }}
                 </p>
               {%- else -%}
-                {%  if product.metafields.custom.product_material != "N/A" %}
+                {% if product.metafields.custom.product_material != "N/A" %}
                   <div class="product-links">
                     <div class="rte">
-                      <a href="/collections/shop-all?filter.p.m.custom.product_material={{ product.metafields.custom.product_material | replace:" ", "+" }}" 
+                      <a href="/collections/{{ product.metafields.custom.product_material | handleize }}" 
                         title="Shop all {{ product.metafields.custom.product_material }}" 
                         class="product-link--color">
                         {{ product.metafields.custom.product_material }}
                       </a>
                     </div>
                 </div>
-                {%  endif %}
+                {% endif %}
                 <h1 class="h2 product-single__title">
                   {%- unless product.empty? -%}
                     {% if product.metafields.custom.product_style != blank and product_color != blank%}

@@ -15,17 +15,18 @@
             "top_subheading": "",
             "title": "Dudley Discount for Essential Workers",
             "title_size": 50,
-            "text_color": "#ffffff",
-            "subheading": "Where would we be without our teachers, military members and health workers\/first responders? We appreciate all you do—so we’re giving you a  discount of 15% off sitewide (some exclusions may apply).",
+            "text_color": "#232528",
+            "subheading": "Where would we be without our teachers, military members and health workers\/first responders? We appreciate all you do—so we’re giving you a discount of 15% off sitewide (some exclusions may apply).",
             "link": "",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Jan16ds_banner-1_0649e6e6-d336-4447-b220-9145495bd09f.jpg",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify:\/\/shop_images\/Slider_7f9178ba-4be7-450a-9992-26c6fd47e6a1.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_bc8680da-de76-4779-8080-b9b329e55089.jpg",
             "parallax_direction": "top",
-            "overlay_opacity": 26
+            "overlay_opacity": 0
           }
         }
       },
@@ -33,13 +34,14 @@
         "template--15051909660714__2bd673d7-c982-4d47-9c06-acef1a3cff9d-image-1"
       ],
       "custom_css": [
-        ".hero__subtitle {max-width: 700px;}"
+        ".hero__subtitle {max-width: 700px;}",
+        ".hero__text-shadow:before {display: none;}"
       ],
       "settings": {
         "section_height": "natural",
         "mobile_height": "auto",
         "parallax": false,
-        "framed": true,
+        "framed": false,
         "style": "bars",
         "autoplay": false,
         "autoplay_speed": 5,
@@ -53,7 +55,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p><\/p><p><em>To register and receive your discount, just follow our SheerID registration below. <br\/>Happy shopping—and thank you for your service to all of us!<\/em><\/p>"
+            "text": "<p>To register and receive your discount, just follow our SheerID registration below. The code you receive is good for one order; eligible essential workers can be re-verified after 30 days have passed since the previous approval.<\/p><p>Happy shopping—and thank you for your service to all of us!<\/p>"
           }
         }
       },
@@ -94,7 +96,7 @@
           "type": "liquid",
           "settings": {
             "code": "<div class=\"text-center\">\n<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a class=\"btn btn--primary btn--small\" onclick=\"displayVerificationMedical()\">Confirm Medical Eligibility<\/a>\n<script>\nfunction displayVerificationMedical() {\nconst verificationUrl = 'https:\/\/services.sheerid.com\/verify\/653181526f268b650f8941bd\/';\nsheerId.loadInModal(\nverificationUrl, {\nmobileRedirect: true\n});\n};\n<\/script>\n<\/div>",
-            "width": "33%",
+            "width": "25%",
             "alignment": "center"
           }
         },
@@ -102,7 +104,7 @@
           "type": "liquid",
           "settings": {
             "code": "<div class=\"text-center\">\n<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a class=\"btn btn--primary btn--small\" onclick=\"displayVerificationMilitary()\">Confirm Military Eligibility<\/a>\n<script>\nfunction displayVerificationMilitary() {\nconst verificationUrl = 'https:\/\/services.sheerid.com\/verify\/654cd47450631b79bb56e204\/';\nsheerId.loadInModal(\nverificationUrl, {\nmobileRedirect: true\n});\n};\n<\/script>\n<\/div>",
-            "width": "33%",
+            "width": "25%",
             "alignment": "center"
           }
         },
@@ -110,7 +112,15 @@
           "type": "liquid",
           "settings": {
             "code": "<div class=\"text-center\">\n<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a class=\"btn btn--primary btn--small\" onclick=\"displayVerificationTeacher()\">Confirm Teacher Eligibility<\/a>\n<script>\nfunction displayVerificationTeacher() {\nconst verificationUrl = 'https:\/\/services.sheerid.com\/verify\/653182469376956b0337ebb4\/';\nsheerId.loadInModal(\nverificationUrl, {\nmobileRedirect: true\n});\n};\n<\/script>\n<\/div>",
-            "width": "33%",
+            "width": "25%",
+            "alignment": "center"
+          }
+        },
+        "liquid_kETLyA": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"text-center\">\n<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a class=\"btn btn--primary\" onclick=\"displayVerificationFirstResponder()\">Confirm First Responder Eligibility<\/a>\n<script>\n  function displayVerificationFirstResponder() {\n    const verificationUrl = 'https:\/\/services.sheerid.com\/verify\/658f984f4081f66a3886d3fb\/';\n    sheerId.loadInModal(\n        verificationUrl, {\n        mobileRedirect: true\n      });\n  };\n<\/script>\n<\/div>",
+            "width": "25%",
             "alignment": "center"
           }
         }
@@ -118,12 +128,41 @@
       "block_order": [
         "template--15051909660714__12a16dc6-533c-4b97-b394-648bff25e753-liquid-1",
         "410f5be5-2bd2-41c4-9264-31600ddaca91",
-        "6cbd2af0-fb93-40ff-8892-3b9340a02a31"
+        "6cbd2af0-fb93-40ff-8892-3b9340a02a31",
+        "liquid_kETLyA"
       ],
       "settings": {
         "full_width": false,
         "space_around": true,
         "lazyload_images": true
+      }
+    },
+    "rich_text_znDVDy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6jap6P": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "text_FY8UjH": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Terms of offer: Essential Workers discount of 15% off applies to discountable products (some exclusions apply) for teachers, military members and health care workers\/first responders verified through SheerID only. Code is good for one order; eligible essential workers can be re-verified after 30 days have passed since the previous approval. No minimum spend required. Offer cannot be combined with Pineapple Points or other discount codes. Program is subject to change.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6jap6P",
+        "text_FY8UjH"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
       }
     }
   },
@@ -132,6 +171,7 @@
     "2bd673d7-c982-4d47-9c06-acef1a3cff9d",
     "bd5bcecf-9dae-44a0-b877-3128b4358b0f",
     "f58612b1-0e45-40e6-a0ff-6817af31afff",
-    "12a16dc6-533c-4b97-b394-648bff25e753"
+    "12a16dc6-533c-4b97-b394-648bff25e753",
+    "rich_text_znDVDy"
   ]
 }

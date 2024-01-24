@@ -9,12 +9,13 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Our latest drop: workwear, Dudley style.",
+            "link_text": "Discover the new Long Wharf and Wildwood tops!",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
           }
         },
         "announcement-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "Order fulfillment delays expected until 1\/22. Thank you for your patience!",

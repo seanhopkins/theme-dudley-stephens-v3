@@ -38,6 +38,7 @@
       "blocks": {
         "template--14941186293802__9f2f8ec2-a27c-4723-8fbd-1c943d4846a9-1686857266cb48b043-0": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/meadow.jpg",

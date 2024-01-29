@@ -1099,6 +1099,14 @@
               "monogram_swatch": "shopify:\/\/shop_images\/red.jpg"
             }
           },
+          "color_swatch_7QXUUQ": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Red \/ Cotton Candy",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/red-cotton-candy.png"
+            }
+          },
           "1600111056141": {
             "type": "color_swatch",
             "settings": {
@@ -1262,14 +1270,6 @@
               "swatch_color": "#8c2230",
               "monogram_swatch": "shopify:\/\/shop_images\/Winterberry_monogram_swatch.png"
             }
-          },
-          "color_swatch_7QXUUQ": {
-            "type": "color_swatch",
-            "settings": {
-              "title": "Red \/ Cotton Candy",
-              "swatch_color": "",
-              "swatch_image": "shopify:\/\/shop_images\/red-cotton-candy.png"
-            }
           }
         },
         "block_order": [
@@ -1397,6 +1397,7 @@
           "305538a8-cbd3-4ae0-a770-165d1daed1f6",
           "1602596994240",
           "1573761680636",
+          "color_swatch_7QXUUQ",
           "1600111056141",
           "558933fd-6bb0-437b-887a-fd7809f851e7",
           "245b6bab-9bb9-4141-a7b8-e83d3a44419d",
@@ -1417,8 +1418,7 @@
           "1574186951943",
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
           "250b5ae7-c936-4846-8ffc-76eb6db8d944",
-          "c8ac5c7d-81b0-494f-af6b-de00a0d6153b",
-          "color_swatch_7QXUUQ"
+          "c8ac5c7d-81b0-494f-af6b-de00a0d6153b"
         ],
         "settings": {
         }

@@ -1262,6 +1262,14 @@
               "swatch_color": "#8c2230",
               "monogram_swatch": "shopify:\/\/shop_images\/Winterberry_monogram_swatch.png"
             }
+          },
+          "color_swatch_7QXUUQ": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Red \/ Cotton Candy",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/red-cotton-candy.png"
+            }
           }
         },
         "block_order": [
@@ -1409,7 +1417,8 @@
           "1574186951943",
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
           "250b5ae7-c936-4846-8ffc-76eb6db8d944",
-          "c8ac5c7d-81b0-494f-af6b-de00a0d6153b"
+          "c8ac5c7d-81b0-494f-af6b-de00a0d6153b",
+          "color_swatch_7QXUUQ"
         ],
         "settings": {
         }

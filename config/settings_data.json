@@ -1104,7 +1104,8 @@
             "settings": {
               "title": "Red \/ Cotton Candy",
               "swatch_color": "",
-              "swatch_image": "shopify:\/\/shop_images\/red-cotton-candy.png"
+              "swatch_image": "shopify:\/\/shop_images\/red-cotton-candy.png",
+              "monogram_swatch": "shopify:\/\/shop_images\/Red_Cotton_Candy.png"
             }
           },
           "1600111056141": {

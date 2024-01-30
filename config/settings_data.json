@@ -68,7 +68,7 @@
     "cart_notes_enable": true,
     "cart_terms_conditions_enable": false,
     "rebuy_widget_embed": "<div data-rebuy-id=\"127216\"><\/div>",
-    "gwp_enable": false,
+    "gwp_enable": true,
     "gwp_tier_1_product_ids": "6996400046122, 6996400177194",
     "gwp_tier_1_threshold": "150",
     "gwp_tier_1_spend_more": "You’re just [money] away from a free Room Service Mask",

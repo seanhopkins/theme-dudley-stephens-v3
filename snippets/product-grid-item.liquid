@@ -106,7 +106,7 @@ Arguments
 
     <div class="grid__item-image-wrapper">
       <div class="product__photos--stamps">
-        {% liquid
+        {%- liquid
           # ===
           # If a product has an inventory level lower than X, show "almost gone" stamp
           # ===
@@ -120,15 +120,15 @@ Arguments
           endfor 
 
           # Hide gift card
-          if  product.template_suffix == 'gift-card'
+          if product.template_suffix == 'gift-card'
             assign show_almost_gone = false
           endif 
           
           # Hide monogram product
-          if  product.id == '6786596175914'
+          if product.id == 6786596175914
             assign show_almost_gone = false
           endif
-        %}
+        -%}
         {% if total_inventory <= 10 and show_almost_gone %}
           <div class="product__stamp stamp--almost-gone {% if total_inventory == 0 %}hide {% endif %}">
             <img class="product__stamp--image small--hide" src="{{ 'almost-gone.png' | file_url }}" alt="Almost Gone">

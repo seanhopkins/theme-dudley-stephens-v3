@@ -9,17 +9,16 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Discover the new Long Wharf and Wildwood tops!",
+            "link_text": "The DS Comfort Valentine's Day Collection is here!",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
           }
         },
         "announcement-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "",
-            "link_text": "Order fulfillment delays expected until 1\/22. Thank you for your patience!",
-            "link": ""
+            "link_text": "Gift with Purchase! Get a Room Service Eye Mask ($150+) or a Jetset Pouch ($200+) when you shop today.",
+            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
           }
         },
         "57204342-0c5b-4be5-8089-ed68a2ee6b82": {

@@ -67,16 +67,16 @@
     "cart_type": "drawer",
     "cart_notes_enable": true,
     "cart_terms_conditions_enable": false,
-    "rebuy_widget_embed": "{% comment %}\nRemove the rebuy widget when GWP is active \n\n<div data-rebuy-id=\"127216\"><\/div>\n{% endcomment %}",
+    "rebuy_widget_embed": "{% comment %}<div data-rebuy-id=\"127216\"><\/div>\n{% endcomment %}",
     "gwp_enable": true,
     "gwp_tier_1_product_ids": "6996400046122, 6996400177194",
     "gwp_tier_1_threshold": "150",
-    "gwp_tier_1_spend_more": "You’re just [money] away from a free Eye Mask",
-    "gwp_tier_1_unlocked": "<p>Good news: Your $150+ cart has earned you our Eye Mask gift with purchase! Add one to your cart before checking out, with no additional charge.<\/p>",
-    "gwp_tier_2_product_ids": "6996345651242, 6996345749546",
+    "gwp_tier_1_spend_more": "You’re just [money] away from a free Room Service Mask",
+    "gwp_tier_1_unlocked": "<p>Good news: Your $150+ cart has earned you our Room Service Mask gift with purchase! Add one to your cart before checking out, with no additional charge.<\/p>",
+    "gwp_tier_2_product_ids": "6996400046122, 6996400177194, 6996345651242, 6996345749546",
     "gwp_tier_2_threshold": "200",
-    "gwp_tier_2_spend_more": "You’re just [money] away from our Jet Set Pouch gift with purchase",
-    "gwp_tier_2_unlocked": "<p>Good news: Your $150+ cart has earned you our Jet Set Pouch gift with purchase! Add one to your cart before checking out, with no additional charge.<\/p>",
+    "gwp_tier_2_spend_more": "You’re just [money] away from our Jetset Pouch gift with purchase",
+    "gwp_tier_2_unlocked": "<p>Good news: Your $200+ cart has earned you our Jetset Pouch gift with purchase! Add one to your cart before checking out, with no additional charge.<\/p>",
     "social_facebook_link": "https:\/\/www.facebook.com\/dudleystephensofficial",
     "social_twitter_link": "",
     "social_pinterest_link": "https:\/\/www.pinterest.com\/dudley_stephens\/",
@@ -1099,6 +1099,15 @@
               "monogram_swatch": "shopify:\/\/shop_images\/red.jpg"
             }
           },
+          "color_swatch_7QXUUQ": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Red \/ Cotton Candy",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/red-cotton-candy.png",
+              "monogram_swatch": "shopify:\/\/shop_images\/Red_Cotton_Candy.png"
+            }
+          },
           "1600111056141": {
             "type": "color_swatch",
             "settings": {
@@ -1389,6 +1398,7 @@
           "305538a8-cbd3-4ae0-a770-165d1daed1f6",
           "1602596994240",
           "1573761680636",
+          "color_swatch_7QXUUQ",
           "1600111056141",
           "558933fd-6bb0-437b-887a-fd7809f851e7",
           "245b6bab-9bb9-4141-a7b8-e83d3a44419d",

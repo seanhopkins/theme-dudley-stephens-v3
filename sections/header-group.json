@@ -15,6 +15,7 @@
         },
         "announcement-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "Gift with Purchase! Get a Jetset Pouch ($200+) when you shop today.",

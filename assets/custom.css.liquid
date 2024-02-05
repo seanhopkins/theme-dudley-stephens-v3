@@ -435,3 +435,16 @@ div#loop-onstore {
 .loop-returns-activated .monogram-pdp-wrapper {
    display: none;
 }
+
+/* Show toolbar menu on mobile */
+@media only screen and (max-width: 768px) {
+   .toolbar__menu {
+      display: flex;
+      justify-content: space-between;
+      margin-left: -10px;
+      margin-right: -10px;
+   }
+   .toolbar__menu a.site-nav__link {
+      font-size: 10px;
+  }
+}

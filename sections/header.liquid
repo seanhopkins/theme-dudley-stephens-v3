@@ -106,6 +106,19 @@
         class="site-header{% if settings.type_navigation_style == 'heading' %} site-header--heading-style{% endif %}"
         data-sticky="{{ sticky_header }}"
         data-overlay="{{ overlay_header }}">
+        {%- if section.settings.toolbar_menu != blank -%}
+          <div class="page-width">
+            <div class="toolbar__item toolbar__item--menu medium-up--hide">
+              <ul class="inline-list toolbar__menu">
+              {%- for link in toolbar_menu.links -%}
+                <li class="site-nav__item">
+                  <a class="site-nav__link site-nav__link--underline" href="{{ link.url }}">{{ link.title }}</a>
+                </li>
+              {%- endfor -%}
+              </ul>
+            </div>
+          </div>
+        {%- endif -%}
         <div class="page-width">
           <div
             class="header-layout header-layout--{{ section.settings.main_menu_alignment }}"

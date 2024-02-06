@@ -9,16 +9,15 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "The DS Comfort Valentine's Day Collection is here!",
-            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
+            "link_text": "Shop the new Gramercy Crew & more Valentine's gifts for guys",
+            "link": "https:\/\/www.dudley-stephens.com\/collections\/mens"
           }
         },
         "announcement-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "",
-            "link_text": "Gift with Purchase! Get a Jetset Pouch ($200+) when you shop today.",
+            "link_text": "The DS Comfort Valentine's Day Collection is here!",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
           }
         },

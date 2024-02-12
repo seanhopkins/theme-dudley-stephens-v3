@@ -44,9 +44,10 @@
         "image2_mask": "none",
         "subtitle": "",
         "title": "The Dudley Stephens Townhouse",
-        "text": "<p>6 W Putnam Avenue, 2nd Floor, Greenwich, CT<\/p><p>Shopping hours: Monday - Friday, 9:30 a.m. - 5 p.m., by appointment only. <\/p><p>Contact us to make an appointment or to schedule a private shopping event: info@dudley-stephens.com.<br\/><\/p><p>Select styles in-stock in our showroom; please contact us in advance to confirm availability of specific items.<\/p>",
+        "text": "<p>6 W Putnam Avenue, 2nd Floor, Greenwich, CT<\/p><p>Generally closed for shopping at this time, but sign up for emails and texts to hear about our special shopping events throughout the year.<\/p>",
         "button_label": "",
         "button_link": "",
+        "liquid": "",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "33",
@@ -89,7 +90,7 @@
       "type": "apps",
       "blocks": {
         "2f8f136e-6d47-4c86-8205-9f47ef705b7f": {
-          "type": "shopify:\/\/apps\/progus-store-locator-map\/blocks\/app-block\/d7896016-8cc9-45e0-860e-ba85ba3d5be4",
+          "type": "shopify:\/\/apps\/progus-store-locator\/blocks\/app-block\/d7896016-8cc9-45e0-860e-ba85ba3d5be4",
           "settings": {
           }
         }

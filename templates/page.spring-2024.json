@@ -9,11 +9,11 @@
     "slideshow_rRBbTH": {
       "type": "slideshow",
       "blocks": {
-        "image_yTxTc9": {
+        "image_qbY9KC": {
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "",
+            "title": "The Spring Collection\n2024",
             "title_size": 80,
             "text_color": "#ffffff",
             "subheading": "",
@@ -22,7 +22,7 @@
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-bottom horizontal-right",
+            "text_align": "vertical-center horizontal-right",
             "image": "shopify:\/\/shop_images\/Slider_ef712d97-028d-4ede-ad0a-fa5c61a3612a.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_b599a35c-8573-40b3-abdf-e2dc2d90a9e8.jpg",
             "parallax_direction": "top",
@@ -50,14 +50,14 @@
         }
       },
       "block_order": [
-        "image_yTxTc9",
+        "image_qbY9KC",
         "image_MyGKXk"
       ],
       "settings": {
         "section_height": "natural",
         "mobile_height": "auto",
         "parallax": false,
-        "framed": false,
+        "framed": true,
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 5,

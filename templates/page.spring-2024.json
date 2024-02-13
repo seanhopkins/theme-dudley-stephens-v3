@@ -131,7 +131,42 @@
         "divider": false
       }
     },
-    "50c43048-9982-4115-85ba-cae759aa5888": {
+    "hotspots_aNhBUB": {
+      "type": "hotspots",
+      "blocks": {
+        "product_qfgVTi": {
+          "type": "product",
+          "settings": {
+            "featured_product": "",
+            "vertical": 25,
+            "horizontal": 25
+          }
+        },
+        "product_yn6P7E": {
+          "type": "product",
+          "settings": {
+            "featured_product": "",
+            "vertical": 75,
+            "horizontal": 65
+          }
+        }
+      },
+      "block_order": [
+        "product_qfgVTi",
+        "product_yn6P7E"
+      ],
+      "settings": {
+        "title": "Waffle",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "indent_image": false,
+        "image_position": "left",
+        "hotspot_style": "bag",
+        "hotspot_color": "#000000",
+        "lazyload_images": true
+      }
+    },
+    "featured_collection_rXtMd3": {
       "type": "featured-collection",
       "settings": {
         "title": "Spring Layers",
@@ -149,6 +184,7 @@
     "slideshow_rRBbTH",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "text_columns_CrBn3M",
-    "50c43048-9982-4115-85ba-cae759aa5888"
+    "hotspots_aNhBUB",
+    "featured_collection_rXtMd3"
   ]
 }

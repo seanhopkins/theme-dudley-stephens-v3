@@ -6,6 +6,64 @@
       "settings": {
       }
     },
+    "slideshow_rRBbTH": {
+      "type": "slideshow",
+      "blocks": {
+        "image_yTxTc9": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify:\/\/shop_images\/Slider_ef712d97-028d-4ede-ad0a-fa5c61a3612a.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_b599a35c-8573-40b3-abdf-e2dc2d90a9e8.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_MyGKXk": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "And big, beautiful imagery",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_yTxTc9",
+        "image_MyGKXk"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "framed": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
     "c3220d24-8e7b-4f84-a431-0aae228e36f2": {
       "type": "rich-text",
       "blocks": {
@@ -115,6 +173,7 @@
   },
   "order": [
     "main",
+    "slideshow_rRBbTH",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "0462ca32-1921-42d0-9b0d-239c90c50a09",
     "50c43048-9982-4115-85ba-cae759aa5888",

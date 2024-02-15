@@ -91,7 +91,7 @@
     "show_tag_sale_message_clp": true,
     "show_tag_sale_message_pdp": true,
     "tag_sale_tag": "TAKE40",
-    "tag_sale_message": "<p>Take and additional 40% off with code TAKE40<\/p>",
+    "tag_sale_message": "<p>TAKE AN ADDITIONAL 40% OFF WITH CODE TAKE40<\/p>",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",

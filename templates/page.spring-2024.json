@@ -178,7 +178,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1438.jpg",
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1211.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -328,26 +328,112 @@
         "lazyload_images": true
       }
     },
-    "text_and_image_hh7FMH": {
-      "type": "text-and-image",
+    "text_columns_RfLVxQ": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_7Crt44": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1438.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_yxUVQJ": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_3079.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_nJCenm": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1166.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_7Crt44",
+        "text_block_yxUVQJ",
+        "text_block_nJCenm"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_0760.jpg",
-        "image_mask": "rounded",
-        "image2_mask": "none",
-        "subtitle": "",
-        "title": "Blue Floral",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "liquid": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "right",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "text_columns_3fxjMe": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_EQwEWe": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_2829.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_NXb3t6": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_3069.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_MAT6LK": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens0330_1_5eda2e8e-33c4-4661-b00d-36b3c2163df5.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_EQwEWe",
+        "text_block_NXb3t6",
+        "text_block_MAT6LK"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
       }
     }
   },
@@ -361,6 +447,7 @@
     "text_columns_CrBn3M",
     "featured_collection_rXtMd3",
     "hotspots_aNhBUB",
-    "text_and_image_hh7FMH"
+    "text_columns_RfLVxQ",
+    "text_columns_3fxjMe"
   ]
 }

@@ -13,7 +13,7 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "The Spring Collection\n2024",
+            "title": "The First of Spring",
             "title_size": 80,
             "text_color": "#ffffff",
             "subheading": "",
@@ -77,7 +77,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Afternoons that linger longer, a warmer forecast here and there. The first flowers of spring. This is the transition Dudley is made for. Our versatile, layerable styles in recycled performancewear fabrics are designed to adapt to those in-between days—so dressing for spring’s arrival is as effortless as the season is made to feel.<\/p>"
+            "text": "<p>Here's your first glimpse of DS Spring: styles to ease into the warm season. Discover effortless layers, problem-solving pieces and pops of color (finally!), coming soon.<\/p>"
           }
         }
       },
@@ -88,6 +88,18 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
+        "divider": false
+      }
+    },
+    "featured_collection_rXtMd3": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Spring Layers",
+        "home_featured_products": "spring-layers",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
         "divider": false
       }
     },
@@ -166,16 +178,26 @@
         "lazyload_images": true
       }
     },
-    "featured_collection_rXtMd3": {
-      "type": "featured-collection",
+    "text_and_image_hh7FMH": {
+      "type": "text-and-image",
       "settings": {
-        "title": "Spring Layers",
-        "home_featured_products": "spring-layers",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
+        "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_0760.jpg",
+        "image_mask": "rounded",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Blue Floral",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
       }
     }
   },
@@ -183,8 +205,9 @@
     "main",
     "slideshow_rRBbTH",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
+    "featured_collection_rXtMd3",
     "text_columns_CrBn3M",
     "hotspots_aNhBUB",
-    "featured_collection_rXtMd3"
+    "text_and_image_hh7FMH"
   ]
 }

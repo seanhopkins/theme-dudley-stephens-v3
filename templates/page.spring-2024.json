@@ -98,7 +98,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1960.jpg",
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1993.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -119,11 +119,25 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "text_block_NB77Rb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens0600.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "text_block_kRTNbz",
-        "text_block_34PYPh"
+        "text_block_34PYPh",
+        "text_block_NB77Rb"
       ],
       "settings": {
         "title": "",
@@ -134,19 +148,6 @@
     "text_columns_jx8WEb": {
       "type": "text-columns",
       "blocks": {
-        "text_block_Ybed6D": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens0615.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "text_block_HmQyd6": {
           "type": "text_block",
           "settings": {
@@ -159,11 +160,38 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "text_block_Ybed6D": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_3237_1.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_ntqWFC": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1438.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
+        "text_block_HmQyd6",
         "text_block_Ybed6D",
-        "text_block_HmQyd6"
+        "text_block_ntqWFC"
       ],
       "settings": {
         "title": "",

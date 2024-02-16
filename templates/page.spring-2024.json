@@ -22,9 +22,9 @@
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-right",
-            "image": "shopify:\/\/shop_images\/Slider_ef712d97-028d-4ede-ad0a-fa5c61a3612a.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_b599a35c-8573-40b3-abdf-e2dc2d90a9e8.jpg",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/Slider_1856de8e-81c2-41c3-bd36-8ff901a71ceb.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_14bd44f4-7a9a-4a21-a134-4843a0e1bc75.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -84,6 +84,73 @@
       "block_order": [
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1",
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_columns_rJQAaz": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_kRTNbz": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens0330_1.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_34PYPh": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens1367.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_kRTNbz",
+        "text_block_34PYPh"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "rich_text_DbPyFU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JrQAQh": {
+          "type": "heading",
+          "settings": {
+            "title": "Transition Ready"
+          }
+        },
+        "text_xANNei": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Start your spring wardrobe here, with versatile pieces that solve in-between weather days, instantly.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JrQAQh",
+        "text_xANNei"
       ],
       "settings": {
         "align_text": "center",
@@ -205,6 +272,8 @@
     "main",
     "slideshow_rRBbTH",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
+    "text_columns_rJQAaz",
+    "rich_text_DbPyFU",
     "featured_collection_rXtMd3",
     "text_columns_CrBn3M",
     "hotspots_aNhBUB",

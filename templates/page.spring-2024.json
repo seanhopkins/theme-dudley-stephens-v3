@@ -353,7 +353,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1438.jpg",
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens0370.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -407,7 +407,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1166.jpg",
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1438.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -420,7 +420,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_3069.jpg",
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens0611.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -433,7 +433,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_2829.jpg",
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1166.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -453,6 +453,60 @@
         "align_text": "center",
         "divider": false
       }
+    },
+    "text_columns_bk74Uf": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_tPqbMK": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_3069.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_cYQaKW": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens0864.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_RGTJp3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens0787.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_tPqbMK",
+        "text_block_cYQaKW",
+        "text_block_RGTJp3"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -466,6 +520,7 @@
     "featured_collection_rXtMd3",
     "hotspots_aNhBUB",
     "text_columns_RfLVxQ",
-    "text_columns_3fxjMe"
+    "text_columns_3fxjMe",
+    "text_columns_bk74Uf"
   ]
 }

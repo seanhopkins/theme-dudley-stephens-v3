@@ -507,6 +507,41 @@
         "align_text": "center",
         "divider": false
       }
+    },
+    "rich_text_JqcGCi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cCzYnM": {
+          "type": "heading",
+          "settings": {
+            "title": "Shop The Collection"
+          }
+        },
+        "text_w3FVrh": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Shop the collection andstay tuned for more coming soon.<\/p>"
+          }
+        },
+        "button_BQe3Xi": {
+          "type": "button",
+          "settings": {
+            "link": "https:\/\/www.dudley-stephens.com\/collections\/spring",
+            "link_text": "shop now"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cCzYnM",
+        "text_w3FVrh",
+        "button_BQe3Xi"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -521,6 +556,7 @@
     "hotspots_aNhBUB",
     "text_columns_RfLVxQ",
     "text_columns_3fxjMe",
-    "text_columns_bk74Uf"
+    "text_columns_bk74Uf",
+    "rich_text_JqcGCi"
   ]
 }

@@ -298,29 +298,47 @@
         "product_qfgVTi": {
           "type": "product",
           "settings": {
-            "featured_product": "",
-            "vertical": 25,
-            "horizontal": 25
+            "featured_product": "park-slope-turtleneck-in-waffle-sea-glass-green",
+            "vertical": 57,
+            "horizontal": 31
           }
         },
         "product_yn6P7E": {
           "type": "product",
           "settings": {
-            "featured_product": "",
-            "vertical": 75,
-            "horizontal": 65
+            "featured_product": "palisades-short-in-waffle-sea-glass-green",
+            "vertical": 84,
+            "horizontal": 22
+          }
+        },
+        "product_fdQQn7": {
+          "type": "product",
+          "settings": {
+            "featured_product": "ptown-pullover-in-waffle-navy",
+            "vertical": 49,
+            "horizontal": 75
+          }
+        },
+        "product_rVXCRR": {
+          "type": "product",
+          "settings": {
+            "featured_product": "palisades-pants-in-waffle-navy",
+            "vertical": 74,
+            "horizontal": 85
           }
         }
       },
       "block_order": [
         "product_qfgVTi",
-        "product_yn6P7E"
+        "product_yn6P7E",
+        "product_fdQQn7",
+        "product_rVXCRR"
       ],
       "settings": {
         "title": "Waffle Mix-and-Match",
         "heading_size": "h2",
         "heading_position": "left",
-        "image": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens0516.jpg",
+        "image": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens0490_06e049a3-67c0-4680-b3c0-2bd419307403.jpg",
         "indent_image": false,
         "image_position": "left",
         "hotspot_style": "bag",

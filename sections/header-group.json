@@ -9,12 +9,13 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Waffle is back with new styles! Shop the drop",
+            "link_text": "Shop the bestselling Juliet Turtleneck, back in Black & Cream!",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
           }
         },
         "announcement-1": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "Shop our newly expanded sale, plus extra 40% off select sale-on-sale pieces.",

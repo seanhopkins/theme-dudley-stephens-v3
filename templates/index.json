@@ -408,6 +408,27 @@
         "button_link": "",
         "divider": false
       }
+    },
+    "advanced_content_FQD36Q": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_NNNMmq": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"632499\"><\/div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_NNNMmq"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": false,
+        "lazyload_images": false
+      }
     }
   },
   "order": [
@@ -420,6 +441,7 @@
     "cf175cf8-a4e8-45f7-8a52-3b14ac752957",
     "50370838-75ed-486a-9c7b-001bf82a5e5e",
     "b00ee6a4-d768-42d2-b053-75459ca062fe",
-    "3acb1261-9345-47a4-bd1a-d0ef5ac97f9c"
+    "3acb1261-9345-47a4-bd1a-d0ef5ac97f9c",
+    "advanced_content_FQD36Q"
   ]
 }

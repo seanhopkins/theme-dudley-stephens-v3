@@ -956,6 +956,14 @@
               "monogram_swatch": "shopify:\/\/shop_images\/CDEEDCC9-6A9D-4129-9056-6D7BC8164482_4_5005_c.jpg"
             }
           },
+          "color_swatch_byezNF": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy Scallop Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/navy-scallop-stripe.png"
+            }
+          },
           "1573770381072": {
             "type": "color_swatch",
             "settings": {
@@ -1380,6 +1388,7 @@
           "0d4eaceb-6624-4b29-b372-16994bdb7a58",
           "1600111100886",
           "16f7e7fb-3b51-4881-a4cb-e0a0302cb7f2",
+          "color_swatch_byezNF",
           "1573770381072",
           "1574187051439",
           "f72afac0-8aa7-4d24-b989-89e6ce61c411",

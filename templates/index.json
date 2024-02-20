@@ -261,9 +261,10 @@
         "layout": "banner",
         "full_width": false,
         "text_color": "#232528",
-        "background_color": "#f8f4ed",
+        "background_color": "#ffffff",
+        "background_image": "shopify:\/\/shop_images\/BlueFloral.jpg",
         "overlay_color": "#ffffff",
-        "overlay_opacity": 0,
+        "overlay_opacity": 84,
         "lazyload_images": true
       }
     },

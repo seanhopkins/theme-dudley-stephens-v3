@@ -135,6 +135,9 @@
     },
     "deced09a-7ae6-46bd-add7-75b8eb496d49": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {font-size: 1.5em;}"
+      ],
       "settings": {
         "title": "Our Latest Arrivals",
         "home_featured_products": "new-drops",

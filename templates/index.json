@@ -99,8 +99,35 @@
         "full_width": true,
         "gutter_size": 0,
         "space_above": false,
-        "space_below": true,
+        "space_below": false,
         "lazyload_images": true
+      }
+    },
+    "rich_text_kHmLVK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_i8pKG3": {
+          "type": "heading",
+          "settings": {
+            "title": "Elevated classics in recycled materials"
+          }
+        },
+        "text_DFpNWc": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>We believe the question of what to wear today should have a simple answer—so we created those pieces ourselves. For every day, for all you do, there’s a Dudley.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_i8pKG3",
+        "text_DFpNWc"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
       }
     },
     "deced09a-7ae6-46bd-add7-75b8eb496d49": {
@@ -434,6 +461,7 @@
   "order": [
     "1a4d9a53-964a-41f0-8545-5ecbeedfa2b5",
     "b8fccc94-b721-4ed5-a976-f81ed754cc18",
+    "rich_text_kHmLVK",
     "deced09a-7ae6-46bd-add7-75b8eb496d49",
     "rich-text",
     "ad8d799a-dd28-40ce-8234-0b79cb13bd90",

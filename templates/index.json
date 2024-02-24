@@ -156,19 +156,10 @@
           "settings": {
             "title": "Everyday Dressing, Evolved"
           }
-        },
-        "text": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "enlarge_text": false,
-            "text": ""
-          }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "heading"
       ],
       "custom_css": [
         ".theme-block,.theme-block h2 {margin: 0em;}"

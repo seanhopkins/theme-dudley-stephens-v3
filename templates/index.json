@@ -115,7 +115,7 @@
         "text_DFpNWc": {
           "type": "text",
           "settings": {
-            "enlarge_text": false,
+            "enlarge_text": true,
             "text": "<p>We believe the question of what to wear today should have a simple answer—so we created those pieces ourselves. For every day, for all you do, there’s a Dudley.<\/p>"
           }
         }

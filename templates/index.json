@@ -124,6 +124,9 @@
         "heading_i8pKG3",
         "text_DFpNWc"
       ],
+      "custom_css": [
+        ".text-center {max-width: 700px;}"
+      ],
       "settings": {
         "align_text": "center",
         "narrow_column": true,

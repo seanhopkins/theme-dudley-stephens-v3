@@ -1942,7 +1942,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-
+      ".section-header {margin-bottom: 20px;}"
     ]
   }
 }

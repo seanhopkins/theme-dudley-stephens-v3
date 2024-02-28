@@ -421,10 +421,12 @@ div#loop-onstore {
    }
 }
 
-/* Hide sold out swatch indicator on CLP */
-.collection-grid__wrapper .color-swatch--unavailable:after {
+/* Hide sold out swatch indicator on CLP & featured collection products */
+.collection-grid__wrapper .color-swatch--unavailable:after,
+[data-section-type="collection-grid"] .color-swatch--unavailable:after {
    display: none;
 }
+
 /* Klaviyo BIS  */
 .klaviyo-bis-trigger {
    background-color: var(--colorTextBody);
@@ -447,4 +449,8 @@ div#loop-onstore {
    .toolbar__menu a.site-nav__link {
       font-size: 10px;
   }
+}
+/* HIDE YOTPO WIDGET */
+.yotpo-widget-loyalty-floater-widget.yotpo-widget-override-css {
+  display: none !important;
 }

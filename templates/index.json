@@ -49,13 +49,13 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
-            "heading": "DS Comfort, Valentine’s Edition",
-            "textarea": "Swoon-worthy leisure pieces that will have you saying, Be Mine.",
+            "heading": "A New Take on Terry",
+            "textarea": "Put some Spring in your style with fresh pieces in warm-weather Terry.",
             "cta_text1": "Shop now",
             "cta_link1": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/EDITORIAL_4_2097.jpg",
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens0785.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -70,13 +70,13 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
-            "heading": "9-5 (& Beyond) Style",
-            "textarea": "Office-ready layers that work for you.",
+            "heading": "Waffle Mix-and-Match",
+            "textarea": "Easy uniforms in our luxe recycled Waffle.",
             "cta_text1": "Shop now",
-            "cta_link1": "https:\/\/www.dudley-stephens.com\/collections\/office-style",
+            "cta_link1": "https:\/\/www.dudley-stephens.com\/collections\/waffle",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/EDITORIAL_2_2074.jpg",
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens0490.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -154,7 +154,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Everyday Dressing, Evolved"
+            "title": "Elevated Classics in Recycled Performance Fabrics"
           }
         }
       },
@@ -184,16 +184,16 @@
         "template--14916567695402__ad8d799a-dd28-40ce-8234-0b79cb13bd90-16851213259a117373-1": {
           "type": "collection",
           "settings": {
-            "collection": "monogram",
-            "title": "Monogrammable",
+            "collection": "shades-of-spring",
+            "title": "Shades of Spring",
             "focal_point": "center center"
           }
         },
         "template--14916567695402__ad8d799a-dd28-40ce-8234-0b79cb13bd90-16851213259a117373-2": {
           "type": "collection",
           "settings": {
-            "collection": "ski-collection",
-            "title": "Ski Style",
+            "collection": "most-hearted-styles",
+            "title": "Most-Hearted Styles",
             "focal_point": "center center"
           }
         },
@@ -257,7 +257,7 @@
           "settings": {
             "year": "2024",
             "month": "02",
-            "day": "6",
+            "day": "27",
             "hour": "10",
             "minute": "00",
             "hide_timer": false,
@@ -267,7 +267,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2": {
           "type": "button",
           "settings": {
-            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-the-men-s-crewneck-perfected",
+            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-a-new-take-on-terry",
             "button": "Preview now",
             "button_style": "solid"
           }
@@ -278,6 +278,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-1",
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -285,9 +286,10 @@
         "layout": "banner",
         "full_width": false,
         "text_color": "#232528",
-        "background_color": "#f8f4ed",
+        "background_color": "#ffffff",
+        "background_image": "shopify:\/\/shop_images\/BlueFloral.jpg",
         "overlay_color": "#ffffff",
-        "overlay_opacity": 0,
+        "overlay_opacity": 84,
         "lazyload_images": true
       }
     },
@@ -336,6 +338,64 @@
         "color_text": "#232528",
         "top_padding": true,
         "bottom_padding": true
+      }
+    },
+    "slideshow_36n8Ag": {
+      "type": "slideshow",
+      "blocks": {
+        "image_DJpcfQ": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "The First of Spring",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "Here's your first glimpse of DS Spring: styles to ease into the warm season.",
+            "link": "shopify:\/\/pages\/spring-2024",
+            "link_text": "Preview here",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/Slider_1856de8e-81c2-41c3-bd36-8ff901a71ceb.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_14bd44f4-7a9a-4a21-a134-4843a0e1bc75.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Pzkp8p": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "And big, beautiful imagery",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_DJpcfQ",
+        "image_Pzkp8p"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "framed": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
       }
     },
     "50370838-75ed-486a-9c7b-001bf82a5e5e": {
@@ -464,6 +524,7 @@
     "ad8d799a-dd28-40ce-8234-0b79cb13bd90",
     "b436726f-56a1-40d8-9a9c-1d5386d219c4",
     "cf175cf8-a4e8-45f7-8a52-3b14ac752957",
+    "slideshow_36n8Ag",
     "50370838-75ed-486a-9c7b-001bf82a5e5e",
     "b00ee6a4-d768-42d2-b053-75459ca062fe",
     "3acb1261-9345-47a4-bd1a-d0ef5ac97f9c",

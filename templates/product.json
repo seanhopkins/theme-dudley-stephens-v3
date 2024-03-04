@@ -162,7 +162,7 @@
       ],
       "custom_css": [
         ".yotpo-slider-title {font-family: \"QuaverSerif\" !important;}",
-        ".yotpo-hover-cta{background-color: #232528 !important;}"
+        ".yotpo-hover-cta {background-color: #232528 !important; border-radius: 0px !important;}"
       ],
       "settings": {
         "full_width": true,

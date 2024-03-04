@@ -40,6 +40,11 @@
             "code": "{% render 'color-swatches', separate_by_material: true %}"
           }
         },
+        "separator_FMMPhB": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -113,6 +118,7 @@
         "898a4dd8-f55a-4ad6-ac0c-2974dd79371b",
         "variant_picker",
         "8be094d0-bbd6-4aad-980a-a98086f937da",
+        "separator_FMMPhB",
         "description",
         "ab135439-7e5c-4100-a042-17e17f3fa6c7",
         "e84a0778-3ebe-4d15-9d52-f89ac088f28f",
@@ -155,7 +161,7 @@
         "template--14916568285226__cb0b4ebb-60f1-4c0c-a08f-3bcaa11774b6-1686166578f0efbd44-1"
       ],
       "custom_css": [
-        ".yotpo-slider-title {font-family: 'QuaverSerif' !important;}"
+        ".yotpo-slider-title {font-family: \"QuaverSerif\" !important;}"
       ],
       "settings": {
         "full_width": true,
@@ -177,7 +183,8 @@
         "f0a190d9-8ce5-4fc7-b3b8-ddadc7af6f37"
       ],
       "custom_css": [
-        ".yotpo-main-widget {max-width: 1000px;}"
+        ".yotpo-main-widget {max-width: 1000px;}",
+        "h2.yotpo-headline {font-family: \"QuaverSerif\"; font-size: 2.75em; color: #232528;}"
       ],
       "settings": {
         "full_width": false,

@@ -175,6 +175,9 @@
         "cfbe4144-5c38-475e-88b4-0522af0539a9",
         "template--14916568285226__cb0b4ebb-60f1-4c0c-a08f-3bcaa11774b6-1686166578f0efbd44-1"
       ],
+      "custom_css": [
+        ".yotpo-slider-title {font-family: \"QuaverSerif\" !important;}"
+      ],
       "settings": {
         "full_width": false,
         "space_around": false,

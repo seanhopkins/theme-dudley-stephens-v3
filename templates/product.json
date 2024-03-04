@@ -13,7 +13,7 @@
         "custom_rxCPDK": {
           "type": "custom",
           "settings": {
-            "code": "<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"497183\" data-yotpo-product-id=\"{{product.id}}\" data-yotpo-cart-product-id=\"{{item.product.id}}\" data-yotpo-section-id=\"{{template.name}}\"><\/div>"
+            "code": "[YOTPO WIDGET]\n<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"497183\" data-yotpo-product-id=\"{{product.id}}\" data-yotpo-cart-product-id=\"{{item.product.id}}\" data-yotpo-section-id=\"{{template.name}}\"><\/div>"
           }
         },
         "price": {

@@ -13,7 +13,7 @@
         "custom_rxCPDK": {
           "type": "custom",
           "settings": {
-            "code": "[YOTPO WIDGET]\n\n<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"497183\" data-yotpo-product-id=\"{{product.id}}\" data-yotpo-cart-product-id=\"{{item.product.id}}\" data-yotpo-section-id=\"{{template.name}}\"><\/div>"
+            "code": "[YOTPO WIDGET]\n<script src=\"https:\/\/cdn-widgetsrepository.yotpo.com\/v1\/loader\/0051YVGCIXOxvZsbkKu9J5dI98qk8g8FjX5pdQ25\" async><\/script>\n<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"497183\" data-yotpo-product-id=\"{{product.id}}\" data-yotpo-cart-product-id=\"{{item.product.id}}\" data-yotpo-section-id=\"{{template.name}}\"><\/div>"
           }
         },
         "price": {

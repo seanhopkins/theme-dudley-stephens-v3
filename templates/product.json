@@ -9,12 +9,6 @@
             "product": "{{product}}"
           }
         },
-        "custom_rxCPDK": {
-          "type": "custom",
-          "settings": {
-            "code": "<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"497183\" data-yotpo-product-id=\"{{product.id}}\" data-yotpo-cart-product-id=\"{{item.product.id}}\" data-yotpo-section-id=\"{{template.name}}\"><\/div>"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -124,7 +118,6 @@
       },
       "block_order": [
         "c73cc944-2dd8-41be-96f5-01434a99b524",
-        "custom_rxCPDK",
         "price",
         "separator",
         "898a4dd8-f55a-4ad6-ac0c-2974dd79371b",
@@ -176,20 +169,11 @@
             "width": "100%",
             "alignment": "center"
           }
-        },
-        "liquid_z7eCWK": {
-          "type": "liquid",
-          "settings": {
-            "code": "<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"497178\" data-yotpo-product-id=\"{{product.id}}\" data-yotpo-name=\"{{ product.title | escape }}\" data-yotpo-url=\"{{ shop.url }}{{ product.url }}\" data-yotpo-image-url=\"{{ product.featured_image | product_img_url: \"large\" | prepend: \"https:\" | replace: '?', '%3F' | replace: '&','%26'}}\" data-yotpo-price=\"{{ product.price | divided_by: 100.00 }}\" data-yotpo-currency=\"{{ shop.currency }}\" data-yotpo-description=\"{{ product.description | escape }}\"><\/div>",
-            "width": "100%",
-            "alignment": "center"
-          }
         }
       },
       "block_order": [
         "cfbe4144-5c38-475e-88b4-0522af0539a9",
-        "template--14916568285226__cb0b4ebb-60f1-4c0c-a08f-3bcaa11774b6-1686166578f0efbd44-1",
-        "liquid_z7eCWK"
+        "template--14916568285226__cb0b4ebb-60f1-4c0c-a08f-3bcaa11774b6-1686166578f0efbd44-1"
       ],
       "settings": {
         "full_width": false,
@@ -210,7 +194,6 @@
       "block_order": [
         "f0a190d9-8ce5-4fc7-b3b8-ddadc7af6f37"
       ],
-      "disabled": true,
       "custom_css": [
         ".yotpo-main-widget {max-width: 1000px;}"
       ],

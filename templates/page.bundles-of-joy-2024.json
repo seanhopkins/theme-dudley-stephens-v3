@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
@@ -11,14 +12,14 @@
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1": {
           "type": "heading",
           "settings": {
-            "title": "Dudley Classics"
+            "title": "DS Gives x Bundles of Joy"
           }
         },
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Timelessly appealing. Everyday elevated. Reimagined, reinvented, restyled—again and again. <\/p><p>Our icon, <em>the turtleneck.<\/em> <\/p>"
+            "text": "<p>Bringing essential, everyday items to mothers and children in need.<\/p>"
           }
         }
       },
@@ -26,11 +27,32 @@
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1",
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1"
       ],
-      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
         "divider": false
+      }
+    },
+    "text_and_image_Qr8JkD": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bundles.jpg",
+        "image_mask": "none",
+        "image2_mask": "portrait",
+        "subtitle": "",
+        "title": "By Women, for Women",
+        "text": "<p>As a female-founded brand, we have a special place in our hearts for helping other women—and their children. That’s why we’ve partnered with Bundles of Joy, a local, Westchester-County, New York-based nonprofit that provides everyday essential items no child should ever have to go without. <\/p><p>Throughout the year, we’ll share ways we’re partnering with Bundles of Joy to deliver #dsgoods to families served by this inspiring organization. Stay tuned for ways you can join us in supporting their mission!<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
       }
     },
     "0462ca32-1921-42d0-9b0d-239c90c50a09": {
@@ -54,7 +76,6 @@
         "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1",
         "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1"
       ],
-      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -117,6 +138,7 @@
   "order": [
     "main",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
+    "text_and_image_Qr8JkD",
     "0462ca32-1921-42d0-9b0d-239c90c50a09",
     "50c43048-9982-4115-85ba-cae759aa5888",
     "bc59d967-cb6a-43d7-981f-f7165f775819",

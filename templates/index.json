@@ -125,12 +125,37 @@
         "text_DFpNWc"
       ],
       "custom_css": [
-        ".text-center {max-width: 700px;}"
+        ".text-center {max-width: 700px;}",
+        ".index-section {margin-bottom: 2em;}"
       ],
       "settings": {
         "align_text": "center",
         "narrow_column": true,
         "divider": false
+      }
+    },
+    "advanced_content_9kWr6D": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_KbfTk6": {
+          "type": "liquid",
+          "settings": {
+            "code": "<hr>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_KbfTk6"
+      ],
+      "custom_css": [
+        ".custom__item {margin: 0;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false,
+        "lazyload_images": false
       }
     },
     "deced09a-7ae6-46bd-add7-75b8eb496d49": {
@@ -517,6 +542,7 @@
     "1a4d9a53-964a-41f0-8545-5ecbeedfa2b5",
     "b8fccc94-b721-4ed5-a976-f81ed754cc18",
     "rich_text_kHmLVK",
+    "advanced_content_9kWr6D",
     "deced09a-7ae6-46bd-add7-75b8eb496d49",
     "rich-text",
     "ad8d799a-dd28-40ce-8234-0b79cb13bd90",

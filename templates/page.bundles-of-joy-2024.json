@@ -157,6 +157,28 @@
         "narrow_column": true,
         "divider": false
       }
+    },
+    "text_and_image_GgFVpb": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bundles2.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "",
+        "text": "<p>“So many moms flee their homes with their children with only the clothing on their backs. In those circumstances, we are so proud to be able to send our moms something comforting—and it doesn't get more comfortable than Dudley Stephens.”<\/p><p><strong>-Adrienne Harper, Bundles of Joy Founder<\/strong><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -166,6 +188,7 @@
     "0462ca32-1921-42d0-9b0d-239c90c50a09",
     "text_and_image_LmYtnY",
     "rich_text_MhxnRW",
-    "rich_text_bEp398"
+    "rich_text_bEp398",
+    "text_and_image_GgFVpb"
   ]
 }

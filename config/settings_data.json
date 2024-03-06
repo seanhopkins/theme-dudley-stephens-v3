@@ -67,7 +67,7 @@
     "cart_type": "drawer",
     "cart_notes_enable": true,
     "cart_terms_conditions_enable": false,
-    "rebuy_widget_embed": "<div data-rebuy-id=\"127216\"><\/div>",
+    "rebuy_widget_embed": "{% comment %}<div data-rebuy-id=\"127216\"><\/div>\n{% endcomment %}",
     "gwp_enable": false,
     "gwp_tier_1_product_ids": "6996400046122, 6996400177194",
     "gwp_tier_1_threshold": "150",
@@ -90,8 +90,8 @@
     "materials_list": "Material: Vello Fleece\nMaterial: Terry Fleece\nMaterial: Bubble Fleece\nMaterial: Double Layer Vello Fleece\nMaterial: Double Layer Vello Fleece with Neon Zipper\nMaterial: Brushed Fleece\nMaterial: Chevron\nMaterial: Ribbed Fleece\nMaterial: Vello Fleece Color Block\nMaterial: Shearling Fleece\nMaterial: Lightweight Vello Fleece\nMaterial: Townhouse Trunk Show\nMaterial: Silk\nMaterial: N\/A\nMaterial: Striped Fleece\nMaterial: Eco Jersey\nMaterial: Repreve® Jersey\nMaterial: Repreve® Striped Jersey\nMaterial: Repreve® Stretch\nMaterial: Waffle Jersey\nMaterial: Sherpa Fleece\nMaterial: Eco Stretch\nMaterial: Waffle\/Vello Fleece\nMaterial: Waffle\nMaterial: Luxe Stretch\nMaterial: Power Stretch\nMaterial: Lustre Puff\nMaterial: Merino Wool",
     "show_tag_sale_message_clp": false,
     "show_tag_sale_message_pdp": false,
-    "tag_sale_tag": "leapdaysale",
-    "tag_sale_message": "<p>29% off with code LEAPDAY<\/p>",
+    "tag_sale_tag": "ReSource",
+    "tag_sale_message": "<p>Just $79 for a limited time! <\/p>",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
@@ -956,14 +956,6 @@
               "monogram_swatch": "shopify:\/\/shop_images\/CDEEDCC9-6A9D-4129-9056-6D7BC8164482_4_5005_c.jpg"
             }
           },
-          "color_swatch_byezNF": {
-            "type": "color_swatch",
-            "settings": {
-              "title": "Navy Scallop Stripe",
-              "swatch_color": "",
-              "swatch_image": "shopify:\/\/shop_images\/navy-scallop-stripe.png"
-            }
-          },
           "1573770381072": {
             "type": "color_swatch",
             "settings": {
@@ -1388,7 +1380,6 @@
           "0d4eaceb-6624-4b29-b372-16994bdb7a58",
           "1600111100886",
           "16f7e7fb-3b51-4881-a4cb-e0a0302cb7f2",
-          "color_swatch_byezNF",
           "1573770381072",
           "1574187051439",
           "f72afac0-8aa7-4d24-b989-89e6ce61c411",
@@ -1948,7 +1939,6 @@
   "platform_customizations": {
     "custom_css": [
       ".section-header {margin-bottom: 20px;}"
-      "video-slide {display: flex;}"
     ]
   }
 }

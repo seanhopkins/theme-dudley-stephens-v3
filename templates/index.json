@@ -140,7 +140,7 @@
         "liquid_KbfTk6": {
           "type": "liquid",
           "settings": {
-            "code": "<hr>",
+            "code": "<hr style=\"border: 1px solid #9BCC56;\">",
             "width": "100%",
             "alignment": "center"
           }

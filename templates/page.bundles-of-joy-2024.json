@@ -36,8 +36,8 @@
     "text_and_image_Qr8JkD": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/bundles.jpg",
-        "image_mask": "none",
+        "image": "shopify:\/\/shop_images\/bundles2.jpg",
+        "image_mask": "portrait",
         "image2_mask": "portrait",
         "subtitle": "",
         "title": "By Women, for Women",
@@ -58,23 +58,23 @@
     "0462ca32-1921-42d0-9b0d-239c90c50a09": {
       "type": "rich-text",
       "blocks": {
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1": {
-          "type": "heading",
-          "settings": {
-            "title": "Find Your Perfect Silhouette"
-          }
-        },
         "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>In three lengths for a fit that suits your style.<\/p>"
+            "text": "<p>“With real support, moms no longer have to choose between feeding and diapering their children, or turning on the heat. It’s so gratifying to know we have helped Bundles of Joy break this cycle of poverty for families in our communities.”<\/p>"
+          }
+        },
+        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "-Lauren Stephens, Dudley Stephens Co-Founder"
           }
         }
       },
       "block_order": [
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1",
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1"
+        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1",
+        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1"
       ],
       "settings": {
         "align_text": "center",
@@ -82,55 +82,52 @@
         "divider": false
       }
     },
-    "50c43048-9982-4115-85ba-cae759aa5888": {
-      "type": "featured-collection",
-      "disabled": true,
+    "text_and_image_LmYtnY": {
+      "type": "text-and-image",
       "settings": {
-        "title": "Crop-Length",
-        "home_featured_products": "cropped-turtlenecks",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
+        "image": "shopify:\/\/shop_images\/bundles2.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "More on the Mission",
+        "text": "<p>Bundles of Joy serves mothers (and fathers), babies and children who live at or below the poverty line. The organization works directly with food pantries, homeless and domestic violence shelters, schools, hospitals, and individuals to provide everything from diapers to baby gear, books, toys—and everything in between.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
       }
     },
-    "bc59d967-cb6a-43d7-981f-f7165f775819": {
-      "type": "featured-collection",
-      "disabled": true,
+    "rich_text_MhxnRW": {
+      "type": "rich-text",
+      "blocks": {
+        "text_NDkcEY": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>“Knowing how difficult motherhood was for me, with resources, support and options—I couldn’t fathom what it was like for mothers who had to worry about providing for their baby. That’s how Bundles of Joy was born.”<\/p>"
+          }
+        },
+        "heading_cPn3NY": {
+          "type": "heading",
+          "settings": {
+            "title": "-Adrienne Harper, Bundles of Joy Founder"
+          }
+        }
+      },
+      "block_order": [
+        "text_NDkcEY",
+        "heading_cPn3NY"
+      ],
       "settings": {
-        "title": "Hip-Length",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "95b1a523-559c-4437-befa-839266141cb1": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Midi-Length",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "45d53247-d730-4e59-9dd2-f7346f732c13": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Tunic-Length",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
+        "align_text": "center",
+        "narrow_column": true,
         "divider": false
       }
     }
@@ -140,9 +137,7 @@
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "text_and_image_Qr8JkD",
     "0462ca32-1921-42d0-9b0d-239c90c50a09",
-    "50c43048-9982-4115-85ba-cae759aa5888",
-    "bc59d967-cb6a-43d7-981f-f7165f775819",
-    "95b1a523-559c-4437-befa-839266141cb1",
-    "45d53247-d730-4e59-9dd2-f7346f732c13"
+    "text_and_image_LmYtnY",
+    "rich_text_MhxnRW"
   ]
 }

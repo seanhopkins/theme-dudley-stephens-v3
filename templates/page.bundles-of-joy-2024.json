@@ -107,23 +107,23 @@
     "rich_text_MhxnRW": {
       "type": "rich-text",
       "blocks": {
-        "heading_pJLMAg": {
-          "type": "heading",
-          "settings": {
-            "title": "In 2023, Bundles of Joy served over 27,000 children in need."
-          }
-        },
         "text_NDkcEY": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>“Knowing how difficult motherhood was for me, with resources, support and options—I couldn’t fathom what it was like for mothers who had to worry about providing for their baby. That’s how Bundles of Joy was born.”<\/p><p><strong>-Adrienne Harper, Bundles of Joy Founder<\/strong><\/p>"
+            "text": "<p>In 2023, Bundles of Joy served over 27,000 children in need.<\/p><p>“Knowing how difficult motherhood was for me, with resources, support and options—I couldn’t fathom what it was like for mothers who had to worry about providing for their baby. That’s how Bundles of Joy was born.”<\/p>"
+          }
+        },
+        "heading_pJLMAg": {
+          "type": "heading",
+          "settings": {
+            "title": "-Adrienne Harper, Bundles of Joy Founder"
           }
         }
       },
       "block_order": [
-        "heading_pJLMAg",
-        "text_NDkcEY"
+        "text_NDkcEY",
+        "heading_pJLMAg"
       ],
       "settings": {
         "align_text": "center",

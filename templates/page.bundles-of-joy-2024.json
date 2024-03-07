@@ -274,6 +274,33 @@
         "divider": false
       }
     },
+    "rich_text_ECQEJA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4YHwrM": {
+          "type": "heading",
+          "settings": {
+            "title": ""
+          }
+        },
+        "text_gq7mqV": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>    <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4YHwrM",
+        "text_gq7mqV"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "text_columns_ab484M": {
       "type": "text-columns",
       "blocks": {
@@ -341,6 +368,7 @@
     "rich_text_xB9Eja",
     "rich_text_Xw8wHd",
     "rich_text_z8Rrig",
+    "rich_text_ECQEJA",
     "text_columns_ab484M"
   ]
 }

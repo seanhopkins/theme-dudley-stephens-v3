@@ -6,6 +6,44 @@
       "settings": {
       }
     },
+    "slideshow_mWAzXD": {
+      "type": "slideshow",
+      "blocks": {
+        "image_4gJYLL": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "DS Gives x Bundles of Joy",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "Bringing essential, everyday items to mothers and children in need.",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Slider_bb418cd9-df98-48b1-9c52-01679d98284e.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_f02c94e6-f01d-435f-8508-cad29453e6f5.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_4gJYLL"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "framed": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
     "c3220d24-8e7b-4f84-a431-0aae228e36f2": {
       "type": "rich-text",
       "blocks": {
@@ -27,6 +65,7 @@
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1",
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -51,7 +90,7 @@
         "layout": "right",
         "divider": false,
         "top_padding": true,
-        "bottom_padding": true,
+        "bottom_padding": false,
         "lazyload_images": true
       }
     },
@@ -131,33 +170,6 @@
         "divider": false
       }
     },
-    "rich_text_bEp398": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_cVjEzk": {
-          "type": "heading",
-          "settings": {
-            "title": "How We’ve Helped"
-          }
-        },
-        "text_A7MYJB": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>From building bundles at the “Joy Factory” for toddlers and school-age children, to organizing donations for moms and kids, and outfitting the Bundles of Joy team, Team Dudley has volunteered with Bundles of Joy over the past four years. We’ve also donated our products directly to clients served by the organization.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_cVjEzk",
-        "text_A7MYJB"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
     "text_and_image_GgFVpb": {
       "type": "text-and-image",
       "settings": {
@@ -165,8 +177,8 @@
         "image_mask": "none",
         "image2_mask": "none",
         "subtitle": "",
-        "title": "",
-        "text": "<p>“So many moms flee their homes with their children with only the clothing on their backs. In those circumstances, we are so proud to be able to send our moms something comforting—and it doesn't get more comfortable than Dudley Stephens.”<\/p><p><strong>-Adrienne Harper, Bundles of Joy Founder<\/strong><\/p>",
+        "title": "How We’ve Helped",
+        "text": "<p>From building bundles at the “Joy Factory” for toddlers and school-age children, to organizing donations for moms and kids, and outfitting the Bundles of Joy team, Team Dudley has volunteered with Bundles of Joy over the past four years. We’ve also donated our products directly to clients served by the organization.<\/p>",
         "button_label": "",
         "button_link": "",
         "liquid": "",
@@ -210,12 +222,12 @@
   },
   "order": [
     "main",
+    "slideshow_mWAzXD",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "text_and_image_Qr8JkD",
     "0462ca32-1921-42d0-9b0d-239c90c50a09",
     "text_and_image_LmYtnY",
     "rich_text_MhxnRW",
-    "rich_text_bEp398",
     "text_and_image_GgFVpb",
     "rich_text_xB9Eja"
   ]

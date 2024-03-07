@@ -75,7 +75,7 @@
     "text_and_image_Qr8JkD": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/bundles2.jpg",
+        "image": "shopify:\/\/shop_images\/Bundles.2.jpg",
         "image_mask": "portrait",
         "image2_mask": "portrait",
         "subtitle": "",
@@ -87,10 +87,59 @@
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
-        "layout": "right",
+        "layout": "left",
         "divider": false,
         "top_padding": true,
         "bottom_padding": false,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_MhxnRW": {
+      "type": "rich-text",
+      "blocks": {
+        "text_NDkcEY": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>“Knowing how difficult motherhood was for me, with resources, support and options—I couldn’t fathom what it was like for mothers who had to worry about providing for their baby. That’s how Bundles of Joy was born.”<\/p>"
+          }
+        },
+        "heading_pJLMAg": {
+          "type": "heading",
+          "settings": {
+            "title": "-Adrienne Harper, Bundles of Joy Founder"
+          }
+        }
+      },
+      "block_order": [
+        "text_NDkcEY",
+        "heading_pJLMAg"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_and_image_LmYtnY": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bundlesofjoy1.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "More on The Mission",
+        "text": "<p>Bundles of Joy serves mothers (and fathers), babies and children who live at or below the poverty line. The organization works directly with food pantries, homeless and domestic violence shelters, schools, hospitals, and individuals to provide everything from diapers to baby gear, books, toys—and everything in between.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
         "lazyload_images": true
       }
     },
@@ -121,55 +170,6 @@
         "divider": false
       }
     },
-    "text_and_image_LmYtnY": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Bundlesofjoy1.jpg",
-        "image_mask": "none",
-        "image2_mask": "none",
-        "subtitle": "",
-        "title": "More on The Mission",
-        "text": "<p>Bundles of Joy serves mothers (and fathers), babies and children who live at or below the poverty line. The organization works directly with food pantries, homeless and domestic violence shelters, schools, hospitals, and individuals to provide everything from diapers to baby gear, books, toys—and everything in between.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "liquid": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "left",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
-    "rich_text_MhxnRW": {
-      "type": "rich-text",
-      "blocks": {
-        "text_NDkcEY": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>In 2023, Bundles of Joy served over 27,000 children in need.<\/p><p>“Knowing how difficult motherhood was for me, with resources, support and options—I couldn’t fathom what it was like for mothers who had to worry about providing for their baby. That’s how Bundles of Joy was born.”<\/p>"
-          }
-        },
-        "heading_pJLMAg": {
-          "type": "heading",
-          "settings": {
-            "title": "-Adrienne Harper, Bundles of Joy Founder"
-          }
-        }
-      },
-      "block_order": [
-        "text_NDkcEY",
-        "heading_pJLMAg"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
     "text_and_image_GgFVpb": {
       "type": "text-and-image",
       "settings": {
@@ -188,7 +188,7 @@
         "layout": "right",
         "divider": false,
         "top_padding": true,
-        "bottom_padding": true,
+        "bottom_padding": false,
         "lazyload_images": true
       }
     },
@@ -213,9 +213,64 @@
         "text_pbDVar",
         "heading_xfqG8J"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_columns_ab484M": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_cwqfpV": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Bundles3.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_kQQggn": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Bundles4.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_LVtQ8L": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/bundles5.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_cwqfpV",
+        "text_block_kQQggn",
+        "text_block_LVtQ8L"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
         "divider": false
       }
     }
@@ -225,10 +280,11 @@
     "slideshow_mWAzXD",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "text_and_image_Qr8JkD",
-    "0462ca32-1921-42d0-9b0d-239c90c50a09",
-    "text_and_image_LmYtnY",
     "rich_text_MhxnRW",
+    "text_and_image_LmYtnY",
+    "0462ca32-1921-42d0-9b0d-239c90c50a09",
     "text_and_image_GgFVpb",
-    "rich_text_xB9Eja"
+    "rich_text_xB9Eja",
+    "text_columns_ab484M"
   ]
 }

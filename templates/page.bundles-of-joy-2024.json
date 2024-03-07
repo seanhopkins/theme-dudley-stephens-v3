@@ -13,20 +13,20 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "DS Gives x Bundles of Joy",
+            "title": "",
             "title_size": 80,
             "text_color": "#ffffff",
-            "subheading": "Bringing essential, everyday items to mothers and children in need.",
+            "subheading": "",
             "link": "",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Slider_bb418cd9-df98-48b1-9c52-01679d98284e.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_e574f9b6-93c3-4637-afdb-6a90be0afc21.jpg",
+            "image": "shopify:\/\/shop_images\/Slider_1afc3148-d66f-4926-bd67-55eba550b1ba.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_98c48ca9-cee1-4a45-ae32-99185391fc2c.jpg",
             "parallax_direction": "top",
-            "overlay_opacity": 10
+            "overlay_opacity": 0
           }
         }
       },

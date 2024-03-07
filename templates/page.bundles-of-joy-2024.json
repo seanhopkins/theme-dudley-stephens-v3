@@ -220,6 +220,60 @@
         "divider": false
       }
     },
+    "rich_text_Xw8wHd": {
+      "type": "rich-text",
+      "blocks": {
+        "text_hkhEBj": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>“One morning I was in the storefront and a mom came in pushing her stroller from the next town over. She came in to grab diapers and other essentials but I noticed her baby didn't have a stroller blanket or anything to keep her warm. Enter the sherpa blanket! Mom (and baby) were so happy and safe from the cold temps on the way home.”<\/p>"
+          }
+        },
+        "heading_z4Lyhi": {
+          "type": "heading",
+          "settings": {
+            "title": "-Adrienne Harper, Bundles of Joy Founder"
+          }
+        }
+      },
+      "block_order": [
+        "text_hkhEBj",
+        "heading_z4Lyhi"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "rich_text_z8Rrig": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_i3qPkE": {
+          "type": "heading",
+          "settings": {
+            "title": ""
+          }
+        },
+        "text_wLr3YC": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>          <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_i3qPkE",
+        "text_wLr3YC"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "text_columns_ab484M": {
       "type": "text-columns",
       "blocks": {
@@ -285,6 +339,8 @@
     "0462ca32-1921-42d0-9b0d-239c90c50a09",
     "text_and_image_GgFVpb",
     "rich_text_xB9Eja",
+    "rich_text_Xw8wHd",
+    "rich_text_z8Rrig",
     "text_columns_ab484M"
   ]
 }

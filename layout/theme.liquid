@@ -118,7 +118,12 @@
   {% if request.design_mode %}
     <script src="https://api.archetypethemes.co/design-mode.js" defer="defer"></script>
   {% endif %}
+  {%  comment %}
   <script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/qM5x3tstHllz2X1MSpMslg" async></script>
+  {%  endcomment %}
+  
+  <script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/0051YVGCIXOxvZsbkKu9J5dI98qk8g8FjX5pdQ25" async></script>
+  
   {% comment %} START custom feature {% endcomment %}
   {% section 'swatch-colors' %}
   <script src="{{ 'color-swatches.js' | asset_url }}" defer="defer"></script>

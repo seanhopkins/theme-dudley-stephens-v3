@@ -1,0 +1,374 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "slideshow_mWAzXD": {
+      "type": "slideshow",
+      "blocks": {
+        "image_4gJYLL": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Slider_1afc3148-d66f-4926-bd67-55eba550b1ba.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_dc5cd382-0641-4701-8149-c8e27cb77a04.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_4gJYLL"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "framed": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "c3220d24-8e7b-4f84-a431-0aae228e36f2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "DS Gives x Bundles of Joy"
+          }
+        },
+        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Bringing essential, everyday items to mothers and children in need.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1",
+        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_and_image_Qr8JkD": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bundles.2.jpg",
+        "image_mask": "portrait",
+        "image2_mask": "portrait",
+        "subtitle": "",
+        "title": "By Women, For Women",
+        "text": "<p>As a female-founded brand, we have a special place in our hearts for helping other women—and their children. That’s why we’ve partnered with Bundles of Joy, a local, Westchester-County, New York-based nonprofit that provides everyday essential items no child should ever have to go without. <\/p><p>Throughout the year, we’ll share ways we’re partnering with Bundles of Joy to deliver #dsgoods to families served by this inspiring organization. Stay tuned for ways you can join us in supporting their mission!<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": false,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_MhxnRW": {
+      "type": "rich-text",
+      "blocks": {
+        "text_NDkcEY": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>“Knowing how difficult motherhood was for me, with resources, support and options—I couldn’t fathom what it was like for mothers who had to worry about providing for their baby. That’s how Bundles of Joy was born.”<\/p>"
+          }
+        },
+        "heading_pJLMAg": {
+          "type": "heading",
+          "settings": {
+            "title": "-Adrienne Harper, Bundles of Joy Founder"
+          }
+        }
+      },
+      "block_order": [
+        "text_NDkcEY",
+        "heading_pJLMAg"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_and_image_LmYtnY": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bundlesofjoy1.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "More on The Mission",
+        "text": "<p>Bundles of Joy serves mothers (and fathers), babies and children who live at or below the poverty line. The organization works directly with food pantries, homeless and domestic violence shelters, schools, hospitals, and individuals to provide everything from diapers to baby gear, books, toys—and everything in between.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "0462ca32-1921-42d0-9b0d-239c90c50a09": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>“With real support, moms no longer have to choose between feeding and diapering their children, or turning on the heat. It’s so gratifying to know we have helped Bundles of Joy break this cycle of poverty for families in our communities.”<\/p>"
+          }
+        },
+        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "-Lauren Stephens, Dudley Stephens Co-Founder"
+          }
+        }
+      },
+      "block_order": [
+        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1",
+        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_and_image_GgFVpb": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bundlesstats_7572228f-9704-4395-a083-8f40639531fa.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "How We’ve Helped",
+        "text": "<p>From building bundles at the “Joy Factory” for toddlers and school-age children, to organizing donations for moms and kids, and outfitting the Bundles of Joy team, Team Dudley has volunteered with Bundles of Joy over the past four years. We’ve also donated our products directly to clients served by the organization.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": false,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_xB9Eja": {
+      "type": "rich-text",
+      "blocks": {
+        "text_pbDVar": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>“One morning I was in the storefront and a mom came in pushing her stroller from the next town over. She came in to grab diapers and other essentials but I noticed her baby didn't have a stroller blanket or anything to keep her warm. Enter the sherpa blanket! Mom (and baby) were so happy and safe from the cold temps on the way home.”<\/p>"
+          }
+        },
+        "heading_xfqG8J": {
+          "type": "heading",
+          "settings": {
+            "title": "-Adrienne Harper, Bundles of Joy Founder"
+          }
+        }
+      },
+      "block_order": [
+        "text_pbDVar",
+        "heading_xfqG8J"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "rich_text_Xw8wHd": {
+      "type": "rich-text",
+      "blocks": {
+        "text_hkhEBj": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>“One morning I was in the storefront and a mom came in pushing her stroller from the next town over. She came in to grab diapers and other essentials but I noticed her baby didn't have a stroller blanket or anything to keep her warm. Enter the sherpa blanket! Mom (and baby) were so happy and safe from the cold temps on the way home.”<\/p>"
+          }
+        },
+        "heading_z4Lyhi": {
+          "type": "heading",
+          "settings": {
+            "title": "-Adrienne Harper, Bundles of Joy Founder"
+          }
+        }
+      },
+      "block_order": [
+        "text_hkhEBj",
+        "heading_z4Lyhi"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "rich_text_z8Rrig": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_i3qPkE": {
+          "type": "heading",
+          "settings": {
+            "title": ""
+          }
+        },
+        "text_wLr3YC": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>          <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_i3qPkE",
+        "text_wLr3YC"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "rich_text_ECQEJA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4YHwrM": {
+          "type": "heading",
+          "settings": {
+            "title": ""
+          }
+        },
+        "text_gq7mqV": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>    <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4YHwrM",
+        "text_gq7mqV"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_columns_ab484M": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_cwqfpV": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Bundles3.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_kQQggn": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Bundles4.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_LVtQ8L": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/bundles5.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_cwqfpV",
+        "text_block_kQQggn",
+        "text_block_LVtQ8L"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_mWAzXD",
+    "c3220d24-8e7b-4f84-a431-0aae228e36f2",
+    "text_and_image_Qr8JkD",
+    "rich_text_MhxnRW",
+    "text_and_image_LmYtnY",
+    "0462ca32-1921-42d0-9b0d-239c90c50a09",
+    "text_and_image_GgFVpb",
+    "rich_text_xB9Eja",
+    "rich_text_Xw8wHd",
+    "rich_text_z8Rrig",
+    "rich_text_ECQEJA",
+    "text_columns_ab484M"
+  ]
+}

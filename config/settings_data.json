@@ -850,6 +850,14 @@
               "swatch_image": "shopify:\/\/shop_images\/NavyCabanaStripe.jpg"
             }
           },
+          "color_swatch_RzFwaH": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy Scallop Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/navy-scallop-stripe.png"
+            }
+          },
           "1600111070801": {
             "type": "color_swatch",
             "settings": {
@@ -1391,6 +1399,7 @@
           "ff9e58a6-a3b2-4ef4-8125-2b783b7bcd0b",
           "1573761486525",
           "ac2a8588-f91a-445e-9834-f0b0e97ed7f0",
+          "color_swatch_RzFwaH",
           "1600111070801",
           "f84d52f5-5708-4d22-9636-fe58e467a931",
           "1600111133731",

@@ -67,7 +67,7 @@
     "cart_type": "drawer",
     "cart_notes_enable": true,
     "cart_terms_conditions_enable": false,
-    "rebuy_widget_embed": "<div data-rebuy-id=\"127216\"><\/div>",
+    "rebuy_widget_embed": "{% comment %}\n<div data-rebuy-id=\"127216\"><\/div>\n{% endcomment %}",
     "gwp_enable": false,
     "gwp_tier_1_product_ids": "6996400046122, 6996400177194",
     "gwp_tier_1_threshold": "150",

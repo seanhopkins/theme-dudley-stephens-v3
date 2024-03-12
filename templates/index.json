@@ -45,27 +45,6 @@
     "b8fccc94-b721-4ed5-a976-f81ed754cc18": {
       "type": "promo-grid",
       "blocks": {
-        "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "A New Take on Terry",
-            "textarea": "Put some Spring in your style with fresh pieces in warm-weather Terry.",
-            "cta_text1": "Shop now",
-            "cta_link1": "shopify:\/\/collections\/terry-fleece",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens0785.jpg",
-            "video_url": "",
-            "width": "50",
-            "height": 800,
-            "text_size": 135,
-            "text_align": "vertical-bottom horizontal-center",
-            "color_accent": "#ffffff",
-            "boxed": false,
-            "framed": true
-          }
-        },
         "b22e1874-3a53-481a-8ddb-89975d97e49b": {
           "type": "advanced",
           "settings": {
@@ -86,11 +65,32 @@
             "boxed": false,
             "framed": true
           }
+        },
+        "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "A New Take on Terry",
+            "textarea": "Put some Spring in your style with fresh pieces in warm-weather Terry.",
+            "cta_text1": "Shop now",
+            "cta_link1": "shopify:\/\/collections\/terry-fleece",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens0785.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 800,
+            "text_size": 135,
+            "text_align": "vertical-bottom horizontal-center",
+            "color_accent": "#ffffff",
+            "boxed": false,
+            "framed": true
+          }
         }
       },
       "block_order": [
-        "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1",
-        "b22e1874-3a53-481a-8ddb-89975d97e49b"
+        "b22e1874-3a53-481a-8ddb-89975d97e49b",
+        "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1"
       ],
       "custom_css": [
         "h2 {font-family: \"QuaverSerif\";}"

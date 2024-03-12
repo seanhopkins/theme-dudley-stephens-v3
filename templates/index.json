@@ -282,7 +282,7 @@
           "settings": {
             "year": "2024",
             "month": "03",
-            "day": "12",
+            "day": "19",
             "hour": "10",
             "minute": "00",
             "hide_timer": false,
@@ -292,7 +292,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2": {
           "type": "button",
           "settings": {
-            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-the-pocomo-in-pastels-plus-neutrals",
+            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-springtime-sets",
             "button": "Preview now",
             "button_style": "solid"
           }
@@ -303,7 +303,6 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-1",
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2"
       ],
-      "disabled": true,
       "custom_css": [
 
       ],
@@ -312,8 +311,9 @@
         "full_width": false,
         "text_color": "#232528",
         "background_color": "#f8f4ed",
+        "background_image": "shopify:\/\/shop_images\/BlueFloral_1c5c49a0-d469-4fd5-b3e2-da690d966588.jpg",
         "overlay_color": "#ffffff",
-        "overlay_opacity": 0,
+        "overlay_opacity": 80,
         "lazyload_images": true
       }
     },

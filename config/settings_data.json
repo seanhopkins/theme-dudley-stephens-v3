@@ -1499,8 +1499,6 @@
           "gift_thumbnail_size": 40,
           "show_pricing": true,
           "money_filter": "money_without_currency",
-          "variant_selector_type": "images",
-          "disabled_checkbox": false,
           "font_scale": 100,
           "font_color": "#232528",
           "checkbox_radio_color": "rgba(0,0,0,0)",

@@ -67,7 +67,7 @@
     "cart_type": "drawer",
     "cart_notes_enable": true,
     "cart_terms_conditions_enable": false,
-    "rebuy_widget_embed": "{% comment %}<div data-rebuy-id=\"127216\"><\/div>\n{% endcomment %}",
+    "rebuy_widget_embed": "<div data-rebuy-id=\"127216\"><\/div>",
     "gwp_enable": false,
     "gwp_tier_1_product_ids": "6996400046122, 6996400177194",
     "gwp_tier_1_threshold": "150",
@@ -241,6 +241,14 @@
               "title": "Blue Floral",
               "swatch_color": "",
               "swatch_image": "shopify:\/\/shop_images\/blue-floral.png"
+            }
+          },
+          "color_swatch_44jFPn": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Blue Pinstripe",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/blue-pinstripe.png"
             }
           },
           "1574452635410": {
@@ -437,6 +445,14 @@
             "settings": {
               "title": "Cotton Candy",
               "swatch_color": "#ffa9d6"
+            }
+          },
+          "color_swatch_bXnDkK": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Cotton Candy Floral",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/cotton-candy-floral.png"
             }
           },
           "8bae95ee-8c1d-4178-a303-87dd3e91273f": {
@@ -834,6 +850,14 @@
               "swatch_image": "shopify:\/\/shop_images\/NavyCabanaStripe.jpg"
             }
           },
+          "color_swatch_RzFwaH": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy Scallop Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/navy-scallop-stripe.png"
+            }
+          },
           "1600111070801": {
             "type": "color_swatch",
             "settings": {
@@ -1146,6 +1170,14 @@
               "swatch_color": "#e98473"
             }
           },
+          "color_swatch_aMzbja": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Sketched Vine",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/sketched-vine.png"
+            }
+          },
           "1574187124703": {
             "type": "color_swatch",
             "settings": {
@@ -1290,6 +1322,7 @@
           "9964f19b-b16a-413f-bdca-c90f29d81277",
           "79e848db-dfc8-4f23-aff5-32b5ceff5893",
           "4794af07-7501-447a-b3a3-6d06c68081ce",
+          "color_swatch_44jFPn",
           "1574452635410",
           "d87df12a-d2fd-41da-8dd3-6a71e88bd407",
           "68f73094-1f7c-4be5-af6e-80e8bd0c1e2c",
@@ -1315,6 +1348,7 @@
           "a69a798e-2ddd-4893-b7f0-0f201addc587",
           "1602597080054",
           "c69de3dc-25d0-4da3-ac99-2b49c4520ae9",
+          "color_swatch_bXnDkK",
           "8bae95ee-8c1d-4178-a303-87dd3e91273f",
           "0e835829-040e-4fea-b13d-104e7043648b",
           "194151db-ffc1-4605-9e0d-ef117bcd30fb",
@@ -1365,6 +1399,7 @@
           "ff9e58a6-a3b2-4ef4-8125-2b783b7bcd0b",
           "1573761486525",
           "ac2a8588-f91a-445e-9834-f0b0e97ed7f0",
+          "color_swatch_RzFwaH",
           "1600111070801",
           "f84d52f5-5708-4d22-9636-fe58e467a931",
           "1600111133731",
@@ -1404,6 +1439,7 @@
           "245b6bab-9bb9-4141-a7b8-e83d3a44419d",
           "1c8c81b8-206d-400a-affd-52052c767d76",
           "1574187025080",
+          "color_swatch_aMzbja",
           "1574187124703",
           "97cb6275-4ab8-4fcf-8274-4fea59378220",
           "1600103847112",
@@ -1472,8 +1508,6 @@
           "gift_thumbnail_size": 40,
           "show_pricing": true,
           "money_filter": "money_without_currency",
-          "variant_selector_type": "images",
-          "disabled_checkbox": false,
           "font_scale": 100,
           "font_color": "#232528",
           "checkbox_radio_color": "rgba(0,0,0,0)",

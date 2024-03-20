@@ -240,7 +240,8 @@
             "settings": {
               "title": "Blue Floral",
               "swatch_color": "",
-              "swatch_image": "shopify:\/\/shop_images\/blue-floral.png"
+              "swatch_image": "shopify:\/\/shop_images\/blue-floral.png",
+              "monogram_swatch": "shopify:\/\/shop_images\/Blue_Floral_Monogram_Swatch.png"
             }
           },
           "color_swatch_44jFPn": {

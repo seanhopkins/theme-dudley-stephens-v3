@@ -15,6 +15,7 @@
             "top_subheading": "",
             "title": "",
             "title_size": 80,
+            "text_color": "#ffffff",
             "subheading": "",
             "link": "",
             "link_text": "",
@@ -22,7 +23,7 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Slider_68e87dcc-ace0-470a-b81a-c2a603f97c3f.jpg",
+            "image": "shopify:\/\/shop_images\/DS_Slider.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_c8e0adc1-e415-440d-bd67-4eb164a88537.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
@@ -36,6 +37,7 @@
         "section_height": "natural",
         "mobile_height": "auto",
         "parallax": false,
+        "framed": false,
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 7,
@@ -137,7 +139,8 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
-            "surface_pickup_enable": false
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
           }
         },
         "e23e9053-576f-4593-b0a5-3978b5e59d2f": {
@@ -183,6 +186,7 @@
         "text": "<p>Once we receive your products, materials are separated by type, then shredded and recycled into raw material. The kinds of materials we use in our products are then used as filler for products such as sports equipment, furniture and pet bedding.<\/p>",
         "button_label": "",
         "button_link": "",
+        "liquid": "",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
@@ -300,6 +304,7 @@
             "top_subheading": "",
             "title": "",
             "title_size": 80,
+            "text_color": "#ffffff",
             "subheading": "",
             "link": "",
             "link_text": "",
@@ -321,6 +326,7 @@
         "section_height": "natural",
         "mobile_height": "auto",
         "parallax": false,
+        "framed": false,
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 5,

@@ -13,7 +13,7 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "The First of Spring",
+            "title": "The Spring Collection",
             "title_size": 80,
             "text_color": "#ffffff",
             "subheading": "",
@@ -537,6 +537,7 @@
         "text_w3FVrh",
         "button_BQe3Xi"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,

@@ -524,7 +524,7 @@
         "liquid_NNNMmq": {
           "type": "liquid",
           "settings": {
-            "code": "",
+            "code": "<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"632499\"><\/div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -533,6 +533,7 @@
       "block_order": [
         "liquid_NNNMmq"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "space_around": false,

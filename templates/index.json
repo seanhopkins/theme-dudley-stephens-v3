@@ -524,7 +524,7 @@
         "liquid_NNNMmq": {
           "type": "liquid",
           "settings": {
-            "code": "<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"632499\"><\/div>",
+            "code": "",
             "width": "100%",
             "alignment": "center"
           }

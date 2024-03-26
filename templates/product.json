@@ -218,27 +218,10 @@
       "type": "collection-return",
       "settings": {
       }
-    },
-    "40431d4c80a35e28d118": {
-      "type": "apps",
-      "blocks": {
-        "9762c283-8d9a-4e5b-a8f8-aa89a4cb2d56": {
-          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-          "settings": {
-            "product": "{{product}}"
-          }
-        }
-      },
-      "block_order": [
-        "9762c283-8d9a-4e5b-a8f8-aa89a4cb2d56"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
     "main",
-    "40431d4c80a35e28d118",
     "cb0b4ebb-60f1-4c0c-a08f-3bcaa11774b6",
     "16851221169ef3c6b3",
     "sub",

@@ -50,7 +50,7 @@
         "heading_YGdGfe": {
           "type": "heading",
           "settings": {
-            "title": "DS Renew"
+            "title": "Recycle Your Pre-Loved Dudleys for Something New"
           }
         },
         "text": {
@@ -59,26 +59,38 @@
             "enlarge_text": true,
             "text": "<p>Celebrate Earth Month—and our commitment to eco-conscious style—by trading your loved Dudleys toward something new. <\/p><p>Just send in your pre-worn DS piece and we’ll gift you $25 toward your next order of $100 or more. Shipping is on us.<\/p><p>A win for the planet—and your responsible style.<\/p>"
           }
-        },
-        "heading": {
+        }
+      },
+      "block_order": [
+        "heading_YGdGfe",
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "rich_text_6yrXAn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CAGX4q": {
           "type": "heading",
           "settings": {
             "title": "Just follow three easy steps:"
           }
         },
-        "c800faa2-f488-4560-ae2e-5dcfd699affe": {
+        "text_Vx8fWX": {
           "type": "text",
           "settings": {
-            "enlarge_text": false,
-            "text": "<p>1. Checkout with DS Renew in your cart, just as you would with a regular purchase. <\/p><p><\/p><p>2. Complete a DS Renew return for a label to send in your piece. You won’t be charged for anything along the way.<\/p><p><\/p><p>3. Watch your Dudley Devoted account for 250 Pineapple Points—that’s $25 toward your next order of $100 or more. <\/p>"
+            "enlarge_text": true,
+            "text": "<p>1. Checkout with DS Renew in your cart, just as you would with a regular purchase. <\/p><p><\/p><p>2. Complete a DS Renew return for a label to send in your piece. You won’t be charged for anything along the way.<\/p><p><\/p><p>3. Watch your Dudley Devoted account for 250 Pineapple Points—that’s $25 toward your next order of $100 or more.<\/p>"
           }
         }
       },
       "block_order": [
-        "heading_YGdGfe",
-        "text",
-        "heading",
-        "c800faa2-f488-4560-ae2e-5dcfd699affe"
+        "heading_CAGX4q",
+        "text_Vx8fWX"
       ],
       "settings": {
         "align_text": "center",
@@ -346,6 +358,7 @@
     "main",
     "slideshow",
     "rich-text",
+    "rich_text_6yrXAn",
     "56eaa6cc-81d3-4b5c-853d-89c6613af4af",
     "52683eff-e658-4591-b0fa-8734621ab3c9",
     "cc465af8-9c4f-4e26-8f82-d65c698507d2",

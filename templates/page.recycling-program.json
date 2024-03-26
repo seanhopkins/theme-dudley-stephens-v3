@@ -47,28 +47,35 @@
     "rich-text": {
       "type": "rich-text",
       "blocks": {
+        "heading_YGdGfe": {
+          "type": "heading",
+          "settings": {
+            "title": "DS Renew"
+          }
+        },
         "text": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>We’re celebrating Earth Month by taking our commitment to eco-friendliness even further, offering customers the chance to conveniently recycle well-loved Dudley Stephens products. Better yet: When you choose to recycle your #dsgoods with us, we’ll give you $25 in Pineapple Points toward your next new Dudley. A win for our planet—and your responsible style.<\/p>"
+            "text": "<p>Celebrate Earth Month—and our commitment to eco-conscious style—by trading your loved Dudleys toward something new. <\/p><p>Just send in your pre-worn DS piece and we’ll gift you $25 toward your next order of $100 or more. Shipping is on us.<\/p><p>A win for the planet—and your responsible style.<\/p>"
           }
         },
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Recycle your pre-loved and worn Dudley in two easy steps:"
+            "title": "Just follow three easy steps:"
           }
         },
         "c800faa2-f488-4560-ae2e-5dcfd699affe": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<ol><li>Checkout with DS Renew in your cart, just as you would with a regular purchase.<br\/><\/li><li>Complete a DS Renew return for a label to send it in. <\/li><\/ol><p><em>You won’t be charged for anything along the way.<\/em>  <\/p>"
+            "text": "<p>1. Checkout with DS Renew in your cart, just as you would with a regular purchase. <\/p><p><\/p><p>2. Complete a DS Renew return for a label to send in your piece. You won’t be charged for anything along the way.<\/p><p><\/p><p>3. Watch your Dudley Devoted account for 250 Pineapple Points—that’s $25 toward your next order of $100 or more. <\/p>"
           }
         }
       },
       "block_order": [
+        "heading_YGdGfe",
         "text",
         "heading",
         "c800faa2-f488-4560-ae2e-5dcfd699affe"

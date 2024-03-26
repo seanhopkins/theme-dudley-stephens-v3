@@ -2,6 +2,9 @@
   "sections": {
     "main": {
       "type": "article-template",
+      "custom_css": [
+        ".article__body img {width: 100%;}"
+      ],
       "settings": {
         "image_hero": false,
         "blog_show_tags": false,

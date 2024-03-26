@@ -45,6 +45,12 @@
         if product.id == 6786596175914
           assign show_almost_gone = false
         endif 
+
+        #Hide DS Renew product 
+        if product.id == 6924458852394
+          assign show_almost_gone = false
+        endif 
+
       -%}
       {% if total_inventory <= 10 and show_almost_gone %}
         <div class="product__stamp stamp--almost-gone {% if total_inventory == 0 %}hide {% endif %}">

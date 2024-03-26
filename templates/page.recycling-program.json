@@ -184,6 +184,7 @@
     },
     "52683eff-e658-4591-b0fa-8734621ab3c9": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/9-19dudleystephens-parkslope_armygreen2714.jpg",
         "image_mask": "none",

@@ -149,11 +149,11 @@
         "sku_enable": false,
         "image_position": "left",
         "image_size": "small",
-        "product_zoom_enable": true,
+        "product_zoom_enable": false,
         "thumbnail_position": "beside",
         "thumbnail_arrows": false,
         "mobile_layout": "full",
-        "enable_video_looping": true,
+        "enable_video_looping": false,
         "product_video_style": "muted"
       }
     },

@@ -118,40 +118,10 @@
             "text": "We’re taking our commitment to eco-friendliness even further, offering customers the chance to conveniently recycle well-loved Dudley Stephens products. Better yet: When you choose to recycle your #dsgoods with us, we’ll give you $25 in Pineapple Points toward your next new Dudley. A win for our planet—and your responsible style. "
           }
         },
-        "b2c4aa21-6b3a-4ae1-b735-314280cdf730": {
-          "type": "sales_point",
-          "settings": {
-            "icon": "checkmark",
-            "text": "Free worldwide shipping"
-          }
-        },
-        "3bc002dc-a244-440e-a5cb-a32fec807ad7": {
-          "type": "sales_point",
-          "settings": {
-            "icon": "globe",
-            "text": "Free worldwide shipping"
-          }
-        },
-        "d54a89bf-51d5-43a6-bdd7-a1b4290ee4be": {
-          "type": "sales_point",
-          "settings": {
-            "icon": "globe",
-            "text": "Free worldwide shipping"
-          }
-        },
         "template--14916873289770__56eaa6cc-81d3-4b5c-853d-89c6613af4af-1681492831d7d6c511-1": {
           "type": "description",
           "settings": {
-            "is_tab": true
-          }
-        },
-        "template--14916873289770__56eaa6cc-81d3-4b5c-853d-89c6613af4af-1681492831d7d6c511-2": {
-          "type": "variant_picker",
-          "settings": {
-            "variant_labels": false,
-            "picker_type": "button",
-            "product_dynamic_variants_enable": false,
-            "color_swatches": false
+            "is_tab": false
           }
         },
         "template--14916873289770__56eaa6cc-81d3-4b5c-853d-89c6613af4af-1681492831d7d6c511-3": {
@@ -161,24 +131,17 @@
             "surface_pickup_enable": false,
             "show_gift_card_recipient": false
           }
-        },
-        "e23e9053-576f-4593-b0a5-3978b5e59d2f": {
-          "type": "share",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "template--14916873289770__56eaa6cc-81d3-4b5c-853d-89c6613af4af-1681492831d7d6c511-0",
         "aa557be3-8336-4f5b-9e0b-0152d9767c5e",
         "76003783-da01-4434-91b2-28d8f6f296aa",
-        "b2c4aa21-6b3a-4ae1-b735-314280cdf730",
-        "3bc002dc-a244-440e-a5cb-a32fec807ad7",
-        "d54a89bf-51d5-43a6-bdd7-a1b4290ee4be",
         "template--14916873289770__56eaa6cc-81d3-4b5c-853d-89c6613af4af-1681492831d7d6c511-1",
-        "template--14916873289770__56eaa6cc-81d3-4b5c-853d-89c6613af4af-1681492831d7d6c511-2",
-        "template--14916873289770__56eaa6cc-81d3-4b5c-853d-89c6613af4af-1681492831d7d6c511-3",
-        "e23e9053-576f-4593-b0a5-3978b5e59d2f"
+        "template--14916873289770__56eaa6cc-81d3-4b5c-853d-89c6613af4af-1681492831d7d6c511-3"
+      ],
+      "custom_css": [
+        ".product__policies {display: none;}"
       ],
       "settings": {
         "featured_product": "ds-renew",

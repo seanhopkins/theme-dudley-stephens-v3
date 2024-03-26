@@ -233,11 +233,91 @@
             "title": "How can I recycle my items? How many can I recycle at once?",
             "text": "<p> In order to get your DS Renew shipping label, add the number of Dudley Stephens ‘DS Renew’ items you’d like to recycle to your cart. (Note: If recycling more than 5 pieces at a time, please place multiple orders with a maximum number of 5 pieces per order). Continue checking out with your number of recycled items, which will create a free order. Once the order confirmation is sent to your email, visit our <a href=\"https:\/\/dudley-stephens.loopreturns.com\/#\/\"><span style=\"text-decoration:underline\">returns site<\/span><\/a> and enter your order number and shipping zip code. From here, follow the instructions to get your shipping label (either emailed label, or a QR code) to send back your item to us. Once your items are sent back to us, your items will be recycled and points will be added to your account at the end of the month.<\/p>"
           }
+        },
+        "question_idMhxq": {
+          "type": "question",
+          "settings": {
+            "title": "Can I recycle a non-fleece Dudley Stephens item like Repreve® or Luxe Stretch?",
+            "text": "<p>Yes, we accept any Dudley Stephens item for our recycling program.<\/p>"
+          }
+        },
+        "question_Vbrwe8": {
+          "type": "question",
+          "settings": {
+            "title": "When will I see my points for DS Renew in my account? How long do I have to use them? ",
+            "text": "<p>All points for our DS Renew program will be added to your account at the end of April and you will have until 4\/29\/2025 to redeem your points.<\/p>"
+          }
+        },
+        "question_y8p6U9": {
+          "type": "question",
+          "settings": {
+            "title": "Will your Dudley Devoted points program change?",
+            "text": "<p>Our Dudley Devoted rewards program is always subject to change. All terms of the program are available on the <a href=\"https:\/\/www.dudley-stephens.com\/pages\/rewards\"><span style=\"text-decoration:underline\">Dudley Devoted page<\/span><\/a> of our website.<\/p>"
+          }
+        },
+        "question_JHEpDT": {
+          "type": "question",
+          "settings": {
+            "title": "What happens to my products after I send them in?",
+            "text": "<p>Once we receive your items back, your products go to our recycling partner where they will be separated by fabric and recycled into raw materials, to be used as filler in items like sports equipment, furniture, pet bedding and more.<\/p>"
+          }
+        },
+        "question_3Wp9tJ": {
+          "type": "question",
+          "settings": {
+            "title": "Can I get my items back after I have sent them to be recycled?",
+            "text": "<p>You cannot get back your items once they have been recycled.<\/p>"
+          }
+        },
+        "question_7GTW3d": {
+          "type": "question",
+          "settings": {
+            "title": "What can I use my Pineapple Points on?",
+            "text": "<p>You can use your Pineapple Points Points on any item at dudley-stephens.com as long as it meets the following criteria:<\/p><ul><li>Minimum purchase of $100 or more for each 250 reward, or $25 off your purchase<\/li><li>Pineapple Points are not combinable with other promotions or discount codes<\/li><li>Pineapple Points are valid for 1 year only after date earned<\/li><\/ul><p>For more information, visit our <a href=\"https:\/\/www.dudley-stephens.com\/pages\/rewards\"><span style=\"text-decoration:underline\">Rewards Page<\/span><\/a><\/p>"
+          }
+        },
+        "question_9MxRJy": {
+          "type": "question",
+          "settings": {
+            "title": "How do I get my return label?",
+            "text": "<p>After following the steps at our <a href=\"https:\/\/dudley-stephens.loopreturns.com\/#\/\"><span style=\"text-decoration:underline\">returns portal,<\/span><\/a> your return label will be issued via email. <\/p>"
+          }
+        },
+        "question_gjHpRi": {
+          "type": "question",
+          "settings": {
+            "title": "Can I send back my DS Renew items for recycling with my most recent DS order for a refund?",
+            "text": "<p>Please return your DS Renew items separately. Any returns or exchanges of full-priced, unworn merchandise should be returned using a separate shipping label and shipped in a separate package.<\/p>"
+          }
+        },
+        "question_PdwNJx": {
+          "type": "question",
+          "settings": {
+            "title": "Do I have to pay for my DS Renew return?",
+            "text": "<p>Your return for all DS Renew items for recycling will not be subject to our returns processing fee.<\/p>"
+          }
+        },
+        "question_xDDGiH": {
+          "type": "question",
+          "settings": {
+            "title": "Can I drop off my DS Renew pieces to your Townhouse headquarters in Connecticut?",
+            "text": "<p>At this time, we are only accepting returns of DS Renew recycling items via USPS to our warehouse. <\/p>"
+          }
         }
       },
       "block_order": [
         "template--14916873289770__cc465af8-9c4f-4e26-8f82-d65c698507d2-16814930647819abe6-0",
-        "question_RX994y"
+        "question_RX994y",
+        "question_idMhxq",
+        "question_Vbrwe8",
+        "question_y8p6U9",
+        "question_JHEpDT",
+        "question_3Wp9tJ",
+        "question_7GTW3d",
+        "question_9MxRJy",
+        "question_gjHpRi",
+        "question_PdwNJx",
+        "question_xDDGiH"
       ],
       "settings": {
         "title": "FAQs: DS Renew"

@@ -35,7 +35,7 @@
         "buy_buttons"
       ],
       "custom_css": [
-
+        ".product__policies, .swym-wishlist-button-bar {display: none;}"
       ],
       "settings": {
         "sku_enable": false,

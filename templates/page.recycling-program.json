@@ -84,7 +84,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>1. Checkout with DS Renew in your cart, just as you would with a regular purchase. <\/p><p><\/p><p>2. Complete a DS Renew return for a label to send in your piece. You won’t be charged for anything along the way.<\/p><p><\/p><p>3. Watch your Dudley Devoted account for 250 Pineapple Points—that’s $25 toward your next order of $100 or more.<\/p>"
+            "text": "<p>1. Checkout with DS Renew in your cart, just as you would with a regular purchase. <\/p><p><\/p><p>2. Complete a DS Renew return for a label to send in your piece. You won’t be charged for anything along the way.<\/p><p><\/p><p>3. Within thirty days, 250 Pineapple Points will be added to your Dudley Devoted account for each piece recycled. That’s $25 towards your next order of $100 or more.<\/p>"
           }
         }
       },
@@ -194,7 +194,7 @@
           "type": "question",
           "settings": {
             "title": "How can I recycle my items? How many can I recycle at once?",
-            "text": "<p> In order to get your DS Renew shipping label, add the number of Dudley Stephens ‘DS Renew’ items you’d like to recycle to your cart. (Note: If recycling more than 5 pieces at a time, please place multiple orders with a maximum number of 5 pieces per order). Continue checking out with your number of recycled items, which will create a free order. Once the order confirmation is sent to your email, visit our <a href=\"https:\/\/dudley-stephens.loopreturns.com\/#\/\"><span style=\"text-decoration:underline\">returns site<\/span><\/a> and enter your order number and shipping zip code. From here, follow the instructions to get your shipping label (either emailed label, or a QR code) to send back your item to us. Once your items are sent back to us, your items will be recycled and points will be added to your account at the end of the month.<\/p>"
+            "text": "<p> In order to get your DS Renew shipping label, add the number of Dudley Stephens ‘DS Renew’ items you’d like to recycle to your cart. (Note: If recycling more than 5 pieces at a time, please place multiple orders with a maximum number of 5 pieces per order). Continue checking out with your number of recycled items, which will create a free order. Once the order confirmation is sent to your email, visit our <a href=\"https:\/\/dudley-stephens.loopreturns.com\/#\/\"><span style=\"text-decoration:underline\">returns site<\/span><\/a> and enter your order number and shipping zip code. From here, follow the instructions to get your shipping label (either emailed label, or a QR code) to send back your item to us using your own packaging. Once your items are sent back to us, your items will be recycled and points will be added to your account at the end of the month.<\/p>"
           }
         },
         "question_idMhxq": {

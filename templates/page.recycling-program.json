@@ -183,6 +183,13 @@
     "cc465af8-9c4f-4e26-8f82-d65c698507d2": {
       "type": "faq",
       "blocks": {
+        "question_Vbrwe8": {
+          "type": "question",
+          "settings": {
+            "title": "When will I see my points for DS Renew in my account? How long do I have to use them? ",
+            "text": "<p>Please allow 30 days for your points to reach your account. You will have 1 year from the day the points are awarded to apply them to a purchase.<\/p>"
+          }
+        },
         "template--14916873289770__cc465af8-9c4f-4e26-8f82-d65c698507d2-16814930647819abe6-0": {
           "type": "question",
           "settings": {
@@ -202,13 +209,6 @@
           "settings": {
             "title": "Can I recycle a non-fleece Dudley Stephens item like Repreve® or Luxe Stretch?",
             "text": "<p>Yes, we accept any Dudley Stephens item for our recycling program.<\/p>"
-          }
-        },
-        "question_Vbrwe8": {
-          "type": "question",
-          "settings": {
-            "title": "When will I see my points for DS Renew in my account? How long do I have to use them? ",
-            "text": "<p>Please allow 30 days for your points to reach your account. You will have 1 year from the day the points are awarded to apply them to a purchase.<\/p>"
           }
         },
         "question_y8p6U9": {
@@ -269,10 +269,10 @@
         }
       },
       "block_order": [
+        "question_Vbrwe8",
         "template--14916873289770__cc465af8-9c4f-4e26-8f82-d65c698507d2-16814930647819abe6-0",
         "question_RX994y",
         "question_idMhxq",
-        "question_Vbrwe8",
         "question_y8p6U9",
         "question_JHEpDT",
         "question_3Wp9tJ",

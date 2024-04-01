@@ -9,13 +9,12 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Shop the Drop: Springtime Sets in Terry",
-            "link": "shopify:\/\/collections\/new-drops"
+            "link_text": "DS Renew Is Back: Recycle Your Pre-Loved Dudleys Here!",
+            "link": "shopify:\/\/pages\/ds-renew"
           }
         },
         "announcement-1": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "Shop the Drop: Springtime Sets in Terry",

@@ -155,6 +155,44 @@
         "view_all": true,
         "divider": false
       }
+    },
+    "slideshow_7wCgaa": {
+      "type": "slideshow",
+      "blocks": {
+        "image_xnNrjj": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Slider_c4260855-153b-4dc5-9fd9-b904028c75f7.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_f58c64d2-4495-4f59-8458-99559a03e692.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_xnNrjj"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "framed": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -163,6 +201,7 @@
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "text_columns_mNyhLx",
     "text_and_image_V9a3nW",
-    "bc59d967-cb6a-43d7-981f-f7165f775819"
+    "bc59d967-cb6a-43d7-981f-f7165f775819",
+    "slideshow_7wCgaa"
   ]
 }

@@ -138,6 +138,7 @@
     "text_and_image_V9a3nW": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1540.jpg",
         "image_mask": "none",
         "image2_mask": "none",
         "subtitle": "",

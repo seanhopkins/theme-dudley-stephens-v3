@@ -23,8 +23,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-right",
-            "image": "shopify:\/\/shop_images\/Slider_c4260855-153b-4dc5-9fd9-b904028c75f7.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_f58c64d2-4495-4f59-8458-99559a03e692.jpg",
+            "image": "shopify:\/\/shop_images\/Slider_694e6fd2-2d98-4884-a506-289b42fe84f0.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_403bf7bc-26fd-4231-abae-e4d5fd47c827.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -71,47 +71,6 @@
         "divider": false
       }
     },
-    "0462ca32-1921-42d0-9b0d-239c90c50a09": {
-      "type": "rich-text",
-      "blocks": {
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1": {
-          "type": "heading",
-          "settings": {
-            "title": "Find Your Perfect Silhouette"
-          }
-        },
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>In three lengths for a fit that suits your style.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1",
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
-    "50c43048-9982-4115-85ba-cae759aa5888": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Crop-Length",
-        "home_featured_products": "cropped-turtlenecks",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "bc59d967-cb6a-43d7-981f-f7165f775819": {
       "type": "featured-collection",
       "disabled": true,
@@ -124,14 +83,64 @@
         "view_all": true,
         "divider": false
       }
+    },
+    "text_columns_mNyhLx": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_FTYrjU": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_8P7byM": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_YGb7pz": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_FTYrjU",
+        "text_block_8P7byM",
+        "text_block_YGb7pz"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
     "slideshow_bGyQmc",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
-    "0462ca32-1921-42d0-9b0d-239c90c50a09",
-    "50c43048-9982-4115-85ba-cae759aa5888",
-    "bc59d967-cb6a-43d7-981f-f7165f775819"
+    "bc59d967-cb6a-43d7-981f-f7165f775819",
+    "text_columns_mNyhLx"
   ]
 }

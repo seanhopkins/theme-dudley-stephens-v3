@@ -288,10 +288,9 @@
     },
     "featured_video_UqNPT9": {
       "type": "featured-video",
-      "disabled": true,
       "settings": {
         "title": "",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=zDZKDwsuCWc",
         "divider": false
       }
     },

@@ -5,21 +5,20 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
+        "announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "",
+            "link_text": "Shop our End-of-Season Sale now: 50% off Select Styles",
+            "link": "https:\/\/www.dudley-stephens.com\/collections\/end-of-season-sale"
+          }
+        },
         "announcement-0": {
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Shop the Drop: Springtime Sets in Terry",
-            "link": "shopify:\/\/collections\/new-drops"
-          }
-        },
-        "announcement-1": {
-          "type": "announcement",
-          "disabled": true,
-          "settings": {
-            "text": "",
-            "link_text": "Shop the Drop: Springtime Sets in Terry",
-            "link": "shopify:\/\/collections\/kids-sale"
+            "link_text": "DS Renew Is Back: Recycle Your Pre-Loved Dudleys Here!",
+            "link": "shopify:\/\/pages\/ds-renew"
           }
         },
         "57204342-0c5b-4be5-8089-ed68a2ee6b82": {
@@ -33,8 +32,8 @@
         }
       },
       "block_order": [
-        "announcement-0",
         "announcement-1",
+        "announcement-0",
         "57204342-0c5b-4be5-8089-ed68a2ee6b82"
       ],
       "custom_css": [

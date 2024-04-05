@@ -84,7 +84,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>1. Checkout with DS Renew in your cart, just as you would with a regular purchase. <\/p><p><\/p><p>2. Complete a DS Renew return for a label to send in your piece. You won’t be charged for anything along the way.<\/p><p><\/p><p>3. Watch your Dudley Devoted account for 250 Pineapple Points—that’s $25 toward your next order of $100 or more.<\/p>"
+            "text": "<p>1. Checkout with DS Renew in your cart, just as you would with a regular purchase. <\/p><p><\/p><p>2. Complete a DS Renew return for a label to send in your piece. You won’t be charged for anything along the way.<\/p><p><\/p><p>3. Within thirty days, 250 Pineapple Points will be added to your Dudley Devoted account for each piece recycled. That’s $25 towards your next order of $100 or more.<\/p>"
           }
         }
       },
@@ -183,6 +183,13 @@
     "cc465af8-9c4f-4e26-8f82-d65c698507d2": {
       "type": "faq",
       "blocks": {
+        "question_Vbrwe8": {
+          "type": "question",
+          "settings": {
+            "title": "When will I see my points for DS Renew in my account? How long do I have to use them? ",
+            "text": "<p>Please allow 30 days for your points to reach your account. You will have 1 year from the day the points are awarded to apply them to a purchase.<\/p>"
+          }
+        },
         "template--14916873289770__cc465af8-9c4f-4e26-8f82-d65c698507d2-16814930647819abe6-0": {
           "type": "question",
           "settings": {
@@ -194,7 +201,7 @@
           "type": "question",
           "settings": {
             "title": "How can I recycle my items? How many can I recycle at once?",
-            "text": "<p> In order to get your DS Renew shipping label, add the number of Dudley Stephens ‘DS Renew’ items you’d like to recycle to your cart. (Note: If recycling more than 5 pieces at a time, please place multiple orders with a maximum number of 5 pieces per order). Continue checking out with your number of recycled items, which will create a free order. Once the order confirmation is sent to your email, visit our <a href=\"https:\/\/dudley-stephens.loopreturns.com\/#\/\"><span style=\"text-decoration:underline\">returns site<\/span><\/a> and enter your order number and shipping zip code. From here, follow the instructions to get your shipping label (either emailed label, or a QR code) to send back your item to us. Once your items are sent back to us, your items will be recycled and points will be added to your account at the end of the month.<\/p>"
+            "text": "<p> In order to get your DS Renew shipping label, add the number of Dudley Stephens ‘DS Renew’ items you’d like to recycle to your cart. (Note: If recycling more than 5 pieces at a time, please place multiple orders with a maximum number of 5 pieces per order). Continue checking out with your number of recycled items, which will create a free order. Once the order confirmation is sent to your email, visit our <a href=\"https:\/\/dudley-stephens.loopreturns.com\/#\/\"><span style=\"text-decoration:underline\">returns site<\/span><\/a> and enter your order number and shipping zip code. From here, follow the instructions to get your shipping label (either emailed label, or a QR code) to send back your item to us using your own packaging. Once your items are sent back to us, your items will be recycled and points will be added to your account at the end of the month.<\/p>"
           }
         },
         "question_idMhxq": {
@@ -204,18 +211,11 @@
             "text": "<p>Yes, we accept any Dudley Stephens item for our recycling program.<\/p>"
           }
         },
-        "question_Vbrwe8": {
-          "type": "question",
-          "settings": {
-            "title": "When will I see my points for DS Renew in my account? How long do I have to use them? ",
-            "text": "<p>Please allow 30 days for your points to reach your account. You will have 1 year from the day the points are awarded to apply them to a purchase.<\/p>"
-          }
-        },
         "question_y8p6U9": {
           "type": "question",
           "settings": {
             "title": "Will your Dudley Devoted points program change?",
-            "text": "<p>Our Dudley Devoted rewards program is always subject to change. All terms of the program are available on the <a href=\"https:\/\/www.dudley-stephens.com\/pages\/rewards\"><span style=\"text-decoration:underline\">Dudley Devoted page<\/span><\/a> of our website.<\/p>"
+            "text": "<p>Our Dudley Devoted rewards program is always subject to change. All terms of the program are available on the <a href=\"https:\/\/www.dudley-stephens.com\/apps\/help-center#hc-how-do-i-sign-up-for-the-dudley-devoted-program\" title=\"https:\/\/www.dudley-stephens.com\/apps\/help-center#hc-how-do-i-sign-up-for-the-dudley-devoted-program\">FAQ page<\/a> of our website.<\/p>"
           }
         },
         "question_JHEpDT": {
@@ -269,10 +269,10 @@
         }
       },
       "block_order": [
+        "question_Vbrwe8",
         "template--14916873289770__cc465af8-9c4f-4e26-8f82-d65c698507d2-16814930647819abe6-0",
         "question_RX994y",
         "question_idMhxq",
-        "question_Vbrwe8",
         "question_y8p6U9",
         "question_JHEpDT",
         "question_3Wp9tJ",
@@ -284,6 +284,14 @@
       ],
       "settings": {
         "title": "FAQs: DS Renew"
+      }
+    },
+    "featured_video_UqNPT9": {
+      "type": "featured-video",
+      "settings": {
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=zDZKDwsuCWc",
+        "divider": false
       }
     },
     "eac13688-af32-48ae-8522-be944d2c2701": {
@@ -333,6 +341,7 @@
     "56eaa6cc-81d3-4b5c-853d-89c6613af4af",
     "52683eff-e658-4591-b0fa-8734621ab3c9",
     "cc465af8-9c4f-4e26-8f82-d65c698507d2",
+    "featured_video_UqNPT9",
     "eac13688-af32-48ae-8522-be944d2c2701"
   ]
 }

@@ -78,6 +78,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1638_16ef8e95-f54a-40d0-bc69-6191dc725730.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -90,6 +91,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_3481.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -102,6 +104,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_2104.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -115,6 +118,60 @@
         "text_block_FTYrjU",
         "text_block_8P7byM",
         "text_block_YGb7pz"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "text_columns_zdQkLc": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_Ym4Cxf": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_3329.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_dqqFAU": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens0647.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_YmNbLm": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1794.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_Ym4Cxf",
+        "text_block_dqqFAU",
+        "text_block_YmNbLm"
       ],
       "settings": {
         "title": "",
@@ -153,57 +210,6 @@
         "rows": 1,
         "mobile_scrollable": true,
         "view_all": true,
-        "divider": false
-      }
-    },
-    "text_columns_zdQkLc": {
-      "type": "text-columns",
-      "blocks": {
-        "text_block_dqqFAU": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_Ym4Cxf": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_YmNbLm": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_dqqFAU",
-        "text_block_Ym4Cxf",
-        "text_block_YmNbLm"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
         "divider": false
       }
     },
@@ -251,9 +257,9 @@
     "slideshow_bGyQmc",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "text_columns_mNyhLx",
+    "text_columns_zdQkLc",
     "text_and_image_V9a3nW",
     "bc59d967-cb6a-43d7-981f-f7165f775819",
-    "text_columns_zdQkLc",
     "slideshow_7wCgaa"
   ]
 }

@@ -170,6 +170,14 @@
               "swatch_image": "shopify:\/\/shop_images\/black-cobalt_3e895876-10b6-4a4f-a057-666493860cf7.png"
             }
           },
+          "color_swatch_rBXkg9": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Black\/Cream Cabana Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/black-cream-cabana-stripe.jpg"
+            }
+          },
           "02c54f45-7e25-4ac9-83f3-3cd521e87dd9": {
             "type": "color_swatch",
             "settings": {
@@ -1304,14 +1312,6 @@
               "swatch_color": "#8c2230",
               "monogram_swatch": "shopify:\/\/shop_images\/Winterberry_monogram_swatch.png"
             }
-          },
-          "color_swatch_rBXkg9": {
-            "type": "color_swatch",
-            "settings": {
-              "title": "Black\/Cream Cabana Stripe",
-              "swatch_color": "",
-              "swatch_image": "shopify:\/\/shop_images\/black-cream-cabana-stripe.jpg"
-            }
           }
         },
         "block_order": [
@@ -1322,6 +1322,7 @@
           "707afe18-710f-4f2b-b682-86f10dd3e3f3",
           "1573762103534",
           "b32b6997-f9f0-47ea-8155-00ab3dee3a23",
+          "color_swatch_rBXkg9",
           "02c54f45-7e25-4ac9-83f3-3cd521e87dd9",
           "91db2672-6dff-454e-bd3b-be06227ecc5a",
           "0c32430c-3820-41e6-bcc1-180f9515102d",
@@ -1464,8 +1465,7 @@
           "1574186951943",
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
           "250b5ae7-c936-4846-8ffc-76eb6db8d944",
-          "c8ac5c7d-81b0-494f-af6b-de00a0d6153b",
-          "color_swatch_rBXkg9"
+          "c8ac5c7d-81b0-494f-af6b-de00a0d6153b"
         ],
         "settings": {
         }

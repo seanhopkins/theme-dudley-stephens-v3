@@ -16,7 +16,7 @@
             "title": "The Summer Collection",
             "title_size": 80,
             "text_color": "#ffffff",
-            "subheading": "Here are all the pieces you need to embrace the season of ease.",
+            "subheading": "Ease, above all else: our ethos for the season. Here are the pieces you need to embrace it.",
             "link": "",
             "link_text": "",
             "link_2": "",
@@ -50,14 +50,14 @@
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1": {
           "type": "heading",
           "settings": {
-            "title": "The Summer 2024 Collection"
+            "title": "Welcome to A Dudley Summer"
           }
         },
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>From workwear pairings to day-to-night dresses, classic tops and tees to essential layers, here are all the pieces you need to embrace the season of ease.<\/p>"
+            "text": "<p>Whether dressing or work, off-duty pursuits, cocktail hour or a weekend away, warm-weather dressing demands pieces that wear—and pair—without a second thought.<\/p>"
           }
         }
       },
@@ -181,6 +181,7 @@
     },
     "text_and_image_V9a3nW": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1540.jpg",
         "image_mask": "none",

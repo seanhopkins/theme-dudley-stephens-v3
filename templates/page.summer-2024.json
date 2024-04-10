@@ -16,7 +16,7 @@
             "title": "The Summer Collection",
             "title_size": 80,
             "text_color": "#ffffff",
-            "subheading": "Ease, above all else: our ethos for the season. Here are the pieces you need to embrace it.",
+            "subheading": "Ease, above all: our summer ethos. Here are the pieces you need to embrace it.",
             "link": "",
             "link_text": "",
             "link_2": "",
@@ -205,8 +205,8 @@
     "bc59d967-cb6a-43d7-981f-f7165f775819": {
       "type": "featured-collection",
       "settings": {
-        "title": "Hip-Length",
-        "home_featured_products": "",
+        "title": "Americana Classics",
+        "home_featured_products": "americana",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,

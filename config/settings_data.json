@@ -170,6 +170,14 @@
               "swatch_image": "shopify:\/\/shop_images\/black-cobalt_3e895876-10b6-4a4f-a057-666493860cf7.png"
             }
           },
+          "color_swatch_rBXkg9": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Black\/Cream Cabana Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/black-cream-cabana-stripe.jpg"
+            }
+          },
           "02c54f45-7e25-4ac9-83f3-3cd521e87dd9": {
             "type": "color_swatch",
             "settings": {
@@ -916,6 +924,14 @@
               "monogram_swatch": "shopify:\/\/shop_images\/CF6CA0EF-3789-4371-B35E-D51683D3E4CE_4_5005_c.jpg"
             }
           },
+          "color_swatch_ThNVEG": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy\/White Placed Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/navy-white-placed-stripe.png"
+            }
+          },
           "106b0894-1ebb-42d8-be22-ced0d7a9f1da": {
             "type": "color_swatch",
             "settings": {
@@ -1314,6 +1330,7 @@
           "707afe18-710f-4f2b-b682-86f10dd3e3f3",
           "1573762103534",
           "b32b6997-f9f0-47ea-8155-00ab3dee3a23",
+          "color_swatch_rBXkg9",
           "02c54f45-7e25-4ac9-83f3-3cd521e87dd9",
           "91db2672-6dff-454e-bd3b-be06227ecc5a",
           "0c32430c-3820-41e6-bcc1-180f9515102d",
@@ -1408,6 +1425,7 @@
           "c82d89f0-0c16-4859-8532-f0b5fc3a542c",
           "1595351074336",
           "2a5feed1-5684-4dd3-ae34-31c1c162d128",
+          "color_swatch_ThNVEG",
           "106b0894-1ebb-42d8-be22-ced0d7a9f1da",
           "73457367-7a4c-48c2-8fb6-42cbd2fcc69d",
           "582f0fb2-26a2-4e55-b212-8c2df81d963a",

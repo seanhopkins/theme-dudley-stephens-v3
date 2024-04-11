@@ -16,7 +16,7 @@
             "title": "The Summer Collection",
             "title_size": 80,
             "text_color": "#ffffff",
-            "subheading": "Here are all the pieces you need to embrace the season of ease.",
+            "subheading": "Ease, above all: our summer ethos. Here are the pieces you need to embrace it.",
             "link": "",
             "link_text": "",
             "link_2": "",
@@ -50,14 +50,14 @@
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1": {
           "type": "heading",
           "settings": {
-            "title": "The Summer 2024 Collection"
+            "title": "Welcome to A Dudley Summer"
           }
         },
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>From workwear pairings to day-to-night dresses, classic tops and tees to essential layers, here are all the pieces you need to embrace the season of ease.<\/p>"
+            "text": "<p>Whether dressing for work, off-duty pursuits, cocktail hour or a weekend away, warm-weather dressing demands pieces that wear—and pair—without a second thought.<\/p>"
           }
         }
       },
@@ -78,6 +78,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1638_16ef8e95-f54a-40d0-bc69-6191dc725730.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -90,6 +91,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_3481.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -102,6 +104,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_2104.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -122,8 +125,63 @@
         "divider": false
       }
     },
+    "text_columns_zdQkLc": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_Ym4Cxf": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_3329.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_dqqFAU": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens0647.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_YmNbLm": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1794.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_Ym4Cxf",
+        "text_block_dqqFAU",
+        "text_block_YmNbLm"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
     "text_and_image_V9a3nW": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1540.jpg",
         "image_mask": "none",
@@ -147,8 +205,8 @@
     "bc59d967-cb6a-43d7-981f-f7165f775819": {
       "type": "featured-collection",
       "settings": {
-        "title": "Hip-Length",
-        "home_featured_products": "",
+        "title": "Americana Classics",
+        "home_featured_products": "americana",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -156,13 +214,14 @@
         "divider": false
       }
     },
-    "text_columns_zdQkLc": {
+    "text_columns_rgFhGX": {
       "type": "text-columns",
       "blocks": {
-        "text_block_dqqFAU": {
+        "text_block_7KFnMF": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_2294.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -171,10 +230,11 @@
             "button_link": ""
           }
         },
-        "text_block_Ym4Cxf": {
+        "text_block_m7TjYF": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens0754.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -183,10 +243,11 @@
             "button_link": ""
           }
         },
-        "text_block_YmNbLm": {
+        "text_block_pCPerh": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_0895.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -197,13 +258,103 @@
         }
       },
       "block_order": [
-        "text_block_dqqFAU",
-        "text_block_Ym4Cxf",
-        "text_block_YmNbLm"
+        "text_block_7KFnMF",
+        "text_block_m7TjYF",
+        "text_block_pCPerh"
       ],
       "settings": {
         "title": "",
         "align_text": "center",
+        "divider": false
+      }
+    },
+    "text_columns_yAVyTc": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_kykWeJ": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1374.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_LyqMyN": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_3940.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_XFxrBW": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_2430.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_kykWeJ",
+        "text_block_LyqMyN",
+        "text_block_XFxrBW"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "rich_text_RQzMnR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7AdQer": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": ""
+          }
+        },
+        "text_F77wzU": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Shop available styles, with more dropping soon.<\/p>"
+          }
+        },
+        "button_pmVhE3": {
+          "type": "button",
+          "settings": {
+            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
+            "link_text": "SHOP NOW"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7AdQer",
+        "text_F77wzU",
+        "button_pmVhE3"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
         "divider": false
       }
     },
@@ -251,9 +402,12 @@
     "slideshow_bGyQmc",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "text_columns_mNyhLx",
+    "text_columns_zdQkLc",
     "text_and_image_V9a3nW",
     "bc59d967-cb6a-43d7-981f-f7165f775819",
-    "text_columns_zdQkLc",
+    "text_columns_rgFhGX",
+    "text_columns_yAVyTc",
+    "rich_text_RQzMnR",
     "slideshow_7wCgaa"
   ]
 }

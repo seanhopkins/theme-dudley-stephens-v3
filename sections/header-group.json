@@ -74,7 +74,8 @@
         "4bbf52a8-4c42-4c3f-a74f-94e396af61b9"
       ],
       "custom_css": [
-
+        ".site-header {padding-bottom: 0;}",
+        ".yotpo-widget-override-css {margin-top: 20px;}"
       ],
       "settings": {
         "main_menu_link_list": "2023-menu",

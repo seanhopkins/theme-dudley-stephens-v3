@@ -322,6 +322,42 @@
         "divider": false
       }
     },
+    "rich_text_RQzMnR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7AdQer": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": ""
+          }
+        },
+        "text_F77wzU": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Shop available styles, with more dropping soon.<\/p>"
+          }
+        },
+        "button_pmVhE3": {
+          "type": "button",
+          "settings": {
+            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
+            "link_text": "SHOP NOW"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7AdQer",
+        "text_F77wzU",
+        "button_pmVhE3"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "slideshow_7wCgaa": {
       "type": "slideshow",
       "blocks": {
@@ -371,6 +407,7 @@
     "bc59d967-cb6a-43d7-981f-f7165f775819",
     "text_columns_rgFhGX",
     "text_columns_yAVyTc",
+    "rich_text_RQzMnR",
     "slideshow_7wCgaa"
   ]
 }

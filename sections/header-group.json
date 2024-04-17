@@ -9,7 +9,7 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Update your weekday wardrobe with our Workwear Essentials drop!",
+            "link_text": "Shop our Modern Leisure pieces in Terry here!",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
           }
         },
@@ -59,13 +59,13 @@
           "settings": {
             "menu_item": "Women's",
             "show_column_1": true,
-            "image_1": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens0609_1.jpg",
+            "image_1": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1960_1.jpg",
             "title_1": "Matching Sets",
             "link_1": "https:\/\/www.dudley-stephens.com\/collections\/matching-sets",
             "show_column_2": true,
-            "image_2": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1960.jpg",
-            "title_2": "The Spring Collection",
-            "link_2": "shopify:\/\/pages\/spring-2024"
+            "image_2": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_3329_bf1b1174-db73-4fce-b1f2-068139511264.jpg",
+            "title_2": "The Summer Collection",
+            "link_2": "shopify:\/\/pages\/summer-2024"
           }
         }
       },

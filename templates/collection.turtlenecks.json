@@ -97,7 +97,7 @@
         "8ec9f29e-5c87-4ba3-9b2b-1da159f0e4fe"
       ],
       "custom_css": [
-        ".grid {display: flex;}"
+        ".index-section {max-width: 1000px; margin: auto;}"
       ],
       "settings": {
         "title": "",

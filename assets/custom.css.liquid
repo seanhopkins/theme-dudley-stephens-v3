@@ -371,20 +371,18 @@ div#loop-onstore {
 .product__photos--stamps {
    position: absolute;
    z-index: 1;
-   width: calc(100% - 16px);
+   /* width: calc(100% - 16px); */
    left: 8px;
    top: 8px;
 }
 .product__stamp--image {
-   max-width: 25%;
-   min-width: 60px;
+   width: 75px;
 }
 .product-single__sticky {
    position: relative;
 }
 .product-single__sticky .product__stamp--image {
-   margin-left: auto;
-   max-width: 15%;
+ 
 }
 
 .product__stamp--label {
@@ -425,6 +423,17 @@ div#loop-onstore {
    }
 }
 
+@media only screen and (min-width: 769px) { 
+   [data-product-images] .product__stamp--image {
+      width: 100px;
+   }
+   [data-product-images] .product__photos--stamps {
+    left: unset;
+    top: 8px;
+    right: 8px;
+   }
+}
+
 /* Hide sold out swatch indicator on CLP & featured collection products */
 .collection-grid__wrapper .color-swatch--unavailable:after,
 [data-section-type="collection-grid"] .color-swatch--unavailable:after {
@@ -453,4 +462,7 @@ div#loop-onstore {
    .toolbar__menu a.site-nav__link {
       font-size: 10px;
   }
+}
+label[for="41441573994538"] {
+    display: none !important;
 }

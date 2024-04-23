@@ -45,6 +45,27 @@
     "b8fccc94-b721-4ed5-a976-f81ed754cc18": {
       "type": "promo-grid",
       "blocks": {
+        "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Summer Pairings",
+            "textarea": "Top-to-bottom pieces to outfit your season in the sun.",
+            "cta_text1": "Shop the drop",
+            "cta_link1": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/Summerpairing.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 800,
+            "text_size": 135,
+            "text_align": "vertical-bottom horizontal-center",
+            "color_accent": "#ffffff",
+            "boxed": false,
+            "framed": true
+          }
+        },
         "b22e1874-3a53-481a-8ddb-89975d97e49b": {
           "type": "advanced",
           "settings": {
@@ -68,6 +89,7 @@
         },
         "advanced_BjLHXQ": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "subheading": "",
             "heading": "DS Renew: Recycle Your Dudleys This Earth Month",
@@ -86,34 +108,12 @@
             "boxed": false,
             "framed": true
           }
-        },
-        "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1": {
-          "type": "advanced",
-          "disabled": true,
-          "settings": {
-            "subheading": "",
-            "heading": "Springtime Sets",
-            "textarea": "Top-to-bottom Terry pairings for effortless, everyday warm-weather dressing.",
-            "cta_text1": "Shop now",
-            "cta_link1": "shopify:\/\/collections\/matching-sets",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1960.jpg",
-            "video_url": "",
-            "width": "50",
-            "height": 800,
-            "text_size": 135,
-            "text_align": "vertical-bottom horizontal-center",
-            "color_accent": "#ffffff",
-            "boxed": false,
-            "framed": true
-          }
         }
       },
       "block_order": [
+        "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1",
         "b22e1874-3a53-481a-8ddb-89975d97e49b",
-        "advanced_BjLHXQ",
-        "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1"
+        "advanced_BjLHXQ"
       ],
       "custom_css": [
         "h2 {font-family: \"QuaverSerif\";}"
@@ -326,6 +326,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-1",
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],

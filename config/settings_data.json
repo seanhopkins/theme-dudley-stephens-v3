@@ -1992,7 +1992,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".section-header {margin-bottom: 20px;}"
+      ".section-header {margin-bottom: 20px;}",
+      "label[for=\"41504753287210\"] {display: none;}"
     ]
   }
 }

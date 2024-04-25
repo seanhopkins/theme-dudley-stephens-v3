@@ -63,7 +63,7 @@
           "type": "tab",
           "settings": {
             "title": "Care",
-            "content": "{{ product.metafields.custom.product_care | metafield_tag }}<p>View <a href=\"\/pages\/fabric-guide\" target=\"_blank\" title=\"Fabric Guide\">Fabric Guide<\/a><\/p>",
+            "content": "{{ product.metafields.custom.product_care | metafield_tag }}<p><\/p><p>View <a href=\"\/pages\/fabric-guide\" target=\"_blank\" title=\"Fabric Guide\">Fabric Guide<\/a><\/p>",
             "page": ""
           }
         },

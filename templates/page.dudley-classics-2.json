@@ -137,6 +137,7 @@
         "text": "<p>The numbers behind our bestselling turtlenecks.<\/p>",
         "button_label": "",
         "button_link": "",
+        "liquid": "",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
@@ -197,6 +198,7 @@
     },
     "50c43048-9982-4115-85ba-cae759aa5888": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Crop-Length",
         "home_featured_products": "cropped-turtlenecks",

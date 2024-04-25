@@ -117,3 +117,14 @@ span.text-overlay {
   font-weight: 300;
   line-height: 1.5em;
 }
+
+/* TODO:
+  - This is a temporary solution until we can get it working better
+  - Replace this ASAP
+*/
+div[class^='monogram-swatch--'] .heart img, div[class*=' monogram-swatch--'] .heart img{
+  visibility: visible;
+}
+span.text-overlay.heart {
+  width: 100%;
+}

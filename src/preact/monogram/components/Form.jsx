@@ -29,7 +29,7 @@ const Form = ({ data }) => {
       handleize(style) === "block"
         ? monogram
         : handleize(style) === "heart"
-          ? ""
+        ? '<img src="https://cdn.shopify.com/s/files/1/0833/2853/files/heart-zoom.jpg?v=1714071299">'
           : `<span class="first">${firstInitial.toUpperCase()}</span><span class="middle">${middleInitial.toUpperCase()}</span><span class="last">${lastInitial.toUpperCase()}</span>`;
   }, [style, monogram, firstInitial, middleInitial, lastInitial]);
 

@@ -50,6 +50,9 @@ const HiddenLineItemProperties = ({
     if (handleize(style) === "block") {
       return monogram;
     }
+    if (handleize(style) === "heart") {
+      return "heart";
+    }
 
     if (handleize(style) === "monogram") {
       return (

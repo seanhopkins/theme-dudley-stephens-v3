@@ -21,14 +21,16 @@ const Form = ({ data }) => {
   useEffect(() => {
     if (!textOverlay) return;
 
-    textOverlay.classList.remove("classic", "block", "monogram");
+    textOverlay.classList.remove("classic", "block", "monogram", "heart");
     textOverlay.classList.add(handleize(style));
 
     // need to use spans for ability to style individual letters
     textOverlay.innerHTML =
       handleize(style) === "block"
         ? monogram
-        : `<span class="first">${firstInitial.toUpperCase()}</span><span class="middle">${middleInitial.toUpperCase()}</span><span class="last">${lastInitial.toUpperCase()}</span>`;
+        : handleize(style) === "heart"
+        ? '<img src="https://cdn.shopify.com/s/files/1/0833/2853/files/heart-zoom.jpg?v=1714071299">'
+          : `<span class="first">${firstInitial.toUpperCase()}</span><span class="middle">${middleInitial.toUpperCase()}</span><span class="last">${lastInitial.toUpperCase()}</span>`;
   }, [style, monogram, firstInitial, middleInitial, lastInitial]);
 
   return (

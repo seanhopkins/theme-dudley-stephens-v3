@@ -80,8 +80,8 @@
           id="ProductPhotos-{{ section_id }}"
         >
           {%- for media in product.media -%}
-            {% comment %} don't show the first 3 monogram "icons" {% endcomment %}
-            {% if is_monogram and forloop.index0 > 0 and forloop.index0 < 4 %}
+            {% comment %} don't show the first 4 monogram "icons" {% endcomment %}
+            {% if is_monogram and forloop.index0 > 0 and forloop.index0 < 5 %}
               {% continue %}
             {% endif %}
 
@@ -154,8 +154,8 @@
                   endif
                 endif
 
-                # don't show the first 3 monogram "icons"
-                if is_monogram and forloop.index0 > 0 and forloop.index0 < 4
+                # don't show the first 4 monogram "icons"
+                if is_monogram and forloop.index0 > 0 and forloop.index0 < 5
                   continue
                 endif
               -%}

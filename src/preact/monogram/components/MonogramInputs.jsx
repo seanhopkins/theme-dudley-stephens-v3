@@ -29,6 +29,9 @@ const MonogramInputs = ({
       </div>
     );
   }
+  if (handleize(style) === "heart") {
+    return;
+  }
 
   return (
     <div className="MonogramInputs">

@@ -700,7 +700,7 @@
             "settings": {
               "title": "Island Coral",
               "swatch_color": "#f6cac3",
-              "monogram_swatch": "shopify:\/\/shop_images\/40B547F4-D6C6-4989-89E7-6F2CB9F11FBE_4_5005_c.jpg"
+              "monogram_swatch": "shopify:\/\/shop_images\/Island_Coral_Monogram_Swatch.png"
             }
           },
           "1595351255417": {
@@ -825,7 +825,7 @@
             "settings": {
               "title": "Natural Blush",
               "swatch_color": "#f0e3d2",
-              "monogram_swatch": "shopify:\/\/shop_images\/natural-blush.jpg"
+              "monogram_swatch": "shopify:\/\/shop_images\/Natural_Blush_Monogram_Swatch.png"
             }
           },
           "1600111084882": {
@@ -1050,7 +1050,7 @@
             "settings": {
               "title": "Periwinkle",
               "swatch_color": "#94bce4",
-              "monogram_swatch": "shopify:\/\/shop_images\/periwinkle.jpg"
+              "monogram_swatch": "shopify:\/\/shop_images\/Periwinkle_Monogram_Swatch.png"
             }
           },
           "1573770334967": {
@@ -1992,7 +1992,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".section-header {margin-bottom: 20px;}"
+      ".section-header {margin-bottom: 20px;}",
+      "label[for=\"41504753287210\"] {display: none;}"
     ]
   }
 }

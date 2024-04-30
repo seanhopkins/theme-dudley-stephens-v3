@@ -454,7 +454,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Cotton Candy",
-              "swatch_color": "#ffa9d6"
+              "swatch_color": "#ffa9d6",
+              "monogram_swatch": "shopify:\/\/shop_images\/Cotton_Candy_Monogram_Swatch.png"
             }
           },
           "color_swatch_bXnDkK": {

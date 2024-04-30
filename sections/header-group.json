@@ -9,8 +9,8 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Shop top-to-bottom Summer Pairings now!",
-            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
+            "link_text": "Complimentary embroidery, today only!",
+            "link": "shopify:\/\/collections\/monogram"
           }
         },
         "announcement-0": {
@@ -59,7 +59,7 @@
           "settings": {
             "menu_item": "Women's",
             "show_column_1": true,
-            "image_1": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1960_1.jpg",
+            "image_1": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_4008.jpg",
             "title_1": "Matching Sets",
             "link_1": "https:\/\/www.dudley-stephens.com\/collections\/matching-sets",
             "show_column_2": true,

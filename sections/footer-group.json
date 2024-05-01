@@ -98,7 +98,7 @@
         "28561ea1-faee-40ab-9c1f-b2f80ab03606"
       ],
       "custom_css": [
-
+        "@media only screen and (min-width: 769px) {.site-footer {margin-top: 60px; }}"
       ],
       "settings": {
         "show_locale_selector": true,

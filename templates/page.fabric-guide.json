@@ -26,7 +26,7 @@
             "image": "shopify:\/\/shop_images\/Slider_65da38cf-72e2-4e86-b78c-9a549f06b1a3.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_cf63ebcc-c667-4125-a9ea-22a75fb41698.jpg",
             "parallax_direction": "top",
-            "overlay_opacity": 0
+            "overlay_opacity": 20
           }
         }
       },

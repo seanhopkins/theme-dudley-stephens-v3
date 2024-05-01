@@ -101,19 +101,23 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>“Knowing how difficult motherhood was for me, with resources, support and options—I couldn’t fathom what it was like for mothers who had to worry about providing for their baby. That’s how Bundles of Joy was born.”<\/p>"
+            "text": "<p><em>“Knowing how difficult motherhood was for me, with resources, support and options—I couldn’t fathom what it was like for mothers who had to worry about providing for their baby. That’s how Bundles of Joy was born.”<\/em><\/p>"
           }
         },
-        "heading_pJLMAg": {
-          "type": "heading",
+        "text_rptfjm": {
+          "type": "text",
           "settings": {
-            "title": "-Adrienne Harper, Bundles of Joy Founder"
+            "enlarge_text": true,
+            "text": "<p>- Adrienne Harper, Bundles of Joy Founder<\/p>"
           }
         }
       },
       "block_order": [
         "text_NDkcEY",
-        "heading_pJLMAg"
+        "text_rptfjm"
+      ],
+      "custom_css": [
+        "h2 {font-size: 1.5em;}"
       ],
       "settings": {
         "align_text": "center",

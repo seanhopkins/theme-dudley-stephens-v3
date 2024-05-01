@@ -44,7 +44,8 @@
       ],
       "custom_css": [
         ".blog-menu a {margin: 0 1em;}",
-        ".custom__item-inner .rte {overflow: scroll;}"
+        ".custom__item-inner .rte {overflow: scroll;}",
+        "li {min-width: fit-content;}"
       ],
       "settings": {
         "full_width": false,

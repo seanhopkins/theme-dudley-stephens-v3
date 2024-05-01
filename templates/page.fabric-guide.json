@@ -33,43 +33,18 @@
       "block_order": [
         "template--14938177536042__9ef0db49-55a1-4464-a8b1-3ed0eb7441c6-image-1"
       ],
+      "custom_css": [
+        ".hero__subtitle {max-width: 50rem;}"
+      ],
       "settings": {
         "section_height": "natural",
         "mobile_height": "auto",
         "parallax": false,
-        "framed": false,
+        "framed": true,
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 5,
         "lazyload_images": true
-      }
-    },
-    "be8c5dba-c6ef-4227-9f40-08a0b84333e6": {
-      "type": "rich-text",
-      "blocks": {
-        "template--14938177536042__be8c5dba-c6ef-4227-9f40-08a0b84333e6-heading-1": {
-          "type": "heading",
-          "settings": {
-            "title": "The DS Fabric Guide"
-          }
-        },
-        "template--14938177536042__be8c5dba-c6ef-4227-9f40-08a0b84333e6-text-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>With a wide range of weights and textures, there’s a Dudley Stephens recycled fabric for all seasons and occasions. Our styles have repurposed over 6 million plastic bottles (and counting).<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14938177536042__be8c5dba-c6ef-4227-9f40-08a0b84333e6-heading-1",
-        "template--14938177536042__be8c5dba-c6ef-4227-9f40-08a0b84333e6-text-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
       }
     },
     "d4530671-20da-4d84-bab1-5d9060d04349": {
@@ -213,7 +188,6 @@
   "order": [
     "main",
     "9ef0db49-55a1-4464-a8b1-3ed0eb7441c6",
-    "be8c5dba-c6ef-4227-9f40-08a0b84333e6",
     "d4530671-20da-4d84-bab1-5d9060d04349",
     "6a21b692-c612-4eda-a01e-0572a5d30817",
     "c67e215c-630a-4cd8-9b92-10b7c649fb66"

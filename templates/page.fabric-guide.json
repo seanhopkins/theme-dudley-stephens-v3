@@ -40,7 +40,7 @@
         "section_height": "natural",
         "mobile_height": "auto",
         "parallax": false,
-        "framed": true,
+        "framed": false,
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 5,

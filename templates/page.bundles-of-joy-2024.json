@@ -76,7 +76,7 @@
       "type": "text-and-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Bundles.2.jpg",
-        "image_mask": "portrait",
+        "image_mask": "square",
         "image2_mask": "portrait",
         "subtitle": "",
         "title": "By Women, For Women",
@@ -125,7 +125,7 @@
       "type": "text-and-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Bundlesofjoy1.jpg",
-        "image_mask": "none",
+        "image_mask": "square",
         "image2_mask": "none",
         "subtitle": "",
         "title": "More on The Mission",

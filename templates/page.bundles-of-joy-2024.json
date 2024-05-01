@@ -39,9 +39,9 @@
         "parallax": false,
         "framed": false,
         "style": "bars",
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_speed": 5,
-        "lazyload_images": true
+        "lazyload_images": false
       }
     },
     "c3220d24-8e7b-4f84-a431-0aae228e36f2": {

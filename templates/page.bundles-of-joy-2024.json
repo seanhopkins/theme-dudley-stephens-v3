@@ -231,19 +231,20 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>“One morning I was in the storefront and a mom came in pushing her stroller from the next town over. She came in to grab diapers and other essentials but I noticed her baby didn't have a stroller blanket or anything to keep her warm. Enter the sherpa blanket! Mom (and baby) were so happy and safe from the cold temps on the way home.”<\/p>"
+            "text": "<p><em>“One morning I was in the storefront and a mom came in pushing her stroller from the next town over. She came in to grab diapers and other essentials but I noticed her baby didn't have a stroller blanket or anything to keep her warm. Enter the sherpa blanket! Mom (and baby) were so happy and safe from the cold temps on the way home.”<\/em><\/p>"
           }
         },
-        "heading_z4Lyhi": {
-          "type": "heading",
+        "text_k4QBDE": {
+          "type": "text",
           "settings": {
-            "title": "-Adrienne Harper, Bundles of Joy Founder"
+            "enlarge_text": true,
+            "text": "<p>-Adrienne Harper, Bundles of Joy Founder<\/p>"
           }
         }
       },
       "block_order": [
         "text_hkhEBj",
-        "heading_z4Lyhi"
+        "text_k4QBDE"
       ],
       "settings": {
         "align_text": "center",

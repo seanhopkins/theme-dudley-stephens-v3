@@ -13,7 +13,7 @@
   <div class="grid">
 
     <div class="grid__item medium-up--two-thirds">
-      <p>{{ 'customer.orders.title' | t }}</p>
+      <p class="h5">{{ 'customer.orders.title' | t }}</p>
 
       {%- if customer.orders.size != 0 -%}
 
@@ -50,9 +50,9 @@
     </div>
 
     <div class="grid__item medium-up--one-third">
-      <p>{{ 'customer.account.details' | t }}</p>
+      <p class="h5">{{ 'customer.account.details' | t }}</p>
 
-      <p class="h5">{{ customer.name }}</p>
+      <p>{{ customer.name }}</p>
 
       {{ customer.default_address | format_address }}
 

@@ -154,19 +154,20 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>“With real support, moms no longer have to choose between feeding and diapering their children, or turning on the heat. It’s so gratifying to know we have helped Bundles of Joy break this cycle of poverty for families in our communities.”<\/p>"
+            "text": "<p><em>“With real support, moms no longer have to choose between feeding and diapering their children, or turning on the heat. It’s so gratifying to know we have helped Bundles of Joy break this cycle of poverty for families in our communities.”<\/em><\/p>"
           }
         },
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1": {
-          "type": "heading",
+        "text_idcTcG": {
+          "type": "text",
           "settings": {
-            "title": "-Lauren Stephens, Dudley Stephens Co-Founder"
+            "enlarge_text": true,
+            "text": "<p>- Lauren Stephens, Dudley Stephens Co-Founder<\/p>"
           }
         }
       },
       "block_order": [
         "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1",
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1"
+        "text_idcTcG"
       ],
       "settings": {
         "align_text": "center",

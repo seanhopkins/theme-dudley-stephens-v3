@@ -43,7 +43,8 @@
         "template--14916567957546__b23c0f69-dbf6-48a9-9e49-92bb1f1b3be9-16817410538d6492ee-1"
       ],
       "custom_css": [
-        ".blog-menu a {margin: 0 1em;}"
+        ".blog-menu a {margin: 0 1em;}",
+        ".custom__item-inner .rte {overflow: scroll;}"
       ],
       "settings": {
         "full_width": false,

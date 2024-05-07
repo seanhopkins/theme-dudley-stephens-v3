@@ -17,7 +17,7 @@
           "type": "text_block",
           "settings": {
             "icon": "recycle",
-            "title": "Eco-Friendly",
+            "title": "Eco-friendly",
             "text": "<p>7 million bottles recycled (& counting)<\/p>"
           }
         },
@@ -33,7 +33,7 @@
           "type": "text_block",
           "settings": {
             "icon": "washing-machine",
-            "title": "Performance Fabrics",
+            "title": "Performance fabrics",
             "text": "<p>Machine washable, stain-defiant, packable pieces<\/p>"
           }
         }

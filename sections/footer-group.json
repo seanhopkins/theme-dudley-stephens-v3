@@ -50,6 +50,10 @@
         "text_block_nTakN8",
         "text_block_8qreVc"
       ],
+      "custom_css": [
+        ".text-with-icons__block-icon .icon {width: 40px;}",
+        "h3 {font-size: 1.5em;}"
+      ],
       "settings": {
         "title": "",
         "align_text": "center",

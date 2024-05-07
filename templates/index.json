@@ -492,54 +492,6 @@
         "lazyload_images": true
       }
     },
-    "3acb1261-9345-47a4-bd1a-d0ef5ac97f9c": {
-      "type": "text-with-icons",
-      "blocks": {
-        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-1": {
-          "type": "text_block",
-          "settings": {
-            "icon": "store",
-            "title": "Female Founded",
-            "text": "<p>A family-owned brand—by women, for women<\/p>"
-          }
-        },
-        "fb5cf248-626f-455c-9505-61ff07cbc9f8": {
-          "type": "text_block",
-          "settings": {
-            "icon": "recycle",
-            "title": "Responsible Fashion",
-            "text": "<p>Our recycled fabrics are made to perform <em>and<\/em> do good for the planet<\/p>"
-          }
-        },
-        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-0": {
-          "type": "text_block",
-          "settings": {
-            "icon": "charity",
-            "title": "DS Gives",
-            "text": "<p>We do our part to give back by helping women & children in need<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-1",
-        "fb5cf248-626f-455c-9505-61ff07cbc9f8",
-        "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-0"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".text-with-icons__block-icon .icon {width: 40px;}",
-        "h3 {font-size: 1.5em;}"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "desktop_columns_per_row": 3,
-        "icon_color": "#000000",
-        "button_label": "",
-        "button_link": "",
-        "divider": false
-      }
-    },
     "advanced_content_FQD36Q": {
       "type": "advanced-content",
       "blocks": {
@@ -576,7 +528,6 @@
     "slideshow_36n8Ag",
     "50370838-75ed-486a-9c7b-001bf82a5e5e",
     "b00ee6a4-d768-42d2-b053-75459ca062fe",
-    "3acb1261-9345-47a4-bd1a-d0ef5ac97f9c",
     "advanced_content_FQD36Q"
   ]
 }

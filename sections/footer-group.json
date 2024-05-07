@@ -2,6 +2,58 @@
   "type": "footer",
   "name": "t:sections.footer-group.name",
   "sections": {
+    "text_columns_eR3HdV": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_6yRKMj": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 100,
+            "title": "Female Founded",
+            "text": "<p>A family-owned brand—by women, for women<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_nTakN8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 100,
+            "title": "Responsible Fashion",
+            "text": "<p>Our recycled fabrics are made to perform<em>and<\/em>do good for the planet<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_8qreVc": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 100,
+            "title": "DS Gives",
+            "text": "<p>We do our part to give back by helping women & children in need<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_6yRKMj",
+        "text_block_nTakN8",
+        "text_block_8qreVc"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
     "footer-promotions": {
       "type": "footer-promotions",
       "blocks": {
@@ -112,6 +164,7 @@
     }
   },
   "order": [
+    "text_columns_eR3HdV",
     "footer-promotions",
     "footer"
   ]

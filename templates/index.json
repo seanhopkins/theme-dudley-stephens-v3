@@ -525,6 +525,7 @@
         "fb5cf248-626f-455c-9505-61ff07cbc9f8",
         "template--14916567695402__3acb1261-9345-47a4-bd1a-d0ef5ac97f9c-16844357210515fe51-0"
       ],
+      "disabled": true,
       "custom_css": [
         ".text-with-icons__block-icon .icon {width: 40px;}",
         "h3 {font-size: 1.5em;}"

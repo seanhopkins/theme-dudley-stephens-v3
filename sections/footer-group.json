@@ -2,6 +2,63 @@
   "type": "footer",
   "name": "t:sections.footer-group.name",
   "sections": {
+    "text_with_icons_XmYCpN": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_ahBYG6": {
+          "type": "text_block",
+          "settings": {
+            "icon": "store",
+            "title": "Female founded",
+            "text": "<p>A family-owned brand—by women, for women<\/p>"
+          }
+        },
+        "text_block_3gjAmK": {
+          "type": "text_block",
+          "settings": {
+            "icon": "recycle",
+            "title": "Responsible Fashion",
+            "text": "<p>Our recycled fabrics are made to perform<em>and<\/em>do good for the planet<\/p>"
+          }
+        },
+        "text_block_cU3hhw": {
+          "type": "text_block",
+          "settings": {
+            "icon": "charity",
+            "title": "DS Gives",
+            "text": "<p>We do our part to give back by helping women & children in need<\/p>"
+          }
+        },
+        "text_block_zPtDGR": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "icon": "turtleneck",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_ahBYG6",
+        "text_block_3gjAmK",
+        "text_block_cU3hhw",
+        "text_block_zPtDGR"
+      ],
+      "custom_css": [
+        ".text-with-icons__block-icon .icon {width: 40px;}",
+        "h3 {font-size: 1.5em;}"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
     "text_columns_eR3HdV": {
       "type": "text-columns",
       "blocks": {
@@ -50,6 +107,7 @@
         "text_block_nTakN8",
         "text_block_8qreVc"
       ],
+      "disabled": true,
       "custom_css": [
         ".text-with-icons__block-icon .icon {width: 40px;}",
         "h3 {font-size: 1.5em;}"
@@ -170,6 +228,7 @@
     }
   },
   "order": [
+    "text_with_icons_XmYCpN",
     "text_columns_eR3HdV",
     "footer-promotions",
     "footer"

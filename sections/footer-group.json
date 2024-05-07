@@ -9,6 +9,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Female_Founded.png",
             "image_mask": "none",
             "image_width": 100,
             "title": "Female Founded",
@@ -21,6 +22,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Responsible_Fashion.png",
             "image_mask": "none",
             "image_width": 100,
             "title": "Responsible Fashion",
@@ -33,6 +35,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DS_GIVES.png",
             "image_mask": "none",
             "image_width": 100,
             "title": "DS Gives",

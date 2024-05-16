@@ -133,7 +133,8 @@
       "terms": "I agree with the terms and conditions",
       "terms_html": "I agree with the <a href='{{ url }}' target='_blank'>terms and conditions<\/a>",
       "terms_confirm": "You must agree with the terms and conditions of sales to check out",
-      "max_quantity": "You can only have {{ quantity }} of {{ title }} in your cart."
+      "max_quantity": "You can only have {{ quantity }} of {{ title }} in your cart.",
+      "final_sale_badge": "Final Sale"
     },
     "label": {
       "price": "Price",
@@ -306,6 +307,7 @@
       "collection_return": "Back to {{ collection }}",
       "next_product": "Next: {{ title }}",
       "sale": "Final Sale",
+      "final_sale_badge": "Final Sale",
       "sale_price": "Sale price",
       "regular_price": "Regular price",
       "from_text_html": "from {{ price }}",

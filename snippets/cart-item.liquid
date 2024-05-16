@@ -21,7 +21,7 @@
     {% comment %} START custom feature {% endcomment %}
     {% for tag in product.product.tags %}
       {% if tag == "final-sale"%}
-        <div><span class="product__price--final-sale">{{ 'cart.general.final_sale_badge' | t }}</span></div>
+        <div><span class="product__price--final-sale">{{ 'cart.general.cart_final_sale_badge' | t }}</span></div>
       {%  endif %}
     {% endfor %}
     {% comment %} END custom feature {% endcomment %}

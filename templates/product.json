@@ -55,7 +55,7 @@
           "type": "tab",
           "settings": {
             "title": "Fit",
-            "content": "{{ product.metafields.custom.product_fit | metafield_tag }}<ul><li>{{ product.metafields.custom.dimensions.value.width.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.length.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.back_length.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.sleeve_length.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.bust.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.inseam.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.front_rise.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.back_rise.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.chest.value }}<\/li><\/ul>",
+            "content": "{{ product.metafields.custom.product_fit | metafield_tag }}<ul><li>{{ product.metafields.custom.dimensions.value.width.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.length.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.back_length.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.sleeve_length.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.bust.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.inseam.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.front_rise.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.back_rise.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.chest.value }}<\/li><li>{{ product.metafields.custom.dimensions.value.waist_circumference.value }}<\/li><\/ul>",
             "page": ""
           }
         },
@@ -107,7 +107,7 @@
           "type": "sales_point",
           "settings": {
             "icon": "recycle",
-            "text": "Eco-friendly recycled fabrics"
+            "text": "Eco-friendly performance fabrics"
           }
         }
       },

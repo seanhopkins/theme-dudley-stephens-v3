@@ -39,9 +39,9 @@
         "parallax": false,
         "framed": false,
         "style": "bars",
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_speed": 5,
-        "lazyload_images": true
+        "lazyload_images": false
       }
     },
     "c3220d24-8e7b-4f84-a431-0aae228e36f2": {
@@ -76,7 +76,7 @@
       "type": "text-and-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Bundles.2.jpg",
-        "image_mask": "portrait",
+        "image_mask": "square",
         "image2_mask": "portrait",
         "subtitle": "",
         "title": "By Women, For Women",
@@ -101,19 +101,23 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>“Knowing how difficult motherhood was for me, with resources, support and options—I couldn’t fathom what it was like for mothers who had to worry about providing for their baby. That’s how Bundles of Joy was born.”<\/p>"
+            "text": "<p><em>“Knowing how difficult motherhood was for me, with resources, support and options—I couldn’t fathom what it was like for mothers who had to worry about providing for their baby. That’s how Bundles of Joy was born.”<\/em><\/p>"
           }
         },
-        "heading_pJLMAg": {
-          "type": "heading",
+        "text_rptfjm": {
+          "type": "text",
           "settings": {
-            "title": "-Adrienne Harper, Bundles of Joy Founder"
+            "enlarge_text": true,
+            "text": "<p>- Adrienne Harper, Bundles of Joy Founder<\/p>"
           }
         }
       },
       "block_order": [
         "text_NDkcEY",
-        "heading_pJLMAg"
+        "text_rptfjm"
+      ],
+      "custom_css": [
+        "h2 {font-size: 1.5em;}"
       ],
       "settings": {
         "align_text": "center",
@@ -125,7 +129,7 @@
       "type": "text-and-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Bundlesofjoy1.jpg",
-        "image_mask": "none",
+        "image_mask": "square",
         "image2_mask": "none",
         "subtitle": "",
         "title": "More on The Mission",
@@ -150,19 +154,20 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>“With real support, moms no longer have to choose between feeding and diapering their children, or turning on the heat. It’s so gratifying to know we have helped Bundles of Joy break this cycle of poverty for families in our communities.”<\/p>"
+            "text": "<p><em>“With real support, moms no longer have to choose between feeding and diapering their children, or turning on the heat. It’s so gratifying to know we have helped Bundles of Joy break this cycle of poverty for families in our communities.”<\/em><\/p>"
           }
         },
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1": {
-          "type": "heading",
+        "text_idcTcG": {
+          "type": "text",
           "settings": {
-            "title": "-Lauren Stephens, Dudley Stephens Co-Founder"
+            "enlarge_text": true,
+            "text": "<p>- Lauren Stephens, Dudley Stephens Co-Founder<\/p>"
           }
         }
       },
       "block_order": [
         "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1",
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1"
+        "text_idcTcG"
       ],
       "settings": {
         "align_text": "center",
@@ -227,19 +232,20 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>“One morning I was in the storefront and a mom came in pushing her stroller from the next town over. She came in to grab diapers and other essentials but I noticed her baby didn't have a stroller blanket or anything to keep her warm. Enter the sherpa blanket! Mom (and baby) were so happy and safe from the cold temps on the way home.”<\/p>"
+            "text": "<p><em>“One morning I was in the storefront and a mom came in pushing her stroller from the next town over. She came in to grab diapers and other essentials but I noticed her baby didn't have a stroller blanket or anything to keep her warm. Enter the sherpa blanket! Mom (and baby) were so happy and safe from the cold temps on the way home.”<\/em><\/p>"
           }
         },
-        "heading_z4Lyhi": {
-          "type": "heading",
+        "text_k4QBDE": {
+          "type": "text",
           "settings": {
-            "title": "-Adrienne Harper, Bundles of Joy Founder"
+            "enlarge_text": true,
+            "text": "<p>-Adrienne Harper, Bundles of Joy Founder<\/p>"
           }
         }
       },
       "block_order": [
         "text_hkhEBj",
-        "heading_z4Lyhi"
+        "text_k4QBDE"
       ],
       "settings": {
         "align_text": "center",

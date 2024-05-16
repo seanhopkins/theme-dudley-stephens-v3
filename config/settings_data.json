@@ -454,7 +454,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Cotton Candy",
-              "swatch_color": "#ffa9d6"
+              "swatch_color": "#ffa9d6",
+              "monogram_swatch": "shopify:\/\/shop_images\/Cotton_Candy_Monogram_Swatch.png"
             }
           },
           "color_swatch_bXnDkK": {
@@ -627,6 +628,15 @@
               "title": "Heather Grey \/ White",
               "swatch_color": "",
               "swatch_image": "shopify:\/\/shop_images\/heather-grey-white.png"
+            }
+          },
+          "color_swatch_Kibhww": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Heather Grey with American Flag",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/Heather-Grey-with-American-Flag.jpg",
+              "monogram_swatch": "shopify:\/\/shop_images\/Heather_Grey_Monogram_Swatch.png"
             }
           },
           "dd440519-9e9b-43bf-9b66-3d21f7703fc2": {
@@ -939,6 +949,15 @@
               "title": "Navy \/ White Wide Stripe",
               "swatch_color": "",
               "swatch_image": "shopify:\/\/shop_images\/Navy_White.jpg"
+            }
+          },
+          "color_swatch_k9M94F": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy with American Flag",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/Navy-with-American-Flag.jpg",
+              "monogram_swatch": "shopify:\/\/shop_images\/Navy_Vello_Monogram_Swatch.png"
             }
           },
           "73457367-7a4c-48c2-8fb6-42cbd2fcc69d": {
@@ -1389,6 +1408,7 @@
           "4d377bae-e678-4b22-bc5e-b84ab9497726",
           "1595351289499",
           "1600111146861",
+          "color_swatch_Kibhww",
           "dd440519-9e9b-43bf-9b66-3d21f7703fc2",
           "0f4c9ee9-f0b8-486f-b853-eb9d76149e15",
           "3b47349d-917d-4237-a0f3-0cf745769167",
@@ -1428,6 +1448,7 @@
           "2a5feed1-5684-4dd3-ae34-31c1c162d128",
           "color_swatch_ThNVEG",
           "106b0894-1ebb-42d8-be22-ced0d7a9f1da",
+          "color_swatch_k9M94F",
           "73457367-7a4c-48c2-8fb6-42cbd2fcc69d",
           "582f0fb2-26a2-4e55-b212-8c2df81d963a",
           "1573770344803",
@@ -1992,8 +2013,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".section-header {margin-bottom: 20px;}",
-      "label[for=\"41504753287210\"] {display: none;}"
+      ".section-header {margin-bottom: 20px;}"
     ]
   }
 }

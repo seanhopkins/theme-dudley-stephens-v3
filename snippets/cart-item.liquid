@@ -21,7 +21,7 @@
     {% comment %} START custom feature {% endcomment %}
     {% for tag in product.product.tags %}
       {% if tag == "final-sale"%}
-        <span class="product__price--final-sale">Final Sale</span>
+        <div><span class="product__price--final-sale">Final Sale</span></div>
       {%  endif %}
     {% endfor %}
     {% comment %} END custom feature {% endcomment %}

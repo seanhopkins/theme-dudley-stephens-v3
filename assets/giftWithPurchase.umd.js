@@ -9209,7 +9209,7 @@ const initDirectivesForSSR = () => {
   }
 };
 
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/vue/gift-with-purchase/GiftWithPurchase.vue?vue&type=template&id=0880f1de
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/vue/gift-with-purchase/GiftWithPurchase.vue?vue&type=template&id=46c6cce8
 
 const _hoisted_1 = {
   key: 0,
@@ -9224,28 +9224,22 @@ const _hoisted_4 = {
   class: "gwp-slider-wrapper"
 };
 const _hoisted_5 = {
-  class: "grid grid--table-large"
+  class: "gwp__item"
 };
 const _hoisted_6 = {
-  class: "grid__item one-third"
+  class: "gwp__image"
 };
 const _hoisted_7 = ["src", "alt"];
 const _hoisted_8 = {
-  class: "grid__item two-thirds"
+  class: "gwp_title"
 };
-const _hoisted_9 = {
-  class: "grid"
-};
-const _hoisted_10 = {
-  class: "grid__item one-whole"
-};
-const _hoisted_11 = ["data-variant-id"];
-const _hoisted_12 = {
+const _hoisted_9 = ["data-variant-id"];
+const _hoisted_10 = ["innerHTML"];
+const _hoisted_11 = {
   key: 1,
-  class: "hr--medium"
+  class: "hr--small"
 };
-const _hoisted_13 = ["innerHTML"];
-function GiftWithPurchasevue_type_template_id_0880f1de_render(_ctx, _cache, $props, $setup, $data, $options) {
+function GiftWithPurchasevue_type_template_id_46c6cce8_render(_ctx, _cache, $props, $setup, $data, $options) {
   return !this.gwpInCart ? (openBlock(), createElementBlock("div", _hoisted_1, [withDirectives(createBaseVNode("div", _hoisted_2, [createBaseVNode("span", {
     innerHTML: $options.overMessage
   }, null, 8, _hoisted_3)], 512), [[vShow, $options.overMessage !== '']]), this.currentTierIndex > -1 ? (openBlock(), createElementBlock("div", _hoisted_4, [(openBlock(true), createElementBlock(runtime_core_esm_bundler_Fragment, null, renderList(this.availableTiers[this.currentTierIndex].productData, productData => {
@@ -9255,23 +9249,23 @@ function GiftWithPurchasevue_type_template_id_0880f1de_render(_ctx, _cache, $pro
     }, [createBaseVNode("div", _hoisted_5, [createBaseVNode("div", _hoisted_6, [createBaseVNode("img", {
       src: productData.images.edges[0].node.url,
       alt: productData.title
-    }, null, 8, _hoisted_7)]), createBaseVNode("div", _hoisted_8, [createBaseVNode("p", null, toDisplayString(productData.title), 1)])]), createBaseVNode("div", _hoisted_9, [createBaseVNode("div", _hoisted_10, [createBaseVNode("a", {
+    }, null, 8, _hoisted_7)]), createBaseVNode("p", _hoisted_8, toDisplayString(productData.title), 1), createBaseVNode("a", {
       onClick: _cache[0] || (_cache[0] = (...args) => $options.addGwpItem && $options.addGwpItem(...args)),
       "data-variant-id": productData.variants.edges[0].node.id,
       class: normalizeClass(["btn btn--small btn--full btn--primary", {
         'btn--loading': this.loading
       }]),
       href: "#"
-    }, "Add to Cart", 10, _hoisted_11)])])]);
-  }), 128))])) : createCommentVNode("", true), this.currentTierIndex > -1 ? (openBlock(), createElementBlock("hr", _hoisted_12)) : createCommentVNode("", true), withDirectives(createBaseVNode("p", {
+    }, "Add to Cart", 10, _hoisted_9)])]);
+  }), 128))])) : createCommentVNode("", true), withDirectives(createBaseVNode("p", {
     class: normalizeClass(["text-center under-threshold-message", {
       'gwp--spend-more': this.currentTierIndex === -1
     }])
   }, [createBaseVNode("span", {
     innerHTML: $options.underMessage
-  }, null, 8, _hoisted_13)], 2), [[vShow, $options.underMessage !== '']])])) : createCommentVNode("", true);
+  }, null, 8, _hoisted_10)], 2), [[vShow, $options.underMessage !== '']]), this.currentTierIndex > -1 ? (openBlock(), createElementBlock("hr", _hoisted_11)) : createCommentVNode("", true)])) : createCommentVNode("", true);
 }
-;// CONCATENATED MODULE: ./src/vue/gift-with-purchase/GiftWithPurchase.vue?vue&type=template&id=0880f1de
+;// CONCATENATED MODULE: ./src/vue/gift-with-purchase/GiftWithPurchase.vue?vue&type=template&id=46c6cce8
 
 ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/vue/gift-with-purchase/GiftWithPurchase.vue?vue&type=script&lang=js
 /* global theme */
@@ -9516,7 +9510,7 @@ var exportHelper = __webpack_require__(89);
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(GiftWithPurchasevue_type_script_lang_js, [['render',GiftWithPurchasevue_type_template_id_0880f1de_render]])
+const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(GiftWithPurchasevue_type_script_lang_js, [['render',GiftWithPurchasevue_type_template_id_46c6cce8_render]])
 
 /* harmony default export */ var GiftWithPurchase = (__exports__);
 ;// CONCATENATED MODULE: ./src/vue/gift-with-purchase/gift-with-purchase.js

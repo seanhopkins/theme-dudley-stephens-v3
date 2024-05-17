@@ -1259,7 +1259,6 @@ function targetTypeMap(rawType) {
       return 0 /* INVALID */;
   }
 }
-
 function getTargetType(value) {
   return value["__v_skip"] || !Object.isExtensible(value) ? 0 /* INVALID */ : targetTypeMap(shared_esm_bundler_toRawType(value));
 }
@@ -1567,7 +1566,6 @@ class DeferredComputedRefImpl {
           }
         }
       }
-
       this._dirty = true;
     });
     this.effect.computed = this;
@@ -2081,10 +2079,8 @@ function devtoolsUnmountApp(app) {
   emit$1("app:unmount" /* APP_UNMOUNT */, app);
 }
 const devtoolsComponentAdded = /* @__PURE__ */(/* unused pure expression or super */ null && (createDevtoolsComponentHook("component:added" /* COMPONENT_ADDED */)));
-
 const devtoolsComponentUpdated = /* @__PURE__ */(/* unused pure expression or super */ null && (createDevtoolsComponentHook("component:updated" /* COMPONENT_UPDATED */)));
 const _devtoolsComponentRemoved = /* @__PURE__ */(/* unused pure expression or super */ null && (createDevtoolsComponentHook("component:removed" /* COMPONENT_REMOVED */)));
-
 const devtoolsComponentRemoved = component => {
   if (devtools && typeof devtools.cleanupBuffer === "function" &&
   // remove the component if it wasn't buffered
@@ -2098,9 +2094,7 @@ function createDevtoolsComponentHook(hook) {
   };
 }
 const devtoolsPerfStart = /* @__PURE__ */(/* unused pure expression or super */ null && (createDevtoolsPerformanceHook("perf:start" /* PERFORMANCE_START */)));
-
 const devtoolsPerfEnd = /* @__PURE__ */(/* unused pure expression or super */ null && (createDevtoolsPerformanceHook("perf:end" /* PERFORMANCE_END */)));
-
 function createDevtoolsPerformanceHook(hook) {
   return (component, type, time) => {
     emit$1(hook, component.appContext.app, component.uid, component, type, time);
@@ -2284,7 +2278,6 @@ function renderComponentRoot(instance) {
         emit
       }) : render2(props, null
       /* we know it doesn't need it */));
-
       fallthroughAttrs = Component.props ? attrs : getFunctionalFallthrough(attrs);
     }
   } catch (err) {
@@ -2728,7 +2721,6 @@ function createSuspenseBoundary(vnode, parentSuspense, parentComponent, containe
       true
       // shouldRemove
       );
-
       if (!delayEnter) {
         mountFallback();
       }
@@ -2795,7 +2787,6 @@ function createSuspenseBoundary(vnode, parentSuspense, parentComponent, containe
 function hydrateSuspense(node, vnode, parentComponent, parentSuspense, isSVG, slotScopeIds, optimized, rendererInternals, hydrateNode) {
   const suspense = vnode.suspense = createSuspenseBoundary(vnode, parentSuspense, parentComponent, node.parentNode, document.createElement("div"), null, isSVG, slotScopeIds, optimized, rendererInternals, true
   /* hydrating */);
-
   const result = hydrateNode(node, suspense.pendingBranch = vnode.ssContent, parentComponent, suspense, slotScopeIds, optimized);
   if (suspense.deps === 0) {
     suspense.resolve(false, true);
@@ -3303,7 +3294,6 @@ function resolveTransitionHooks(vnode, props, state, instance) {
         el._leaveCb(true
         /* cancelled */);
       }
-
       const leavingVNode = leavingVNodesCache[key];
       if (leavingVNode && isSameVNodeType(vnode, leavingVNode) && leavingVNode.el._leaveCb) {
         leavingVNode.el._leaveCb();
@@ -3349,7 +3339,6 @@ function resolveTransitionHooks(vnode, props, state, instance) {
         el._enterCb(true
         /* cancelled */);
       }
-
       if (state.isUnmounting) {
         return remove();
       }
@@ -3502,7 +3491,6 @@ function defineAsyncComponent(source) {
         handleError(err, instance, 13, !errorComponent
         /* do not throw in dev if user provided error component */);
       };
-
       if (suspensible && instance.suspense || isInSSRComponentSetup) {
         return load().then(comp => {
           return () => createInnerComp(comp, instance);
@@ -3790,7 +3778,6 @@ function registerKeepAliveHook(hook, type, target = currentInstance) {
 function injectToKeepAliveRoot(hook, type, target, keepAliveRoot) {
   const injected = injectHook(type, hook, keepAliveRoot, true
   /* prepend */);
-
   runtime_core_esm_bundler_onUnmounted(() => {
     remove(keepAliveRoot[type], injected);
   }, target);
@@ -3862,7 +3849,6 @@ function resolveAsset(type, name, warnMissing = true, maybeSelfReference = false
     if (type === COMPONENTS) {
       const selfName = getComponentName(Component, false
       /* do not include inferred name to avoid breaking existing code */);
-
       if (selfName && (selfName === name || selfName === camelize(name) || selfName === capitalize(camelize(name)))) {
         return Component;
       }
@@ -4049,7 +4035,6 @@ const PublicInstanceProxyHandlers = {
         accessCache[key] = 0 /* OTHER */;
       }
     }
-
     const publicGetter = publicPropertiesMap[key];
     let cssModule, globalProperties;
     if (publicGetter) {
@@ -6177,7 +6162,6 @@ function baseCreateRenderer(options, createHydrationFns) {
     const effect = instance.effect = new ReactiveEffect(componentUpdateFn, () => queueJob(update), instance.scope
     // track it in component's effect scope
     );
-
     const update = instance.update = () => effect.run();
     update.id = instance.uid;
     toggleRecurse(instance, true);
@@ -6897,12 +6881,10 @@ function createElementBlock(type, props, children, patchFlag, dynamicProps, shap
   return setupBlock(createBaseVNode(type, props, children, patchFlag, dynamicProps, shapeFlag, true
   /* isBlock */));
 }
-
 function createBlock(type, props, children, patchFlag, dynamicProps) {
   return setupBlock(runtime_core_esm_bundler_createVNode(type, props, children, patchFlag, dynamicProps, true
   /* isBlock: prevent a block from tracking itself */));
 }
-
 function isVNode(value) {
   return value ? value.__v_isVNode === true : false;
 }
@@ -7000,7 +6982,6 @@ function _createVNode(type, props = null, children = null, patchFlag = 0, dynami
   if (isVNode(type)) {
     const cloned = cloneVNode(type, props, true
     /* mergeRef: true */);
-
     if (children) {
       normalizeChildren(cloned, children);
     }
@@ -7224,7 +7205,6 @@ function createComponentInstance(vnode, parent, suspense) {
     // will be set synchronously right after creation
     scope: new EffectScope(true
     /* detached */),
-
     render: null,
     proxy: null,
     exposed: null,

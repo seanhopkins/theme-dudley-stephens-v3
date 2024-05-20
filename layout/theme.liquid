@@ -107,7 +107,7 @@
   <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
 
   {% if settings.gwp_enable %}
-    <link rel="stylesheet" href="{{ 'gwp.css' | asset_url | split: '?' | first }}">
+    <link rel="stylesheet" href="{{ 'gwp.css' | asset_url }}">
     <script src="{{ 'giftWithPurchase.umd.js' | asset_url }}" defer="defer"></script>
   {% endif %}
 

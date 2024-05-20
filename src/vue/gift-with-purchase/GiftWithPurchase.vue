@@ -13,34 +13,25 @@
         v-bind:key="productData.threshold"
         class="gwp__slide"
       >
-        <div class="grid grid--table-large">
-          <div class="grid__item one-third">
+        <div class="gwp__item">
+          <div class="gwp__image">
             <img
               v-bind:src="productData.images.edges[0].node.url"
               v-bind:alt="productData.title"
             />
           </div>
-
-          <div class="grid__item two-thirds">
-            <p>{{ productData.title }}</p>
-          </div>
-        </div>
-
-        <div class="grid">
-          <div class="grid__item one-whole">
-            <a
-              v-on:click="addGwpItem"
-              v-bind:data-variant-id="productData.variants.edges[0].node.id"
-              class="btn btn--small btn--full btn--primary"
-              v-bind:class="{ 'btn--loading': this.loading }"
-              href="#"
-              >Add to Cart</a
-            >
-          </div>
+          <p class="gwp_title">{{ productData.title }}</p>
+          <a
+            v-on:click="addGwpItem"
+            v-bind:data-variant-id="productData.variants.edges[0].node.id"
+            class="btn btn--small btn--full btn--primary"
+            v-bind:class="{ 'btn--loading': this.loading }"
+            href="#"
+            >Add to Cart</a
+          >
         </div>
       </div>
     </div>
-    <hr class="hr--medium" v-if="this.currentTierIndex > -1" />
     <p
       class="text-center under-threshold-message"
       v-bind:class="{ 'gwp--spend-more': this.currentTierIndex === -1 }"
@@ -48,6 +39,7 @@
     >
       <span v-html="underMessage"></span>
     </p>
+    <hr class="hr--small" v-if="this.currentTierIndex > -1" />
   </div>
 </template>
 

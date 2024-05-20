@@ -1259,7 +1259,6 @@ function targetTypeMap(rawType) {
       return 0 /* INVALID */;
   }
 }
-
 function getTargetType(value) {
   return value["__v_skip"] || !Object.isExtensible(value) ? 0 /* INVALID */ : targetTypeMap(shared_esm_bundler_toRawType(value));
 }
@@ -1567,7 +1566,6 @@ class DeferredComputedRefImpl {
           }
         }
       }
-
       this._dirty = true;
     });
     this.effect.computed = this;
@@ -2081,10 +2079,8 @@ function devtoolsUnmountApp(app) {
   emit$1("app:unmount" /* APP_UNMOUNT */, app);
 }
 const devtoolsComponentAdded = /* @__PURE__ */(/* unused pure expression or super */ null && (createDevtoolsComponentHook("component:added" /* COMPONENT_ADDED */)));
-
 const devtoolsComponentUpdated = /* @__PURE__ */(/* unused pure expression or super */ null && (createDevtoolsComponentHook("component:updated" /* COMPONENT_UPDATED */)));
 const _devtoolsComponentRemoved = /* @__PURE__ */(/* unused pure expression or super */ null && (createDevtoolsComponentHook("component:removed" /* COMPONENT_REMOVED */)));
-
 const devtoolsComponentRemoved = component => {
   if (devtools && typeof devtools.cleanupBuffer === "function" &&
   // remove the component if it wasn't buffered
@@ -2098,9 +2094,7 @@ function createDevtoolsComponentHook(hook) {
   };
 }
 const devtoolsPerfStart = /* @__PURE__ */(/* unused pure expression or super */ null && (createDevtoolsPerformanceHook("perf:start" /* PERFORMANCE_START */)));
-
 const devtoolsPerfEnd = /* @__PURE__ */(/* unused pure expression or super */ null && (createDevtoolsPerformanceHook("perf:end" /* PERFORMANCE_END */)));
-
 function createDevtoolsPerformanceHook(hook) {
   return (component, type, time) => {
     emit$1(hook, component.appContext.app, component.uid, component, type, time);
@@ -2284,7 +2278,6 @@ function renderComponentRoot(instance) {
         emit
       }) : render2(props, null
       /* we know it doesn't need it */));
-
       fallthroughAttrs = Component.props ? attrs : getFunctionalFallthrough(attrs);
     }
   } catch (err) {
@@ -2728,7 +2721,6 @@ function createSuspenseBoundary(vnode, parentSuspense, parentComponent, containe
       true
       // shouldRemove
       );
-
       if (!delayEnter) {
         mountFallback();
       }
@@ -2795,7 +2787,6 @@ function createSuspenseBoundary(vnode, parentSuspense, parentComponent, containe
 function hydrateSuspense(node, vnode, parentComponent, parentSuspense, isSVG, slotScopeIds, optimized, rendererInternals, hydrateNode) {
   const suspense = vnode.suspense = createSuspenseBoundary(vnode, parentSuspense, parentComponent, node.parentNode, document.createElement("div"), null, isSVG, slotScopeIds, optimized, rendererInternals, true
   /* hydrating */);
-
   const result = hydrateNode(node, suspense.pendingBranch = vnode.ssContent, parentComponent, suspense, slotScopeIds, optimized);
   if (suspense.deps === 0) {
     suspense.resolve(false, true);
@@ -3303,7 +3294,6 @@ function resolveTransitionHooks(vnode, props, state, instance) {
         el._leaveCb(true
         /* cancelled */);
       }
-
       const leavingVNode = leavingVNodesCache[key];
       if (leavingVNode && isSameVNodeType(vnode, leavingVNode) && leavingVNode.el._leaveCb) {
         leavingVNode.el._leaveCb();
@@ -3349,7 +3339,6 @@ function resolveTransitionHooks(vnode, props, state, instance) {
         el._enterCb(true
         /* cancelled */);
       }
-
       if (state.isUnmounting) {
         return remove();
       }
@@ -3502,7 +3491,6 @@ function defineAsyncComponent(source) {
         handleError(err, instance, 13, !errorComponent
         /* do not throw in dev if user provided error component */);
       };
-
       if (suspensible && instance.suspense || isInSSRComponentSetup) {
         return load().then(comp => {
           return () => createInnerComp(comp, instance);
@@ -3790,7 +3778,6 @@ function registerKeepAliveHook(hook, type, target = currentInstance) {
 function injectToKeepAliveRoot(hook, type, target, keepAliveRoot) {
   const injected = injectHook(type, hook, keepAliveRoot, true
   /* prepend */);
-
   runtime_core_esm_bundler_onUnmounted(() => {
     remove(keepAliveRoot[type], injected);
   }, target);
@@ -3862,7 +3849,6 @@ function resolveAsset(type, name, warnMissing = true, maybeSelfReference = false
     if (type === COMPONENTS) {
       const selfName = getComponentName(Component, false
       /* do not include inferred name to avoid breaking existing code */);
-
       if (selfName && (selfName === name || selfName === camelize(name) || selfName === capitalize(camelize(name)))) {
         return Component;
       }
@@ -4049,7 +4035,6 @@ const PublicInstanceProxyHandlers = {
         accessCache[key] = 0 /* OTHER */;
       }
     }
-
     const publicGetter = publicPropertiesMap[key];
     let cssModule, globalProperties;
     if (publicGetter) {
@@ -6177,7 +6162,6 @@ function baseCreateRenderer(options, createHydrationFns) {
     const effect = instance.effect = new ReactiveEffect(componentUpdateFn, () => queueJob(update), instance.scope
     // track it in component's effect scope
     );
-
     const update = instance.update = () => effect.run();
     update.id = instance.uid;
     toggleRecurse(instance, true);
@@ -6897,12 +6881,10 @@ function createElementBlock(type, props, children, patchFlag, dynamicProps, shap
   return setupBlock(createBaseVNode(type, props, children, patchFlag, dynamicProps, shapeFlag, true
   /* isBlock */));
 }
-
 function createBlock(type, props, children, patchFlag, dynamicProps) {
   return setupBlock(runtime_core_esm_bundler_createVNode(type, props, children, patchFlag, dynamicProps, true
   /* isBlock: prevent a block from tracking itself */));
 }
-
 function isVNode(value) {
   return value ? value.__v_isVNode === true : false;
 }
@@ -7000,7 +6982,6 @@ function _createVNode(type, props = null, children = null, patchFlag = 0, dynami
   if (isVNode(type)) {
     const cloned = cloneVNode(type, props, true
     /* mergeRef: true */);
-
     if (children) {
       normalizeChildren(cloned, children);
     }
@@ -7224,7 +7205,6 @@ function createComponentInstance(vnode, parent, suspense) {
     // will be set synchronously right after creation
     scope: new EffectScope(true
     /* detached */),
-
     render: null,
     proxy: null,
     exposed: null,
@@ -9229,7 +9209,7 @@ const initDirectivesForSSR = () => {
   }
 };
 
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/vue/gift-with-purchase/GiftWithPurchase.vue?vue&type=template&id=0880f1de
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/vue/gift-with-purchase/GiftWithPurchase.vue?vue&type=template&id=46c6cce8
 
 const _hoisted_1 = {
   key: 0,
@@ -9244,28 +9224,22 @@ const _hoisted_4 = {
   class: "gwp-slider-wrapper"
 };
 const _hoisted_5 = {
-  class: "grid grid--table-large"
+  class: "gwp__item"
 };
 const _hoisted_6 = {
-  class: "grid__item one-third"
+  class: "gwp__image"
 };
 const _hoisted_7 = ["src", "alt"];
 const _hoisted_8 = {
-  class: "grid__item two-thirds"
+  class: "gwp_title"
 };
-const _hoisted_9 = {
-  class: "grid"
-};
-const _hoisted_10 = {
-  class: "grid__item one-whole"
-};
-const _hoisted_11 = ["data-variant-id"];
-const _hoisted_12 = {
+const _hoisted_9 = ["data-variant-id"];
+const _hoisted_10 = ["innerHTML"];
+const _hoisted_11 = {
   key: 1,
-  class: "hr--medium"
+  class: "hr--small"
 };
-const _hoisted_13 = ["innerHTML"];
-function GiftWithPurchasevue_type_template_id_0880f1de_render(_ctx, _cache, $props, $setup, $data, $options) {
+function GiftWithPurchasevue_type_template_id_46c6cce8_render(_ctx, _cache, $props, $setup, $data, $options) {
   return !this.gwpInCart ? (openBlock(), createElementBlock("div", _hoisted_1, [withDirectives(createBaseVNode("div", _hoisted_2, [createBaseVNode("span", {
     innerHTML: $options.overMessage
   }, null, 8, _hoisted_3)], 512), [[vShow, $options.overMessage !== '']]), this.currentTierIndex > -1 ? (openBlock(), createElementBlock("div", _hoisted_4, [(openBlock(true), createElementBlock(runtime_core_esm_bundler_Fragment, null, renderList(this.availableTiers[this.currentTierIndex].productData, productData => {
@@ -9275,23 +9249,23 @@ function GiftWithPurchasevue_type_template_id_0880f1de_render(_ctx, _cache, $pro
     }, [createBaseVNode("div", _hoisted_5, [createBaseVNode("div", _hoisted_6, [createBaseVNode("img", {
       src: productData.images.edges[0].node.url,
       alt: productData.title
-    }, null, 8, _hoisted_7)]), createBaseVNode("div", _hoisted_8, [createBaseVNode("p", null, toDisplayString(productData.title), 1)])]), createBaseVNode("div", _hoisted_9, [createBaseVNode("div", _hoisted_10, [createBaseVNode("a", {
+    }, null, 8, _hoisted_7)]), createBaseVNode("p", _hoisted_8, toDisplayString(productData.title), 1), createBaseVNode("a", {
       onClick: _cache[0] || (_cache[0] = (...args) => $options.addGwpItem && $options.addGwpItem(...args)),
       "data-variant-id": productData.variants.edges[0].node.id,
       class: normalizeClass(["btn btn--small btn--full btn--primary", {
         'btn--loading': this.loading
       }]),
       href: "#"
-    }, "Add to Cart", 10, _hoisted_11)])])]);
-  }), 128))])) : createCommentVNode("", true), this.currentTierIndex > -1 ? (openBlock(), createElementBlock("hr", _hoisted_12)) : createCommentVNode("", true), withDirectives(createBaseVNode("p", {
+    }, "Add to Cart", 10, _hoisted_9)])]);
+  }), 128))])) : createCommentVNode("", true), withDirectives(createBaseVNode("p", {
     class: normalizeClass(["text-center under-threshold-message", {
       'gwp--spend-more': this.currentTierIndex === -1
     }])
   }, [createBaseVNode("span", {
     innerHTML: $options.underMessage
-  }, null, 8, _hoisted_13)], 2), [[vShow, $options.underMessage !== '']])])) : createCommentVNode("", true);
+  }, null, 8, _hoisted_10)], 2), [[vShow, $options.underMessage !== '']]), this.currentTierIndex > -1 ? (openBlock(), createElementBlock("hr", _hoisted_11)) : createCommentVNode("", true)])) : createCommentVNode("", true);
 }
-;// CONCATENATED MODULE: ./src/vue/gift-with-purchase/GiftWithPurchase.vue?vue&type=template&id=0880f1de
+;// CONCATENATED MODULE: ./src/vue/gift-with-purchase/GiftWithPurchase.vue?vue&type=template&id=46c6cce8
 
 ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/vue/gift-with-purchase/GiftWithPurchase.vue?vue&type=script&lang=js
 /* global theme */
@@ -9536,7 +9510,7 @@ var exportHelper = __webpack_require__(89);
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(GiftWithPurchasevue_type_script_lang_js, [['render',GiftWithPurchasevue_type_template_id_0880f1de_render]])
+const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(GiftWithPurchasevue_type_script_lang_js, [['render',GiftWithPurchasevue_type_template_id_46c6cce8_render]])
 
 /* harmony default export */ var GiftWithPurchase = (__exports__);
 ;// CONCATENATED MODULE: ./src/vue/gift-with-purchase/gift-with-purchase.js

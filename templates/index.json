@@ -45,27 +45,6 @@
     "b8fccc94-b721-4ed5-a976-f81ed754cc18": {
       "type": "promo-grid",
       "blocks": {
-        "b22e1874-3a53-481a-8ddb-89975d97e49b": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "Sale into Summer",
-            "textarea": "With our Memorial Day Sale: 40% off sitewide. Use code SALEINTOSUMMER.",
-            "cta_text1": "Shop the sale",
-            "cta_link1": "https:\/\/www.dudley-stephens.com\/collections\/memorial-day-sale",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/PARK_SLOPE_TERRY_HEATHER_GREY_AMERICAN_FLAG_1667_0af79a8e-4631-467e-a5fd-c55fd21178f1.jpg",
-            "video_url": "",
-            "width": "50",
-            "height": 800,
-            "text_size": 135,
-            "text_align": "vertical-bottom horizontal-center",
-            "color_accent": "#ffffff",
-            "boxed": false,
-            "framed": true
-          }
-        },
         "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1": {
           "type": "advanced",
           "settings": {
@@ -77,6 +56,27 @@
             "cta_text2": "",
             "cta_link2": "",
             "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1763_1.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 800,
+            "text_size": 135,
+            "text_align": "vertical-bottom horizontal-center",
+            "color_accent": "#ffffff",
+            "boxed": false,
+            "framed": true
+          }
+        },
+        "b22e1874-3a53-481a-8ddb-89975d97e49b": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Easy Going",
+            "textarea": "Simplify your Summer dressing with carefree-chic pieces.",
+            "cta_text1": "Shop now",
+            "cta_link1": "shopify:\/\/collections\/americana",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1714.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -111,8 +111,8 @@
         }
       },
       "block_order": [
-        "b22e1874-3a53-481a-8ddb-89975d97e49b",
         "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1",
+        "b22e1874-3a53-481a-8ddb-89975d97e49b",
         "advanced_BjLHXQ"
       ],
       "custom_css": [

@@ -24,6 +24,7 @@
         },
         "announcement-1": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "Take 30% off all Summer dresses with code GETDRESSED",

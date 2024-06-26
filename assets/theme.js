@@ -6597,7 +6597,7 @@ theme.recentlyViewed = {
         
         // if (!searchParams.has('filter.v.availability')) {
         //   searchParams.append('filter.v.availability', 1);
-        // }
+        // } 
         // qwertyuiop
 
         this.ajaxRenderer

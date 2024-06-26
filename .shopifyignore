@@ -12,3 +12,4 @@ line-item-script.rb
 node_modules
 src/*
 notifications
+tapcart

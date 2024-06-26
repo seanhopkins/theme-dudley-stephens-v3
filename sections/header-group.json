@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "header",
   "name": "t:sections.header-group.name",
@@ -9,7 +18,7 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Shop the Santorini Dress in super-soft Luxe Stretch",
+            "link_text": "Shop our Summer LBDs: the Evelyn and Monterey Short Dresses!",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
           }
         },
@@ -18,8 +27,8 @@
           "disabled": true,
           "settings": {
             "text": "",
-            "link_text": "Shop our Modern Leisure pieces in Terry here!",
-            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
+            "link_text": "Take 30% off all Summer dresses with code GETDRESSED",
+            "link": "shopify:\/\/collections\/dresses"
           }
         }
       },

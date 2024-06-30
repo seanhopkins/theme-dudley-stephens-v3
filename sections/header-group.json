@@ -18,8 +18,8 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Shop our Summer LBDs: the Evelyn and Monterey Short Dresses!",
-            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
+            "link_text": "Shop 40% off sitewide with code SUMMERFUN (including sale items)!",
+            "link": "shopify:\/\/collections\/shop-all"
           }
         },
         "announcement-1": {

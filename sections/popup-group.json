@@ -33,7 +33,7 @@
       "type": "age-verification-popup",
       "disabled": true,
       "settings": {
-        "enable_test_mode": false,
+        "enable_test_mode": true,
         "blur_image": false,
         "heading": "Confirm your age",
         "text": "<p>Are you 18 years old or older?<\/p>",

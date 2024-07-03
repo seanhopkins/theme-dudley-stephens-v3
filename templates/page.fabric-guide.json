@@ -6,271 +6,190 @@
       "settings": {
       }
     },
-    "rich-text": {
-      "type": "rich-text",
+    "9ef0db49-55a1-4464-a8b1-3ed0eb7441c6": {
+      "type": "slideshow",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "template--14938177536042__9ef0db49-55a1-4464-a8b1-3ed0eb7441c6-image-1": {
+          "type": "image",
           "settings": {
-            "title": "The DS Fabric Guide"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>With a wide range of weights and textures, there’s a Dudley Stephens recycled fabric for all seasons and occasions. Our styles have repurposed over 6 million plastic bottles (and counting).<\/p>"
+            "top_subheading": "",
+            "title": "The DS Fabric Guide",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "With a wide range of weights and textures, there’s a Dudley Stephens recycled fabric for all seasons and occasions. Our styles have repurposed over 6 million plastic bottles (and counting).",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Slider_65da38cf-72e2-4e86-b78c-9a549f06b1a3.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_cf63ebcc-c667-4125-a9ea-22a75fb41698.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 20
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "template--14938177536042__9ef0db49-55a1-4464-a8b1-3ed0eb7441c6-image-1"
+      ],
+      "custom_css": [
+        ".hero__subtitle {max-width: 50rem;}"
       ],
       "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "framed": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "d4530671-20da-4d84-bab1-5d9060d04349": {
+      "type": "text-columns",
+      "blocks": {
+        "template--14938177536042__d4530671-20da-4d84-bab1-5d9060d04349-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/FABRIC_GUIDE_VELLO_CREAM_031.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Vello Fleece",
+            "text": "<p>Soft, tightly woven and warm, this fabric is most like the “traditional” fabric people associate with fleece (but ours is extra cozy!).<\/p>",
+            "button_label": "shop vello fleece",
+            "button_link": "shopify:\/\/collections\/vello-fleece"
+          }
+        },
+        "template--14938177536042__d4530671-20da-4d84-bab1-5d9060d04349-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/FABRIC_GUIDE_TERRY_GREY_029.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Terry Fleece",
+            "text": "<p>Think sweatshirt fabric (the most luxurious sweatshirt you can imagine), this versatile, four-season fabric has a hook-and-loop texture that’s almost towel-like.<\/p>",
+            "button_label": "shop Terry Fleece",
+            "button_link": "shopify:\/\/collections\/terry-fleece"
+          }
+        },
+        "template--14938177536042__d4530671-20da-4d84-bab1-5d9060d04349-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/FABRIC_GUIDE_SHERPA_CAMEL_028.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Sherpa Fleece",
+            "text": "<p>Fuzzy soft and warm with a plush texture, this is as close to lambswool as fleece gets—without the itch factor.<\/p>",
+            "button_label": "shop Sherpa Fleece",
+            "button_link": "shopify:\/\/collections\/sherpa-fleece-1"
+          }
+        }
+      },
+      "block_order": [
+        "template--14938177536042__d4530671-20da-4d84-bab1-5d9060d04349-text_block-1",
+        "template--14938177536042__d4530671-20da-4d84-bab1-5d9060d04349-text_block-2",
+        "template--14938177536042__d4530671-20da-4d84-bab1-5d9060d04349-text_block-3"
+      ],
+      "settings": {
+        "title": "",
         "align_text": "center",
-        "narrow_column": true,
         "divider": false
       }
     },
-    "52683eff-e658-4591-b0fa-8734621ab3c9": {
-      "type": "text-and-image",
-      "custom_css": [
-        ".subheading {margin-bottom: 1em;}"
+    "6a21b692-c612-4eda-a01e-0572a5d30817": {
+      "type": "text-columns",
+      "blocks": {
+        "template--14938177536042__6a21b692-c612-4eda-a01e-0572a5d30817-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/FABRIC_GUIDE_WAFFLE_BERRY_030_d069847d-55f9-4398-9b14-17e194635498.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Waffle",
+            "text": "<p>This innovative recycled fabric is all about luxe texture. In a medium weight that keeps you just warm enough, its woven waffle checks all our boxes for elevated, four-season wear.<\/p>",
+            "button_label": "shop waffle",
+            "button_link": "shopify:\/\/collections\/waffle"
+          }
+        },
+        "template--14938177536042__6a21b692-c612-4eda-a01e-0572a5d30817-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/FABRIC_GUIDE_POWER_STRETCH_ARMY_GREEN_026.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Power Stretch",
+            "text": "<p>This hybrid fabric offers the best of both: the plush warmth of fleece (think: the feel of our Vello) inside, and stretch performance—and a hint of sheen—outside.<\/p>",
+            "button_label": "shop Power Stretch",
+            "button_link": "shopify:\/\/collections\/power-stretch"
+          }
+        },
+        "template--14938177536042__6a21b692-c612-4eda-a01e-0572a5d30817-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/FABRIC_GUIDE_REPREVE_STRETCH_NAVY_027.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Repreve® Stretch",
+            "text": "<p>Stretch meets structure in this recycled fabric that offers the feel of premium performance wear, built into everywhere pieces.<\/p>",
+            "button_label": "shop Repreve® Stretch",
+            "button_link": "https:\/\/www.dudley-stephens.com\/collections\/repreve-stretch"
+          }
+        }
+      },
+      "block_order": [
+        "template--14938177536042__6a21b692-c612-4eda-a01e-0572a5d30817-text_block-1",
+        "template--14938177536042__6a21b692-c612-4eda-a01e-0572a5d30817-text_block-2",
+        "template--14938177536042__6a21b692-c612-4eda-a01e-0572a5d30817-text_block-3"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-vello3498.jpg",
-        "image_mask": "none",
-        "image2": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-vello3472.jpg",
-        "image2_mask": "none",
-        "subtitle": "♻",
-        "title": "Vello Fleece",
-        "text": "<p>Soft, tightly woven and warm, this fabric is most like the “traditional” fabric people associate with fleece (but ours is extra cozy!).<\/p>",
-        "button_label": "Shop Vello",
-        "button_link": "shopify:\/\/collections\/vello-fleece",
-        "button_style": "secondary",
+        "title": "",
         "align_text": "center",
-        "image_width": "50",
-        "layout": "left",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
+        "divider": false
       }
     },
-    "10e7451b-d347-42b9-a10b-4eab7720d420": {
-      "type": "text-and-image",
+    "c67e215c-630a-4cd8-9b92-10b7c649fb66": {
+      "type": "text-columns",
+      "blocks": {
+        "template--14938177536042__c67e215c-630a-4cd8-9b92-10b7c649fb66-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/FABRIC_GUIDE_LUXE_STRETCH_BLACK_025.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Luxe Stretch",
+            "text": "<p>A Poly\/Lycra blend made from recycled bottles. Lightweight with some structure, stretchy and breathable. A luxe feel, as its name suggests.<\/p>",
+            "button_label": "shop Luxe Stretch",
+            "button_link": "shopify:\/\/collections\/luxe-stretch"
+          }
+        }
+      },
+      "block_order": [
+        "template--14938177536042__c67e215c-630a-4cd8-9b92-10b7c649fb66-text_block-1"
+      ],
+      "custom_css": [
+        ".medium-up--one-half {width: 33.33333%; float: none; margin: auto;}"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-terry3487.jpg",
-        "image_mask": "none",
-        "image2": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-terry3477.jpg",
-        "image2_mask": "none",
-        "subtitle": "♻",
-        "title": "Terry Fleece",
-        "text": "<p>Think sweatshirt fabric (the most luxurious sweatshirt you can imagine), this versatile, four-season fabric has a hook-and-loop texture that’s almost towel-like.<\/p>",
-        "button_label": "Shop Terry Fleece",
-        "button_link": "shopify:\/\/collections\/terry-fleece",
-        "button_style": "secondary",
+        "title": "",
         "align_text": "center",
-        "image_width": "50",
-        "layout": "right",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
-    "6d8ba875-0cf8-47e0-9521-67e17967124a": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-stripedfleece3515.jpg",
-        "image_mask": "none",
-        "image2": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-stripedfleece3509.jpg",
-        "image2_mask": "none",
-        "subtitle": "♻",
-        "title": "Striped Fleece",
-        "text": "<p>A recycled fabric with a feel of its own: the sink-in soft finish of our core Vello Fleece, combined with the lightweight feel of our Terry Fleece, and a bit more stretch.<\/p>",
-        "button_label": "Shop Striped Fleece",
-        "button_link": "shopify:\/\/collections\/striped-fleece",
-        "button_style": "secondary",
-        "align_text": "center",
-        "image_width": "50",
-        "layout": "left",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
-    "7b00adac-00b2-4aad-bee5-c7b1ff832677": {
-      "type": "text-and-image",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-doublevello3503.jpg",
-        "image_mask": "none",
-        "image2": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-doublevello3502.jpg",
-        "image2_mask": "none",
-        "subtitle": "♻",
-        "title": "Double Layer Vello Fleece",
-        "text": "<p>As a female-founded, family-owned brand, we take pride in retailing responsibly. Our pieces are sold direct-to-consumer and through select storefronts. We work to promote positive change through initiatives authentic to our brand.<\/p>",
-        "button_label": "Shop Double Layer Vello Fleece",
-        "button_link": "shopify:\/\/collections\/double-layer-vello-fleece",
-        "button_style": "secondary",
-        "align_text": "center",
-        "image_width": "50",
-        "layout": "right",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
-    "38e5439e-964d-485a-b83b-305e3ad922cb": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-sherpa3550.jpg",
-        "image_mask": "portrait",
-        "image2": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-sherpa3553.jpg",
-        "image2_mask": "portrait",
-        "subtitle": "♻",
-        "title": "Sherpa Fleece",
-        "text": "<p>Fuzzy soft and warm with a plush texture, this is as close to lambswool as fleece gets—without the itch factor.<\/p>",
-        "button_label": "Shop Sherpa Fleece",
-        "button_link": "shopify:\/\/collections\/sherpa-fleece-1",
-        "button_style": "secondary",
-        "align_text": "center",
-        "image_width": "50",
-        "layout": "right",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
-    "86e95469-8f3c-4a5f-bb33-a678ba38a91d": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-wafflejersey3564.jpg",
-        "image_mask": "portrait",
-        "image2": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-wafflejersey3567.jpg",
-        "image2_mask": "portrait",
-        "subtitle": "♻",
-        "title": "Waffle",
-        "text": "<p>This innovative recycled fabric is all about luxe texture. Polartec® calls it Power Air,™ since it catches air to keep in warmth while keeping microfiber shedding to a minimum (read: high-fashion, low eco-impact). With a jersey-sheen finish in a medium weight, it’s a woven waffle that checks all our boxes for elevated four-season wear.<\/p>",
-        "button_label": "Shop Waffle",
-        "button_link": "shopify:\/\/collections\/waffle",
-        "button_style": "secondary",
-        "align_text": "center",
-        "image_width": "50",
-        "layout": "left",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
-    "f5eb2f01-22ae-4eb4-b5b5-cb9e4fcc8d0f": {
-      "type": "text-and-image",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-reprevestripedjersey3556.jpg",
-        "image_mask": "portrait",
-        "image2": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-reprevestripedjersey3559.jpg",
-        "image2_mask": "portrait",
-        "subtitle": "♻",
-        "title": "Repreve<sup>®<\/sup> Striped Stretch",
-        "text": "<p>The same feel as our Repreve Stretch, with a different look in an iconic stripe.<\/p>",
-        "button_label": "Shop Repreve® Striped Stretch",
-        "button_link": "shopify:\/\/collections\/repreve-striped-stretch",
-        "button_style": "secondary",
-        "align_text": "center",
-        "image_width": "50",
-        "layout": "right",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
-    "d88920c7-2fd6-4b21-859d-60a2e5192e3d": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-ecojersey3547_5511377c-3945-415b-9fc2-38156b079a10.jpg",
-        "image_mask": "none",
-        "image2": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-ecojersey3543_e48796d8-6b9f-4a04-acc3-9260430783d4.jpg",
-        "image2_mask": "none",
-        "subtitle": "♻",
-        "title": "Eco Stretch",
-        "text": "<p>A versatile, lightweight nylon\/lycra hybrid, layerable with a soft finish and a touch of recoverable stretch to move with you—no matter where you’re moved to take it. <\/p>",
-        "button_label": "SHOP ECO STRETCH",
-        "button_link": "shopify:\/\/collections\/eco-stretch",
-        "button_style": "secondary",
-        "align_text": "center",
-        "image_width": "50",
-        "layout": "right",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
-    "84dc4c93-fcc8-47e6-8bd1-408612cea349": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-reprevejersey3530_3a022da6-e449-464d-92ab-6def7bc0761e.jpg",
-        "image_mask": "portrait",
-        "image2": "shopify:\/\/shop_images\/9-19dudleystephens-fabricguide-reprevejersey3531_1.jpg",
-        "image2_mask": "portrait",
-        "subtitle": "♻",
-        "title": "Repreve® Stretch",
-        "text": "<p>Same stretch as our Eco Stretch, with a bit more structure. The feel of a premium performance  fabric, built into everywhere pieces.<\/p>",
-        "button_label": "Shop Repreve®",
-        "button_link": "shopify:\/\/collections\/repreve-stretch",
-        "button_style": "secondary",
-        "align_text": "center",
-        "image_width": "50",
-        "layout": "left",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
-    "8cc9ed5b-bba7-4cb4-a942-c47ded365174": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/2023-03-27-parkerpuff_iceblue6816_a03749bc-ca73-4d59-b214-957d04d59687.jpg",
-        "image_mask": "none",
-        "image2": "shopify:\/\/shop_images\/2023-03-27-parkerpuff_iceblue6812_2_66b47126-d3ed-4e4b-b6ba-ebc1ec3cc2e1.jpg",
-        "image2_mask": "none",
-        "subtitle": "♻",
-        "title": "Luxe Stretch",
-        "text": "<p>A Poly\/Lycra blend made from recycled bottles. Lightweight with some structure, stretchy and breathable. A luxe feel, as its name suggests.<\/p>",
-        "button_label": "SHOP LUXE STRETCH",
-        "button_link": "shopify:\/\/collections\/luxe-stretch",
-        "button_style": "secondary",
-        "align_text": "center",
-        "image_width": "50",
-        "layout": "right",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
+        "divider": false
       }
     }
   },
   "order": [
     "main",
-    "rich-text",
-    "52683eff-e658-4591-b0fa-8734621ab3c9",
-    "10e7451b-d347-42b9-a10b-4eab7720d420",
-    "6d8ba875-0cf8-47e0-9521-67e17967124a",
-    "7b00adac-00b2-4aad-bee5-c7b1ff832677",
-    "38e5439e-964d-485a-b83b-305e3ad922cb",
-    "86e95469-8f3c-4a5f-bb33-a678ba38a91d",
-    "f5eb2f01-22ae-4eb4-b5b5-cb9e4fcc8d0f",
-    "d88920c7-2fd6-4b21-859d-60a2e5192e3d",
-    "84dc4c93-fcc8-47e6-8bd1-408612cea349",
-    "8cc9ed5b-bba7-4cb4-a942-c47ded365174"
+    "9ef0db49-55a1-4464-a8b1-3ed0eb7441c6",
+    "d4530671-20da-4d84-bab1-5d9060d04349",
+    "6a21b692-c612-4eda-a01e-0572a5d30817",
+    "c67e215c-630a-4cd8-9b92-10b7c649fb66"
   ]
 }

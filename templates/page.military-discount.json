@@ -1,0 +1,39 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1699564013fe36ce6b": {
+      "type": "apps",
+      "blocks": {
+        "e31fbad9-b4b7-4c59-88d1-971b6d84c4f4": {
+          "type": "shopify:\/\/apps\/sheerid\/blocks\/verification\/5d89573c-f987-420b-a60c-72549bb3e6d5",
+          "settings": {
+            "program_id": "654cd47450631b79bb56e204",
+            "display_style": "embedded",
+            "background_color": "",
+            "extended_background": true,
+            "button_text": "Unlock discount",
+            "button_color": "",
+            "padding_top": 36,
+            "padding_bottom": 36
+          }
+        }
+      },
+      "block_order": [
+        "e31fbad9-b4b7-4c59-88d1-971b6d84c4f4"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1699564013fe36ce6b"
+  ]
+}

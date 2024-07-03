@@ -19,7 +19,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Send us an email: info@dudley-stephens.com<\/p><p>Phone Line: Our phone line is currently closed, but our customer team is ready to assist you via email or chat. <\/p><p>Returns and Exchanges: Please visit our returns page to begin a return or exchange. <\/p>"
+            "text": "<p>Send us an email: info@dudley-stephens.com<\/p><p>Returns and Exchanges: Please visit our <a href=\"https:\/\/dudley-stephens.loopreturns.com\/#\/\" title=\"https:\/\/dudley-stephens.loopreturns.com\/#\/\">returns page<\/a> to begin a return or exchange. <\/p>"
           }
         }
       },

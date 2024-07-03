@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "header",
   "name": "t:sections.header-group.name",
@@ -5,37 +14,27 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
-        "announcement-1": {
-          "type": "announcement",
-          "settings": {
-            "text": "",
-            "link_text": "The Dudley Sport collection is here! Shop the Drop.",
-            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
-          }
-        },
         "announcement-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "",
-            "link_text": "Shop More, Save More:  $150+ = 20% off | $300+ = 30% off | $600+ = 40% off (applies automatically in cart).",
-            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
+            "link_text": "Shop 40% off sitewide with code SUMMERFUN (including sale items)!",
+            "link": "shopify:\/\/collections\/shop-all"
           }
         },
-        "57204342-0c5b-4be5-8089-ed68a2ee6b82": {
+        "announcement-1": {
           "type": "announcement",
           "disabled": true,
           "settings": {
-            "text": "Hassle-free returns",
-            "link_text": "30-day postage paid returns",
-            "link": ""
+            "text": "",
+            "link_text": "Take 30% off all Summer dresses with code GETDRESSED",
+            "link": "shopify:\/\/collections\/dresses"
           }
         }
       },
       "block_order": [
-        "announcement-1",
         "announcement-0",
-        "57204342-0c5b-4be5-8089-ed68a2ee6b82"
+        "announcement-1"
       ],
       "custom_css": [
         ".announcement-text {letter-spacing: 0.025em; text-transform: none; font-size: 1em; font-weight: 500;}"
@@ -60,13 +59,13 @@
           "settings": {
             "menu_item": "Women's",
             "show_column_1": true,
-            "image_1": "shopify:\/\/shop_images\/dudclassics.jpg",
-            "title_1": "Dudley Classics",
-            "link_1": "shopify:\/\/pages\/dudley-classics",
+            "image_1": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_4008.jpg",
+            "title_1": "Matching Sets",
+            "link_1": "https:\/\/www.dudley-stephens.com\/collections\/matching-sets",
             "show_column_2": true,
-            "image_2": "shopify:\/\/shop_images\/Horse.jpg",
-            "title_2": "The Equestrian Collection",
-            "link_2": "shopify:\/\/collections\/equestrian-collection"
+            "image_2": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_3329_bf1b1174-db73-4fce-b1f2-068139511264.jpg",
+            "title_2": "The Summer Collection",
+            "link_2": "shopify:\/\/pages\/summer-2024"
           }
         }
       },

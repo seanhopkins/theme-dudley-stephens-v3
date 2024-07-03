@@ -8,7 +8,7 @@ const MonogramSubmit = ({
   lastInitial,
 }) => {
   const Button = () => {
-    if (handleize(style) === "block") {
+    if (handleize(style) === "block" || handleize(style) === "heart") {
       if (monogram) {
         return <button class="btn monogram__add-to-cart">Submit</button>;
       }

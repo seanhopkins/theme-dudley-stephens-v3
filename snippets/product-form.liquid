@@ -43,6 +43,8 @@
       </span>
     </button>
 
+    <a class="btn btn--full btn--secondary klaviyo-bis-trigger" href="#" style="display: none;">Notify Me When Available</a>
+
     {%- if enable_dynamic_buttons -%}
       {{ form | payment_button }}
     {%- endif -%}
@@ -74,5 +76,9 @@
       <input id="Final Sale" type="hidden" name="properties[Promo]" value="Final Sale">
       <input id="Final Sale" type="hidden" name="properties[_LPROP]" value="final-sale">
     {%  endif %}
-  {% endfor%}
+  {% endfor %}
+  {%  comment %} Adds a LIP of Monogram: Flag {% endcomment %}
+  {%- if product.id == 7099776991274 or product.id == 7099775451178 -%}
+    <input id="Final Sale" type="hidden" name="properties[Monogram-2]" value="Flag">
+  {%- endif -%}
 {%- endform -%}

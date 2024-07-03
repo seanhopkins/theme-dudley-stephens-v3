@@ -165,11 +165,15 @@ a:not(.btn):after {
 /* Product page */
 h1.h2.product-single__title {
    font-size: 2.25em;
+   margin-bottom: 0;
 }
 .product-block--price {
    display: flex;
    align-items: center;
-   margin-bottom: 0;
+   margin-bottom: 1em;
+}
+.shopify-app-block {
+   margin-bottom: 1em;
 }
 .product__price--compare {
    font-size: .85em;
@@ -268,6 +272,10 @@ button.js-modal-open-monogram-modal, .monogram__add-to-cart {
 .monogram-cart-group .cart__item {
     border: 0;
 }
+
+#MonogramModal .product__stamp--image {
+  display: none;
+}
 /* FIT GUIDE */
 .tab-nav {
    display: flex;
@@ -363,9 +371,95 @@ div#loop-onstore {
 .product__photos--stamps {
    position: absolute;
    z-index: 1;
-   display: flex;
-   gap: .5em;
-   max-width: 200px;
-   right: 1em;
-   top: 1em;
+   /* width: calc(100% - 16px); */
+   left: 8px;
+   top: 8px;
+}
+.product__stamp--image {
+   width: 75px;
+}
+.product-single__sticky {
+   position: relative;
+}
+.product-single__sticky .product__stamp--image {
+ 
+}
+
+.product__stamp--label {
+   display: inline-block;
+   padding: 2px 8px;
+   box-shadow: inset 0 0 0 1px;
+   border: 2px solid transparent;
+   font-size: 14px;
+}
+.stamp--giftable-item .product__stamp--label {
+   background-color: #9c3f49;
+   box-shadow: inset 0 0 0 1px #fff;
+   color: #fff;
+}
+.stamp--almost-gone .product__stamp--label,
+.stamp--best-seller .product__stamp--label {
+   background-color: #f9f5ec;
+   box-shadow: inset 0 0 0 1px #9bcc56;
+}
+@media only screen and (max-width: 768px) {
+   .collection-grid__wrapper .product__photos--stamps {
+      top: unset;
+      bottom: 8px;
+  }
+   .product__photos--stamps {
+      position: absolute;
+      z-index: 1;
+      width: calc(100% - 2em);
+      left: 8px;
+      top: 8px;
+   }
+   .product-single__sticky .product__photos--stamps {
+      max-width: unset;
+   }
+   .collection-grid__wrapper .product__photos--stamps {
+      display: flex;
+      justify-content: center;
+   }
+}
+
+@media only screen and (min-width: 769px) { 
+   [data-product-images] .product__stamp--image {
+      width: 100px;
+   }
+   [data-product-images] .product__photos--stamps {
+    left: unset;
+    top: 8px;
+    right: 8px;
+   }
+}
+
+/* Hide sold out swatch indicator on CLP & featured collection products */
+.collection-grid__wrapper .color-swatch--unavailable:after,
+[data-section-type="collection-grid"] .color-swatch--unavailable:after {
+   display: none;
+}
+
+/* Klaviyo BIS  */
+.klaviyo-bis-trigger {
+   background-color: var(--colorTextBody);
+   color: #fff;
+   margin-top: 1em;
+}
+/* Hide Monogram widget when loop is active */
+.loop-returns-activated .monogram-pdp-wrapper {
+   display: none;
+}
+
+/* Show toolbar menu on mobile */
+@media only screen and (max-width: 768px) {
+   .toolbar__menu {
+      display: flex;
+      justify-content: space-between;
+      margin-left: -10px;
+      margin-right: -10px;
+   }
+   .toolbar__menu a.site-nav__link {
+      font-size: 10px;
+  }
 }

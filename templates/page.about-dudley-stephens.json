@@ -15,6 +15,7 @@
             "top_subheading": "",
             "title": "",
             "title_size": 80,
+            "text_color": "#ffffff",
             "subheading": "",
             "link": "",
             "link_text": "",
@@ -49,7 +50,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Everyday Dressing, Evolved."
+            "title": "Elevated Classics in Recycled Performance Fabrics"
           }
         },
         "text": {
@@ -125,6 +126,7 @@
         "text": "<p>Sisters Lauren and Kaki, along with their mom, Bonnie, design our styles to stock their closets—and yours—with the essentials we all need and want.<\/p>",
         "button_label": "",
         "button_link": "",
+        "liquid": "",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
@@ -146,6 +148,7 @@
         "text": "<p>Every fabric we choose for our designs is hand-selected for its high performance, luxe feel and eco-friendliness.<\/p>",
         "button_label": "",
         "button_link": "",
+        "liquid": "",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
@@ -165,8 +168,9 @@
         "subtitle": "",
         "title": "DS Gives",
         "text": "<p>We do our part to give back by helping women & children in need—in the community and across the country. To date, we have helped advance the missions of organizations including Bundles of Joy, Charlie's Cure, Kids in Crisis, St. Jude Children's Research Hospital®️ and Stamford Hospital. <\/p>",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "learn more",
+        "button_link": "shopify:\/\/pages\/bundles-of-joy-2024",
+        "liquid": "",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",

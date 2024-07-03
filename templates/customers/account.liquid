@@ -1,6 +1,10 @@
 {%- paginate customer.orders by 20 -%}
 
 <div class="page-width page-content">
+  <div class="section-header">
+    <!-- POINTS YOTPO WIDGET -->
+    <div class="yotpo-widget-instance" data-yotpo-instance-id="612949"></div>
+  </div>
   <header class="section-header{% unless settings.type_headers_align_text %} section-header--with-link{% endunless %}">
     <h1 class="section-header__title">{{ 'customer.account.title' | t }}</h1>
     <a href="{{ routes.account_logout_url }}" class="btn btn--secondary btn--small section-header__link">{{ 'layout.customer.log_out'| t }}</a>
@@ -9,7 +13,7 @@
   <div class="grid">
 
     <div class="grid__item medium-up--two-thirds">
-      <h2>{{ 'customer.orders.title' | t }}</h2>
+      <p class="h5">{{ 'customer.orders.title' | t }}</p>
 
       {%- if customer.orders.size != 0 -%}
 
@@ -26,7 +30,7 @@
           <tbody>
             {%- for order in customer.orders -%}
               <tr class="table__section">
-                <td data-label="{{ 'customer.orders.order_number' | t }}">{{ order.name | link_to: order.customer_url }}</td>
+                <td data-label="{{ 'customer.orders.order_number' | t }}"><a class="btn btn--secondary btn--small" href="{{  order.customer_url }}">{{ order.name }}</a></td>
                 <td data-label="{{ 'customer.orders.date' | t }}">{{ order.created_at | time_tag: format: 'date' }}</td>
                 <td data-label="{{ 'customer.orders.payment_status' | t }}">{{ order.financial_status_label }}</td>
                 <td data-label="{{ 'customer.orders.fulfillment_status' | t }}">{{ order.fulfillment_status_label }}</td>
@@ -46,15 +50,26 @@
     </div>
 
     <div class="grid__item medium-up--one-third">
-      <h3>{{ 'customer.account.details' | t }}</h3>
+      <p class="h5">{{ 'customer.account.details' | t }}</p>
 
-      <p class="h5">{{ customer.name }}</p>
+      <p>{{ customer.name }}</p>
 
       {{ customer.default_address | format_address }}
 
       <p><a href="{{ routes.account_addresses_url }}" class="text-link">{{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})</a></p>
     </div>
 
+  </div>
+  
+  <div>
+    <!-- REDEEM POINTS YOTPO WIDGET -->
+    <div class="yotpo-widget-instance" data-yotpo-instance-id="612943"></div>
+    
+    <!-- EARNING POINTS YOTPO WIDGET -->
+    <div class="yotpo-widget-instance" data-yotpo-instance-id="612948"></div>
+    
+    <!-- REFER YOTPO WIDGET -->
+    <div class="yotpo-widget-instance" data-yotpo-instance-id="612944"></div>
   </div>
 
   {%- if paginate.pages > 1 -%}

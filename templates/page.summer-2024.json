@@ -1,0 +1,413 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "slideshow_bGyQmc": {
+      "type": "slideshow",
+      "blocks": {
+        "image_HEtU4L": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "The Summer Collection",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "Ease, above all: our summer ethos. Here are the pieces you need to embrace it.",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify:\/\/shop_images\/Slider_694e6fd2-2d98-4884-a506-289b42fe84f0.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_403bf7bc-26fd-4231-abae-e4d5fd47c827.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_HEtU4L"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "framed": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "c3220d24-8e7b-4f84-a431-0aae228e36f2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Welcome to A Dudley Summer"
+          }
+        },
+        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Whether dressing for work, off-duty pursuits, cocktail hour or a weekend away, warm-weather dressing demands pieces that wear—and pair—without a second thought.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1",
+        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_columns_mNyhLx": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_FTYrjU": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1638_16ef8e95-f54a-40d0-bc69-6191dc725730.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_8P7byM": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_3481.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_YGb7pz": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_2104.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_FTYrjU",
+        "text_block_8P7byM",
+        "text_block_YGb7pz"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "text_columns_zdQkLc": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_Ym4Cxf": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_3329.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_dqqFAU": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens0647.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_YmNbLm": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1794.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_Ym4Cxf",
+        "text_block_dqqFAU",
+        "text_block_YmNbLm"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "text_and_image_V9a3nW": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1540.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Cotton Candy Floral",
+        "text": "<p>This is that collection. From workwear pairings to day-to-night dresses, classic tops and tees to essential layers, here are all the pieces you need to embrace the season of ease.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "bc59d967-cb6a-43d7-981f-f7165f775819": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Americana Classics",
+        "home_featured_products": "americana",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "text_columns_rgFhGX": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_7KFnMF": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_2294.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_m7TjYF": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-1-19dudleystephens0754.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_pCPerh": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_0895.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_7KFnMF",
+        "text_block_m7TjYF",
+        "text_block_pCPerh"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "text_columns_yAVyTc": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_kykWeJ": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_1374.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_LyqMyN": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_3940.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_XFxrBW": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_2430.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_kykWeJ",
+        "text_block_LyqMyN",
+        "text_block_XFxrBW"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "rich_text_RQzMnR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7AdQer": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": ""
+          }
+        },
+        "text_F77wzU": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Shop available styles, with more dropping soon.<\/p>"
+          }
+        },
+        "button_pmVhE3": {
+          "type": "button",
+          "settings": {
+            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
+            "link_text": "SHOP NOW"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7AdQer",
+        "text_F77wzU",
+        "button_pmVhE3"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "slideshow_7wCgaa": {
+      "type": "slideshow",
+      "blocks": {
+        "image_xnNrjj": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Slider_c4260855-153b-4dc5-9fd9-b904028c75f7.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_f58c64d2-4495-4f59-8458-99559a03e692.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_xnNrjj"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "framed": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_bGyQmc",
+    "c3220d24-8e7b-4f84-a431-0aae228e36f2",
+    "text_columns_mNyhLx",
+    "text_columns_zdQkLc",
+    "text_and_image_V9a3nW",
+    "bc59d967-cb6a-43d7-981f-f7165f775819",
+    "text_columns_rgFhGX",
+    "text_columns_yAVyTc",
+    "rich_text_RQzMnR",
+    "slideshow_7wCgaa"
+  ]
+}

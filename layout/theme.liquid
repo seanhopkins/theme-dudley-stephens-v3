@@ -107,7 +107,7 @@
   <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
 
   {% if settings.gwp_enable %}
-    <link rel="stylesheet" href="{{ 'gwp.css' | asset_url | split: '?' | first }}">
+    <link rel="stylesheet" href="{{ 'gwp.css' | asset_url }}">
     <script src="{{ 'giftWithPurchase.umd.js' | asset_url }}" defer="defer"></script>
   {% endif %}
 
@@ -118,7 +118,12 @@
   {% if request.design_mode %}
     <script src="https://api.archetypethemes.co/design-mode.js" defer="defer"></script>
   {% endif %}
+  {%  comment %}
   <script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/qM5x3tstHllz2X1MSpMslg" async></script>
+  {%  endcomment %}
+  
+  <script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/0051YVGCIXOxvZsbkKu9J5dI98qk8g8FjX5pdQ25" async></script>
+  
   {% comment %} START custom feature {% endcomment %}
   {% section 'swatch-colors' %}
   <script src="{{ 'color-swatches.js' | asset_url }}" defer="defer"></script>
@@ -130,6 +135,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
     {{ 'custom.css' | asset_url | stylesheet_tag: preload: true }}
+    {{ 'wishlist.css' | asset_url | stylesheet_tag: preload: true }}
 {% comment %} END custom feature {% endcomment %}
 </head>
 
@@ -191,7 +197,7 @@
       klaviyo.enable("backinstock",{
       trigger: {
         product_page_text: "Notify Me When Available",
-        product_page_class: "btn btn--full btn--primary",
+        product_page_class: "btn btn--full",
         product_page_text_align: "center",
         product_page_margin: "15px 0",
         replace_anchor: false
@@ -206,10 +212,10 @@
         footer_content: '',
         drop_background_color: "#2a3b57",
         background_color: "#fff",
-        text_color: "#2a3b57",
+        text_color: "#232528",
         button_text_color: "#fff",
-        button_background_color: "#1b4464",
-        close_button_color: "#1b4464",
+        button_background_color: "#232528",
+        close_button_color: "#232528",
         error_background_color: "#fcd6d7",
         error_text_color: "#C72E2F",
         success_background_color: "#D4F1AE",
@@ -264,16 +270,6 @@
   </script>
   {% comment %} End Klaviyo{% endcomment %}
 
-  {% comment %} Affirm {% endcomment %}
-    <script>
-      _affirm_config = {
-        public_api_key:  "NCLOKC0PSQ34CERG",
-        script:          "https://cdn1.affirm.com/js/v2/affirm.js"
-      };
-      (function(l,g,m,e,a,f,b){var d,c=l[m]||{},h=document.createElement(f),n=document.getElementsByTagName(f)[0],k=function(a,b,c){return function(){a[b]._.push([c,arguments])}};c[e]=k(c,e,"set");d=c[e];c[a]={};c[a]._=[];d._=[];c[a][b]=k(c,a,b);a=0;for(b="set add save post open empty reset on off trigger ready setProduct".split(" ");a<b.length;a++)d[b[a]]=k(c,e,b[a]);a=0;for(b=["get","token","url","items"];a<b.length;a++)d[b[a]]=function(){};h.async=!0;h.src=g[f];n.parentNode.insertBefore(h,n);delete g[f];d(g);l[m]=c})(window,_affirm_config,"affirm","checkout","ui","script","ready");
-      // Use your live public API Key and https://cdn1.affirm.com/js/v2/affirm.js script to point to Affirm production environment.
-    </script>
-  {% comment %} End Affirm {% endcomment %}
   <script src="https://cdn.jsdelivr.net/npm/@loophq/onstore-sdk@latest/dist/loop-onstore-sdk.min.js"></script>
 
 <script> 
@@ -282,5 +278,7 @@
    attach: ".cart__checkout", 
    });
 </script>
+{% include 'swymSnippet' %}
+  <script defer src="https://static.shopmy.us/Affiliates/sms_aff_clicktrack.js"></script>
 </body>
 </html>

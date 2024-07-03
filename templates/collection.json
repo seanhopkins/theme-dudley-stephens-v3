@@ -1,5 +1,43 @@
 {
   "sections": {
+    "894e8142-307c-4a14-a3e5-7bbe1910bb4e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14938177470506__894e8142-307c-4a14-a3e5-7bbe1910bb4e-image-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-left",
+            "image": "{{ collection.metafields.custom.hero_image.value }}",
+            "image_mobile": "{{ collection.metafields.custom.mobile_hero_image.value }}",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--14938177470506__894e8142-307c-4a14-a3e5-7bbe1910bb4e-image-1"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "framed": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
     "collection-header": {
       "type": "collection-header",
       "custom_css": [
@@ -12,52 +50,13 @@
         "parallax_direction": "top"
       }
     },
-    "894e8142-307c-4a14-a3e5-7bbe1910bb4e": {
-      "type": "slideshow",
-      "blocks": {
-        "template--14938177470506__894e8142-307c-4a14-a3e5-7bbe1910bb4e-image-1": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "The Equestrian Collection",
-            "title_size": 80,
-            "text_color": "#ffffff",
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Horses.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Horse.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 46
-          }
-        }
-      },
-      "block_order": [
-        "template--14938177470506__894e8142-307c-4a14-a3e5-7bbe1910bb4e-image-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_height": "natural",
-        "mobile_height": "auto",
-        "parallax": true,
-        "framed": true,
-        "style": "bars",
-        "autoplay": true,
-        "autoplay_speed": 5,
-        "lazyload_images": true
-      }
-    },
     "740d54a7-c2df-4b3f-b8cd-80bb36f3fe7e": {
       "type": "advanced-content",
       "blocks": {
         "template--14938177470506__740d54a7-c2df-4b3f-b8cd-80bb36f3fe7e-liquid-1": {
           "type": "liquid",
           "settings": {
-            "code": "{% if collection.description %}\n<div class=\"text-center\">{{ collection.description }}<\/div>\n{% endif %}",
+            "code": "{% comment %}==========\nDO NOT REMOVE, this displays the collection description\n=========={% endcomment %}\n\n{% if collection.description %}\n<div class=\"text-center\">{{ collection.description }}<\/div>\n{% endif %}\n\n{% if collection.description == blank %}\n{% style %}\n.custom-content {\ndisplay: none;\n}\n{% endstyle %}\n{% endif %}",
             "width": "100%",
             "alignment": "center"
           }
@@ -109,8 +108,8 @@
     }
   },
   "order": [
-    "collection-header",
     "894e8142-307c-4a14-a3e5-7bbe1910bb4e",
+    "collection-header",
     "740d54a7-c2df-4b3f-b8cd-80bb36f3fe7e",
     "main-collection"
   ]

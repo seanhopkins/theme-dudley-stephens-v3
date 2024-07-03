@@ -12,18 +12,19 @@
         "template--15051909660714__2bd673d7-c982-4d47-9c06-acef1a3cff9d-image-1": {
           "type": "image",
           "settings": {
-            "top_subheading": "THANK YOU",
-            "title": "20% off",
-            "title_size": 80,
-            "text_color": "#ffffff",
-            "subheading": "Save  on all #dsgoods, forever.",
+            "top_subheading": "",
+            "title": "Dudley Discount for Essential Workers",
+            "title_size": 50,
+            "text_color": "#232528",
+            "subheading": "Where would we be without our teachers, military members and health workers\/first responders? We appreciate all you do—so we’re giving you a discount of 15% off sitewide (some exclusions may apply).",
             "link": "",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Slider_8e3a3b35-156d-4f52-9e98-a140fab8d7d8.jpg",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify:\/\/shop_images\/Slider_7f9178ba-4be7-450a-9992-26c6fd47e6a1.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_bc8680da-de76-4779-8080-b9b329e55089.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -32,11 +33,15 @@
       "block_order": [
         "template--15051909660714__2bd673d7-c982-4d47-9c06-acef1a3cff9d-image-1"
       ],
+      "custom_css": [
+        ".hero__subtitle {max-width: 700px;}",
+        ".hero__text-shadow:before {display: none;}"
+      ],
       "settings": {
         "section_height": "natural",
         "mobile_height": "auto",
         "parallax": false,
-        "framed": true,
+        "framed": false,
         "style": "bars",
         "autoplay": false,
         "autoplay_speed": 5,
@@ -46,91 +51,21 @@
     "bd5bcecf-9dae-44a0-b877-3128b4358b0f": {
       "type": "rich-text",
       "blocks": {
-        "template--15051909660714__bd5bcecf-9dae-44a0-b877-3128b4358b0f-heading-1": {
-          "type": "heading",
-          "settings": {
-            "title": "Our discount program"
-          }
-        },
         "template--15051909660714__bd5bcecf-9dae-44a0-b877-3128b4358b0f-text-1": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Our community is everything. It’s full of people who work in pursuit of a better, healthier future. That’s why we’re proud to offer a 20% discount* to teachers, first responders, medical professionals, military and students. Getting verified is easy and quick—so don’t wait.<\/p>"
+            "text": "<p>To register and receive your discount, just follow our SheerID registration below. The code you receive is good for one order; eligible essential workers can be re-verified after 30 days have passed since the previous approval.<\/p><p>Happy shopping—and thank you for your service to all of us!<\/p>"
           }
         }
       },
       "block_order": [
-        "template--15051909660714__bd5bcecf-9dae-44a0-b877-3128b4358b0f-heading-1",
         "template--15051909660714__bd5bcecf-9dae-44a0-b877-3128b4358b0f-text-1"
       ],
       "settings": {
         "align_text": "center",
         "narrow_column": true,
         "divider": false
-      }
-    },
-    "57a1120f-e667-421e-9978-6d952fa5d5a1": {
-      "type": "rich-text",
-      "blocks": {
-        "0812a458-2788-46e7-8680-83a79790fab8": {
-          "type": "heading",
-          "settings": {
-            "title": "Who is Eligible?"
-          }
-        }
-      },
-      "block_order": [
-        "0812a458-2788-46e7-8680-83a79790fab8"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": true
-      }
-    },
-    "9b165baf-2795-4163-9e5e-75bbe6fab581": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DS_F2018_LITTLE_GIRLS_TURTLENECK_WHITE_0342.jpg",
-        "image_mask": "none",
-        "image2": "shopify:\/\/shop_images\/penguin-wonderland.png",
-        "image2_mask": "none",
-        "subtitle": "",
-        "title": "Teachers",
-        "text": "<p>Educators, faculty and staff at K-12 schools and universities<\/p>",
-        "button_label": "Get Verified",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "right",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
-    "8ab5da3b-b1b5-470a-9962-ef369cd80b91": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DS_F2018_LITTLE_GIRLS_TURTLENECK_WHITE_0342.jpg",
-        "image_mask": "none",
-        "image2": "shopify:\/\/shop_images\/KAKI_PULLOVER_GREEN_CAMO_04433.jpg",
-        "image2_mask": "none",
-        "subtitle": "",
-        "title": "Medical Professionals",
-        "text": "<p>Nurses, doctors and other licensed healthcare workers<\/p>",
-        "button_label": "Get Verified",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "left",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
       }
     },
     "f58612b1-0e45-40e6-a0ff-6817af31afff": {
@@ -147,6 +82,83 @@
       "block_order": [
         "template--15051909660714__f58612b1-0e45-40e6-a0ff-6817af31afff-text-1"
       ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "12a16dc6-533c-4b97-b394-648bff25e753": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--15051909660714__12a16dc6-533c-4b97-b394-648bff25e753-liquid-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"text-center\">\n<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a class=\"btn btn--primary btn--small\" onclick=\"displayVerificationMedical()\">Confirm Medical Eligibility<\/a>\n<script>\nfunction displayVerificationMedical() {\nconst verificationUrl = 'https:\/\/services.sheerid.com\/verify\/653181526f268b650f8941bd\/';\nsheerId.loadInModal(\nverificationUrl, {\nmobileRedirect: true\n});\n};\n<\/script>\n<\/div>",
+            "width": "25%",
+            "alignment": "center"
+          }
+        },
+        "410f5be5-2bd2-41c4-9264-31600ddaca91": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"text-center\">\n<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a class=\"btn btn--primary btn--small\" onclick=\"displayVerificationMilitary()\">Confirm Military Eligibility<\/a>\n<script>\nfunction displayVerificationMilitary() {\nconst verificationUrl = 'https:\/\/services.sheerid.com\/verify\/654cd47450631b79bb56e204\/';\nsheerId.loadInModal(\nverificationUrl, {\nmobileRedirect: true\n});\n};\n<\/script>\n<\/div>",
+            "width": "25%",
+            "alignment": "center"
+          }
+        },
+        "6cbd2af0-fb93-40ff-8892-3b9340a02a31": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"text-center\">\n<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a class=\"btn btn--primary btn--small\" onclick=\"displayVerificationTeacher()\">Confirm Teacher Eligibility<\/a>\n<script>\nfunction displayVerificationTeacher() {\nconst verificationUrl = 'https:\/\/services.sheerid.com\/verify\/653182469376956b0337ebb4\/';\nsheerId.loadInModal(\nverificationUrl, {\nmobileRedirect: true\n});\n};\n<\/script>\n<\/div>",
+            "width": "25%",
+            "alignment": "center"
+          }
+        },
+        "liquid_kETLyA": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"text-center\">\n<link rel=\"stylesheet\" href=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.css\" type=\"text\/css\"\/>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@sheerid\/jslib@1\/sheerid.js\"><\/script>\n<a class=\"btn btn--primary\" onclick=\"displayVerificationFirstResponder()\">Confirm First Responder Eligibility<\/a>\n<script>\n  function displayVerificationFirstResponder() {\n    const verificationUrl = 'https:\/\/services.sheerid.com\/verify\/658f984f4081f66a3886d3fb\/';\n    sheerId.loadInModal(\n        verificationUrl, {\n        mobileRedirect: true\n      });\n  };\n<\/script>\n<\/div>",
+            "width": "25%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15051909660714__12a16dc6-533c-4b97-b394-648bff25e753-liquid-1",
+        "410f5be5-2bd2-41c4-9264-31600ddaca91",
+        "6cbd2af0-fb93-40ff-8892-3b9340a02a31",
+        "liquid_kETLyA"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_znDVDy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6jap6P": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "text_FY8UjH": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Terms of offer: Essential Workers discount of 15% off applies to discountable products (some exclusions apply) for teachers, military members and health care workers\/first responders verified through SheerID only. Code is good for one order; eligible essential workers can be re-verified after 30 days have passed since the previous approval. No minimum spend required. Offer cannot be combined with Pineapple Points or other discount codes. Program is subject to change.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6jap6P",
+        "text_FY8UjH"
+      ],
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -158,9 +170,8 @@
     "main",
     "2bd673d7-c982-4d47-9c06-acef1a3cff9d",
     "bd5bcecf-9dae-44a0-b877-3128b4358b0f",
-    "57a1120f-e667-421e-9978-6d952fa5d5a1",
-    "9b165baf-2795-4163-9e5e-75bbe6fab581",
-    "8ab5da3b-b1b5-470a-9962-ef369cd80b91",
-    "f58612b1-0e45-40e6-a0ff-6817af31afff"
+    "f58612b1-0e45-40e6-a0ff-6817af31afff",
+    "12a16dc6-533c-4b97-b394-648bff25e753",
+    "rich_text_znDVDy"
   ]
 }

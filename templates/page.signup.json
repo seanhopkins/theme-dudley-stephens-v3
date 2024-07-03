@@ -13,7 +13,7 @@
           "type": "title",
           "settings": {
             "title": "New styles. Early sale alerts. Styling ideas and inspiration.",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "template--14975512739882__85510021-b31d-4805-bf08-ff32d547ba06-text-1": {
@@ -41,7 +41,7 @@
         "color_background": "rgba(0,0,0,0)",
         "color_text": "#1c1d1d",
         "top_padding": true,
-        "bottom_padding": true
+        "bottom_padding": false
       }
     },
     "66c12cf9-7b53-4b9b-a637-cf5ca04e5cb9": {

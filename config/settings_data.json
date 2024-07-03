@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "color_body_bg": "#ffffff",
@@ -67,28 +76,32 @@
     "cart_type": "drawer",
     "cart_notes_enable": true,
     "cart_terms_conditions_enable": false,
+    "rebuy_widget_embed": "{% comment %}\n<div data-rebuy-id=\"127216\"><\/div>\n{% endcomment %}",
     "gwp_enable": false,
-    "gwp_tier_1_product_ids": "3952059940906",
-    "gwp_tier_1_threshold": "150",
-    "gwp_tier_1_spend_more": "You’re just [money] away from our Hemlock Headband!",
-    "gwp_tier_1_unlocked": "<p>Good news: Your $150+ cart will earn you our Hemlock Headband! Add one to your cart before checking out, with no additional charge.<\/p>",
-    "gwp_tier_2_product_ids": "3952059940906,6923672420394",
-    "gwp_tier_2_threshold": "200",
+    "gwp_tier_1_product_ids": "7300989288490",
+    "gwp_tier_1_threshold": "50",
+    "gwp_tier_1_spend_more": "You’re just [money] away from a free DS Reusable Tote",
+    "gwp_tier_1_unlocked": "<p>Good news: Your $50+ cart has earned you our DS Signature reusable Tote gift with purchase! Add one to your cart before checking out, with no additional charge.<\/p>",
+    "gwp_tier_2_product_ids": "7165973463082",
+    "gwp_tier_2_threshold": "150",
+    "gwp_tier_2_spend_more": "You’re just [money] away from our 2015 Hat gift with purchase",
+    "gwp_tier_2_unlocked": "<p>Good news: Your $150+ cart has earned you a DS Reusable Tote gift with purchase ! Add one to your cart before checking out, with no additional charge.<\/p>",
     "social_facebook_link": "https:\/\/www.facebook.com\/dudleystephensofficial",
     "social_twitter_link": "",
     "social_pinterest_link": "https:\/\/www.pinterest.com\/dudley_stephens\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/dudley_stephens\/",
     "social_snapchat_link": "",
     "social_tiktok_link": "https:\/\/www.tiktok.com\/@dudleystephens",
+    "favicon": "shopify:\/\/shop_images\/Pineapple_Black.jpg",
     "show_breadcrumbs": false,
     "show_breadcrumbs_collection_link": false,
     "disable_animations": true,
     "product_grid_enable_swatches": true,
-    "materials_list": "Material: Vello Fleece\nMaterial: Terry Fleece\nMaterial: Bubble Fleece\nMaterial: Double Layer Vello Fleece\nMaterial: Double Layer Vello Fleece with Neon Zipper\nMaterial: Brushed Fleece\nMaterial: Chevron\nMaterial: Ribbed Fleece\nMaterial: Vello Fleece Color Block\nMaterial: Shearling Fleece\nMaterial: Lightweight Vello Fleece\nMaterial: Townhouse Trunk Show\nMaterial: Silk\nMaterial: N\/A\nMaterial: Striped Fleece\nMaterial: Eco Jersey\nMaterial: Repreve® Jersey\nMaterial: Repreve® Striped Jersey\nMaterial: Repreve® Stretch\nMaterial: Waffle Jersey\nMaterial: Sherpa Fleece\nMaterial: Eco Stretch\nMaterial: Waffle\/Vello Fleece\nMaterial: Waffle\nMaterial: Luxe Stretch\nMaterial: Power Stretch\nMaterial: Lustre Puff",
-    "show_tag_sale_message_clp": false,
-    "show_tag_sale_message_pdp": false,
-    "tag_sale_tag": "bday",
-    "tag_sale_message": "<p>ANNIVERSARY SALE<\/p>",
+    "materials_list": "Material: Vello Fleece\nMaterial: Terry Fleece\nMaterial: Bubble Fleece\nMaterial: Double Layer Vello Fleece\nMaterial: Double Layer Vello Fleece with Neon Zipper\nMaterial: Brushed Fleece\nMaterial: Chevron\nMaterial: Ribbed Fleece\nMaterial: Vello Fleece Color Block\nMaterial: Shearling Fleece\nMaterial: Lightweight Vello Fleece\nMaterial: Townhouse Trunk Show\nMaterial: Silk\nMaterial: N\/A\nMaterial: Striped Fleece\nMaterial: Eco Jersey\nMaterial: Repreve® Jersey\nMaterial: Repreve® Striped Jersey\nMaterial: Repreve® Stretch\nMaterial: Waffle Jersey\nMaterial: Sherpa Fleece\nMaterial: Eco Stretch\nMaterial: Waffle\/Vello Fleece\nMaterial: Waffle\nMaterial: Luxe Stretch\nMaterial: Power Stretch\nMaterial: Lustre Puff\nMaterial: Merino Wool",
+    "show_tag_sale_message_clp": true,
+    "show_tag_sale_message_pdp": true,
+    "tag_sale_tag": "_discountable",
+    "tag_sale_message": "<p>40% off with code SUMMERFUN<\/p>",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
@@ -167,6 +180,14 @@
               "swatch_image": "shopify:\/\/shop_images\/black-cobalt_3e895876-10b6-4a4f-a057-666493860cf7.png"
             }
           },
+          "color_swatch_rBXkg9": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Black\/Cream Cabana Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/black-cream-cabana-stripe.jpg"
+            }
+          },
           "02c54f45-7e25-4ac9-83f3-3cd521e87dd9": {
             "type": "color_swatch",
             "settings": {
@@ -232,6 +253,23 @@
               "monogram_swatch": "shopify:\/\/shop_images\/Blue_Camo_Terry.jpg"
             }
           },
+          "4794af07-7501-447a-b3a3-6d06c68081ce": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Blue Floral",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/blue-floral.png",
+              "monogram_swatch": "shopify:\/\/shop_images\/Blue_Floral_Monogram_Swatch.png"
+            }
+          },
+          "color_swatch_44jFPn": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Blue Pinstripe",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/blue-pinstripe.png"
+            }
+          },
           "1574452635410": {
             "type": "color_swatch",
             "settings": {
@@ -284,7 +322,7 @@
             "settings": {
               "title": "Burgundy",
               "swatch_color": "#9d3f49",
-              "monogram_swatch": "shopify:\/\/shop_images\/0000s_0005_burgundy.jpg"
+              "monogram_swatch": "shopify:\/\/shop_images\/Burgundy_Monogram_Fabric_Swatch.png"
             }
           },
           "5abc2910-ee16-48e6-b991-e5e7ea69992e": {
@@ -402,7 +440,7 @@
             "settings": {
               "title": "Cobalt",
               "swatch_color": "#2f4697",
-              "monogram_swatch": "shopify:\/\/shop_images\/cobalt.jpg"
+              "monogram_swatch": "shopify:\/\/shop_images\/Cobalt_Monogram_Fabric_Swatch.png"
             }
           },
           "a69a798e-2ddd-4893-b7f0-0f201addc587": {
@@ -419,6 +457,22 @@
               "title": "Cocoa",
               "swatch_color": "#57331f",
               "monogram_swatch": "shopify:\/\/shop_images\/FDFF317D-8161-4C51-9558-CA8930F509B6_4_5005_c.jpg"
+            }
+          },
+          "c69de3dc-25d0-4da3-ac99-2b49c4520ae9": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Cotton Candy",
+              "swatch_color": "#ffa9d6",
+              "monogram_swatch": "shopify:\/\/shop_images\/Cotton_Candy_Monogram_Swatch.png"
+            }
+          },
+          "color_swatch_bXnDkK": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Cotton Candy Floral",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/cotton-candy-floral.png"
             }
           },
           "8bae95ee-8c1d-4178-a303-87dd3e91273f": {
@@ -453,11 +507,19 @@
               "monogram_swatch": "shopify:\/\/shop_images\/450814E3-3120-4BD3-A8F6-5373C8899304_1_201_a.jpg"
             }
           },
+          "d484428c-aaa3-4651-9809-85efd1935aec": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Ecru",
+              "swatch_color": "#e4c5b4"
+            }
+          },
           "ae995c2d-bad7-464a-8216-d2196cdf43d2": {
             "type": "color_swatch",
             "settings": {
               "title": "Elderberry",
-              "swatch_color": "#4c3246"
+              "swatch_color": "#4c3246",
+              "monogram_swatch": "shopify:\/\/shop_images\/Elderberry_Monogram_Fabric_Swatch.png"
             }
           },
           "d777daf7-be50-4aa8-b326-a0c3487d37bd": {
@@ -480,14 +542,16 @@
             "type": "color_swatch",
             "settings": {
               "title": "Frost",
-              "swatch_color": "#b5ced4"
+              "swatch_color": "#b5ced4",
+              "monogram_swatch": "shopify:\/\/shop_images\/Frost_monogram_swatch.png"
             }
           },
           "c0374977-3323-4214-a3f7-f1cce5b2f5f6": {
             "type": "color_swatch",
             "settings": {
               "title": "Goldfinch",
-              "swatch_color": "#edea9b"
+              "swatch_color": "#edea9b",
+              "monogram_swatch": "shopify:\/\/shop_images\/Goldfinch_monogram_swatch.png"
             }
           },
           "1573761957468": {
@@ -575,6 +639,15 @@
               "swatch_image": "shopify:\/\/shop_images\/heather-grey-white.png"
             }
           },
+          "color_swatch_Kibhww": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Heather Grey with American Flag",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/Heather-Grey-with-American-Flag.jpg",
+              "monogram_swatch": "shopify:\/\/shop_images\/Heather_Grey_Monogram_Swatch.png"
+            }
+          },
           "dd440519-9e9b-43bf-9b66-3d21f7703fc2": {
             "type": "color_swatch",
             "settings": {
@@ -589,7 +662,8 @@
             "settings": {
               "title": "Holiday Tartan",
               "swatch_color": "",
-              "swatch_image": "shopify:\/\/shop_images\/holiday-tartan.png"
+              "swatch_image": "shopify:\/\/shop_images\/holiday-tartan.png",
+              "monogram_swatch": "shopify:\/\/shop_images\/Holiday_Tartan_monogram_swatch.png"
             }
           },
           "3b47349d-917d-4237-a0f3-0cf745769167": {
@@ -612,7 +686,7 @@
             "settings": {
               "title": "Ice Blue",
               "swatch_color": "#c7eafb",
-              "monogram_swatch": "shopify:\/\/shop_images\/ice-blue.jpg"
+              "monogram_swatch": "shopify:\/\/shop_images\/Ice_Blue_Monogram_Fabric_Swatch.png"
             }
           },
           "1595351270156": {
@@ -645,7 +719,7 @@
             "settings": {
               "title": "Island Coral",
               "swatch_color": "#f6cac3",
-              "monogram_swatch": "shopify:\/\/shop_images\/40B547F4-D6C6-4989-89E7-6F2CB9F11FBE_4_5005_c.jpg"
+              "monogram_swatch": "shopify:\/\/shop_images\/Island_Coral_Monogram_Swatch.png"
             }
           },
           "1595351255417": {
@@ -699,7 +773,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Marine Green",
-              "swatch_color": "#497461"
+              "swatch_color": "#497461",
+              "monogram_swatch": "shopify:\/\/shop_images\/Marine_Green_monogram_swatch_0e7f4275-1336-467c-876c-92eda9d1f090.png"
             }
           },
           "e7c40981-5c8b-49f2-83c2-54c4a7625f44": {
@@ -769,7 +844,7 @@
             "settings": {
               "title": "Natural Blush",
               "swatch_color": "#f0e3d2",
-              "monogram_swatch": "shopify:\/\/shop_images\/natural-blush.jpg"
+              "monogram_swatch": "shopify:\/\/shop_images\/Natural_Blush_Monogram_Swatch.png"
             }
           },
           "1600111084882": {
@@ -802,6 +877,14 @@
               "title": "Navy Cabana Stripe",
               "swatch_color": "",
               "swatch_image": "shopify:\/\/shop_images\/NavyCabanaStripe.jpg"
+            }
+          },
+          "color_swatch_RzFwaH": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy Scallop Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/navy-scallop-stripe.png"
             }
           },
           "1600111070801": {
@@ -861,12 +944,29 @@
               "monogram_swatch": "shopify:\/\/shop_images\/CF6CA0EF-3789-4371-B35E-D51683D3E4CE_4_5005_c.jpg"
             }
           },
+          "color_swatch_ThNVEG": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy\/White Placed Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/navy-white-placed-stripe.png"
+            }
+          },
           "106b0894-1ebb-42d8-be22-ced0d7a9f1da": {
             "type": "color_swatch",
             "settings": {
               "title": "Navy \/ White Wide Stripe",
               "swatch_color": "",
               "swatch_image": "shopify:\/\/shop_images\/Navy_White.jpg"
+            }
+          },
+          "color_swatch_k9M94F": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy with American Flag",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/Navy-with-American-Flag.jpg",
+              "monogram_swatch": "shopify:\/\/shop_images\/Navy_Vello_Monogram_Swatch.png"
             }
           },
           "73457367-7a4c-48c2-8fb6-42cbd2fcc69d": {
@@ -978,7 +1078,7 @@
             "settings": {
               "title": "Periwinkle",
               "swatch_color": "#94bce4",
-              "monogram_swatch": "shopify:\/\/shop_images\/periwinkle.jpg"
+              "monogram_swatch": "shopify:\/\/shop_images\/Periwinkle_Monogram_Swatch.png"
             }
           },
           "1573770334967": {
@@ -1001,7 +1101,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Pink Peony",
-              "swatch_color": "#f9bac2"
+              "swatch_color": "#f9bac2",
+              "monogram_swatch": "shopify:\/\/shop_images\/Pink_Peony_Monogram_Fabric_Swatch.png"
             }
           },
           "e20cf8b1-8f97-477b-b058-c9ba7bcb5765": {
@@ -1068,6 +1169,15 @@
               "monogram_swatch": "shopify:\/\/shop_images\/red.jpg"
             }
           },
+          "color_swatch_7QXUUQ": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Red \/ Cotton Candy",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/red-cotton-candy.png",
+              "monogram_swatch": "shopify:\/\/shop_images\/Red_Cotton_Candy.png"
+            }
+          },
           "1600111056141": {
             "type": "color_swatch",
             "settings": {
@@ -1092,11 +1202,26 @@
               "monogram_swatch": "shopify:\/\/shop_images\/ROYALVIOLET_TERRY.png"
             }
           },
+          "1c8c81b8-206d-400a-affd-52052c767d76": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Sea Glass Green",
+              "swatch_color": "#437d6d"
+            }
+          },
           "1574187025080": {
             "type": "color_swatch",
             "settings": {
               "title": "Sherbet",
               "swatch_color": "#e98473"
+            }
+          },
+          "color_swatch_aMzbja": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Sketched Vine",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/sketched-vine.png"
             }
           },
           "1574187124703": {
@@ -1110,7 +1235,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Spruce",
-              "swatch_color": "#374431"
+              "swatch_color": "#374431",
+              "monogram_swatch": "shopify:\/\/shop_images\/Spruce_Monogram_Fabric_Swatch.png"
             }
           },
           "1600103847112": {
@@ -1127,6 +1253,14 @@
               "title": "Summer Ikat",
               "swatch_color": "",
               "swatch_image": "shopify:\/\/shop_images\/Summer_Ikat.jpg"
+            }
+          },
+          "1d3fb780-b30a-489c-bfdb-bf7ef019c9e5": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Summer Floral",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/summer-floral.png"
             }
           },
           "f6099cba-5aa4-4657-b41d-8268f1b91445": {
@@ -1172,7 +1306,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Violet",
-              "swatch_color": "#9e91c3"
+              "swatch_color": "#9e91c3",
+              "monogram_swatch": "shopify:\/\/shop_images\/Violet_monogram_swatch.png"
             }
           },
           "e6bd5ae0-f88f-4b77-becb-162959cb8eec": {
@@ -1211,7 +1346,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Winterberry",
-              "swatch_color": "#8c2230"
+              "swatch_color": "#8c2230",
+              "monogram_swatch": "shopify:\/\/shop_images\/Winterberry_monogram_swatch.png"
             }
           }
         },
@@ -1223,6 +1359,7 @@
           "707afe18-710f-4f2b-b682-86f10dd3e3f3",
           "1573762103534",
           "b32b6997-f9f0-47ea-8155-00ab3dee3a23",
+          "color_swatch_rBXkg9",
           "02c54f45-7e25-4ac9-83f3-3cd521e87dd9",
           "91db2672-6dff-454e-bd3b-be06227ecc5a",
           "0c32430c-3820-41e6-bcc1-180f9515102d",
@@ -1231,6 +1368,8 @@
           "1600111007963",
           "9964f19b-b16a-413f-bdca-c90f29d81277",
           "79e848db-dfc8-4f23-aff5-32b5ceff5893",
+          "4794af07-7501-447a-b3a3-6d06c68081ce",
+          "color_swatch_44jFPn",
           "1574452635410",
           "d87df12a-d2fd-41da-8dd3-6a71e88bd407",
           "68f73094-1f7c-4be5-af6e-80e8bd0c1e2c",
@@ -1255,10 +1394,13 @@
           "1574186976358",
           "a69a798e-2ddd-4893-b7f0-0f201addc587",
           "1602597080054",
+          "c69de3dc-25d0-4da3-ac99-2b49c4520ae9",
+          "color_swatch_bXnDkK",
           "8bae95ee-8c1d-4178-a303-87dd3e91273f",
           "0e835829-040e-4fea-b13d-104e7043648b",
           "194151db-ffc1-4605-9e0d-ef117bcd30fb",
           "9403ef65-0d9b-457e-8f04-c242b2aef3c5",
+          "d484428c-aaa3-4651-9809-85efd1935aec",
           "ae995c2d-bad7-464a-8216-d2196cdf43d2",
           "d777daf7-be50-4aa8-b326-a0c3487d37bd",
           "1602597047269",
@@ -1275,6 +1417,7 @@
           "4d377bae-e678-4b22-bc5e-b84ab9497726",
           "1595351289499",
           "1600111146861",
+          "color_swatch_Kibhww",
           "dd440519-9e9b-43bf-9b66-3d21f7703fc2",
           "0f4c9ee9-f0b8-486f-b853-eb9d76149e15",
           "3b47349d-917d-4237-a0f3-0cf745769167",
@@ -1304,6 +1447,7 @@
           "ff9e58a6-a3b2-4ef4-8125-2b783b7bcd0b",
           "1573761486525",
           "ac2a8588-f91a-445e-9834-f0b0e97ed7f0",
+          "color_swatch_RzFwaH",
           "1600111070801",
           "f84d52f5-5708-4d22-9636-fe58e467a931",
           "1600111133731",
@@ -1311,7 +1455,9 @@
           "c82d89f0-0c16-4859-8532-f0b5fc3a542c",
           "1595351074336",
           "2a5feed1-5684-4dd3-ae34-31c1c162d128",
+          "color_swatch_ThNVEG",
           "106b0894-1ebb-42d8-be22-ced0d7a9f1da",
+          "color_swatch_k9M94F",
           "73457367-7a4c-48c2-8fb6-42cbd2fcc69d",
           "582f0fb2-26a2-4e55-b212-8c2df81d963a",
           "1573770344803",
@@ -1337,14 +1483,18 @@
           "305538a8-cbd3-4ae0-a770-165d1daed1f6",
           "1602596994240",
           "1573761680636",
+          "color_swatch_7QXUUQ",
           "1600111056141",
           "558933fd-6bb0-437b-887a-fd7809f851e7",
           "245b6bab-9bb9-4141-a7b8-e83d3a44419d",
+          "1c8c81b8-206d-400a-affd-52052c767d76",
           "1574187025080",
+          "color_swatch_aMzbja",
           "1574187124703",
           "97cb6275-4ab8-4fcf-8274-4fea59378220",
           "1600103847112",
           "2c3238ec-1fbe-4360-a8dd-bf1027f0a6c3",
+          "1d3fb780-b30a-489c-bfdb-bf7ef019c9e5",
           "f6099cba-5aa4-4657-b41d-8268f1b91445",
           "36bd77b7-82b2-4a5e-a9e4-2461cc5daf77",
           "6bfdaac1-dd78-4d5e-a01a-438b11d0e6de",
@@ -1358,6 +1508,14 @@
           "c8ac5c7d-81b0-494f-af6b-de00a0d6153b"
         ],
         "settings": {
+        }
+      },
+      "giftcard-header": {
+        "type": "giftcard-header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/ds-logo-navy--dark-mode.png",
+          "desktop_logo_width": 200,
+          "mobile_logo_width": 140
         }
       }
     },
@@ -1385,29 +1543,28 @@
         "settings": {
         }
       },
+      "5946647744298494267": {
+        "type": "shopify:\/\/apps\/wishlist-plus\/blocks\/wishlist-app-embed\/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "15014643352720781508": {
         "type": "shopify:\/\/apps\/wrapped\/blocks\/app-embed\/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
         "disabled": false,
         "settings": {
-          "cart_widget_enabled": false,
-          "item_widget_enabled": true,
-          "product_widget_enabled": false,
-          "message_enabled": false,
-          "sender_recipient": "none",
-          "message_max_length": 250,
+          "gift_thumbnail_enabled": false,
+          "gift_thumbnail_position": "--wrapped-thumbnail-position-start",
+          "gift_thumbnail_size": 40,
           "show_pricing": true,
           "money_filter": "money_without_currency",
-          "variant_selector_type": "images",
-          "disabled_checkbox": false,
           "font_scale": 100,
           "font_color": "#232528",
           "checkbox_radio_color": "rgba(0,0,0,0)",
           "background_color": "#ffffff",
           "border_color": "#232528",
           "border_radius": 2,
-          "cart_widget_text_alignment": "--wrapped-checkbox--label-left",
-          "item_widget_text_alignment": "--wrapped-checkbox--label-left",
-          "product_widget_text_alignment": "--wrapped-checkbox--label-left"
+          "cart_widget_text_alignment": "--wrapped-checkbox--label-left"
         }
       }
     }
@@ -1865,7 +2022,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-
+      ".section-header {margin-bottom: 20px;}"
     ]
   }
 }

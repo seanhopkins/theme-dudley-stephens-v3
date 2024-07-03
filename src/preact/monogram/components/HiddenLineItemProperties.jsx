@@ -50,6 +50,9 @@ const HiddenLineItemProperties = ({
     if (handleize(style) === "block") {
       return monogram;
     }
+    if (handleize(style) === "heart") {
+      return "heart";
+    }
 
     if (handleize(style) === "monogram") {
       return (
@@ -107,6 +110,15 @@ const HiddenLineItemProperties = ({
         name="items[1][properties][Monogram]"
         value={setMonogramLineItemProperty()}
       />
+
+      {/* Conditional Monogram-2 for specific products */}
+      {(data.parent_product.id === 7099776991274 || data.parent_product.id === 7099775451178) && (
+        <input
+          type="hidden"
+          name="items[1][properties][Monogram-2]"
+          value="Flag"
+        />
+      )}
     </>
   );
 };

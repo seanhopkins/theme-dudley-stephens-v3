@@ -18,8 +18,8 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Shop 40% off sitewide with code SUMMERFUN (including sale items)!",
-            "link": "shopify:\/\/collections\/shop-all"
+            "link_text": "Shop the Summer Collection here.",
+            "link": "shopify:\/\/collections\/summer-collection"
           }
         },
         "announcement-1": {

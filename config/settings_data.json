@@ -483,6 +483,14 @@
               "monogram_swatch": "shopify:\/\/shop_images\/CF89CB93-C762-4A70-84F8-332366AA06DA_4_5005_c.jpg"
             }
           },
+          "color_swatch_WdUEWB": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Cream\/Army Green Placed Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/cream-army-green-placed-stripe.png"
+            }
+          },
           "0e835829-040e-4fea-b13d-104e7043648b": {
             "type": "color_swatch",
             "settings": {
@@ -536,6 +544,14 @@
               "title": "Emerald Green",
               "swatch_color": "#115e3e",
               "monogram_swatch": "shopify:\/\/shop_images\/PARK_SLOPE_VELLO_EMERALD_122.jpg"
+            }
+          },
+          "color_swatch_yET7nV": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Fall Tartan",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/fall-tartan.png"
             }
           },
           "b62f44a3-e13a-43c3-8dd0-cd070654e5b7": {
@@ -738,6 +754,14 @@
               "swatch_image": "shopify:\/\/shop_images\/island-ikat.jpg"
             }
           },
+          "color_swatch_NRYRf3": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Khaki\/Black Mariner Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/khaki-black-mariner-stripe.png"
+            }
+          },
           "1583256044838": {
             "type": "color_swatch",
             "settings": {
@@ -791,6 +815,14 @@
               "title": "Mestiza Chinoiserie",
               "swatch_color": "",
               "swatch_image": "shopify:\/\/shop_images\/mestiza-chinoiserie.jpg"
+            }
+          },
+          "color_swatch_3xtF7N": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Midnight Floral",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/midnight-floral.png"
             }
           },
           "caa10c17-1f13-414c-b172-8b2b8f352e7c": {
@@ -1397,6 +1429,7 @@
           "c69de3dc-25d0-4da3-ac99-2b49c4520ae9",
           "color_swatch_bXnDkK",
           "8bae95ee-8c1d-4178-a303-87dd3e91273f",
+          "color_swatch_WdUEWB",
           "0e835829-040e-4fea-b13d-104e7043648b",
           "194151db-ffc1-4605-9e0d-ef117bcd30fb",
           "9403ef65-0d9b-457e-8f04-c242b2aef3c5",
@@ -1404,6 +1437,7 @@
           "ae995c2d-bad7-464a-8216-d2196cdf43d2",
           "d777daf7-be50-4aa8-b326-a0c3487d37bd",
           "1602597047269",
+          "color_swatch_yET7nV",
           "b62f44a3-e13a-43c3-8dd0-cd070654e5b7",
           "c0374977-3323-4214-a3f7-f1cce5b2f5f6",
           "1573761957468",
@@ -1429,6 +1463,7 @@
           "1574187253989",
           "1595351255417",
           "174ee371-0d98-47f2-8e4c-c78276479b63",
+          "color_swatch_NRYRf3",
           "1583256044838",
           "9db0910b-3bbe-4da8-bf0d-b0c4cb7666d0",
           "1574207139700",
@@ -1436,6 +1471,7 @@
           "891401f5-ac7b-4f77-9f81-3079e99400a5",
           "e7c40981-5c8b-49f2-83c2-54c4a7625f44",
           "af1af07f-16d5-4d8b-91c2-a88ff79f41e5",
+          "color_swatch_3xtF7N",
           "caa10c17-1f13-414c-b172-8b2b8f352e7c",
           "1573770392416",
           "1573847360608",

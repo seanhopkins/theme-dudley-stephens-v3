@@ -754,6 +754,13 @@
               "swatch_image": "shopify:\/\/shop_images\/island-ikat.jpg"
             }
           },
+          "color_swatch_9cqKFf": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Khaki",
+              "swatch_color": "#b29785"
+            }
+          },
           "color_swatch_NRYRf3": {
             "type": "color_swatch",
             "settings": {
@@ -1097,6 +1104,13 @@
               "swatch_color": "#ec6a42"
             }
           },
+          "color_swatch_AK36aQ": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Paprika",
+              "swatch_color": "#ce4d42"
+            }
+          },
           "1373b977-38b7-462f-8b8e-41a06e1b59ea": {
             "type": "color_swatch",
             "settings": {
@@ -1334,6 +1348,13 @@
               "monogram_swatch": "shopify:\/\/shop_images\/Tie_Dye_Terry.jpg"
             }
           },
+          "color_swatch_WNgnhc": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "True Blue",
+              "swatch_color": "#1f4477"
+            }
+          },
           "9a80cae9-66a8-4d4d-a097-539d575aa31b": {
             "type": "color_swatch",
             "settings": {
@@ -1463,6 +1484,7 @@
           "1574187253989",
           "1595351255417",
           "174ee371-0d98-47f2-8e4c-c78276479b63",
+          "color_swatch_9cqKFf",
           "color_swatch_NRYRf3",
           "1583256044838",
           "9db0910b-3bbe-4da8-bf0d-b0c4cb7666d0",
@@ -1506,6 +1528,7 @@
           "f72afac0-8aa7-4d24-b989-89e6ce61c411",
           "ed1935f4-e063-4e76-b8ef-2c2e49d8c43b",
           "1573770298813",
+          "color_swatch_AK36aQ",
           "1373b977-38b7-462f-8b8e-41a06e1b59ea",
           "1574188159208",
           "1573770334967",
@@ -1536,6 +1559,7 @@
           "6bfdaac1-dd78-4d5e-a01a-438b11d0e6de",
           "8563dcc6-c2c3-433e-80e8-989b61fa6b68",
           "5be8487b-9e1f-4650-9d7d-ca5d267c59a8",
+          "color_swatch_WNgnhc",
           "9a80cae9-66a8-4d4d-a097-539d575aa31b",
           "e6bd5ae0-f88f-4b77-becb-162959cb8eec",
           "1574186951943",

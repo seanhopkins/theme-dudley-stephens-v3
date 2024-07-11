@@ -18,8 +18,8 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Shop the Summer Collection here.",
-            "link": "shopify:\/\/collections\/summer-collection"
+            "link_text": "Shop the Online Sidewalk Sale here!",
+            "link": "shopify:\/\/collections\/sidewalk-sale"
           }
         },
         "announcement-1": {

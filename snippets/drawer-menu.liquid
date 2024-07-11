@@ -27,7 +27,7 @@
             {%- assign has_dropdown = true -%}
           {%- endif -%}
 
-          <li class="mobile-nav__item appear-animation appear-delay-{{ animation_row }}">
+          <li class="mobile-nav__item appear-animation appear-delay-{{ animation_row }} {% if link.title contains "[" %}nav-highlight{% endif %}">
             {%- if has_dropdown -%}
               <div class="mobile-nav__has-sublist">
                 {%- if link.url == '#' -%}
@@ -35,7 +35,7 @@
                     aria-controls="Linklist-{{ child_list_handle }}"{% if link.active or link.child_active %} aria-open="true"{% endif %}
                     class="mobile-nav__link--button mobile-nav__link--top-level collapsible-trigger collapsible--auto-height{% if link.active or link.child_active %} is-open{% endif %}">
                     <span class="mobile-nav__faux-link"{% if link.active %} data-active="true"{% endif %}>
-                      {{ link.title }}
+                      {{ link.title | remove: "[" | remove: "]" }}
                     </span>
                     <div class="mobile-nav__toggle">
                       <span class="faux-button">
@@ -48,7 +48,7 @@
                     class="mobile-nav__link mobile-nav__link--top-level"
                     id="Label-{{ child_list_handle }}"
                     {% if link.active %}data-active="true"{% endif %}>
-                    {{ link.title }}
+                    {{ link.title | remove: "[" | remove: "]" }}
                   </a>
                   <div class="mobile-nav__toggle">
                     <button type="button"
@@ -61,7 +61,7 @@
                 {%- endif -%}
               </div>
             {%- else -%}
-              <a href="{{ link.url }}" class="mobile-nav__link mobile-nav__link--top-level"{% if link.active %} data-active="true"{% endif %}>{{ link.title }}</a>
+              <a href="{{ link.url }}" class="mobile-nav__link mobile-nav__link--top-level"{% if link.active %} data-active="true"{% endif %}>{{ link.title | remove: "[" | remove: "]" }}</a>
             {%- endif -%}
 
             {%- if has_dropdown -%}

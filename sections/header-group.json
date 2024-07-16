@@ -18,8 +18,8 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Shop the Summer Collection here.",
-            "link": "shopify:\/\/collections\/summer-collection"
+            "link_text": "Shop new dresses & pullovers, just in.",
+            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
           }
         },
         "announcement-1": {

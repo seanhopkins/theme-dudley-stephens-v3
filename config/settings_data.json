@@ -140,6 +140,14 @@
               "monogram_swatch": "shopify:\/\/shop_images\/PARK_SLOPE_VELLO_ARMY_GREEN_084.jpg"
             }
           },
+          "color_swatch_iY6Kmk": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Army Green \/ Navy",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/army-green-navy.jpg"
+            }
+          },
           "328c3ac9-f906-4c22-a2d0-5a712f91c895": {
             "type": "color_swatch",
             "settings": {
@@ -196,6 +204,14 @@
               "swatch_image": "shopify:\/\/shop_images\/Black_Cream.jpg"
             }
           },
+          "color_swatch_fdCtx6": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Black \/ Dudley Green",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/black-dudley-green.jpg"
+            }
+          },
           "91db2672-6dff-454e-bd3b-be06227ecc5a": {
             "type": "color_swatch",
             "settings": {
@@ -225,7 +241,7 @@
             "settings": {
               "title": "Black \/ Off White",
               "swatch_color": "rgba(0,0,0,0)",
-              "swatch_image": "shopify:\/\/shop_images\/black-off-white.png"
+              "swatch_image": "shopify:\/\/shop_images\/black-off-white.jpg"
             }
           },
           "1600111007963": {
@@ -769,6 +785,22 @@
               "swatch_image": "shopify:\/\/shop_images\/khaki-black-mariner-stripe.png"
             }
           },
+          "color_swatch_y7qiKK": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Khaki \/ Cream",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/khaki-cream.jpg"
+            }
+          },
+          "color_swatch_kQzh4J": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Khaki \/ Neon Pink",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/khaki-neon-pink.jpg"
+            }
+          },
           "1583256044838": {
             "type": "color_swatch",
             "settings": {
@@ -806,6 +838,14 @@
               "title": "Marine Green",
               "swatch_color": "#497461",
               "monogram_swatch": "shopify:\/\/shop_images\/Marine_Green_monogram_swatch_0e7f4275-1336-467c-876c-92eda9d1f090.png"
+            }
+          },
+          "color_swatch_emfbEJ": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Marine Green\/Pink Peony\/Camel",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/marine-green-pink-peony-camel.jpg"
             }
           },
           "e7c40981-5c8b-49f2-83c2-54c4a7625f44": {
@@ -924,6 +964,14 @@
               "title": "Navy Scallop Stripe",
               "swatch_color": "",
               "swatch_image": "shopify:\/\/shop_images\/navy-scallop-stripe.png"
+            }
+          },
+          "color_swatch_J4hpwf": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy \/ Army Green",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/navy-army-green.jpg"
             }
           },
           "1600111070801": {
@@ -1407,6 +1455,7 @@
         "block_order": [
           "76bf0161-b7bf-4395-8da0-8b1a1719bc56",
           "2e56268f-d913-4279-a0f8-89b1bb5acbc5",
+          "color_swatch_iY6Kmk",
           "328c3ac9-f906-4c22-a2d0-5a712f91c895",
           "8fdba468-34df-47ae-b4b3-bc5969028dda",
           "707afe18-710f-4f2b-b682-86f10dd3e3f3",
@@ -1414,6 +1463,7 @@
           "b32b6997-f9f0-47ea-8155-00ab3dee3a23",
           "color_swatch_rBXkg9",
           "02c54f45-7e25-4ac9-83f3-3cd521e87dd9",
+          "color_swatch_fdCtx6",
           "91db2672-6dff-454e-bd3b-be06227ecc5a",
           "0c32430c-3820-41e6-bcc1-180f9515102d",
           "0cb9e799-7a4f-4ae7-b480-f638b42eb3f9",
@@ -1486,11 +1536,14 @@
           "174ee371-0d98-47f2-8e4c-c78276479b63",
           "color_swatch_9cqKFf",
           "color_swatch_NRYRf3",
+          "color_swatch_y7qiKK",
+          "color_swatch_kQzh4J",
           "1583256044838",
           "9db0910b-3bbe-4da8-bf0d-b0c4cb7666d0",
           "1574207139700",
           "1573847292915",
           "891401f5-ac7b-4f77-9f81-3079e99400a5",
+          "color_swatch_emfbEJ",
           "e7c40981-5c8b-49f2-83c2-54c4a7625f44",
           "af1af07f-16d5-4d8b-91c2-a88ff79f41e5",
           "color_swatch_3xtF7N",
@@ -1506,6 +1559,7 @@
           "1573761486525",
           "ac2a8588-f91a-445e-9834-f0b0e97ed7f0",
           "color_swatch_RzFwaH",
+          "color_swatch_J4hpwf",
           "1600111070801",
           "f84d52f5-5708-4d22-9636-fe58e467a931",
           "1600111133731",

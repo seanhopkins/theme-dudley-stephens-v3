@@ -58,13 +58,13 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
-            "heading": "The Online Sidewalk Sale",
-            "textarea": "Shop $35 & under styles for women, men & kids.",
-            "cta_text1": "Shop now",
-            "cta_link1": "shopify:\/\/collections\/sidewalk-sale",
+            "heading": "A Midsummer Floral",
+            "textarea": "Rich blue and crisp white dresses & pullovers for now into Fall.",
+            "cta_text1": "Shop the drop",
+            "cta_link1": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Copy_of_2022-02-10-dudleystephens-5260.jpg",
+            "image": "shopify:\/\/shop_images\/2024-06-24-dudleystephens-JDP_3930.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -313,8 +313,8 @@
           "type": "timer",
           "settings": {
             "year": "2024",
-            "month": "05",
-            "day": "14",
+            "month": "07",
+            "day": "16",
             "hour": "10",
             "minute": "00",
             "hide_timer": false,
@@ -324,7 +324,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2": {
           "type": "button",
           "settings": {
-            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-a-breezy-beach-dress",
+            "button_link": "shopify:\/\/blogs\/news\/drop-preview-a-midsummer-floral",
             "button": "Preview now",
             "button_style": "solid"
           }
@@ -343,7 +343,8 @@
         "layout": "banner",
         "full_width": false,
         "text_color": "#232528",
-        "background_color": "#f8f4ed",
+        "background_color": "#ffffff",
+        "background_image": "shopify:\/\/shop_images\/MidsummerFloral.jpg",
         "overlay_color": "#ffffff",
         "overlay_opacity": 80,
         "lazyload_images": true

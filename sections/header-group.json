@@ -18,8 +18,8 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Shop the Online Sidewalk Sale here!",
-            "link": "shopify:\/\/collections\/sidewalk-sale"
+            "link_text": "Shop new dresses & pullovers, just in.",
+            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
           }
         },
         "announcement-1": {

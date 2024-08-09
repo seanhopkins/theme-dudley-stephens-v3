@@ -18,7 +18,7 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Shop new dresses & pullovers, just in.",
+            "link_text": "The Brighton Boatneck is Back! Shop now.",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
           }
         },
@@ -59,13 +59,13 @@
           "settings": {
             "menu_item": "Women's",
             "show_column_1": true,
-            "image_1": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_4008.jpg",
-            "title_1": "Matching Sets",
-            "link_1": "https:\/\/www.dudley-stephens.com\/collections\/matching-sets",
+            "image_1": "shopify:\/\/shop_images\/2024-06-24-dudleystephens-JDP_6443.jpg",
+            "title_1": "Sophisticated Staples",
+            "link_1": "shopify:\/\/collections\/sophisticated-staples",
             "show_column_2": true,
-            "image_2": "shopify:\/\/shop_images\/2024-01-19-DS-JDP_3329_bf1b1174-db73-4fce-b1f2-068139511264.jpg",
-            "title_2": "The Summer Collection",
-            "link_2": "shopify:\/\/pages\/summer-2024"
+            "image_2": "shopify:\/\/shop_images\/2024-06-24-dudleystephens-JDP_4061.jpg",
+            "title_2": "Midsummer Floral",
+            "link_2": "shopify:\/\/collections\/midnight-floral"
           }
         }
       },

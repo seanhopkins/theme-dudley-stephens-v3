@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -8,7 +17,7 @@
           "settings": {
           }
         },
-        "yotpo_loyalty_rewards_product_points_module_app_block_TtGcAp": {
+        "yotpo_loyalty_rewards_product_points_module_app_block_3krepf": {
           "type": "shopify:\/\/apps\/yotpo-loyalty-rewards\/blocks\/product-points-module-app-block\/2f9660df-5018-4e02-9868-ee1fb88d6ccd",
           "settings": {
           }
@@ -118,7 +127,7 @@
       },
       "block_order": [
         "price",
-        "yotpo_loyalty_rewards_product_points_module_app_block_TtGcAp",
+        "yotpo_loyalty_rewards_product_points_module_app_block_3krepf",
         "c73cc944-2dd8-41be-96f5-01434a99b524",
         "separator",
         "898a4dd8-f55a-4ad6-ac0c-2974dd79371b",

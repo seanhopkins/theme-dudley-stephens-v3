@@ -22,6 +22,9 @@ color-swatches .tag-list--swatches li{
   vertical-align: middle;
   margin-bottom: 0;
 }
+color-swatches .tag-list--swatches li:first-of-type .color-swatch--filter {
+  margin-left: 0;
+}
 .variant-wrapper {
   margin-bottom: 1em;
 }
@@ -35,12 +38,11 @@ color-swatches .tag-list--swatches li{
   margin: 0 4px 4px;
   font-size: .8em;
   line-height: .8em;
-  letter-spacing: .03em;
-  text-transform: uppercase;
+  letter-spacing: 0;
 }
 .color-swatch--filter {
-  height: 24px;
-  width: 24px;
+  height: 20px;
+  width: 20px;
 }
 .color-swatch--disabled,
 .color-swatch--unavailable {
@@ -64,14 +66,15 @@ color-swatches .tag-list--swatches li{
   box-shadow: 0px 0px 20px 10px #fff;
 }
 .color-swatch--filter.active {
-    height: 32px;
-    width: 32px;
-    box-shadow: 0 0 0 2px var(--colorBtnPrimary) !important;
+  box-shadow: 0 0 0 2px var(--colorBtnPrimary) !important;
 }
 
 @media only screen and (max-width:768px) {
   .product__swatches {
-      justify-content: center;
+    justify-content: center;
+  }
+  .grid-product__content .tag-list--swatches {
+  margin: 10px;
   }
 }
 </style>

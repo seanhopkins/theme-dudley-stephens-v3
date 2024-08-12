@@ -314,7 +314,7 @@
           "settings": {
             "year": "2024",
             "month": "08",
-            "day": "6",
+            "day": "13",
             "hour": "10",
             "minute": "00",
             "hide_timer": false,
@@ -324,7 +324,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2": {
           "type": "button",
           "settings": {
-            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-the-august-color-collection",
+            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-new-season-neutrals",
             "button": "Preview now",
             "button_style": "solid"
           }
@@ -335,7 +335,6 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-1",
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2"
       ],
-      "disabled": true,
       "custom_css": [
 
       ],
@@ -344,9 +343,9 @@
         "full_width": false,
         "text_color": "#232528",
         "background_color": "#ffffff",
-        "background_image": "shopify:\/\/shop_images\/MidsummerFloral.jpg",
+        "background_image": "shopify:\/\/shop_images\/DropCountdown_falltartan.jpg",
         "overlay_color": "#ffffff",
-        "overlay_opacity": 80,
+        "overlay_opacity": 62,
         "lazyload_images": true
       }
     },

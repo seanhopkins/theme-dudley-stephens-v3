@@ -18,17 +18,16 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "The Brighton Boatneck is Back! Shop now.",
+            "link_text": "Shop the Drop: the Bowery Mock Neck",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
           }
         },
         "announcement-1": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "",
-            "link_text": "Take 30% off all Summer dresses with code GETDRESSED",
-            "link": "shopify:\/\/collections\/dresses"
+            "link_text": "Shop a pop of plaid: the new Five Mile River Scarf for Fall",
+            "link": ""
           }
         }
       },

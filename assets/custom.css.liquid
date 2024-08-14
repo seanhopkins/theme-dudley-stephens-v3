@@ -142,6 +142,7 @@ a:not(.btn):after {
 }
 .grid-product__icons {
    min-width: 120px;
+   text-align: right;
 }
 .grid-product__title {
   font-weight: 500;
@@ -494,4 +495,28 @@ label[for="phone"] {
    padding: 0px 24px !important;
    font-weight: 500 !important;
    letter-spacing: 0 !important;
+}
+
+/* Make icon thicker */
+svg.icon-recycle {
+   fill:none;
+   stroke-width:6px;
+   stroke:#232528;
+   stroke-linecap:var(--iconLinecaps);
+   stroke-linejoin:var(--iconLinecaps);
+ }
+
+ /* Shortent quick-add button */
+ .quick-product__btn {
+   background: var(--colorTextBody);
+   color: var(--colorBody);
+   width: fit-content;
+   padding: 8px 25px;
+   border-radius: 4px;
+   max-width: 160px;
+ }
+ /* Round product grid edges */
+ .grid__item-image-wrapper {
+   border-radius: 8px;
+   overflow: hidden;
 }

@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -6,23 +15,53 @@
       "settings": {
       }
     },
+    "slideshow_LWtQ9E": {
+      "type": "slideshow",
+      "blocks": {
+        "image_NfmKwj": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "The Custom Collection",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "Your guide to corporate, custom and bulk ordering.",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Slider_3ea52ca4-37e0-4441-a7ef-e1c41433d242.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_NfmKwj"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "framed": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
     "ebaf6f14-0401-40df-9285-11231985f449": {
       "type": "rich-text",
       "blocks": {
         "template--14916927946794__ebaf6f14-0401-40df-9285-11231985f449-1681505432fc581d6b-0": {
           "type": "heading",
           "settings": {
-            "title": "The Custom Collection"
+            "title": "What We Offer to Dudley, Your Way"
           }
         },
         "template--14916927946794__ebaf6f14-0401-40df-9285-11231985f449-1681505432fc581d6b-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p><em>Your guide to corporate, custom and bulk ordering. <\/em><\/p>"
-          }
-        },
-        "2510912d-8a0c-4951-a3e9-f85ea00dbb0f": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
@@ -32,12 +71,65 @@
       },
       "block_order": [
         "template--14916927946794__ebaf6f14-0401-40df-9285-11231985f449-1681505432fc581d6b-0",
-        "template--14916927946794__ebaf6f14-0401-40df-9285-11231985f449-1681505432fc581d6b-1",
-        "2510912d-8a0c-4951-a3e9-f85ea00dbb0f"
+        "template--14916927946794__ebaf6f14-0401-40df-9285-11231985f449-1681505432fc581d6b-1"
       ],
       "settings": {
         "align_text": "center",
         "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_columns_HiMCRd": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_NyHbbi": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DUFFIELD_PULLOVER_TERRY_NAVY_EMBROIDERED_019.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Custom Branding",
+            "text": "<p>We offer a wide range of products available for customization—whether a monogram, a team name or an organization logo.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_kqbrep": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_0869.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Bulk Orders",
+            "text": "<p>Bulk pricing is available for orders over 30 units.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_pT7zFV": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DS_TOTE_GIFT_BAG_083.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Corporate Gifts",
+            "text": "<p>Give your team a company gift they’ll truly want to wear. We’ll work with you every step of the way to select your styles and sizing, and customize your logo.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_NyHbbi",
+        "text_block_kqbrep",
+        "text_block_pT7zFV"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
         "divider": false
       }
     },
@@ -55,6 +147,7 @@
         "text": "<h4><\/h4><p>Start by emailing info@dudley-stephens with the details. Please note: Our minimum order at this time is a quantity of 30. Inquire early for delivery of extra large (100+) orders. <\/p><ul><li>Name<\/li><li>Contact info<\/li><li>Desired Quantity<\/li><li>Item Style and Material<\/li><li>Logo Placement (options: Left Arm, Right Arm, Left Wrist, Back of Neck)<\/li><li>Desired Date of Delivery<\/li><\/ul>",
         "button_label": "",
         "button_link": "",
+        "liquid": "",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
@@ -76,6 +169,7 @@
         "text": "<p>We'll get back to you with pricing and order timeline info.<br\/><\/p>",
         "button_label": "",
         "button_link": "",
+        "liquid": "",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
@@ -97,6 +191,7 @@
         "text": "<p>Then, we'll send you a photo of your custom sample for your approval.<\/p>",
         "button_label": "",
         "button_link": "",
+        "liquid": "",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
@@ -137,7 +232,9 @@
   },
   "order": [
     "main",
+    "slideshow_LWtQ9E",
     "ebaf6f14-0401-40df-9285-11231985f449",
+    "text_columns_HiMCRd",
     "00494472-03b1-4918-ad71-eece68f79120",
     "c4153ab3-3092-40cc-83ab-1556909fed0c",
     "47a9e522-61d9-4a51-bd58-73b6e4740f1d",

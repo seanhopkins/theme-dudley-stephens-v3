@@ -232,11 +232,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/PARK_SLOPE_VELLO_BLACK_079_74f8aa12-f842-4998-be2e-79208baa1fea.jpg",
+            "image": "shopify:\/\/shop_images\/MENS_SALISBURY_VEST_DBL_VELLO_NAVY_227.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Park Slope Turtleneck",
-            "text": "<p>In Black, Navy, Camel and Heather Grey<\/p>",
+            "title": "Men’s Salisbury Vest",
+            "text": "<p>In Navy and Grey<\/p>",
             "button_label": "",
             "button_link": ""
           }

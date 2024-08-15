@@ -256,6 +256,28 @@
         "divider": false
       }
     },
+    "text_and_image_BdnK9A": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_0855.jpg",
+        "image_mask": "square",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Things to Know",
+        "text": "<ul><li>Items pictured are samples only; contact us for current assortment.<\/li><li>Custom orders are by credit card only.<\/li><li>All sales of custom items are final.<\/li><li>Custom orders are not for resale.<\/li><li>For wholesale inquiries, please contact info@dudley-stephens.com<\/li><\/ul>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
     "00494472-03b1-4918-ad71-eece68f79120": {
       "type": "text-and-image",
       "disabled": true,
@@ -364,6 +386,7 @@
     "text_columns_HiMCRd",
     "rich_text_WY8exy",
     "text_columns_EnDTKQ",
+    "text_and_image_BdnK9A",
     "00494472-03b1-4918-ad71-eece68f79120",
     "c4153ab3-3092-40cc-83ab-1556909fed0c",
     "47a9e522-61d9-4a51-bd58-73b6e4740f1d",

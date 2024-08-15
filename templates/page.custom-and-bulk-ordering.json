@@ -133,8 +133,132 @@
         "divider": false
       }
     },
+    "rich_text_WY8exy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YCLfYF": {
+          "type": "heading",
+          "settings": {
+            "title": "Start Here"
+          }
+        },
+        "text_VcPBgz": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>To create your one-of-a-kind pieces, just complete the form below. Our customization team will get back to you with pricing and a timeline for your order. <em>Typical turnaround is two weeks from the time of order placement. Please allow additional time for extra large (100+) or holiday orders.<\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YCLfYF",
+        "text_VcPBgz"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_columns_EnDTKQ": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_VkEwda": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/PARK_SLOPE_VELLO_BLACK_079_74f8aa12-f842-4998-be2e-79208baa1fea.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Park Slope Turtleneck",
+            "text": "<p>In Black, Navy, Camel and Heather Grey<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_jFxfkq": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GREENPOINT_VELLO_CAMEL_174_350825be-a6dd-4fcc-a16f-fef149733f70.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Greenpoint Turtleneck",
+            "text": "<p>In Black and Camel<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_qBArkD": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/KAKI_PULLOVER_SHERPA_CAMEL_022.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Kaki Pullover",
+            "text": "<p>In Black and Camel<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_mMdQpB": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/POCOMO_PULLOVER_WAFFLE_CREAM_107.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Pocomo Pullover",
+            "text": "<p>In Black, Navy and Cream<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_MDTij4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/PARK_SLOPE_VELLO_BLACK_079_74f8aa12-f842-4998-be2e-79208baa1fea.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Park Slope Turtleneck",
+            "text": "<p>In Black, Navy, Camel and Heather Grey<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_xWTV8y": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/PARK_SLOPE_VELLO_BLACK_079_74f8aa12-f842-4998-be2e-79208baa1fea.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Park Slope Turtleneck",
+            "text": "<p>In Black, Navy, Camel and Heather Grey<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_VkEwda",
+        "text_block_jFxfkq",
+        "text_block_qBArkD",
+        "text_block_mMdQpB",
+        "text_block_MDTij4",
+        "text_block_xWTV8y"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
     "00494472-03b1-4918-ad71-eece68f79120": {
       "type": "text-and-image",
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -160,6 +284,7 @@
     },
     "c4153ab3-3092-40cc-83ab-1556909fed0c": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/PARK_SLOPE_TERRY_HEATHER_GREY_EMBROIDERED_443.jpg",
         "image_mask": "none",
@@ -182,6 +307,7 @@
     },
     "47a9e522-61d9-4a51-bd58-73b6e4740f1d": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/PARK_SLOPE_TERRY_HEATHER_GREY_EMBROIDERED_443.jpg",
         "image_mask": "none",
@@ -223,6 +349,7 @@
         "template--14916927946794__13a41940-e0dc-4661-80cc-abcaf4c341c8-1681505432fc581d6b-0",
         "template--14916927946794__13a41940-e0dc-4661-80cc-abcaf4c341c8-1681505432fc581d6b-1"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "left",
         "narrow_column": true,
@@ -235,6 +362,8 @@
     "slideshow_LWtQ9E",
     "ebaf6f14-0401-40df-9285-11231985f449",
     "text_columns_HiMCRd",
+    "rich_text_WY8exy",
+    "text_columns_EnDTKQ",
     "00494472-03b1-4918-ad71-eece68f79120",
     "c4153ab3-3092-40cc-83ab-1556909fed0c",
     "47a9e522-61d9-4a51-bd58-73b6e4740f1d",

@@ -219,11 +219,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/PARK_SLOPE_VELLO_BLACK_079_74f8aa12-f842-4998-be2e-79208baa1fea.jpg",
+            "image": "shopify:\/\/shop_images\/DUFFIELD_PULLOVER_TERRY_NAVY_EMBROIDERED_009.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Park Slope Turtleneck",
-            "text": "<p>In Black, Navy, Camel and Heather Grey<\/p>",
+            "title": "Men’s Duffield Pullover",
+            "text": "<p>In Black, Navy and Hunter Green<\/p>",
             "button_label": "",
             "button_link": ""
           }

@@ -279,7 +279,7 @@
  
  {% unless separate_by_material %}
        {% if product_count > limit %}
-         <a href="{{ product.url }}" class="remaining-swatch-count">+ {{ product_count | minus: limit }} more</a>
+         <a href="{{ product.url }}" class="remaining-swatch-count">+{{ product_count | minus: limit }} more</a>
        {% endif %}
      </ul><!-- .variant-input-wrap.no-bullets.tag-list.tag-list--swatches -->
    </div><!-- .variant-wrapper -->

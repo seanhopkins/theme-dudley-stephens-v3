@@ -126,14 +126,23 @@ a:not(.btn):after {
 }
 
 /* Product Grid Item */
+.grid-product__material--group{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: .5em;
+}
+
 .grid-product__material {
-  font-size: .85em;
-  font-weight: 500;
-  letter-spacing: 0em;
-  margin-bottom: 5px;
-  margin-right: 20px;
-  opacity: .65;
-  text-transform: none;
+   font-size: .85em;
+   font-weight: 500;
+   letter-spacing: 0em;
+   opacity: .65;
+   text-transform: none;
+}
+.grid-product__icons {
+   min-width: 120px;
+   text-align: right;
 }
 .grid-product__title {
   font-weight: 500;
@@ -487,3 +496,21 @@ label[for="phone"] {
    font-weight: 500 !important;
    letter-spacing: 0 !important;
 }
+
+/* Make icon thicker */
+svg.icon-recycle {
+   fill:none;
+   stroke-width:4.5px;
+   stroke:#232528;
+   stroke-linecap:var(--iconLinecaps);
+   stroke-linejoin:var(--iconLinecaps);
+ }
+
+ /* Shortent quick-add button */
+ .quick-product__btn {
+   background: var(--colorTextBody);
+   color: var(--colorBody);
+   width: fit-content;
+   padding: 8px 25px;
+   max-width: 160px;
+ }

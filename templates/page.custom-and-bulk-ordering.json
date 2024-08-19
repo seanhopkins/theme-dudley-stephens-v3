@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -6,23 +15,53 @@
       "settings": {
       }
     },
+    "slideshow_LWtQ9E": {
+      "type": "slideshow",
+      "blocks": {
+        "image_NfmKwj": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "The Custom Collection",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "Your guide to corporate, custom and bulk ordering.",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Slider_3ea52ca4-37e0-4441-a7ef-e1c41433d242.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_NfmKwj"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "framed": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
     "ebaf6f14-0401-40df-9285-11231985f449": {
       "type": "rich-text",
       "blocks": {
         "template--14916927946794__ebaf6f14-0401-40df-9285-11231985f449-1681505432fc581d6b-0": {
           "type": "heading",
           "settings": {
-            "title": "The Custom Collection"
+            "title": "What We Offer to Dudley, Your Way"
           }
         },
         "template--14916927946794__ebaf6f14-0401-40df-9285-11231985f449-1681505432fc581d6b-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p><em>Your guide to corporate, custom and bulk ordering. <\/em><\/p>"
-          }
-        },
-        "2510912d-8a0c-4951-a3e9-f85ea00dbb0f": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
@@ -32,8 +71,7 @@
       },
       "block_order": [
         "template--14916927946794__ebaf6f14-0401-40df-9285-11231985f449-1681505432fc581d6b-0",
-        "template--14916927946794__ebaf6f14-0401-40df-9285-11231985f449-1681505432fc581d6b-1",
-        "2510912d-8a0c-4951-a3e9-f85ea00dbb0f"
+        "template--14916927946794__ebaf6f14-0401-40df-9285-11231985f449-1681505432fc581d6b-1"
       ],
       "settings": {
         "align_text": "center",
@@ -41,8 +79,208 @@
         "divider": false
       }
     },
+    "text_columns_HiMCRd": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_NyHbbi": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DUFFIELD_PULLOVER_TERRY_NAVY_EMBROIDERED_019.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Custom Branding",
+            "text": "<p>We offer a wide range of products available for customization—whether a monogram, a team name or an organization logo.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_kqbrep": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_0869.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Bulk Orders",
+            "text": "<p>Bulk pricing is available for orders over 30 units.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_pT7zFV": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DS_TOTE_GIFT_BAG_083.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Corporate Gifts",
+            "text": "<p>Give your team a company gift they’ll truly want to wear. We’ll work with you every step of the way to select your styles and sizing, and customize your logo.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_NyHbbi",
+        "text_block_kqbrep",
+        "text_block_pT7zFV"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "rich_text_WY8exy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YCLfYF": {
+          "type": "heading",
+          "settings": {
+            "title": "Start Here"
+          }
+        },
+        "text_VcPBgz": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>To create your one-of-a-kind pieces, just complete the form below. Our customization team will get back to you with pricing and a timeline for your order. <em>Typical turnaround is two weeks from the time of order placement. Please allow additional time for extra large (100+) or holiday orders.<\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YCLfYF",
+        "text_VcPBgz"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_columns_EnDTKQ": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_VkEwda": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/PARK_SLOPE_VELLO_BLACK_079_74f8aa12-f842-4998-be2e-79208baa1fea.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Park Slope Turtleneck",
+            "text": "<p>In Black, Navy, Camel and Heather Grey<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_jFxfkq": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/GREENPOINT_VELLO_CAMEL_174_350825be-a6dd-4fcc-a16f-fef149733f70.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Greenpoint Turtleneck",
+            "text": "<p>In Black and Camel<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_qBArkD": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/KAKI_PULLOVER_SHERPA_CAMEL_022.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Kaki Pullover",
+            "text": "<p>In Black and Camel<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_mMdQpB": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/POCOMO_PULLOVER_WAFFLE_CREAM_107.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Pocomo Pullover",
+            "text": "<p>In Black, Navy and Cream<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_MDTij4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DUFFIELD_PULLOVER_TERRY_NAVY_EMBROIDERED_009.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Men’s Duffield Pullover",
+            "text": "<p>In Black, Navy and Hunter Green<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_xWTV8y": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/MENS_SALISBURY_VEST_DBL_VELLO_NAVY_227.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Men’s Salisbury Vest",
+            "text": "<p>In Navy and Grey<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_VkEwda",
+        "text_block_jFxfkq",
+        "text_block_qBArkD",
+        "text_block_mMdQpB",
+        "text_block_MDTij4",
+        "text_block_xWTV8y"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "text_and_image_BdnK9A": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_0855.jpg",
+        "image_mask": "square",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Things to Know",
+        "text": "<ul><li>Items pictured are samples only; contact us for current assortment.<\/li><li>Custom orders are by credit card only.<\/li><li>All sales of custom items are final.<\/li><li>Custom orders are not for resale.<\/li><li>For wholesale inquiries, please contact info@dudley-stephens.com<\/li><\/ul>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
     "00494472-03b1-4918-ad71-eece68f79120": {
       "type": "text-and-image",
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -55,6 +293,7 @@
         "text": "<h4><\/h4><p>Start by emailing info@dudley-stephens with the details. Please note: Our minimum order at this time is a quantity of 30. Inquire early for delivery of extra large (100+) orders. <\/p><ul><li>Name<\/li><li>Contact info<\/li><li>Desired Quantity<\/li><li>Item Style and Material<\/li><li>Logo Placement (options: Left Arm, Right Arm, Left Wrist, Back of Neck)<\/li><li>Desired Date of Delivery<\/li><\/ul>",
         "button_label": "",
         "button_link": "",
+        "liquid": "",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
@@ -67,6 +306,7 @@
     },
     "c4153ab3-3092-40cc-83ab-1556909fed0c": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/PARK_SLOPE_TERRY_HEATHER_GREY_EMBROIDERED_443.jpg",
         "image_mask": "none",
@@ -76,6 +316,7 @@
         "text": "<p>We'll get back to you with pricing and order timeline info.<br\/><\/p>",
         "button_label": "",
         "button_link": "",
+        "liquid": "",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
@@ -88,6 +329,7 @@
     },
     "47a9e522-61d9-4a51-bd58-73b6e4740f1d": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/PARK_SLOPE_TERRY_HEATHER_GREY_EMBROIDERED_443.jpg",
         "image_mask": "none",
@@ -97,6 +339,7 @@
         "text": "<p>Then, we'll send you a photo of your custom sample for your approval.<\/p>",
         "button_label": "",
         "button_link": "",
+        "liquid": "",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
@@ -128,19 +371,55 @@
         "template--14916927946794__13a41940-e0dc-4661-80cc-abcaf4c341c8-1681505432fc581d6b-0",
         "template--14916927946794__13a41940-e0dc-4661-80cc-abcaf4c341c8-1681505432fc581d6b-1"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "left",
         "narrow_column": true,
         "divider": false
       }
+    },
+    "172373393669d72df1": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_NMdfRi": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "78734",
+            "text_color": "#232528",
+            "button_background_color": "#232528",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#9bcc56",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_NMdfRi"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
     "main",
+    "slideshow_LWtQ9E",
     "ebaf6f14-0401-40df-9285-11231985f449",
+    "text_columns_HiMCRd",
+    "rich_text_WY8exy",
+    "text_columns_EnDTKQ",
+    "text_and_image_BdnK9A",
     "00494472-03b1-4918-ad71-eece68f79120",
     "c4153ab3-3092-40cc-83ab-1556909fed0c",
     "47a9e522-61d9-4a51-bd58-73b6e4740f1d",
-    "13a41940-e0dc-4661-80cc-abcaf4c341c8"
+    "13a41940-e0dc-4661-80cc-abcaf4c341c8",
+    "172373393669d72df1"
   ]
 }

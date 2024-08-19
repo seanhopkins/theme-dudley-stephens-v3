@@ -31,7 +31,7 @@ Arguments
   assign product_tags = product.tags | join: ','
   assign has_custom_label = false
 
-  if product.metafields.theme.label and product.metafields.theme.label != blank
+  if product.metafields.theme.label != blank
     assign has_custom_label = true
     assign custom_label = product.metafields.theme.label.value
   elsif product_tags contains '_label_'

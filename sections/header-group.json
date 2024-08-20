@@ -18,12 +18,13 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Shop the Drop: the Bowery Mock Neck",
+            "link_text": "Shop First Fall Layers: Pullovers & Vests for the Season Ahead",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
           }
         },
         "announcement-1": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "Shop a pop of plaid: the new Five Mile River Scarf for Fall",

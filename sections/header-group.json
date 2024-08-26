@@ -14,6 +14,14 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
+        "announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "",
+            "link_text": "Shop the Labor Day Sale: Up to 75% off select styles!",
+            "link": "https:\/\/www.dudley-stephens.com\/collections\/the-labor-day-weekend-sale"
+          }
+        },
         "announcement-0": {
           "type": "announcement",
           "settings": {
@@ -21,20 +29,11 @@
             "link_text": "Shop First Fall Layers: Pullovers & Vests for the Season Ahead",
             "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
           }
-        },
-        "announcement-1": {
-          "type": "announcement",
-          "disabled": true,
-          "settings": {
-            "text": "",
-            "link_text": "Shop a pop of plaid: the new Five Mile River Scarf for Fall",
-            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops\/products\/five-mile-river-scarf-in-vello-fleece-fall-tartan"
-          }
         }
       },
       "block_order": [
-        "announcement-0",
-        "announcement-1"
+        "announcement-1",
+        "announcement-0"
       ],
       "custom_css": [
         ".announcement-text {letter-spacing: 0.025em; text-transform: none; font-size: 1em; font-weight: 500;}"

@@ -9,8 +9,8 @@
   {%- assign filter_index = forloop.index -%}
 
   {%- for filter_value in filter.active_values -%}
-  <li class="tag tag--remove">
-    <a class="btn btn--small" href="{{ filter_value.url_to_remove }}">
+  <li class="tag tag--remove tag--{{ filter_value.label | escape | handleize }}">
+    <a class="btn btn--small" href="{{ filter_value.url_to_remove | remove: "?filter.v.availability=1"}}">
       {{ filter_value.label | escape }}
     </a>
     <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><title>icon-X</title><path d="m19 17.61 27.12 27.13m0-27.12L19 44.74"/></svg>
@@ -24,7 +24,7 @@
   {%- capture filter_id -%}filter-{{ filter.label | handleize }}{%- endcapture -%}
   {%- assign filter_index = forloop.index -%}
 
-  <div class="collection-sidebar__group--{{ filter_index }}">
+  <div class="collection-sidebar__group--{{ filter_index }} collection-sidebar__group--{{ filter.label | escape | handleize }}">
     <div class="collection-sidebar__group">
       <button
           type="button"

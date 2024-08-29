@@ -6593,11 +6593,16 @@ theme.recentlyViewed = {
       },
   
       renderCollectionPage: function(searchParams, updateURLHash = true) {
-        // Auto apply in-stock filter when filter is selected
-        
-        if (!searchParams.has('filter.v.availability')) {
-          searchParams.append('filter.v.availability', 1);
-        } 
+        // Check if there are any filters applied
+          if (searchParams.toString() !== '') {
+            // If a filter is applied, ensure the in-stock filter is present
+            if (!searchParams.has('filter.v.availability')) {
+                searchParams.append('filter.v.availability', 1);
+            }
+          } else {
+              // If no filters are applied, remove the in-stock filter
+              searchParams.delete('filter.v.availability');
+          }
         // qwerty
 
         this.ajaxRenderer

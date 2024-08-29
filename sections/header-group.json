@@ -14,26 +14,26 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
-        "announcement-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "",
-            "link_text": "Shop the Drop: the Bowery Mock Neck",
-            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
-          }
-        },
         "announcement-1": {
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Shop a pop of plaid: the new Five Mile River Scarf for Fall",
-            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops\/products\/five-mile-river-scarf-in-vello-fleece-fall-tartan"
+            "link_text": "Shop the Labor Day Sale: Up to 75% off select styles!",
+            "link": "https:\/\/www.dudley-stephens.com\/collections\/the-labor-day-weekend-sale"
+          }
+        },
+        "announcement-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "",
+            "link_text": "Shop First Fall Layers: Pullovers & Vests for the Season Ahead",
+            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
           }
         }
       },
       "block_order": [
-        "announcement-0",
-        "announcement-1"
+        "announcement-1",
+        "announcement-0"
       ],
       "custom_css": [
         ".announcement-text {letter-spacing: 0.025em; text-transform: none; font-size: 1em; font-weight: 500;}"
@@ -58,13 +58,13 @@
           "settings": {
             "menu_item": "Women's",
             "show_column_1": true,
-            "image_1": "shopify:\/\/shop_images\/2024-06-24-dudleystephens-JDP_6443.jpg",
+            "image_1": "shopify:\/\/shop_images\/2024-06-24-dudleystephens-JDP_4255.jpg",
             "title_1": "Sophisticated Staples",
             "link_1": "shopify:\/\/collections\/sophisticated-staples",
             "show_column_2": true,
-            "image_2": "shopify:\/\/shop_images\/2024-06-24-dudleystephens-JDP_4061.jpg",
-            "title_2": "Midsummer Floral",
-            "link_2": "shopify:\/\/collections\/midnight-floral"
+            "image_2": "shopify:\/\/shop_images\/2024-06-24-dudleystephens-JDP_6517_1.jpg",
+            "title_2": "The Fall Collection",
+            "link_2": "shopify:\/\/collections\/the-fall-collection"
           }
         }
       },

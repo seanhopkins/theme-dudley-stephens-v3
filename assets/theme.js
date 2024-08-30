@@ -6593,12 +6593,17 @@ theme.recentlyViewed = {
       },
   
       renderCollectionPage: function(searchParams, updateURLHash = true) {
-        // TODO: Auto apply in-stock filter, but allow a customer to remove it
-        
-        // if (!searchParams.has('filter.v.availability')) {
-        //   searchParams.append('filter.v.availability', 1);
-        // } 
-        // qwertyuiop
+        // Check if there are any filters applied
+          if (searchParams.toString() !== '') {
+            // If a filter is applied, ensure the in-stock filter is present
+            if (!searchParams.has('filter.v.availability')) {
+                searchParams.append('filter.v.availability', 1);
+            }
+          } else {
+              // If no filters are applied, remove the in-stock filter
+              searchParams.delete('filter.v.availability');
+          }
+        // qwerty
 
         this.ajaxRenderer
           .renderPage(window.location.pathname, searchParams, updateURLHash)

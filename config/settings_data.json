@@ -161,7 +161,7 @@
             "settings": {
               "title": "Basil \/ Cream",
               "swatch_color": "",
-              "swatch_image": "shopify:\/\/shop_images\/basil-cream.png"
+              "swatch_image": "shopify:\/\/shop_images\/basil-cream.jpg"
             }
           },
           "707afe18-710f-4f2b-b682-86f10dd3e3f3": {
@@ -529,6 +529,22 @@
               "swatch_image": "shopify:\/\/shop_images\/Cream-Camel.jpg"
             }
           },
+          "color_swatch_nED3PC": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Cream \/ Hibiscus",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/cream-hibiscus.jpg"
+            }
+          },
+          "color_swatch_gwyyLm": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Cream \/ Ice Blue",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/cream-ice-blue.jpg"
+            }
+          },
           "194151db-ffc1-4605-9e0d-ef117bcd30fb": {
             "type": "color_swatch",
             "settings": {
@@ -740,6 +756,14 @@
               "title": "Ice Blue",
               "swatch_color": "#c7eafb",
               "monogram_swatch": "shopify:\/\/shop_images\/Ice_Blue_Monogram_Fabric_Swatch.png"
+            }
+          },
+          "color_swatch_TT7QhN": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Ice Blue \/ Cream",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/ice-blue-cream.jpg"
             }
           },
           "1595351270156": {
@@ -1040,7 +1064,15 @@
             "settings": {
               "title": "Navy \/ Periwinkle",
               "swatch_color": "",
-              "swatch_image": "shopify:\/\/shop_images\/NavyPeriwinkle.jpg"
+              "swatch_image": "shopify:\/\/shop_images\/navy-periwinkle.jpg"
+            }
+          },
+          "color_swatch_cBrWQC": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy \/ Scarlet",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/navy-scarlet.jpg"
             }
           },
           "1595351074336": {
@@ -1155,6 +1187,14 @@
             "settings": {
               "title": "Oatmeal",
               "swatch_color": "#ccc5b5"
+            }
+          },
+          "color_swatch_MRCyF3": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Oatmeal \/ Paprika",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/oatmeal-paprika.jpg"
             }
           },
           "1574187051439": {
@@ -1376,6 +1416,14 @@
               "monogram_swatch": "shopify:\/\/shop_images\/Spruce_Monogram_Fabric_Swatch.png"
             }
           },
+          "color_swatch_BUpYMG": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Spruce \/ Cream",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/spruce-cream.jpg"
+            }
+          },
           "1600103847112": {
             "type": "color_swatch",
             "settings": {
@@ -1547,6 +1595,8 @@
           "8bae95ee-8c1d-4178-a303-87dd3e91273f",
           "color_swatch_WdUEWB",
           "0e835829-040e-4fea-b13d-104e7043648b",
+          "color_swatch_nED3PC",
+          "color_swatch_gwyyLm",
           "194151db-ffc1-4605-9e0d-ef117bcd30fb",
           "color_swatch_RbG8xL",
           "9403ef65-0d9b-457e-8f04-c242b2aef3c5",
@@ -1574,6 +1624,7 @@
           "3b47349d-917d-4237-a0f3-0cf745769167",
           "1574187168038",
           "1574187271808",
+          "color_swatch_TT7QhN",
           "1595351270156",
           "c2cf0632-eb99-4f71-b637-48e1b4db7016",
           "1574452655705",
@@ -1612,6 +1663,7 @@
           "d884d283-ddf2-4840-a498-3180a9e752db",
           "c82d89f0-0c16-4859-8532-f0b5fc3a542c",
           "color_swatch_mbmkxe",
+          "color_swatch_cBrWQC",
           "1595351074336",
           "2a5feed1-5684-4dd3-ae34-31c1c162d128",
           "color_swatch_ThNVEG",
@@ -1626,6 +1678,7 @@
           "16f7e7fb-3b51-4881-a4cb-e0a0302cb7f2",
           "1573770381072",
           "color_swatch_ezmr6V",
+          "color_swatch_MRCyF3",
           "1574187051439",
           "f72afac0-8aa7-4d24-b989-89e6ce61c411",
           "ed1935f4-e063-4e76-b8ef-2c2e49d8c43b",
@@ -1654,6 +1707,7 @@
           "color_swatch_aMzbja",
           "1574187124703",
           "97cb6275-4ab8-4fcf-8274-4fea59378220",
+          "color_swatch_BUpYMG",
           "1600103847112",
           "2c3238ec-1fbe-4360-a8dd-bf1027f0a6c3",
           "1d3fb780-b30a-489c-bfdb-bf7ef019c9e5",

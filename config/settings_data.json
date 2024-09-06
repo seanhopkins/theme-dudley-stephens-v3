@@ -607,6 +607,14 @@
               "swatch_image": "shopify:\/\/shop_images\/fall-tartan.png"
             }
           },
+          "color_swatch_fMnQUP": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Festive Tartan",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/festive-tartan.png"
+            }
+          },
           "b62f44a3-e13a-43c3-8dd0-cd070654e5b7": {
             "type": "color_swatch",
             "settings": {
@@ -1605,6 +1613,7 @@
           "d777daf7-be50-4aa8-b326-a0c3487d37bd",
           "1602597047269",
           "color_swatch_yET7nV",
+          "color_swatch_fMnQUP",
           "b62f44a3-e13a-43c3-8dd0-cd070654e5b7",
           "c0374977-3323-4214-a3f7-f1cce5b2f5f6",
           "1573761957468",

@@ -333,6 +333,13 @@
               "swatch_image": "shopify:\/\/shop_images\/bubble-gum-pink-pink.png"
             }
           },
+          "color_swatch_WQqTLt": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Bundles of Joy",
+              "swatch_color": "#8fc9b8"
+            }
+          },
           "1573770311118": {
             "type": "color_swatch",
             "settings": {
@@ -435,6 +442,13 @@
               "swatch_color": "#6f7374"
             }
           },
+          "color_swatch_UXmHTB": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Chestnut",
+              "swatch_color": "#584039"
+            }
+          },
           "1580159084609": {
             "type": "color_swatch",
             "settings": {
@@ -521,6 +535,13 @@
               "title": "Denim Blue",
               "swatch_color": "#65769b",
               "monogram_swatch": "shopify:\/\/shop_images\/Denim_Blue_Vello.jpg"
+            }
+          },
+          "color_swatch_RbG8xL": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Dudley Green",
+              "swatch_color": "#69ff47"
             }
           },
           "9403ef65-0d9b-457e-8f04-c242b2aef3c5": {
@@ -1014,6 +1035,14 @@
               "swatch_image": "shopify:\/\/shop_images\/navy-off-white.png"
             }
           },
+          "color_swatch_mbmkxe": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy \/ Periwinkle",
+              "swatch_color": "",
+              "swatch_image": "shopify:\/\/shop_images\/NavyPeriwinkle.jpg"
+            }
+          },
           "1595351074336": {
             "type": "color_swatch",
             "settings": {
@@ -1119,6 +1148,13 @@
               "title": "Neon Yellow",
               "swatch_color": "#ecef2e",
               "monogram_swatch": "shopify:\/\/shop_images\/0000s_0001_neon-yellow.jpg"
+            }
+          },
+          "color_swatch_ezmr6V": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Oatmeal",
+              "swatch_color": "#ccc5b5"
             }
           },
           "1574187051439": {
@@ -1294,6 +1330,13 @@
               "swatch_color": "#6667ab",
               "swatch_image": "shopify:\/\/shop_images\/RoyalViolet.jpg",
               "monogram_swatch": "shopify:\/\/shop_images\/ROYALVIOLET_TERRY.png"
+            }
+          },
+          "color_swatch_9TGjny": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Scarlet",
+              "swatch_color": "#a11729"
             }
           },
           "1c8c81b8-206d-400a-affd-52052c767d76": {
@@ -1479,6 +1522,7 @@
           "423b1da9-324b-413a-b68b-59e38366d21e",
           "1583256077367",
           "1595351230125",
+          "color_swatch_WQqTLt",
           "1573770311118",
           "5abc2910-ee16-48e6-b991-e5e7ea69992e",
           "1574188206885",
@@ -1492,6 +1536,7 @@
           "81462c94-97df-436f-8418-9fd118649067",
           "8dbef3b8-50c5-473e-8aa5-98b127b61af7",
           "1574208130740",
+          "color_swatch_UXmHTB",
           "1580159084609",
           "1573770359800",
           "1574186976358",
@@ -1503,6 +1548,7 @@
           "color_swatch_WdUEWB",
           "0e835829-040e-4fea-b13d-104e7043648b",
           "194151db-ffc1-4605-9e0d-ef117bcd30fb",
+          "color_swatch_RbG8xL",
           "9403ef65-0d9b-457e-8f04-c242b2aef3c5",
           "d484428c-aaa3-4651-9809-85efd1935aec",
           "ae995c2d-bad7-464a-8216-d2196cdf43d2",
@@ -1565,6 +1611,7 @@
           "1600111133731",
           "d884d283-ddf2-4840-a498-3180a9e752db",
           "c82d89f0-0c16-4859-8532-f0b5fc3a542c",
+          "color_swatch_mbmkxe",
           "1595351074336",
           "2a5feed1-5684-4dd3-ae34-31c1c162d128",
           "color_swatch_ThNVEG",
@@ -1578,6 +1625,7 @@
           "1600111100886",
           "16f7e7fb-3b51-4881-a4cb-e0a0302cb7f2",
           "1573770381072",
+          "color_swatch_ezmr6V",
           "1574187051439",
           "f72afac0-8aa7-4d24-b989-89e6ce61c411",
           "ed1935f4-e063-4e76-b8ef-2c2e49d8c43b",
@@ -1600,6 +1648,7 @@
           "1600111056141",
           "558933fd-6bb0-437b-887a-fd7809f851e7",
           "245b6bab-9bb9-4141-a7b8-e83d3a44419d",
+          "color_swatch_9TGjny",
           "1c8c81b8-206d-400a-affd-52052c767d76",
           "1574187025080",
           "color_swatch_aMzbja",

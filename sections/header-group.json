@@ -24,11 +24,10 @@
         },
         "announcement-1": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "",
-            "link_text": "Our #1 bestseller is back. Shop the Cobble Hill in Black.",
-            "link": "https:\/\/www.dudley-stephens.com\/products\/cobble-hill-turtleneck-black?_pos=2&_psq=cobble&_ss=e&_v=1.0"
+            "link_text": "Shop Cozy Essentials: Fall Dudleys Are Here!",
+            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
           }
         }
       },

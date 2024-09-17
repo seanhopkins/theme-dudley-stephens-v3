@@ -58,13 +58,13 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
-            "heading": "The Blazer Shop",
-            "textarea": "Five silhouettes bringing ultimate polish.",
+            "heading": "Cozy Essentials",
+            "textarea": "Your formula for a cozy-chic Fall + buy more, save more—today only.",
             "cta_text1": "Shop the drop",
             "cta_link1": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/2024-06-24-dudleystephens-JDP_4800_1_77cff1aa-57d9-44fd-b157-1bfc72441a39.jpg",
+            "image": "shopify:\/\/shop_images\/8-27dudleystephens6137_2e88a291-8d84-47b2-9586-056b392c8a69.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -335,6 +335,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-1",
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],

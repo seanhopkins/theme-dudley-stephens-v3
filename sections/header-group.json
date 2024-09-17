@@ -24,6 +24,7 @@
         },
         "announcement-1": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "Our #1 bestseller is back. Shop the Cobble Hill in Black.",

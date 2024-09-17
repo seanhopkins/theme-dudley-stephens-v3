@@ -18,8 +18,8 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "The Blazer Shop is open: Shop now.",
-            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
+            "link_text": "Today Only: Stock Up & Save 20% off $150+ | 30% off $300+ | 40% off $600+",
+            "link": "shopify:\/\/collections\/shop-all"
           }
         },
         "announcement-1": {

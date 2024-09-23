@@ -604,7 +604,8 @@
             "settings": {
               "title": "Fall Tartan",
               "swatch_color": "",
-              "swatch_image": "shopify://shop_images/fall-tartan.png"
+              "swatch_image": "shopify://shop_images/fall-tartan.png",
+              "monogram_swatch": "shopify://shop_images/Fall_Tartan_Monogram_Swatch.png"
             }
           },
           "color_swatch_fMnQUP": {
@@ -835,7 +836,8 @@
             "settings": {
               "title": "Khaki/Black Mariner Stripe",
               "swatch_color": "",
-              "swatch_image": "shopify://shop_images/khaki-black-mariner-stripe.png"
+              "swatch_image": "shopify://shop_images/khaki-black-mariner-stripe.png",
+              "monogram_swatch": "shopify://shop_images/Khaki_Black_Mariner_Stripe_Monogram_Swatch.png"
             }
           },
           "color_swatch_y7qiKK": {
@@ -898,7 +900,8 @@
             "settings": {
               "title": "Marine Green/Camel/Pink Peony",
               "swatch_color": "",
-              "swatch_image": "shopify://shop_images/marine-green-camel-pink-peony.jpg"
+              "swatch_image": "shopify://shop_images/marine-green-camel-pink-peony.jpg",
+              "monogram_swatch": "shopify://shop_images/Pink_Peony_Monogram_Fabric_Swatch_d2afc09c-1ddd-4e88-934c-894156cb8e1a.png"
             }
           },
           "e7c40981-5c8b-49f2-83c2-54c4a7625f44": {
@@ -1240,7 +1243,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Paprika",
-              "swatch_color": "#ce4d42"
+              "swatch_color": "#ce4d42",
+              "monogram_swatch": "shopify://shop_images/Paprika_Monogram_Swatch.png"
             }
           },
           "1373b977-38b7-462f-8b8e-41a06e1b59ea": {
@@ -1499,7 +1503,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "True Blue",
-              "swatch_color": "#1f4477"
+              "swatch_color": "#1f4477",
+              "monogram_swatch": "shopify://shop_images/True_Blue_Monogram_Swatch.png"
             }
           },
           "9a80cae9-66a8-4d4d-a097-539d575aa31b": {

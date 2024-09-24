@@ -101,7 +101,7 @@
     "show_tag_sale_message_clp": false,
     "show_tag_sale_message_pdp": false,
     "tag_sale_tag": "_discountable",
-    "tag_sale_message": "<p>Stock Up & Save 20% off $150+ | 30% off $300+ | 40% off $600+</p>",
+    "tag_sale_message": "<p>30% off with code FALLDROPS</p>",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",

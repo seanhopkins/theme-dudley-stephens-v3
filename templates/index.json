@@ -20,14 +20,14 @@
             "title_size": 80,
             "text_color": "#ffffff",
             "subheading": "Outerwear you actually can't wait to wear.",
-            "link": "shopify:\/\/collections\/outerwear",
+            "link": "shopify://collections/outerwear",
             "link_text": "SHOP THE DROP",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/Slider_e8f9a02b-1053-44d6-a245-97aeec7fc608.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_30ea5b45-4d40-4a9e-ace4-86a494e2d117.jpg",
+            "image": "shopify://shop_images/Slider_e8f9a02b-1053-44d6-a245-97aeec7fc608.jpg",
+            "image_mobile": "shopify://shop_images/Slider_Moblie_30ea5b45-4d40-4a9e-ace4-86a494e2d117.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 4
           }
@@ -58,13 +58,13 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
-            "heading": "Cozy Essentials",
-            "textarea": "Your formula for a cozy-chic Fall.",
+            "heading": "Fall Classics",
+            "textarea": "Coming in cozy: turtlenecks, reimagined again with new colors & details.",
             "cta_text1": "Shop the drop",
-            "cta_link1": "https:\/\/www.dudley-stephens.com\/collections\/new-drops",
+            "cta_link1": "https://www.dudley-stephens.com/collections/new-drops",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/8-27dudleystephens6137_2e88a291-8d84-47b2-9586-056b392c8a69.jpg",
+            "image": "shopify://shop_images/8-27-dudleystephens-Canon-0031_1_6749779b-6de6-4593-8923-52163ab1ad9d.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -82,10 +82,10 @@
             "heading": "The Icon",
             "textarea": "Our #1 bestseller since day one, the Cobble Hill is back in Black.",
             "cta_text1": "Shop now",
-            "cta_link1": "https:\/\/www.dudley-stephens.com\/products\/cobble-hill-turtleneck-black?_pos=2&_psq=cobble&_ss=e&_v=1.0",
+            "cta_link1": "https://www.dudley-stephens.com/products/cobble-hill-turtleneck-black?_pos=2&_psq=cobble&_ss=e&_v=1.0",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Cobbke_0c4198a2-745a-4626-ae6d-731085ca10a0.jpg",
+            "image": "shopify://shop_images/Cobbke_0c4198a2-745a-4626-ae6d-731085ca10a0.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -104,10 +104,10 @@
             "heading": "DS Renew: Recycle Your Dudleys This Earth Month",
             "textarea": "Celebrate eco-conscious style by trading your pre-loved Dudley for points toward your next purchase.",
             "cta_text1": "start here",
-            "cta_link1": "https:\/\/www.dudley-stephens.com\/pages\/ds-renew",
+            "cta_link1": "https://www.dudley-stephens.com/pages/ds-renew",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/DS_RENEW_ce591b45-b87c-47f0-8ec0-a9d79ab551a8.jpg",
+            "image": "shopify://shop_images/DS_RENEW_ce591b45-b87c-47f0-8ec0-a9d79ab551a8.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -148,7 +148,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>The look of fashion, the feel of function. We reinvent the wardrobe essential in effortless fabrics for every day.<\/p>"
+            "text": "<p>The look of fashion, the feel of function. We reinvent the wardrobe essential in effortless fabrics for every day.</p>"
           }
         }
       },
@@ -305,7 +305,7 @@
           "settings": {
             "heading": "The Dudley Drop",
             "heading_size": "h3",
-            "text": "<p>New releases & restocks of familiar favorites. <\/p>",
+            "text": "<p>New releases & restocks of familiar favorites. </p>",
             "content_alignment": "center"
           }
         },
@@ -318,13 +318,13 @@
             "hour": "10",
             "minute": "00",
             "hide_timer": false,
-            "text": "<p>Don't miss the latest. Join our newsletter list for new drop news.<\/p>"
+            "text": "<p>Don't miss the latest. Join our newsletter list for new drop news.</p>"
           }
         },
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2": {
           "type": "button",
           "settings": {
-            "button_link": "shopify:\/\/blogs\/pineapple-street\/drop-preview-fall-classics",
+            "button_link": "shopify://blogs/pineapple-street/drop-preview-fall-classics",
             "button": "Preview now",
             "button_style": "solid"
           }
@@ -335,6 +335,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-1",
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -343,7 +344,7 @@
         "full_width": false,
         "text_color": "#232528",
         "background_color": "#ffffff",
-        "background_image": "shopify:\/\/shop_images\/DropCountdown_falltartan.jpg",
+        "background_image": "shopify://shop_images/DropCountdown_falltartan.jpg",
         "overlay_color": "#ffffff",
         "overlay_opacity": 62,
         "lazyload_images": true
@@ -362,7 +363,7 @@
         "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>"
           }
         },
         "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-2": {
@@ -407,14 +408,14 @@
             "title_size": 80,
             "text_color": "#ffffff",
             "subheading": "And sail straight into Fall in these transition-ready pieces.",
-            "link": "shopify:\/\/collections\/the-fall-collection",
+            "link": "shopify://collections/the-fall-collection",
             "link_text": "shop now",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/Slider_aa2bc9a7-9b58-496e-bc0e-2ec7ff6c0a3a.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_026db02b-f7ae-4896-ace2-fa341890c18a.jpg",
+            "image": "shopify://shop_images/Slider_aa2bc9a7-9b58-496e-bc0e-2ec7ff6c0a3a.jpg",
+            "image_mobile": "shopify://shop_images/Slider_Moblie_026db02b-f7ae-4896-ace2-fa341890c18a.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -467,7 +468,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p><a href=\"https:\/\/www.instagram.com\/dudley_stephens\/?hl=en\">@dudley_stephens<\/a> | #howdoyoududley<\/p>"
+            "text": "<p><a href=\"https://www.instagram.com/dudley_stephens/?hl=en\">@dudley_stephens</a> | #howdoyoududley</p>"
           }
         }
       },
@@ -487,7 +488,7 @@
         "template--14916567695402__b00ee6a4-d768-42d2-b053-75459ca062fe-1686166578f0efbd44-1": {
           "type": "liquid",
           "settings": {
-            "code": "<div class=\"yotpo yotpo-pictures-widget\" data-gallery-id=\"60b94222238de4456e9fb81a\"><\/div>",
+            "code": "<div class=\"yotpo yotpo-pictures-widget\" data-gallery-id=\"60b94222238de4456e9fb81a\"></div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -508,7 +509,7 @@
         "liquid_NNNMmq": {
           "type": "liquid",
           "settings": {
-            "code": "<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"632499\"><\/div>",
+            "code": "<div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"632499\"></div>",
             "width": "100%",
             "alignment": "center"
           }

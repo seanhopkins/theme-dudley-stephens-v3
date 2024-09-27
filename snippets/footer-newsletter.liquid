@@ -41,12 +41,6 @@
           </div>
         {%- endform -%}
 
-        {%- if block.settings.show_postscript == true -%}
-          <div class="footer__sms">
-            {%- render 'postscript-form', block: block, postscript_id: block.settings.form_id -%}
-          </div>
-        {%- endif -%}
-
         {% render 'social-icons', additional_classes: 'footer__social' %}
 
       </div>

@@ -14,26 +14,27 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
+        "announcement-0": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "link_text": "Today Only: Stock Up & Save 20% off $150+ | 30% off $300+ | 40% off $600+",
+            "link": "shopify://collections/shop-all"
+          }
+        },
         "announcement-1": {
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Shop the Labor Day Sale: Up to 75% off select styles!",
-            "link": "https:\/\/www.dudley-stephens.com\/collections\/the-labor-day-weekend-sale"
-          }
-        },
-        "announcement-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "",
-            "link_text": "Shop First Fall Layers: Pullovers & Vests for the Season Ahead",
-            "link": "https:\/\/www.dudley-stephens.com\/collections\/new-drops"
+            "link_text": "Shop Classic Fall Turtlenecks + 30% Off with Code FALLDROPS",
+            "link": "shopify://collections/shop-all"
           }
         }
       },
       "block_order": [
-        "announcement-1",
-        "announcement-0"
+        "announcement-0",
+        "announcement-1"
       ],
       "custom_css": [
         ".announcement-text {letter-spacing: 0.025em; text-transform: none; font-size: 1em; font-weight: 500;}"
@@ -48,7 +49,7 @@
         "header-0": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/dudley-logo-black-2020_1.png",
+            "logo": "shopify://shop_images/dudley-logo-black-2020_1.png",
             "desktop_logo_width": 150,
             "mobile_logo_width": 110
           }
@@ -58,13 +59,13 @@
           "settings": {
             "menu_item": "Women's",
             "show_column_1": true,
-            "image_1": "shopify:\/\/shop_images\/2024-06-24-dudleystephens-JDP_4255.jpg",
-            "title_1": "Sophisticated Staples",
-            "link_1": "shopify:\/\/collections\/sophisticated-staples",
+            "image_1": "shopify://shop_images/2024-06-24-dudleystephens-JDP_6697.jpg",
+            "title_1": "The Blazer Shop",
+            "link_1": "shopify://collections/blazers",
             "show_column_2": true,
-            "image_2": "shopify:\/\/shop_images\/2024-06-24-dudleystephens-JDP_6517_1.jpg",
+            "image_2": "shopify://shop_images/2024-06-24-dudleystephens-JDP_6517_1.jpg",
             "title_2": "The Fall Collection",
-            "link_2": "shopify:\/\/collections\/the-fall-collection"
+            "link_2": "shopify://collections/the-fall-collection"
           }
         }
       },

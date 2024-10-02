@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -19,7 +28,7 @@
         "template--14975512739882__85510021-b31d-4805-bf08-ff32d547ba06-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Sign up for our email newsletter and SMS subscriptions to get Dudley drop news, sale announcements and more—delivered to you first.<\/p><p>(We send email and text exclusives from time to time. We suggest signing up for both so you never miss a thing.)<\/p>"
+            "text": "<p>Sign up for our email newsletter and SMS subscriptions to get Dudley drop news, sale announcements and more—delivered to you first.</p><p>(We send email and text exclusives from time to time. We suggest signing up for both so you never miss a thing.)</p>"
           }
         },
         "template--14975512739882__85510021-b31d-4805-bf08-ff32d547ba06-form-1": {
@@ -44,21 +53,31 @@
         "bottom_padding": false
       }
     },
-    "66c12cf9-7b53-4b9b-a637-cf5ca04e5cb9": {
-      "type": "postscript-form",
+    "advanced_content_nqbJex": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_Mh4rpg": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"klaviyo-form-XwCne9\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_Mh4rpg"
+      ],
       "settings": {
-        "title": "",
-        "text": "",
-        "postscript_id": "342067",
-        "narrow_column": true,
-        "align_text": "center",
-        "divider": false
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
       }
     }
   },
   "order": [
     "main",
     "85510021-b31d-4805-bf08-ff32d547ba06",
-    "66c12cf9-7b53-4b9b-a637-cf5ca04e5cb9"
+    "advanced_content_nqbJex"
   ]
 }

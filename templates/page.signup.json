@@ -59,7 +59,7 @@
         "liquid_Mh4rpg": {
           "type": "liquid",
           "settings": {
-            "code": "<div class=\"klaviyo-form-XwCne9\"></div>",
+            "code": "<div class=\"center\">\n<div class=\"klaviyo-form-XwCne9\"></div>\n</div>",
             "width": "50%",
             "alignment": "center"
           }
@@ -71,7 +71,7 @@
       "settings": {
         "full_width": false,
         "space_around": true,
-        "lazyload_images": true
+        "lazyload_images": false
       }
     }
   },

@@ -56,20 +56,29 @@
     "advanced_content_nqbJex": {
       "type": "advanced-content",
       "blocks": {
+        "liquid_CfFBfB": {
+          "type": "liquid",
+          "settings": {
+            "code": "{% render 'newsletter-form' %}",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
         "liquid_Mh4rpg": {
           "type": "liquid",
           "settings": {
             "code": "<div class=\"klaviyo-form-XwCne9\"></div>",
-            "width": "100%",
+            "width": "50%",
             "alignment": "center"
           }
         }
       },
       "block_order": [
+        "liquid_CfFBfB",
         "liquid_Mh4rpg"
       ],
       "custom_css": [
-        ".custom-content {max-width: 500px; margin:auto;}"
+        ".custom-content {max-width: 500px; margin: auto;}"
       ],
       "settings": {
         "full_width": false,

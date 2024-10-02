@@ -60,13 +60,16 @@
           "type": "liquid",
           "settings": {
             "code": "<div class=\"klaviyo-form-XwCne9\"></div>",
-            "width": "50%",
+            "width": "100%",
             "alignment": "center"
           }
         }
       },
       "block_order": [
         "liquid_Mh4rpg"
+      ],
+      "custom_css": [
+        ".custom-content {max-width: 500px;}"
       ],
       "settings": {
         "full_width": false,

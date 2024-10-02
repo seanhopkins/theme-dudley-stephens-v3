@@ -69,7 +69,7 @@
         "liquid_Mh4rpg"
       ],
       "custom_css": [
-        ".custom-content {max-width: 500px;}"
+        ".custom-content {max-width: 500px; margin:auto;}"
       ],
       "settings": {
         "full_width": false,

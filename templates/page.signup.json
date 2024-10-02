@@ -56,14 +56,6 @@
     "advanced_content_nqbJex": {
       "type": "advanced-content",
       "blocks": {
-        "liquid_CfFBfB": {
-          "type": "liquid",
-          "settings": {
-            "code": "{% render 'newsletter-form' %}",
-            "width": "50%",
-            "alignment": "center"
-          }
-        },
         "liquid_Mh4rpg": {
           "type": "liquid",
           "settings": {
@@ -74,7 +66,6 @@
         }
       },
       "block_order": [
-        "liquid_CfFBfB",
         "liquid_Mh4rpg"
       ],
       "custom_css": [

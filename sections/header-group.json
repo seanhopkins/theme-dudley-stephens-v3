@@ -27,8 +27,8 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Shop Effortless Outerwear pieces, just in!",
-            "link": "shopify://collections/shop-all"
+            "link_text": "$99 styles (sitewide!) for 9 years! Shop the Anniversary Sale now.",
+            "link": "shopify://collections/anniversary-sale"
           }
         }
       },

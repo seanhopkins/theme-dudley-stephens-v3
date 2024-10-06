@@ -20,8 +20,8 @@
             "title_size": 80,
             "text_color": "#ffffff",
             "subheading": "Celebrate Dudley's 9th Anniversary with styles $99 & under sitewide.",
-            "link": "https://www.dudley-stephens.com/collections/shop-all",
-            "link_text": "SHOP THE DROP",
+            "link": "shopify://collections/anniversary-sale",
+            "link_text": "SHOP THE SALE",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
@@ -36,7 +36,6 @@
       "block_order": [
         "template--14928844390442__1a4d9a53-964a-41f0-8545-5ecbeedfa2b5-1687472987ab5faa84-0"
       ],
-      "disabled": true,
       "custom_css": [
 
       ],
@@ -124,6 +123,7 @@
         "b22e1874-3a53-481a-8ddb-89975d97e49b",
         "advanced_BjLHXQ"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-family: \"QuaverSerif\";}"
       ],

@@ -16,19 +16,18 @@
       "blocks": {
         "announcement-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "",
-            "link_text": "Today Only: Stock Up & Save 20% off $150+ | 30% off $300+ | 40% off $600+",
-            "link": "shopify://collections/shop-all"
+            "link_text": "Shop the Drop: The Skylark Pullover, $99",
+            "link": "https://www.dudley-stephens.com/collections/new-drops"
           }
         },
         "announcement-1": {
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Shop Classic Fall Turtlenecks + 30% Off with Code FALLDROPS",
-            "link": "shopify://collections/shop-all"
+            "link_text": "$99 styles (sitewide!) for 9 years! Shop the Anniversary Sale now.",
+            "link": "shopify://collections/anniversary-sale"
           }
         }
       },

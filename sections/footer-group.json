@@ -19,7 +19,7 @@
           "settings": {
             "icon": "turtleneck",
             "title": "Timeless classics",
-            "text": "<p>Wardrobe essentials designed and made to last<\/p>"
+            "text": "<p>Wardrobe essentials designed and made to last</p>"
           }
         },
         "text_block_cU3hhw": {
@@ -27,7 +27,7 @@
           "settings": {
             "icon": "recycle",
             "title": "Eco-friendly",
-            "text": "<p>7 million bottles recycled (& counting)<\/p>"
+            "text": "<p>7 million bottles recycled (& counting)</p>"
           }
         },
         "text_block_ahBYG6": {
@@ -35,7 +35,7 @@
           "settings": {
             "icon": "store",
             "title": "Female founded",
-            "text": "<p>A family-owned brand—by women, for women<\/p>"
+            "text": "<p>A family-owned brand—by women, for women</p>"
           }
         },
         "text_block_zPtDGR": {
@@ -43,7 +43,7 @@
           "settings": {
             "icon": "washing-machine",
             "title": "Performance fabrics",
-            "text": "<p>Machine washable, stain-defiant, packable pieces<\/p>"
+            "text": "<p>Machine washable, stain-defiant, packable pieces</p>"
           }
         }
       },
@@ -76,7 +76,7 @@
             "enable_image": true,
             "image_mask": "none",
             "title": "Site-wide promotion",
-            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
             "button_label": "Optional button",
             "button_link": ""
           }
@@ -87,7 +87,7 @@
             "enable_image": true,
             "image_mask": "none",
             "title": "Site-wide promotion",
-            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
             "button_label": "Optional button",
             "button_link": ""
           }
@@ -98,7 +98,7 @@
             "enable_image": true,
             "image_mask": "none",
             "title": "Site-wide promotion",
-            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
             "button_label": "Optional button",
             "button_link": ""
           }
@@ -123,12 +123,12 @@
           "settings": {
             "show_footer_title": true,
             "title": "Join Our List",
-            "text": "<p>Become a DS Insider for drop news, special offers & styling ideas<\/p>",
+            "text": "<p>Become a DS Insider for drop news, special offers & styling ideas</p>",
             "container_width": 40,
-            "show_postscript": true,
+            "show_postscript": false,
             "form_id": "29344",
             "postscript_title": "Exclusive Notifications",
-            "postscript_description": "<p>Enter your phone number below to receive DS insider updates and offers by text.<\/p>"
+            "postscript_description": "<p>Enter your phone number below to receive DS insider updates and offers by text.</p>"
           }
         },
         "footer-1": {
@@ -172,7 +172,7 @@
         "show_currency_flags": false,
         "show_payment_icons": true,
         "show_copyright": false,
-        "copyright_text": "| Built by <a href=\"https:\/\/www.patanecreative.com\">Patane<\/a>"
+        "copyright_text": "| Built by Patane"
       }
     }
   },

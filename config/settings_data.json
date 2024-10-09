@@ -74,7 +74,7 @@
     "collection_grid_opacity": 0,
     "collection_grid_gutter": true,
     "cart_type": "drawer",
-    "cart_notes_enable": true,
+    "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
     "rebuy_widget_embed": "{% comment %}\n<div data-rebuy-id=\"127216\"></div>\n{% endcomment %}",
     "gwp_enable": true,

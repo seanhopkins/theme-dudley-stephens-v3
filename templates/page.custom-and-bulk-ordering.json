@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -31,8 +31,8 @@
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Slider_3ea52ca4-37e0-4441-a7ef-e1c41433d242.jpg",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify://shop_images/Slider_3ea52ca4-37e0-4441-a7ef-e1c41433d242.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -65,7 +65,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Have a company logo you want to show off? A school symbol your students can wear with pride? Here's how to make it yours—and make it a Dudley.<\/p>"
+            "text": "<p>Have a company logo you want to show off? A school symbol your students can wear with pride? Here's how to make it yours—and make it a Dudley.</p>"
           }
         }
       },
@@ -86,11 +86,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/DUFFIELD_PULLOVER_TERRY_NAVY_EMBROIDERED_019.jpg",
+            "image": "shopify://shop_images/DUFFIELD_PULLOVER_TERRY_NAVY_EMBROIDERED_019.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Custom Branding",
-            "text": "<p>We offer a wide range of products available for customization—whether a monogram, a team name or an organization logo.<\/p>",
+            "text": "<p>We offer a wide range of products available for customization—whether a monogram, a team name or an organization logo.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -99,11 +99,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_0869.jpg",
+            "image": "shopify://shop_images/2024-01-18-DS-JDP_0869.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Bulk Orders",
-            "text": "<p>Bulk pricing is available for orders over 30 units.<\/p>",
+            "text": "<p>Bulk pricing is available for orders over 30 units.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -112,11 +112,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/DS_TOTE_GIFT_BAG_083.jpg",
+            "image": "shopify://shop_images/DS_TOTE_GIFT_BAG_083.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Corporate Gifts",
-            "text": "<p>Give your team a company gift they’ll truly want to wear. We’ll work with you every step of the way to select your styles and sizing, and customize your logo.<\/p>",
+            "text": "<p>Give your team a company gift they’ll truly want to wear. We’ll work with you every step of the way to select your styles and sizing, and customize your logo.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -146,7 +146,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>To create your one-of-a-kind pieces, just complete the form below. Our customization team will get back to you with pricing and a timeline for your order. <em>Typical turnaround is two weeks from the time of order placement. Please allow additional time for extra large (100+) or holiday orders.<\/em><\/p>"
+            "text": "<p>To create your one-of-a-kind pieces, just complete the form below. Our customization team will get back to you with pricing and a timeline for your order. <em>Typical turnaround is two weeks from the time of order placement. Please allow additional time for extra large (100+) or holiday orders.</em></p>"
           }
         }
       },
@@ -163,15 +163,15 @@
     "text_columns_EnDTKQ": {
       "type": "text-columns",
       "blocks": {
-        "text_block_VkEwda": {
+        "text_block_qBArkD": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/PARK_SLOPE_VELLO_BLACK_079_74f8aa12-f842-4998-be2e-79208baa1fea.jpg",
+            "image": "shopify://shop_images/COBBLE_HILL_TERRY_CREAM_028_3817dd8d-3598-4d82-9706-28a54ef554a3.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Park Slope Turtleneck",
-            "text": "<p>In Black, Navy, Camel and Heather Grey<\/p>",
+            "title": "Cobble Hill Turtleneck",
+            "text": "<p>In Cream and Black</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -180,75 +180,87 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/GREENPOINT_VELLO_CAMEL_174_350825be-a6dd-4fcc-a16f-fef149733f70.jpg",
+            "image": "shopify://shop_images/Greenpoint_in_Vello_Navy.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Greenpoint Turtleneck",
-            "text": "<p>In Black and Camel<\/p>",
+            "text": "<p>In Cream, Navy and Black</p>",
             "button_label": "",
             "button_link": ""
           }
         },
-        "text_block_qBArkD": {
+        "text_block_VkEwda": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/KAKI_PULLOVER_SHERPA_CAMEL_022.jpg",
+            "image": "shopify://shop_images/PARK_SLOPE_VELLO_BLACK_079_74f8aa12-f842-4998-be2e-79208baa1fea.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Kaki Pullover",
-            "text": "<p>In Black and Camel<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_mMdQpB": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/POCOMO_PULLOVER_WAFFLE_CREAM_107.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Pocomo Pullover",
-            "text": "<p>In Black, Navy and Cream<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_MDTij4": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/DUFFIELD_PULLOVER_TERRY_NAVY_EMBROIDERED_009.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Men’s Duffield Pullover",
-            "text": "<p>In Black, Navy and Hunter Green<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_xWTV8y": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/MENS_SALISBURY_VEST_DBL_VELLO_NAVY_227.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Men’s Salisbury Vest",
-            "text": "<p>In Navy and Grey<\/p>",
+            "title": "Park Slope Turtleneck",
+            "text": "<p>In Cream, Navy and Black</p>",
             "button_label": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "text_block_VkEwda",
-        "text_block_jFxfkq",
         "text_block_qBArkD",
-        "text_block_mMdQpB",
-        "text_block_MDTij4",
-        "text_block_xWTV8y"
+        "text_block_jFxfkq",
+        "text_block_VkEwda"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "text_columns_h8jwzk": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_rqKNPq": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/MANCHESTER_PULLOVER_VELLO_NAVY_FLATLAY_032_1.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Manchester Pullover",
+            "text": "<p>In Navy</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_cPGphX": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/DUFFIELD_PULLOVER_TERRY_NAVY_EMBROIDERED_009.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Men's Duffield Pullover",
+            "text": "<p>In Navy</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_kriXPn": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/white_ed7748ed-eb66-4e2b-9af3-e48f760e46a8.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_rqKNPq",
+        "text_block_cPGphX",
+        "text_block_kriXPn"
       ],
       "settings": {
         "title": "",
@@ -259,12 +271,12 @@
     "text_and_image_BdnK9A": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/2024-01-18-DS-JDP_0855.jpg",
+        "image": "shopify://shop_images/2024-01-18-DS-JDP_0855.jpg",
         "image_mask": "square",
         "image2_mask": "none",
         "subtitle": "",
         "title": "Things to Know",
-        "text": "<ul><li>Items pictured are samples only; contact us for current assortment.<\/li><li>Custom orders are by credit card only.<\/li><li>All sales of custom items are final.<\/li><li>Custom orders are not for resale.<\/li><li>For wholesale inquiries, please contact info@dudley-stephens.com<\/li><\/ul>",
+        "text": "<ul><li>Items pictured are samples only; contact us for current assortment.</li><li>Custom orders are by credit card only.</li><li>All sales of custom items are final.</li><li>Custom orders are not for resale.</li><li>For wholesale inquiries, please contact info@dudley-stephens.com</li></ul>",
         "button_label": "",
         "button_link": "",
         "liquid": "",
@@ -285,12 +297,12 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DUFFIELD_PULLOVER_TERRY_NAVY_EMBROIDERED_009.jpg",
+        "image": "shopify://shop_images/DUFFIELD_PULLOVER_TERRY_NAVY_EMBROIDERED_009.jpg",
         "image_mask": "none",
         "image2_mask": "none",
         "subtitle": "",
         "title": "1. Reach out",
-        "text": "<h4><\/h4><p>Start by emailing info@dudley-stephens with the details. Please note: Our minimum order at this time is a quantity of 30. Inquire early for delivery of extra large (100+) orders. <\/p><ul><li>Name<\/li><li>Contact info<\/li><li>Desired Quantity<\/li><li>Item Style and Material<\/li><li>Logo Placement (options: Left Arm, Right Arm, Left Wrist, Back of Neck)<\/li><li>Desired Date of Delivery<\/li><\/ul>",
+        "text": "<h4></h4><p>Start by emailing info@dudley-stephens with the details. Please note: Our minimum order at this time is a quantity of 30. Inquire early for delivery of extra large (100+) orders. </p><ul><li>Name</li><li>Contact info</li><li>Desired Quantity</li><li>Item Style and Material</li><li>Logo Placement (options: Left Arm, Right Arm, Left Wrist, Back of Neck)</li><li>Desired Date of Delivery</li></ul>",
         "button_label": "",
         "button_link": "",
         "liquid": "",
@@ -308,12 +320,12 @@
       "type": "text-and-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/PARK_SLOPE_TERRY_HEATHER_GREY_EMBROIDERED_443.jpg",
+        "image": "shopify://shop_images/PARK_SLOPE_TERRY_HEATHER_GREY_EMBROIDERED_443.jpg",
         "image_mask": "none",
         "image2_mask": "none",
         "subtitle": "",
         "title": "2. Hang Tight",
-        "text": "<p>We'll get back to you with pricing and order timeline info.<br\/><\/p>",
+        "text": "<p>We'll get back to you with pricing and order timeline info.<br/></p>",
         "button_label": "",
         "button_link": "",
         "liquid": "",
@@ -331,12 +343,12 @@
       "type": "text-and-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/PARK_SLOPE_TERRY_HEATHER_GREY_EMBROIDERED_443.jpg",
+        "image": "shopify://shop_images/PARK_SLOPE_TERRY_HEATHER_GREY_EMBROIDERED_443.jpg",
         "image_mask": "none",
         "image2_mask": "none",
         "subtitle": "",
         "title": "3. Give us the go-ahead",
-        "text": "<p>Then, we'll send you a photo of your custom sample for your approval.<\/p>",
+        "text": "<p>Then, we'll send you a photo of your custom sample for your approval.</p>",
         "button_label": "",
         "button_link": "",
         "liquid": "",
@@ -363,7 +375,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<ul><li>Items pictured are samples only; contact us for current assortment.<\/li><li>Custom orders are by credit card only.<\/li><li>All sales of custom items are final.<\/li><li>Please allow up to 4 weeks from invoice payment to receive your order. Allow extra time for large orders and during the holiday season.<\/li><li><strong>These custom orders are not for resale. <\/strong><\/li><li><strong>For wholesale inquires please contact <\/strong><a href=\"mailto:info@dudley-stephens.com\" title=\"mailto:info@dudley-stephens.com\"><strong>info@dudley-stephens.com<\/strong><\/a><\/li><\/ul>"
+            "text": "<ul><li>Items pictured are samples only; contact us for current assortment.</li><li>Custom orders are by credit card only.</li><li>All sales of custom items are final.</li><li>Please allow up to 4 weeks from invoice payment to receive your order. Allow extra time for large orders and during the holiday season.</li><li><strong>These custom orders are not for resale. </strong></li><li><strong>For wholesale inquires please contact </strong><a href=\"mailto:info@dudley-stephens.com\" title=\"mailto:info@dudley-stephens.com\"><strong>info@dudley-stephens.com</strong></a></li></ul>"
           }
         }
       },
@@ -382,14 +394,14 @@
       "type": "apps",
       "blocks": {
         "forms_inline_NMdfRi": {
-          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
           "settings": {
             "form_id": "78734",
             "text_color": "#232528",
             "button_background_color": "#232528",
-            "button_label_color": "#FFFFFF",
+            "button_label_color": "#ffffff",
             "links_color": "#9bcc56",
-            "errors_color": "#E02229",
+            "errors_color": "#e02229",
             "text_alignment": "center",
             "form_alignment": "center",
             "padding_top": 0,
@@ -415,6 +427,7 @@
     "text_columns_HiMCRd",
     "rich_text_WY8exy",
     "text_columns_EnDTKQ",
+    "text_columns_h8jwzk",
     "text_and_image_BdnK9A",
     "00494472-03b1-4918-ad71-eece68f79120",
     "c4153ab3-3092-40cc-83ab-1556909fed0c",

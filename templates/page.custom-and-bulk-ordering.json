@@ -99,7 +99,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/2024-01-18-DS-JDP_0869.jpg",
+            "image": "shopify://shop_images/custom.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Bulk Orders",

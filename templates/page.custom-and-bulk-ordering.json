@@ -103,7 +103,7 @@
             "image_mask": "none",
             "image_width": 650,
             "title": "Bulk Orders",
-            "text": "<p>Bulk pricing is available for orders over 30 units.</p>",
+            "text": "<p>Bulk pricing is available for orders over 20 units.</p>",
             "button_label": "",
             "button_link": ""
           }

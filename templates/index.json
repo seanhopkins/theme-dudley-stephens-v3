@@ -404,18 +404,18 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Seas the Moment",
+            "title": "Cozy Season",
             "title_size": 80,
             "text_color": "#ffffff",
-            "subheading": "And sail straight into Fall in these transition-ready pieces.",
-            "link": "shopify://collections/the-fall-collection",
+            "subheading": "Embrace the chill with our classics in sumptuously soft fleece.",
+            "link": "https://www.dudley-stephens.com/collections/new-drops",
             "link_text": "shop now",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify://shop_images/Slider_aa2bc9a7-9b58-496e-bc0e-2ec7ff6c0a3a.jpg",
-            "image_mobile": "shopify://shop_images/Slider_Moblie_026db02b-f7ae-4896-ace2-fa341890c18a.jpg",
+            "image": "shopify://shop_images/Slider_6ada5c99-8be6-4b5f-ac7e-d2a8a11445a9.jpg",
+            "image_mobile": "shopify://shop_images/Slider_Moblie_4106b977-4efb-4a01-8c3b-bcbd7fbff30b.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }

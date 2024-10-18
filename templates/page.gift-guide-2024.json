@@ -11,18 +11,68 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "slideshow_4dyzkz": {
+      "type": "slideshow",
+      "blocks": {
+        "image_MtwUGa": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Endless\npossibilities.",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "Bring your brand to life",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_H4AiYH": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "And big, beautiful imagery",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_MtwUGa",
+        "image_H4AiYH"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "framed": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
       }
     },
     "c3220d24-8e7b-4f84-a431-0aae228e36f2": {
       "type": "rich-text",
       "blocks": {
-        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1": {
-          "type": "heading",
-          "settings": {
-            "title": "Dudley Classics"
-          }
-        },
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1": {
           "type": "text",
           "settings": {
@@ -32,104 +82,122 @@
         }
       },
       "block_order": [
-        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1",
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1"
       ],
-      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
         "divider": false
       }
     },
-    "0462ca32-1921-42d0-9b0d-239c90c50a09": {
-      "type": "rich-text",
+    "text_columns_PEPdtF": {
+      "type": "text-columns",
       "blocks": {
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1": {
-          "type": "heading",
+        "text_block_3kkEc4": {
+          "type": "text_block",
           "settings": {
-            "title": "Find Your Perfect Silhouette"
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+            "button_label": "Optional button",
+            "button_link": ""
           }
         },
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1": {
-          "type": "text",
+        "text_block_tRUheq": {
+          "type": "text_block",
           "settings": {
-            "enlarge_text": true,
-            "text": "<p>In three lengths for a fit that suits your style.</p>"
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_WBp3Hj": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+            "button_label": "Optional button",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1",
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1"
+        "text_block_3kkEc4",
+        "text_block_tRUheq",
+        "text_block_WBp3Hj"
       ],
-      "disabled": true,
       "settings": {
+        "title": "",
         "align_text": "center",
-        "narrow_column": true,
         "divider": false
       }
     },
-    "50c43048-9982-4115-85ba-cae759aa5888": {
-      "type": "featured-collection",
-      "disabled": true,
+    "text_columns_MkGMht": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_8meqeP": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_c4Vn3G": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_am93fn": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_8meqeP",
+        "text_block_c4Vn3G",
+        "text_block_am93fn"
+      ],
       "settings": {
-        "title": "Crop-Length",
-        "home_featured_products": "cropped-turtlenecks",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "bc59d967-cb6a-43d7-981f-f7165f775819": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Hip-Length",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "95b1a523-559c-4437-befa-839266141cb1": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Midi-Length",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "45d53247-d730-4e59-9dd2-f7346f732c13": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Tunic-Length",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
+        "title": "",
+        "align_text": "center",
         "divider": false
       }
     }
   },
   "order": [
     "main",
+    "slideshow_4dyzkz",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
-    "0462ca32-1921-42d0-9b0d-239c90c50a09",
-    "50c43048-9982-4115-85ba-cae759aa5888",
-    "bc59d967-cb6a-43d7-981f-f7165f775819",
-    "95b1a523-559c-4437-befa-839266141cb1",
-    "45d53247-d730-4e59-9dd2-f7346f732c13"
+    "text_columns_PEPdtF",
+    "text_columns_MkGMht"
   ]
 }

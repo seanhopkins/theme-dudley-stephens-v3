@@ -18,8 +18,8 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Shop our latest styles for Instant Cozy!",
-            "link": "https://www.dudley-stephens.com/collections/new-drops"
+            "link_text": "Our classic turtlenecks: $79, for a limited time.",
+            "link": "shopify://collections/the-essentials-79"
           }
         },
         "announcement-1": {
@@ -27,8 +27,8 @@
           "disabled": true,
           "settings": {
             "text": "",
-            "link_text": "$99 styles (sitewide!) for 9 years! Shop the Anniversary Sale now.",
-            "link": "shopify://collections/anniversary-sale"
+            "link_text": "Gift with Purchase! Get a DS canvas tote with every order this weekend.",
+            "link": "shopify://collections/shop-all"
           }
         }
       },

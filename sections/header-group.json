@@ -89,32 +89,10 @@
         "show_currency_selector": false,
         "show_currency_flags": false
       }
-    },
-    "advanced_content_yNGpXj": {
-      "type": "advanced-content",
-      "blocks": {
-        "liquid_9yeyqF": {
-          "type": "liquid",
-          "settings": {
-            "code": "<div data-rebuy-id=\"177548\"></div>",
-            "width": "50%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "liquid_9yeyqF"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": false,
-        "lazyload_images": false
-      }
     }
   },
   "order": [
     "announcement",
-    "header",
-    "advanced_content_yNGpXj"
+    "header"
   ]
 }

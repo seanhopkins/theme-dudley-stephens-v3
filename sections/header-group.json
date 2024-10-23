@@ -18,12 +18,13 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Shop the Drop: The Skylark Pullover, $99",
+            "link_text": "Shop our latest styles for Instant Cozy!",
             "link": "https://www.dudley-stephens.com/collections/new-drops"
           }
         },
         "announcement-1": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "$99 styles (sitewide!) for 9 years! Shop the Anniversary Sale now.",

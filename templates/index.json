@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1a4d9a53-964a-41f0-8545-5ecbeedfa2b5": {
@@ -36,6 +36,7 @@
       "block_order": [
         "template--14928844390442__1a4d9a53-964a-41f0-8545-5ecbeedfa2b5-1687472987ab5faa84-0"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -57,13 +58,13 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
-            "heading": "Effortless Outerwear",
-            "textarea": "Easy styles to wear, wash & repeat all season long.",
+            "heading": "Instant Cozy",
+            "textarea": "Layers that deliver that Dudley look & feel: enveloping coziness & polished, put-together appeal.",
             "cta_text1": "Shop the drop",
             "cta_link1": "https://www.dudley-stephens.com/collections/new-drops",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify://shop_images/8-27dudleystephens7309.jpg",
+            "image": "shopify://shop_images/8-27dudleystephens_Canon-0203_3.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -78,13 +79,13 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
-            "heading": "The Icon",
-            "textarea": "Our #1 bestseller since day one, the Cobble Hill is back in Black.",
+            "heading": "Everywhere Outerwear",
+            "textarea": "Layer up in pieces that finish your look, flawlessly.",
             "cta_text1": "Shop now",
-            "cta_link1": "https://www.dudley-stephens.com/products/cobble-hill-turtleneck-black?_pos=2&_psq=cobble&_ss=e&_v=1.0",
+            "cta_link1": "shopify://collections/outerwear",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify://shop_images/Cobbke_0c4198a2-745a-4626-ae6d-731085ca10a0.jpg",
+            "image": "shopify://shop_images/8-27dudleystephens7340_2.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -123,7 +124,6 @@
         "b22e1874-3a53-481a-8ddb-89975d97e49b",
         "advanced_BjLHXQ"
       ],
-      "disabled": true,
       "custom_css": [
         "h2 {font-family: \"QuaverSerif\";}"
       ],
@@ -314,7 +314,7 @@
           "settings": {
             "year": "2024",
             "month": "10",
-            "day": "1",
+            "day": "22",
             "hour": "10",
             "minute": "00",
             "hide_timer": false,
@@ -324,7 +324,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2": {
           "type": "button",
           "settings": {
-            "button_link": "shopify://blogs/pineapple-street/drop-preview-effortless-outerwear",
+            "button_link": "shopify://blogs/pineapple-street/drop-preview-instant-cozy",
             "button": "Preview now",
             "button_style": "solid"
           }
@@ -404,18 +404,18 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Seas the Moment",
+            "title": "Cozy Season",
             "title_size": 80,
             "text_color": "#ffffff",
-            "subheading": "And sail straight into Fall in these transition-ready pieces.",
-            "link": "shopify://collections/the-fall-collection",
+            "subheading": "Embrace the chill with our classics in sumptuously soft fleece.",
+            "link": "https://www.dudley-stephens.com/collections/cozy-season",
             "link_text": "shop now",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify://shop_images/Slider_aa2bc9a7-9b58-496e-bc0e-2ec7ff6c0a3a.jpg",
-            "image_mobile": "shopify://shop_images/Slider_Moblie_026db02b-f7ae-4896-ace2-fa341890c18a.jpg",
+            "image": "shopify://shop_images/Slider_6ada5c99-8be6-4b5f-ac7e-d2a8a11445a9.jpg",
+            "image_mobile": "shopify://shop_images/Slider_Moblie_4106b977-4efb-4a01-8c3b-bcbd7fbff30b.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }

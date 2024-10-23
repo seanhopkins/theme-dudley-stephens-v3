@@ -13,3 +13,4 @@ node_modules
 src/*
 notifications
 tapcart
+scripts

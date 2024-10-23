@@ -24,7 +24,6 @@
         },
         "announcement-1": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "Gift with Purchase! Get a DS canvas tote with every order this weekend.",

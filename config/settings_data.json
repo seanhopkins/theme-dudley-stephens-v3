@@ -76,14 +76,14 @@
     "cart_type": "drawer",
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
-    "rebuy_widget_embed": "{% comment %}\n<div data-rebuy-id=\"127216\"></div>\n{% endcomment %}",
+    "rebuy_widget_embed": "<div data-rebuy-id=\"177548\"></div>\n{% comment %}\n<div data-rebuy-id=\"127216\"></div>\n{% endcomment %}",
     "gwp_enable": true,
     "gwp_tier_1_product_ids": "7300989288490",
-    "gwp_tier_1_threshold": "1",
+    "gwp_tier_1_threshold": "139",
     "gwp_tier_1_spend_more": "You’re just [money] away from a free gift",
     "gwp_tier_1_unlocked": "<p><strong>Free gift with purchase!</strong></p><p>Add one to your cart before checking out, with no additional charge.</p>",
     "gwp_tier_2_product_ids": "7300989288490",
-    "gwp_tier_2_threshold": "1",
+    "gwp_tier_2_threshold": "175",
     "gwp_tier_2_spend_more": "You’re just [money] away from a free gift",
     "gwp_tier_2_unlocked": "<p><strong>Free gift with purchase!</strong></p><p>Add one to your cart before checking out, with no additional charge.</p>",
     "social_facebook_link": "https://www.facebook.com/dudleystephensofficial",
@@ -1786,12 +1786,15 @@
         "settings": {
           "gift_thumbnail_position": "--wrapped-thumbnail-position-start",
           "gift_thumbnail_size": 40,
+          "extension_border_color": "#000000",
+          "extension_background_primary_color": "#ffffff",
+          "extension_background_secondary_color": "#f3f3f3",
           "font_scale": 100,
           "font_color": "#232528",
           "checkbox_radio_color": "rgba(0,0,0,0)",
           "background_color": "#ffffff",
-          "border_color": "#232528",
-          "border_radius": 2
+          "border_color": "#ffffff",
+          "border_radius": 0
         }
       }
     }

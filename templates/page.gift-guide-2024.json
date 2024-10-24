@@ -58,7 +58,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Timelessly appealing. Everyday elevated. Reimagined, reinvented, restyled—again and again. </p><p>Our icon, <em>the turtleneck.</em> </p>"
+            "text": "<p>’Tis the season to get cozy—and to give it. We’ve made holiday coziness irresistibly giftable, with luxuriously soft pieces that will make them look as good as they feel.</p><p>Who are you gifting? Find just the kind of cozy they crave, <em>here.</em></p>"
           }
         }
       },
@@ -80,9 +80,9 @@
             "enable_image": true,
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
-            "button_label": "Optional button",
+            "title": "Minimalista",
+            "text": "<p>Classic, streamlined, sophisticated—her fashion mantra.</p>",
+            "button_label": "Shop now",
             "button_link": ""
           }
         },
@@ -92,9 +92,9 @@
             "enable_image": true,
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
-            "button_label": "Optional button",
+            "title": "Maximalista",
+            "text": "<p>For the one who says more (color, print, detail) is *always* more.</p>",
+            "button_label": "shop now",
             "button_link": ""
           }
         },
@@ -104,9 +104,9 @@
             "enable_image": true,
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
-            "button_label": "Optional button",
+            "title": "Thrill Seeker",
+            "text": "<p>From ski getaways to everyday adventures, she’s forever on the go.</p>",
+            "button_label": "Shop now",
             "button_link": ""
           }
         }
@@ -131,9 +131,9 @@
             "enable_image": true,
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
-            "button_label": "Optional button",
+            "title": "Comfort Queen",
+            "text": "<p>Always has a streaming rec. Never met a lounge set she didn’t like.</p>",
+            "button_label": "Shop Now",
             "button_link": ""
           }
         },
@@ -143,9 +143,9 @@
             "enable_image": true,
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
-            "button_label": "Optional button",
+            "title": "Working Girl",
+            "text": "<p>She got the memo on conquering her career.</p>",
+            "button_label": "Shop Now",
             "button_link": ""
           }
         },
@@ -155,9 +155,9 @@
             "enable_image": true,
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
-            "button_label": "Optional button",
+            "title": "Multitasking Mom",
+            "text": "<p>For the one who wears 1,000 hats (and looks good in all).</p>",
+            "button_label": "shop now",
             "button_link": ""
           }
         }
@@ -173,10 +173,61 @@
         "divider": false
       }
     },
+    "text_columns_MFe9aT": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_dUB3HG": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Cozy For Kids",
+            "text": "<p>Cover their “something to wear” with pieces that delight.</p>",
+            "button_label": "Shop Now",
+            "button_link": ""
+          }
+        },
+        "text_block_eUqf7h": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Goods For The Guys",
+            "text": "<p>Easy choices for the toughest ones on your list.</p>",
+            "button_label": "shop now",
+            "button_link": ""
+          }
+        },
+        "text_block_xn93Vr": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Let Them Choose",
+            "text": "<p>Share the cozy with a Dudley gift card in any amount—available in email and card formats.</p>",
+            "button_label": "Shop gift cards",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_dUB3HG",
+        "text_block_eUqf7h",
+        "text_block_xn93Vr"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
     "featured_collection_3XgfxA": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Small Indulgences",
         "home_featured_products": "",
         "per_row": 4,
         "rows": 1,
@@ -230,6 +281,7 @@
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "text_columns_PEPdtF",
     "text_columns_MkGMht",
+    "text_columns_MFe9aT",
     "featured_collection_3XgfxA",
     "text_columns_qBfztK"
   ]

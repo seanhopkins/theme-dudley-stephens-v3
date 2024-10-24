@@ -125,6 +125,18 @@
         "divider": false
       }
     },
+    "featured_collection_3XgfxA": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Small Indulgences",
+        "home_featured_products": "small-indulgences",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "text_columns_MkGMht": {
       "type": "text-columns",
       "blocks": {
@@ -175,6 +187,18 @@
       "settings": {
         "title": "",
         "align_text": "center",
+        "divider": false
+      }
+    },
+    "featured_collection_BWbyD4": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Give Cozy Coats",
+        "home_featured_products": "outerwear",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
         "divider": false
       }
     },
@@ -232,18 +256,6 @@
         "divider": false
       }
     },
-    "featured_collection_3XgfxA": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Small Indulgences",
-        "home_featured_products": "small-indulgences",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "text_columns_qBfztK": {
       "type": "text-columns",
       "blocks": {
@@ -288,9 +300,10 @@
     "slideshow_4dyzkz",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "text_columns_PEPdtF",
-    "text_columns_MkGMht",
-    "text_columns_MFe9aT",
     "featured_collection_3XgfxA",
+    "text_columns_MkGMht",
+    "featured_collection_BWbyD4",
+    "text_columns_MFe9aT",
     "text_columns_qBfztK"
   ]
 }

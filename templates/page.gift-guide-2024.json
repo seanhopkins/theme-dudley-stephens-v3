@@ -78,7 +78,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/GREENPOINT_SHERPA_CREAM_490_9cf81f6a-569e-4e2c-bb00-e5adb10254e7.jpg",
+            "image": "shopify://shop_images/BOWERY_MOCKNECK_PETENATTI_FLEECE_CREAM_010_1.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Minimalista",
@@ -132,6 +132,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify://shop_images/GREENPOINT_SHERPA_CREAM_490_9cf81f6a-569e-4e2c-bb00-e5adb10254e7.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Comfort Queen",
@@ -232,7 +233,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Small Indulgences",
-        "home_featured_products": "",
+        "home_featured_products": "small-indulgences",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,

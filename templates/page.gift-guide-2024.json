@@ -78,36 +78,39 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify://shop_images/GREENPOINT_SHERPA_CREAM_490_9cf81f6a-569e-4e2c-bb00-e5adb10254e7.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Minimalista",
             "text": "<p>Classic, streamlined, sophisticated—her fashion mantra.</p>",
             "button_label": "Shop now",
-            "button_link": ""
+            "button_link": "https://www.dudley-stephens.com/collections/minimalista"
           }
         },
         "text_block_tRUheq": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify://shop_images/Copy_of_PARK_SLOPE_TURTLENECK_VELLO_POPPY_RED_FLATLAY_2140.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Maximalista",
             "text": "<p>For the one who says more (color, print, detail) is *always* more.</p>",
             "button_label": "shop now",
-            "button_link": ""
+            "button_link": "https://www.dudley-stephens.com/collections/maximalista"
           }
         },
         "text_block_WBp3Hj": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify://shop_images/Copy_of_MORNINGSIDE_JACKET_QUILTED_LUSTRE_ARMY_GREEN_FLATLAY_091.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Thrill Seeker",
             "text": "<p>From ski getaways to everyday adventures, she’s forever on the go.</p>",
             "button_label": "Shop now",
-            "button_link": ""
+            "button_link": "https://www.dudley-stephens.com/collections/thrill-seeker"
           }
         }
       },
@@ -141,12 +144,13 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify://shop_images/BRIGHTON_BOATNECK_TERRY_HUNTER_GREEN_017_fb193dfe-d894-4cea-9a69-46cf8572ca11.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Working Girl",
             "text": "<p>She got the memo on conquering her career.</p>",
             "button_label": "Shop Now",
-            "button_link": ""
+            "button_link": "https://www.dudley-stephens.com/collections/working-girl"
           }
         },
         "text_block_am93fn": {

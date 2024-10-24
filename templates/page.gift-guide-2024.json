@@ -181,22 +181,11 @@
     "text_columns_MFe9aT": {
       "type": "text-columns",
       "blocks": {
-        "text_block_dUB3HG": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Cozy For Kids",
-            "text": "<p>Cover their “something to wear” with pieces that delight.</p>",
-            "button_label": "Shop Now",
-            "button_link": ""
-          }
-        },
         "text_block_eUqf7h": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify://shop_images/MENS_DUFFIELD_WAFFLE_PETENATTI_WAFFLE_NAVY_461_1.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Goods For The Guys",
@@ -205,10 +194,24 @@
             "button_link": ""
           }
         },
+        "text_block_dUB3HG": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/TODDLER_CREWNECK_PRINTED_PETENATTI_FLEECE_SQUALL_PRINT_480_1.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Cozy For Kids",
+            "text": "<p>Cover their “something to wear” with pieces that delight.</p>",
+            "button_label": "Shop Now",
+            "button_link": ""
+          }
+        },
         "text_block_xn93Vr": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify://shop_images/DS_GIFT_CARD_694.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Let Them Choose",
@@ -219,8 +222,8 @@
         }
       },
       "block_order": [
-        "text_block_dUB3HG",
         "text_block_eUqf7h",
+        "text_block_dUB3HG",
         "text_block_xn93Vr"
       ],
       "settings": {

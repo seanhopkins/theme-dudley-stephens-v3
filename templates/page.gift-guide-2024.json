@@ -78,26 +78,13 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/BOWERY_MOCKNECK_PETENATTI_FLEECE_CREAM_010_1.jpg",
+            "image": "shopify://shop_images/COBBLE_HILL_BLACK_2024_0607_c484b2be-4f23-4ec7-8b25-41300946a909.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Minimalista",
             "text": "<p>Classic, streamlined, sophisticated—her fashion mantra.</p>",
             "button_label": "Shop now",
             "button_link": "https://www.dudley-stephens.com/collections/minimalista"
-          }
-        },
-        "text_block_tRUheq": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/Copy_of_PARK_SLOPE_TURTLENECK_VELLO_POPPY_RED_FLATLAY_2140.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Maximalista",
-            "text": "<p>For the one who says more (color, print, detail) is *always* more.</p>",
-            "button_label": "shop now",
-            "button_link": "https://www.dudley-stephens.com/collections/maximalista"
           }
         },
         "text_block_WBp3Hj": {
@@ -112,12 +99,25 @@
             "button_label": "Shop now",
             "button_link": "https://www.dudley-stephens.com/collections/thrill-seeker"
           }
+        },
+        "text_block_tRUheq": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/GREENPOINT_TURTLENECK_VELLO_FALL_TARTAN_1642_933a566d-7a5a-4f70-96c2-bff700ebea16.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Maximalista",
+            "text": "<p>For the one who says more (color, print, detail) is *always* more.</p>",
+            "button_label": "shop now",
+            "button_link": "https://www.dudley-stephens.com/collections/maximalista"
+          }
         }
       },
       "block_order": [
         "text_block_3kkEc4",
-        "text_block_tRUheq",
-        "text_block_WBp3Hj"
+        "text_block_WBp3Hj",
+        "text_block_tRUheq"
       ],
       "settings": {
         "title": "",
@@ -144,7 +144,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/GREENPOINT_SHERPA_CREAM_490_9cf81f6a-569e-4e2c-bb00-e5adb10254e7.jpg",
+            "image": "shopify://shop_images/HOODED_PALOMINO_SHERPA_NAVY_2754_ace90932-4d3e-4789-bb59-4fd106314906.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Comfort Queen",
@@ -153,11 +153,24 @@
             "button_link": ""
           }
         },
+        "text_block_am93fn": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/ALCOTT_PULLOVER_PETENATTI_FLEECE_KHAKI_CREAM_2101_2.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Multitasking Mom",
+            "text": "<p>For the one who wears 1,000 hats (and looks good in all).</p>",
+            "button_label": "shop now",
+            "button_link": "https://www.dudley-stephens.com/collections/multitasking-mom?page=2"
+          }
+        },
         "text_block_c4Vn3G": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/BRIGHTON_BOATNECK_TERRY_HUNTER_GREEN_017_fb193dfe-d894-4cea-9a69-46cf8572ca11.jpg",
+            "image": "shopify://shop_images/MARIELLE_MOCK_NECK_VELLO_BURGUNDY_0454_838d2e1b-b026-4f85-86f4-1df96d49b0fd.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Working Girl",
@@ -165,24 +178,12 @@
             "button_label": "Shop Now",
             "button_link": "https://www.dudley-stephens.com/collections/working-girl"
           }
-        },
-        "text_block_am93fn": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Multitasking Mom",
-            "text": "<p>For the one who wears 1,000 hats (and looks good in all).</p>",
-            "button_label": "shop now",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "text_block_8meqeP",
-        "text_block_c4Vn3G",
-        "text_block_am93fn"
+        "text_block_am93fn",
+        "text_block_c4Vn3G"
       ],
       "settings": {
         "title": "",

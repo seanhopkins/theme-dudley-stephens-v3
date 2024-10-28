@@ -238,13 +238,13 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/TODDLER_CREWNECK_PRINTED_PETENATTI_FLEECE_SQUALL_PRINT_480_1.jpg",
+            "image": "shopify://shop_images/DS_GIFT_CARD_694.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Cozy For Kids",
-            "text": "<p>Cover their “something to wear” with pieces that delight.</p>",
-            "button_label": "Shop Now",
-            "button_link": "https://www.dudley-stephens.com/collections/kids"
+            "title": "Let Them Choose",
+            "text": "<p>Share the cozy with a Dudley gift card—available in email and card formats.</p>",
+            "button_label": "Shop gift cards",
+            "button_link": "shopify://collections/gift-card"
           }
         }
       },
@@ -256,6 +256,18 @@
       "settings": {
         "title": "",
         "align_text": "center",
+        "divider": false
+      }
+    },
+    "featured_collection_6RETbL": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Cozy For Kids",
+        "home_featured_products": "kids",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
         "divider": false
       }
     },
@@ -297,18 +309,6 @@
         "align_text": "center",
         "divider": false
       }
-    },
-    "featured_collection_6RETbL": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Let Them Choose",
-        "home_featured_products": "gift-card",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
     }
   },
   "order": [
@@ -320,7 +320,7 @@
     "text_columns_MkGMht",
     "featured_collection_BWbyD4",
     "text_columns_MFe9aT",
-    "text_columns_qBfztK",
-    "featured_collection_6RETbL"
+    "featured_collection_6RETbL",
+    "text_columns_qBfztK"
   ]
 }

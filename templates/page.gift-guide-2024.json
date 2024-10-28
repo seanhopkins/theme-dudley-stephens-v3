@@ -60,7 +60,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>’Tis the season to get cozy—and to give it. We’ve made holiday coziness irresistibly giftable, with luxuriously soft pieces that will make them look as good as they feel.</p><p>Who are you gifting? Find just the kind of cozy they crave, <em>here.</em></p>"
+            "text": "<p>’Tis the season to get cozy—and to give it. We’ve made holiday coziness irresistibly giftable, with luxuriously soft pieces that will make them look as good as they feel.</p>"
           }
         }
       },
@@ -122,20 +122,8 @@
         "text_block_tRUheq"
       ],
       "settings": {
-        "title": "",
+        "title": "DS Goods for Every Giftee",
         "align_text": "center",
-        "divider": false
-      }
-    },
-    "featured_collection_3XgfxA": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Small Indulgences ($100 + under)",
-        "home_featured_products": "small-indulgences",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
         "divider": false
       }
     },
@@ -193,18 +181,6 @@
         "divider": false
       }
     },
-    "featured_collection_BWbyD4": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Give Cozy Coats",
-        "home_featured_products": "outerwear",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "text_columns_MFe9aT": {
       "type": "text-columns",
       "blocks": {
@@ -238,13 +214,13 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/DS_GIFT_CARD_694.jpg",
+            "image": "shopify://shop_images/TODDLER_CREWNECK_PRINTED_PETENATTI_FLEECE_SQUALL_PRINT_480_1.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Let Them Choose",
-            "text": "<p>Share the cozy with a Dudley gift card—available in email and card formats.</p>",
-            "button_label": "Shop gift cards",
-            "button_link": "shopify://collections/gift-card"
+            "title": "Cozy For Kids",
+            "text": "<p>Cover their “something to wear” with pieces that delight.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/kids"
           }
         }
       },
@@ -256,6 +232,30 @@
       "settings": {
         "title": "",
         "align_text": "center",
+        "divider": false
+      }
+    },
+    "featured_collection_3XgfxA": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Small Indulgences ($100 + under)",
+        "home_featured_products": "small-indulgences",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "featured_collection_BWbyD4": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Give Cozy Coats",
+        "home_featured_products": "outerwear",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
         "divider": false
       }
     },
@@ -316,10 +316,10 @@
     "slideshow_4dyzkz",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "text_columns_PEPdtF",
-    "featured_collection_3XgfxA",
     "text_columns_MkGMht",
-    "featured_collection_BWbyD4",
     "text_columns_MFe9aT",
+    "featured_collection_3XgfxA",
+    "featured_collection_BWbyD4",
     "featured_collection_6RETbL",
     "text_columns_qBfztK"
   ]

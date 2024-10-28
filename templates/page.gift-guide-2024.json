@@ -33,6 +33,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify://shop_images/Slider2_39e75432-a52c-47cd-b5e9-8356eb16dc41.jpg",
+            "image_mobile": "shopify://shop_images/Slider_Moblie_f1fd2a2c-961e-4de3-84c9-e4f70f9ee857.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }

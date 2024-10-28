@@ -130,7 +130,7 @@
     "featured_collection_3XgfxA": {
       "type": "featured-collection",
       "settings": {
-        "title": "Small Indulgences ($150 + under)",
+        "title": "Small Indulgences ($100 + under)",
         "home_featured_products": "small-indulgences",
         "per_row": 4,
         "rows": 1,
@@ -142,6 +142,19 @@
     "text_columns_MkGMht": {
       "type": "text-columns",
       "blocks": {
+        "text_block_am93fn": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/KENDALL_PULLOVER_SHERPA_VELLO_SPRUCE_CREAM_1184_1.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Perfect Pairings",
+            "text": "<p>For the one who wears 1,000 hats (and looks good in all).</p>",
+            "button_label": "shop now",
+            "button_link": "https://www.dudley-stephens.com/collections/perfect-pairings"
+          }
+        },
         "text_block_8meqeP": {
           "type": "text_block",
           "settings": {
@@ -153,19 +166,6 @@
             "text": "<p>Always has a streaming rec. Never met a lounge set she didn’t like.</p>",
             "button_label": "Shop Now",
             "button_link": "https://www.dudley-stephens.com/collections/comfort-queen"
-          }
-        },
-        "text_block_am93fn": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/ALCOTT_PULLOVER_PETENATTI_FLEECE_KHAKI_CREAM_2101_2.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Multitasking Mom",
-            "text": "<p>For the one who wears 1,000 hats (and looks good in all).</p>",
-            "button_label": "shop now",
-            "button_link": "https://www.dudley-stephens.com/collections/multitasking-mom?page=2"
           }
         },
         "text_block_c4Vn3G": {
@@ -183,8 +183,8 @@
         }
       },
       "block_order": [
-        "text_block_8meqeP",
         "text_block_am93fn",
+        "text_block_8meqeP",
         "text_block_c4Vn3G"
       ],
       "settings": {

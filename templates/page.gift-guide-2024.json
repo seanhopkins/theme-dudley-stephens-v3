@@ -237,6 +237,7 @@
     },
     "featured_collection_3XgfxA": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Small Indulgences ($100 + under)",
         "home_featured_products": "small-indulgences",

@@ -230,8 +230,8 @@
             "image_width": 650,
             "title": "Monogram It",
             "text": "<p>Make your gift one-of-a-kind with a monogram, available on select pieces.</p>",
-            "button_label": "Shop gift cards",
-            "button_link": "https://www.dudley-stephens.com/collections/gift-card"
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/monogram"
           }
         },
         "text_block_dUB3HG": {

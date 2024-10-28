@@ -77,7 +77,7 @@
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
     "rebuy_widget_embed": "{% comment %}\n<div data-rebuy-id=\"177560\"></div>\n{% endcomment %}",
-    "gwp_enable": true,
+    "gwp_enable": false,
     "gwp_tier_1_product_ids": "7300989288490",
     "gwp_tier_1_threshold": "16",
     "gwp_tier_1_spend_more": "You’re just [money] away from a free gift",

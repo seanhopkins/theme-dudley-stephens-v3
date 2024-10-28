@@ -235,43 +235,6 @@
         "divider": false
       }
     },
-    "featured_collection_3XgfxA": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Small Indulgences ($100 + under)",
-        "home_featured_products": "small-indulgences",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "featured_collection_BWbyD4": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Give Cozy Coats",
-        "home_featured_products": "outerwear",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "featured_collection_6RETbL": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Cozy For Kids",
-        "home_featured_products": "kids",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "text_columns_qBfztK": {
       "type": "text-columns",
       "blocks": {
@@ -310,6 +273,72 @@
         "align_text": "center",
         "divider": false
       }
+    },
+    "text_and_image_Jybtdf": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/2022-05-23-dudleystephens-5075.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Monogram It",
+        "text": "<p>Make your gift one-of-a-kind with a monogram, available on select pieces.</p>",
+        "button_label": "SHOP NOW",
+        "button_link": "shopify://collections/monogram",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_mM96tn": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/ASTRID_PUFFER_LUSTRE_PUFF_NAVY_2174_9d30ce45-619c-46ff-ada9-8f6c2d873a90.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Give Cozy Coats",
+        "text": "<p>Most wanted—and worn—season after season: Dudley outerwear. A wearable luxury.</p>",
+        "button_label": "Shop now",
+        "button_link": "shopify://collections/outerwear",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_PBr3HW": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/DS_GIFT_CARD_694.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Let Them Choose",
+        "text": "<p>Share the cozy shopping experience with a Dudley gift card in any amount—available in email and card formats.</p>",
+        "button_label": "shop gift cards",
+        "button_link": "shopify://collections/gift-card",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -319,9 +348,9 @@
     "text_columns_PEPdtF",
     "text_columns_MkGMht",
     "text_columns_MFe9aT",
-    "featured_collection_3XgfxA",
-    "featured_collection_BWbyD4",
-    "featured_collection_6RETbL",
-    "text_columns_qBfztK"
+    "text_columns_qBfztK",
+    "text_and_image_Jybtdf",
+    "text_and_image_mM96tn",
+    "text_and_image_PBr3HW"
   ]
 }

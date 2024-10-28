@@ -221,6 +221,19 @@
             "button_link": "shopify://collections/mens"
           }
         },
+        "text_block_xn93Vr": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/2022-05-23-dudleystephens-5075.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Monogram It",
+            "text": "<p>Make your gift one-of-a-kind with a monogram, available on select pieces.</p>",
+            "button_label": "Shop gift cards",
+            "button_link": "https://www.dudley-stephens.com/collections/gift-card"
+          }
+        },
         "text_block_dUB3HG": {
           "type": "text_block",
           "settings": {
@@ -233,25 +246,12 @@
             "button_label": "Shop Now",
             "button_link": "https://www.dudley-stephens.com/collections/kids"
           }
-        },
-        "text_block_xn93Vr": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/DS_GIFT_CARD_694.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Let Them Choose",
-            "text": "<p>Share the cozy with a Dudley gift card in any amount—available in email and card formats.</p>",
-            "button_label": "Shop gift cards",
-            "button_link": "https://www.dudley-stephens.com/collections/gift-card"
-          }
         }
       },
       "block_order": [
         "text_block_eUqf7h",
-        "text_block_dUB3HG",
-        "text_block_xn93Vr"
+        "text_block_xn93Vr",
+        "text_block_dUB3HG"
       ],
       "settings": {
         "title": "",
@@ -297,6 +297,18 @@
         "align_text": "center",
         "divider": false
       }
+    },
+    "featured_collection_6RETbL": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Let Them Choose",
+        "home_featured_products": "gift-card",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -308,6 +320,7 @@
     "text_columns_MkGMht",
     "featured_collection_BWbyD4",
     "text_columns_MFe9aT",
-    "text_columns_qBfztK"
+    "text_columns_qBfztK",
+    "featured_collection_6RETbL"
   ]
 }

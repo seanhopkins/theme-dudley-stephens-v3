@@ -22,16 +22,17 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Endless\npossibilities.",
+            "title": "",
             "title_size": 80,
             "text_color": "#ffffff",
-            "subheading": "Bring your brand to life",
+            "subheading": "",
             "link": "",
-            "link_text": "Optional button",
+            "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Slider_238ef98a-3b56-42a1-a784-e50da708bd3e.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -41,9 +42,9 @@
         "image_MtwUGa"
       ],
       "settings": {
-        "section_height": "650px",
+        "section_height": "natural",
         "mobile_height": "auto",
-        "parallax": true,
+        "parallax": false,
         "framed": false,
         "style": "bars",
         "autoplay": true,

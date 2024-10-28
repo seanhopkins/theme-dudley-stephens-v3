@@ -22,16 +22,18 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Endless\npossibilities.",
+            "title": "",
             "title_size": 80,
             "text_color": "#ffffff",
-            "subheading": "Bring your brand to life",
+            "subheading": "",
             "link": "",
-            "link_text": "Optional button",
+            "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Slider_8a54719f-debd-4b6e-aee5-4caccb15db27.jpg",
+            "image_mobile": "shopify://shop_images/Slider_Moblie_d0930066-394b-44c2-a075-f42ec664c77c.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -41,9 +43,9 @@
         "image_MtwUGa"
       ],
       "settings": {
-        "section_height": "650px",
+        "section_height": "natural",
         "mobile_height": "auto",
-        "parallax": true,
+        "parallax": false,
         "framed": false,
         "style": "bars",
         "autoplay": true,
@@ -58,7 +60,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Timelessly appealing. Everyday elevated. Reimagined, reinvented, restyled—again and again. </p><p>Our icon, <em>the turtleneck.</em> </p>"
+            "text": "<p>’Tis the season to get cozy—and to give it. We’ve made holiday coziness irresistibly giftable, with luxuriously soft pieces that will make them look as good as they feel.</p><p>Who are you gifting? Find just the kind of cozy they crave, <em>here.</em></p>"
           }
         }
       },
@@ -78,94 +80,46 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify://shop_images/COBBLE_HILL_BLACK_2024_0607_c484b2be-4f23-4ec7-8b25-41300946a909.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
-            "button_label": "Optional button",
-            "button_link": ""
-          }
-        },
-        "text_block_tRUheq": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
-            "button_label": "Optional button",
-            "button_link": ""
+            "title": "Minimalista",
+            "text": "<p>Classic, streamlined, sophisticated—her fashion mantra.</p>",
+            "button_label": "Shop now",
+            "button_link": "https://www.dudley-stephens.com/collections/minimalista"
           }
         },
         "text_block_WBp3Hj": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify://shop_images/Copy_of_MORNINGSIDE_JACKET_QUILTED_LUSTRE_ARMY_GREEN_FLATLAY_091.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
-            "button_label": "Optional button",
-            "button_link": ""
+            "title": "Thrill Seeker",
+            "text": "<p>From ski getaways to everyday adventures, she’s forever on the go.</p>",
+            "button_label": "Shop now",
+            "button_link": "https://www.dudley-stephens.com/collections/thrill-seeker"
+          }
+        },
+        "text_block_tRUheq": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/GREENPOINT_TURTLENECK_VELLO_FALL_TARTAN_1642_933a566d-7a5a-4f70-96c2-bff700ebea16.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Maximalista",
+            "text": "<p>For the one who says more (color, print, detail) is *always* more.</p>",
+            "button_label": "shop now",
+            "button_link": "https://www.dudley-stephens.com/collections/maximalista"
           }
         }
       },
       "block_order": [
         "text_block_3kkEc4",
-        "text_block_tRUheq",
-        "text_block_WBp3Hj"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "divider": false
-      }
-    },
-    "text_columns_MkGMht": {
-      "type": "text-columns",
-      "blocks": {
-        "text_block_8meqeP": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
-            "button_label": "Optional button",
-            "button_link": ""
-          }
-        },
-        "text_block_c4Vn3G": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
-            "button_label": "Optional button",
-            "button_link": ""
-          }
-        },
-        "text_block_am93fn": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Example title",
-            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>",
-            "button_label": "Optional button",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_8meqeP",
-        "text_block_c4Vn3G",
-        "text_block_am93fn"
+        "text_block_WBp3Hj",
+        "text_block_tRUheq"
       ],
       "settings": {
         "title": "",
@@ -176,8 +130,140 @@
     "featured_collection_3XgfxA": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "",
+        "title": "Small Indulgences ($100 + under)",
+        "home_featured_products": "small-indulgences",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "text_columns_MkGMht": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_am93fn": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/KENDALL_PULLOVER_SHERPA_VELLO_SPRUCE_CREAM_1184_1.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Perfect Pairings",
+            "text": "<p>Give twice the cozy delight with these Dudley duos.</p>",
+            "button_label": "shop now",
+            "button_link": "https://www.dudley-stephens.com/collections/perfect-pairings"
+          }
+        },
+        "text_block_8meqeP": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/LAUREL_PULLOVER_PETENATTI_SHERPA_CREAM_467_1_c1d7215f-5cb9-4772-89aa-8f48d67eac16.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Comfort Queen",
+            "text": "<p>Always has a streaming rec. Never met a lounge set she didn’t like.</p>",
+            "button_label": "Shop Now",
+            "button_link": "https://www.dudley-stephens.com/collections/comfort-queen"
+          }
+        },
+        "text_block_c4Vn3G": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/MARIELLE_MOCK_NECK_VELLO_BURGUNDY_0454_838d2e1b-b026-4f85-86f4-1df96d49b0fd.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Working Girl",
+            "text": "<p>She got the memo on conquering her career.</p>",
+            "button_label": "Shop Now",
+            "button_link": "https://www.dudley-stephens.com/collections/working-girl"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_am93fn",
+        "text_block_8meqeP",
+        "text_block_c4Vn3G"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "featured_collection_BWbyD4": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Give Cozy Coats",
+        "home_featured_products": "outerwear",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "text_columns_MFe9aT": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_eUqf7h": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/MENS_DUFFIELD_WAFFLE_PETENATTI_WAFFLE_NAVY_461_1.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Goods For The Guys",
+            "text": "<p>Easy choices for the toughest ones on your list.</p>",
+            "button_label": "shop now",
+            "button_link": "shopify://collections/mens"
+          }
+        },
+        "text_block_xn93Vr": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/2022-05-23-dudleystephens-5075.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Monogram It",
+            "text": "<p>Make your gift one-of-a-kind with a monogram, available on select pieces.</p>",
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/monogram"
+          }
+        },
+        "text_block_dUB3HG": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/DS_GIFT_CARD_694.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Let Them Choose",
+            "text": "<p>Share the cozy with a Dudley gift card—available in email and card formats.</p>",
+            "button_label": "Shop gift cards",
+            "button_link": "shopify://collections/gift-card"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_eUqf7h",
+        "text_block_xn93Vr",
+        "text_block_dUB3HG"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "featured_collection_6RETbL": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Cozy For Kids",
+        "home_featured_products": "kids",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -217,6 +303,7 @@
         "text_block_WWkciH",
         "text_block_8z49Vf"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "center",
@@ -229,8 +316,11 @@
     "slideshow_4dyzkz",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "text_columns_PEPdtF",
-    "text_columns_MkGMht",
     "featured_collection_3XgfxA",
+    "text_columns_MkGMht",
+    "featured_collection_BWbyD4",
+    "text_columns_MFe9aT",
+    "featured_collection_6RETbL",
     "text_columns_qBfztK"
   ]
 }

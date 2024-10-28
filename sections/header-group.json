@@ -27,8 +27,8 @@
           "disabled": true,
           "settings": {
             "text": "",
-            "link_text": "$99 styles (sitewide!) for 9 years! Shop the Anniversary Sale now.",
-            "link": "shopify://collections/anniversary-sale"
+            "link_text": "Gift with Purchase! Get a DS canvas tote with every order this weekend.",
+            "link": "shopify://collections/shop-all"
           }
         }
       },
@@ -59,13 +59,13 @@
           "settings": {
             "menu_item": "Women's",
             "show_column_1": true,
-            "image_1": "shopify://shop_images/2024-06-24-dudleystephens-JDP_6697.jpg",
-            "title_1": "The Blazer Shop",
-            "link_1": "shopify://collections/blazers",
+            "image_1": "shopify://shop_images/8-27dudleystephens_Canon-0203_3_5aa12042-e4ff-4e88-b106-cda5a68fc398.jpg",
+            "title_1": "Perfect Pairings",
+            "link_1": "https://www.dudley-stephens.com/collections/perfect-pairings",
             "show_column_2": true,
-            "image_2": "shopify://shop_images/2024-06-24-dudleystephens-JDP_6517_1.jpg",
-            "title_2": "The Fall Collection",
-            "link_2": "shopify://collections/the-fall-collection"
+            "image_2": "shopify://shop_images/8-27dudleystephens_Canon-0237.jpg",
+            "title_2": "Favorite Pullovers",
+            "link_2": "shopify://collections/pullovers-1"
           }
         }
       },

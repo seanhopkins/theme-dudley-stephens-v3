@@ -79,8 +79,8 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
-            "heading": "Everywhere Outerwear",
-            "textarea": "Layer up in pieces that finish your look, flawlessly.",
+            "heading": "Effortless Outerwear",
+            "textarea": "Easy styles to wear, wash & repeat all season long.",
             "cta_text1": "Shop now",
             "cta_link1": "shopify://collections/outerwear",
             "cta_text2": "",
@@ -314,7 +314,7 @@
           "settings": {
             "year": "2024",
             "month": "10",
-            "day": "22",
+            "day": "29",
             "hour": "10",
             "minute": "00",
             "hide_timer": false,
@@ -324,7 +324,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2": {
           "type": "button",
           "settings": {
-            "button_link": "shopify://blogs/pineapple-street/drop-preview-instant-cozy",
+            "button_link": "shopify://blogs/pineapple-street/drop-preview-holiday-giftables",
             "button": "Preview now",
             "button_style": "solid"
           }
@@ -335,7 +335,6 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-1",
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2"
       ],
-      "disabled": true,
       "custom_css": [
 
       ],

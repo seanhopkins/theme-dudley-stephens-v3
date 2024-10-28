@@ -18,12 +18,13 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Our classic turtlenecks: $79, for a limited time.",
-            "link": "shopify://collections/the-essentials-79"
+            "link_text": "Shop our latest styles for Instant Cozy!",
+            "link": "https://www.dudley-stephens.com/collections/new-drops"
           }
         },
         "announcement-1": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "Gift with Purchase! Get a DS canvas tote with every order this weekend.",
@@ -58,12 +59,12 @@
           "settings": {
             "menu_item": "Women's",
             "show_column_1": true,
-            "image_1": "shopify://shop_images/8-27dudleystephens7265.jpg",
-            "title_1": "Bestselling turtlenecks: $79",
-            "link_1": "shopify://collections/the-essentials-79",
+            "image_1": "shopify://shop_images/8-27dudleystephens_Canon-0203_3_5aa12042-e4ff-4e88-b106-cda5a68fc398.jpg",
+            "title_1": "Perfect Pairings",
+            "link_1": "https://www.dudley-stephens.com/collections/perfect-pairings",
             "show_column_2": true,
             "image_2": "shopify://shop_images/8-27dudleystephens_Canon-0237.jpg",
-            "title_2": "Perfect Pullovers",
+            "title_2": "Favorite Pullovers",
             "link_2": "shopify://collections/pullovers-1"
           }
         }

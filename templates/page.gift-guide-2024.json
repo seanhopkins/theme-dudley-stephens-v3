@@ -130,30 +130,30 @@
     "text_columns_MkGMht": {
       "type": "text-columns",
       "blocks": {
-        "text_block_am93fn": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/KENDALL_PULLOVER_SHERPA_VELLO_SPRUCE_CREAM_1184_1.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Perfect Pairings",
-            "text": "<p>Give twice the cozy delight with these Dudley duos.</p>",
-            "button_label": "shop now",
-            "button_link": "https://www.dudley-stephens.com/collections/perfect-pairings"
-          }
-        },
         "text_block_8meqeP": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/LAUREL_PULLOVER_PETENATTI_SHERPA_CREAM_467_1_c1d7215f-5cb9-4772-89aa-8f48d67eac16.jpg",
+            "image": "shopify://shop_images/LAUREL_PULLOVER_SHERPA_ICE_BLUE_4205_1.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Comfort Queen",
             "text": "<p>Always has a streaming rec. Never met a lounge set she didn’t like.</p>",
             "button_label": "Shop Now",
             "button_link": "https://www.dudley-stephens.com/collections/comfort-queen"
+          }
+        },
+        "text_block_am93fn": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/KENDALL_PULLOVER_PETENATTI_SHERPA_PETENATTI_FLEECE_SPRUCE_BODY_CREAM_COLLAR_YOKE_466_1.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Multitasking Mom",
+            "text": "<p>For the one who wears 1,000 hats (and looks good in all).</p>",
+            "button_label": "shop now",
+            "button_link": "https://www.dudley-stephens.com/collections/multitasking-mom"
           }
         },
         "text_block_c4Vn3G": {
@@ -171,8 +171,8 @@
         }
       },
       "block_order": [
-        "text_block_am93fn",
         "text_block_8meqeP",
+        "text_block_am93fn",
         "text_block_c4Vn3G"
       ],
       "settings": {
@@ -257,6 +257,28 @@
         "lazyload_images": true
       }
     },
+    "text_and_image_bXNbmX": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/KENDALL_PULLOVER_SHERPA_VELLO_SPRUCE_CREAM_1184_1.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Perfect Pairings",
+        "text": "<p>Give twice the cozy delight with these Dudley duos.</p>",
+        "button_label": "shop now",
+        "button_link": "shopify://collections/perfect-pairings",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "33",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
     "text_and_image_mM96tn": {
       "type": "text-and-image",
       "settings": {
@@ -272,7 +294,7 @@
         "button_style": "primary",
         "align_text": "center",
         "image_width": "33",
-        "layout": "left",
+        "layout": "right",
         "divider": false,
         "top_padding": true,
         "bottom_padding": true,
@@ -294,7 +316,7 @@
         "button_style": "primary",
         "align_text": "center",
         "image_width": "33",
-        "layout": "right",
+        "layout": "left",
         "divider": false,
         "top_padding": true,
         "bottom_padding": true,
@@ -349,6 +371,7 @@
     "text_columns_MkGMht",
     "text_columns_MFe9aT",
     "text_and_image_Jybtdf",
+    "text_and_image_bXNbmX",
     "text_and_image_mM96tn",
     "text_and_image_PBr3HW",
     "text_columns_qBfztK"

@@ -21,12 +21,16 @@
           {% if settings.gwp_enable %}
             <div id="GiftWithPurchase"></div>
           {% endif %}
+
+          {% if settings.rebuy_widget_gwp %}
+            <div data-rebuy class="appear-animation appear-delay-1">
+              <div data-rebuy-id="{{ settings.rebuy_widget_gwp }}"></div>
+            </div>
+          {% endif %}
           
           <div data-products class="appear-animation appear-delay-2"></div>
 
-          <div data-rebuy class="appear-animation appear-delay-2">
-            {{ settings.rebuy_widget_embed }}
-          </div>
+          
 
           {% if settings.cart_notes_enable %}
             <div class="appear-animation appear-delay-3">

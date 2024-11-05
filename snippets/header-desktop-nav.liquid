@@ -117,8 +117,8 @@
 
                     {%- for grandchildlink in childlink.links -%}
                       <div>
-                        <a href="{{ grandchildlink.url }}" class="site-nav__dropdown-link">
-                          {{grandchildlink.title}}
+                        <a href="{{ grandchildlink.url }}" class="site-nav__dropdown-link {% if grandchildlink.handle == "holiday-gift-guide" %} highlight--red {% endif %} ">
+                          {{ grandchildlink.title }}
                         </a>
                       </div>
                     {%- endfor -%}

@@ -60,7 +60,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>’Tis the season to get cozy—and to give it. We’ve made holiday coziness irresistibly giftable, with luxuriously soft pieces that will make them look as good as they feel.</p><p>Who are you gifting? Find just the kind of cozy they crave, <em>here.</em></p>"
+            "text": "<p>’Tis the season to get cozy—and to give it. We’ve made holiday coziness irresistibly giftable, with luxuriously soft pieces that will make them look as good as they feel.</p>"
           }
         }
       },
@@ -122,50 +122,38 @@
         "text_block_tRUheq"
       ],
       "settings": {
-        "title": "",
+        "title": "DS Goods for Every Giftee",
         "align_text": "center",
-        "divider": false
-      }
-    },
-    "featured_collection_3XgfxA": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Small Indulgences ($100 + under)",
-        "home_featured_products": "small-indulgences",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
         "divider": false
       }
     },
     "text_columns_MkGMht": {
       "type": "text-columns",
       "blocks": {
-        "text_block_am93fn": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/KENDALL_PULLOVER_SHERPA_VELLO_SPRUCE_CREAM_1184_1.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Perfect Pairings",
-            "text": "<p>Give twice the cozy delight with these Dudley duos.</p>",
-            "button_label": "shop now",
-            "button_link": "https://www.dudley-stephens.com/collections/perfect-pairings"
-          }
-        },
         "text_block_8meqeP": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/LAUREL_PULLOVER_PETENATTI_SHERPA_CREAM_467_1_c1d7215f-5cb9-4772-89aa-8f48d67eac16.jpg",
+            "image": "shopify://shop_images/LAUREL_PULLOVER_SHERPA_ICE_BLUE_4205_1.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "Comfort Queen",
             "text": "<p>Always has a streaming rec. Never met a lounge set she didn’t like.</p>",
             "button_label": "Shop Now",
             "button_link": "https://www.dudley-stephens.com/collections/comfort-queen"
+          }
+        },
+        "text_block_am93fn": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/KENDALL_PULLOVER_PETENATTI_SHERPA_PETENATTI_FLEECE_SPRUCE_BODY_CREAM_COLLAR_YOKE_466_1.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Multitasking Mom",
+            "text": "<p>For the one who wears 1,000 hats (and looks good in all).</p>",
+            "button_label": "shop now",
+            "button_link": "https://www.dudley-stephens.com/collections/multitasking-mom"
           }
         },
         "text_block_c4Vn3G": {
@@ -183,8 +171,8 @@
         }
       },
       "block_order": [
-        "text_block_am93fn",
         "text_block_8meqeP",
+        "text_block_am93fn",
         "text_block_c4Vn3G"
       ],
       "settings": {
@@ -193,21 +181,22 @@
         "divider": false
       }
     },
-    "featured_collection_BWbyD4": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Give Cozy Coats",
-        "home_featured_products": "outerwear",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "text_columns_MFe9aT": {
       "type": "text-columns",
       "blocks": {
+        "text_block_xn93Vr": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/TURTLENECK_ORNAMENT_TERRY_BUBBLE_GUM_474_1.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Small Indulgences",
+            "text": "<p>Little luxuries to share the cozy, $100 & under.</p>",
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/small-indulgences"
+          }
+        },
         "text_block_eUqf7h": {
           "type": "text_block",
           "settings": {
@@ -221,36 +210,23 @@
             "button_link": "shopify://collections/mens"
           }
         },
-        "text_block_xn93Vr": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/2022-05-23-dudleystephens-5075.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Monogram It",
-            "text": "<p>Make your gift one-of-a-kind with a monogram, available on select pieces.</p>",
-            "button_label": "Shop now",
-            "button_link": "shopify://collections/monogram"
-          }
-        },
         "text_block_dUB3HG": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/DS_GIFT_CARD_694.jpg",
+            "image": "shopify://shop_images/TODDLER_CREWNECK_PRINTED_PETENATTI_FLEECE_SQUALL_PRINT_480_1.jpg",
             "image_mask": "none",
             "image_width": 650,
-            "title": "Let Them Choose",
-            "text": "<p>Share the cozy with a Dudley gift card—available in email and card formats.</p>",
-            "button_label": "Shop gift cards",
-            "button_link": "shopify://collections/gift-card"
+            "title": "Cozy For Kids",
+            "text": "<p>Cover their “something to wear” with pieces that delight.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/kids"
           }
         }
       },
       "block_order": [
-        "text_block_eUqf7h",
         "text_block_xn93Vr",
+        "text_block_eUqf7h",
         "text_block_dUB3HG"
       ],
       "settings": {
@@ -259,16 +235,92 @@
         "divider": false
       }
     },
-    "featured_collection_6RETbL": {
-      "type": "featured-collection",
+    "text_and_image_Jybtdf": {
+      "type": "text-and-image",
       "settings": {
-        "title": "Cozy For Kids",
-        "home_featured_products": "kids",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
+        "image": "shopify://shop_images/2022-05-23-dudleystephens-5075.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Monogram It",
+        "text": "<p>Make your gift one-of-a-kind with a monogram, available on select pieces.</p>",
+        "button_label": "SHOP NOW",
+        "button_link": "shopify://collections/monogram",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "33",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_bXNbmX": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/KENDALL_PULLOVER_SHERPA_VELLO_SPRUCE_CREAM_1184_1.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Perfect Pairings",
+        "text": "<p>Give twice the cozy delight with these Dudley duos.</p>",
+        "button_label": "shop now",
+        "button_link": "shopify://collections/perfect-pairings",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "33",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_mM96tn": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/ASTRID_PUFFER_LUSTRE_PUFF_NAVY_2174_9d30ce45-619c-46ff-ada9-8f6c2d873a90.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Give Cozy Coats",
+        "text": "<p>Most wanted—and worn—season after season: Dudley outerwear. A wearable luxury.</p>",
+        "button_label": "Shop now",
+        "button_link": "shopify://collections/outerwear",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "33",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_PBr3HW": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/DS_GIFT_CARD_694.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Let Them Choose",
+        "text": "<p>Share the cozy shopping experience with a Dudley gift card in any amount—available in email and card formats.</p>",
+        "button_label": "shop gift cards",
+        "button_link": "shopify://collections/gift-card",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "33",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
       }
     },
     "text_columns_qBfztK": {
@@ -316,11 +368,12 @@
     "slideshow_4dyzkz",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "text_columns_PEPdtF",
-    "featured_collection_3XgfxA",
     "text_columns_MkGMht",
-    "featured_collection_BWbyD4",
     "text_columns_MFe9aT",
-    "featured_collection_6RETbL",
+    "text_and_image_Jybtdf",
+    "text_and_image_bXNbmX",
+    "text_and_image_mM96tn",
+    "text_and_image_PBr3HW",
     "text_columns_qBfztK"
   ]
 }

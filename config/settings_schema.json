@@ -873,12 +873,14 @@
       },
       {
         "type": "header",
-        "content": "Rebuy Widget"
+        "content": "Embed Rebuy Widget"
       },
       {
-        "type": "liquid",
-        "id": "rebuy_widget_embed",
-        "label": "Embed Rewind widget"
+        "type": "text",
+        "id": "rebuy_widget_gwp",
+        "label": "Widget ID",
+        "default": "177560",
+        "info": "Located in the Merchandising widget section of the Rebuy App"
       },
       {
         "type": "header",

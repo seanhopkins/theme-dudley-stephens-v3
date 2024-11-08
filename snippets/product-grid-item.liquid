@@ -77,16 +77,18 @@ Arguments
         {{ custom_label }}
       </div>
     {%- else -%}
-      {%- unless product.available -%}
-        <div class="grid-product__tag grid-product__tag--sold-out">
-          {{ 'products.product.sold_out' | t }}
-        </div>
-      {%- endunless -%}
-      {%- if on_sale and product.available -%}
-        <div class="grid-product__tag grid-product__tag--sale">
-          {{ 'products.general.sale' | t }}
-        </div>
-      {%- endif -%}
+      <div class="grid-product__tag-wrapper">
+        {%- unless product.available -%}
+          <div class="grid-product__tag grid-product__tag--sold-out">
+            {{ 'products.product.sold_out' | t }}
+          </div>
+        {%- endunless -%}
+        {%- if on_sale and product.available -%}
+          <div class="grid-product__tag grid-product__tag--sale">
+            {{ 'products.general.sale' | t }}
+          </div>
+        {%- endif -%}
+      </div>
     {%- endif -%}
 
     {%- liquid

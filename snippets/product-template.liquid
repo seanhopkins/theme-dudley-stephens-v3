@@ -231,37 +231,39 @@
                     </div>
                   {%- when 'price' -%}
                     <div class="product-block product-block--price" {{ block.shopify_attributes }}>
-                      {%- assign hide_sale_price = true -%}
-                      {%- if product.compare_at_price_max > product.price -%}
-                        {%- if current_variant.compare_at_price > current_variant.price -%}
-                          {%- assign hide_sale_price = false -%}
-                        {%- endif -%}
-                        <span
-                          data-a11y-price
-                          class="visually-hidden"
-                          aria-hidden="{{ hide_sale_price }}">
-                            {{ 'products.general.regular_price' | t }}
-                        </span>
-                        <span data-product-price-wrap class="{% if hide_sale_price %} hide{% endif %}">
-                          <span data-compare-price class="product__price product__price--compare">
-                            {%- if current_variant.compare_at_price > current_variant.price -%}
-                              {{ current_variant.compare_at_price | money }}
-                            {%- endif -%}
+                      <div class="product-block--price-wrapper">
+                        {%- assign hide_sale_price = true -%}
+                        {%- if product.compare_at_price_max > product.price -%}
+                          {%- if current_variant.compare_at_price > current_variant.price -%}
+                            {%- assign hide_sale_price = false -%}
+                          {%- endif -%}
+                          <span
+                            data-a11y-price
+                            class="visually-hidden"
+                            aria-hidden="{{ hide_sale_price }}">
+                              {{ 'products.general.regular_price' | t }}
                           </span>
-                        </span>
-                        <span data-compare-price-a11y class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
-                      {%- else -%}
-                        <span data-a11y-price class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
-                      {%- endif -%}
-
-                      <span data-product-price
-                        class="product__price{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
-                        {%- unless product.empty? -%}
-                          {{ current_variant.price | money }}
+                          <span data-product-price-wrap class="{% if hide_sale_price %} hide{% endif %}">
+                            <span data-compare-price class="product__price product__price--compare">
+                              {%- if current_variant.compare_at_price > current_variant.price -%}
+                                {{ current_variant.compare_at_price | money }}
+                              {%- endif -%}
+                            </span>
+                          </span>
+                          <span data-compare-price-a11y class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
                         {%- else -%}
-                          {{ 1999 | money }}
-                        {%- endunless -%}
-                      </span>
+                          <span data-a11y-price class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
+                        {%- endif -%}
+  
+                        <span data-product-price
+                          class="product__price{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
+                          {%- unless product.empty? -%}
+                            {{ current_variant.price | money }}
+                          {%- else -%}
+                            {{ 1999 | money }}
+                          {%- endunless -%}
+                        </span>
+                      </div>
 
                       {% comment %} START custom feature {% endcomment %}
                       {% for tag in product.tags %}

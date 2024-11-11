@@ -78,6 +78,9 @@
         "advanced_k6xWMp"
       ],
       "disabled": true,
+      "custom_css": [
+        "* {color: #dc353b;}"
+      ],
       "settings": {
         "full_width": true,
         "gutter_size": 0,

@@ -1821,6 +1821,11 @@
           "announcement_bar_padding_x": 10,
           "sale_price_color": "#ff0000"
         }
+      },
+      "10641372206048101839": {
+        "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-global-embed/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+        "disabled": false,
+        "settings": {}
       }
     }
   },

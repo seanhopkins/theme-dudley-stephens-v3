@@ -54,14 +54,16 @@
       "blocks": {
         "advanced_k6xWMp": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "subheading": "The Holiday Event",
+            "heading": "30-50% Off Everything",
+            "textarea": "No code needed—discount applies in cart.",
             "cta_text1": "Shop This",
             "cta_link1": "",
-            "cta_text2": "Shop All",
+            "cta_text2": "",
             "cta_link2": "",
+            "image": "shopify://shop_images/Banner2_458d85ba-fea3-429a-809a-febca37143e5.jpg",
             "video_url": "",
             "width": "100",
             "height": 500,
@@ -76,7 +78,6 @@
       "block_order": [
         "advanced_k6xWMp"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "gutter_size": 0,

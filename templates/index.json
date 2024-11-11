@@ -37,9 +37,7 @@
         "template--14928844390442__1a4d9a53-964a-41f0-8545-5ecbeedfa2b5-1687472987ab5faa84-0"
       ],
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "section_height": "natural",
         "mobile_height": "auto",
@@ -48,6 +46,42 @@
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 5,
+        "lazyload_images": false
+      }
+    },
+    "promo_grid_jkwiFn": {
+      "type": "promo-grid",
+      "blocks": {
+        "advanced_k6xWMp": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "advanced_k6xWMp"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false,
         "lazyload_images": false
       }
     },
@@ -192,9 +226,7 @@
     },
     "deced09a-7ae6-46bd-add7-75b8eb496d49": {
       "type": "featured-collection",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Our Latest Arrivals",
         "home_featured_products": "new-drops",
@@ -336,9 +368,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2"
       ],
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "layout": "banner",
         "full_width": false,
@@ -368,8 +398,7 @@
         },
         "template--14916567695402__cf175cf8-a4e8-45f7-8a52-3b14ac752957-16845125097d9b2ca1-2": {
           "type": "form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -528,6 +557,7 @@
   },
   "order": [
     "1a4d9a53-964a-41f0-8545-5ecbeedfa2b5",
+    "promo_grid_jkwiFn",
     "b8fccc94-b721-4ed5-a976-f81ed754cc18",
     "rich_text_kHmLVK",
     "advanced_content_9kWr6D",

@@ -78,7 +78,7 @@
     "cart_terms_conditions_enable": false,
     "rebuy_widget_gwp": "",
     "gwp_enable": true,
-    "gwp_tier_1_product_ids": "7453291741226,\n6944207700010,\n7453292888106,\n6864698933290,\n7453293903914,\n7453294624810,\n7453295083562,\n6864697950250,\n6944207994922",
+    "gwp_tier_1_product_ids": "7453291741226",
     "gwp_tier_1_threshold": "50",
     "gwp_tier_1_spend_more": "You’re just [money] away from a free gift",
     "gwp_tier_1_unlocked": "<p><strong>Free gift with purchase!<br/></strong>Add one to your cart before checking out, with no additional charge.</p>",

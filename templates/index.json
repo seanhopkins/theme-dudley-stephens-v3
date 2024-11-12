@@ -79,7 +79,7 @@
       ],
       "disabled": true,
       "custom_css": [
-        "* {color: #dc353b;}",
+        "* {color: #dc353b; border-color: #dc353b;}",
         ".type-advanced .promo-grid__content:not(.promo-grid__content--boxed):not( .promo-grid__content--sale ):after {background: none;}"
       ],
       "settings": {

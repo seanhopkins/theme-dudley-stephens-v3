@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "t:sections.footer-group.name",
@@ -125,7 +125,6 @@
             "title": "Join Our List",
             "text": "<p>Become a DS Insider for drop news, special offers & styling ideas</p>",
             "container_width": 40,
-            "show_postscript": false,
             "form_id": "29344",
             "postscript_title": "Exclusive Notifications",
             "postscript_description": "<p>Enter your phone number below to receive DS insider updates and offers by text.</p>"

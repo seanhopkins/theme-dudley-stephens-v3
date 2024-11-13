@@ -94,7 +94,7 @@
         "liquid": "",
         "button_style": "primary",
         "align_text": "left",
-        "image_width": "33",
+        "image_width": "50",
         "layout": "right",
         "divider": false,
         "top_padding": true,
@@ -116,7 +116,7 @@
         "liquid": "",
         "button_style": "primary",
         "align_text": "left",
-        "image_width": "33",
+        "image_width": "50",
         "layout": "left",
         "divider": false,
         "top_padding": true,
@@ -145,6 +145,28 @@
         "bottom_padding": true,
         "lazyload_images": true
       }
+    },
+    "text_and_image_ykyB9N": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/8-27dudleystephens6285.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Thursday:",
+        "title": "Date Night",
+        "text": "<p>Dinner for two with your plus-one, but keep it comfy-chic.<br/></p><p><a href=\"https://www.dudley-stephens.com/products/mead-point-blazer-in-vello-fleece-black?_pos=1&_psq=mead+po&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/mead-point-blazer-in-vello-fleece-black?_pos=1&_psq=mead+po&_ss=e&_v=1.0\">Mead Point Blazer in Black</a></p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -153,6 +175,7 @@
     "rich_text_jFfi9N",
     "text_and_image_XF6nJ7",
     "text_and_image_Ryk9Lx",
-    "text_and_image_rbrgqd"
+    "text_and_image_rbrgqd",
+    "text_and_image_ykyB9N"
   ]
 }

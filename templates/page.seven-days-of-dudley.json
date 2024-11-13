@@ -30,7 +30,9 @@
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify://shop_images/Slider_6ada5c99-8be6-4b5f-ac7e-d2a8a11445a9.jpg",
+            "image_mobile": "shopify://shop_images/Slider_Moblie_4106b977-4efb-4a01-8c3b-bcbd7fbff30b.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -42,8 +44,8 @@
       "settings": {
         "section_height": "650px",
         "mobile_height": "auto",
-        "parallax": true,
-        "framed": false,
+        "parallax": false,
+        "framed": true,
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 5,

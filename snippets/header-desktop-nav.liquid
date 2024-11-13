@@ -48,7 +48,7 @@
             data-link="{{ link.url }}"
             aria-expanded="false"
             aria-controls="site-nav-item--{{ forloop.index }}"
-            class="site-nav__link site-nav__link--underline{% if has_dropdown %} site-nav__link--has-dropdown{% endif %}"
+            class="site-nav__link site-nav__link--underline{% if has_dropdown %} site-nav__link--has-dropdown{% endif %} {% if link.handle == "the-holiday-event" %} highlight--red {% endif %}"
           >
             {{ link.title | remove: "[" | remove: "]" }} <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-chevron-down" viewBox="0 0 28 16"><path d="m1.57 1.59 12.76 12.77L27.1 1.59" stroke-width="2" stroke="#000" fill="none"/></svg>
           </summary>

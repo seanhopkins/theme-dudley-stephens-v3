@@ -77,7 +77,7 @@
   --urlIcoSelectWhite:url({{ 'ico-select-white.svg' | asset_url | split: '?' | first }});
 
   --grid-gutter:17px;
-  --drawer-gutter:20px;
+  --drawer-gutter:15px;
 
   --sizeChartMargin:25px 0;
   --sizeChartIconMargin:5px;
@@ -91,7 +91,7 @@
 @media only screen and (min-width:769px){
   :root{
     --grid-gutter:22px;
-    --drawer-gutter:30px;
+    --drawer-gutter:20px;
   }
 }
 
@@ -4682,7 +4682,7 @@ svg.icon-cart circle{
 
 @media only screen and (min-width:769px){
   .drawer__fixed-header,.drawer__header{
-    min-height:80px;
+    min-height: 60px;
   }
 }
 
@@ -12085,14 +12085,15 @@ newsletter-reminder .newsletter-reminder__message{
   width:100%;
 }
 
-.cart__item-name{
+.cart__item-name {
   display:block;
-  font-size:calc(var(--typeBaseSize) + 1px);
-  margin-bottom:8px;
+  font-size:var(--typeBaseSize);
+  margin-bottom:4px;
 }
 
 .cart__item--variants{
   margin-bottom:10px;
+  opacity: .5;
 }
 
 .cart__item--variants span{

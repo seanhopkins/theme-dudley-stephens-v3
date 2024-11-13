@@ -13,7 +13,7 @@
     "color_body_text": "#232528",
     "color_price": "#7f8182",
     "color_savings_text": "#9bcc56",
-    "color_borders": "#ced4dc",
+    "color_borders": "#efefef",
     "color_button": "#9bcc56",
     "color_button_text": "#ffffff",
     "color_sale_tag": "#9bcc56",
@@ -77,7 +77,7 @@
     "cart_type": "drawer",
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
-    "rebuy_widget_gwp": "",
+    "rebuy_widget_gwp": "177560",
     "gwp_enable": false,
     "gwp_tier_1_product_ids": "7453291741226,\n6944207700010,\n7453292888106,\n6864698933290,\n7453293903914,\n7453294624810,\n7453295083562,\n6864697950250,\n6944207994922",
     "gwp_tier_1_threshold": "50",
@@ -1795,13 +1795,13 @@
       },
       "2296928500563504527": {
         "type": "shopify://apps/abra-promotions/blocks/abra/daa1493a-23b5-48bb-8cb5-7ab1267b4642",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "popup_preview": true,
           "popup_background_color": "#232528",
           "popup_border_color": "#232528",
-          "popup_color": "#FFFFFF",
-          "popup_icon_color": "#FFFFFF",
+          "popup_color": "#ffffff",
+          "popup_icon_color": "#ffffff",
           "popup_border_radius": 4,
           "popup_border_width": 0,
           "popup_font_size": 14,
@@ -1814,15 +1814,20 @@
           "announcement_bar_enabled": true,
           "announcement_bar_background_color": "#232528",
           "announcement_bar_border_color": "#232528",
-          "announcement_bar_color": "#FFFFFF",
-          "announcement_bar_icon_color": "#FFFFFF",
+          "announcement_bar_color": "#ffffff",
+          "announcement_bar_icon_color": "#ffffff",
           "announcement_bar_border_radius": 0,
           "announcement_bar_font_size": 14,
           "announcement_bar_icon_size": 16,
           "announcement_bar_padding_y": 10,
           "announcement_bar_padding_x": 10,
-          "sale_price_color": "#FF0000"
+          "sale_price_color": "#ff0000"
         }
+      },
+      "10641372206048101839": {
+        "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-global-embed/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+        "disabled": false,
+        "settings": {}
       }
     }
   },

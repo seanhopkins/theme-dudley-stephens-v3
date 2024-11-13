@@ -88,7 +88,7 @@
         "image2_mask": "none",
         "subtitle": "Monday:",
         "title": "Out the Door in 10",
-        "text": "<p>Get launched for the school & workweek so fast you can afford that extra snooze.</p><p><a href=\"https://www.dudley-stephens.com/products/sun-valley-turtleneck-in-vello-fleece-black?_pos=3&_psq=sun+va&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/sun-valley-turtleneck-in-vello-fleece-black?_pos=3&_psq=sun+va&_ss=e&_v=1.0\">Sun Valley Turtleneck Black</a> + <a href=\"https://www.dudley-stephens.com/products/greenbriar-girls-turtleneck-in-vello-fleece-berry?_pos=3&_psq=girls&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/greenbriar-girls-turtleneck-in-vello-fleece-berry?_pos=3&_psq=girls&_ss=e&_v=1.0\">Girls Greenbriar Berry</a></p>",
+        "text": "<p>Get launched for the school & workweek so fast you can afford that extra snooze.</p><p><a href=\"https://www.dudley-stephens.com/products/sun-valley-turtleneck-in-vello-fleece-black?_pos=3&_psq=sun+va&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/sun-valley-turtleneck-in-vello-fleece-black?_pos=3&_psq=sun+va&_ss=e&_v=1.0\">Sun Valley Turtleneck in Black</a></p><p> <a href=\"https://www.dudley-stephens.com/products/greenbriar-girls-turtleneck-in-vello-fleece-berry?_pos=3&_psq=girls&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/greenbriar-girls-turtleneck-in-vello-fleece-berry?_pos=3&_psq=girls&_ss=e&_v=1.0\">Girls Greenbriar Turtleneck in Berry</a></p>",
         "button_label": "",
         "button_link": "",
         "liquid": "",
@@ -102,45 +102,6 @@
         "lazyload_images": true
       }
     },
-    "bc59d967-cb6a-43d7-981f-f7165f775819": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Hip-Length",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "95b1a523-559c-4437-befa-839266141cb1": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Midi-Length",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "45d53247-d730-4e59-9dd2-f7346f732c13": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Tunic-Length",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "text_and_image_Ryk9Lx": {
       "type": "text-and-image",
       "settings": {
@@ -149,7 +110,7 @@
         "image2_mask": "none",
         "subtitle": "Tuesday:",
         "title": "Work It from Home",
-        "text": "<p>Sure, you’re wearing PJ bottoms but your colleagues will appreciate your camera-ready top.<br/></p><p><a href=\"https://www.dudley-stephens.com/products/park-slope-with-tipping-in-vello-fleece-navy-scarlet?_pos=1&_psq=tipp&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/park-slope-with-tipping-in-vello-fleece-navy-scarlet?_pos=1&_psq=tipp&_ss=e&_v=1.0\">Park Slope with Tipping Black/Cream</a></p>",
+        "text": "<p>Sure, you’re wearing PJ bottoms but your colleagues will appreciate your camera-ready top.<br/></p><p><a href=\"https://www.dudley-stephens.com/products/park-slope-with-tipping-in-vello-fleece-navy-scarlet?_pos=1&_psq=tipp&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/park-slope-with-tipping-in-vello-fleece-navy-scarlet?_pos=1&_psq=tipp&_ss=e&_v=1.0\">Park Slope Turtleneck with Tipping Black/Cream</a></p>",
         "button_label": "",
         "button_link": "",
         "liquid": "",
@@ -162,6 +123,28 @@
         "bottom_padding": true,
         "lazyload_images": true
       }
+    },
+    "text_and_image_rbrgqd": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/8-27dudleystephens6839.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Wednesday:",
+        "title": "The Midweek Workout",
+        "text": "<p>Meeting fitness with fashion makes it less of a chore to get to that class. </p><p><a href=\"https://www.dudley-stephens.com/products/cobble-hill-turtleneck-black?_pos=1&_psq=cobble+hill&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/cobble-hill-turtleneck-black?_pos=1&_psq=cobble+hill&_ss=e&_v=1.0\">Cobble Hill Turtleneck in Black </a></p><p><a href=\"https://www.dudley-stephens.com/products/field-crest-pullover-in-sherpa-fleece-cream?_pos=1&_psq=field&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/field-crest-pullover-in-sherpa-fleece-cream?_pos=1&_psq=field&_ss=e&_v=1.0\">Field Crest Pullover in Cream</a></p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -169,9 +152,7 @@
     "slideshow_ACBweP",
     "rich_text_jFfi9N",
     "text_and_image_XF6nJ7",
-    "bc59d967-cb6a-43d7-981f-f7165f775819",
-    "95b1a523-559c-4437-befa-839266141cb1",
-    "45d53247-d730-4e59-9dd2-f7346f732c13",
-    "text_and_image_Ryk9Lx"
+    "text_and_image_Ryk9Lx",
+    "text_and_image_rbrgqd"
   ]
 }

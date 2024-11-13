@@ -11,7 +11,44 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {}
+    },
+    "slideshow_ACBweP": {
+      "type": "slideshow",
+      "blocks": {
+        "image_FAmb4b": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Seven Days of Dudley",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_FAmb4b"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "framed": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
     },
     "c3220d24-8e7b-4f84-a431-0aae228e36f2": {
       "type": "rich-text",
@@ -26,7 +63,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Timelessly appealing. Everyday elevated. Reimagined, reinvented, restyled—again and again. </p><p>Our icon, <em>the turtleneck.</em> </p>"
+            "text": "<p>Monday through Sunday, there’s a Dudley for every one of your everyday endeavors. A Dudley a day means getting dressed the effortless way—24/7.</p>"
           }
         }
       },
@@ -34,35 +71,6 @@
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1",
         "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1"
       ],
-      "disabled": true,
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
-    "0462ca32-1921-42d0-9b0d-239c90c50a09": {
-      "type": "rich-text",
-      "blocks": {
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1": {
-          "type": "heading",
-          "settings": {
-            "title": "Find Your Perfect Silhouette"
-          }
-        },
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>In three lengths for a fit that suits your style.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-heading-1",
-        "template--14938178256938__0462ca32-1921-42d0-9b0d-239c90c50a09-text-1"
-      ],
-      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -124,8 +132,8 @@
   },
   "order": [
     "main",
+    "slideshow_ACBweP",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
-    "0462ca32-1921-42d0-9b0d-239c90c50a09",
     "50c43048-9982-4115-85ba-cae759aa5888",
     "bc59d967-cb6a-43d7-981f-f7165f775819",
     "95b1a523-559c-4437-befa-839266141cb1",

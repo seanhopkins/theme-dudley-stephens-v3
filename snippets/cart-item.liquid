@@ -27,12 +27,13 @@
     {% comment %} END custom feature {% endcomment %}
     <div class="cart__item-title">
       <a href="{{ product.url }}" class="cart__item-name">
-        {{ product.product.title }}
+        {{ product.product.metafields.custom.product_style }}
+        
       </a>
       {%- unless product.product.has_only_default_variant -%}
         <div class="cart__item--variants">
           {%- for option in product.options_with_values -%}
-            <div><span>{{ option.name }}:</span> {{ option.value }}</div>
+            {{ option.value }}{{ product.product.title | split: "(" | last | remove: ")" | prepend: " • " }}
           {%- endfor -%}
         </div>
       {%- endunless -%}

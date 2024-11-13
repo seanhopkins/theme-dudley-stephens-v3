@@ -255,6 +255,33 @@
         "bottom_padding": true,
         "lazyload_images": true
       }
+    },
+    "rich_text_7rPmEg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VwQ7AK": {
+          "type": "heading",
+          "settings": {
+            "title": ""
+          }
+        },
+        "text_qry8GL": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Outfit your week the Dudley way, <a href=\"https://www.dudley-stephens.com/collections/seven-days-of-dudley\" title=\"https://www.dudley-stephens.com/collections/seven-days-of-dudley\">starting here</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VwQ7AK",
+        "text_qry8GL"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -268,6 +295,7 @@
     "text_and_image_mbh8Vb",
     "text_and_image_mYYFTp",
     "text_and_image_jpdYwm",
-    "text_and_image_wBc8dH"
+    "text_and_image_wBc8dH",
+    "rich_text_7rPmEg"
   ]
 }

@@ -52,16 +52,17 @@
         "lazyload_images": true
       }
     },
-    "c3220d24-8e7b-4f84-a431-0aae228e36f2": {
+    "rich_text_jFfi9N": {
       "type": "rich-text",
       "blocks": {
-        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1": {
+        "heading_VEBmeW": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "title": "Dudley Classics"
+            "title": "Rich text"
           }
         },
-        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1": {
+        "text_V4kcPT": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
@@ -70,8 +71,8 @@
         }
       },
       "block_order": [
-        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-heading-1",
-        "template--14938178256938__c3220d24-8e7b-4f84-a431-0aae228e36f2-text-1"
+        "heading_VEBmeW",
+        "text_V4kcPT"
       ],
       "settings": {
         "align_text": "center",
@@ -79,17 +80,26 @@
         "divider": false
       }
     },
-    "50c43048-9982-4115-85ba-cae759aa5888": {
-      "type": "featured-collection",
-      "disabled": true,
+    "text_and_image_XF6nJ7": {
+      "type": "text-and-image",
       "settings": {
-        "title": "Crop-Length",
-        "home_featured_products": "cropped-turtlenecks",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
+        "image_mask": "none",
+        "image2": "shopify://shop_images/8-27dudleystephens6736_1.jpg",
+        "image2_mask": "none",
+        "subtitle": "Monday:",
+        "title": "Out the Door in 10",
+        "text": "<p>Get launched for the school & workweek so fast you can afford that extra snooze.</p><p><a href=\"https://www.dudley-stephens.com/products/sun-valley-turtleneck-in-vello-fleece-black?_pos=3&_psq=sun+va&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/sun-valley-turtleneck-in-vello-fleece-black?_pos=3&_psq=sun+va&_ss=e&_v=1.0\">Sun Valley Turtleneck Black</a> + <a href=\"https://www.dudley-stephens.com/products/greenbriar-girls-turtleneck-in-vello-fleece-berry?_pos=3&_psq=girls&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/greenbriar-girls-turtleneck-in-vello-fleece-berry?_pos=3&_psq=girls&_ss=e&_v=1.0\">Girls Greenbriar Berry</a></p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "33",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
       }
     },
     "bc59d967-cb6a-43d7-981f-f7165f775819": {
@@ -130,15 +140,38 @@
         "view_all": true,
         "divider": false
       }
+    },
+    "text_and_image_Ryk9Lx": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/8-27dudleystephens6364_1.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Tuesday:",
+        "title": "Work It from Home",
+        "text": "<p>Sure, you’re wearing PJ bottoms but your colleagues will appreciate your camera-ready top.<br/></p><p><a href=\"https://www.dudley-stephens.com/products/park-slope-with-tipping-in-vello-fleece-navy-scarlet?_pos=1&_psq=tipp&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/park-slope-with-tipping-in-vello-fleece-navy-scarlet?_pos=1&_psq=tipp&_ss=e&_v=1.0\">Park Slope with Tipping Black/Cream</a></p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "33",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
     "main",
     "slideshow_ACBweP",
-    "c3220d24-8e7b-4f84-a431-0aae228e36f2",
-    "50c43048-9982-4115-85ba-cae759aa5888",
+    "rich_text_jFfi9N",
+    "text_and_image_XF6nJ7",
     "bc59d967-cb6a-43d7-981f-f7165f775819",
     "95b1a523-559c-4437-befa-839266141cb1",
-    "45d53247-d730-4e59-9dd2-f7346f732c13"
+    "45d53247-d730-4e59-9dd2-f7346f732c13",
+    "text_and_image_Ryk9Lx"
   ]
 }

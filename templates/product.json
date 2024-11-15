@@ -19,7 +19,7 @@
         "custom_iRJieG": {
           "type": "custom",
           "settings": {
-            "code": "<span class=\"holiday-event\">{{ product.metafields.theme.label.value }}</span>"
+            "code": "<span class=\"holiday-event\">{{ product.metafields.theme.label.value }} • Applied at checkout</span>"
           }
         },
         "yotpo_loyalty_rewards_product_points_module_app_block_3krepf": {
@@ -148,7 +148,7 @@
         "43d3e37f-8860-40ef-8349-35ff7eaa9cc4"
       ],
       "custom_css": [
-        "span.holiday-event {background-color: #dc353b; padding: 2px 8px; color: #fff; font-size: 12px; letter-spacing: 1px;}"
+        "span.holiday-event {background-color: #dc353b; padding: 2px 8px; color: #fff; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;}"
       ],
       "settings": {
         "sku_enable": false,

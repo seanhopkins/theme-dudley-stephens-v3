@@ -148,7 +148,7 @@
         "43d3e37f-8860-40ef-8349-35ff7eaa9cc4"
       ],
       "custom_css": [
-        "span.holiday-event {background-color: #dc353b; padding: 2px 8px; color: #fff; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;}"
+        "span.holiday-event {background-color: #dc353b; padding: 3px 12px; color: #fff; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; border-radius: 12pxl;}"
       ],
       "settings": {
         "sku_enable": false,

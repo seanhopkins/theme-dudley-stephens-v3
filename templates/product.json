@@ -57,6 +57,14 @@
             "code": "{% render 'color-swatches', separate_by_material: true %}"
           }
         },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        },
         "separator_FMMPhB": {
           "type": "separator",
           "settings": {}
@@ -97,14 +105,6 @@
             "code": "{% if product.available %}\n{% assign enable_monogram = false %}\n{% for tag in product.tags %}\n  {% if tag contains 'monogram' %} \n  {% assign enable_monogram = true %}\n  {% endif %}\n{% endfor %}\n{% if enable_monogram %}\n<div class=\"monogram-pdp-wrapper\">\n  {% render 'monogram', parent_product: product %}\n</div>\n{% endif %}\n{% endif %}"
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "surface_pickup_enable": false,
-            "show_gift_card_recipient": false
-          }
-        },
         "8058ac20-bea7-49a4-ad34-845c2aa0437b": {
           "type": "sales_point",
           "settings": {
@@ -136,13 +136,13 @@
         "898a4dd8-f55a-4ad6-ac0c-2974dd79371b",
         "variant_picker",
         "8be094d0-bbd6-4aad-980a-a98086f937da",
+        "buy_buttons",
         "separator_FMMPhB",
         "description",
         "ab135439-7e5c-4100-a042-17e17f3fa6c7",
         "e84a0778-3ebe-4d15-9d52-f89ac088f28f",
         "tab",
         "f748a8e4-cb48-49f5-8fb5-45436e04f0d0",
-        "buy_buttons",
         "8058ac20-bea7-49a4-ad34-845c2aa0437b",
         "f04ac498-aae2-4dea-a727-52ea7ef7ff36",
         "43d3e37f-8860-40ef-8349-35ff7eaa9cc4"

@@ -12,15 +12,15 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "custom_iRJieG": {
-          "type": "custom",
-          "settings": {
-            "code": "<span class=\"product__price--final-sale\">{{ product.metafields.theme.label.value }}</span>"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {}
+        },
+        "custom_iRJieG": {
+          "type": "custom",
+          "settings": {
+            "code": "<span class=\"holiday-event\">{{ product.metafields.theme.label.value }}</span>"
+          }
         },
         "yotpo_loyalty_rewards_product_points_module_app_block_3krepf": {
           "type": "shopify://apps/yotpo-loyalty-rewards/blocks/product-points-module-app-block/2f9660df-5018-4e02-9868-ee1fb88d6ccd",
@@ -128,8 +128,8 @@
         }
       },
       "block_order": [
-        "custom_iRJieG",
         "price",
+        "custom_iRJieG",
         "yotpo_loyalty_rewards_product_points_module_app_block_3krepf",
         "c73cc944-2dd8-41be-96f5-01434a99b524",
         "separator",
@@ -147,7 +147,9 @@
         "f04ac498-aae2-4dea-a727-52ea7ef7ff36",
         "43d3e37f-8860-40ef-8349-35ff7eaa9cc4"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "span.holiday-event {background-color: #dc353b; padding: 2px 8px; color: #fff; font-size: 12px; letter-spacing: 1px;}"
+      ],
       "settings": {
         "sku_enable": false,
         "image_position": "left",

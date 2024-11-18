@@ -19,7 +19,7 @@
         "custom_q4aXdU": {
           "type": "custom",
           "settings": {
-            "code": "<span class=\"holiday-event\"><strong>{{ product.metafields.theme.label.value }}</strong> • Auto applied at checkout</span>"
+            "code": "{% if product.metafields.theme.label.value != '' %}\n<span class=\"holiday-event\"><strong>{{ product.metafields.theme.label.value }}</strong> • Auto applied at checkout</span>\n{% endif %}"
           }
         },
         "yotpo_loyalty_rewards_product_points_module_app_block_3krepf": {

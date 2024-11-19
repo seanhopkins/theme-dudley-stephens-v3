@@ -24,11 +24,10 @@
         },
         "announcement-1": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "",
-            "link_text": "Gift with Purchase! Get a DS canvas tote with every order this weekend.",
-            "link": "shopify://collections/shop-all"
+            "link_text": "Just Dropped Festive Tartan, 40% Off!",
+            "link": "https://www.dudley-stephens.com/collections/new-drops"
           }
         }
       },

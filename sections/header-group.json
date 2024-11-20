@@ -24,6 +24,7 @@
         },
         "announcement-1": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "Just Dropped Festive Tartan, 40% Off!",

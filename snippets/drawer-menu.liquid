@@ -45,7 +45,7 @@
                   </button>
                 {%- else -%}
                   <a href="{{ link.url }}"
-                    class="mobile-nav__link mobile-nav__link--top-level highlight--red"
+                    class="mobile-nav__link mobile-nav__link--top-level {% if link.handle == "the-holiday-event" %} highlight--red {% endif %}"
                     id="Label-{{ child_list_handle }}"
                     {% if link.active %}data-active="true"{% endif %}>
                     {{ link.title | remove: "[" | remove: "]" }}

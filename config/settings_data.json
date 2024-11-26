@@ -761,6 +761,14 @@
               "monogram_swatch": "shopify://shop_images/hunter-green.jpg"
             }
           },
+          "color_swatch_DHJhqV": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Hydrangea",
+              "swatch_color": "",
+              "swatch_image": "shopify://shop_images/hydrangea.png"
+            }
+          },
           "1574187271808": {
             "type": "color_swatch",
             "settings": {
@@ -1639,6 +1647,7 @@
           "0f4c9ee9-f0b8-486f-b853-eb9d76149e15",
           "3b47349d-917d-4237-a0f3-0cf745769167",
           "1574187168038",
+          "color_swatch_DHJhqV",
           "1574187271808",
           "color_swatch_TT7QhN",
           "1595351270156",

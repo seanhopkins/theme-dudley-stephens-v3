@@ -24,7 +24,6 @@
         },
         "announcement-1": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "Gift with Purchase: Choose a Turtleneck Ornament with your $50+ order!",

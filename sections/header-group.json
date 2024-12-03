@@ -21,20 +21,10 @@
             "link_text": "DS Gives x Bundles of Joy—shop our exclusive color for a cause.",
             "link": "https://www.dudley-stephens.com/collections/new-drops"
           }
-        },
-        "announcement-0": {
-          "type": "announcement",
-          "disabled": true,
-          "settings": {
-            "text": "",
-            "link_text": "The Black Friday Sale: 30-50% Off Everything (no code needed; discounts applied in cart).",
-            "link": "shopify://collections/the-holiday-event"
-          }
         }
       },
       "block_order": [
-        "announcement_fngGRg",
-        "announcement-0"
+        "announcement_fngGRg"
       ],
       "custom_css": [
         ".announcement-text {letter-spacing: 0.025em; text-transform: none; font-size: 1em; font-weight: 500;}"

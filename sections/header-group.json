@@ -29,20 +29,11 @@
             "link_text": "The Black Friday Sale: 30-50% Off Everything (no code needed; discounts applied in cart).",
             "link": "shopify://collections/the-holiday-event"
           }
-        },
-        "announcement-1": {
-          "type": "announcement",
-          "settings": {
-            "text": "",
-            "link_text": "Gift with Purchase: Choose a Turtleneck Ornament with your $50+ order!",
-            "link": "shopify://collections/the-holiday-event"
-          }
         }
       },
       "block_order": [
         "announcement_fngGRg",
-        "announcement-0",
-        "announcement-1"
+        "announcement-0"
       ],
       "custom_css": [
         ".announcement-text {letter-spacing: 0.025em; text-transform: none; font-size: 1em; font-weight: 500;}"

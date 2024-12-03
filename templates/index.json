@@ -16,18 +16,18 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "9 Years. $99 & Under Sale.",
+            "title": "DS x Bundles of Joy",
             "title_size": 80,
             "text_color": "#ffffff",
-            "subheading": "Celebrate Dudley's 9th Anniversary with styles $99 & under sitewide.",
-            "link": "shopify://collections/anniversary-sale",
-            "link_text": "SHOP THE SALE",
+            "subheading": "This Giving Tuesday, shop a new DS shade that gives back.",
+            "link": "https://www.dudley-stephens.com/collections/new-drops",
+            "link_text": "SHOP now",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#9bcc56",
-            "text_align": "vertical-center horizontal-right",
-            "image": "shopify://shop_images/Slider_d08d692a-c834-4b78-b6a7-f7efddd5960b.jpg",
-            "image_mobile": "shopify://shop_images/Slider_Moblie_ae03b46d-aa2e-4c29-905c-96390b329b32.jpg",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify://shop_images/Slider_01baf4e9-9712-4b2b-9c4e-60295008c27c.jpg",
+            "image_mobile": "shopify://shop_images/Slider_Moblie_8fd9ce2b-bbbf-4b9d-9d90-9e1e4fbb134c.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 4
           }
@@ -36,7 +36,6 @@
       "block_order": [
         "template--14928844390442__1a4d9a53-964a-41f0-8545-5ecbeedfa2b5-1687472987ab5faa84-0"
       ],
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "section_height": "natural",
@@ -77,6 +76,7 @@
       "block_order": [
         "advanced_k6xWMp"
       ],
+      "disabled": true,
       "custom_css": [
         "* {color: #dc353b; border-color: #dc353b;}",
         ".type-advanced .promo-grid__content:not(.promo-grid__content--boxed):not( .promo-grid__content--sale ):after {background: none;}"
@@ -162,6 +162,7 @@
         "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1",
         "advanced_BjLHXQ"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-family: \"QuaverSerif\";}"
       ],

@@ -21,10 +21,19 @@
             "link_text": "Shop the Most Wanted Fleece of the Season: The Cherry Lawn Pullover.",
             "link": "https://www.dudley-stephens.com/collections/new-drops"
           }
+        },
+        "announcement_ME7YeN": {
+          "type": "announcement",
+          "settings": {
+            "text": "",
+            "link_text": "Ground shipping by Christmas: Order by 12 noon ET 12/14",
+            "link": "https://www.dudley-stephens.com/collections/shop-all"
+          }
         }
       },
       "block_order": [
-        "announcement_fngGRg"
+        "announcement_fngGRg",
+        "announcement_ME7YeN"
       ],
       "custom_css": [
         ".announcement-text {letter-spacing: 0.025em; text-transform: none; font-size: 1em; font-weight: 500;}"

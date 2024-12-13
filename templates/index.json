@@ -93,6 +93,27 @@
     "b8fccc94-b721-4ed5-a976-f81ed754cc18": {
       "type": "promo-grid",
       "blocks": {
+        "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "The End of Season Sale",
+            "textarea": "Current-season styles, just $39, $59 & $79 (& still time for holiday delivery).",
+            "cta_text1": "Shop NOW",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/12-5dudleystephens2639.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 800,
+            "text_size": 135,
+            "text_align": "vertical-bottom horizontal-center",
+            "color_accent": "#ffffff",
+            "boxed": false,
+            "framed": true
+          }
+        },
         "b22e1874-3a53-481a-8ddb-89975d97e49b": {
           "type": "advanced",
           "settings": {
@@ -104,27 +125,6 @@
             "cta_text2": "",
             "cta_link2": "",
             "image": "shopify://shop_images/12-5dudleystephens2233.jpg",
-            "video_url": "",
-            "width": "50",
-            "height": 800,
-            "text_size": 135,
-            "text_align": "vertical-bottom horizontal-center",
-            "color_accent": "#ffffff",
-            "boxed": false,
-            "framed": true
-          }
-        },
-        "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "DS x Bundles of Joy",
-            "textarea": "This Giving Tuesday, shop a new DS shade that gives back.",
-            "cta_text1": "Shop NOW",
-            "cta_link1": "https://www.dudley-stephens.com/collections/new-drops",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify://shop_images/BOJ2.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -159,8 +159,8 @@
         }
       },
       "block_order": [
-        "b22e1874-3a53-481a-8ddb-89975d97e49b",
         "template--14916567695402__b8fccc94-b721-4ed5-a976-f81ed754cc18-16844351470ea9ab41-1",
+        "b22e1874-3a53-481a-8ddb-89975d97e49b",
         "advanced_BjLHXQ"
       ],
       "custom_css": [

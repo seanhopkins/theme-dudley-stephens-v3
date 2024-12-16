@@ -113,6 +113,12 @@
         "id": "color_header_text",
         "label": "t:settings_schema.colors.settings.color_header_text.label",
         "default": "#000000"
+      },{
+        "type": "color",
+        "id": "color_nav_highlight",
+        "label": "Navigation Highlight",
+        "default": "#9bcc56",
+        "info": "Place square brackets around a menu item to activate highlight Ex: [Sale]"
       },
       {
         "type": "color",

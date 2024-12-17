@@ -1119,11 +1119,68 @@
       }
     });
 
-    window.addEventListener("govalo:productAddedToCart", function () {
-      // trigger AJAX cart when adding a Govalo product.
-      // See https://support.govalo.com/article/24-how-do-i-add-custom-events
-      document.dispatchEvent(new CustomEvent("ajaxProduct:added"));
-    });
+    // Only run the following code block if productOptions exists
+    if (typeof productOptions !== 'undefined') {
+      // START. Cookie selected variant and auto-apply selection
+      document.addEventListener("DOMContentLoaded", () => {
+        document.addEventListener("variant:change", (evt) => {
+          const variant = evt.detail.variant;
+          if (variant && variant.option1) {
+            const selectedSize = variant.option1;
+            setCookie("selectedSize", selectedSize, 7);
+            console.log(`Saved size ${selectedSize}`);
+          }
+        });
+
+        // Load previously selected size on page load
+        const savedSize = getCookie("selectedSize");
+        if (savedSize) {
+          console.log(`Loaded saved size ${savedSize}`);
+          selectSavedSize(savedSize);
+        }
+      });
+
+      function setCookie(name, value, days) {
+        const date = new Date();
+        date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+        const expires = "expires=" + date.toUTCString();
+        document.cookie = name + "=" + value + ";" + expires + ";path=/";
+      }
+
+      function getCookie(name) {
+        const cookieName = name + "=";
+        const decodedCookie = decodeURIComponent(document.cookie);
+        const cookieArray = decodedCookie.split(";");
+        for (let i = 0; i < cookieArray.length; i++) {
+          let cookie = cookieArray[i];
+          while (cookie.charAt(0) === " ") {
+            cookie = cookie.substring(1);
+          }
+          if (cookie.indexOf(cookieName) === 0) {
+            return cookie.substring(cookieName.length, cookie.length);
+          }
+        }
+        return "";
+      }
+
+      function selectSavedSize(savedSize) {
+        const variantWrapper = document.querySelector('.variant-input-wrap[data-handle$="size"]')
+        if (variantWrapper) {
+          const radioInput = variantWrapper.querySelector(`input[value="${savedSize}"]`);
+          if (radioInput) {
+            radioInput.checked = true;
+            // Trigger a change event to update any related UI elements
+            radioInput.dispatchEvent(new Event("change", { bubbles: true }));
+            console.log(`Selected size ${savedSize}`);
+          } else {
+            console.log(`Size ${savedSize} not found in available options`);
+          }
+        } else {
+          console.log("Variant wrapper not found");
+        }
+      }
+      // END. Cookie selected variant and auto-apply selection
+    }
 
     // sections
 

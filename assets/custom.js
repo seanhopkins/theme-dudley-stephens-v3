@@ -1131,7 +1131,7 @@
             console.log(`Saved size ${selectedSize}`);
           }
         });
-      
+
         // Load previously selected size on page load
         const savedSize = getCookie("selectedSize");
         if (savedSize) {
@@ -1139,14 +1139,14 @@
           selectSavedSize(savedSize);
         }
       });
-      
+
       function setCookie(name, value, days) {
         const date = new Date();
         date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
         const expires = "expires=" + date.toUTCString();
         document.cookie = name + "=" + value + ";" + expires + ";path=/";
       }
-      
+
       function getCookie(name) {
         const cookieName = name + "=";
         const decodedCookie = decodeURIComponent(document.cookie);
@@ -1162,9 +1162,9 @@
         }
         return "";
       }
-      
+
       function selectSavedSize(savedSize) {
-        const variantWrapper = document.querySelector('.variant-input-wrap[data-handle="womens-size"]');
+        const variantWrapper = document.querySelector('.variant-input-wrap[data-handle$="size"]')
         if (variantWrapper) {
           const radioInput = variantWrapper.querySelector(`input[value="${savedSize}"]`);
           if (radioInput) {

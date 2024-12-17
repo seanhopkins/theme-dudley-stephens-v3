@@ -476,7 +476,7 @@ div#loop-onstore {
 
 .nav-highlight a.site-nav__link,
 .mobile-nav__item.nav-highlight a.mobile-nav__link {
-   color: #9bcc56
+   color: var(--colorNavHighlight)
 }
 .postscript-form {
    display: flex;
@@ -521,7 +521,8 @@ svg.icon-recycle {
  }
 
  .highlight--red,
- .site-nav__link:hover.highlight--red {
+ .site-nav__link:hover.highlight--red,
+ .drawer a:not(.btn).highlight--red {
    color: #db3242;
 }
 
@@ -539,3 +540,4 @@ svg.icon-recycle {
 .cart__item-sub {
    align-items: flex-end;
 }
+

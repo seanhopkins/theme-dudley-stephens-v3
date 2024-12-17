@@ -24,6 +24,7 @@
     "color_large_image_bg": "#f8f4ed",
     "color_header": "#ffffff",
     "color_header_text": "#232528",
+    "color_nav_highlight": "#dc353b",
     "color_announcement": "#dc353b",
     "color_announcement_text": "#f8f4ed",
     "color_footer": "#f8f4ed",
@@ -77,7 +78,7 @@
     "cart_type": "drawer",
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
-    "rebuy_widget_gwp": "177560",
+    "rebuy_widget_gwp": "",
     "gwp_enable": false,
     "gwp_tier_1_product_ids": "7453291741226,\n6944207700010,\n7453292888106,\n6864698933290,\n7453293903914,\n7453294624810,\n7453295083562,\n6864697950250,\n6944207994922",
     "gwp_tier_1_threshold": "50",
@@ -100,10 +101,10 @@
     "product_grid_enable_swatches": true,
     "materials_list": "Material: Brushed Fleece\nMaterial: Bubble Fleece\nMaterial: Chevron\nMaterial: Double Layer Vello Fleece\nMaterial: Double Layer Vello Fleece with Neon Zipper\nMaterial: Eco Jersey\nMaterial: Eco Stretch\nMaterial: Lightweight Vello Fleece\nMaterial: Lustre Puff\nMaterial: Luxe Stretch\nMaterial: Merino Wool\nMaterial: N/A\nMaterial: Power Stretch\nMaterial: Repreve® Jersey\nMaterial: Repreve® Stretch\nMaterial: Repreve® Striped Jersey\nMaterial: Ribbed Fleece\nMaterial: Shearling Fleece\nMaterial: Sherpa Fleece\nMaterial: Sherpa/Vello Fleece\nMaterial: Silk\nMaterial: Striped Fleece\nMaterial: Terry Fleece\nMaterial: Townhouse Trunk Show\nMaterial: Vello Fleece\nMaterial: Vello Fleece Color Block\nMaterial: Waffle\nMaterial: Waffle Jersey\nMaterial: Waffle/Vello Fleece",
     "tag_sale_text_color": "#dc353b",
-    "show_tag_sale_message_clp": true,
+    "show_tag_sale_message_clp": false,
     "show_tag_sale_message_pdp": false,
-    "tag_sale_tag": "theholidayevent",
-    "tag_sale_message": "<p>DISCOUNT AUTOMATICALLY APPLIES AT CHECKOUT</p>",
+    "tag_sale_tag": "5days",
+    "tag_sale_message": "<p>5 Days of Dudley Deals</p>",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
@@ -528,7 +529,7 @@
             "settings": {
               "title": "Cream / Camel",
               "swatch_color": "",
-              "swatch_image": "shopify://shop_images/Cream-Camel.jpg"
+              "swatch_image": "shopify://shop_images/cream-camel.png"
             }
           },
           "color_swatch_nED3PC": {
@@ -616,6 +617,37 @@
               "title": "Festive Tartan",
               "swatch_color": "",
               "swatch_image": "shopify://shop_images/festive-tartan.png"
+            }
+          },
+          "color_swatch_Xtg4px": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "First Blush",
+              "swatch_color": ""
+            }
+          },
+          "color_swatch_LCUEYQ": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "First Blush Gingham",
+              "swatch_color": "",
+              "swatch_image": "shopify://shop_images/first-blush-gingham.png"
+            }
+          },
+          "color_swatch_AeMicg": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "First Blush Placed Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify://shop_images/first-blush-placed-stripe.jpg"
+            }
+          },
+          "color_swatch_TUyzkw": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "First Blush Scallop Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify://shop_images/first-blush-scallop-stripe.png"
             }
           },
           "b62f44a3-e13a-43c3-8dd0-cd070654e5b7": {
@@ -761,6 +793,14 @@
               "monogram_swatch": "shopify://shop_images/hunter-green.jpg"
             }
           },
+          "color_swatch_DHJhqV": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Hydrangea",
+              "swatch_color": "",
+              "swatch_image": "shopify://shop_images/hydrangea.png"
+            }
+          },
           "1574187271808": {
             "type": "color_swatch",
             "settings": {
@@ -775,6 +815,14 @@
               "title": "Ice Blue / Cream",
               "swatch_color": "",
               "swatch_image": "shopify://shop_images/ice-blue-cream.jpg"
+            }
+          },
+          "color_swatch_F6C7Ge": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Ice Blue Gingham",
+              "swatch_color": "",
+              "swatch_image": "shopify://shop_images/ice-blue-gingham.png"
             }
           },
           "1595351270156": {
@@ -866,19 +914,26 @@
               "monogram_swatch": "shopify://shop_images/DD9A770C-1F28-447C-A102-38AC835773C7_4_5005_c.jpg"
             }
           },
-          "9db0910b-3bbe-4da8-bf0d-b0c4cb7666d0": {
-            "type": "color_swatch",
-            "settings": {
-              "title": "Lime Green",
-              "swatch_color": "#a5c442"
-            }
-          },
           "1574207139700": {
             "type": "color_swatch",
             "settings": {
               "title": "Lavender",
               "swatch_color": "#d3c8e3",
               "monogram_swatch": "shopify://shop_images/1C8045C9-DF99-466D-AAF3-355BA6EAEAB4_1_201_a.jpg"
+            }
+          },
+          "color_swatch_rXeJBf": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Lemon Meringue",
+              "swatch_color": ""
+            }
+          },
+          "9db0910b-3bbe-4da8-bf0d-b0c4cb7666d0": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Lime Green",
+              "swatch_color": "#a5c442"
             }
           },
           "1573847292915": {
@@ -1509,6 +1564,29 @@
               "monogram_swatch": "shopify://shop_images/True_Blue_Monogram_Swatch.png"
             }
           },
+          "color_swatch_3xTif7": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Velvet Morning",
+              "swatch_color": ""
+            }
+          },
+          "color_swatch_BcdtTf": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Velvet Morning / Cream / Navy",
+              "swatch_color": "",
+              "swatch_image": "shopify://shop_images/velvet-morning-cream-navy.jpg"
+            }
+          },
+          "color_swatch_bVygq3": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Velvet Morning Placed Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify://shop_images/velvet-morning-placed-stripe.jpg"
+            }
+          },
           "9a80cae9-66a8-4d4d-a097-539d575aa31b": {
             "type": "color_swatch",
             "settings": {
@@ -1621,6 +1699,10 @@
           "1602597047269",
           "color_swatch_yET7nV",
           "color_swatch_fMnQUP",
+          "color_swatch_Xtg4px",
+          "color_swatch_LCUEYQ",
+          "color_swatch_AeMicg",
+          "color_swatch_TUyzkw",
           "b62f44a3-e13a-43c3-8dd0-cd070654e5b7",
           "c0374977-3323-4214-a3f7-f1cce5b2f5f6",
           "1573761957468",
@@ -1639,8 +1721,10 @@
           "0f4c9ee9-f0b8-486f-b853-eb9d76149e15",
           "3b47349d-917d-4237-a0f3-0cf745769167",
           "1574187168038",
+          "color_swatch_DHJhqV",
           "1574187271808",
           "color_swatch_TT7QhN",
+          "color_swatch_F6C7Ge",
           "1595351270156",
           "c2cf0632-eb99-4f71-b637-48e1b4db7016",
           "1574452655705",
@@ -1652,8 +1736,9 @@
           "color_swatch_y7qiKK",
           "color_swatch_kQzh4J",
           "1583256044838",
-          "9db0910b-3bbe-4da8-bf0d-b0c4cb7666d0",
           "1574207139700",
+          "color_swatch_rXeJBf",
+          "9db0910b-3bbe-4da8-bf0d-b0c4cb7666d0",
           "1573847292915",
           "891401f5-ac7b-4f77-9f81-3079e99400a5",
           "color_swatch_emfbEJ",
@@ -1733,6 +1818,9 @@
           "8563dcc6-c2c3-433e-80e8-989b61fa6b68",
           "5be8487b-9e1f-4650-9d7d-ca5d267c59a8",
           "color_swatch_WNgnhc",
+          "color_swatch_3xTif7",
+          "color_swatch_BcdtTf",
+          "color_swatch_bVygq3",
           "9a80cae9-66a8-4d4d-a097-539d575aa31b",
           "e6bd5ae0-f88f-4b77-becb-162959cb8eec",
           "1574186951943",
@@ -1826,6 +1914,11 @@
       },
       "10641372206048101839": {
         "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-global-embed/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+        "disabled": false,
+        "settings": {}
+      },
+      "10864971697205422121": {
+        "type": "shopify://apps/gorgias-live-chat-helpdesk/blocks/gorgias/a66db725-7b96-4e3f-916e-6c8e6f87aaaa",
         "disabled": false,
         "settings": {}
       }

@@ -1,0 +1,301 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow_ACBweP": {
+      "type": "slideshow",
+      "blocks": {
+        "image_FAmb4b": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Seven Days of Dudley",
+            "title_size": 80,
+            "text_color": "#ffffff",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify://shop_images/Slider_6ada5c99-8be6-4b5f-ac7e-d2a8a11445a9.jpg",
+            "image_mobile": "shopify://shop_images/Slider_Moblie_4106b977-4efb-4a01-8c3b-bcbd7fbff30b.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_FAmb4b"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "framed": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_jFfi9N": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VEBmeW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "text_V4kcPT": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Monday through Sunday, there’s a Dudley for every one of your everyday endeavors. A Dudley a day means getting dressed the effortless way—24/7.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VEBmeW",
+        "text_V4kcPT"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_and_image_XF6nJ7": {
+      "type": "text-and-image",
+      "settings": {
+        "image_mask": "none",
+        "image2": "shopify://shop_images/8-27dudleystephens6736_1.jpg",
+        "image2_mask": "none",
+        "subtitle": "Monday:",
+        "title": "Out the Door in 10",
+        "text": "<p>Get launched for the school & workweek so fast you can afford that extra snooze.</p><p><a href=\"https://www.dudley-stephens.com/products/sun-valley-turtleneck-in-vello-fleece-black?_pos=3&_psq=sun+va&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/sun-valley-turtleneck-in-vello-fleece-black?_pos=3&_psq=sun+va&_ss=e&_v=1.0\">Sun Valley Turtleneck in Black</a></p><p> <a href=\"https://www.dudley-stephens.com/products/greenbriar-girls-turtleneck-in-vello-fleece-berry?_pos=3&_psq=girls&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/greenbriar-girls-turtleneck-in-vello-fleece-berry?_pos=3&_psq=girls&_ss=e&_v=1.0\">Girls Greenbriar Turtleneck in Berry</a></p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_Ryk9Lx": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/8-27dudleystephens6364_1.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Tuesday:",
+        "title": "Work It from Home",
+        "text": "<p>Sure, you’re wearing PJ bottoms but your colleagues will appreciate your camera-ready top.<br/></p><p><a href=\"https://www.dudley-stephens.com/products/park-slope-with-tipping-in-vello-fleece-navy-scarlet?_pos=1&_psq=tipp&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/park-slope-with-tipping-in-vello-fleece-navy-scarlet?_pos=1&_psq=tipp&_ss=e&_v=1.0\">Park Slope Turtleneck with Tipping</a></p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_rbrgqd": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/8-27dudleystephens6839.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Wednesday:",
+        "title": "The Midweek Workout",
+        "text": "<p>Meeting fitness with fashion makes it less of a chore to get to that class. </p><p><a href=\"https://www.dudley-stephens.com/products/cobble-hill-turtleneck-black?_pos=1&_psq=cobble+hill&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/cobble-hill-turtleneck-black?_pos=1&_psq=cobble+hill&_ss=e&_v=1.0\">Cobble Hill Turtleneck in Black </a></p><p><a href=\"https://www.dudley-stephens.com/products/field-crest-pullover-in-sherpa-fleece-cream?_pos=1&_psq=field&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/field-crest-pullover-in-sherpa-fleece-cream?_pos=1&_psq=field&_ss=e&_v=1.0\">Field Crest Pullover in Cream</a></p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_ykyB9N": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/8-27dudleystephens6285.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Thursday:",
+        "title": "Date Night",
+        "text": "<p>Dinner for two with your plus-one, but keep it comfy-chic.<br/></p><p><a href=\"https://www.dudley-stephens.com/products/mead-point-blazer-in-vello-fleece-black?_pos=1&_psq=mead+po&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/mead-point-blazer-in-vello-fleece-black?_pos=1&_psq=mead+po&_ss=e&_v=1.0\">Mead Point Blazer in Black</a></p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_mbh8Vb": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/08-27-dudleystephens-Canon-0160_1_1.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Friday:",
+        "title": "Lunching with the Ladies",
+        "text": "<p>Cue the compliments when you wear these to your next bestie catch-up.<br/></p><p><a href=\"https://www.dudley-stephens.com/products/sutton-scallop-turtleneck-in-vello-fleece-ecru?_pos=1&_psq=ecr&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/sutton-scallop-turtleneck-in-vello-fleece-ecru?_pos=1&_psq=ecr&_ss=e&_v=1.0\">Sutton Scallop Turtleneck in Ecru</a> </p><p><a href=\"https://www.dudley-stephens.com/products/greenpoint-turtleneck-in-vello-fleece-black-cream-wide-stripe?_pos=1&_psq=wide&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/greenpoint-turtleneck-in-vello-fleece-black-cream-wide-stripe?_pos=1&_psq=wide&_ss=e&_v=1.0\">Greenpoint Turtleneck in Black/Cream Wide Stripe</a></p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_mYYFTp": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/8-27dudleystephens6191_7a53c1e0-37c4-4bc7-90b5-4ee787f7518f.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Friday Night:",
+        "title": "Chillaxing at Home",
+        "text": "<p>It’s been a long week. Time to get comfy, but keep your sense of style. <br/></p><p><a href=\"https://www.dudley-stephens.com/products/greenpoint-turtleneck-in-sherpa-fleece-cream\" title=\"https://www.dudley-stephens.com/products/greenpoint-turtleneck-in-sherpa-fleece-cream\">Greenpoint Sherpa Turtleneck in Cream</a></p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_jpdYwm": {
+      "type": "text-and-image",
+      "settings": {
+        "image_mask": "none",
+        "image2": "shopify://shop_images/8-27dudleystephens7235.jpg",
+        "image2_mask": "none",
+        "subtitle": "Saturday:",
+        "title": "Game Day",
+        "text": "<p>Whether cheering for your alma mater or your kiddo’s team, you’ve won at fan fashion.<br/></p><p><a href=\"https://www.dudley-stephens.com/products/astrid-puffer-in-lustre-puff-navy?_pos=1&_psq=puffer&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/astrid-puffer-in-lustre-puff-navy?_pos=1&_psq=puffer&_ss=e&_v=1.0\">Astrid Puffer in Navy</a></p><p><a href=\"https://www.dudley-stephens.com/products/greenpoint-turtleneck-in-vello-fleece-ice-blue?_pos=2&_psq=ice+bl&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/greenpoint-turtleneck-in-vello-fleece-ice-blue?_pos=2&_psq=ice+bl&_ss=e&_v=1.0\">Greenpoint Turtleneck in Ice Blue</a></p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_wBc8dH": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/8-27dudleystephens_Canon-0220_2.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Sunday:",
+        "title": "Jetting Away",
+        "text": "<p>Business, pleasure—whatever your reason for flying the friendly skies, here are your companion tickets.<br/></p><p><a href=\"https://www.dudley-stephens.com/products/five-mile-river-scarf-in-vello-fleece-cream?_pos=3&_psq=five+mile+c&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/five-mile-river-scarf-in-vello-fleece-cream?_pos=3&_psq=five+mile+c&_ss=e&_v=1.0\">Five Mile River Scarf in Cream</a> </p><p><a href=\"https://www.dudley-stephens.com/products/greenpoint-turtleneck-in-vello-fleece-spruce\" title=\"https://www.dudley-stephens.com/products/greenpoint-turtleneck-in-vello-fleece-spruce\">Greenpoint Turtleneck in Spruce</a></p><p><a href=\"https://www.dudley-stephens.com/products/beatrice-beanie-in-sherpa-fleece-spruce?_pos=1&_psq=beanie&_ss=e&_v=1.0\" title=\"https://www.dudley-stephens.com/products/beatrice-beanie-in-sherpa-fleece-spruce?_pos=1&_psq=beanie&_ss=e&_v=1.0\">Beatrice Beanie in Spruce</a></p>",
+        "button_label": "",
+        "button_link": "",
+        "liquid": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_7rPmEg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VwQ7AK": {
+          "type": "heading",
+          "settings": {
+            "title": ""
+          }
+        },
+        "text_qry8GL": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Outfit your week the Dudley way, <a href=\"https://www.dudley-stephens.com/collections/seven-days-of-dudley\" title=\"https://www.dudley-stephens.com/collections/seven-days-of-dudley\">starting here</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VwQ7AK",
+        "text_qry8GL"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_ACBweP",
+    "rich_text_jFfi9N",
+    "text_and_image_XF6nJ7",
+    "text_and_image_Ryk9Lx",
+    "text_and_image_rbrgqd",
+    "text_and_image_ykyB9N",
+    "text_and_image_mbh8Vb",
+    "text_and_image_mYYFTp",
+    "text_and_image_jpdYwm",
+    "text_and_image_wBc8dH",
+    "rich_text_7rPmEg"
+  ]
+}

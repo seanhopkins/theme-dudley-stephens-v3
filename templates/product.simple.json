@@ -1,32 +1,30 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-product",
       "blocks": {
         "c73cc944-2dd8-41be-96f5-01434a99b524": {
-          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
             "product": "{{product}}"
           }
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "separator": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "898a4dd8-f55a-4ad6-ac0c-2974dd79371b": {
           "type": "size_chart",
@@ -72,7 +70,7 @@
           "disabled": true,
           "settings": {
             "title": "Care",
-            "content": "{{ product.metafields.custom.product_care | metafield_tag }}<p>View <a href=\"\/pages\/fabric-guide\" target=\"_blank\" title=\"Fabric Guide\">Fabric Guide<\/a><\/p>",
+            "content": "{{ product.metafields.custom.product_care | metafield_tag }}<p>View <a href=\"/pages/fabric-guide\" target=\"_blank\" title=\"Fabric Guide\">Fabric Guide</a></p>",
             "page": ""
           }
         },
@@ -86,7 +84,7 @@
           }
         },
         "f3a9819f-f30f-4d77-96de-f4d4a46ce0d5": {
-          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
           "disabled": true,
           "settings": {
             "enabled": true,
@@ -150,9 +148,7 @@
         "f04ac498-aae2-4dea-a727-52ea7ef7ff36",
         "43d3e37f-8860-40ef-8349-35ff7eaa9cc4"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "sku_enable": false,
         "image_position": "left",
@@ -172,7 +168,7 @@
         "cfbe4144-5c38-475e-88b4-0522af0539a9": {
           "type": "liquid",
           "settings": {
-            "code": "<p class=\"h2 text-center\">Show us how you dudley<\/h2>",
+            "code": "<p class=\"h2 text-center\">Show us how you dudley</h2>",
             "width": "100%",
             "alignment": "bottom-middle"
           }
@@ -180,7 +176,7 @@
         "template--14916568285226__cb0b4ebb-60f1-4c0c-a08f-3bcaa11774b6-1686166578f0efbd44-1": {
           "type": "liquid",
           "settings": {
-            "code": "<div\n    \tclass=\"yotpo yotpo-pictures-widget\"\n    \tdata-gallery-id=\"627ac733701eef16225b91e1\"\n    \tdata-product-id=\"{{ product.id }}\">\n    <\/div>",
+            "code": "<div\n    \tclass=\"yotpo yotpo-pictures-widget\"\n    \tdata-gallery-id=\"627ac733701eef16225b91e1\"\n    \tdata-product-id=\"{{ product.id }}\">\n    </div>",
             "width": "100%",
             "alignment": "center"
           }
@@ -201,7 +197,7 @@
       "type": "apps",
       "blocks": {
         "f0a190d9-8ce5-4fc7-b3b8-ddadc7af6f37": {
-          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
             "product": "{{product}}"
           }
@@ -242,8 +238,7 @@
     },
     "collection-return": {
       "type": "collection-return",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [

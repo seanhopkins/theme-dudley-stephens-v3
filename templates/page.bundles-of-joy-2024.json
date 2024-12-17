@@ -1,10 +1,18 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "slideshow_mWAzXD": {
       "type": "slideshow",
@@ -23,8 +31,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Slider_1afc3148-d66f-4926-bd67-55eba550b1ba.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Slider_Moblie_dc5cd382-0641-4701-8149-c8e27cb77a04.jpg",
+            "image": "shopify://shop_images/Slider_1afc3148-d66f-4926-bd67-55eba550b1ba.jpg",
+            "image_mobile": "shopify://shop_images/Slider_Moblie_dc5cd382-0641-4701-8149-c8e27cb77a04.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -44,6 +52,45 @@
         "lazyload_images": false
       }
     },
+    "rich_text_nDRhgp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YYWBk8": {
+          "type": "heading",
+          "settings": {
+            "title": "The Bundles of Joy Collection"
+          }
+        },
+        "text_d8EbYJ": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>A color for a cause: Shop our signature fleece in Bundles of Joy Green, with 20% of proceeds supporting kids & moms in our community.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YYWBk8",
+        "text_d8EbYJ"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "featured_collection_9Kefra": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "bundles-of-joy",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "c3220d24-8e7b-4f84-a431-0aae228e36f2": {
       "type": "rich-text",
       "blocks": {
@@ -57,7 +104,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Bringing essential, everyday items to mothers and children in need.<\/p>"
+            "text": "<p>Bringing essential, everyday items to mothers and children in need.</p>"
           }
         }
       },
@@ -75,12 +122,12 @@
     "text_and_image_Qr8JkD": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Bundles.2.jpg",
+        "image": "shopify://shop_images/BOJ.jpg",
         "image_mask": "square",
         "image2_mask": "portrait",
         "subtitle": "",
         "title": "By Women, For Women",
-        "text": "<p>As a female-founded brand, we have a special place in our hearts for helping other women—and their children. That’s why we’ve partnered with Bundles of Joy, a local, Westchester-County, New York-based nonprofit that provides everyday essential items no child should ever have to go without. <\/p><p>Throughout the year, we’ll share ways we’re partnering with Bundles of Joy to deliver #dsgoods to families served by this inspiring organization. Stay tuned for ways you can join us in supporting their mission!<\/p>",
+        "text": "<p>As a female-founded brand, we have a special place in our hearts for helping other women—and their children. That’s why we’ve partnered with Bundles of Joy, a local, Westchester-County, New York-based nonprofit that provides everyday essential items no child should ever have to go without. </p><p>Throughout the year, we’ll share ways we’re partnering with Bundles of Joy to deliver #dsgoods to families served by this inspiring organization. Stay tuned for ways you can join us in supporting their mission!</p>",
         "button_label": "",
         "button_link": "",
         "liquid": "",
@@ -101,14 +148,14 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p><em>“Knowing how difficult motherhood was for me, with resources, support and options—I couldn’t fathom what it was like for mothers who had to worry about providing for their baby. That’s how Bundles of Joy was born.”<\/em><\/p>"
+            "text": "<p><em>“Knowing how difficult motherhood was for me, with resources, support and options—I couldn’t fathom what it was like for mothers who had to worry about providing for their baby. That’s how Bundles of Joy was born.”</em></p>"
           }
         },
         "text_rptfjm": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>- Adrienne Harper, Bundles of Joy Founder<\/p>"
+            "text": "<p>- Adrienne Harper, Bundles of Joy Founder</p>"
           }
         }
       },
@@ -128,12 +175,12 @@
     "text_and_image_LmYtnY": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Bundlesofjoy1.jpg",
+        "image": "shopify://shop_images/Bundlesofjoy1.jpg",
         "image_mask": "square",
         "image2_mask": "none",
         "subtitle": "",
         "title": "More on The Mission",
-        "text": "<p>Bundles of Joy serves mothers (and fathers), babies and children who live at or below the poverty line. The organization works directly with food pantries, homeless and domestic violence shelters, schools, hospitals, and individuals to provide everything from diapers to baby gear, books, toys—and everything in between.<\/p>",
+        "text": "<p>Bundles of Joy serves mothers (and fathers), babies and children who live at or below the poverty line. The organization works directly with food pantries, homeless and domestic violence shelters, schools, hospitals, and individuals to provide everything from diapers to baby gear, books, toys—and everything in between.</p>",
         "button_label": "",
         "button_link": "",
         "liquid": "",
@@ -154,14 +201,14 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p><em>“With real support, moms no longer have to choose between feeding and diapering their children, or turning on the heat. It’s so gratifying to know we have helped Bundles of Joy break this cycle of poverty for families in our communities.”<\/em><\/p>"
+            "text": "<p><em>“With real support, moms no longer have to choose between feeding and diapering their children, or turning on the heat. It’s so gratifying to know we have helped Bundles of Joy break this cycle of poverty for families in our communities.”</em></p>"
           }
         },
         "text_idcTcG": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>- Lauren Stephens, Dudley Stephens Co-Founder<\/p>"
+            "text": "<p>- Lauren Stephens, Dudley Stephens Co-Founder</p>"
           }
         }
       },
@@ -178,12 +225,12 @@
     "text_and_image_GgFVpb": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Bundlesstats_7572228f-9704-4395-a083-8f40639531fa.jpg",
+        "image": "shopify://shop_images/30_a0374484-c7fc-45d9-b377-7d4f4293be1d.png",
         "image_mask": "none",
         "image2_mask": "none",
         "subtitle": "",
         "title": "How We’ve Helped",
-        "text": "<p>From building bundles at the “Joy Factory” for toddlers and school-age children, to organizing donations for moms and kids, and outfitting the Bundles of Joy team, Team Dudley has volunteered with Bundles of Joy over the past four years. We’ve also donated our products directly to clients served by the organization.<\/p>",
+        "text": "<p>From building bundles at the “Joy Factory” for toddlers and school-age children, to organizing donations for moms and kids, and outfitting the Bundles of Joy team, Team Dudley has volunteered with Bundles of Joy over the past four years. We’ve also donated our products directly to clients served by the organization.</p>",
         "button_label": "",
         "button_link": "",
         "liquid": "",
@@ -204,7 +251,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>“One morning I was in the storefront and a mom came in pushing her stroller from the next town over. She came in to grab diapers and other essentials but I noticed her baby didn't have a stroller blanket or anything to keep her warm. Enter the sherpa blanket! Mom (and baby) were so happy and safe from the cold temps on the way home.”<\/p>"
+            "text": "<p>“One morning I was in the storefront and a mom came in pushing her stroller from the next town over. She came in to grab diapers and other essentials but I noticed her baby didn't have a stroller blanket or anything to keep her warm. Enter the sherpa blanket! Mom (and baby) were so happy and safe from the cold temps on the way home.”</p>"
           }
         },
         "heading_xfqG8J": {
@@ -232,14 +279,14 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p><em>“One morning I was in the storefront and a mom came in pushing her stroller from the next town over. She came in to grab diapers and other essentials but I noticed her baby didn't have a stroller blanket or anything to keep her warm. Enter the sherpa blanket! Mom (and baby) were so happy and safe from the cold temps on the way home.”<\/em><\/p>"
+            "text": "<p><em>“One morning I was in the storefront and a mom came in pushing her stroller from the next town over. She came in to grab diapers and other essentials but I noticed her baby didn't have a stroller blanket or anything to keep her warm. Enter the sherpa blanket! Mom (and baby) were so happy and safe from the cold temps on the way home.”</em></p>"
           }
         },
         "text_k4QBDE": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>-Adrienne Harper, Bundles of Joy Founder<\/p>"
+            "text": "<p>-Adrienne Harper, Bundles of Joy Founder</p>"
           }
         }
       },
@@ -266,7 +313,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>          <\/p>"
+            "text": "<p>          </p>"
           }
         }
       },
@@ -293,7 +340,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>    <\/p>"
+            "text": "<p>    </p>"
           }
         }
       },
@@ -314,7 +361,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Bundles3.jpg",
+            "image": "shopify://shop_images/Bundles3.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -327,7 +374,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Bundles4.jpg",
+            "image": "shopify://shop_images/Bundles4.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -340,7 +387,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/bundles5.jpg",
+            "image": "shopify://shop_images/bundles5.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "",
@@ -365,6 +412,8 @@
   "order": [
     "main",
     "slideshow_mWAzXD",
+    "rich_text_nDRhgp",
+    "featured_collection_9Kefra",
     "c3220d24-8e7b-4f84-a431-0aae228e36f2",
     "text_and_image_Qr8JkD",
     "rich_text_MhxnRW",

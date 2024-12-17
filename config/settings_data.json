@@ -623,7 +623,7 @@
             "type": "color_swatch",
             "settings": {
               "title": "First Blush",
-              "swatch_color": ""
+              "swatch_color": "#f7c0bf"
             }
           },
           "color_swatch_LCUEYQ": {
@@ -926,7 +926,7 @@
             "type": "color_swatch",
             "settings": {
               "title": "Lemon Meringue",
-              "swatch_color": ""
+              "swatch_color": "#f6e199"
             }
           },
           "9db0910b-3bbe-4da8-bf0d-b0c4cb7666d0": {
@@ -1568,7 +1568,7 @@
             "type": "color_swatch",
             "settings": {
               "title": "Velvet Morning",
-              "swatch_color": ""
+              "swatch_color": "#60688d"
             }
           },
           "color_swatch_BcdtTf": {

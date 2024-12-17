@@ -22,7 +22,11 @@
   video_style: section.settings.product_video_style,
   context: 'main-product',
 -%}
-
+<script>
+  var productOptions = {{ product.options | json }};
+  var productId = {{ product.id | json }};
+  console.log("===========================")
+</script>
 {% schema %}
 {
   "name": "t:sections.main-product.name",

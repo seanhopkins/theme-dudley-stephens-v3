@@ -26,8 +26,8 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Order by noon ET 12/18 with Express shipping for delivery by 12/25!",
-            "link": "https://www.dudley-stephens.com/collections/shop-all"
+            "link_text": "No Shipping Needed: Shop Instant eGift Cards in Any Amount.",
+            "link": "shopify://products/gift-card"
           }
         }
       },

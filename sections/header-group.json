@@ -24,6 +24,7 @@
         },
         "announcement_ME7YeN": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "No Shipping Needed: Shop Instant eGift Cards in Any Amount.",

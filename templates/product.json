@@ -19,7 +19,7 @@
         "custom_q4aXdU": {
           "type": "custom",
           "settings": {
-            "code": "{% if product.metafields.theme.label.value %}\n<span class=\"holiday-event\"><strong>{{ product.metafields.theme.label.value }}</strong></span>\n{% endif %}"
+            "code": "{% if product.metafields.theme.label.value %}\n<div class=\"grid-product__tag grid-product__tag--custom\">{{ product.metafields.theme.label.value }}</strong></div>\n{% endif %}"
           }
         },
         "yotpo_loyalty_rewards_product_points_module_app_block_3krepf": {

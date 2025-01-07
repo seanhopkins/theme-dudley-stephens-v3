@@ -1072,6 +1072,14 @@
               "swatch_image": "shopify://shop_images/NavyCabanaStripe.jpg"
             }
           },
+          "color_swatch_3B9jWD": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy/Cream/Velvet Morning",
+              "swatch_color": "",
+              "swatch_image": "shopify://shop_images/navy-cream-velvet-morning.jpg"
+            }
+          },
           "color_swatch_RzFwaH": {
             "type": "color_swatch",
             "settings": {
@@ -1572,14 +1580,6 @@
               "swatch_color": "#60688d"
             }
           },
-          "color_swatch_BcdtTf": {
-            "type": "color_swatch",
-            "settings": {
-              "title": "Velvet Morning / Cream / Navy",
-              "swatch_color": "",
-              "swatch_image": "shopify://shop_images/velvet-morning-cream-navy.jpg"
-            }
-          },
           "color_swatch_bVygq3": {
             "type": "color_swatch",
             "settings": {
@@ -1757,6 +1757,7 @@
           "ff9e58a6-a3b2-4ef4-8125-2b783b7bcd0b",
           "1573761486525",
           "ac2a8588-f91a-445e-9834-f0b0e97ed7f0",
+          "color_swatch_3B9jWD",
           "color_swatch_RzFwaH",
           "color_swatch_J4hpwf",
           "1600111070801",
@@ -1820,7 +1821,6 @@
           "5be8487b-9e1f-4650-9d7d-ca5d267c59a8",
           "color_swatch_WNgnhc",
           "color_swatch_3xTif7",
-          "color_swatch_BcdtTf",
           "color_swatch_bVygq3",
           "9a80cae9-66a8-4d4d-a097-539d575aa31b",
           "e6bd5ae0-f88f-4b77-becb-162959cb8eec",

@@ -200,6 +200,14 @@
               "swatch_image": "shopify://shop_images/black-cream-cabana-stripe.jpg"
             }
           },
+          "color_swatch_daJBzp": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Black/Cream/First Blush",
+              "swatch_color": "",
+              "swatch_image": "shopify://shop_images/black-cream-first-blush.jpg"
+            }
+          },
           "02c54f45-7e25-4ac9-83f3-3cd521e87dd9": {
             "type": "color_swatch",
             "settings": {
@@ -1647,6 +1655,7 @@
           "1573762103534",
           "b32b6997-f9f0-47ea-8155-00ab3dee3a23",
           "color_swatch_rBXkg9",
+          "color_swatch_daJBzp",
           "02c54f45-7e25-4ac9-83f3-3cd521e87dd9",
           "color_swatch_fdCtx6",
           "91db2672-6dff-454e-bd3b-be06227ecc5a",

@@ -1588,14 +1588,6 @@
               "swatch_color": "#60688d"
             }
           },
-          "color_swatch_bVygq3": {
-            "type": "color_swatch",
-            "settings": {
-              "title": "Velvet Morning Placed Stripe",
-              "swatch_color": "",
-              "swatch_image": "shopify://shop_images/velvet-morning-placed-stripe.jpg"
-            }
-          },
           "9a80cae9-66a8-4d4d-a097-539d575aa31b": {
             "type": "color_swatch",
             "settings": {
@@ -1634,6 +1626,14 @@
               "title": "White / Navy",
               "swatch_color": "",
               "swatch_image": "shopify://shop_images/white-navy.png"
+            }
+          },
+          "color_swatch_bVygq3": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "White/Velvet Morning Placed Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify://shop_images/white-velvet-morning-placed-stripe.jpg"
             }
           },
           "c8ac5c7d-81b0-494f-af6b-de00a0d6153b": {
@@ -1830,12 +1830,12 @@
           "5be8487b-9e1f-4650-9d7d-ca5d267c59a8",
           "color_swatch_WNgnhc",
           "color_swatch_3xTif7",
-          "color_swatch_bVygq3",
           "9a80cae9-66a8-4d4d-a097-539d575aa31b",
           "e6bd5ae0-f88f-4b77-becb-162959cb8eec",
           "1574186951943",
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
           "250b5ae7-c936-4846-8ffc-76eb6db8d944",
+          "color_swatch_bVygq3",
           "c8ac5c7d-81b0-494f-af6b-de00a0d6153b"
         ],
         "settings": {}

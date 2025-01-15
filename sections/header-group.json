@@ -26,8 +26,8 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Shop the Drop: Neutral Moment",
-            "link": "https://www.dudley-stephens.com/collections/new-drops"
+            "link_text": "A Gift with Your $115 Purchase: The Dudley Turtleband (add at checkout)",
+            "link": "shopify://collections/shop-all"
           }
         }
       },

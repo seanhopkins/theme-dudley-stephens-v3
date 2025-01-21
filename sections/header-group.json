@@ -24,6 +24,7 @@
         },
         "announcement_fngGRg": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "A Gift with Your $115 Purchase: The Dudley Turtleband (add at checkout)",

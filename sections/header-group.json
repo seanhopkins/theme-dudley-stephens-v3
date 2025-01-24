@@ -14,14 +14,6 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
-        "announcement_ME7YeN": {
-          "type": "announcement",
-          "settings": {
-            "text": "",
-            "link_text": "Our original 3 styles—Cobble Hill, Park Slope & Greenpoint—in Vello Fleece, at a stock-up price.",
-            "link": "shopify://collections/59-turtlenecks"
-          }
-        },
         "announcement_fngGRg": {
           "type": "announcement",
           "disabled": true,
@@ -30,11 +22,19 @@
             "link_text": "A Gift with Your $115 Purchase: The Dudley Turtleband (add at checkout)",
             "link": "shopify://collections/shop-all"
           }
+        },
+        "announcement_ME7YeN": {
+          "type": "announcement",
+          "settings": {
+            "text": "",
+            "link_text": "Our original 3 styles—Cobble Hill, Park Slope & Greenpoint—in Vello Fleece, at a stock-up price.",
+            "link": "shopify://collections/59-turtlenecks"
+          }
         }
       },
       "block_order": [
-        "announcement_ME7YeN",
-        "announcement_fngGRg"
+        "announcement_fngGRg",
+        "announcement_ME7YeN"
       ],
       "custom_css": [
         ".announcement-text {letter-spacing: 0.025em; text-transform: none; font-size: 1em; font-weight: 500;}"

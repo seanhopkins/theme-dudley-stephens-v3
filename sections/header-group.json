@@ -16,11 +16,10 @@
       "blocks": {
         "announcement_fngGRg": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "",
-            "link_text": "A Gift with Your $115 Purchase: The Dudley Turtleband (add at checkout)",
-            "link": "shopify://collections/shop-all"
+            "link_text": "A first peek at Spring: 2 styles we couldn't wait to drop.",
+            "link": "https://www.dudley-stephens.com/collections/new-drops"
           }
         },
         "announcement_ME7YeN": {

@@ -1,0 +1,682 @@
+{
+  "article": [
+    {
+      "key": "featured_products",
+      "namespace": "custom",
+      "name": "Featured Products",
+      "description": "The selected products will populate the \"Shop The Blog\" sidebar",
+      "type": {
+        "name": "list.product_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "call_to_action_url",
+      "namespace": "custom",
+      "name": "Call to Action URL",
+      "description": "",
+      "type": {
+        "name": "url",
+        "category": "URL"
+      }
+    },
+    {
+      "key": "call_to_action_text",
+      "namespace": "custom",
+      "name": "Call to Action Text",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    }
+  ],
+  "blog": [],
+  "brand": [],
+  "collection": [
+    {
+      "key": "hidden",
+      "namespace": "seo",
+      "name": "Hidden Collection",
+      "description": "1=Yes, 0=No",
+      "type": {
+        "name": "number_integer",
+        "category": "NUMBER"
+      }
+    },
+    {
+      "key": "hero_image",
+      "namespace": "custom",
+      "name": "Desktop Hero Image",
+      "description": "",
+      "type": {
+        "name": "file_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "mobile_hero_image",
+      "namespace": "custom",
+      "name": "Mobile hero Image",
+      "description": "",
+      "type": {
+        "name": "file_reference",
+        "category": "REFERENCE"
+      }
+    }
+  ],
+  "company": [
+    {
+      "key": "shopify-forms-app-submissions",
+      "namespace": "app--6171699--shopify-forms",
+      "name": "Shopify Forms submissions",
+      "description": "This metafield is used to store the submissions of the Shopify Forms App",
+      "type": {
+        "name": "list.mixed_reference",
+        "category": "REFERENCE"
+      }
+    }
+  ],
+  "company_location": [],
+  "location": [],
+  "market": [],
+  "order": [],
+  "page": [
+    {
+      "key": "title",
+      "namespace": "custom",
+      "name": "Title",
+      "description": "Override the page title",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "hidden",
+      "namespace": "seo",
+      "name": "Hidden Page",
+      "description": "1=Yes, 0=No",
+      "type": {
+        "name": "number_integer",
+        "category": "NUMBER"
+      }
+    }
+  ],
+  "product": [
+    {
+      "key": "no_gift_wrapping",
+      "namespace": "cart",
+      "name": "Non Giftwrap product",
+      "description": "No longer in use. Tag a product with \"wrapped:disabled\" instead",
+      "type": {
+        "name": "boolean",
+        "category": "TRUE_FALSE"
+      }
+    },
+    {
+      "key": "rating",
+      "namespace": "reviews",
+      "name": "Product rating",
+      "description": "Average rating from customers",
+      "type": {
+        "name": "rating",
+        "category": "RATING"
+      }
+    },
+    {
+      "key": "rating_count",
+      "namespace": "reviews",
+      "name": "Product rating count",
+      "description": "Total number of ratings from customers",
+      "type": {
+        "name": "number_integer",
+        "category": "NUMBER"
+      }
+    },
+    {
+      "key": "care_richtext",
+      "namespace": "sf_tabs",
+      "name": "Care",
+      "description": "Care Instructions",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "fit_richtext",
+      "namespace": "sf_tabs",
+      "name": "Fit",
+      "description": "Fit information",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "details_richtext",
+      "namespace": "sf_tabs",
+      "name": "Details",
+      "description": "Product details",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "made_in_the_usa",
+      "namespace": "custom",
+      "name": "Made in the USA",
+      "description": "",
+      "type": {
+        "name": "boolean",
+        "category": "TRUE_FALSE"
+      }
+    },
+    {
+      "key": "queries",
+      "namespace": "shopify--discovery--product_search_boost",
+      "name": "Search product boosts",
+      "description": "List of search queries for which a product gets higher rank in search results",
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "related_products",
+      "namespace": "shopify--discovery--product_recommendation",
+      "name": "Related products",
+      "description": "List of related products",
+      "type": {
+        "name": "list.product_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "related_products_display",
+      "namespace": "shopify--discovery--product_recommendation",
+      "name": "Related products settings",
+      "description": "Determines how related products are displayed along with algorithmic product recommendations",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "complementary_products",
+      "namespace": "shopify--discovery--product_recommendation",
+      "name": "Complementary products",
+      "description": "List of complementary products",
+      "type": {
+        "name": "list.product_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "details",
+      "namespace": "custom",
+      "name": "Details",
+      "description": "Select a page to display additional details about this product",
+      "type": {
+        "name": "page_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "fit",
+      "namespace": "custom",
+      "name": "Fit",
+      "description": "Select a page to show additional details about this product",
+      "type": {
+        "name": "page_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "care",
+      "namespace": "custom",
+      "name": "Care",
+      "description": "Select a page to show additional details about this product",
+      "type": {
+        "name": "page_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "size_chart",
+      "namespace": "custom",
+      "name": "Size Chart",
+      "description": "Select a size chart for this product",
+      "type": {
+        "name": "page_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "back_length",
+      "namespace": "custom",
+      "name": "Back Length",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "sleeve_length",
+      "namespace": "custom",
+      "name": "Sleeve Length",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "bust",
+      "namespace": "custom",
+      "name": "Bust",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "style",
+      "namespace": "custom",
+      "name": "Style",
+      "description": "Set the group for product swatches",
+      "type": {
+        "name": "collection_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "material",
+      "namespace": "custom",
+      "name": "Material",
+      "description": "Set the material group for this product",
+      "type": {
+        "name": "collection_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "product_fit",
+      "namespace": "custom",
+      "name": "Product Fit",
+      "description": "",
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "product_care",
+      "namespace": "custom",
+      "name": "Product Care",
+      "description": "",
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "product_details",
+      "namespace": "custom",
+      "name": "Product Details",
+      "description": "",
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "inseam",
+      "namespace": "custom",
+      "name": "Inseam",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "front_rise",
+      "namespace": "custom",
+      "name": "Front Rise",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "back_rise",
+      "namespace": "custom",
+      "name": "Back Rise",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "chest",
+      "namespace": "custom",
+      "name": "Chest",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "discountable",
+      "namespace": "custom",
+      "name": "discountable",
+      "description": "Used to create a collection of products that are discountable",
+      "type": {
+        "name": "boolean",
+        "category": "TRUE_FALSE"
+      }
+    },
+    {
+      "key": "dimensions",
+      "namespace": "custom",
+      "name": "Dimensions",
+      "description": "",
+      "type": {
+        "name": "metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "product_style",
+      "namespace": "custom",
+      "name": "Style",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "product_material",
+      "namespace": "custom",
+      "name": "Material",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "color",
+      "namespace": "custom",
+      "name": "Color",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "label",
+      "namespace": "theme",
+      "name": "Label",
+      "description": "",
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "final_sale",
+      "namespace": "custom",
+      "name": "Final Sale",
+      "description": "",
+      "type": {
+        "name": "boolean",
+        "category": "TRUE_FALSE"
+      }
+    },
+    {
+      "key": "length",
+      "namespace": "custom",
+      "name": "Length",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "kids_size",
+      "namespace": "custom",
+      "name": "Kids Size",
+      "description": "Manually sort the collection filter",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "hidden",
+      "namespace": "seo",
+      "name": "Hidden Product",
+      "description": "1=Yes, 0=No",
+      "type": {
+        "name": "number_integer",
+        "category": "NUMBER"
+      }
+    },
+    {
+      "key": "model_height",
+      "namespace": "custom",
+      "name": "Model Height",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "stamp",
+      "namespace": "custom",
+      "name": "Stamp",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "custom_product",
+      "namespace": "mm-google-shopping",
+      "name": "Google: Custom Product",
+      "description": "Use to indicate whether or not the unique product identifiers (UPIs) GTIN, MPN, and brand are available for your product.",
+      "type": {
+        "name": "boolean",
+        "category": "TRUE_FALSE"
+      }
+    },
+    {
+      "key": "color-pattern",
+      "namespace": "shopify",
+      "name": "Color",
+      "description": "Defines the primary color or pattern, such as blue or striped",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "size",
+      "namespace": "shopify",
+      "name": "Size",
+      "description": "Used to specify the size of a product, such as 0-3 months or Extra large (XL)",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "fabric",
+      "namespace": "shopify",
+      "name": "Fabric",
+      "description": "Identifies the type of fabric used in a product, for example, cotton or denim",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "age-group",
+      "namespace": "shopify",
+      "name": "Age group",
+      "description": "Defines the target age range for a product, such as adults or kids",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    }
+  ],
+  "variant": [
+    {
+      "key": "custom_label_4",
+      "namespace": "mm-google-shopping",
+      "name": "Google: Custom Label 4",
+      "description": "Label that you assign to a product to help organize bidding and reporting in Shopping campaigns",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "custom_label_3",
+      "namespace": "mm-google-shopping",
+      "name": "Google: Custom Label 3",
+      "description": "Label that you assign to a product to help organize bidding and reporting in Shopping campaigns",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "custom_label_2",
+      "namespace": "mm-google-shopping",
+      "name": "Google: Custom Label 2",
+      "description": "Label that you assign to a product to help organize bidding and reporting in Shopping campaigns",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "custom_label_1",
+      "namespace": "mm-google-shopping",
+      "name": "Google: Custom Label 1",
+      "description": "Label that you assign to a product to help organize bidding and reporting in Shopping campaigns",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "custom_label_0",
+      "namespace": "mm-google-shopping",
+      "name": "Google: Custom Label 0",
+      "description": "Label that you assign to a product to help organize bidding and reporting in Shopping campaigns",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "size_system",
+      "namespace": "mm-google-shopping",
+      "name": "Google: Size System",
+      "description": "The country of the size system used by your product.",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "size_type",
+      "namespace": "mm-google-shopping",
+      "name": "Google: Size Type",
+      "description": "Your apparel product’s cut.",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "mpn",
+      "namespace": "mm-google-shopping",
+      "name": "Google: MPN",
+      "description": "Your product’s Manufacturer Part Number (MPN).",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "gender",
+      "namespace": "mm-google-shopping",
+      "name": "Google: Gender",
+      "description": "The gender for which your product is intended.",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "condition",
+      "namespace": "mm-google-shopping",
+      "name": "Google: Condition",
+      "description": "The condition of your product at time of sale.",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "age_group",
+      "namespace": "mm-google-shopping",
+      "name": "Google: Age Group",
+      "description": "The demographic for which your product is intended.",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    }
+  ],
+  "shop": [
+    {
+      "key": "BFCM",
+      "namespace": "app--1795063809--abra-promotions",
+      "name": "Abra Promotion - BFCM",
+      "description": null,
+      "type": {
+        "name": "json",
+        "category": "JSON"
+      }
+    },
+    {
+      "key": "000",
+      "namespace": "app--1795063809--abra-promotions",
+      "name": "Abra Promotion - 000",
+      "description": null,
+      "type": {
+        "name": "json",
+        "category": "JSON"
+      }
+    }
+  ]
+}

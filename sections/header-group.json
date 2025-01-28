@@ -16,19 +16,19 @@
       "blocks": {
         "announcement_fngGRg": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
-            "link_text": "Shop the Drop: Neutral Moment",
+            "link_text": "A first peek at Spring: 2 styles we couldn't wait to drop.",
             "link": "https://www.dudley-stephens.com/collections/new-drops"
           }
         },
         "announcement_ME7YeN": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "",
-            "link_text": "No Shipping Needed: Shop Instant eGift Cards in Any Amount.",
-            "link": "shopify://products/gift-card"
+            "link_text": "Our original 3 styles—Cobble Hill, Park Slope & Greenpoint—in Vello Fleece, at a stock-up price.",
+            "link": "shopify://collections/59-turtlenecks"
           }
         }
       },

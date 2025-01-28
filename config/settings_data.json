@@ -80,7 +80,7 @@
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
     "rebuy_widget_gwp": "",
-    "gwp_enable": true,
+    "gwp_enable": false,
     "gwp_tier_1_product_ids": "7454189453354,\n7454188240938",
     "gwp_tier_1_threshold": "115",
     "gwp_tier_1_spend_more": "You’re just [money] away from a free gift",
@@ -1878,17 +1878,17 @@
         "type": "shopify://apps/wrapped/blocks/app-embed/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
         "disabled": false,
         "settings": {
-          "gift_thumbnail_position": "--wrapped-thumbnail-position-start",
-          "gift_thumbnail_size": 40,
-          "extension_border_color": "#ffffff",
           "extension_background_primary_color": "#ffffff",
           "extension_background_secondary_color": "#f3f3f3",
-          "font_scale": 100,
-          "font_color": "#232528",
+          "extension_border_color": "#ffffff",
           "checkbox_radio_color": "rgba(0,0,0,0)",
+          "font_color": "#232528",
+          "font_scale": 100,
           "background_color": "#ffffff",
           "border_color": "#ffffff",
-          "border_radius": 0
+          "border_radius": 0,
+          "gift_thumbnail_position": "--wrapped-thumbnail-position-start",
+          "gift_thumbnail_size": 40
         }
       },
       "2296928500563504527": {

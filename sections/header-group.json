@@ -16,10 +16,9 @@
       "blocks": {
         "announcement_fngGRg": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "",
-            "link_text": "A first peek at Spring: 2 styles we couldn't wait to drop.",
+            "link_text": "Dropping all week: Blush in Bloom",
             "link": "https://www.dudley-stephens.com/collections/new-drops"
           }
         },

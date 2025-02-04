@@ -97,13 +97,13 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
-            "heading": "A Shopping Second Chance",
-            "textarea": "Here's a second chance to shop last week's sellout First Blush styles, just restocked.",
+            "heading": "New: The Lena Tunic",
+            "textarea": "In versatile Waffle, this tunic makes everyday dressing a cinch.",
             "cta_text1": "Shop NOW",
             "cta_link1": "https://www.dudley-stephens.com/collections/new-drops",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify://shop_images/Copy_of_12-5dudleystephens2694_2.jpg",
+            "image": "shopify://shop_images/Copy_of_12-5dudleystephens2777.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -372,6 +372,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-1",
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "layout": "banner",

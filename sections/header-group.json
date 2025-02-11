@@ -72,7 +72,9 @@
         "header-0",
         "4bbf52a8-4c42-4c3f-a74f-94e396af61b9"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".site-header .site-header__logo img {left: 0%; position: absolute; top: 0%;}"
+      ],
       "settings": {
         "main_menu_link_list": "2023-menu",
         "hover_menu": false,

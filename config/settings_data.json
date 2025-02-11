@@ -1177,6 +1177,14 @@
               "monogram_swatch": "shopify://shop_images/CF6CA0EF-3789-4371-B35E-D51683D3E4CE_4_5005_c.jpg"
             }
           },
+          "color_swatch_yCJtjT": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy/White Mariner Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify://shop_images/navy-white-mariner-stripe.jpg"
+            }
+          },
           "color_swatch_ThNVEG": {
             "type": "color_swatch",
             "settings": {
@@ -1778,6 +1786,7 @@
           "color_swatch_cBrWQC",
           "1595351074336",
           "2a5feed1-5684-4dd3-ae34-31c1c162d128",
+          "color_swatch_yCJtjT",
           "color_swatch_ThNVEG",
           "106b0894-1ebb-42d8-be22-ced0d7a9f1da",
           "color_swatch_k9M94F",

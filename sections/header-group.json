@@ -24,6 +24,7 @@
         },
         "announcement_ME7YeN": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "Our original 3 styles—Cobble Hill, Park Slope & Greenpoint—in Vello Fleece, at a stock-up price.",

@@ -14,6 +14,14 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
+        "announcement_ME7YeN": {
+          "type": "announcement",
+          "settings": {
+            "text": "",
+            "link_text": "Shop The Clearance Sale: $59 & Under Pieces",
+            "link": "shopify://collections/clearance"
+          }
+        },
         "announcement_fngGRg": {
           "type": "announcement",
           "settings": {
@@ -21,20 +29,11 @@
             "link_text": "Just in: The Ingrid Pullover, $88",
             "link": "https://www.dudley-stephens.com/collections/new-drops"
           }
-        },
-        "announcement_ME7YeN": {
-          "type": "announcement",
-          "disabled": true,
-          "settings": {
-            "text": "",
-            "link_text": "Our original 3 styles—Cobble Hill, Park Slope & Greenpoint—in Vello Fleece, at a stock-up price.",
-            "link": "shopify://collections/59-turtlenecks"
-          }
         }
       },
       "block_order": [
-        "announcement_fngGRg",
-        "announcement_ME7YeN"
+        "announcement_ME7YeN",
+        "announcement_fngGRg"
       ],
       "custom_css": [
         ".announcement-text {letter-spacing: 0.025em; text-transform: none; font-size: 1em; font-weight: 500;}"

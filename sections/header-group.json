@@ -14,26 +14,26 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
-        "announcement_fngGRg": {
-          "type": "announcement",
-          "settings": {
-            "text": "",
-            "link_text": "Dropping all week: Blush in Bloom",
-            "link": "https://www.dudley-stephens.com/collections/new-drops"
-          }
-        },
         "announcement_ME7YeN": {
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Our original 3 styles—Cobble Hill, Park Slope & Greenpoint—in Vello Fleece, at a stock-up price.",
-            "link": "shopify://collections/59-turtlenecks"
+            "link_text": "Shop The Clearance Sale: $59 & Under Pieces",
+            "link": "shopify://collections/clearance"
+          }
+        },
+        "announcement_fngGRg": {
+          "type": "announcement",
+          "settings": {
+            "text": "",
+            "link_text": "Just in: The Ingrid Pullover, $88",
+            "link": "https://www.dudley-stephens.com/collections/new-drops"
           }
         }
       },
       "block_order": [
-        "announcement_fngGRg",
-        "announcement_ME7YeN"
+        "announcement_ME7YeN",
+        "announcement_fngGRg"
       ],
       "custom_css": [
         ".announcement-text {letter-spacing: 0.025em; text-transform: none; font-size: 1em; font-weight: 500;}"
@@ -50,7 +50,7 @@
           "settings": {
             "logo": "shopify://shop_images/dudley-logo-black-2020_1.png",
             "desktop_logo_width": 150,
-            "mobile_logo_width": 110
+            "mobile_logo_width": 100
           }
         },
         "4bbf52a8-4c42-4c3f-a74f-94e396af61b9": {
@@ -72,7 +72,9 @@
         "header-0",
         "4bbf52a8-4c42-4c3f-a74f-94e396af61b9"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".site-header .site-header__logo img {left: 0%; position: absolute; top: 0%;}"
+      ],
       "settings": {
         "main_menu_link_list": "2023-menu",
         "hover_menu": false,

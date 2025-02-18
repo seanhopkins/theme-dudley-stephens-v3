@@ -12,8 +12,7 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "slideshow_LWtQ9E": {
       "type": "slideshow",
@@ -160,6 +159,114 @@
         "divider": false
       }
     },
+    "text_columns_CaJckU": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_4ixdyU": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/PARK_SLOPE_TURTLENECK_TERRY_CREAM_0711_1.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Park Slope Turtleneck in Terry",
+            "text": "<p>In Cream</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_6GLCRj": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/PARK_SLOPE_TURTLENECK_WAFFLE_BLACK_TWILIGHT_JOGGERS_WAFFLE_BLACK_1504_1.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Park Slope Turtleneck in Waffle",
+            "text": "<p>In Black</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_jjpmkE": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/PEARL_PULLOVER_WAFFLE_NAVY_2467_1.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Pearl Pullover",
+            "text": "<p>In Navy</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_4ixdyU",
+        "text_block_6GLCRj",
+        "text_block_jjpmkE"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "text_columns_h8jwzk": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_rqKNPq": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/INGRID_PULLOVER_TERRY_CREAM_1238_1.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Ingrid Pullover",
+            "text": "<p>In Navy and Cream</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_cPGphX": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/DUFFIELD_PULLOVER_TERRY_NAVY_EMBROIDERED_009.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Men's Duffield Pullover",
+            "text": "<p>In Navy and Black</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "text_block_kriXPn": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/white_ed7748ed-eb66-4e2b-9af3-e48f760e46a8.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_rqKNPq",
+        "text_block_cPGphX",
+        "text_block_kriXPn"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
     "text_columns_EnDTKQ": {
       "type": "text-columns",
       "blocks": {
@@ -208,60 +315,7 @@
         "text_block_jFxfkq",
         "text_block_VkEwda"
       ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "divider": false
-      }
-    },
-    "text_columns_h8jwzk": {
-      "type": "text-columns",
-      "blocks": {
-        "text_block_rqKNPq": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/MANCHESTER_PULLOVER_VELLO_NAVY_FLATLAY_032_1.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Manchester Pullover",
-            "text": "<p>In Navy</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_cPGphX": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/DUFFIELD_PULLOVER_TERRY_NAVY_EMBROIDERED_009.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "Men's Duffield Pullover",
-            "text": "<p>In Navy</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "text_block_kriXPn": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify://shop_images/white_ed7748ed-eb66-4e2b-9af3-e48f760e46a8.jpg",
-            "image_mask": "none",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_block_rqKNPq",
-        "text_block_cPGphX",
-        "text_block_kriXPn"
-      ],
+      "disabled": true,
       "settings": {
         "title": "",
         "align_text": "center",
@@ -293,9 +347,7 @@
     "00494472-03b1-4918-ad71-eece68f79120": {
       "type": "text-and-image",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/DUFFIELD_PULLOVER_TERRY_NAVY_EMBROIDERED_009.jpg",
         "image_mask": "none",
@@ -426,8 +478,9 @@
     "ebaf6f14-0401-40df-9285-11231985f449",
     "text_columns_HiMCRd",
     "rich_text_WY8exy",
-    "text_columns_EnDTKQ",
+    "text_columns_CaJckU",
     "text_columns_h8jwzk",
+    "text_columns_EnDTKQ",
     "text_and_image_BdnK9A",
     "00494472-03b1-4918-ad71-eece68f79120",
     "c4153ab3-3092-40cc-83ab-1556909fed0c",

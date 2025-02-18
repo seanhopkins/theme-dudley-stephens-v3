@@ -100,7 +100,7 @@
     "show_breadcrumbs_collection_link": false,
     "disable_animations": true,
     "product_grid_enable_swatches": true,
-    "materials_list": "Material: Brushed Fleece\nMaterial: Bubble Fleece\nMaterial: Chevron\nMaterial: Double Layer Vello Fleece\nMaterial: Double Layer Vello Fleece with Neon Zipper\nMaterial: Eco Jersey\nMaterial: Eco Stretch\nMaterial: Heavy Weight Luxe Stretch\nMaterial: Lightweight Vello Fleece\nMaterial: Lustre Puff\nMaterial: Luxe Stretch\nMaterial: Merino Wool\nMaterial: N/A\nMaterial: Power Stretch\nMaterial: Repreve® Jersey\nMaterial: Repreve® Stretch\nMaterial: Repreve® Striped Jersey\nMaterial: Ribbed Fleece\nMaterial: Shearling Fleece\nMaterial: Sherpa Fleece\nMaterial: Sherpa/Vello Fleece\nMaterial: Silk\nMaterial: Striped Fleece\nMaterial: Terry Fleece\nMaterial: Townhouse Trunk Show\nMaterial: Vello Fleece\nMaterial: Vello Fleece Color Block\nMaterial Vello/Waffle\nMaterial: Waffle\nMaterial: Waffle Jersey\nMaterial: Waffle/Vello Fleece",
+    "materials_list": "Material: Brushed Fleece\nMaterial: Bubble Fleece\nMaterial: Chevron\nMaterial: Double Layer Vello Fleece\nMaterial: Double Layer Vello Fleece with Neon Zipper\nMaterial: Eco Jersey\nMaterial: Eco Stretch\nMaterial: Heavy Weight Luxe Stretch\nMaterial: Lightweight Vello Fleece\nMaterial: Lustre Puff\nMaterial: Luxe Stretch\nMaterial: Merino Wool\nMaterial: N/A\nMaterial: Power Stretch\nMaterial: Repreve® Jersey\nMaterial: Repreve® Stretch\nMaterial: Repreve® Striped Jersey\nMaterial: Ribbed Fleece\nMaterial: Shearling Fleece\nMaterial: Sherpa Fleece\nMaterial: Sherpa/Vello Fleece\nMaterial: Silk\nMaterial: Striped Fleece\nMaterial: Terry Fleece\nMaterial: Townhouse Trunk Show\nMaterial: Vello Fleece\nMaterial: Vello Fleece Color Block\nMaterial: Vello/Waffle\nMaterial: Waffle\nMaterial: Waffle Jersey\nMaterial: Waffle/Vello",
     "tag_sale_text_color": "#dc353b",
     "show_tag_sale_message_clp": false,
     "show_tag_sale_message_pdp": false,
@@ -1177,6 +1177,14 @@
               "monogram_swatch": "shopify://shop_images/CF6CA0EF-3789-4371-B35E-D51683D3E4CE_4_5005_c.jpg"
             }
           },
+          "color_swatch_yCJtjT": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy/White Mariner Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify://shop_images/navy-white-mariner-stripe.jpg"
+            }
+          },
           "color_swatch_ThNVEG": {
             "type": "color_swatch",
             "settings": {
@@ -1778,6 +1786,7 @@
           "color_swatch_cBrWQC",
           "1595351074336",
           "2a5feed1-5684-4dd3-ae34-31c1c162d128",
+          "color_swatch_yCJtjT",
           "color_swatch_ThNVEG",
           "106b0894-1ebb-42d8-be22-ced0d7a9f1da",
           "color_swatch_k9M94F",

@@ -14,6 +14,14 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
+        "announcement_fngGRg": {
+          "type": "announcement",
+          "settings": {
+            "text": "",
+            "link_text": "Shop the new Marion Zip Pullover in Limited Edition Blue Floral!",
+            "link": "https://www.dudley-stephens.com/collections/new-drops"
+          }
+        },
         "announcement_ME7YeN": {
           "type": "announcement",
           "settings": {
@@ -21,19 +29,11 @@
             "link_text": "Shop The Clearance Sale: $59 & Under Pieces",
             "link": "shopify://collections/clearance"
           }
-        },
-        "announcement_fngGRg": {
-          "type": "announcement",
-          "settings": {
-            "text": "",
-            "link_text": "Just in: The Ingrid Pullover, $88",
-            "link": "https://www.dudley-stephens.com/collections/new-drops"
-          }
         }
       },
       "block_order": [
-        "announcement_ME7YeN",
-        "announcement_fngGRg"
+        "announcement_fngGRg",
+        "announcement_ME7YeN"
       ],
       "custom_css": [
         ".announcement-text {letter-spacing: 0.025em; text-transform: none; font-size: 1em; font-weight: 500;}"

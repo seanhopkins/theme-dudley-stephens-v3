@@ -654,7 +654,8 @@
             "settings": {
               "title": "First Blush Placed Stripe",
               "swatch_color": "",
-              "swatch_image": "shopify://shop_images/first-blush-placed-stripe.jpg"
+              "swatch_image": "shopify://shop_images/first-blush-placed-stripe.jpg",
+              "monogram_swatch": "shopify://shop_images/First_Blush_Placed_Stripe_Monogram_Swatch.png"
             }
           },
           "color_swatch_TUyzkw": {

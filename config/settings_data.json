@@ -349,7 +349,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Bundles of Joy",
-              "swatch_color": "#8fc9b8"
+              "swatch_color": "#8fc9b8",
+              "monogram_swatch": "shopify://shop_images/Bundles_of_Joy_Monogram_Swatch.png"
             }
           },
           "1573770311118": {
@@ -546,7 +547,8 @@
             "settings": {
               "title": "Cream / Hibiscus",
               "swatch_color": "",
-              "swatch_image": "shopify://shop_images/cream-hibiscus.jpg"
+              "swatch_image": "shopify://shop_images/cream-hibiscus.jpg",
+              "monogram_swatch": "shopify://shop_images/Cream_Hibiscus_Monogram_Swatch.png"
             }
           },
           "color_swatch_gwyyLm": {
@@ -569,7 +571,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Dudley Green",
-              "swatch_color": "#69ff47"
+              "swatch_color": "#69ff47",
+              "monogram_swatch": "shopify://shop_images/Dudley_Green_Monogram_Swatch.png"
             }
           },
           "9403ef65-0d9b-457e-8f04-c242b2aef3c5": {
@@ -632,7 +635,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "First Blush",
-              "swatch_color": "#f7c0bf"
+              "swatch_color": "#f7c0bf",
+              "monogram_swatch": "shopify://shop_images/First_Blush_Waffle_Monogram_Swatch.png"
             }
           },
           "color_swatch_LCUEYQ": {
@@ -935,7 +939,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Lemon Meringue",
-              "swatch_color": "#f6e199"
+              "swatch_color": "#f6e199",
+              "monogram_swatch": "shopify://shop_images/Lemon_Meringue_Monogram_Swatch.png"
             }
           },
           "9db0910b-3bbe-4da8-bf0d-b0c4cb7666d0": {
@@ -1149,7 +1154,8 @@
             "settings": {
               "title": "Navy / Periwinkle",
               "swatch_color": "",
-              "swatch_image": "shopify://shop_images/navy-periwinkle.jpg"
+              "swatch_image": "shopify://shop_images/navy-periwinkle.jpg",
+              "monogram_swatch": "shopify://shop_images/Navy_Periwinkle_Monogram_Swatch.png"
             }
           },
           "color_swatch_cBrWQC": {
@@ -1486,7 +1492,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Scarlet",
-              "swatch_color": "#a11729"
+              "swatch_color": "#a11729",
+              "monogram_swatch": "shopify://shop_images/Scarlet_Monogram_Swatch.png"
             }
           },
           "1c8c81b8-206d-400a-affd-52052c767d76": {
@@ -1578,7 +1585,8 @@
             "settings": {
               "title": "Squall",
               "swatch_color": "",
-              "swatch_image": "shopify://shop_images/image_copy.png"
+              "swatch_image": "shopify://shop_images/image_copy.png",
+              "monogram_swatch": "shopify://shop_images/Squall_Monogram_Print.png"
             }
           },
           "8563dcc6-c2c3-433e-80e8-989b61fa6b68": {
@@ -1609,7 +1617,8 @@
             "type": "color_swatch",
             "settings": {
               "title": "Velvet Morning",
-              "swatch_color": "#60688d"
+              "swatch_color": "#60688d",
+              "monogram_swatch": "shopify://shop_images/Velvet_Morning_Waffle_Monogram_Swatch.png"
             }
           },
           "9a80cae9-66a8-4d4d-a097-539d575aa31b": {

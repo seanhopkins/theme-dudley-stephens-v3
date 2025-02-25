@@ -205,7 +205,8 @@
             "settings": {
               "title": "Black/Cream/First Blush",
               "swatch_color": "",
-              "swatch_image": "shopify://shop_images/black-cream-first-blush.jpg"
+              "swatch_image": "shopify://shop_images/black-cream-first-blush.jpg",
+              "monogram_swatch": "shopify://shop_images/Black_Terry_Monogram_Swatch.png"
             }
           },
           "02c54f45-7e25-4ac9-83f3-3cd521e87dd9": {
@@ -539,7 +540,8 @@
             "settings": {
               "title": "Cream / Camel",
               "swatch_color": "",
-              "swatch_image": "shopify://shop_images/cream-camel.png"
+              "swatch_image": "shopify://shop_images/cream-camel.png",
+              "monogram_swatch": "shopify://shop_images/Camel_Vello_Monogram_Swatch.png"
             }
           },
           "color_swatch_nED3PC": {
@@ -1090,7 +1092,8 @@
             "settings": {
               "title": "Navy/Cream/Velvet Morning",
               "swatch_color": "",
-              "swatch_image": "shopify://shop_images/navy-cream-velvet-morning.jpg"
+              "swatch_image": "shopify://shop_images/navy-cream-velvet-morning.jpg",
+              "monogram_swatch": "shopify://shop_images/Navy_Vello_Monogram_Swatch_1.png"
             }
           },
           "color_swatch_RzFwaH": {

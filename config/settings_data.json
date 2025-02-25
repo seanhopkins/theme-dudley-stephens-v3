@@ -1193,6 +1193,14 @@
               "swatch_image": "shopify://shop_images/navy-white-placed-stripe.png"
             }
           },
+          "color_swatch_m4nRBE": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy/White Star Print",
+              "swatch_color": "",
+              "swatch_image": "shopify://shop_images/navy-white-star-print.png"
+            }
+          },
           "106b0894-1ebb-42d8-be22-ced0d7a9f1da": {
             "type": "color_swatch",
             "settings": {
@@ -1208,6 +1216,14 @@
               "swatch_color": "",
               "swatch_image": "shopify://shop_images/Navy-with-American-Flag.jpg",
               "monogram_swatch": "shopify://shop_images/Navy_Vello_Monogram_Swatch.png"
+            }
+          },
+          "color_swatch_PNN68x": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "Navy with White Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify://shop_images/navy-with-white-stripe.jpg"
             }
           },
           "73457367-7a4c-48c2-8fb6-42cbd2fcc69d": {
@@ -1636,12 +1652,44 @@
               "swatch_image": "shopify://shop_images/white-navy.png"
             }
           },
+          "color_swatch_heBkan": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "White/Navy Scallop Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify://shop_images/white-navy-scallop-stripe.jpg"
+            }
+          },
+          "color_swatch_eAAHkX": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "White/Red Placed Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify://shop_images/white-red-placed-stripe.jpg"
+            }
+          },
           "color_swatch_bVygq3": {
             "type": "color_swatch",
             "settings": {
               "title": "White/Velvet Morning Placed Stripe",
               "swatch_color": "",
               "swatch_image": "shopify://shop_images/white-velvet-morning-placed-stripe.jpg"
+            }
+          },
+          "color_swatch_jbhAXb": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "White with Flag Print",
+              "swatch_color": "",
+              "swatch_image": "shopify://shop_images/white-with-flag-print.jpg"
+            }
+          },
+          "color_swatch_8RbzJN": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "White with Navy and Red Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify://shop_images/white-with-navy-and-red-stripe.jpg"
             }
           },
           "c8ac5c7d-81b0-494f-af6b-de00a0d6153b": {
@@ -1788,8 +1836,10 @@
           "2a5feed1-5684-4dd3-ae34-31c1c162d128",
           "color_swatch_yCJtjT",
           "color_swatch_ThNVEG",
+          "color_swatch_m4nRBE",
           "106b0894-1ebb-42d8-be22-ced0d7a9f1da",
           "color_swatch_k9M94F",
+          "color_swatch_PNN68x",
           "73457367-7a4c-48c2-8fb6-42cbd2fcc69d",
           "582f0fb2-26a2-4e55-b212-8c2df81d963a",
           "1573770344803",
@@ -1844,7 +1894,11 @@
           "1574186951943",
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
           "250b5ae7-c936-4846-8ffc-76eb6db8d944",
+          "color_swatch_heBkan",
+          "color_swatch_eAAHkX",
           "color_swatch_bVygq3",
+          "color_swatch_jbhAXb",
+          "color_swatch_8RbzJN",
           "c8ac5c7d-81b0-494f-af6b-de00a0d6153b"
         ],
         "settings": {}

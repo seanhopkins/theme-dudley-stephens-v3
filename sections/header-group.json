@@ -18,12 +18,13 @@
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Just in: new pieces in bestselling Waffle",
-            "link": "https://www.dudley-stephens.com/collections/new-drops"
+            "link_text": "Celebrate 10 years of Dudley with the Anniversary Tote!",
+            "link": "shopify://collections/new-drops"
           }
         },
         "announcement_ME7YeN": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "Shop The Clearance Sale: $59 & Under Pieces",

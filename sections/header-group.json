@@ -27,8 +27,8 @@
           "disabled": true,
           "settings": {
             "text": "",
-            "link_text": "Shop The Clearance Sale: $59 & Under Pieces",
-            "link": "shopify://collections/clearance"
+            "link_text": "Today Only: 15% off a set of any bottom and top from today's drop (applies automatically).",
+            "link": "shopify://collections/new-drops"
           }
         }
       },

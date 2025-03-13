@@ -24,11 +24,10 @@
         },
         "announcement_ME7YeN": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "",
-            "link_text": "Today Only: 15% off a set of any bottom and top from today's drop (applies automatically).",
-            "link": "shopify://collections/new-drops"
+            "link_text": "Use code EXTRA20 for 20% off already-on-sale styles!",
+            "link": "shopify://collections/sale-section"
           }
         }
       },

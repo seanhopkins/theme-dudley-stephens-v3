@@ -24,6 +24,7 @@
         },
         "announcement_ME7YeN": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "",
             "link_text": "Use code 20MORE for 20% off already-on-sale styles!",

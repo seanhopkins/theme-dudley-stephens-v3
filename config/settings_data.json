@@ -852,9 +852,9 @@
           "c2cf0632-eb99-4f71-b637-48e1b4db7016": {
             "type": "color_swatch",
             "settings": {
-              "title": "Ice Blue / White",
+              "title": "Ice Blue / White Stripe",
               "swatch_color": "",
-              "swatch_image": "shopify://shop_images/ice-blue-white.png",
+              "swatch_image": "shopify://shop_images/ice-blue-white-stripe.png",
               "monogram_swatch": "shopify://shop_images/59DA0F86-3B5C-48D3-94AE-B37FE9B6A84E_4_5005_c.jpg"
             }
           },
@@ -902,7 +902,7 @@
             "settings": {
               "title": "Khaki/Black Mariner Stripe",
               "swatch_color": "",
-              "swatch_image": "shopify://shop_images/khaki-black-mariner-stripe.png",
+              "swatch_image": "shopify://shop_images/khaki-black-mariner-stripe_2b46cfdf-8cc7-471c-a9eb-6fb6548872e2.png",
               "monogram_swatch": "shopify://shop_images/Khaki_Black_Mariner_Stripe_Monogram_Swatch.png"
             }
           },

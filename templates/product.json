@@ -79,10 +79,6 @@
             "code": "{% if product.available %}\n  {% assign enable_monogram = false %}\n  {% for tag in product.tags %}\n    {% if tag contains 'monogram' %} \n      {% assign enable_monogram = true %}\n      {% break %}\n    {% endif %}\n  {% endfor %}\n  {% if enable_monogram %}\n  <div class=\"monogram-pdp-wrapper\">\n    {% render 'monogram', parent_product: product %}\n  </div>\n  {% endif %}\n{% endif %}"
           }
         },
-        "separator_6w6aMq": {
-          "type": "separator",
-          "settings": {}
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -148,7 +144,6 @@
         "buy_buttons",
         "separator_FMMPhB",
         "f748a8e4-cb48-49f5-8fb5-45436e04f0d0",
-        "separator_6w6aMq",
         "description",
         "ab135439-7e5c-4100-a042-17e17f3fa6c7",
         "e84a0778-3ebe-4d15-9d52-f89ac088f28f",

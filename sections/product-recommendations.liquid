@@ -51,12 +51,15 @@
             <div class="grid grid--uniform" data-aos="overflow__animation">
               {%- for product in related_collection.products limit: number_of_products -%}
                 {% comment %} On smaller screen sizes, 39vw is used for grid items in the CSS {% endcomment %}
-                {%- render 'product-grid-item',
-                  product: product,
-                  per_row: section.settings.products_per_row,
-                  quick_shop_enable: settings.quick_shop_enable,
-                  fallback: '39vw',
-                -%}
+                {% unless product.tags contains 'hide-from-recommendations' %}
+                  {%- render 'product-grid-item',
+                    product: product,
+                    per_row: section.settings.products_per_row,
+                    quick_shop_enable: settings.quick_shop_enable,
+                    fallback: '39vw',
+                  -%}
+                {% endunless %}
+                
               {%- endfor -%}
             </div>
           </div>

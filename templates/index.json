@@ -97,13 +97,13 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
-            "heading": "The Clearance Sale: $59 & Under",
-            "textarea": "In-season turtlenecks, pullovers & more at prices too good to pass up.",
-            "cta_text1": "Shop now",
-            "cta_link1": "shopify://collections/clearance",
+            "heading": "Pretty in Pink",
+            "textarea": "The Scallop Stripe meets flattering, feminine First Blush.",
+            "cta_text1": "Shop the drop",
+            "cta_link1": "shopify://collections/new-drops",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify://shop_images/Juliet_c27d00ad-7129-4cc0-8fb5-258c25593718.jpg",
+            "image": "shopify://shop_images/Dudley_Stephens__St.Barth__March._25_-_Kenzo_Khan__StBarthPictures.com_-_100.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -118,13 +118,13 @@
           "type": "advanced",
           "settings": {
             "subheading": "",
-            "heading": "The Ingrid Pullover, $88",
-            "textarea": "Your Spring masterpiece: wears easy, tackles every temp & pairs with all.",
-            "cta_text1": "SHOP THE DROP",
-            "cta_link1": "shopify://collections/new-drops",
+            "heading": "Polished in Waffle",
+            "textarea": "Temp-right pieces solving those \"what to wear\" questions every time.",
+            "cta_text1": "SHOP NOW",
+            "cta_link1": "shopify://collections/waffle",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify://shop_images/Copy_of_12-5-ds-i--175.jpg",
+            "image": "shopify://shop_images/Copy_of_12-5-ds-i--412_1.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -180,14 +180,14 @@
         "heading_i8pKG3": {
           "type": "heading",
           "settings": {
-            "title": "Elevated Classics in Recycled Performance Fabrics"
+            "title": "Stylish Classics Made From Recycled Fleece (and More)"
           }
         },
         "text_DFpNWc": {
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>The look of fashion, the feel of function. We reinvent the wardrobe essential in effortless fabrics for every day.</p>"
+            "text": "<p>Effortless everyday outfitting for all you do. Over 8.5 million bottles recycled—and counting.</p>"
           }
         }
       },
@@ -278,16 +278,16 @@
         "template--14916567695402__ad8d799a-dd28-40ce-8234-0b79cb13bd90-16851213259a117373-1": {
           "type": "collection",
           "settings": {
-            "collection": "turtlenecks",
-            "title": "DUDLEY CLASSICS",
+            "collection": "kids",
+            "title": "KIDS",
             "focal_point": "center center"
           }
         },
         "template--14916567695402__ad8d799a-dd28-40ce-8234-0b79cb13bd90-16851213259a117373-2": {
           "type": "collection",
           "settings": {
-            "collection": "most-hearted-styles",
-            "title": "Most-Hearted Styles",
+            "collection": "matching-sets",
+            "title": "Matching Sets",
             "focal_point": "center center"
           }
         },
@@ -350,8 +350,8 @@
           "type": "timer",
           "settings": {
             "year": "2025",
-            "month": "02",
-            "day": "25",
+            "month": "04",
+            "day": "1",
             "hour": "10",
             "minute": "00",
             "hide_timer": false,
@@ -361,7 +361,7 @@
         "template--14916567695402__b436726f-56a1-40d8-9a9c-1d5386d219c4-1684434767e8cc57c1-2": {
           "type": "button",
           "settings": {
-            "button_link": "shopify://blogs/pineapple-street/drop-preview-polished-in-waffle",
+            "button_link": "shopify://blogs/pineapple-street/drop-preview-spring-stripes",
             "button": "Preview now",
             "button_style": "solid"
           }

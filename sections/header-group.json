@@ -14,26 +14,27 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
-        "announcement_ME7YeN": {
-          "type": "announcement",
-          "settings": {
-            "text": "",
-            "link_text": "Shop The Clearance Sale: $59 & Under Pieces",
-            "link": "shopify://collections/clearance"
-          }
-        },
         "announcement_fngGRg": {
           "type": "announcement",
           "settings": {
             "text": "",
-            "link_text": "Just in: The Ingrid Pullover, $88",
-            "link": "https://www.dudley-stephens.com/collections/new-drops"
+            "link_text": "New in: the Scallop Stripe in First Blush for women & girls.",
+            "link": "shopify://collections/new-drops"
+          }
+        },
+        "announcement_ME7YeN": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "link_text": "Use code 20MORE for 20% off already-on-sale styles!",
+            "link": "shopify://collections/sale-section"
           }
         }
       },
       "block_order": [
-        "announcement_ME7YeN",
-        "announcement_fngGRg"
+        "announcement_fngGRg",
+        "announcement_ME7YeN"
       ],
       "custom_css": [
         ".announcement-text {letter-spacing: 0.025em; text-transform: none; font-size: 1em; font-weight: 500;}"
@@ -58,13 +59,13 @@
           "settings": {
             "menu_item": "Women's",
             "show_column_1": true,
-            "image_1": "shopify://shop_images/12-5dudleystephens2607.jpg",
-            "title_1": "Valentine's Day Favorites",
-            "link_1": "shopify://collections/valentines",
+            "image_1": "shopify://shop_images/Copy_of_12-5dudleystephens2790.jpg",
+            "title_1": "Spring Favorites in Waffle",
+            "link_1": "shopify://collections/waffle",
             "show_column_2": true,
-            "image_2": "shopify://shop_images/Copy_of_12-5dudleystephens2899.jpg",
-            "title_2": "New Year, New Pieces",
-            "link_2": "shopify://collections/spring"
+            "image_2": "shopify://shop_images/Dudley_Stephens__St.Barth__March._25_-_Kenzo_Khan__StBarthPictures.com_-_37.jpg",
+            "title_2": "Spring Break Style",
+            "link_2": "shopify://collections/spring-break-packing-list"
           }
         }
       },

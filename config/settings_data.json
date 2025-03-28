@@ -1665,6 +1665,14 @@
               "swatch_image": "shopify://shop_images/white-navy.png"
             }
           },
+          "color_swatch_aGwkVm": {
+            "type": "color_swatch",
+            "settings": {
+              "title": "White/Navy Placed Stripe",
+              "swatch_color": "",
+              "swatch_image": "shopify://shop_images/white-navy-placed-stripe.png"
+            }
+          },
           "color_swatch_heBkan": {
             "type": "color_swatch",
             "settings": {
@@ -1907,6 +1915,7 @@
           "1574186951943",
           "459c55fa-832a-4d1b-a100-a6dfc364593e",
           "250b5ae7-c936-4846-8ffc-76eb6db8d944",
+          "color_swatch_aGwkVm",
           "color_swatch_heBkan",
           "color_swatch_eAAHkX",
           "color_swatch_bVygq3",
